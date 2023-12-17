@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
