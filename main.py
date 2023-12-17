@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
