@@ -1,10 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def multiply_numbers(x, y):
+        return x * y
+def sort_numbers(numbers):
+        return sorted(numbers)
