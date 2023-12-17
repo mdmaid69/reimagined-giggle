@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def divide_numbers(x, y):
-        return x / y
+def subtract_numbers(x, y):
+        return x - y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
