@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_string_from_array(array):
+        return array.tobytes()
