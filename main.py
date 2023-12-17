@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
