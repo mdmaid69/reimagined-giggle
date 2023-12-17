@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_volume(length, width, height):
+        return length * width * height
