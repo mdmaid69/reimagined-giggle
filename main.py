@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def add_numbers(a, b):
+        return a + b
