@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_user_dict():
+        return collections.UserDict()
