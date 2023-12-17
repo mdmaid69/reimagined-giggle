@@ -1,5 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
