@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def cube_number(x):
+        return x**3
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
