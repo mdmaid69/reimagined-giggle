@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
