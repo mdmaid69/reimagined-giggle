@@ -1,5 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_directory_name(path):
+        return os.path.dirname(path)
