@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
