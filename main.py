@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
