@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import time
+def get_current_time():
+        return time.time()
