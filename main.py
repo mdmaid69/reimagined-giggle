@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def cube_number(x):
-        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
