@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
