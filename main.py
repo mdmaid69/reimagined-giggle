@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
