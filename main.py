@@ -1,5 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
