@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def divide_numbers(x, y):
-        return x / y
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_repr(array):
+        return repr(array)
