@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def count_characters(sentence):
-        return len(sentence)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+print(math.pi)
