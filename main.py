@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def add_numbers(a, b):
-        return a + b
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
