@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
