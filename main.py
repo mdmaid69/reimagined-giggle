@@ -1,6 +1,4 @@
+print(sum(range(10)))
 import re
-def split_by_pattern(pattern, string):
+def split_string(pattern, string):
         return re.split(pattern, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
