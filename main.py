@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
