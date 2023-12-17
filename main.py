@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
