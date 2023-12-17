@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
