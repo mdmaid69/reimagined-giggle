@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
