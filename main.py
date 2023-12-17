@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
