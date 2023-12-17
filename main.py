@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_power(work, time):
+        return work / time
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
