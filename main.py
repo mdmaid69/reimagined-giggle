@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
+def is_odd(n):
+        return n % 2 != 0
