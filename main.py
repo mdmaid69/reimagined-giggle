@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
