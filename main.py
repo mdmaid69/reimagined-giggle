@@ -1,6 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
