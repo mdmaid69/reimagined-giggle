@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
