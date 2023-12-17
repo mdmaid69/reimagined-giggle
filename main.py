@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def print_python_version():
+        print(sys.version)
