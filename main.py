@@ -1,5 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
