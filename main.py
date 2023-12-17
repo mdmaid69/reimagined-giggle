@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
