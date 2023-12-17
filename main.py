@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_max(numbers):
+        return max(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
