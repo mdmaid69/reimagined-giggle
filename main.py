@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Characters:", len(text))
