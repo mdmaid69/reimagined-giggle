@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
