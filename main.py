@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
