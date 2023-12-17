@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_pressure(force, area):
-        return force / area
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
