@@ -1,4 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
