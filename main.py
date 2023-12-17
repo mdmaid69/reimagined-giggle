@@ -1,8 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_pressure(force, area):
+        return force / area
