@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import sys
-  def get_python_version():
-        return sys.version
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
