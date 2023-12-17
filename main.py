@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import time
-print(time.time())
+import os
+print(os.getcwd())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
