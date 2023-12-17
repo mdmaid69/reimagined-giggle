@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_speed(distance, time):
+        return distance / time
