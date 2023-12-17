@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def is_palindrome(s):
-        return s == s[::-1]
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
