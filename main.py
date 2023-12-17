@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
