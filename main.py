@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_acceleration(speed, time):
+        return speed / time
