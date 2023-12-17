@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
