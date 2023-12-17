@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
