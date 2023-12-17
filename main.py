@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def create_user_dict():
+        return collections.UserDict()
