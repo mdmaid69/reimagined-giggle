@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
