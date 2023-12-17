@@ -1,4 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-def add_numbers(a, b):
-        return a + b
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
