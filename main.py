@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
