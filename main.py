@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import sys
+def exit_program():
+        sys.exit()
