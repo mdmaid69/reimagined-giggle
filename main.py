@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
