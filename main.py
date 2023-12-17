@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
