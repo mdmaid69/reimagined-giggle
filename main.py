@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import collections
+def create_stack():
+        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
