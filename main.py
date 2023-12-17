@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
