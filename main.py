@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
