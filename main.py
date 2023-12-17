@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_item(array, i):
-        return array[i]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
