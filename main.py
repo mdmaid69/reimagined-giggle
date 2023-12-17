@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
+  def calculate_area_circle(r):
         return 3.14 * r**2
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
