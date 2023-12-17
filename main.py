@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
