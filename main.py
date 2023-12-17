@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+print(sum(range(10)))
