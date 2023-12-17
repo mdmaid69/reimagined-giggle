@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+i = 0
+while i < 5:
+        print(i)
+        i += 1
