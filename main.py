@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
