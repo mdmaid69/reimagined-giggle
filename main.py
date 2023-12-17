@@ -1,9 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
