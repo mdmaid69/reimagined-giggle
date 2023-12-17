@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def convert_array_to_string(array):
+        return array.tostring()
