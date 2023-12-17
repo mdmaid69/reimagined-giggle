@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
