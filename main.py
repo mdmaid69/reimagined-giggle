@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
