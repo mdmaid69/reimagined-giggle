@@ -1,5 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
