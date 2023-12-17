@@ -1,9 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
