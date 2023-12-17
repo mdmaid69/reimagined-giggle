@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
