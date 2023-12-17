@@ -1,7 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import platform
+def get_python_version():
+        return platform.python_version()
