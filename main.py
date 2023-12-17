@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
