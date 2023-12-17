@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def square_number(x):
+        return x**2
