@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
