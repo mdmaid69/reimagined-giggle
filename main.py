@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
