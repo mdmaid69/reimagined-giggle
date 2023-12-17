@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
