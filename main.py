@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_repr(array):
+        return repr(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
