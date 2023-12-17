@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import tensorflow as tf
+print(tf.__version__)
