@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_user_dict():
-        return collections.UserDict()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
