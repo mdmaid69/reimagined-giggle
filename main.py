@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
