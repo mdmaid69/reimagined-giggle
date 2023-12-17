@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def square_number(x):
+        return x**2
