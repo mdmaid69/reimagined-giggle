@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
