@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
