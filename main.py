@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def is_even(n):
+        return n % 2 == 0
+import time
+def get_time_since_epoch():
+        return time.time()
