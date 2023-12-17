@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+print(sys.version)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
