@@ -1,3 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-print("Hello, world!")
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def cube_number(x):
+        return x**3
