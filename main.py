@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import array
+def get_array_as_int(array):
+        return int(array[0])
