@@ -1,5 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
