@@ -1,8 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+print(re.match("h.*o", "hello world"))
