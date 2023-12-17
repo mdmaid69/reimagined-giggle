@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def change_working_directory(path):
-        os.chdir(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def remove_duplicates(lst):
+        return list(set(lst))
