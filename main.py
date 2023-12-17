@@ -1,6 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
