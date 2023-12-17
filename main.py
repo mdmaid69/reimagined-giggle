@@ -1,5 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import array
-def clear_array(array):
-        array *= 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def get_array_buffer_info(array):
+        return array.buffer_info()
