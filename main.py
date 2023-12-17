@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
