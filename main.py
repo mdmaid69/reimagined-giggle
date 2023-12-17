@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import time
+def get_current_time():
+        return time.time()
+def greet(name):
+        print(f"Hello, {name}!")
