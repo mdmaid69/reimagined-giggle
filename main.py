@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
