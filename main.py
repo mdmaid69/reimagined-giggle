@@ -1,12 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
