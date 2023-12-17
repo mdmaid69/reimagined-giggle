@@ -1,8 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
