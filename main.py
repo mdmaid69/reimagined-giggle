@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
