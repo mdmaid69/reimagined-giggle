@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import sys
+def exit_program():
+        sys.exit()
+import os
+print(os.getcwd())
