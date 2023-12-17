@@ -1,4 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def cube_number(x):
-        return x**3
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
