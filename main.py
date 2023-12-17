@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
