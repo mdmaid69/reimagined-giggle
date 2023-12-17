@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_ceiling(x):
+        return math.ceil(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
