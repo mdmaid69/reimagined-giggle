@@ -1,6 +1,8 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
