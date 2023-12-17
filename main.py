@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def cube_number(x):
+        return x**3
