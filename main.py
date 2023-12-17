@@ -1,8 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
