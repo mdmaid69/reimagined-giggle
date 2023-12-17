@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def sort_list(lst):
-        return sorted(lst)
+import os
+print(os.getcwd())
+x = 10
+y = 20
+print("Sum:", x + y)
