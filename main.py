@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
