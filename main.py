@@ -1,5 +1,9 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
