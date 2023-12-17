@@ -1,4 +1,11 @@
-for i in range(10): print(i)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
