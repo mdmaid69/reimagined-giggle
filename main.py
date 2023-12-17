@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_str(array):
+        return str(array)
+def reverse_string(s):
+        return s[::-1]
