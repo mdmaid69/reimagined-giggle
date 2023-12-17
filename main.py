@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
