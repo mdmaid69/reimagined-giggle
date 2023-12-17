@@ -1,8 +1,5 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
