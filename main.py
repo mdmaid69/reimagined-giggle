@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
