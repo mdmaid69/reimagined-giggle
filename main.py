@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
