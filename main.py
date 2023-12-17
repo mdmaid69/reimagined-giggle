@@ -1,4 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-print(sum(range(10)))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
