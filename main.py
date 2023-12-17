@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def add_numbers(x, y):
+        return x + y
