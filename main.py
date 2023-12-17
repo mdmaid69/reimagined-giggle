@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def cube_number(x):
+        return x**3
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
