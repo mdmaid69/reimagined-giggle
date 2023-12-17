@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
