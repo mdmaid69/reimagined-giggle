@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
