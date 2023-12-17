@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
+def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
