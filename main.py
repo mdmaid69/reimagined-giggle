@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
