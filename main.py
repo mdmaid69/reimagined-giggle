@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
