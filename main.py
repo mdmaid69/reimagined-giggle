@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def sort_numbers(numbers):
+        return sorted(numbers)
