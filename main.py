@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
