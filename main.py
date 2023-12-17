@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
