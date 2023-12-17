@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def remove_directory(path):
+        os.rmdir(path)
