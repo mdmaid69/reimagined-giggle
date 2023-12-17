@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
