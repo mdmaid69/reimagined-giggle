@@ -1,3 +1,12 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-print(sum(range(10)))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import time
+def get_current_time():
+        return time.ctime()
