@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_length(array):
-        return len(array)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
