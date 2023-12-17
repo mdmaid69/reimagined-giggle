@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
