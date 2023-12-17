@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
