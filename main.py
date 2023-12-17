@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
