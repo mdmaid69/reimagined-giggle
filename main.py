@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
