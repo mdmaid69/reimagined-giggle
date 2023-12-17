@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import sys
-print(sys.version)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
