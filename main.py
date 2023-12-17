@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def find_max(lst):
+        return max(lst)
