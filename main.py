@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
