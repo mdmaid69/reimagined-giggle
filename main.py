@@ -1,6 +1,6 @@
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
