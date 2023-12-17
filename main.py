@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
