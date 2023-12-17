@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
