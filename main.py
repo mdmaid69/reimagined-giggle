@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
