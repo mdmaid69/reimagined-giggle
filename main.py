@@ -1,4 +1,5 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def cube_number(x):
-        return x**3
+print("Square numbers:", [x**2 for x in range(n)])
