@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def add_numbers(a, b):
+        return a + b
+def reverse_string(s):
+        return s[::-1]
