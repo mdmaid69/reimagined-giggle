@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_unique_words(sentence):
-        return set(sentence.split())
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
