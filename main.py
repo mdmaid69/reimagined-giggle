@@ -1,7 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def count_elements(lst):
+        return len(lst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
