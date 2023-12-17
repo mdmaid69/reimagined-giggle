@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-name = "Python"
-print("Hello,", name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_user_string():
+        return collections.UserString()
