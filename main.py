@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def divide_numbers(x, y):
+        return x / y
