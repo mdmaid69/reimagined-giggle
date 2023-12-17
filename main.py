@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
