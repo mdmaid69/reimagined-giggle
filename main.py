@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_acceleration(speed, time):
-        return speed / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
