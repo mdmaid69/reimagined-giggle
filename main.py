@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
