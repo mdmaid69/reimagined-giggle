@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area(radius):
+        return 3.14 * radius * radius
