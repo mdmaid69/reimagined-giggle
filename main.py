@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
