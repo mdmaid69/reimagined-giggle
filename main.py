@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
