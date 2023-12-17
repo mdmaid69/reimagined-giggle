@@ -1,6 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
