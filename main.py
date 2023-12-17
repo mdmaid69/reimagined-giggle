@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
