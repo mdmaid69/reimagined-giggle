@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_acceleration(speed, time):
-        return speed / time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def remove_duplicates(lst):
+        return list(set(lst))
