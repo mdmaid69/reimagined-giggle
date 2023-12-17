@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
