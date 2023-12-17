@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_work(force, distance):
+        return force * distance
