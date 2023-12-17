@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Characters:", len(text))
+def find_min(lst):
+        return min(lst)
