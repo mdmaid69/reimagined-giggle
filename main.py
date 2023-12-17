@@ -1,5 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_power(work, time):
-        return work / time
+def get_array_index(array, item):
+        return array.index(item)
