@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def cube_number(x):
-        return x**3
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
