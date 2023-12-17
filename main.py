@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def convert_to_binary(n):
+        return bin(n)
+import platform
+def get_os_info():
+        return platform.uname()
