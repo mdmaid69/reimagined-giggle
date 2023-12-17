@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
