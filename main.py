@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+print(json.dumps({"name": "John", "age": 30}))
