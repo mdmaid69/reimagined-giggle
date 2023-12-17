@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_tuple(array):
+        return tuple(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
