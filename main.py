@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
