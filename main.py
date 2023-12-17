@@ -1,7 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
