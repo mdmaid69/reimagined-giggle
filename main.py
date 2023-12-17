@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def is_odd(n):
+        return n % 2 != 0
