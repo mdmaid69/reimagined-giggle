@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def add_numbers(x, y):
+        return x + y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
