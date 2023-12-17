@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
