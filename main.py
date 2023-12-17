@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
