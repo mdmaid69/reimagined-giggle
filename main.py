@@ -1,6 +1,11 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def find_union(list1, list2):
+        return set(list1) | set(list2)
