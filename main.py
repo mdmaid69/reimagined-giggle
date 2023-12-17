@@ -1,10 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
