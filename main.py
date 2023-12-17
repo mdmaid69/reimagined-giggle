@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-print(time.time())
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
