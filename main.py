@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def convert_to_octal(n):
-        return oct(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def remove_duplicates(lst):
+        return list(set(lst))
