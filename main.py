@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def clear_array(array):
+        array *= 0
