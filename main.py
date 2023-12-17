@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def reverse_string(s):
-        return s[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_acceleration(speed, time):
+        return speed / time
