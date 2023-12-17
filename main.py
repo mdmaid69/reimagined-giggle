@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
