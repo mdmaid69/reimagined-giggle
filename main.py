@@ -1,6 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
