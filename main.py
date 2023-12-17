@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
