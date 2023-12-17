@@ -1,5 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+x = 10
+y = 20
+print("Sum:", x + y)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
