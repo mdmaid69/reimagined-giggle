@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_counter():
+        return collections.Counter()
