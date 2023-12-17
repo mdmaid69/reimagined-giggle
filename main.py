@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
