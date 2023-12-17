@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
