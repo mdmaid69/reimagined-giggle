@@ -1,9 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def get_environment_variable(var):
+        return os.getenv(var)
