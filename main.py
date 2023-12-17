@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import random
-print(random.randint(0, 100))
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
