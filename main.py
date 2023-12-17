@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_acceleration(speed, time):
+        return speed / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
