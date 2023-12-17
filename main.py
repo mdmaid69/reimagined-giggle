@@ -1,5 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_pressure(force, area):
+        return force / area
