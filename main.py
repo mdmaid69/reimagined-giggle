@@ -1,5 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
