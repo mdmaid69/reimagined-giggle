@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
