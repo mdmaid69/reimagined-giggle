@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+for i in range(5):
+        print(i)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
