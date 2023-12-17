@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
