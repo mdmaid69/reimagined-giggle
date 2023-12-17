@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_array_item(array, i):
+        return array[i]
