@@ -1,4 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-  def cube_number(x):
-        return x**3
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
