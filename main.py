@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def convert_to_octal(n):
+        return oct(n)
