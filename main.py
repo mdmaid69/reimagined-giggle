@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
