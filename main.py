@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def count_elements(lst):
-        return len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
