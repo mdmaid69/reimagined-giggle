@@ -1,5 +1,6 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def convert_to_binary(n):
-        return bin(n)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
