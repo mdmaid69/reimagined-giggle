@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
