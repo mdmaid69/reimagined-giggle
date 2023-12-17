@@ -1,8 +1,10 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
