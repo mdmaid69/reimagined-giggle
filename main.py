@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
