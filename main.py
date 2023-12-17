@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
