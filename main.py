@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
