@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
