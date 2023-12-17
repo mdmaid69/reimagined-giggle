@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
