@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_area_rectangle(l, w):
+        return l * w
