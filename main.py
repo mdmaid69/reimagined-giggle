@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_min(numbers):
+        return min(numbers)
+def count_characters(sentence):
+        return len(sentence)
