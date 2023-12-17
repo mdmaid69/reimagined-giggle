@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
