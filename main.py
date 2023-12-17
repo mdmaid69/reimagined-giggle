@@ -1,11 +1,9 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import threading
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+@app.route("/")
+def hello():
+        return "Hello, World!"
