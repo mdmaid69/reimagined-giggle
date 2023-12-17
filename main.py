@@ -1,8 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
