@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
