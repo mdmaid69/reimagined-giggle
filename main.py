@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
