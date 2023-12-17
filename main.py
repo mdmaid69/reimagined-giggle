@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def is_odd(n):
+        return n % 2 != 0
