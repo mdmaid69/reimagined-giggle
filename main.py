@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def sort_list(lst):
+        return sorted(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
