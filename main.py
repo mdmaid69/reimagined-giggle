@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import time
+def get_current_time():
+        return time.ctime()
+def greet(name):
+        print(f"Hello, {name}!")
