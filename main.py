@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-text = "Hello, world!"
-print("Characters:", len(text))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
