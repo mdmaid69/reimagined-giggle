@@ -1,4 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def square_number(x):
-        return x**2
+def is_even(n):
+        return n % 2 == 0
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
