@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
