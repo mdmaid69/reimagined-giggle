@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def get_array_as_float(array):
+        return float(array[0])
