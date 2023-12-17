@@ -1,7 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
