@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-print(datetime.datetime.now())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
