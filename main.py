@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+for i in range(5):
+        print(i)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
