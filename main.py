@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_base_name(path):
+        return os.path.basename(path)
