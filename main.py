@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_min(numbers):
+        return min(numbers)
