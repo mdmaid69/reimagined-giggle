@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def find_min(numbers):
-        return min(numbers)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
