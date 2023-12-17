@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def cube_number(x):
+        return x**3
