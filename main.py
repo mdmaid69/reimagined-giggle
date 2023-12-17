@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
