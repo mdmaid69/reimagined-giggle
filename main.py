@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def is_even(n):
-        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
