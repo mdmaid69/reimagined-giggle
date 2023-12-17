@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
