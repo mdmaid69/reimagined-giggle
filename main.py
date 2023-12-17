@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
