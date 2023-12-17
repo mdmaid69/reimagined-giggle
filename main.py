@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Characters:", len(text))
+import re
+print(re.match("h.*o", "hello world"))
