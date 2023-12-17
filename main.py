@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
