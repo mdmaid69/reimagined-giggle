@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
