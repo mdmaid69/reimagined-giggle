@@ -1,4 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
