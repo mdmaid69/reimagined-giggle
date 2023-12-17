@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
