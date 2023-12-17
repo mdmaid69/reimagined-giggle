@@ -1,5 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_sine(x):
+        return math.sin(x)
