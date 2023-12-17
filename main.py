@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
