@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
