@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+print(random.randint(0, 100))
+import tensorflow as tf
+print(tf.__version__)
