@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
