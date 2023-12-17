@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def is_odd(n):
+        return n % 2 != 0
+  def cube_number(x):
+        return x**3
