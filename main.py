@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
