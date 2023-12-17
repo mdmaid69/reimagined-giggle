@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def reverse_list(lst):
+        return lst[::-1]
