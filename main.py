@@ -1,5 +1,8 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
