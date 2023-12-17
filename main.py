@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
