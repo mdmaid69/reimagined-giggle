@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def reverse_array(array):
+        array.reverse()
