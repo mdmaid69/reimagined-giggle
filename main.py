@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sys
+def print_python_version():
+        return sys.version
