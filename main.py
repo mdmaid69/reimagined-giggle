@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def add_numbers(a, b):
-        return a + b
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import time
+def get_time_since_epoch():
+        return time.time()
