@@ -1,5 +1,3 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def cube_number(x):
-        return x**3
+print(sum(range(10)))
+def calculate_acceleration(speed, time):
+        return speed / time
