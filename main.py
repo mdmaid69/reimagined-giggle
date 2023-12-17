@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
