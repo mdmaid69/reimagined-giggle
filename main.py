@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
