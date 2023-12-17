@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
   import os
-  def get_file_group(file_name):
+  def get_file_gid(file_name):
         return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
