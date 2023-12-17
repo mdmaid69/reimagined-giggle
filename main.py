@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
