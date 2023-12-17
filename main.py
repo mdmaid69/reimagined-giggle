@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def square_number(x):
-        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
