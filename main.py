@@ -1,6 +1,8 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
