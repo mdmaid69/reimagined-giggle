@@ -1,8 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_floor(x):
+        return math.floor(x)
