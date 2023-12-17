@@ -1,4 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-print(sum(range(10)))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import random
+print(random.randint(0, 100))
