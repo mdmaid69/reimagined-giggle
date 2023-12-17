@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
