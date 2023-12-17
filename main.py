@@ -1,7 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
