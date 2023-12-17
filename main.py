@@ -1,7 +1,3 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+print([x**2 for x in range(10)])
