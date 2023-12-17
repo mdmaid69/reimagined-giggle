@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
