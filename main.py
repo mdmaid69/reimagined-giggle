@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
