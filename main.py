@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_list(array):
+        return list(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
