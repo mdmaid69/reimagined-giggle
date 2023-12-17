@@ -1,7 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import sys
-def print_python_version():
-        return sys.version
+import time
+def get_time_since_epoch():
+        return time.time()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
