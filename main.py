@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
