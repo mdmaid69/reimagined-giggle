@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def add_numbers(x, y):
+        return x + y
