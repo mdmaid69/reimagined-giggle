@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+from collections import Counter
+print(Counter("hello world"))
+def calculate_area(radius):
+        return 3.14 * radius * radius
