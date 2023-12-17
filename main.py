@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
