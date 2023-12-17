@@ -1,3 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-print("Hello, world!")
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
