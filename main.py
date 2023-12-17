@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
