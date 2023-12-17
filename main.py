@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
