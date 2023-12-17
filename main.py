@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import platform
+def get_os_info():
+        return platform.uname()
