@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
