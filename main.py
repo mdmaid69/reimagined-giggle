@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
