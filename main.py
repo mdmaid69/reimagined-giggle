@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def reverse_string(s):
-        return s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
