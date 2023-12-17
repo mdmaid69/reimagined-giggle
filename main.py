@@ -1,5 +1,10 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
