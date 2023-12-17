@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
