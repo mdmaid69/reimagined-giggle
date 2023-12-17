@@ -1,7 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
