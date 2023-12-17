@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
