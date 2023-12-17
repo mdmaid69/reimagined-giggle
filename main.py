@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
