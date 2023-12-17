@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_pressure(force, area):
-        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
