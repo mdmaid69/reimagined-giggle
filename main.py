@@ -1,8 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_speed(distance, time):
+        return distance / time
