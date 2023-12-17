@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
