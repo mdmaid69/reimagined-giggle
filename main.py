@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def count_elements(lst):
-        return len(lst)
+name = "Python"
+print("Hello,", name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
