@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
