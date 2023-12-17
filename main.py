@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def is_even(n):
+        return n % 2 == 0
