@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
