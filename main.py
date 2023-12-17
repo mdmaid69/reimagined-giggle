@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
