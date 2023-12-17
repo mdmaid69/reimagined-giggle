@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def pop_from_array(array, i=-1):
+        return array.pop(i)
