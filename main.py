@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def calculate_area_rectangle(l, w):
+        return l * w
