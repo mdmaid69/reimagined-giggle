@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+def get_current_date():
+        return datetime.date.today()
