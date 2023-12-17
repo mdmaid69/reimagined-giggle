@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
