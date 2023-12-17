@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def is_palindrome(s):
+        return s == s[::-1]
+def is_palindrome(s):
+        return s == s[::-1]
