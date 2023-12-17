@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def count_characters(sentence):
+        return len(sentence)
