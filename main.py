@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
