@@ -1,5 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
