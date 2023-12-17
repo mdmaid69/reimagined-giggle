@@ -1,7 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
