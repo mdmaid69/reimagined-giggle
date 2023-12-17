@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
