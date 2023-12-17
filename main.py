@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+print(os.getcwd())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
