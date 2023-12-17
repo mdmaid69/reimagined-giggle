@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
