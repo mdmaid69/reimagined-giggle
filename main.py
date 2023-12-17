@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import random
+def roll_die():
+        return random.randint(1, 6)
