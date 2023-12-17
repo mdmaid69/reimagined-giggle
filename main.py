@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
