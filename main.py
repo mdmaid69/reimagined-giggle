@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def add_numbers(a, b):
-        return a + b
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
