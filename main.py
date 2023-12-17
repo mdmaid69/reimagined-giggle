@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def cube_number(x):
+        return x**3
+def calculate_density(mass, volume):
+        return mass / volume
