@@ -1,6 +1,6 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
