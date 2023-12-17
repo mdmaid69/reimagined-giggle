@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
