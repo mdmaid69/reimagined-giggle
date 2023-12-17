@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
