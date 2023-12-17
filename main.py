@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+print(random.randint(0, 100))
