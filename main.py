@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def square_number(x):
+        return x**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
