@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_list(array):
+        return list(array)
