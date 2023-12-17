@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import re
+print(re.match("h.*o", "hello world"))
