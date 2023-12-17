@@ -1,6 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import os
+print(os.getcwd())
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
