@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def cube_number(x):
-        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_speed(distance, time):
+        return distance / time
