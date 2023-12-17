@@ -1,4 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
