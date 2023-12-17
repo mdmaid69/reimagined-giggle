@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
