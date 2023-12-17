@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
