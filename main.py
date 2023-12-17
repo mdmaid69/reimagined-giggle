@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_sine(x):
+        return math.sin(x)
