@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import time
+print(time.time())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
