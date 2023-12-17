@@ -1,7 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
