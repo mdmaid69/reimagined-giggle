@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
