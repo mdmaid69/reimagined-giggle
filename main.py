@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_area_circle(r):
+        return 3.14 * r**2
