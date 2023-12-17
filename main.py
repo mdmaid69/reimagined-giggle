@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
