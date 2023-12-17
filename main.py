@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def cube_number(x):
+        return x**3
+import array
+def get_array_typecode(array):
+        return array.typecode
