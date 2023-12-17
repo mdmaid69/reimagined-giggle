@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+print(random.randint(0, 100))
