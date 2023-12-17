@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
