@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def subtract_numbers(x, y):
+        return x - y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
