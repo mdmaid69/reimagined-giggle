@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
