@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
