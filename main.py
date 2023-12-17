@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def cube_number(x):
-        return x**3
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
