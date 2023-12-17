@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
