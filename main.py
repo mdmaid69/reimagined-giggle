@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
