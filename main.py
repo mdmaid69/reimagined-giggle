@@ -1,6 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
