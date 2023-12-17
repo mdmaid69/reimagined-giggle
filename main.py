@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
