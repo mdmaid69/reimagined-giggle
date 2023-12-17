@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
