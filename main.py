@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
