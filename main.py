@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
