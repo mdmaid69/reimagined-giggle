@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
