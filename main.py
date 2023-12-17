@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
