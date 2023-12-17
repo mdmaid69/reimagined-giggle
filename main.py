@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def cube_number(x):
+        return x**3
