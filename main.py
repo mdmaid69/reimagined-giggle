@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_user_list():
+        return collections.UserList()
+import os
+print(os.getcwd())
