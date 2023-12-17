@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
