@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_work(force, distance):
-        return force * distance
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
