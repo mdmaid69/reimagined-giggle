@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def convert_array_to_string(array):
+        return array.tostring()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
