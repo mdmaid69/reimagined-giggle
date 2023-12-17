@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def cube_number(x):
+        return x**3
