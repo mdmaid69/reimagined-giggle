@@ -1,9 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def find_max(numbers):
+        return max(numbers)
