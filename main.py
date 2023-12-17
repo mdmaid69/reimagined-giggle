@@ -1,5 +1,7 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def cube_number(x):
+        return x**3
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
