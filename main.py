@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import time
-def get_time_since_epoch():
-        return time.time()
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def split_path(path):
+        return os.path.split(path)
