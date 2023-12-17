@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def add_numbers(a, b):
-        return a + b
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def cube_number(x):
+        return x**3
