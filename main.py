@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_pressure(force, area):
+        return force / area
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
