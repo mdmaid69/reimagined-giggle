@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
