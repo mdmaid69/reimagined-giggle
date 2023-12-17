@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def count_elements(lst):
+        return len(lst)
