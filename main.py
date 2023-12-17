@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import os
+print(os.getcwd())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
