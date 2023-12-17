@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def cube_number(x):
-        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
