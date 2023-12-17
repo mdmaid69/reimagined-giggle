@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
