@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def find_max(lst):
+        return max(lst)
