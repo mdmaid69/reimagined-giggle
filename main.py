@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
