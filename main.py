@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import sys
-  def get_python_version():
-        return sys.version
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
