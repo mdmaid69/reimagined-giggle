@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+for i in range(5):
+        print(i)
