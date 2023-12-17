@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_acceleration(speed, time):
+        return speed / time
