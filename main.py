@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
