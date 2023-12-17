@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
