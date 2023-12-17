@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_power(work, time):
+        return work / time
