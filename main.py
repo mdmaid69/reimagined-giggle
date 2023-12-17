@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
