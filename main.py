@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+for i in range(10): print(i)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
