@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
