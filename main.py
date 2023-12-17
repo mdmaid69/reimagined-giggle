@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
