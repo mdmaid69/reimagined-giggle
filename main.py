@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def print_python_version():
+        print(sys.version)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
