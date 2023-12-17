@@ -1,4 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-print([x**2 for x in range(10)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
