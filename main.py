@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
