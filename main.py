@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_pressure(force, area):
+        return force / area
