@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
