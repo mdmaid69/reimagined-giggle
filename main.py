@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
