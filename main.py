@@ -1,5 +1,10 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
