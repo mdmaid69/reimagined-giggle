@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
