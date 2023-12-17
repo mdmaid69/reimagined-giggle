@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def add_numbers(a, b):
+        return a + b
