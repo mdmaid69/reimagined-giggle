@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
