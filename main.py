@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def count_elements(lst):
+        return len(lst)
