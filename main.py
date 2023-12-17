@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
