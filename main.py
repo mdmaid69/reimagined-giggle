@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+print(datetime.datetime.now())
