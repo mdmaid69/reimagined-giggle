@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def multiply_numbers(x, y):
-        return x * y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
