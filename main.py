@@ -1,8 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+for i in range(10): print(i)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_slice(array, i, j):
+        return array[i:j]
