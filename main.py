@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def sort_numbers(numbers):
-        return sorted(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
