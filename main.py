@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import tensorflow as tf
+print(tf.__version__)
