@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import platform
-def get_python_version():
-        return platform.python_version()
+def divide_numbers(x, y):
+        return x / y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
