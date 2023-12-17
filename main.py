@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def is_even(n):
+        return n % 2 == 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
