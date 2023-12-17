@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
