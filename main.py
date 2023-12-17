@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
