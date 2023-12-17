@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import random
+def roll_die():
+        return random.randint(1, 6)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
