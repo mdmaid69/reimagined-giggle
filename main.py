@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
