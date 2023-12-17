@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_speed(distance, time):
+        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
