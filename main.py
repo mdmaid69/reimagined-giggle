@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-print(math.pi)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
