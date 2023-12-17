@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_list_from_array(array):
+        return array.tolist()
