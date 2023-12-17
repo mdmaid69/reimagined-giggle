@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
