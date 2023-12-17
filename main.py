@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def clear_array(array):
+        array *= 0
