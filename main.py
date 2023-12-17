@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def convert_to_hex(n):
+        return hex(n)
