@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_queue():
+        return collections.deque()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
