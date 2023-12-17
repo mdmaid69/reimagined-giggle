@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import random
-print(random.randint(0, 100))
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
