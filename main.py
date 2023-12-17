@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-text = "Hello, world!"
-print("Characters:", len(text))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def find_max(lst):
+        return max(lst)
