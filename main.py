@@ -1,6 +1,10 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+text = "Hello, world!"
+print("Words:", len(text.split()))
