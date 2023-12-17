@@ -1,6 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
