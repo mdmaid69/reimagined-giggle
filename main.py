@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import time
+def get_current_time():
+        return time.time()
