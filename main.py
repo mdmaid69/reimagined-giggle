@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_queue():
-        return collections.deque()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+for i in range(5):
+        print(i)
