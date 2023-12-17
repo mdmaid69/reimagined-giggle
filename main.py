@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_user_list():
+        return collections.UserList()
+import collections
+def create_user_list():
+        return collections.UserList()
