@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def remove_from_array(array, item):
+        array.remove(item)
