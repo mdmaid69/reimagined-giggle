@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_stack():
+        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
