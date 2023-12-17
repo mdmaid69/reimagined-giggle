@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
