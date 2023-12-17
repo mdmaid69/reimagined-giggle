@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import numpy as np
+print(np.array([1, 2, 3]))
