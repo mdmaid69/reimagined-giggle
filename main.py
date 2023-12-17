@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
