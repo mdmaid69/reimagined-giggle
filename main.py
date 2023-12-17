@@ -1,5 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
