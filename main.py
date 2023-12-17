@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def convert_to_hex(n):
-        return hex(n)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
