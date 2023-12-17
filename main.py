@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def reverse_list(lst):
+        return lst[::-1]
