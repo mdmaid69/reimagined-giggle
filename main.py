@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
