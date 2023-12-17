@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
