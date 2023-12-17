@@ -1,8 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
