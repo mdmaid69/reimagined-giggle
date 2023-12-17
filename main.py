@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
