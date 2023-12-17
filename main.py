@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
