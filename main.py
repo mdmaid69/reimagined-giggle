@@ -1,5 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_length(array):
+        return len(array)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
