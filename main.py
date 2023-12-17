@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
