@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def reverse_string(s):
-        return s[::-1]
+import time
+def get_current_time():
+        return time.time()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
