@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
