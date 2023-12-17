@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
