@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
