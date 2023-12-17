@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
