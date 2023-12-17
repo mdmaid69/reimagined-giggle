@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_pressure(force, area):
+        return force / area
