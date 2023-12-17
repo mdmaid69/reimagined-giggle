@@ -1,5 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-print(sum(range(10)))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
