@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+print(json.dumps({"name": "John", "age": 30}))
