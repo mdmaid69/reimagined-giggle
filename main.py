@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
