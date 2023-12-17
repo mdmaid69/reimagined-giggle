@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_area(radius):
+        return 3.14 * radius * radius
