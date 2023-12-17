@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
