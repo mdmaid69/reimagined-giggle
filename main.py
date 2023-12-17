@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
