@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
