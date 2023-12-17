@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def greet(name):
-        print(f"Hello, {name}!")
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+print("Hello, world!")
