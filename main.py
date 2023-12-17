@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
