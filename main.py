@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
