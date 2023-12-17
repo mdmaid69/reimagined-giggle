@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
