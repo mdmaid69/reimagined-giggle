@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
