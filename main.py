@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_max(numbers):
-        return max(numbers)
+  def count_elements(lst):
+        return len(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
