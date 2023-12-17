@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
