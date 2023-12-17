@@ -1,6 +1,11 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
