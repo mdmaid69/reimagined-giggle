@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
