@@ -1,7 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_max(lst):
+        return max(lst)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
