@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_queue():
+        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
