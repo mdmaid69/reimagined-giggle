@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
