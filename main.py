@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
