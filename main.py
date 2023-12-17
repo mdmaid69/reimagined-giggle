@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_acceleration(speed, time):
+        return speed / time
