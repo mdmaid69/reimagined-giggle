@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
