@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
