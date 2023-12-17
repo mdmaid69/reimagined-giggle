@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
