@@ -1,5 +1,3 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+for i in range(10): print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
