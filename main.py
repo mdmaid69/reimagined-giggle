@@ -1,6 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_stack():
-        return collections.deque()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
