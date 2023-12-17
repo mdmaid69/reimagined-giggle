@@ -1,7 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
