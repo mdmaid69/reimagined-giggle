@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
