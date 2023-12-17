@@ -1,6 +1,9 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
