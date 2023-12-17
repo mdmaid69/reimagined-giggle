@@ -1,6 +1,8 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
