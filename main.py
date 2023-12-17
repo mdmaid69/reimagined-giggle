@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_counter():
-        return collections.Counter()
+x = 10
+y = 20
+print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
