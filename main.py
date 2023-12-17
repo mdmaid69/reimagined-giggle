@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_base_name(path):
+        return os.path.basename(path)
