@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_stack():
+        return collections.deque()
