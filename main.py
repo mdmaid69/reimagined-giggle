@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def cube_number(x):
+        return x**3
+import time
+def get_time_since_epoch():
+        return time.time()
