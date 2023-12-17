@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
