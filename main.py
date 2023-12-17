@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
