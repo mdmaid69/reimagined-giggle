@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
