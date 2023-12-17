@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
