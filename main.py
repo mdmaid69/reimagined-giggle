@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
