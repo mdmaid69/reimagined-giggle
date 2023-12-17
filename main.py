@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import time
+def get_current_time():
+        return time.time()
