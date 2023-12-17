@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def divide_numbers(x, y):
-        return x / y
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
