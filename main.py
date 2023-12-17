@@ -1,8 +1,7 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
