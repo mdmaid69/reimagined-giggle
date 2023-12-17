@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_float(array):
+        return float(array[0])
