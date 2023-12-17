@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_work(force, distance):
+        return force * distance
