@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import sys
-def exit_program():
-        sys.exit()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_queue():
+        return collections.deque()
