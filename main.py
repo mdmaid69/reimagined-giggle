@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
