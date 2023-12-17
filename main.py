@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
