@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
