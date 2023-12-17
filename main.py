@@ -1,8 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
