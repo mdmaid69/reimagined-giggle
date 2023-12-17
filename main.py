@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_index(array, item):
+        return array.index(item)
