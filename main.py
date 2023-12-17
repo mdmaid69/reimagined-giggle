@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import os
+def get_current_working_directory():
+        return os.getcwd()
