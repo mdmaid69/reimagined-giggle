@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
