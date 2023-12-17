@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_power(work, time):
+        return work / time
