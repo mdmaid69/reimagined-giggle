@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_work(force, distance):
-        return force * distance
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
