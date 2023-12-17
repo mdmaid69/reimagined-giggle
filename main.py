@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+name = "Python"
+print("Hello,", name)
