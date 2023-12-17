@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-name = "Python"
-print("Hello,", name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def convert_to_hex(n):
+        return hex(n)
