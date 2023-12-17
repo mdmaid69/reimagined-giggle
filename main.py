@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
