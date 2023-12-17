@@ -1,6 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
