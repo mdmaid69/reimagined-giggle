@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_repr(array):
+        return repr(array)
