@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
