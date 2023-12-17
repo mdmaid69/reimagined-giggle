@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
