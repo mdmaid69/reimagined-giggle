@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import sys
-print(sys.version)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_speed(distance, time):
+        return distance / time
