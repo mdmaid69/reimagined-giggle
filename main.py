@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
