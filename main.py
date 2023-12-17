@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_work(force, distance):
-        return force * distance
+import math
+print(math.pi)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
