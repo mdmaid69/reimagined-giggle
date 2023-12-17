@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import random
+print(random.randint(0, 100))
