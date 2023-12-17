@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def find_min(lst):
+        return min(lst)
