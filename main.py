@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
