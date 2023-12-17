@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
