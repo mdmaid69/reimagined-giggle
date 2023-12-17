@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
