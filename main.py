@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
