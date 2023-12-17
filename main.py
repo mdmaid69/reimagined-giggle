@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import os
+print(os.getcwd())
+def calculate_speed(distance, time):
+        return distance / time
