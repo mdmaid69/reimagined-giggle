@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
