@@ -1,5 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
