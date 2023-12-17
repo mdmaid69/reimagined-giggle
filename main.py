@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def multiply_numbers(x, y):
+        return x * y
