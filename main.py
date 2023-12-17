@@ -1,3 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-print(sum(range(10)))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_area_circle(r):
+        return 3.14 * r**2
