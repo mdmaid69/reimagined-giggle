@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def count_elements(lst):
+        return len(lst)
