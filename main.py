@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
