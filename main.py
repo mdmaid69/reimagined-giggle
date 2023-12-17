@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
