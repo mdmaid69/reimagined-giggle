@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
