@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
