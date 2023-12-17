@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def find_min(lst):
+        return min(lst)
