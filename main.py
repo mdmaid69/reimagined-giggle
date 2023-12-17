@@ -1,6 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-print("Hello, world!")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_power(work, time):
+        return work / time
