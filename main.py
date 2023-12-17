@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def reverse_list(lst):
-        return lst[::-1]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def multiply_numbers(x, y):
+        return x * y
