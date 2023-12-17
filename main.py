@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
