@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def is_odd(n):
+        return n % 2 != 0
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def change_working_directory(path):
+        os.chdir(path)
