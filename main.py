@@ -1,8 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
