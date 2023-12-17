@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
