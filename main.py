@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
