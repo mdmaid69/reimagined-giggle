@@ -1,12 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
