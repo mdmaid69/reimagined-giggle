@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def is_odd(n):
+        return n % 2 != 0
