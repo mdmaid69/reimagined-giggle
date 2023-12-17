@@ -1,9 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
