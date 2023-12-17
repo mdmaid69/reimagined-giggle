@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def get_array_as_list(array):
+        return list(array)
