@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
