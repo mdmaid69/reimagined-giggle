@@ -1,4 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import datetime
-print(datetime.datetime.now())
+import sys
+print(sys.version)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
