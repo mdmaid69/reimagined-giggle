@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
