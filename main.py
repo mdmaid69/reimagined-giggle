@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_stack():
-        return collections.deque()
+def is_odd(n):
+        return n % 2 != 0
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
