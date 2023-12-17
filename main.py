@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def reverse_array(array):
+        array.reverse()
+def find_max(numbers):
+        return max(numbers)
