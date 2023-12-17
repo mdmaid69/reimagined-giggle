@@ -1,8 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
