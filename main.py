@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
