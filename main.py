@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
