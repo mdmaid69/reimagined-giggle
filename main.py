@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
