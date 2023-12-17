@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def is_even(n):
+        return n % 2 == 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
