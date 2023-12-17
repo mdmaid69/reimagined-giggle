@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def change_working_directory(path):
+        os.chdir(path)
