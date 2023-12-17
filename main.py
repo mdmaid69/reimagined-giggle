@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import datetime
+def get_current_date():
+        return datetime.date.today()
