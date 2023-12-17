@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
