@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
