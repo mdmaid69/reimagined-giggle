@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
