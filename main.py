@@ -1,6 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
