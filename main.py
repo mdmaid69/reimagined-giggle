@@ -1,6 +1,6 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
