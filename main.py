@@ -1,8 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
