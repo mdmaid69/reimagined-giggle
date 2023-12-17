@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_max(lst):
+        return max(lst)
