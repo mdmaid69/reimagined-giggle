@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def split_path(path):
+        return os.path.split(path)
