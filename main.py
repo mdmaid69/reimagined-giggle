@@ -1,6 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
