@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def find_max(numbers):
+        return max(numbers)
