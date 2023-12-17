@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
