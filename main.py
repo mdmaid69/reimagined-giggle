@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_user_dict():
-        return collections.UserDict()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
