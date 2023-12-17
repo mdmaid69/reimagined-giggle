@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
