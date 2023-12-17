@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
