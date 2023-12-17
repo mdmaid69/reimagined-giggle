@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
