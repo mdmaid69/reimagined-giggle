@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_index(array, item):
+        return array.index(item)
