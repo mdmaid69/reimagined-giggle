@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+text = "Hello, world!"
+print("Characters:", len(text))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
