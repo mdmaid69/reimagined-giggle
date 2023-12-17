@@ -1,5 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def count_elements(lst):
-        return len(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
