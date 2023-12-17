@@ -1,6 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
