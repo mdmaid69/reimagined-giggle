@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
