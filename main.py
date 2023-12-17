@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def convert_to_octal(n):
-        return oct(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
