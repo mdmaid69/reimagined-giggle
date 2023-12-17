@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
