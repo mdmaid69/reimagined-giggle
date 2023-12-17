@@ -1,6 +1,9 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
