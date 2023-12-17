@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+for i in range(5):
+        print(i)
