@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
