@@ -1,8 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
