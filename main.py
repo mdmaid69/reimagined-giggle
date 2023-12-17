@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
