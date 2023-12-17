@@ -1,5 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
