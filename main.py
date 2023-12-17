@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_repr(array):
-        return repr(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def multiply_numbers(x, y):
+        return x * y
