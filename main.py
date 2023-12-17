@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_max(numbers):
-        return max(numbers)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def cube_number(x):
+        return x**3
