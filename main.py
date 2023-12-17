@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
