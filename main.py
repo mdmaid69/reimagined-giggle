@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
