@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
