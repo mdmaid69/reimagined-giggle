@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
