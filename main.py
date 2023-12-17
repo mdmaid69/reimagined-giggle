@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
