@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def square_number(x):
-        return x**2
+import collections
+def create_user_string():
+        return collections.UserString()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
