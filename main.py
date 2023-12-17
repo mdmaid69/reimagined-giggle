@@ -1,5 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def convert_to_octal(n):
+        return oct(n)
