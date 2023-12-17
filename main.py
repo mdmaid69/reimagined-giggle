@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
