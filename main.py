@@ -1,8 +1,8 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_counter():
-        return collections.Counter()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
