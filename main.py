@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+name = "Python"
+print("Hello,", name)
