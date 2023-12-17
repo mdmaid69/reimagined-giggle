@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
