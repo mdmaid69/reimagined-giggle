@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
