@@ -1,6 +1,5 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def append_to_array(array, item):
+        array.append(item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
