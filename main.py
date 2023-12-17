@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
