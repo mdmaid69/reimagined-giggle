@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
