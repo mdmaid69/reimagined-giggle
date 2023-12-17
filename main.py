@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
