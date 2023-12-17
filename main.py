@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def remove_duplicates(lst):
+        return list(set(lst))
