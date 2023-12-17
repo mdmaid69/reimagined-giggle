@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
