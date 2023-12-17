@@ -1,7 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
