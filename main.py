@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
