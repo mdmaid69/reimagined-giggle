@@ -1,7 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def convert_to_hex(n):
+        return hex(n)
