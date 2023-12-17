@@ -1,6 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
