@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
