@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_floor(x):
+        return math.floor(x)
