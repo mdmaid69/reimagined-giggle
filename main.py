@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
