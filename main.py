@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_as_str(array):
-        return str(array)
+import os
+print(os.getcwd())
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
