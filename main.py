@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
