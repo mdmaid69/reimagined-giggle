@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
