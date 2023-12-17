@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
