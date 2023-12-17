@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def subtract_numbers(x, y):
+        return x - y
