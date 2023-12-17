@@ -1,7 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
