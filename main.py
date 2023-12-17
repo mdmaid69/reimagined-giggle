@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
