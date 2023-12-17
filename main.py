@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
