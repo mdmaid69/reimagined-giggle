@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
