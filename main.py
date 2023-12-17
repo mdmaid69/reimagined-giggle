@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def convert_to_octal(n):
-        return oct(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
