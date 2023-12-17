@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
+  def convert_to_hex(n):
+        return hex(n)
