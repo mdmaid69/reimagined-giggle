@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
