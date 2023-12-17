@@ -1,7 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
