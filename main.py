@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_list_from_array(array):
+        return array.tolist()
