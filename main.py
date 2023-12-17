@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
