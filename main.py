@@ -1,8 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
