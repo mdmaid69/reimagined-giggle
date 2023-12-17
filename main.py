@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
