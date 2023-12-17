@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
