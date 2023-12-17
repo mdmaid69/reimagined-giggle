@@ -1,5 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import random
-print(random.randint(0, 100))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
