@@ -1,7 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def find_min(numbers):
+        return min(numbers)
