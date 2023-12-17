@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+print([x**2 for x in range(10)])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
