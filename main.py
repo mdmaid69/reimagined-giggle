@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
