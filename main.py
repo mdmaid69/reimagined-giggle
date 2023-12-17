@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_speed(distance, time):
-        return distance / time
+def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
