@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def sort_list(lst):
+        return sorted(lst)
