@@ -1,6 +1,3 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def multiply_numbers(x, y):
+        return x * y
+print([x**2 for x in range(10)])
