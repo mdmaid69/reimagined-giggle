@@ -1,5 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
