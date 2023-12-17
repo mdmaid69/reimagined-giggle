@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def multiply_numbers(x, y):
+        return x * y
