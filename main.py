@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
