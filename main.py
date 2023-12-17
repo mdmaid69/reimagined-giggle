@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_work(force, distance):
+        return force * distance
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
