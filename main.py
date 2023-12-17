@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
