@@ -1,11 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
