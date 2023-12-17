@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
