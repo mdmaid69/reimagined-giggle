@@ -1,5 +1,9 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
