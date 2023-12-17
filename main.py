@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def clear_array(array):
-        array *= 0
+  def subtract_numbers(x, y):
+        return x - y
+import time
+def get_current_time():
+        return time.time()
