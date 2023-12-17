@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
