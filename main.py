@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def is_even(n):
-        return n % 2 == 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
