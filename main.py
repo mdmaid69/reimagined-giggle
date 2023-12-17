@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import sys
+def exit_program():
+        sys.exit()
