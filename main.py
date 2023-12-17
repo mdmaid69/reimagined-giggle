@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+print(math.pi)
+import time
+def get_current_time():
+        return time.ctime()
