@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
