@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
