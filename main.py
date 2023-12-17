@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
