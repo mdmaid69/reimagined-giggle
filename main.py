@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
