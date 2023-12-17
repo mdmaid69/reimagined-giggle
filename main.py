@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
