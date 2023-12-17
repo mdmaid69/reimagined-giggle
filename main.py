@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
