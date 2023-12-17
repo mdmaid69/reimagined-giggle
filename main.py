@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
