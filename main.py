@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
