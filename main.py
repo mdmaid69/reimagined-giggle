@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_set(array):
+        return set(array)
