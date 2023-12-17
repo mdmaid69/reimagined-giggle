@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
