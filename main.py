@@ -1,5 +1,8 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def remove_duplicates(lst):
-        return list(set(lst))
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
