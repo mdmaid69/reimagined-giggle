@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
