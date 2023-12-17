@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
