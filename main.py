@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_bool(array):
+        return bool(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
