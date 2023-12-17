@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
