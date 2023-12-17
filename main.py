@@ -1,8 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
