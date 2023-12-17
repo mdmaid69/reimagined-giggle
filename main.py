@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def convert_to_octal(n):
+        return oct(n)
