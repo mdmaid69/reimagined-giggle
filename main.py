@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
