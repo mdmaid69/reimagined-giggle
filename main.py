@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
