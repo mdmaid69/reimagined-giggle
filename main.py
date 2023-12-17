@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
