@@ -1,7 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
