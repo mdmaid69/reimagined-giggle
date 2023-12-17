@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
