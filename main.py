@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_length(array):
+        return len(array)
