@@ -1,5 +1,3 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def convert_to_octal(n):
-        return oct(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+for i in range(10): print(i)
