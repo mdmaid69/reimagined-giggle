@@ -1,4 +1,8 @@
-import os
-print(os.getcwd())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
