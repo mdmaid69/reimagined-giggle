@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
