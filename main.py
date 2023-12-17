@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
