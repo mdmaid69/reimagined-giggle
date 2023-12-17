@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
