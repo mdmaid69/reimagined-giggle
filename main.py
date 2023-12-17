@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import logging
+def log_message(message):
+        logging.info(message)
