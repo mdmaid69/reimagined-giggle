@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_priority_queue():
+        return collections.deque()
