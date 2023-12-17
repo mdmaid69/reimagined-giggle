@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
