@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_speed(distance, time):
-        return distance / time
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
