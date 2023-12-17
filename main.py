@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import collections
-def create_counter():
-        return collections.Counter()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
