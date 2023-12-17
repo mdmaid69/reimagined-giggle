@@ -1,5 +1,10 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_stack():
-        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
