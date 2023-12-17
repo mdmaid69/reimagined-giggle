@@ -1,6 +1,8 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
