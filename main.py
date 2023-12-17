@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import sys
+def print_python_version():
+        print(sys.version)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
