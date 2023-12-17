@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
