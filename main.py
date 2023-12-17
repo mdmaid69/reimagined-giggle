@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
