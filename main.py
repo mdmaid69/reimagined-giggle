@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
