@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def convert_to_octal(n):
-        return oct(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
