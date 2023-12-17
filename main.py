@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
