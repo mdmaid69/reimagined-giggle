@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
