@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def cube_number(x):
-        return x**3
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+print(re.match("h.*o", "hello world"))
