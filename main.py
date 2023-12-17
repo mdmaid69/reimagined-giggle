@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
