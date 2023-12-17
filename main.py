@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
