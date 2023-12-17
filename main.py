@@ -1,9 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_counter():
+        return collections.Counter()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
