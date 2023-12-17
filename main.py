@@ -1,7 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
