@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
