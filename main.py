@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
