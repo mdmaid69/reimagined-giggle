@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def find_min(lst):
-        return min(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
