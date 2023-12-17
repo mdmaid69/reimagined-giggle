@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def convert_array_to_string(array):
+        return array.tostring()
