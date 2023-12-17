@@ -1,7 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
