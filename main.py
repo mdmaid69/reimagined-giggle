@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
