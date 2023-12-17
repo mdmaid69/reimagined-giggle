@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
