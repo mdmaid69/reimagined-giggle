@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
