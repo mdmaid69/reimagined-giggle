@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
