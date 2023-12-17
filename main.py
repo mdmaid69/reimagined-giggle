@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
