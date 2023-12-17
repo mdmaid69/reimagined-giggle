@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
