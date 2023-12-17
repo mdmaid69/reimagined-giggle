@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
