@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
