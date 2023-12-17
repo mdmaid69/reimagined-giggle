@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
