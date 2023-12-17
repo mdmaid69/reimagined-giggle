@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
