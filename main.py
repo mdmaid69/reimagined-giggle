@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
