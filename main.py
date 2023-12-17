@@ -1,7 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def get_array_index(array, item):
+        return array.index(item)
