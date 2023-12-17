@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+print([x**2 for x in range(10)])
