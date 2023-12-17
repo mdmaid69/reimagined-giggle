@@ -1,5 +1,7 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
