@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def convert_to_hex(n):
-        return hex(n)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
