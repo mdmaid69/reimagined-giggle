@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
