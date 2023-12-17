@@ -1,7 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import collections
+def create_counter():
+        return collections.Counter()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
