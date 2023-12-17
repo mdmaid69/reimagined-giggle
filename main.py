@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
