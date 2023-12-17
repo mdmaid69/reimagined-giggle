@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
