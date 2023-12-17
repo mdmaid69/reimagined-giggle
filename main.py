@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
