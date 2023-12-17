@@ -1,6 +1,12 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
