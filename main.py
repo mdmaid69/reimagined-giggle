@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
