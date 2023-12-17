@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+x = 10
+y = 20
+print("Sum:", x + y)
