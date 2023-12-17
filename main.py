@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import collections
+def create_stack():
+        return collections.deque()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
