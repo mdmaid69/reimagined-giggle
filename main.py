@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
