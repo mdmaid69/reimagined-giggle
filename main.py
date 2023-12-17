@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_power(work, time):
+        return work / time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
