@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
