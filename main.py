@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
