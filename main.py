@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import sys
-print(sys.version)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+name = "Python"
+print("Hello,", name)
