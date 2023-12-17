@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def remove_duplicates(lst):
+        return list(set(lst))
