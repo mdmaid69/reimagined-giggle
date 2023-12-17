@@ -1,7 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
