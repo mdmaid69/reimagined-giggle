@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
