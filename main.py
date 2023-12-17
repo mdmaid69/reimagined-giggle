@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
