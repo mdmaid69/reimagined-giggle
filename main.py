@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+from collections import Counter
+print(Counter("hello world"))
