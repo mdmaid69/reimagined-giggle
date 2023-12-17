@@ -1,8 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
