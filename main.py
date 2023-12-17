@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
