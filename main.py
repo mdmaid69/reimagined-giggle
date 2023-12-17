@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def reverse_array(array):
+        array.reverse()
