@@ -1,8 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
