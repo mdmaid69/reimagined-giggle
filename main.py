@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
