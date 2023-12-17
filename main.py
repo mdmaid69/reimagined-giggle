@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def split_path(path):
+        return os.path.split(path)
