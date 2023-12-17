@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
