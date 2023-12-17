@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
