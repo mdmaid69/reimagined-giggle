@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import platform
-def get_os_info():
-        return platform.uname()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
