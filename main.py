@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
