@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
