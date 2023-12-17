@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
