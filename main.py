@@ -1,7 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
