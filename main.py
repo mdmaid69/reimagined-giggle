@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
