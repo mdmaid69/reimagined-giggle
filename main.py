@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
