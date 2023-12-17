@@ -1,5 +1,3 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+print("Hello, world!")
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
