@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
