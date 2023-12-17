@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
