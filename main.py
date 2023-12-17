@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
