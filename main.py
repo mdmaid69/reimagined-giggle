@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
