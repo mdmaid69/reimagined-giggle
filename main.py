@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
