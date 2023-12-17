@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
