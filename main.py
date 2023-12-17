@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
