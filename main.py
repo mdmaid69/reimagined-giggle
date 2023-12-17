@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
