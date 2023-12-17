@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def add_numbers(a, b):
+        return a + b
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
