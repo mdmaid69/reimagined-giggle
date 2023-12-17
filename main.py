@@ -1,6 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
