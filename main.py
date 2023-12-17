@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
