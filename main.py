@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
