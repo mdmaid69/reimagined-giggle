@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def reverse_array(array):
+        array.reverse()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
