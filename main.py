@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
