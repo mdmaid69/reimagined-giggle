@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_work(force, distance):
-        return force * distance
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
