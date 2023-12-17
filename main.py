@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
