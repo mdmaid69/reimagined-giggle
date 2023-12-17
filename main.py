@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
