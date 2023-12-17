@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import numpy as np
+print(np.array([1, 2, 3]))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
