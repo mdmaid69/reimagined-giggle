@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
