@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
