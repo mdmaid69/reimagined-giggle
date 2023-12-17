@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+from collections import Counter
+print(Counter("hello world"))
