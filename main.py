@@ -1,8 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def cube_number(x):
+        return x**3
