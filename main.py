@@ -1,6 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
