@@ -1,4 +1,12 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def convert_to_binary(n):
-        return bin(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
