@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
