@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
