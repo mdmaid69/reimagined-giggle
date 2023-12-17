@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_speed(distance, time):
+        return distance / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
