@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
