@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
