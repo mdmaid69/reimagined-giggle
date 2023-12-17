@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def clear_array(array):
-        array *= 0
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
