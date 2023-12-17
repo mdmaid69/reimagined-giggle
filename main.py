@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
