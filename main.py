@@ -1,5 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import datetime
-print(datetime.datetime.now())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
