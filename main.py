@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
