@@ -1,4 +1,9 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
