@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_area_rectangle(l, w):
-        return l * w
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_string_from_array(array):
+        return array.tobytes()
