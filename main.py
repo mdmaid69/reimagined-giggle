@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_int(array):
+        return int(array[0])
