@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+def square_number(x):
+        return x**2
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
