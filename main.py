@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
