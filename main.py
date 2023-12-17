@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def convert_to_octal(n):
+        return oct(n)
