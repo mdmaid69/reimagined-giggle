@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
