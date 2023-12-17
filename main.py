@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
