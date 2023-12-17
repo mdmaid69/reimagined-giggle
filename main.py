@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
