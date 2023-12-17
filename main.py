@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
