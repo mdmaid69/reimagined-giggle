@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
