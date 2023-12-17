@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
