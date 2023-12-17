@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
+print("Hello, world!")
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
