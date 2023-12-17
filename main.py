@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
