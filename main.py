@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
