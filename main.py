@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def convert_to_hex(n):
+        return hex(n)
