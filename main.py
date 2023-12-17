@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_array_to_list(array):
+        return array.tolist()
