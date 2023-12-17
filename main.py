@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
