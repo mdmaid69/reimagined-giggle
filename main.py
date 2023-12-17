@@ -1,5 +1,9 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-for i in range(5):
-        print(i)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
