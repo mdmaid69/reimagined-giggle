@@ -1,5 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
