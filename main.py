@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
