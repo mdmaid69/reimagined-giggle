@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def convert_to_binary(n):
-        return bin(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_length(array):
+        return len(array)
