@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
