@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
