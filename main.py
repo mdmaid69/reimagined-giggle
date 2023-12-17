@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def get_array_as_complex(array):
+        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
