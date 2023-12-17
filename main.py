@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
