@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
