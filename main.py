@@ -1,4 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-print([x**2 for x in range(10)])
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
