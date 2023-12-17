@@ -1,5 +1,7 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_density(mass, volume):
-        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
