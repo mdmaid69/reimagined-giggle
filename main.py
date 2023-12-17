@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
