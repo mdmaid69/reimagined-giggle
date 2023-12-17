@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
