@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
