@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
