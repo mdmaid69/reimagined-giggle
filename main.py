@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
