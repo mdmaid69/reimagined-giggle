@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
