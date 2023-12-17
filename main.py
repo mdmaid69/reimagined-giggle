@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
