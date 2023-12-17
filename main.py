@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
