@@ -1,6 +1,6 @@
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
