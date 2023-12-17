@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_binary(n):
+        return bin(n)
