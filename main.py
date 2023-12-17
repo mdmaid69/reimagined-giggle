@@ -1,5 +1,9 @@
-def is_even(n):
-        return n % 2 == 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
