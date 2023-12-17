@@ -1,8 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
