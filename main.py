@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
