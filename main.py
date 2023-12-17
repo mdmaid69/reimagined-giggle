@@ -1,5 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
