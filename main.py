@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_area(radius):
+        return 3.14 * radius * radius
