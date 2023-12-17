@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import numpy as np
+print(np.array([1, 2, 3]))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
