@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
