@@ -1,12 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def convert_to_binary(n):
+        return bin(n)
