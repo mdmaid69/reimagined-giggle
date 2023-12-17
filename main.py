@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_speed(distance, time):
+        return distance / time
