@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
