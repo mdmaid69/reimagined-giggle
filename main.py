@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
