@@ -1,5 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
