@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
