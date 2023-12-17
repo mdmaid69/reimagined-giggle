@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
