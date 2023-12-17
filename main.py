@@ -1,7 +1,8 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
