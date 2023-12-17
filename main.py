@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
