@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
