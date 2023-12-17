@@ -1,5 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def count_words(sentence):
-        return len(sentence.split())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
