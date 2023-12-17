@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_as_bool(array):
+        return bool(array)
