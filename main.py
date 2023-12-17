@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
