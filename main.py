@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
