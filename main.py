@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def append_to_array(array, item):
+        array.append(item)
