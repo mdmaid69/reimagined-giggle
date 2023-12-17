@@ -1,8 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+for i in range(5):
+        print(i)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
