@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
