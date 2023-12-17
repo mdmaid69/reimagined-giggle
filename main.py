@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def count_elements(lst):
-        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
