@@ -1,6 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_as_bool(array):
+        return bool(array)
