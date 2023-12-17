@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_power(work, time):
+        return work / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
