@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def square_number(x):
-        return x**2
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
