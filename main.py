@@ -1,10 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def count_words(sentence):
+        return len(sentence.split())
