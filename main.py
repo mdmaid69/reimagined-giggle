@@ -1,6 +1,8 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
