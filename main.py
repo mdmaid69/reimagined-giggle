@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
