@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
