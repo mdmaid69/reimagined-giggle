@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-print([x**2 for x in range(10)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def set_array_item(array, i, item):
+        array[i] = item
