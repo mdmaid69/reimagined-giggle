@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
