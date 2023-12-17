@@ -1,6 +1,10 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import time
-def get_time_since_epoch():
-        return time.time()
+def divide_numbers(x, y):
+        return x / y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
