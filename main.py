@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_repr(array):
+        return repr(array)
