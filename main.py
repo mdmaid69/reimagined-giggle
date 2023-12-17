@@ -1,4 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-for i in range(10): print(i)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_characters(sentence):
+        return len(sentence)
