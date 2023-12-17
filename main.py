@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
