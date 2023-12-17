@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
