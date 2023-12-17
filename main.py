@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+print([x**2 for x in range(10)])
