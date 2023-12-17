@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def reverse_string(s):
-        return s[::-1]
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
