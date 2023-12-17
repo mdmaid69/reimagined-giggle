@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_power(work, time):
-        return work / time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
