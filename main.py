@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def square_number(x):
+        return x**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
