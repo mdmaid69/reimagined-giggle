@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
