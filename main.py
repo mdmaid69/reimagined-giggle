@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
