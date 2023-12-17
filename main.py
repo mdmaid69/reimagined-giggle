@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
