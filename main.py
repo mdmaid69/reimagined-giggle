@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
