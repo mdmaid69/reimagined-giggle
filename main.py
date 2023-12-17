@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_user_list():
+        return collections.UserList()
