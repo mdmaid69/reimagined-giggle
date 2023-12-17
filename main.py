@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
