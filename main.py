@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
