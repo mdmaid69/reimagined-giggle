@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_counter():
-        return collections.Counter()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
