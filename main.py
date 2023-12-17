@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
