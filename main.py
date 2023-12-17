@@ -1,7 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
