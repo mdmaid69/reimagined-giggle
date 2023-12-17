@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
