@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
