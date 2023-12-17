@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+x = 10
+y = 20
+print("Sum:", x + y)
