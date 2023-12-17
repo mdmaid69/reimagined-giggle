@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
