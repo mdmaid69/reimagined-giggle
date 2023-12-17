@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
