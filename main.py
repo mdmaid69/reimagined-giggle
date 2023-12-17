@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def is_odd(n):
-        return n % 2 != 0
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
