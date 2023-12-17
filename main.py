@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
