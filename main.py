@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
