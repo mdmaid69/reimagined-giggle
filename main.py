@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
