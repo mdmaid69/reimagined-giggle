@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
