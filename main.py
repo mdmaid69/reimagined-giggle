@@ -1,5 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
