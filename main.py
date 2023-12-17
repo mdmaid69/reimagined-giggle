@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
