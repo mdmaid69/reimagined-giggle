@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import collections
+def create_user_list():
+        return collections.UserList()
