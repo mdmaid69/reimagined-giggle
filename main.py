@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_area_rectangle(l, w):
+        return l * w
