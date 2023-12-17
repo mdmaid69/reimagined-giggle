@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import time
+def get_current_time():
+        return time.ctime()
