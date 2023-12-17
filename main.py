@@ -1,9 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_work(force, distance):
+        return force * distance
