@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
