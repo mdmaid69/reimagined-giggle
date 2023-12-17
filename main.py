@@ -1,5 +1,9 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_density(mass, volume):
-        return mass / volume
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
