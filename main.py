@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_error_function(x):
+        return math.erf(x)
+def find_max(lst):
+        return max(lst)
