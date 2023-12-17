@@ -1,6 +1,8 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
