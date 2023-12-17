@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import time
+def get_time_since_epoch():
+        return time.time()
