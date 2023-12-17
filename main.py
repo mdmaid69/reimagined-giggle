@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
