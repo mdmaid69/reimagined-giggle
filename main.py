@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
