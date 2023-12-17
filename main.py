@@ -1,5 +1,12 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import sys
+  def get_python_version():
+        return sys.version
