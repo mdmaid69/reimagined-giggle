@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
