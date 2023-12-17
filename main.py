@@ -1,8 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_acceleration(speed, time):
+        return speed / time
