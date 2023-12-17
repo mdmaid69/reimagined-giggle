@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def cube_number(x):
+        return x**3
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
