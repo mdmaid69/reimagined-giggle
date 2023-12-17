@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def reverse_string(s):
+        return s[::-1]
