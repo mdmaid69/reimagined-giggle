@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
