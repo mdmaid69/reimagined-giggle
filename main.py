@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+print(sys.version)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
