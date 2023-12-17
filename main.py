@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
