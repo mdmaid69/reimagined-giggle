@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
