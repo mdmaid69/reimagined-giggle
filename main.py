@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
