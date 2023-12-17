@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+for i in range(5):
+        print(i)
