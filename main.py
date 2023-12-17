@@ -1,4 +1,5 @@
-import math
-print(math.pi)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
