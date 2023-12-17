@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
