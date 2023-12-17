@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
