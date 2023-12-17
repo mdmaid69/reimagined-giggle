@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def multiply_numbers(x, y):
-        return x * y
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_unique_words(sentence):
+        return set(sentence.split())
