@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area_rectangle(l, w):
+        return l * w
+import platform
+def get_os_info():
+        return platform.uname()
