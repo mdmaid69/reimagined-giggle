@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
