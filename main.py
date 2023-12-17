@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
