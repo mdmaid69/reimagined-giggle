@@ -1,6 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
