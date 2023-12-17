@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-def find_max(numbers):
-        return max(numbers)
+  def count_elements(lst):
+        return len(lst)
+def calculate_power(work, time):
+        return work / time
