@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
