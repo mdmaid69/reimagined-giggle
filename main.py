@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_counter():
+        return collections.Counter()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
