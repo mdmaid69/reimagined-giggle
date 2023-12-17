@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
