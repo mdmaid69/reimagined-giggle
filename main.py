@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
