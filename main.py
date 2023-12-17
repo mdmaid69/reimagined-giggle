@@ -1,5 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def is_odd(n):
-        return n % 2 != 0
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
