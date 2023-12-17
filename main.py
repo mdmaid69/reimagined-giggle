@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import platform
-def get_os_info():
-        return platform.uname()
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
