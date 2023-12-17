@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_list(array):
+        return list(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
