@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
