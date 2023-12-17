@@ -1,5 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import array
-def reverse_array(array):
-        array.reverse()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_length(array):
+        return len(array)
