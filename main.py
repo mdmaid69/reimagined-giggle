@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import json
 def convert_to_json(data):
         return json.dumps(data)
