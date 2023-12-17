@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_work(force, distance):
-        return force * distance
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_speed(distance, time):
+        return distance / time
