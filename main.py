@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
