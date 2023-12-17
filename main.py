@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+for i in range(10): print(i)
