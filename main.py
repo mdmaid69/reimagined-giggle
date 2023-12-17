@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
