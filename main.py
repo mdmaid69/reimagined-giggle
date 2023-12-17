@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
