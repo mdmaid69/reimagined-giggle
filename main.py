@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
