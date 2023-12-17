@@ -1,3 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-print([x**2 for x in range(10)])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
