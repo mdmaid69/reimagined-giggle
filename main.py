@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
