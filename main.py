@@ -1,5 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
