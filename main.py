@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
