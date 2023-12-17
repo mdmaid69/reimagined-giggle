@@ -1,6 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
