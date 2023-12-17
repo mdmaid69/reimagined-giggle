@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
