@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def reverse_list(lst):
+        return lst[::-1]
