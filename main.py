@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import sys
-def exit_program():
-        sys.exit()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def multiply_numbers(x, y):
+        return x * y
