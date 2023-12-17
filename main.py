@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
