@@ -1,12 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
