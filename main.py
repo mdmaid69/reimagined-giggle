@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
