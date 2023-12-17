@@ -1,4 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-  def square_number(x):
-        return x**2
+import tensorflow as tf
+print(tf.__version__)
+def calculate_area_rectangle(l, w):
+        return l * w
