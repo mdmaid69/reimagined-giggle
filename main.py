@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
