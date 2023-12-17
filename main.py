@@ -1,5 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
