@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
