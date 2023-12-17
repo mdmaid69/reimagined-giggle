@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
