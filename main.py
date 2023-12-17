@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
