@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_max(lst):
+        return max(lst)
