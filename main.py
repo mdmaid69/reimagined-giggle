@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
