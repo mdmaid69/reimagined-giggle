@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def roll_die():
+        return random.randint(1, 6)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
