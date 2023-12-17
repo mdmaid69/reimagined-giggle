@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def get_array_as_str(array):
+        return str(array)
