@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_perpetuity(payment, rate):
+        return payment / rate
