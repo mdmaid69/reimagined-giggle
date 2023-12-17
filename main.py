@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
