@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
