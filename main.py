@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
