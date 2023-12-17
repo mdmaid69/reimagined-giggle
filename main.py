@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def square_number(x):
-        return x**2
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
