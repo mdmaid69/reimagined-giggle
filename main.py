@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_index(array, item):
+        return array.index(item)
