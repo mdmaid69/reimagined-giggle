@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
