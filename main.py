@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
