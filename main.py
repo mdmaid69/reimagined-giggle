@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
