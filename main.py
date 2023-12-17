@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
