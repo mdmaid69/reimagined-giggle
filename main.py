@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_min(lst):
+        return min(lst)
