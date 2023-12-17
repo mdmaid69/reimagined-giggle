@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
