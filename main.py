@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
