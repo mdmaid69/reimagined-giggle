@@ -1,6 +1,7 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
