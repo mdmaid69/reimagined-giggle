@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
