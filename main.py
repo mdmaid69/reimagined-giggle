@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
