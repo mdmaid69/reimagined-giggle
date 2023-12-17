@@ -1,7 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import platform
+def get_python_version():
+        return platform.python_version()
