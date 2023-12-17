@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
