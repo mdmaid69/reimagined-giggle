@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def convert_to_binary(n):
-        return bin(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
