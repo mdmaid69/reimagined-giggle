@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
