@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_speed(distance, time):
+        return distance / time
