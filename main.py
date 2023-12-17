@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
