@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
