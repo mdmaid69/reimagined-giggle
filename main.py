@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+x = 10
+y = 20
+print("Sum:", x + y)
