@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
