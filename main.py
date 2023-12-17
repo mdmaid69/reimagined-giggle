@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import datetime
+def get_current_date():
+        return datetime.date.today()
