@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_user_list():
+        return collections.UserList()
