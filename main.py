@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
