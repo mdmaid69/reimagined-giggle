@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_unique_words(sentence):
+        return set(sentence.split())
