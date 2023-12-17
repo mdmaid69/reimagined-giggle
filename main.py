@@ -1,5 +1,6 @@
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def get_array_item(array, i):
-        return array[i]
-def is_palindrome(s):
-        return s == s[::-1]
+def get_array_length(array):
+        return len(array)
