@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import platform
+def get_os_info():
+        return platform.uname()
