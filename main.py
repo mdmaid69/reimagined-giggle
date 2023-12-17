@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
