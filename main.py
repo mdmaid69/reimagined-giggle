@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_volume(length, width, height):
+        return length * width * height
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
