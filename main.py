@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_perpetuity(payment, rate):
+        return payment / rate
