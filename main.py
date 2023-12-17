@@ -1,5 +1,7 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def divide_numbers(x, y):
-        return x / y
+def iterate_over_array(array):
+        for item in array:
+        print(item)
