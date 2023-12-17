@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
