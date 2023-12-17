@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
