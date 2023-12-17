@@ -1,6 +1,12 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
