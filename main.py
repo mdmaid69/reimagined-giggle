@@ -1,7 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
