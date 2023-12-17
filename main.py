@@ -1,8 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def subtract_numbers(x, y):
+        return x - y
