@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
