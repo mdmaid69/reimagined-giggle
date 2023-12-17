@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
