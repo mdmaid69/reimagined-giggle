@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
