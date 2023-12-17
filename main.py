@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
