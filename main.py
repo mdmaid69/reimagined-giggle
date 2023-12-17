@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
