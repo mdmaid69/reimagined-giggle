@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
