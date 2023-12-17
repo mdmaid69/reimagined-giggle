@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
