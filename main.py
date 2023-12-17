@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
