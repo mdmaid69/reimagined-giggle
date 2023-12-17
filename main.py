@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
