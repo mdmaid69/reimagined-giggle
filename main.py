@@ -1,4 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-def reverse_string(s):
-        return s[::-1]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
