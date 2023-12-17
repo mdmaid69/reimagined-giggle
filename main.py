@@ -1,4 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
