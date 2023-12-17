@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
