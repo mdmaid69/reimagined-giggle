@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
