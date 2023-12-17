@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Characters:", len(text))
