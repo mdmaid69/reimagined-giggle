@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
