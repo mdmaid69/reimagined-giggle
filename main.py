@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
