@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
