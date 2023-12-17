@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
