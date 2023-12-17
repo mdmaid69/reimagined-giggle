@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def remove_from_array(array, item):
+        array.remove(item)
+def find_unique_words(sentence):
+        return set(sentence.split())
