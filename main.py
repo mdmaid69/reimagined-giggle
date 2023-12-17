@@ -1,5 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_sine(x):
+        return math.sin(x)
