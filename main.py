@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def divide_numbers(x, y):
+        return x / y
