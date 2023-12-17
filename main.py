@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
