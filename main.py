@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def find_unique_words(sentence):
+        return set(sentence.split())
