@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
