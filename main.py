@@ -1,7 +1,7 @@
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_average(lst):
+        return sum(lst) / len(lst)
