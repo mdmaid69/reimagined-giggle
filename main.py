@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
