@@ -1,5 +1,5 @@
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
