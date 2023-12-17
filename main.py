@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
