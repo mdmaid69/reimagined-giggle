@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
