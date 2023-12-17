@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
