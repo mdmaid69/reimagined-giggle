@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Characters:", len(text))
