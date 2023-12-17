@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def is_palindrome(s):
+        return s == s[::-1]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
