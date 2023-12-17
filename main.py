@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def convert_to_octal(n):
+        return oct(n)
