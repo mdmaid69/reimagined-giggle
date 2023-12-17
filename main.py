@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_item(array, i):
-        return array[i]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
