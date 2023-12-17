@@ -1,7 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
