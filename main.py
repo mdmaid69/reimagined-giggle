@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
