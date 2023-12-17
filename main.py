@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
