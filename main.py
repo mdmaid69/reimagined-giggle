@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
