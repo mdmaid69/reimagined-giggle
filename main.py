@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_str(array):
+        return str(array)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
