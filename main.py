@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-print(math.pi)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
