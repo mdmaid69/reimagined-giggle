@@ -1,5 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
