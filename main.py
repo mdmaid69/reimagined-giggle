@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
