@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
