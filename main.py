@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
