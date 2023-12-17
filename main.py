@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
