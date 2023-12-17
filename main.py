@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
