@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
