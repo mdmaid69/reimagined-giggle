@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
