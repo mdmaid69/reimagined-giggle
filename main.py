@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import time
+def get_current_time():
+        return time.ctime()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
