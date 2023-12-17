@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
