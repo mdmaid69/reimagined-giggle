@@ -1,5 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def convert_to_octal(n):
-        return oct(n)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
