@@ -1,5 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
