@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_bool(array):
+        return bool(array)
