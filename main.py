@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def greet(name):
+        print(f"Hello, {name}!")
