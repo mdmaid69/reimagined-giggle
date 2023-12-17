@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
