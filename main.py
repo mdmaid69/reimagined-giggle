@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+from collections import Counter
+print(Counter("hello world"))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
