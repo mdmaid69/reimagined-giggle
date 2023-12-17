@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
