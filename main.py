@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def find_max(numbers):
-        return max(numbers)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
