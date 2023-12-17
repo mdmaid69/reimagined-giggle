@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
