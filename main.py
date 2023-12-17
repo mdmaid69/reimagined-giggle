@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
