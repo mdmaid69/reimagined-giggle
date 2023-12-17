@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
