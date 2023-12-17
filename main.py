@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def count_words(sentence):
+        return len(sentence.split())
