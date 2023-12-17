@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def convert_to_octal(n):
-        return oct(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
