@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def is_odd(n):
+        return n % 2 != 0
