@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
