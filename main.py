@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
