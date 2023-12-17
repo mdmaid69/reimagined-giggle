@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_min(numbers):
+        return min(numbers)
