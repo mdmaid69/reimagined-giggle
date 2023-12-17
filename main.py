@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
