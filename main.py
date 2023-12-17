@@ -1,4 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
