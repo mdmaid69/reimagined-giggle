@@ -1,5 +1,8 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
