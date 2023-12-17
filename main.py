@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def count_elements(lst):
+        return len(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
