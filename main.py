@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
