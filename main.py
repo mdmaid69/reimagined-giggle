@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def multiply_numbers(x, y):
-        return x * y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_priority_queue():
+        return collections.deque()
