@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_density(mass, volume):
-        return mass / volume
+def multiply_numbers(x, y):
+        return x * y
+  def square_number(x):
+        return x**2
