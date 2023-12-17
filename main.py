@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
