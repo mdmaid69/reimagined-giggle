@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
