@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
