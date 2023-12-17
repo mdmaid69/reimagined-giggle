@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def add_numbers(a, b):
+        return a + b
