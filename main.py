@@ -1,8 +1,7 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
