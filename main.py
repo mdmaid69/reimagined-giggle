@@ -1,5 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def find_min(lst):
-        return min(lst)
+name = "Python"
+print("Hello,", name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
