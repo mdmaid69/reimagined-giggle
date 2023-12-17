@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
