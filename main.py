@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def multiply_numbers(x, y):
+        return x * y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
