@@ -1,6 +1,5 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
