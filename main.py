@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def cube_number(x):
-        return x**3
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_string():
+        return collections.UserString()
