@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
