@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
