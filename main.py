@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
