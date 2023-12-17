@@ -1,9 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
