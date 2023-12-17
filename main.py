@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+def print_python_version():
+        print(sys.version)
