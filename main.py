@@ -1,5 +1,8 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
