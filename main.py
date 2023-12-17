@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
