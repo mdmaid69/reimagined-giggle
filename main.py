@@ -1,6 +1,3 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+print([x**2 for x in range(10)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
