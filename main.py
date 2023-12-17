@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_work(force, distance):
-        return force * distance
+  def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_binary(n):
+        return bin(n)
