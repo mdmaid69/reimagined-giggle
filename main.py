@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def is_palindrome(s):
+        return s == s[::-1]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
