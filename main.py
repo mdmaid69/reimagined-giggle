@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
