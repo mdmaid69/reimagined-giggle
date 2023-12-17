@@ -1,8 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
