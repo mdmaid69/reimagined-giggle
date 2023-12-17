@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def add_numbers(x, y):
-        return x + y
+def convert_to_hex(n):
+        return hex(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
