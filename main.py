@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_min(lst):
-        return min(lst)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
