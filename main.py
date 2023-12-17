@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
