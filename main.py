@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
