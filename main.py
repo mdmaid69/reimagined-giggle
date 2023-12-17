@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
