@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
