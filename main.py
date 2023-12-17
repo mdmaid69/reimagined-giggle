@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def find_min(numbers):
+        return min(numbers)
+import sys
+def print_python_version():
+        return sys.version
