@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def convert_to_octal(n):
+        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
