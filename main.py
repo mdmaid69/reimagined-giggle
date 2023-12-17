@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
