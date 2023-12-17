@@ -1,6 +1,6 @@
+def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
