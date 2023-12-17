@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def greet(name):
+        print(f"Hello, {name}!")
