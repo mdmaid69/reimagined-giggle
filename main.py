@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_slice(array, i, j):
+        return array[i:j]
