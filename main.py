@@ -1,5 +1,9 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
