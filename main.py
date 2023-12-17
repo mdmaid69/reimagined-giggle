@@ -1,7 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
