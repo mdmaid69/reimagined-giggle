@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def convert_to_binary(n):
-        return bin(n)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
