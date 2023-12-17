@@ -1,6 +1,12 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
