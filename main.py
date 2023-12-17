@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
