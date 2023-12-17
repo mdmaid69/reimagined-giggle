@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
