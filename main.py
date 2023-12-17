@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
