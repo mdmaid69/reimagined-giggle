@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import os
+def get_current_working_directory():
+        return os.getcwd()
