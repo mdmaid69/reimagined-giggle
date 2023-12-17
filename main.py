@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def convert_array_to_string(array):
+        return array.tostring()
