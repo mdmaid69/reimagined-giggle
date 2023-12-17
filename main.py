@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
