@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_power(work, time):
-        return work / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
