@@ -1,6 +1,9 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
