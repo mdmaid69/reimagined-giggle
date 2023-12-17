@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import getpass
+def get_username():
+        return getpass.getuser()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
