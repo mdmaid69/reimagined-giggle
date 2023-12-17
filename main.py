@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
