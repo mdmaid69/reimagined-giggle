@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+def divide_numbers(x, y):
+        return x / y
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        print(sys.version)
