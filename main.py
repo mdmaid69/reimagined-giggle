@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import numpy as np
+print(np.array([1, 2, 3]))
