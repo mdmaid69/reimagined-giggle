@@ -1,6 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
