@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
