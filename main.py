@@ -1,5 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_floor(x):
+        return math.floor(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
