@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_power(work, time):
+        return work / time
+def sort_list(lst):
+        return sorted(lst)
