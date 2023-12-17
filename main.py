@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def is_even(n):
+        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
