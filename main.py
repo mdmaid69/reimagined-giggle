@@ -1,5 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import time
+print(time.time())
