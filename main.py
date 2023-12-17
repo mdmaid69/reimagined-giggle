@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_density(mass, volume):
-        return mass / volume
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
