@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
