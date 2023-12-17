@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
