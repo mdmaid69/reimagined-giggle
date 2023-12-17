@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
