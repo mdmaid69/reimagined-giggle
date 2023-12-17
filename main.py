@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
