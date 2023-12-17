@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_exponential(x):
+        return math.exp(x)
