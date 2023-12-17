@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
