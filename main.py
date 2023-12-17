@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
