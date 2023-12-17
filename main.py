@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
