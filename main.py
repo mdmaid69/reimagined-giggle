@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
