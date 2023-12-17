@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import platform
+def get_python_version():
+        return platform.python_version()
