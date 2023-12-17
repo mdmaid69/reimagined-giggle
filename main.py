@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
