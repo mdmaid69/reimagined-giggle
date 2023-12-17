@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
