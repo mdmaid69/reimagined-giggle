@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
