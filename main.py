@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
