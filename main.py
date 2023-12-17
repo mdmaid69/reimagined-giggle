@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import sys
+def print_python_version():
+        return sys.version
