@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
