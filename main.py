@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
