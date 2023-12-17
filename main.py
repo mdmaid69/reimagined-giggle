@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_acceleration(speed, time):
+        return speed / time
