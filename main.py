@@ -1,6 +1,9 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def is_palindrome(s):
+        return s == s[::-1]
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
