@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_base_name(path):
+        return os.path.basename(path)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
