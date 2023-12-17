@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
