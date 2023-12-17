@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
