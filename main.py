@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
