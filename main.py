@@ -1,6 +1,11 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import sys
-def exit_program():
-        sys.exit()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
