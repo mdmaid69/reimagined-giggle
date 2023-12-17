@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
