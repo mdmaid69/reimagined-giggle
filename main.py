@@ -1,7 +1,9 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
