@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def is_even(n):
-        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+text = "Hello, world!"
+print("Words:", len(text.split()))
