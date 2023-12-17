@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
