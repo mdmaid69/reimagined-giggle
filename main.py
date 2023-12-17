@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
