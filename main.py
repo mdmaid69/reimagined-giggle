@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
