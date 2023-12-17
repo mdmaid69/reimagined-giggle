@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def greet(name):
+        print(f"Hello, {name}!")
+  def remove_duplicates(lst):
+        return list(set(lst))
