@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import tensorflow as tf
+print(tf.__version__)
+  def is_even(n):
+        return n % 2 == 0
