@@ -1,5 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def cube_number(x):
-        return x**3
+def get_array_item(array, i):
+        return array[i]
