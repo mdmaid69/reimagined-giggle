@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
