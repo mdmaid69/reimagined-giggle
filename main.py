@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_work(force, distance):
+        return force * distance
