@@ -1,6 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def get_array_as_str(array):
+        return str(array)
