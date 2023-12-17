@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def convert_to_hex(n):
-        return hex(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
