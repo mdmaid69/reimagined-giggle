@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_work(force, distance):
+        return force * distance
