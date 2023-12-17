@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
