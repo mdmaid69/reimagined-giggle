@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_min(numbers):
+        return min(numbers)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
