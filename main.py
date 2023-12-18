@@ -1,10 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
