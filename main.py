@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
