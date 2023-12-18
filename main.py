@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
