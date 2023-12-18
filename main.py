@@ -1,7 +1,7 @@
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
