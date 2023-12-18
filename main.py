@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
