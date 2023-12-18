@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
