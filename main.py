@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import getpass
+def get_username():
+        return getpass.getuser()
