@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
