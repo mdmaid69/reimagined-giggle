@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_volume(length, width, height):
+        return length * width * height
