@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
