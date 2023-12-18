@@ -1,6 +1,12 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
