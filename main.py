@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def divide_numbers(x, y):
-        return x / y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def is_odd(n):
+        return n % 2 != 0
