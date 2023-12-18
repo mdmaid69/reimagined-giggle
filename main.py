@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
