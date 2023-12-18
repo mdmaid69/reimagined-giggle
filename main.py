@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
