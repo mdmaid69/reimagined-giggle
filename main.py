@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_min(numbers):
-        return min(numbers)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
