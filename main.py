@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def add_numbers(x, y):
+        return x + y
