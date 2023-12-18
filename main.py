@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
