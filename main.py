@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
