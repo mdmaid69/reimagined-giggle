@@ -1,6 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
