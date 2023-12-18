@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
