@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
