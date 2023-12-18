@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+text = "Hello, world!"
+print("Words:", len(text.split()))
