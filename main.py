@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
