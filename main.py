@@ -1,6 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def add_numbers(x, y):
+        return x + y
