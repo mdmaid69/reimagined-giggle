@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
