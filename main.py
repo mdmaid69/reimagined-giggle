@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
