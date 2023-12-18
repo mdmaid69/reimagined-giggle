@@ -1,5 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import time
-print(time.time())
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
