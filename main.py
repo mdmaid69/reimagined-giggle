@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import re
+print(re.match("h.*o", "hello world"))
