@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
