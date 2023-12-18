@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
