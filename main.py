@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-print(time.time())
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
