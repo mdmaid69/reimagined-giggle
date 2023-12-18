@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
