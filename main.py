@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def square_number(x):
-        return x**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+print(math.pi)
