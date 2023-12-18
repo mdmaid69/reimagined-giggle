@@ -1,6 +1,10 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
