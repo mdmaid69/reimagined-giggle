@@ -1,5 +1,9 @@
-import sys
-def exit_program():
-        sys.exit()
-import random
-print(random.randint(0, 100))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
