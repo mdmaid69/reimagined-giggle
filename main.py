@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
