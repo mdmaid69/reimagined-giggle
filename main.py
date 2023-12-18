@@ -1,5 +1,6 @@
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def set_array_item(array, i, item):
+        array[i] = item
