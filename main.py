@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
