@@ -1,4 +1,12 @@
-for i in range(10): print(i)
-import platform
-def get_python_version():
-        return platform.python_version()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
