@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
