@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
