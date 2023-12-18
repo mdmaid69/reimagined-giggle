@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
