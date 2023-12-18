@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def clear_array(array):
+        array *= 0
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
