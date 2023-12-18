@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def add_numbers(x, y):
-        return x + y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+print(re.match("h.*o", "hello world"))
