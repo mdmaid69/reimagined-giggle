@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import sys
+def exit_program():
+        sys.exit()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
