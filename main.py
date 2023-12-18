@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
