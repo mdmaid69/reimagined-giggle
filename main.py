@@ -1,5 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_string_from_array(array):
+        return array.tobytes()
+  def is_even(n):
+        return n % 2 == 0
