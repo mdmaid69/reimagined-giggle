@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
