@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_area_circle(r):
+        return 3.14 * r**2
