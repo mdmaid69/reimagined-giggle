@@ -1,5 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
