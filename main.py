@@ -1,5 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
