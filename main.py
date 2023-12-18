@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+print("Hello, world!")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
