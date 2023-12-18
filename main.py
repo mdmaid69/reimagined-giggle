@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
