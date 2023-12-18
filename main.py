@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
