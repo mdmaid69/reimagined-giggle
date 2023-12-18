@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_area(radius):
+        return 3.14 * radius * radius
