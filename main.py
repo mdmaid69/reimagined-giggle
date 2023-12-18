@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def sort_list(lst):
+        return sorted(lst)
