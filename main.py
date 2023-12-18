@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def append_to_array(array, item):
+        array.append(item)
