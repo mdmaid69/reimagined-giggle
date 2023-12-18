@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  def reverse_list(lst):
+        return lst[::-1]
