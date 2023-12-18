@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
