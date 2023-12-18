@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def subtract_numbers(x, y):
-        return x - y
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def find_max(numbers):
+        return max(numbers)
