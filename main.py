@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
