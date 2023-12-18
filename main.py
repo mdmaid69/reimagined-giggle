@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def add_numbers(x, y):
+        return x + y
