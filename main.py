@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
