@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
