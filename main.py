@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
