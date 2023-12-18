@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
