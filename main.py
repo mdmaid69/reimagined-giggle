@@ -1,7 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_area_rectangle(l, w):
+        return l * w
