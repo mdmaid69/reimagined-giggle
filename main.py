@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
