@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_user_list():
+        return collections.UserList()
