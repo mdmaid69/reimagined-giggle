@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_str(array):
+        return str(array)
