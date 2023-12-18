@@ -1,7 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def clear_array(array):
+        array *= 0
