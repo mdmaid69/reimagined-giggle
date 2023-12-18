@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def count_elements(lst):
+        return len(lst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
