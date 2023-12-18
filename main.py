@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import tensorflow as tf
-print(tf.__version__)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def cube_number(x):
+        return x**3
