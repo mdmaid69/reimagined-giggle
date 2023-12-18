@@ -1,7 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
