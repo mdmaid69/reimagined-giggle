@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+from collections import Counter
+print(Counter("hello world"))
