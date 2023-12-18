@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
