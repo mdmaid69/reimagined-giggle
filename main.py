@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import logging
+def log_message(message):
+        logging.info(message)
