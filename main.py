@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
