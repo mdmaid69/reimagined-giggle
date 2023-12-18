@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def sort_numbers(numbers):
-        return sorted(numbers)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def is_even(n):
+        return n % 2 == 0
