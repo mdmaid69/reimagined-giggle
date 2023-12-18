@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def square_number(x):
-        return x**2
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_volume(length, width, height):
+        return length * width * height
