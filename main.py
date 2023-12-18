@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
