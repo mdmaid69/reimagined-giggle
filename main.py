@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_list_from_array(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
