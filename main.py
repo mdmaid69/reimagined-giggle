@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
