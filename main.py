@@ -1,5 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def is_odd(n):
-        return n % 2 != 0
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
