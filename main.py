@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
