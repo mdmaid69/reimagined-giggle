@@ -1,7 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def convert_to_hex(n):
+        return hex(n)
+def calculate_area_rectangle(l, w):
+        return l * w
