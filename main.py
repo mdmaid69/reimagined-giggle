@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Uppercase:", text.upper())
