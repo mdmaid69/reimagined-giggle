@@ -1,8 +1,8 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
