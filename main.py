@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import sys
+def exit_program():
+        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
