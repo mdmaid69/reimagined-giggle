@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_date():
+        return datetime.date.today()
