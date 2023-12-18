@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
