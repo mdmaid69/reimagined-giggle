@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
