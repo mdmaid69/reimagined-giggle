@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
