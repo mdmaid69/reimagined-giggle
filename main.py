@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import os
+print(os.getcwd())
+def calculate_acceleration(speed, time):
+        return speed / time
