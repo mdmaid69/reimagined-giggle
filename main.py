@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  def is_odd(n):
+        return n % 2 != 0
