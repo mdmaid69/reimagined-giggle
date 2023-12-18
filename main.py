@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def split_path(path):
+        return os.path.split(path)
