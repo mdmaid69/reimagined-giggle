@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_length(array):
-        return len(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def is_palindrome(s):
+        return s == s[::-1]
