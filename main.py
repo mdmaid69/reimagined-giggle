@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
