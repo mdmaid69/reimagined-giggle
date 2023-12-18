@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def is_even(n):
-        return n % 2 == 0
+  def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
