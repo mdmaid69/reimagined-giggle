@@ -1,8 +1,10 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
