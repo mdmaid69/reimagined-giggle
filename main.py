@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def print_python_version():
+        return sys.version
+def calculate_area_rectangle(l, w):
+        return l * w
