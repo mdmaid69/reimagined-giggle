@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
