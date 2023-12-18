@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def calculate_density(mass, volume):
+        return mass / volume
