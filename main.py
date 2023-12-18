@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
