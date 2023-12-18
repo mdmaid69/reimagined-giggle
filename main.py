@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
