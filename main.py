@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
