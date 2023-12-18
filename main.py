@@ -1,8 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
