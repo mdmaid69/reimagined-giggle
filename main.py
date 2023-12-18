@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
