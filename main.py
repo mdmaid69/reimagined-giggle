@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
