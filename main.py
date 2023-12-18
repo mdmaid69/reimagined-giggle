@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import platform
+def get_python_version():
+        return platform.python_version()
+  def multiply_numbers(x, y):
+        return x * y
