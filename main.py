@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
