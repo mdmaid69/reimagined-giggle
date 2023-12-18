@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_max(lst):
+        return max(lst)
