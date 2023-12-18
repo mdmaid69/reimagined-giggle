@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
