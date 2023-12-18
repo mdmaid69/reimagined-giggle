@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
