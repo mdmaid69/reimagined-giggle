@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
