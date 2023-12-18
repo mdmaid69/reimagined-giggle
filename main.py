@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
