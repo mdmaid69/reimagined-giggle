@@ -1,6 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
