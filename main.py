@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-print(sys.version)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def cube_number(x):
+        return x**3
