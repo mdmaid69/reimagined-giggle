@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import os
+def get_current_working_directory():
+        return os.getcwd()
