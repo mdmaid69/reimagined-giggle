@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import sys
+  def get_python_version():
+        return sys.version
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
