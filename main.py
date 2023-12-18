@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
