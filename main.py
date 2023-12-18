@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
