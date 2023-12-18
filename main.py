@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
