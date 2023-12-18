@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import time
-print(time.time())
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
