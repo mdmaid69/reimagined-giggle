@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_bytes(array):
+        return array.tobytes()
