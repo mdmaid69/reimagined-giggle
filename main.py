@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def divide_numbers(x, y):
-        return x / y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_floor(x):
+        return math.floor(x)
