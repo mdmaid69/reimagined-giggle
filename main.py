@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def add_numbers(a, b):
+        return a + b
