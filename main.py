@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_date():
+        return datetime.date.today()
