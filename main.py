@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
