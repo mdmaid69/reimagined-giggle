@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def remove_duplicates(lst):
+        return list(set(lst))
