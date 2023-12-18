@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def greet(name):
-        print(f"Hello, {name}!")
+from collections import Counter
+print(Counter("hello world"))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
