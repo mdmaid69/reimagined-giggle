@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
