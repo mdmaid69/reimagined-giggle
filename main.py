@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
