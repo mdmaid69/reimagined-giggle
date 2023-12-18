@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
