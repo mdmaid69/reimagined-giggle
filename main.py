@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import tensorflow as tf
-print(tf.__version__)
+import sys
+def print_python_version():
+        return sys.version
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
