@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
