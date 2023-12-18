@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
