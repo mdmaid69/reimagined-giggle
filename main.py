@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-print(time.time())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
