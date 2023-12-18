@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
