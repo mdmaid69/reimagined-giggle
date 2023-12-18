@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def convert_to_binary(n):
-        return bin(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
