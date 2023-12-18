@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_work(force, distance):
+        return force * distance
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
