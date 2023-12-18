@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
