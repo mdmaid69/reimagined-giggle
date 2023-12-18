@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
