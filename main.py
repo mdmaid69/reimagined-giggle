@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-print(os.getcwd())
+def calculate_acceleration(speed, time):
+        return speed / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
