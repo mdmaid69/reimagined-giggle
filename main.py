@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+name = "Python"
+print("Hello,", name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
