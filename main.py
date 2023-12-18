@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
