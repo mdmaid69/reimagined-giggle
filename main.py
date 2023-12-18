@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def convert_to_octal(n):
+        return oct(n)
