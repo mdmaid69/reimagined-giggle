@@ -1,5 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
