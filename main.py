@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
