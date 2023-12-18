@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
