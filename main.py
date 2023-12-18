@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
