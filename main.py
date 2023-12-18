@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
