@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+name = "Python"
+print("Hello,", name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
