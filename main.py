@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
