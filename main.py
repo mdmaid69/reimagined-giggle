@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def count_characters(sentence):
+        return len(sentence)
