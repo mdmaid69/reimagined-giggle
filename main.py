@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
