@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
