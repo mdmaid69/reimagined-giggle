@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
