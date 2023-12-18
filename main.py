@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
