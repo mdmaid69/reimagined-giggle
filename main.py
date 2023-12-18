@@ -1,5 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
