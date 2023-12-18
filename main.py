@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
