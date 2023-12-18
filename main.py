@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
