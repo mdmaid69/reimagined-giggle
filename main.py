@@ -1,5 +1,8 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
