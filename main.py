@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def cube_number(x):
+        return x**3
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
