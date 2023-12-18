@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
