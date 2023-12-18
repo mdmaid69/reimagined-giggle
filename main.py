@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_sine(x):
+        return math.sin(x)
