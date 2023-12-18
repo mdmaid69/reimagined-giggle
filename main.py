@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def greet(name):
-        print(f"Hello, {name}!")
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
