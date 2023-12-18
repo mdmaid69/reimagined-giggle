@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
