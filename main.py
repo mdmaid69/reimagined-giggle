@@ -1,4 +1,9 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def subtract_numbers(x, y):
-        return x - y
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
