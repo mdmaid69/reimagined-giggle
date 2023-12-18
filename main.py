@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def square_number(x):
+        return x**2
