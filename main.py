@@ -1,5 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
