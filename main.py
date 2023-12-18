@@ -1,8 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
