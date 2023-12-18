@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
