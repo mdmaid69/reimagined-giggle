@@ -1,5 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
