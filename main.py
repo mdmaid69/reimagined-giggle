@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
