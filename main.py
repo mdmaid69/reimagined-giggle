@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
