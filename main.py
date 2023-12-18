@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
