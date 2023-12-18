@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-print(os.getcwd())
+  def cube_number(x):
+        return x**3
+def divide_numbers(x, y):
+        return x / y
