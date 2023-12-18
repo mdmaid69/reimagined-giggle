@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
