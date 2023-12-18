@@ -1,6 +1,8 @@
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
