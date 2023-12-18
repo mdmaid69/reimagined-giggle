@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
