@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
