@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
