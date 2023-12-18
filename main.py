@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import sys
-def exit_program():
-        sys.exit()
+import tensorflow as tf
+print(tf.__version__)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
