@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
