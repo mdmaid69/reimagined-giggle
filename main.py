@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def convert_to_binary(n):
+        return bin(n)
