@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
