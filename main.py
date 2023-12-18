@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
