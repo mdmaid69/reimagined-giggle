@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
