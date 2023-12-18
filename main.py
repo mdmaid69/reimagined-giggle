@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
