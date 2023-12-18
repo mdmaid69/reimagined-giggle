@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def convert_to_binary(n):
-        return bin(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_stack():
+        return collections.deque()
