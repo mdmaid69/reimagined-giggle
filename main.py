@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
