@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import os
+def change_working_directory(path):
+        os.chdir(path)
