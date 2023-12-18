@@ -1,5 +1,5 @@
 import time
-def get_current_time():
-        return time.time()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print(time.time())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
