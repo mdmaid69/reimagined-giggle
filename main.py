@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
