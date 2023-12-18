@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_as_int(array):
+        return int(array[0])
