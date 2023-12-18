@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
