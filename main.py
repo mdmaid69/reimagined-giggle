@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_dict():
+        return collections.UserDict()
