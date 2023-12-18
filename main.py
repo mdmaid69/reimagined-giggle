@@ -1,7 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def sort_list(lst):
+        return sorted(lst)
