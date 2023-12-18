@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import sys
+def print_python_version():
+        print(sys.version)
