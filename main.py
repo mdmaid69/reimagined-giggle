@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
