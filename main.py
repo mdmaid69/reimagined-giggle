@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+for i in range(5):
+        print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
