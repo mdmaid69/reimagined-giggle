@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
