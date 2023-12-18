@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
