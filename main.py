@@ -1,4 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
