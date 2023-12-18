@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
