@@ -1,11 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def convert_to_octal(n):
+        return oct(n)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
