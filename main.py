@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
