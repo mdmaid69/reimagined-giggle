@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
