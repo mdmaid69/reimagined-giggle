@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def find_min(lst):
-        return min(lst)
+def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
