@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def greet(name):
-        print(f"Hello, {name}!")
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
