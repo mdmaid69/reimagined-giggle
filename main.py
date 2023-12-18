@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def convert_to_binary(n):
+        return bin(n)
