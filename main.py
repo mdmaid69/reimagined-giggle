@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pressure(force, area):
+        return force / area
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
