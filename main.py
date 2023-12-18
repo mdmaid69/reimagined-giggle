@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_density(mass, volume):
-        return mass / volume
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
