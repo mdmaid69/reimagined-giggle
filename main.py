@@ -1,4 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-print("Hello, world!")
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
