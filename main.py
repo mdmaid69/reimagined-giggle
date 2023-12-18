@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
