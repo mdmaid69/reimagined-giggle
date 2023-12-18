@@ -1,4 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-print("Hello, world!")
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
