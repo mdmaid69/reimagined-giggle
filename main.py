@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def is_even(n):
+        return n % 2 == 0
