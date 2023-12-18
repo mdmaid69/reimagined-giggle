@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
