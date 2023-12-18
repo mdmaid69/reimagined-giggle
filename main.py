@@ -1,7 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_as_memoryview(array):
+        return memoryview(array)
