@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Characters:", len(text))
