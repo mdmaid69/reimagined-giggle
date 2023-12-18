@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_current_directory():
+        return os.getcwd()
+import time
+def get_time_since_epoch():
+        return time.time()
