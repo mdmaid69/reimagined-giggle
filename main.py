@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
