@@ -1,4 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_pressure(force, area):
-        return force / area
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
