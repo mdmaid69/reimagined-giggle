@@ -1,6 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
