@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def count_elements(lst):
-        return len(lst)
+  def sort_list(lst):
+        return sorted(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
