@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import datetime
+print(datetime.datetime.now())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
