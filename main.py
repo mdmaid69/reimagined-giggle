@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import array
-def get_bytes_from_array(array):
+def convert_array_to_bytes(array):
         return array.tobytes()
+import numpy as np
+print(np.array([1, 2, 3]))
