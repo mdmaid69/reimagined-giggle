@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def create_user_string():
+        return collections.UserString()
