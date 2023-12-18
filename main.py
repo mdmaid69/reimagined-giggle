@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
