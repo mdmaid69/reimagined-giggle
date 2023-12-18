@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
