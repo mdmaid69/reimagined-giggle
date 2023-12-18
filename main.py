@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
