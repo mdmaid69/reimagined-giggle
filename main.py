@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
