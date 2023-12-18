@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
