@@ -1,7 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
