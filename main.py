@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-print(time.time())
+import collections
+def create_user_list():
+        return collections.UserList()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
