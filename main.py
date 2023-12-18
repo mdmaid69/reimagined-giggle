@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
