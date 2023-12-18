@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def count_elements(lst):
-        return len(lst)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
