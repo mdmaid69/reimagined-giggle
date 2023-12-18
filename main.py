@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
