@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
