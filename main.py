@@ -1,5 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
