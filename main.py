@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
