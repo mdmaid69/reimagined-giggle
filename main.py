@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
