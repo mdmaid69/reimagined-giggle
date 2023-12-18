@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
