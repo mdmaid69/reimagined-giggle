@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def reverse_array(array):
+        array.reverse()
