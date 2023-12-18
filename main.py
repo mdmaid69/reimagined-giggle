@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
