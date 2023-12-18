@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def cube_number(x):
+        return x**3
