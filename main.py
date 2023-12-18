@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+print(json.dumps({"name": "John", "age": 30}))
