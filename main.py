@@ -1,6 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
