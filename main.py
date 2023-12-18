@@ -1,7 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def square_number(x):
+        return x**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
