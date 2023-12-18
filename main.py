@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def convert_to_hex(n):
+        return hex(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
