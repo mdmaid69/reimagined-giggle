@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import platform
-def get_python_version():
-        return platform.python_version()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
