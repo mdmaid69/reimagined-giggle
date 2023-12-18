@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def reverse_array(array):
+        array.reverse()
