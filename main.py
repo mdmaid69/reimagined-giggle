@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
