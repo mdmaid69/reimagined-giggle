@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
