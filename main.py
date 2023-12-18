@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
