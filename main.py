@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_current_directory():
+        return os.getcwd()
