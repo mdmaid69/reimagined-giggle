@@ -1,8 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
