@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_unique_words(sentence):
+        return set(sentence.split())
+import collections
+def create_stack():
+        return collections.deque()
