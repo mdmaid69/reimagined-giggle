@@ -1,6 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def get_directory_name(path):
+        return os.path.dirname(path)
