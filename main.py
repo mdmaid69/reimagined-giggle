@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
