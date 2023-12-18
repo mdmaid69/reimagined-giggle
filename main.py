@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
