@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
