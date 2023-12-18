@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def reverse_array(array):
-        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
