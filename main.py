@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
