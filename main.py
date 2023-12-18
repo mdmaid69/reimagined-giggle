@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def square_number(x):
-        return x**2
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
