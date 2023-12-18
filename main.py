@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
