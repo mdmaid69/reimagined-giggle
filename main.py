@@ -1,6 +1,10 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
