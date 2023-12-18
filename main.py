@@ -1,5 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
