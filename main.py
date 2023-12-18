@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
