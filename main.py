@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
