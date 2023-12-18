@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
