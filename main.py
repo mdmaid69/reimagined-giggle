@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
