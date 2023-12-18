@@ -1,6 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
