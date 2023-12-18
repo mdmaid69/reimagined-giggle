@@ -1,4 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-for i in range(10): print(i)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_user_string():
+        return collections.UserString()
