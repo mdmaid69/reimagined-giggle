@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
