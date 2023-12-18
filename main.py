@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_words(sentence):
+        return len(sentence.split())
+  import sys
+  def get_python_version():
+        return sys.version
