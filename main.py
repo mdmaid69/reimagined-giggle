@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def cube_number(x):
+        return x**3
