@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
