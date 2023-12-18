@@ -1,6 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
