@@ -1,5 +1,9 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
