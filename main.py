@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
