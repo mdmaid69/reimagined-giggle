@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def square_number(x):
-        return x**2
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
