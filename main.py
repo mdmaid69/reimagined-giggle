@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def find_min(numbers):
-        return min(numbers)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
