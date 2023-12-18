@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
