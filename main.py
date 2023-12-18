@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
