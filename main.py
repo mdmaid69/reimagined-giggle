@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_unique_words(sentence):
+        return set(sentence.split())
