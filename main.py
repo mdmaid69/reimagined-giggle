@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
