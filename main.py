@@ -1,6 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
