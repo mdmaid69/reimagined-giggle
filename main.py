@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
