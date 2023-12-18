@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
