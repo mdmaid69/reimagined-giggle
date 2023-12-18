@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import collections
-def create_counter():
-        return collections.Counter()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
