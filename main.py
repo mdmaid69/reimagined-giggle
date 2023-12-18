@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def exit_program():
+        sys.exit()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
