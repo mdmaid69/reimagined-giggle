@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
