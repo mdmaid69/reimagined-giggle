@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
