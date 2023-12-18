@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
