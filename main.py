@@ -1,6 +1,10 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def get_array_length(array):
+        return len(array)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
