@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
