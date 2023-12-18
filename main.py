@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
