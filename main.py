@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
