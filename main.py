@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+print("Hello, world!")
