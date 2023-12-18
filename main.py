@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def convert_to_octal(n):
+        return oct(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
