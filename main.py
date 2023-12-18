@@ -1,8 +1,7 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import unittest
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import socket
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
