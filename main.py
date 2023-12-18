@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
