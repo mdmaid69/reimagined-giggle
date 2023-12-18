@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
