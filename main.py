@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
