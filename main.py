@@ -1,6 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
