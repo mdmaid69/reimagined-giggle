@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def convert_to_binary(n):
+        return bin(n)
