@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
