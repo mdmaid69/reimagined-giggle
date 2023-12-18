@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cosine(x):
+        return math.cos(x)
