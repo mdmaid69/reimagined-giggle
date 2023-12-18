@@ -1,5 +1,3 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def add_numbers(x, y):
+        return x + y
+print(sum(range(10)))
