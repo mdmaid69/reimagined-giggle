@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
