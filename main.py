@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
