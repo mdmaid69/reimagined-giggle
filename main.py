@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
