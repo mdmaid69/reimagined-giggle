@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
