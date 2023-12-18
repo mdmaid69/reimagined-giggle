@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
