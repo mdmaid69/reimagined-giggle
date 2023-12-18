@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
