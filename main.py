@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def convert_to_hex(n):
-        return hex(n)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_as_int(array):
+        return int(array[0])
