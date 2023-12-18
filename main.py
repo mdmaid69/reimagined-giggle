@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def get_current_time():
+        return time.time()
+def calculate_speed(distance, time):
+        return distance / time
