@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_list(array):
+        return array.tolist()
