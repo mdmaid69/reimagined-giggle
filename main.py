@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
