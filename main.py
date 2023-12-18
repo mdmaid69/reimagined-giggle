@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import sys
+  def get_python_version():
+        return sys.version
+x = 10
+y = 20
+print("Sum:", x + y)
