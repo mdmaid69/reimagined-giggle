@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
