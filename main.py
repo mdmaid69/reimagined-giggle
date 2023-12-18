@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
