@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
