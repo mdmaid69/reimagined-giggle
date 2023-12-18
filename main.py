@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
