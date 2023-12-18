@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
