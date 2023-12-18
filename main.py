@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
