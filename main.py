@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
