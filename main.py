@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_pressure(force, area):
+        return force / area
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
