@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def count_elements(lst):
-        return len(lst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def reverse_string(s):
+        return s[::-1]
