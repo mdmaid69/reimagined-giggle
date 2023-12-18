@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
