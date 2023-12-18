@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
