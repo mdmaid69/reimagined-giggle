@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
