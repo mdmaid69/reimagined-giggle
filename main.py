@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_max(lst):
+        return max(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
