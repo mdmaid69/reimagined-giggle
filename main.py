@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def reverse_string(s):
-        return s[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
