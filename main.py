@@ -1,12 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
