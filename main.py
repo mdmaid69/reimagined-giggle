@@ -1,5 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def reverse_string(s):
+        return s[::-1]
+def find_min(numbers):
+        return min(numbers)
