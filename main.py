@@ -1,6 +1,4 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+print(math.pi)
+  def is_odd(n):
+        return n % 2 != 0
