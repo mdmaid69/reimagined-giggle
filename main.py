@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
