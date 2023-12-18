@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
