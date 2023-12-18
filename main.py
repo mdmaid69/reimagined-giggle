@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
