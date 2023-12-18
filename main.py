@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def is_palindrome(s):
+        return s == s[::-1]
