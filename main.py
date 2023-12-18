@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def convert_to_hex(n):
-        return hex(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_work(force, distance):
+        return force * distance
