@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_min(lst):
-        return min(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_work(force, distance):
+        return force * distance
