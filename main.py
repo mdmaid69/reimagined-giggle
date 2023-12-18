@@ -1,6 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
