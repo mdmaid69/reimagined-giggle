@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
