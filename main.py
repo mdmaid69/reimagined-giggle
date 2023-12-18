@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
