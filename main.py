@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
