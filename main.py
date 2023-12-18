@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
