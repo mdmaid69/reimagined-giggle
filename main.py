@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
