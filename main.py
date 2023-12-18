@@ -1,11 +1,4 @@
-import random
-print(random.randint(0, 100))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def multiply_numbers(x, y):
+        return x * y
+def calculate_acceleration(speed, time):
+        return speed / time
