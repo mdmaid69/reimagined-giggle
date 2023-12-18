@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def divide_numbers(x, y):
-        return x / y
+print(math.pi)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
