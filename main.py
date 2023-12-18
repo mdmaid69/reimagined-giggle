@@ -1,5 +1,6 @@
 import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_current_directory():
+        return os.getcwd()
