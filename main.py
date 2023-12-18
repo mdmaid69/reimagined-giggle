@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
