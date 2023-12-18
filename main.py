@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_binary(n):
+        return bin(n)
+  def multiply_numbers(x, y):
+        return x * y
