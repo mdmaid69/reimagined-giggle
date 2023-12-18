@@ -1,6 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
