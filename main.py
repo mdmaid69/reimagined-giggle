@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
