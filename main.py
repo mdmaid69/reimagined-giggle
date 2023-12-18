@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
