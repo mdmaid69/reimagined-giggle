@@ -1,9 +1,7 @@
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
