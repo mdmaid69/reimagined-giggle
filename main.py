@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
