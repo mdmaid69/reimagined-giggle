@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_pressure(force, area):
+        return force / area
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
