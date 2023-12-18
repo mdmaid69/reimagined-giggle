@@ -1,16 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
