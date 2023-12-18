@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-print(os.getcwd())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
