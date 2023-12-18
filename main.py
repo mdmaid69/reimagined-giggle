@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
