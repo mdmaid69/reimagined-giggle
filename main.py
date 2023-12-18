@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
