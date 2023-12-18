@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_work(force, distance):
+        return force * distance
