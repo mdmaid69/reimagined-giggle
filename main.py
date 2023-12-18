@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
