@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import sys
-print(sys.version)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
