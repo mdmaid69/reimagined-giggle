@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
