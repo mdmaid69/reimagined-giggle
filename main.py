@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
