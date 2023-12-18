@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
