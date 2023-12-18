@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
