@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_max(numbers):
-        return max(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def convert_to_hex(n):
+        return hex(n)
