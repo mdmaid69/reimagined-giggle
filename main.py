@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import datetime
+print(datetime.datetime.now())
