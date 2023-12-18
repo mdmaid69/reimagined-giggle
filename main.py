@@ -1,12 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
