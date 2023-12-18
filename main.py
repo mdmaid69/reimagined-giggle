@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
