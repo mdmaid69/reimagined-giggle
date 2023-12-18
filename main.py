@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import platform
+def get_python_version():
+        return platform.python_version()
