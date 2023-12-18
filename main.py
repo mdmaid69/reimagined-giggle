@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def reverse_list(lst):
-        return lst[::-1]
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
