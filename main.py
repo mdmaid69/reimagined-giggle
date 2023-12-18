@@ -1,6 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def convert_to_octal(n):
+        return oct(n)
+print("Hello, world!")
