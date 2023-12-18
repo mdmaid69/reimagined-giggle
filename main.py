@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
