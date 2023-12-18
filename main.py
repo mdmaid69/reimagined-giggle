@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
