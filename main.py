@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+print("Hello, world!")
+import array
+def get_array_as_float(array):
+        return float(array[0])
