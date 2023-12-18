@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_speed(distance, time):
+        return distance / time
