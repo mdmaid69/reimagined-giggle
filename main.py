@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def count_words(sentence):
+        return len(sentence.split())
+def count_words(sentence):
+        return len(sentence.split())
