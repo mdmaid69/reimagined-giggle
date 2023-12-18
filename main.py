@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import collections
+def create_user_list():
+        return collections.UserList()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
