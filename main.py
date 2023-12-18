@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
