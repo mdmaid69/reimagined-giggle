@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
