@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_work(force, distance):
+        return force * distance
