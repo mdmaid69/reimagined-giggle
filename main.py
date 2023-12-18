@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def find_max(numbers):
+        return max(numbers)
+def is_odd(n):
+        return n % 2 != 0
