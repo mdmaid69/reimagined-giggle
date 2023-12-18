@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def subtract_numbers(x, y):
+        return x - y
