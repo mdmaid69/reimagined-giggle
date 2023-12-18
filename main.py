@@ -1,5 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def get_array_item_count(array, item):
+        return array.count(item)
