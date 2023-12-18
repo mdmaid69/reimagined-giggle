@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
