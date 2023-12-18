@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def convert_to_binary(n):
+        return bin(n)
