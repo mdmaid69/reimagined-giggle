@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
