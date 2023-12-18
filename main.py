@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
