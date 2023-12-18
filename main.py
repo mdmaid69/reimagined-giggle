@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
