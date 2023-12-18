@@ -1,6 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
