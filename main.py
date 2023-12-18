@@ -1,4 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
