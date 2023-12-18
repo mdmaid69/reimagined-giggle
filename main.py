@@ -1,5 +1,8 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
