@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
