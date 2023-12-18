@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
