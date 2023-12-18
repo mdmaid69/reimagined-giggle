@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
