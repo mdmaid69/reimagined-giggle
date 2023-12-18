@@ -1,4 +1,8 @@
-import sys
-print(sys.version)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
