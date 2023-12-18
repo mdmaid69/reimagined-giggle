@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_error_function(x):
+        return math.erf(x)
