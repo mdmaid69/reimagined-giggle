@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def find_max(numbers):
+        return max(numbers)
