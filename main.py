@@ -1,5 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
+def replace_all_occurrences(pattern, replacement, string):
         return re.sub(pattern, replacement, string)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_itemsize(array):
+        return array.itemsize
