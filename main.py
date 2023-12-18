@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
