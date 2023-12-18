@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
