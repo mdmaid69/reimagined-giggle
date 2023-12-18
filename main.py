@@ -1,7 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
