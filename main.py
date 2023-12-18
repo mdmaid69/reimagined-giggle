@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
