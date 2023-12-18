@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
