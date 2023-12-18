@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
