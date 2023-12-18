@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def square_number(x):
-        return x**2
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
