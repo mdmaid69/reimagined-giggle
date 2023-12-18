@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_acceleration(speed, time):
-        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
