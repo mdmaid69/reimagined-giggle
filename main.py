@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
