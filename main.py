@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
