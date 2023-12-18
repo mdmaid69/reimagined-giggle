@@ -1,6 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+for i in range(5):
+        print(i)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
