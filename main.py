@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
