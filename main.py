@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_acceleration(speed, time):
+        return speed / time
