@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
