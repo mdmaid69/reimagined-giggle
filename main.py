@@ -1,8 +1,7 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
