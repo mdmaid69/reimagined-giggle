@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
