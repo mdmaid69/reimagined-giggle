@@ -1,5 +1,10 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def greet(name):
-        print(f"Hello, {name}!")
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
