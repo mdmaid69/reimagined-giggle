@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
