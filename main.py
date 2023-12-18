@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
