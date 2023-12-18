@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
