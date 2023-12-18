@@ -1,5 +1,5 @@
+def add_numbers(a, b):
+        return a + b
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def get_string_from_array(array):
+        return array.tobytes()
