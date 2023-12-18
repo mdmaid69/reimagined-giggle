@@ -1,6 +1,12 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import sys
-def exit_program():
-        sys.exit()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
