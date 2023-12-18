@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
