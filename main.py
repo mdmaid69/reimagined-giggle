@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
