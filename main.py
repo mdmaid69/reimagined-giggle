@@ -1,6 +1,5 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def create_user_list():
+        return collections.UserList()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
