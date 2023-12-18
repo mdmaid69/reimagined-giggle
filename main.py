@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_cosine(x):
+        return math.cos(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
