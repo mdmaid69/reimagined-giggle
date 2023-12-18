@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_volume(length, width, height):
-        return length * width * height
+  def delete_file(file_name):
+        os.remove(file_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
