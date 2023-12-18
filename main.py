@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
