@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def find_min(lst):
-        return min(lst)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_int(array):
+        return int(array[0])
