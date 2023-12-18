@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def remove_directory(path):
+        os.rmdir(path)
