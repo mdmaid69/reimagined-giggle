@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
