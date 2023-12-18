@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
