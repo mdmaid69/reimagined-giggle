@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_item(array, i):
-        return array[i]
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
