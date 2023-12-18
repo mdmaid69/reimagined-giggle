@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def cube_number(x):
+        return x**3
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
