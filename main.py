@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def is_palindrome(s):
-        return s == s[::-1]
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
