@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def cube_number(x):
-        return x**3
+for i in range(10): print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
