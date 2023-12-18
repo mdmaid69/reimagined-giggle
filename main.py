@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
