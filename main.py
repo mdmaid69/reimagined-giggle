@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def convert_to_hex(n):
+        return hex(n)
