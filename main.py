@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
