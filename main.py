@@ -1,5 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
