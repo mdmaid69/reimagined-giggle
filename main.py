@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
