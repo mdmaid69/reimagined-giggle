@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
