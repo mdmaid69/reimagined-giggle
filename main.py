@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def square_number(x):
+        return x**2
