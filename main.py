@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
