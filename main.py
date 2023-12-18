@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
