@@ -1,3 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-print("Hello, world!")
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
