@@ -1,7 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
