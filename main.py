@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def count_elements(lst):
+        return len(lst)
