@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def add_numbers(x, y):
-        return x + y
+for i in range(5):
+        print(i)
+import os
+def remove_directory(path):
+        os.rmdir(path)
