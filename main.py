@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
