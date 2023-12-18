@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def is_palindrome(s):
+        return s == s[::-1]
