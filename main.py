@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
