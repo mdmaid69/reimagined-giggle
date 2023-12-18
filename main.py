@@ -1,9 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
