@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
