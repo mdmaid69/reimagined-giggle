@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
