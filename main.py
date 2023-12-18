@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_area_rectangle(l, w):
+        return l * w
