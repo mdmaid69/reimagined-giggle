@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_bool(array):
+        return bool(array)
