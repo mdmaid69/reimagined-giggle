@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
