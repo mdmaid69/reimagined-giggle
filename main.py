@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
