@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
