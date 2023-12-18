@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
