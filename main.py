@@ -1,5 +1,5 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
