@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+name = "Python"
+print("Hello,", name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
