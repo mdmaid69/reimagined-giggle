@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
