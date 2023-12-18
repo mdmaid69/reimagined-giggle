@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
