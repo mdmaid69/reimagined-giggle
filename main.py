@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
