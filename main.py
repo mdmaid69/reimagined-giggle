@@ -1,6 +1,7 @@
 import time
 def get_current_time():
-        return time.ctime()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+        return time.time()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
