@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
