@@ -1,6 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
