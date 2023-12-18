@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
