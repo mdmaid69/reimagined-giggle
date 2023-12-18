@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
