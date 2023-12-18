@@ -1,7 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_work(force, distance):
+        return force * distance
