@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
