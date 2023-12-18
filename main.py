@@ -1,5 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def find_min(lst):
-        return min(lst)
+def get_array_as_set(array):
+        return set(array)
