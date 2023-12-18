@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_array_to_list(array):
+        return array.tolist()
