@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import random
+print(random.randint(0, 100))
