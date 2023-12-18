@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
