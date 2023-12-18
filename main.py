@@ -1,8 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def cube_number(x):
+        return x**3
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
