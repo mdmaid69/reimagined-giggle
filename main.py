@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def reverse_string(s):
+        return s[::-1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
