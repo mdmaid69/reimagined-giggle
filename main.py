@@ -1,6 +1,7 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
