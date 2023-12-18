@@ -1,5 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_to_binary(n):
+        return bin(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
