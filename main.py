@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_work(force, distance):
+        return force * distance
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
