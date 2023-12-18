@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import numpy as np
+print(np.array([1, 2, 3]))
