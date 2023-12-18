@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def greet(name):
-        print(f"Hello, {name}!")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
