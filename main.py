@@ -1,5 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
