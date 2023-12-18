@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
