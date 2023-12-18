@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def count_words(sentence):
+        return len(sentence.split())
