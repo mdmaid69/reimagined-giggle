@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
