@@ -1,7 +1,11 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
