@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
