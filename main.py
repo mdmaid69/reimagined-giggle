@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def find_min(numbers):
+        return min(numbers)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
