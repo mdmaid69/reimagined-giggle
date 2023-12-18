@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
