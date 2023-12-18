@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import tensorflow as tf
+print(tf.__version__)
