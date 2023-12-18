@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+for i in range(5):
+        print(i)
