@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
