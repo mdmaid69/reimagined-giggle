@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def reverse_list(lst):
+        return lst[::-1]
+def is_palindrome(s):
+        return s == s[::-1]
