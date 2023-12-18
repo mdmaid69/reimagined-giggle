@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import platform
-def get_os_info():
-        return platform.uname()
+  def multiply_numbers(x, y):
+        return x * y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
