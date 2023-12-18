@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
