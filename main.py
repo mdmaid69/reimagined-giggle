@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
