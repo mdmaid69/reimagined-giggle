@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_min(lst):
-        return min(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
