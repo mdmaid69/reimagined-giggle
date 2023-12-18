@@ -1,6 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_typecode(array):
+        return array.typecode
