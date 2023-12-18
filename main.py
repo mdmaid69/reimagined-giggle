@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
