@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def convert_to_hex(n):
+        return hex(n)
+def find_max(lst):
+        return max(lst)
