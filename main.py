@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import array
-def get_array_as_str(array):
-        return str(array)
+def append_to_array(array, item):
+        array.append(item)
