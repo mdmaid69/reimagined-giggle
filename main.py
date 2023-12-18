@@ -1,5 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
