@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
