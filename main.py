@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
