@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def sort_list(lst):
+        return sorted(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
