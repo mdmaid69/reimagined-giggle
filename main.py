@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
