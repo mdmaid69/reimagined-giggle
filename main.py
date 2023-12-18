@@ -1,7 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
