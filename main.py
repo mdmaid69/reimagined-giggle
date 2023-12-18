@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def multiply_numbers(x, y):
-        return x * y
+import datetime
+print(datetime.datetime.now())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
