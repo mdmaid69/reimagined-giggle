@@ -1,6 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
