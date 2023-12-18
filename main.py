@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def convert_to_hex(n):
+        return hex(n)
