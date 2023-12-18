@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_as_bool(array):
+        return bool(array)
