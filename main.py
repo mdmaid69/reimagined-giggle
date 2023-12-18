@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
