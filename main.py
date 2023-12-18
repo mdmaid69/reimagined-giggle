@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
