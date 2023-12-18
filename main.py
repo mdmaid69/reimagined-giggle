@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def convert_to_binary(n):
-        return bin(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import tensorflow as tf
+print(tf.__version__)
