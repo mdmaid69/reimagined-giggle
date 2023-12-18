@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
