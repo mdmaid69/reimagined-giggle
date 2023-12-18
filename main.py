@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
