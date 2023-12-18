@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def clear_array(array):
+        array *= 0
