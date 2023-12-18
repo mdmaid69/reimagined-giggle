@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_directory_name(path):
+        return os.path.dirname(path)
