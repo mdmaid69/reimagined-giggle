@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import sys
+print(sys.version)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
