@@ -1,4 +1,5 @@
 import math
-print(math.pi)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+from collections import Counter
+print(Counter("hello world"))
