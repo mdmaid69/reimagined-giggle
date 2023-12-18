@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
