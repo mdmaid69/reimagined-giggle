@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-name = "Python"
-print("Hello,", name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def count_words(sentence):
+        return len(sentence.split())
