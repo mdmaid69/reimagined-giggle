@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
