@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import datetime
+def get_today_date():
+        return datetime.date.today()
