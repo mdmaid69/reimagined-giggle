@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def reverse_string(s):
+        return s[::-1]
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
