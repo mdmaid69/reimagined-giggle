@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def greet(name):
-        print(f"Hello, {name}!")
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
