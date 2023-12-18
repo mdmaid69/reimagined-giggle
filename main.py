@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def reverse_string(s):
+        return s[::-1]
