@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_str(array):
+        return str(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
