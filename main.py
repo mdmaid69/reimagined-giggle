@@ -1,5 +1,8 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
