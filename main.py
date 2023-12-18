@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
