@@ -1,6 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def convert_to_hex(n):
+        return hex(n)
