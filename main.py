@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
