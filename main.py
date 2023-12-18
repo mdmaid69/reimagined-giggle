@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
