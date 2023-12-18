@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def greet(name):
+        print(f"Hello, {name}!")
