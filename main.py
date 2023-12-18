@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def convert_to_hex(n):
-        return hex(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
