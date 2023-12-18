@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
