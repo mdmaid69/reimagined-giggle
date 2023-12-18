@@ -1,8 +1,5 @@
-for i in range(5):
-        print(i)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
