@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
