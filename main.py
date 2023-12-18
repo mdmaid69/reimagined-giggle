@@ -1,5 +1,4 @@
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
