@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_power(work, time):
+        return work / time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
