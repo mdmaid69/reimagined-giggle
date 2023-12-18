@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
