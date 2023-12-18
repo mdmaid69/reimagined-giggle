@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def is_even(n):
+        return n % 2 == 0
