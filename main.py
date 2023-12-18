@@ -1,5 +1,5 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
