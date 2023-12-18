@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+print(os.getcwd())
