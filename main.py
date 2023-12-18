@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
