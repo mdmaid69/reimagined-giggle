@@ -1,5 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
