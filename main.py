@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_pressure(force, area):
-        return force / area
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import numpy as np
+print(np.array([1, 2, 3]))
