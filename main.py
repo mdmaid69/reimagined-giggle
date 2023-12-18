@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+print([x**2 for x in range(10)])
+import collections
+def create_user_string():
+        return collections.UserString()
