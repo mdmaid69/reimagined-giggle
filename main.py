@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_as_repr(array):
+        return repr(array)
