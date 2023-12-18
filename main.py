@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
