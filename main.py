@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
