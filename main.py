@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
