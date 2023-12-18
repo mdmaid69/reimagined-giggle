@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def count_elements(lst):
+        return len(lst)
