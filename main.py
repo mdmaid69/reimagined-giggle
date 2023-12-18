@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
