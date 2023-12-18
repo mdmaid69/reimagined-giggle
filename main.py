@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
