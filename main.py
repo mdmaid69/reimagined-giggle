@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
