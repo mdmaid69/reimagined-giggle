@@ -1,4 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
