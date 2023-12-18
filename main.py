@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+print([x**2 for x in range(10)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
