@@ -1,6 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def convert_to_octal(n):
+        return oct(n)
