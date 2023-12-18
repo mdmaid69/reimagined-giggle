@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import tensorflow as tf
+print(tf.__version__)
