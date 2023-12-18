@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def remove_duplicates(lst):
+        return list(set(lst))
