@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
