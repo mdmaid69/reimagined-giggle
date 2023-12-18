@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
