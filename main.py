@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def reverse_list(lst):
+        return lst[::-1]
