@@ -1,3 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-print([x**2 for x in range(10)])
+import platform
+def get_python_version():
+        return platform.python_version()
+def sort_list(lst):
+        return sorted(lst)
