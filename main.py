@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
