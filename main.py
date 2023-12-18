@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
