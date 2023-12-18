@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def subtract_numbers(x, y):
+        return x - y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
