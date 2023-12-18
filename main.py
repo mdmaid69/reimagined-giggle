@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_min(numbers):
-        return min(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import sys
+def print_python_version():
+        print(sys.version)
