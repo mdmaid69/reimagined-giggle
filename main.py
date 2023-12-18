@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_as_int(array):
+        return int(array[0])
