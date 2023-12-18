@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import random
+print(random.randint(0, 100))
