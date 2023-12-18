@@ -1,6 +1,11 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
