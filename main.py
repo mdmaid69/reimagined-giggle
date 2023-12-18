@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
