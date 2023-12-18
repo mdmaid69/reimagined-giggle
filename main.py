@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def multiply_numbers(x, y):
+        return x * y
