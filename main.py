@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
