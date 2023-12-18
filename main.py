@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def is_palindrome(s):
-        return s == s[::-1]
+def remove_duplicates(lst):
+        return list(set(lst))
+for i in range(5):
+        print(i)
