@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
