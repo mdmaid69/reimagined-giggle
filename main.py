@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
