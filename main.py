@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
