@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
