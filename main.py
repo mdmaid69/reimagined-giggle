@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
