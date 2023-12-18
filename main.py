@@ -1,5 +1,10 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def add_numbers(x, y):
+        return x + y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
