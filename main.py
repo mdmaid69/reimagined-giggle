@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
