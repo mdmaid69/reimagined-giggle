@@ -1,4 +1,9 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
