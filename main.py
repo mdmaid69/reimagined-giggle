@@ -1,5 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
