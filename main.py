@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
