@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
