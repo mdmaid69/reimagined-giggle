@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
