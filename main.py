@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_pressure(force, area):
+        return force / area
+def reverse_string(s):
+        return s[::-1]
