@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
