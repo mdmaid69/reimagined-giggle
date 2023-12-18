@@ -1,7 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
