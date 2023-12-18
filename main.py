@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
