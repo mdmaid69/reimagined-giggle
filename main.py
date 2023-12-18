@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def is_odd(n):
+        return n % 2 != 0
+import time
+def get_current_time():
+        return time.time()
