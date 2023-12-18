@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
