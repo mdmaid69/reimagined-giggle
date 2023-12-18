@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
