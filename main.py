@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
