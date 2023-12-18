@@ -1,5 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+text = "Hello, world!"
+print("Characters:", len(text))
