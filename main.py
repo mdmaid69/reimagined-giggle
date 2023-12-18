@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
