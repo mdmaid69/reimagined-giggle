@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_arc_sine(x):
+        return math.asin(x)
