@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def convert_to_binary(n):
+        return bin(n)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
