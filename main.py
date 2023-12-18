@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
