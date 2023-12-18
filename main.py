@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
