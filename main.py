@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
