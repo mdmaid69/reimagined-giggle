@@ -1,4 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-print(sum(range(10)))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
