@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import re
-print(re.match("h.*o", "hello world"))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
