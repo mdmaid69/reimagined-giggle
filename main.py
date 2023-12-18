@@ -1,7 +1,12 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
