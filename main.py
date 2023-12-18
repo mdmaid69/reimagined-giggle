@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
