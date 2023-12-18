@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
