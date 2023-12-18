@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
