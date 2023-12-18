@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def count_elements(lst):
-        return len(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
