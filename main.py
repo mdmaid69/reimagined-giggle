@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
