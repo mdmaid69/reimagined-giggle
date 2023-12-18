@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
