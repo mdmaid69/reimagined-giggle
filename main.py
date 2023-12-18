@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import platform
+def get_os_info():
+        return platform.uname()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
