@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import numpy as np
-print(np.array([1, 2, 3]))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
