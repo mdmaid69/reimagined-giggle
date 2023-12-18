@@ -1,6 +1,4 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+print(sum(range(10)))
