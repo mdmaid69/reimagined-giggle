@@ -1,6 +1,10 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
