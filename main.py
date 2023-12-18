@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import time
+def get_current_time():
+        return time.time()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
