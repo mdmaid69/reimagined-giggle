@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_user_string():
-        return collections.UserString()
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
