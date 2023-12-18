@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_work(force, distance):
-        return force * distance
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
