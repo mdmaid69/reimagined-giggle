@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
