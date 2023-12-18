@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
