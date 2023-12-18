@@ -1,5 +1,11 @@
-def calculate_pressure(force, area):
-        return force / area
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_max(lst):
+        return max(lst)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
