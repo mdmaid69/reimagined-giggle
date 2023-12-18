@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def add_numbers(a, b):
-        return a + b
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def square_number(x):
+        return x**2
