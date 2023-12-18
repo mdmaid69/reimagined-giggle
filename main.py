@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
