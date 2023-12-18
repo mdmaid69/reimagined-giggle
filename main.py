@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import numpy as np
-print(np.array([1, 2, 3]))
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
