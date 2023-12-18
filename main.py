@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def set_array_item(array, i, item):
+        array[i] = item
+def find_max(numbers):
+        return max(numbers)
