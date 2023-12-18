@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
