@@ -1,5 +1,3 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_acceleration(speed, time):
-        return speed / time
+print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
