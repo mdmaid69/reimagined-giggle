@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
