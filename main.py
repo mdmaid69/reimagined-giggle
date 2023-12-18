@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def add_numbers(x, y):
-        return x + y
+import os
+print(os.getcwd())
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
