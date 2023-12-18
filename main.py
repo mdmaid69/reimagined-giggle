@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def get_array_as_repr(array):
+        return repr(array)
