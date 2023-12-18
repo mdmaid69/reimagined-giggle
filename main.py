@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
