@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
