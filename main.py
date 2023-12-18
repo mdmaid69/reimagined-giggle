@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
