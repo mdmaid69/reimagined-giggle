@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def multiply_numbers(x, y):
-        return x * y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import tensorflow as tf
+print(tf.__version__)
