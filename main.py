@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
 import datetime
-print(datetime.datetime.now())
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
