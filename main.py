@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
