@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import sys
-  def get_python_version():
-        return sys.version
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
