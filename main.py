@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
