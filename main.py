@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
