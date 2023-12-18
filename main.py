@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import getpass
+def get_username():
+        return getpass.getuser()
