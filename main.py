@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
