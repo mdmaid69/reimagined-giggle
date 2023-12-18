@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
