@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
