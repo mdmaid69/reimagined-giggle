@@ -1,4 +1,13 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
