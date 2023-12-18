@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
