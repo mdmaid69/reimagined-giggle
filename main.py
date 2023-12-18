@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
