@@ -1,6 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_acceleration(speed, time):
-        return speed / time
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
