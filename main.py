@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+def get_current_time():
+        return time.time()
