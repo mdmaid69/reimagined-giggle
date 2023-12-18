@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_acceleration(speed, time):
-        return speed / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
