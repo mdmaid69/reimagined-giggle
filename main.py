@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
