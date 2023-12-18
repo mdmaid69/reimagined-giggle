@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
