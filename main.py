@@ -1,5 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def split_path(path):
-        return os.path.split(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
