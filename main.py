@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def add_numbers(x, y):
+        return x + y
