@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
