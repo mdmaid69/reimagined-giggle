@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
