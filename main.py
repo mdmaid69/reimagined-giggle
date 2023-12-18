@@ -1,7 +1,9 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
