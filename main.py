@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def change_working_directory(path):
+        os.chdir(path)
