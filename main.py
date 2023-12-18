@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def add_numbers(a, b):
+        return a + b
