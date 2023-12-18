@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_power(work, time):
-        return work / time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def convert_array_to_list(array):
+        return array.tolist()
