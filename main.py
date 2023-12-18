@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
