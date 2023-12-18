@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+print(os.getcwd())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
