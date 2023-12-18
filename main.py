@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_max(numbers):
+        return max(numbers)
+  def reverse_list(lst):
+        return lst[::-1]
