@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
