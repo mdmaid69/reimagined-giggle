@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_pressure(force, area):
+        return force / area
