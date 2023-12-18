@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
