@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
