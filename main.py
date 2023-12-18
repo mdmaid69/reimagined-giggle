@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
