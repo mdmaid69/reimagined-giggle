@@ -1,7 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
