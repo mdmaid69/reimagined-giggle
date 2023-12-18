@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
