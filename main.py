@@ -1,6 +1,3 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+for i in range(10): print(i)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
