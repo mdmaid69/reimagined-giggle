@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+def exit_program():
+        sys.exit()
