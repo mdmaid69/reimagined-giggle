@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
