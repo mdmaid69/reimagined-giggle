@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
