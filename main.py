@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_sine(x):
+        return math.sin(x)
