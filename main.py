@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
