@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def subtract_numbers(x, y):
+        return x - y
