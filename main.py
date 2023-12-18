@@ -1,8 +1,5 @@
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def create_priority_queue():
+        return collections.deque()
+def calculate_area_circle(r):
+        return 3.14 * r**2
