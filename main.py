@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
