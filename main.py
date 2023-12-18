@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def remove_duplicates(lst):
+        return list(set(lst))
