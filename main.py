@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
