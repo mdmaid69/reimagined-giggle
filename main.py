@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
