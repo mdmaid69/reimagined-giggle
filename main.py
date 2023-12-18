@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import random
+print(random.randint(0, 100))
+def sort_numbers(numbers):
+        return sorted(numbers)
