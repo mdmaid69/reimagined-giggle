@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
