@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+print([x**2 for x in range(10)])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
