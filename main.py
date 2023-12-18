@@ -1,5 +1,7 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import time
-print(time.time())
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_length(array):
+        return len(array)
