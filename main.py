@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
