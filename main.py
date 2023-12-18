@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
