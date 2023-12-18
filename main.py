@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
