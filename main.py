@@ -1,4 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print([x**2 for x in range(10)])
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
