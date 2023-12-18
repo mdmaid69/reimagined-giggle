@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
