@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_counter():
-        return collections.Counter()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
