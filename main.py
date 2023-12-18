@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
