@@ -1,6 +1,11 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
