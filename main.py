@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def set_array_item(array, i, item):
+        array[i] = item
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
