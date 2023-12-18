@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
