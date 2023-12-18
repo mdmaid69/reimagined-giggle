@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
