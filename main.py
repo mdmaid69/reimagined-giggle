@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+print(math.pi)
