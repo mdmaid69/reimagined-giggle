@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_user_string():
+        return collections.UserString()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
