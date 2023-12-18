@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import tensorflow as tf
+print(tf.__version__)
+  def count_elements(lst):
+        return len(lst)
