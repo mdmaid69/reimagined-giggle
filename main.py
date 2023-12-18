@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
