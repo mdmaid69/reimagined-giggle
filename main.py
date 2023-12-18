@@ -1,12 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
