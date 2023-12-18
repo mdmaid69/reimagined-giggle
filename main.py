@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
