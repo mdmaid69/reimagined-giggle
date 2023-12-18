@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
