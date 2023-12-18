@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
