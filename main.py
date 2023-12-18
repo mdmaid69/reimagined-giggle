@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
