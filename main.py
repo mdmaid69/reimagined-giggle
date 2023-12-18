@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
