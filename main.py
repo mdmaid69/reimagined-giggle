@@ -1,6 +1,7 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
