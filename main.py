@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+for i in range(10): print(i)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
