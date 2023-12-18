@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import platform
+def get_python_version():
+        return platform.python_version()
