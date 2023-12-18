@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def is_palindrome(s):
-        return s == s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
