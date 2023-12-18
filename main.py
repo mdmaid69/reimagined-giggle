@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
