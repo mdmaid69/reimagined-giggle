@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
