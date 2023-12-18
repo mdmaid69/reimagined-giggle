@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def sort_list(lst):
-        return sorted(lst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
