@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
