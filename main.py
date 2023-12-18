@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_user_list():
-        return collections.UserList()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
