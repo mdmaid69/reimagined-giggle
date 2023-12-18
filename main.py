@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def is_even(n):
-        return n % 2 == 0
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
