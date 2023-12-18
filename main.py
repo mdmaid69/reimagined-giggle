@@ -1,6 +1,8 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
