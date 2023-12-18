@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def multiply_numbers(x, y):
+        return x * y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
