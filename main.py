@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
