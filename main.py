@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+x = 10
+y = 20
+print("Sum:", x + y)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
