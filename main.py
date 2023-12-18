@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
