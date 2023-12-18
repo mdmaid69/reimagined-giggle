@@ -1,6 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
