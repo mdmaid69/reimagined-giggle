@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
