@@ -1,5 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+name = "Python"
+print("Hello,", name)
