@@ -1,7 +1,10 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
