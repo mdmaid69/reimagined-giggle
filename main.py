@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
