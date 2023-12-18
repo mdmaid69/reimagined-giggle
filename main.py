@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def cube_number(x):
+        return x**3
+import array
+def get_list_from_array(array):
+        return array.tolist()
