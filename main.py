@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
