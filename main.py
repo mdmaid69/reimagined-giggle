@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import numpy as np
+print(np.array([1, 2, 3]))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
