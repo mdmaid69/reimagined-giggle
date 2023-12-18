@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_as_list(array):
-        return list(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
