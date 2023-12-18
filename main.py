@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
