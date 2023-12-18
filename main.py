@@ -1,5 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import random
-print(random.randint(0, 100))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+def print_python_version():
+        print(sys.version)
