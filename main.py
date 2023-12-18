@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
