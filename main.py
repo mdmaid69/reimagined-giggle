@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def add_numbers(x, y):
-        return x + y
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def find_min(lst):
+        return min(lst)
