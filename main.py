@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
