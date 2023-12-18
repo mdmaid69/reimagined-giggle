@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+print([x**2 for x in range(10)])
