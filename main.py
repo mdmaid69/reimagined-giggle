@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  def square_number(x):
-        return x**2
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
