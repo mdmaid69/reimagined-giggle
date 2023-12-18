@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def divide_numbers(x, y):
+        return x / y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
