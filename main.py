@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import sys
+def print_python_version():
+        print(sys.version)
