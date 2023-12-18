@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def square_number(x):
+        return x**2
+def reverse_list(lst):
+        return lst[::-1]
