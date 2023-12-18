@@ -1,5 +1,8 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
