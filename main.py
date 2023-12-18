@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import time
-def get_current_time():
-        return time.time()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def convert_to_octal(n):
+        return oct(n)
