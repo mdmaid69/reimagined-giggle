@@ -1,5 +1,4 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_max(lst):
-        return max(lst)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+print("Hello, world!")
