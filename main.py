@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
