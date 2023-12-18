@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
