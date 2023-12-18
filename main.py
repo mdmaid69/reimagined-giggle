@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
