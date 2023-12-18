@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
