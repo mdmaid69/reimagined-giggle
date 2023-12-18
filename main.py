@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import datetime
+def get_current_date():
+        return datetime.date.today()
