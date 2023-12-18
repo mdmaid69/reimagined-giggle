@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
