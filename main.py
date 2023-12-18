@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def find_min(numbers):
+        return min(numbers)
