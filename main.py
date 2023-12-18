@@ -1,5 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
