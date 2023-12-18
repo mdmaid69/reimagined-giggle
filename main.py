@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
