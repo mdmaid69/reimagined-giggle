@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_min(lst):
-        return min(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
