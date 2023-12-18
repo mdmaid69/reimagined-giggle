@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def is_palindrome(s):
+        return s == s[::-1]
