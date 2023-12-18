@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
