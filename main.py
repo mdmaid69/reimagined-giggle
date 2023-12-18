@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
