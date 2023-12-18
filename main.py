@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
