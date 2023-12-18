@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
