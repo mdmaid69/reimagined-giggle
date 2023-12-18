@@ -1,8 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import platform
+def get_os_info():
+        return platform.uname()
