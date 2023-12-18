@@ -1,8 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
