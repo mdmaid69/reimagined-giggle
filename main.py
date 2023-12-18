@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
