@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_array_length(array):
-        return len(array)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
