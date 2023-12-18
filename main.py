@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
