@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
