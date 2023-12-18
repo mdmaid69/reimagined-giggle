@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
