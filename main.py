@@ -1,7 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Characters:", len(text))
