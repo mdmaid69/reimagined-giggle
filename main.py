@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def cube_number(x):
+        return x**3
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
