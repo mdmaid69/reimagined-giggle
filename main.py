@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_item(array, i):
-        return array[i]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
