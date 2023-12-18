@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def convert_to_binary(n):
+def convert_to_binary(n):
         return bin(n)
+import array
+def get_array_as_set(array):
+        return set(array)
