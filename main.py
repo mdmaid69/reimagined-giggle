@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def reverse_list(lst):
+        return lst[::-1]
