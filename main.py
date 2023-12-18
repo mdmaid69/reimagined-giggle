@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def sort_numbers(numbers):
-        return sorted(numbers)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import collections
+def create_counter():
+        return collections.Counter()
