@@ -1,6 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
