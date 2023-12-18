@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
