@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
