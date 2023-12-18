@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_speed(distance, time):
-        return distance / time
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
