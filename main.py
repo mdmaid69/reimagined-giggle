@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def cube_number(x):
-        return x**3
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
