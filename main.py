@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def convert_to_octal(n):
+        return oct(n)
