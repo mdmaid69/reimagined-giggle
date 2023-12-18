@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import os
-print(os.getcwd())
+import getpass
+def get_username():
+        return getpass.getuser()
+print(sum(range(10)))
