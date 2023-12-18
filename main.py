@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
