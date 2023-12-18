@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_int(array):
+        return int(array[0])
