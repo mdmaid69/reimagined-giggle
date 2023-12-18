@@ -1,7 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
