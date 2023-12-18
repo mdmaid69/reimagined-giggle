@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  def convert_to_hex(n):
+        return hex(n)
