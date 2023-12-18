@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import logging
-def log_message(message):
-        logging.info(message)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import sys
+def print_python_version():
+        print(sys.version)
