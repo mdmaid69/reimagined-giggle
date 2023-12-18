@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
