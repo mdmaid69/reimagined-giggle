@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def find_max(numbers):
-        return max(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
