@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
