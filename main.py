@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_acceleration(speed, time):
+        return speed / time
