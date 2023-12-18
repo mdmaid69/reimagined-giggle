@@ -1,6 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import sys
-def exit_program():
-        sys.exit()
+def get_array_as_memoryview(array):
+        return memoryview(array)
