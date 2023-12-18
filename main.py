@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
