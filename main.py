@@ -1,7 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import tensorflow as tf
+print(tf.__version__)
+  def add_numbers(x, y):
+        return x + y
