@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
