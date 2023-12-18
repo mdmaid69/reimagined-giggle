@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
