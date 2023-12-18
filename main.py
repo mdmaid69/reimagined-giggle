@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+def exit_program():
+        sys.exit()
