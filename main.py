@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
