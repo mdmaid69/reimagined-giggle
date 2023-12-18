@@ -1,6 +1,8 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_user_string():
-        return collections.UserString()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
