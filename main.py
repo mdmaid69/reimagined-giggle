@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
