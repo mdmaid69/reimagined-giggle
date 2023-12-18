@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
