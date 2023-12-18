@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_area_rectangle(l, w):
-        return l * w
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def count_words(sentence):
+        return len(sentence.split())
