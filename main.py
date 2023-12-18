@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
