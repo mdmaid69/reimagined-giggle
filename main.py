@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
