@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
