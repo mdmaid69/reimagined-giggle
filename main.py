@@ -1,7 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
