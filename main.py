@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import sys
+  def get_python_version():
+        return sys.version
