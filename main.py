@@ -1,5 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
