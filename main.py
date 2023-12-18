@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def square_number(x):
-        return x**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
