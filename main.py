@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_bool(array):
+        return bool(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
