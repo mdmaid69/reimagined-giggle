@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
