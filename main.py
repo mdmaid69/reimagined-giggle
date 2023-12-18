@@ -1,7 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
