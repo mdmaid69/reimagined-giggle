@@ -1,4 +1,8 @@
-import os
-print(os.getcwd())
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
