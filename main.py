@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def convert_to_binary(n):
+        return bin(n)
