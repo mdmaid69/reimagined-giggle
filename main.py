@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def convert_to_octal(n):
+        return oct(n)
