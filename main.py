@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
