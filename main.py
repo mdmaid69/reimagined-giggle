@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
