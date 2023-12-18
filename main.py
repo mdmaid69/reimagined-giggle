@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def convert_to_binary(n):
+        return bin(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
