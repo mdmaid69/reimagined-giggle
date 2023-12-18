@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def get_array_as_bytearray(array):
+        return bytearray(array)
