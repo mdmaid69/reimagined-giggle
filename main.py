@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
