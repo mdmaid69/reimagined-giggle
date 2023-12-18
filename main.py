@@ -1,5 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def convert_to_hex(n):
+        return hex(n)
