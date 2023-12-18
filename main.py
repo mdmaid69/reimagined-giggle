@@ -1,6 +1,8 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
