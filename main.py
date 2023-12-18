@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
