@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_acceleration(speed, time):
-        return speed / time
+for i in range(5):
+        print(i)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
