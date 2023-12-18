@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+x = 10
+y = 20
+print("Sum:", x + y)
