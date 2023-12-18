@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
