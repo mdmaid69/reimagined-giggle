@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
