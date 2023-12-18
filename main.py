@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
