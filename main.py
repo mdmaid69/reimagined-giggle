@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def is_even(n):
+        return n % 2 == 0
