@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def multiply_numbers(x, y):
+        return x * y
