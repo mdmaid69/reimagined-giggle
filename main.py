@@ -1,12 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_exponential(x):
+        return math.exp(x)
