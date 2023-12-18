@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
