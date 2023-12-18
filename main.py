@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def cube_number(x):
+        return x**3
+def convert_to_binary(n):
+        return bin(n)
