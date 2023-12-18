@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def is_palindrome(s):
+        return s == s[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
