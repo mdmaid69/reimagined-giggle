@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_area_circle(r):
+        return 3.14 * r**2
