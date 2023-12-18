@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import tensorflow as tf
-print(tf.__version__)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_float(array):
+        return float(array[0])
