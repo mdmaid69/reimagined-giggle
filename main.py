@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
