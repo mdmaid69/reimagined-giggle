@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import sys
+def print_python_version():
+        print(sys.version)
