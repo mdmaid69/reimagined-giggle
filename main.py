@@ -1,7 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def reverse_list(lst):
+        return lst[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
