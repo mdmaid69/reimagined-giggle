@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def convert_to_hex(n):
+        return hex(n)
