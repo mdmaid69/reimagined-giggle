@@ -1,6 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
