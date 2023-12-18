@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def cube_number(x):
-        return x**3
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import getpass
+def get_username():
+        return getpass.getuser()
