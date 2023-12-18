@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
