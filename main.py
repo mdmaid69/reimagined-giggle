@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
