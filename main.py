@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
