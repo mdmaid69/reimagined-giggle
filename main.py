@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_array_slice(array, i, j):
+        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
