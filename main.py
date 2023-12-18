@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
