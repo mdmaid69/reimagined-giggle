@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import time
+def get_current_time():
+        return time.time()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
