@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_pressure(force, area):
-        return force / area
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
