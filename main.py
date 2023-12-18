@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def convert_to_binary(n):
+        return bin(n)
