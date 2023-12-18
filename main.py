@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-print(random.randint(0, 100))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def clear_array(array):
+        array *= 0
