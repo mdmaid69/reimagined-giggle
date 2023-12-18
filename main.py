@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
