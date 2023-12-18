@@ -1,8 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
