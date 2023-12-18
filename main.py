@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def remove_duplicates(lst):
-        return list(set(lst))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
