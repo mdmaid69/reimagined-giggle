@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
