@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
