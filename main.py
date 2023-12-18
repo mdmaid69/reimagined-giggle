@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_density(mass, volume):
+        return mass / volume
