@@ -1,5 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def remove_duplicates(lst):
+        return list(set(lst))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
