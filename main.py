@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
