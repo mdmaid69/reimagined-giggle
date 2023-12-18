@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
