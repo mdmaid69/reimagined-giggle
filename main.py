@@ -1,8 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
