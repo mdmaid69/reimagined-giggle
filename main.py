@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
