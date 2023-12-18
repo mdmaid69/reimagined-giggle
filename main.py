@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import time
+print(time.time())
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
