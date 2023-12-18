@@ -1,7 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import logging
+def log_message(message):
+        logging.info(message)
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
