@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def add_numbers(x, y):
-        return x + y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
