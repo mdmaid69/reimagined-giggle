@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
