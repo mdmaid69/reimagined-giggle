@@ -1,6 +1,10 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
