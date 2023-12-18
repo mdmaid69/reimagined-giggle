@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
