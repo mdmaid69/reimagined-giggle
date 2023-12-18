@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
