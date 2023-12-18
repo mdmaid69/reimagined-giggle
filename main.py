@@ -1,8 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
