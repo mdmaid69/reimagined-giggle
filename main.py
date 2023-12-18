@@ -1,5 +1,6 @@
   import os
   def get_file_inode(file_name):
         return os.stat(file_name).st_ino
-def find_max(lst):
-        return max(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
