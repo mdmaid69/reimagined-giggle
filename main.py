@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
