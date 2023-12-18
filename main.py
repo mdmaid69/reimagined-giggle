@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
