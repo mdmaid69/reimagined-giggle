@@ -1,6 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
