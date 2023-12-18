@@ -1,6 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
