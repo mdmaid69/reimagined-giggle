@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
