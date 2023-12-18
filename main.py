@@ -1,9 +1,9 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
