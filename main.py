@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
