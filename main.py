@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
