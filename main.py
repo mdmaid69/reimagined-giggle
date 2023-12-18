@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def count_characters(sentence):
+        return len(sentence)
