@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def square_number(x):
-        return x**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def multiply_numbers(x, y):
+        return x * y
