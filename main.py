@@ -1,4 +1,7 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  def subtract_numbers(x, y):
-        return x - y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_error_function(x):
+        return math.erf(x)
