@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_volume(length, width, height):
+        return length * width * height
+  def multiply_numbers(x, y):
+        return x * y
