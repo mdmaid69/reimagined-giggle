@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
