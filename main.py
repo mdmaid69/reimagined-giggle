@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_floor(x):
+        return math.floor(x)
