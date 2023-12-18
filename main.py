@@ -1,3 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-for i in range(10): print(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
