@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def reverse_list(lst):
+        return lst[::-1]
