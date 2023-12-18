@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
