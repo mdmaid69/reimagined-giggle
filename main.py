@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def remove_duplicates(lst):
+        return list(set(lst))
