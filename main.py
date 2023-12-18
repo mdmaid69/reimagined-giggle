@@ -1,6 +1,6 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
