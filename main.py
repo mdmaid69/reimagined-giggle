@@ -1,6 +1,7 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
