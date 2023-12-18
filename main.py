@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
