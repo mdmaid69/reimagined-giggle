@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import datetime
+print(datetime.datetime.now())
+from collections import Counter
+print(Counter("hello world"))
