@@ -1,4 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-print([x**2 for x in range(10)])
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
