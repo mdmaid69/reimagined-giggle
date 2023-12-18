@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
