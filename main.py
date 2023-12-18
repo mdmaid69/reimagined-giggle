@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
