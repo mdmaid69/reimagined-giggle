@@ -1,5 +1,9 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
