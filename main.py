@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def add_numbers(x, y):
-        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
