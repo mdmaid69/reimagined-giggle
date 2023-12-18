@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
