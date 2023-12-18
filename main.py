@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import time
+def get_current_time():
+        return time.time()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
