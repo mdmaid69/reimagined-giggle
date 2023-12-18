@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
