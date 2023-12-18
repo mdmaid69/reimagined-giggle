@@ -1,6 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+print(math.pi)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
