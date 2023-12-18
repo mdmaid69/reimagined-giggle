@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def cube_number(x):
-        return x**3
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
