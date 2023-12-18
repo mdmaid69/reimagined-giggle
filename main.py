@@ -1,8 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
