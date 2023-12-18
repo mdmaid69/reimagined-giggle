@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
