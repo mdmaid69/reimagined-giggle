@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
