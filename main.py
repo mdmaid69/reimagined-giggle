@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
