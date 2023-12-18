@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
