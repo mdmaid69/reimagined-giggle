@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
