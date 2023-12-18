@@ -1,8 +1,9 @@
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
