@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_work(force, distance):
-        return force * distance
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
