@@ -1,4 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
