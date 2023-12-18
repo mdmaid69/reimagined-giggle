@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def count_characters(sentence):
+        return len(sentence)
+import os
+print(os.getcwd())
