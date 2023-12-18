@@ -1,5 +1,6 @@
 text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def get_array_item(array, i):
-        return array[i]
+print("Words:", len(text.split()))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
