@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
