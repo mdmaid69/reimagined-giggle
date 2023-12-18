@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_typecode(array):
+        return array.typecode
