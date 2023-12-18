@@ -1,7 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+def roll_die():
+        return random.randint(1, 6)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
