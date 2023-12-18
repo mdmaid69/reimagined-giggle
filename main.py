@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def convert_array_to_unicode(array):
+        return array.tounicode()
