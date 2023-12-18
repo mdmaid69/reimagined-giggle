@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
