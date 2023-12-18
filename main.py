@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
