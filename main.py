@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
