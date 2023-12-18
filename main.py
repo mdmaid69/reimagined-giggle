@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import re
-print(re.match("h.*o", "hello world"))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
