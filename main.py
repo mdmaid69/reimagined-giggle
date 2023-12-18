@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
