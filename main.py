@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import time
+def get_current_time():
+        return time.time()
