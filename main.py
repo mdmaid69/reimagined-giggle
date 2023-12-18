@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def square_number(x):
+        return x**2
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
