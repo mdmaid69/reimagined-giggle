@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
