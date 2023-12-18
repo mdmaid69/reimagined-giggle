@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
