@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import os
-print(os.getcwd())
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
