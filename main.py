@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def is_even(n):
+        return n % 2 == 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
