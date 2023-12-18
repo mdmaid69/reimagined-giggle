@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
