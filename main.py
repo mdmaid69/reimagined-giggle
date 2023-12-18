@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
