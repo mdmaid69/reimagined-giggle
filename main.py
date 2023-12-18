@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
