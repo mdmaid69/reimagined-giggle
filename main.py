@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
