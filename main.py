@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def find_max(lst):
-        return max(lst)
+def cube_number(x):
+        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
