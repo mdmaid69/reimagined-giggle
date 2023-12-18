@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  def convert_to_octal(n):
-        return oct(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
