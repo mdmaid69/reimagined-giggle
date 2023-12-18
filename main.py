@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
