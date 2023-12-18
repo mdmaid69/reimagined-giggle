@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
