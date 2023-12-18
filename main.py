@@ -1,7 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
