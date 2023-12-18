@@ -1,5 +1,7 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
