@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
