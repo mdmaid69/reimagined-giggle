@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_area(radius):
+        return 3.14 * radius * radius
