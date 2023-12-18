@@ -1,7 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+  def add_numbers(x, y):
+        return x + y
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_set(array):
+        return set(array)
