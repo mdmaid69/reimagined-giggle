@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_area_rectangle(l, w):
+        return l * w
