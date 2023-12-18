@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_user_string():
+        return collections.UserString()
