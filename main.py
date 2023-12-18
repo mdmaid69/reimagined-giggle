@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_stack():
+        return collections.deque()
