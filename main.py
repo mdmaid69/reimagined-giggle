@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_density(mass, volume):
+        return mass / volume
