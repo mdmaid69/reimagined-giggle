@@ -1,7 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
