@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def greet(name):
-        print(f"Hello, {name}!")
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
