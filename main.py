@@ -1,7 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
