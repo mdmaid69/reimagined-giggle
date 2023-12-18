@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+from collections import Counter
+print(Counter("hello world"))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
