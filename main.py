@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
