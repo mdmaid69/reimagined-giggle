@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def multiply_numbers(x, y):
+        return x * y
+def count_characters(sentence):
+        return len(sentence)
