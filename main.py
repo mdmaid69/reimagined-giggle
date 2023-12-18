@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
