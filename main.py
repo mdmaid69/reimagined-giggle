@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def divide_numbers(x, y):
+        return x / y
