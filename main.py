@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
