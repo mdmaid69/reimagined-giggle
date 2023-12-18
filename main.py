@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
