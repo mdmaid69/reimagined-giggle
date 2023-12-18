@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
