@@ -1,5 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
