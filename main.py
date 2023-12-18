@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import time
-print(time.time())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+print("Hello, world!")
