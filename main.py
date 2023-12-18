@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
