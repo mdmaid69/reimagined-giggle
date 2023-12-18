@@ -1,5 +1,12 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def is_odd(n):
-        return n % 2 != 0
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
