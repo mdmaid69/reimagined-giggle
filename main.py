@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
