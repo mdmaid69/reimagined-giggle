@@ -1,7 +1,7 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
