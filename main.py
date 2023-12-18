@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def is_odd(n):
-        return n % 2 != 0
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
