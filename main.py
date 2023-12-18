@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def cube_number(x):
+        return x**3
