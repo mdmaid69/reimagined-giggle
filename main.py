@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def add_numbers(a, b):
+        return a + b
