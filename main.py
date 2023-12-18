@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
