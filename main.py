@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
