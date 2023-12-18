@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
