@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
