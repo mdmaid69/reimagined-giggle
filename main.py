@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def find_min(numbers):
-        return min(numbers)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
