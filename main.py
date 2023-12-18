@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
