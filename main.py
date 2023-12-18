@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
