@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
