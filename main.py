@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def cube_number(x):
+        return x**3
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
