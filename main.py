@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
