@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def convert_to_hex(n):
+        return hex(n)
