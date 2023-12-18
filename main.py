@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
