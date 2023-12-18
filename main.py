@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_error_function(x):
+        return math.erf(x)
