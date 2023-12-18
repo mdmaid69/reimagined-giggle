@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def count_words(sentence):
-        return len(sentence.split())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_rectangle(l, w):
+        return l * w
