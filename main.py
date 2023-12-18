@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def count_words(sentence):
+        return len(sentence.split())
