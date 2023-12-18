@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+from collections import Counter
+print(Counter("hello world"))
