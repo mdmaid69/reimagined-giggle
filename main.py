@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
