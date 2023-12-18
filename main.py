@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
