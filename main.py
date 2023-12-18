@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def add_numbers(x, y):
-        return x + y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_current_working_directory():
+        return os.getcwd()
