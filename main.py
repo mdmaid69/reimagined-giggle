@@ -1,5 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
