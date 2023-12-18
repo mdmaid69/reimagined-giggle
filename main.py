@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def count_elements(lst):
+        return len(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
