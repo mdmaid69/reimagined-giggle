@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
