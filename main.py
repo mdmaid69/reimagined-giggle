@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
