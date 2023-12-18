@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_current_directory():
-        return os.getcwd()
+name = "Python"
+print("Hello,", name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
