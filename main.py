@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
