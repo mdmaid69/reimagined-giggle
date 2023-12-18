@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
