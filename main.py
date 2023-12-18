@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_list_from_array(array):
+        return array.tolist()
