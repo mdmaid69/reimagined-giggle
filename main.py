@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def get_current_time():
-        return time.time()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
