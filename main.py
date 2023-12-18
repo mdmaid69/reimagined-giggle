@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
