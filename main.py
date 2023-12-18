@@ -1,5 +1,7 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_arc_sine(x):
+        return math.asin(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
