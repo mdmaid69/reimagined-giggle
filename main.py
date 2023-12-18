@@ -1,8 +1,10 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def factorial(n):
-        if n == 0:
-        return 1
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
         else:
-        return n * factorial(n-1)
+        return -1
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
