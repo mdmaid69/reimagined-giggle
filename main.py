@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
