@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+print(os.getcwd())
