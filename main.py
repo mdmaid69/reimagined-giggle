@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import sys
+def exit_program():
+        sys.exit()
