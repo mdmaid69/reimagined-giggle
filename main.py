@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_counter():
+        return collections.Counter()
