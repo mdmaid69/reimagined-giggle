@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
