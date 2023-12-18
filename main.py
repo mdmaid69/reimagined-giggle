@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
