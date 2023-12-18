@@ -1,6 +1,11 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
