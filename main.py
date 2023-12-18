@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
