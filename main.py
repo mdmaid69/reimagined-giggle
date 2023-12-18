@@ -1,5 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def convert_to_binary(n):
-        return bin(n)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
