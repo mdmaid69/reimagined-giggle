@@ -1,6 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+print([x**2 for x in range(10)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
