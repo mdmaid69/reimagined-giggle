@@ -1,5 +1,8 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
