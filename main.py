@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_speed(distance, time):
+        return distance / time
