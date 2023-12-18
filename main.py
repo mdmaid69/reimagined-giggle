@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def is_palindrome(s):
+        return s == s[::-1]
