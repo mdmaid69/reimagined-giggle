@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def reverse_array(array):
+        array.reverse()
+import sys
+def print_python_version():
+        print(sys.version)
