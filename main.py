@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
