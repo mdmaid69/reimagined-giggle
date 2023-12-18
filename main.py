@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+print([x**2 for x in range(10)])
