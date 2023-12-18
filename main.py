@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+print(sys.version)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
