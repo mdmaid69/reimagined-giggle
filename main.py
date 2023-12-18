@@ -1,6 +1,7 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
