@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
