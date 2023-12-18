@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def clear_array(array):
+        array *= 0
+print([x**2 for x in range(10)])
