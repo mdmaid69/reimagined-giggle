@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
