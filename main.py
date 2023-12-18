@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
