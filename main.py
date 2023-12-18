@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import sys
-  def get_python_version():
-        return sys.version
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
