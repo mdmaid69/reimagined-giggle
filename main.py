@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import datetime
+print(datetime.datetime.now())
