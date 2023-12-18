@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
