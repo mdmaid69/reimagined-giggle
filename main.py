@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
