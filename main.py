@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
