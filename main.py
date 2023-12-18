@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
