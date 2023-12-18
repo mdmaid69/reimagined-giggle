@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
