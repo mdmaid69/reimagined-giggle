@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def remove_directory(path):
+        os.rmdir(path)
