@@ -1,5 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-  def convert_to_hex(n):
-        return hex(n)
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
