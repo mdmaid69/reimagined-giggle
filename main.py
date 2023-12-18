@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
