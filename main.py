@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
