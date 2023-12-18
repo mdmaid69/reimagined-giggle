@@ -1,7 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
