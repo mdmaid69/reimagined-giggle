@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import platform
-def get_python_version():
-        return platform.python_version()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def subtract_numbers(x, y):
+        return x - y
