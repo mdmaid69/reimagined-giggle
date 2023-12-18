@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-print(sum(range(10)))
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
