@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
