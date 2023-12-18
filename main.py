@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def add_numbers(x, y):
+        return x + y
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
