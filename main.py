@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
