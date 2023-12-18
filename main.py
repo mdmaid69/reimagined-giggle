@@ -1,9 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
