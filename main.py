@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
