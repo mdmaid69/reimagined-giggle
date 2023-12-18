@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
