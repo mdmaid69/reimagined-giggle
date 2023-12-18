@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
