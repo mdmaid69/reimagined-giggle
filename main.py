@@ -1,6 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
