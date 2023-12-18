@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
