@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
