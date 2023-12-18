@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
