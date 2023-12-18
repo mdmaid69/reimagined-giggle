@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_repr(array):
+        return repr(array)
