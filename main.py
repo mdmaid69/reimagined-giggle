@@ -1,7 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_average(lst):
+        return sum(lst) / len(lst)
