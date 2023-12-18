@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
