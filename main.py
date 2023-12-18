@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sys
+def print_python_version():
+        print(sys.version)
