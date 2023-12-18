@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def find_min(numbers):
+        return min(numbers)
