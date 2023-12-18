@@ -1,6 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import sys
+def print_python_version():
+        return sys.version
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
