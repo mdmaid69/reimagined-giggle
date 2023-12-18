@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import collections
+def create_user_list():
+        return collections.UserList()
