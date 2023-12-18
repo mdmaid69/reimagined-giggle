@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
