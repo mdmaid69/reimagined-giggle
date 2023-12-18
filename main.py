@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
