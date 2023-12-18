@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def convert_to_hex(n):
+        return hex(n)
