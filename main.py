@@ -1,6 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
