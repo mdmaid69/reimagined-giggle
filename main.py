@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
