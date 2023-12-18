@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def add_numbers(a, b):
-        return a + b
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
