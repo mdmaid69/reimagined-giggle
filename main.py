@@ -1,7 +1,8 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
