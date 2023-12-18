@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_cosine(x):
+        return math.cos(x)
