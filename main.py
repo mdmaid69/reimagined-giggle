@@ -1,7 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def is_even(n):
+        return n % 2 == 0
+def convert_to_hex(n):
+        return hex(n)
