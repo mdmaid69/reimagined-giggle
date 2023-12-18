@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
