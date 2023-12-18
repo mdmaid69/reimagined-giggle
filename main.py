@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def is_even(n):
+        return n % 2 == 0
