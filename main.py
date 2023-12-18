@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def split_path(path):
-        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
