@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
