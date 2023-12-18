@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
