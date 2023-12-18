@@ -1,6 +1,5 @@
-print(sum(range(10)))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
