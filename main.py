@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
