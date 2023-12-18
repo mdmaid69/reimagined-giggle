@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
