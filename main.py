@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
