@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def convert_to_binary(n):
-        return bin(n)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
