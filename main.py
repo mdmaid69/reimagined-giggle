@@ -1,5 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
