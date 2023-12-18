@@ -1,4 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-print([x**2 for x in range(10)])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
