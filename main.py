@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
