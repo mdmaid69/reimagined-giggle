@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_density(mass, volume):
+        return mass / volume
