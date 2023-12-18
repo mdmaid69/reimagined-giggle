@@ -1,4 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-print("Hello, world!")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import datetime
+print(datetime.datetime.now())
