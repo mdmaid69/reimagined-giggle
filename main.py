@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
