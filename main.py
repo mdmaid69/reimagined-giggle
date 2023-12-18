@@ -1,5 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_power(work, time):
+        return work / time
+def find_min(lst):
+        return min(lst)
