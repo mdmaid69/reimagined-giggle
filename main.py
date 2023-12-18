@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
