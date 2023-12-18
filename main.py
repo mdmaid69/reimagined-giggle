@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-x = 10
-y = 20
-print("Sum:", x + y)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import time
+print(time.time())
