@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def convert_to_binary(n):
-        return bin(n)
+def convert_to_octal(n):
+        return oct(n)
+import getpass
+def get_username():
+        return getpass.getuser()
