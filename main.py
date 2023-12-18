@@ -1,6 +1,9 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
