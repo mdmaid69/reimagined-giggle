@@ -1,4 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-for i in range(10): print(i)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def convert_to_binary(n):
+        return bin(n)
