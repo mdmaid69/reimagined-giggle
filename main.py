@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import time
+def get_current_time():
+        return time.time()
