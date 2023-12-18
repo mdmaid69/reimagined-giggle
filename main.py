@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def reverse_array(array):
-        array.reverse()
+def check_if_array_contains_item(array, item):
+        return item in array
