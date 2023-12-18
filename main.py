@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def is_even(n):
+        return n % 2 == 0
+def is_even(n):
+        return n % 2 == 0
