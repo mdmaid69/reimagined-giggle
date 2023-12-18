@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
