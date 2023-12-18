@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
