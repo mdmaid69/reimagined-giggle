@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def convert_to_octal(n):
-        return oct(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
