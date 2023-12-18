@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
