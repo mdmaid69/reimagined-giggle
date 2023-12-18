@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
