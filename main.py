@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
