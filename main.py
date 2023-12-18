@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
