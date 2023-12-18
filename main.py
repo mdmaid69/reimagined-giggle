@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
