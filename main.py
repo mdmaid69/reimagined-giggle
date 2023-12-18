@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def remove_duplicates(lst):
-        return list(set(lst))
+import logging
+def log_message(message):
+        logging.info(message)
+for i in range(5):
+        print(i)
