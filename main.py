@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
