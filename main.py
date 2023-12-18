@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_cosine(x):
+        return math.cos(x)
