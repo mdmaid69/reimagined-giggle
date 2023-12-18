@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
