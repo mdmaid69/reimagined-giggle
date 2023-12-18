@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def convert_to_octal(n):
+        return oct(n)
