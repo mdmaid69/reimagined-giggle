@@ -1,5 +1,4 @@
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def add_numbers(x, y):
+        return x + y
