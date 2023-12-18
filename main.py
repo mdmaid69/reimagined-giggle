@@ -1,5 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def find_max(lst):
-        return max(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
