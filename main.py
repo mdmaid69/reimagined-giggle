@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def create_counter():
-        return collections.Counter()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
