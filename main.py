@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+text = "Hello, world!"
+print("Words:", len(text.split()))
