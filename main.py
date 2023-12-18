@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
