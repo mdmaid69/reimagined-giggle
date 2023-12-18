@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_pressure(force, area):
+        return force / area
+import tensorflow as tf
+print(tf.__version__)
