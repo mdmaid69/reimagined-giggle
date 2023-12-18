@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+from collections import Counter
+print(Counter("hello world"))
