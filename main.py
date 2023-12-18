@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def reverse_list(lst):
+        return lst[::-1]
+def count_characters(sentence):
+        return len(sentence)
