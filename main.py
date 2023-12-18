@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def subtract_numbers(x, y):
+        return x - y
+import sys
+print(sys.version)
