@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def add_numbers(a, b):
-        return a + b
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
