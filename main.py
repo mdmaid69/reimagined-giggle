@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
