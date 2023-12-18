@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def reverse_string(s):
-        return s[::-1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
