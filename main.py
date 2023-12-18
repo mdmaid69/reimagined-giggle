@@ -1,7 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
