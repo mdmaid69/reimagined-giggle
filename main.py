@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
