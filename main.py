@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
