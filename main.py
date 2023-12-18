@@ -1,6 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
