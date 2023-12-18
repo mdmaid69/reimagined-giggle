@@ -1,6 +1,5 @@
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
