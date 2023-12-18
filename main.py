@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+x = 10
+y = 20
+print("Sum:", x + y)
+text = "Hello, world!"
+print("Words:", len(text.split()))
