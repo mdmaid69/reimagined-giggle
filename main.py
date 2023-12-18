@@ -1,6 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def cube_number(x):
+        return x**3
