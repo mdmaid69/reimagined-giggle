@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
