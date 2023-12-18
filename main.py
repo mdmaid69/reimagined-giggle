@@ -1,8 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
