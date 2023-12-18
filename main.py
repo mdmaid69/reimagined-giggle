@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
