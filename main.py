@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
