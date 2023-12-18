@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
