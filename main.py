@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def add_numbers(a, b):
-        return a + b
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_stack():
+        return collections.deque()
