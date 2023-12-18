@@ -1,8 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
