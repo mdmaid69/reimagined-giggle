@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
