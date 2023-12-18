@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_hex(n):
+        return hex(n)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
