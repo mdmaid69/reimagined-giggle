@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
