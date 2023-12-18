@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
