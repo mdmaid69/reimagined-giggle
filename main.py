@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
