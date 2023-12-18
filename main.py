@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_floor(x):
+        return math.floor(x)
