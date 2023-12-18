@@ -1,5 +1,3 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def clear_array(array):
-        array *= 0
+print([x**2 for x in range(10)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
