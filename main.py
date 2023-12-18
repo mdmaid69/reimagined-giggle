@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
