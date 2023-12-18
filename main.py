@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
