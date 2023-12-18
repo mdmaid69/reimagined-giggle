@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
