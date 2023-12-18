@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_counter():
+        return collections.Counter()
+  def is_even(n):
+        return n % 2 == 0
