@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_list():
+        return collections.UserList()
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
