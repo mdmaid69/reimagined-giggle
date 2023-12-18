@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_current_directory():
+        return os.getcwd()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
