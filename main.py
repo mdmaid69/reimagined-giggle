@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import random
+print(random.randint(0, 100))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
