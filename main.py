@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import time
+def get_time_since_epoch():
+        return time.time()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
