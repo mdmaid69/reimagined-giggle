@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def sort_list(lst):
+        return sorted(lst)
