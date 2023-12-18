@@ -1,5 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_area_rectangle(l, w):
+        return l * w
+text = "Hello, world!"
+print("Reversed:", text[::-1])
