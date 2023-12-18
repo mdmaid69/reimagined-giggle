@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_pressure(force, area):
+        return force / area
