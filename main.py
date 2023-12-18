@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
