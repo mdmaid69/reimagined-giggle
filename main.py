@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import numpy as np
+print(np.array([1, 2, 3]))
