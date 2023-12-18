@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def add_numbers(a, b):
-        return a + b
+print("Hello, world!")
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
