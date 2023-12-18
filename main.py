@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import random
-print(random.randint(0, 100))
+import array
+def reverse_array(array):
+        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
