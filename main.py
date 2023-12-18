@@ -1,6 +1,3 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+print(sum(range(10)))
+def calculate_acceleration(speed, time):
+        return speed / time
