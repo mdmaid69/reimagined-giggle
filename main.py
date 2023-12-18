@@ -1,3 +1,5 @@
-print("Hello, world!")
-def convert_to_octal(n):
-        return oct(n)
+import getpass
+def get_username():
+        return getpass.getuser()
+import tensorflow as tf
+print(tf.__version__)
