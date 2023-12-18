@@ -1,4 +1,10 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_volume(length, width, height):
-        return length * width * height
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
