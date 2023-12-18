@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_sine(x):
+        return math.sin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
