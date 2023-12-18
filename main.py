@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
