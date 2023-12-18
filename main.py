@@ -1,5 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
