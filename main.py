@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
