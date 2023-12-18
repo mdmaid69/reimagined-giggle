@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_pressure(force, area):
-        return force / area
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
