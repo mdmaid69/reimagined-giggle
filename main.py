@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
