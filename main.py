@@ -1,8 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def find_min(lst):
+        return min(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
