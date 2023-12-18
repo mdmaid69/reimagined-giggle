@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
