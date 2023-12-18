@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
