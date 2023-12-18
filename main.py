@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
