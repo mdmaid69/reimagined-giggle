@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
