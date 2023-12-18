@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
