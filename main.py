@@ -1,4 +1,8 @@
-  def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
