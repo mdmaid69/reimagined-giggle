@@ -1,5 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
