@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_floor(x):
+        return math.floor(x)
