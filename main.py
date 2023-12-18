@@ -1,4 +1,7 @@
-import os
-print(os.getcwd())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
