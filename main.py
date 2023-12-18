@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def convert_to_octal(n):
-        return oct(n)
+  def add_numbers(x, y):
+        return x + y
+def multiply_numbers(x, y):
+        return x * y
