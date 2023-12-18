@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
