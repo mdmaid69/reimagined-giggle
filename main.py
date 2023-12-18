@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import tensorflow as tf
+print(tf.__version__)
+def remove_duplicates(lst):
+        return list(set(lst))
