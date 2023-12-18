@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_as_bool(array):
+        return bool(array)
