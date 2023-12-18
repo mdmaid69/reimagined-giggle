@@ -1,5 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def add_numbers(a, b):
-        return a + b
+def calculate_pressure(force, area):
+        return force / area
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
