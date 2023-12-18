@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_as_list(array):
+        return list(array)
