@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import random
-print(random.randint(0, 100))
+def calculate_density(mass, volume):
+        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
