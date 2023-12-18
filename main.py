@@ -1,5 +1,3 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+print([x**2 for x in range(10)])
+def calculate_acceleration(speed, time):
+        return speed / time
