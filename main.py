@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
