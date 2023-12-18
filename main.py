@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_octal(n):
+        return oct(n)
