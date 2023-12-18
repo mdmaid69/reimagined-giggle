@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def get_array_as_list(array):
-        return list(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
