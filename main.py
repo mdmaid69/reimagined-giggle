@@ -1,5 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+i = 0
+while i < 5:
+        print(i)
+        i += 1
