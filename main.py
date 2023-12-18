@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_power(work, time):
+        return work / time
+def count_characters(sentence):
+        return len(sentence)
