@@ -1,6 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
