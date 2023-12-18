@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def remove_duplicates(lst):
+        return list(set(lst))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
