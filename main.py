@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
