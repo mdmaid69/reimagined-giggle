@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def multiply_numbers(x, y):
-        return x * y
+for i in range(10): print(i)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
