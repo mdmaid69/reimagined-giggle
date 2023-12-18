@@ -1,7 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
