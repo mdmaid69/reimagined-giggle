@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_array_to_list(array):
+        return array.tolist()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
