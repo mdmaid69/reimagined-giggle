@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
