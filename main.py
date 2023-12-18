@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def cube_number(x):
-        return x**3
+  def get_base_name(path):
+        return os.path.basename(path)
