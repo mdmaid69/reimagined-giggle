@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
