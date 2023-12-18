@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
