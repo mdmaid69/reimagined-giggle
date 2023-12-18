@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def reverse_array(array):
-        array.reverse()
+import collections
+def create_stack():
+        return collections.deque()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
