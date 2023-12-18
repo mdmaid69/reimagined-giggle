@@ -1,8 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
