@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
