@@ -1,5 +1,10 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
