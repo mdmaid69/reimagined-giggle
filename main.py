@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def cube_number(x):
+        return x**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
