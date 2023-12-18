@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_density(mass, volume):
+        return mass / volume
