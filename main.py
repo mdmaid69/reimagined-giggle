@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import os
-print(os.getcwd())
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
