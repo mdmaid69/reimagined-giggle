@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_list_from_array(array):
+        return array.tolist()
