@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
