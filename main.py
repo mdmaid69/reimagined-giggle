@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
