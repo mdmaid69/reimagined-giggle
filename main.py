@@ -1,5 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def reverse_list(lst):
+        return lst[::-1]
