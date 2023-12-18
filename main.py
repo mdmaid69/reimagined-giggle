@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_str(array):
+        return str(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
