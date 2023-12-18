@@ -1,5 +1,9 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def convert_to_octal(n):
-        return oct(n)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
