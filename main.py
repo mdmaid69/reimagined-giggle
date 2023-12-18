@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
