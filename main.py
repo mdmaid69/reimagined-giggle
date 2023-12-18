@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
