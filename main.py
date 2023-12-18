@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
