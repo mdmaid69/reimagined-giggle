@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
