@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
