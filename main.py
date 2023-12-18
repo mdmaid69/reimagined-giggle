@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
