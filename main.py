@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+text = "Hello, world!"
+print("Words:", len(text.split()))
