@@ -1,6 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
