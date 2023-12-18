@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
