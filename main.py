@@ -1,5 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def reverse_list(lst):
+        return lst[::-1]
