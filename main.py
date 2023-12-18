@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import time
+print(time.time())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
