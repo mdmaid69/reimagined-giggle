@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def convert_to_octal(n):
-        return oct(n)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
