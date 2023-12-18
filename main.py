@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
