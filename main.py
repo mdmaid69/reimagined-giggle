@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
