@@ -1,12 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import time
+def get_time_since_epoch():
+        return time.time()
