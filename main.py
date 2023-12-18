@@ -1,7 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
