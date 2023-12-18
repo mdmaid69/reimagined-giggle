@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def count_elements(lst):
-        return len(lst)
+import getpass
+def get_username():
+        return getpass.getuser()
+x = 10
+y = 20
+print("Sum:", x + y)
