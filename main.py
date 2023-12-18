@@ -1,8 +1,8 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
