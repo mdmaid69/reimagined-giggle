@@ -1,4 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-for i in range(10): print(i)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
