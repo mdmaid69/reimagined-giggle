@@ -1,9 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
