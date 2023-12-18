@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
