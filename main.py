@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_density(mass, volume):
-        return mass / volume
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
