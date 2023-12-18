@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
