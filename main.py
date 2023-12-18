@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
