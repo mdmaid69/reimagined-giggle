@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_work(force, distance):
+        return force * distance
