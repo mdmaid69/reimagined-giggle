@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
