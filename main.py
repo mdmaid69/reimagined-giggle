@@ -1,5 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def count_elements(lst):
-        return len(lst)
+def multiply_numbers(x, y):
+        return x * y
+  def is_odd(n):
+        return n % 2 != 0
