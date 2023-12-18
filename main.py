@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def multiply_numbers(x, y):
+        return x * y
