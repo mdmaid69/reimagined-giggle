@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def exit_program():
-        sys.exit()
+def calculate_speed(distance, time):
+        return distance / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
