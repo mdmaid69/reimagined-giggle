@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
