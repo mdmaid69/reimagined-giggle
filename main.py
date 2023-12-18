@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_max(numbers):
+        return max(numbers)
