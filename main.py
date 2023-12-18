@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
+import time
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
