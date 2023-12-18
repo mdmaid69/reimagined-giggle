@@ -1,5 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def subtract_numbers(x, y):
-        return x - y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_user_list():
+        return collections.UserList()
