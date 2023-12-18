@@ -1,5 +1,9 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
