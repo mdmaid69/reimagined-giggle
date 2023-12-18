@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_min(lst):
-        return min(lst)
+def divide_numbers(x, y):
+        return x / y
+def calculate_acceleration(speed, time):
+        return speed / time
