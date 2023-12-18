@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def multiply_numbers(x, y):
+        return x * y
