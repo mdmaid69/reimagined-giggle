@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
