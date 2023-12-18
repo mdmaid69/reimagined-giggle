@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
