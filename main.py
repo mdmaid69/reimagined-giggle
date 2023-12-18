@@ -1,6 +1,9 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
