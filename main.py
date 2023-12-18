@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def is_even(n):
-        return n % 2 == 0
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
