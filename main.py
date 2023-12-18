@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
