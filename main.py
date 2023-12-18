@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
