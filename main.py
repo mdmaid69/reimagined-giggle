@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
