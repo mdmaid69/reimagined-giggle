@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def change_working_directory(path):
+        os.chdir(path)
