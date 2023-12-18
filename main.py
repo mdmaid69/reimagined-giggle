@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-print(sys.version)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_list_from_array(array):
+        return array.tolist()
