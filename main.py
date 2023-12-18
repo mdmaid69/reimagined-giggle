@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def is_palindrome(s):
+        return s == s[::-1]
