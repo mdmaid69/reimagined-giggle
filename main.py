@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
