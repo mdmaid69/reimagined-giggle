@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
