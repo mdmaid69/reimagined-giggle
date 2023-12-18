@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
