@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_as_int(array):
+        return int(array[0])
