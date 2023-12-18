@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
