@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def sort_list(lst):
+        return sorted(lst)
