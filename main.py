@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
