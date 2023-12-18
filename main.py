@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def cube_number(x):
+        return x**3
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
