@@ -1,7 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
