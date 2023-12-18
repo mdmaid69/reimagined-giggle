@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_index(array, item):
+        return array.index(item)
