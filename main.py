@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def get_array_item(array, i):
-        return array[i]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
