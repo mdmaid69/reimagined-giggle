@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
