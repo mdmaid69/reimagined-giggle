@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def clear_array(array):
-        array *= 0
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_user_list():
+        return collections.UserList()
