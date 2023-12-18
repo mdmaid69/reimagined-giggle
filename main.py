@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def is_odd(n):
+        return n % 2 != 0
