@@ -1,8 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
