@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
