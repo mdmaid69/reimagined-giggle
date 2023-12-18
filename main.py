@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
