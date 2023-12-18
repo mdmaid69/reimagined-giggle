@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
