@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
