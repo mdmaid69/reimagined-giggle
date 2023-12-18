@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
