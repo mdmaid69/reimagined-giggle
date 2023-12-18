@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def square_number(x):
+        return x**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
