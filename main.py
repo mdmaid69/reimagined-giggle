@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
