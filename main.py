@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
