@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
