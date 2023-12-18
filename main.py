@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
