@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
