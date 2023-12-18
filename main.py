@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
