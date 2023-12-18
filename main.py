@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def is_even(n):
+        return n % 2 == 0
