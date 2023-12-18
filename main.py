@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
+  def is_even(n):
+        return n % 2 == 0
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+print(list(itertools.permutations([1, 2, 3])))
