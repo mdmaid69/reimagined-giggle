@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def count_elements(lst):
-        return len(lst)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
