@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
