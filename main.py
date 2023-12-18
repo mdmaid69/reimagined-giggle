@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+print("Hello, world!")
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
