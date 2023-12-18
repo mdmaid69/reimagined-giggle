@@ -1,8 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
