@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
