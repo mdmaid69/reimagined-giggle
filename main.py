@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
