@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
