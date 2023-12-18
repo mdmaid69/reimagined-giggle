@@ -1,5 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def convert_to_octal(n):
-        return oct(n)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
