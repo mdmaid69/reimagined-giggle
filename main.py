@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  def is_odd(n):
-        return n % 2 != 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
