@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
