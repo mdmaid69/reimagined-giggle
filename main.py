@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
