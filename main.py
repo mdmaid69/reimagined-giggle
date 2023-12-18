@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
