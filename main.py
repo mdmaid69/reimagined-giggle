@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def is_even(n):
-        return n % 2 == 0
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_power(work, time):
+        return work / time
