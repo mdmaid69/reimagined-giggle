@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
