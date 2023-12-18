@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
