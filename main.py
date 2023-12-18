@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
