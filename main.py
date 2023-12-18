@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_queue():
-        return collections.deque()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
