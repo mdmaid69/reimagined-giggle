@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
