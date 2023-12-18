@@ -1,5 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_perpetuity(payment, rate):
+        return payment / rate
