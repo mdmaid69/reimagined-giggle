@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import sys
+def print_python_version():
+        return sys.version
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
