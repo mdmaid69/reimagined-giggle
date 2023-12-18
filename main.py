@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
