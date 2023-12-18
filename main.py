@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_counter():
+        return collections.Counter()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
