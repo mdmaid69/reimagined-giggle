@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def convert_to_hex(n):
-        return hex(n)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
