@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
