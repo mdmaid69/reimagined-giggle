@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def reverse_list(lst):
+        return lst[::-1]
