@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
