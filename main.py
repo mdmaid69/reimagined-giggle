@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
