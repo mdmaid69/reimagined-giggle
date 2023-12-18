@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
