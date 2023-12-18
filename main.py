@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
