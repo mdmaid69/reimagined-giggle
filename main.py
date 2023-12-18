@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_base_name(path):
+        return os.path.basename(path)
+import sys
+def exit_program():
+        sys.exit()
