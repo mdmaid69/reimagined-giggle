@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
