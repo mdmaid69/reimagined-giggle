@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
