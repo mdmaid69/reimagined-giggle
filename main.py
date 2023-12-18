@@ -1,7 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
