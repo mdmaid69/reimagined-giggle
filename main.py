@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def get_array_as_str(array):
-        return str(array)
+  def convert_to_binary(n):
+        return bin(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
