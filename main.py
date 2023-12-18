@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
