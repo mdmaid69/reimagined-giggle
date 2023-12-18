@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
