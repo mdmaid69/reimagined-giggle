@@ -1,5 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_pressure(force, area):
+        return force / area
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
