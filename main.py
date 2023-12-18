@@ -1,6 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import time
+def get_current_time():
+        return time.ctime()
