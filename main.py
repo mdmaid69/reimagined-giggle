@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import sys
+print(sys.version)
