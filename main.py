@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
