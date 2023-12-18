@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
