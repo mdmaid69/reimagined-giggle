@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
