@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_work(force, distance):
+        return force * distance
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
