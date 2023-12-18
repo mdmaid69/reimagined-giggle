@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
