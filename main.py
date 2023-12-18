@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
