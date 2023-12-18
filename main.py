@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
