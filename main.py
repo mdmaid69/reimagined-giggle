@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def convert_to_binary(n):
-        return bin(n)
+def convert_array_to_string(array):
+        return array.tostring()
