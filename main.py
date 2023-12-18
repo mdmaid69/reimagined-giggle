@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
