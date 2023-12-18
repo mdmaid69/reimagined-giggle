@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
