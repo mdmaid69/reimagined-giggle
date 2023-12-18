@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
