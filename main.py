@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_density(mass, volume):
+        return mass / volume
