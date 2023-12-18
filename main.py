@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_user_list():
+        return collections.UserList()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
