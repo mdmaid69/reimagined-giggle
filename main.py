@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_volume(length, width, height):
-        return length * width * height
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
