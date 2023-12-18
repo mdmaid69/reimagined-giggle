@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
