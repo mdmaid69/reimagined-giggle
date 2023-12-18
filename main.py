@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
