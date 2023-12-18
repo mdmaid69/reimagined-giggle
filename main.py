@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def subtract_numbers(x, y):
-        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
