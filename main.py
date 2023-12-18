@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
