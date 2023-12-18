@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
