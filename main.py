@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
