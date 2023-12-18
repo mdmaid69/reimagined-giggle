@@ -1,5 +1,8 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
