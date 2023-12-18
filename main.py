@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
