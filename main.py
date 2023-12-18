@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
