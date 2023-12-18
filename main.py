@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
