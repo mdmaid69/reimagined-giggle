@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def subtract_numbers(x, y):
-        return x - y
+  import sys
+  def get_python_version():
+        return sys.version
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
