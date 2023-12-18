@@ -1,5 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def get_array_as_str(array):
-        return str(array)
-import numpy as np
-print(np.array([1, 2, 3]))
+def convert_array_to_list(array):
+        return array.tolist()
