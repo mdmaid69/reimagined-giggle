@@ -1,5 +1,3 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def convert_to_octal(n):
-        return oct(n)
+import os
+print(os.getcwd())
+print([x**2 for x in range(10)])
