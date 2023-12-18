@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
