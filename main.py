@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
