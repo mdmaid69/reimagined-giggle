@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_work(force, distance):
-        return force * distance
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
