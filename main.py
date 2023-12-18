@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def set_array_item(array, i, item):
+        array[i] = item
