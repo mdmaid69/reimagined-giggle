@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
