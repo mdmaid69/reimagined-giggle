@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import random
+def roll_die():
+        return random.randint(1, 6)
