@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
