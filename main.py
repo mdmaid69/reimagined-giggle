@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-x = 10
-y = 20
-print("Sum:", x + y)
+  def square_number(x):
+        return x**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
