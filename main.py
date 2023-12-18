@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_list(array):
+        return list(array)
