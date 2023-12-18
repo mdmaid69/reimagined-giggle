@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
