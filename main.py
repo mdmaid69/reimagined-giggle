@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
