@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
