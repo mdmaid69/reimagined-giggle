@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
