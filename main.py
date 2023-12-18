@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import tensorflow as tf
+print(tf.__version__)
