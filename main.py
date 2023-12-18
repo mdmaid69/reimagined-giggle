@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
