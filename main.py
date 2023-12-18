@@ -1,3 +1,7 @@
-print("Hello, world!")
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_work(force, distance):
+        return force * distance
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
