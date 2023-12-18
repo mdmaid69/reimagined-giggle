@@ -1,5 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
