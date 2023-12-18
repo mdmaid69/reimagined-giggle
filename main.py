@@ -1,8 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
