@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
