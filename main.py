@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def convert_to_octal(n):
+        return oct(n)
