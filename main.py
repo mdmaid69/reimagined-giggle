@@ -1,6 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
