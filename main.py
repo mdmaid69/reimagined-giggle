@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_max(lst):
+        return max(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
