@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
