@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
