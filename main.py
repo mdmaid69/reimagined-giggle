@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
