@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
