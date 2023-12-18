@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
