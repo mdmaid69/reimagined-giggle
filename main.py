@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
