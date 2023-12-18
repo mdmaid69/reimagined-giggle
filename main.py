@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import collections
+def create_user_string():
+        return collections.UserString()
