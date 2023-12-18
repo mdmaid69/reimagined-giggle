@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
