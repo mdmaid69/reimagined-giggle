@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
