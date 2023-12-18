@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def multiply_numbers(x, y):
-        return x * y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import collections
+def create_user_string():
+        return collections.UserString()
