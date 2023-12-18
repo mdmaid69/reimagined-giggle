@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-text = "Hello, world!"
-print("Characters:", len(text))
+import numpy as np
+print(np.array([1, 2, 3]))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
