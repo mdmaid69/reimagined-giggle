@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
