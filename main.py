@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
