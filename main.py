@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
