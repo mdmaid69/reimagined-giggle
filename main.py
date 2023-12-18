@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def count_elements(lst):
+        return len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
