@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
