@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def clear_array(array):
+        array *= 0
