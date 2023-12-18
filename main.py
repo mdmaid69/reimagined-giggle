@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
