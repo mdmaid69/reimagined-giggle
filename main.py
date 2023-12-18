@@ -1,3 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-print(sum(range(10)))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
