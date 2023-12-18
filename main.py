@@ -1,5 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
