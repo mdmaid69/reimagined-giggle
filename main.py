@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
