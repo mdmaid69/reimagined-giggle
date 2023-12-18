@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+for i in range(10): print(i)
