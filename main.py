@@ -1,7 +1,7 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
