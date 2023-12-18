@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_to_hex(n):
+        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
