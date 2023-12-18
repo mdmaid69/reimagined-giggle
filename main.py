@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
