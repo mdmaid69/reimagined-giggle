@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
