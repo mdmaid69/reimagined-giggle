@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_volume(length, width, height):
+        return length * width * height
