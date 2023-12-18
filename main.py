@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
