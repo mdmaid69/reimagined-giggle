@@ -1,4 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-print([x**2 for x in range(10)])
+def add_numbers(x, y):
+        return x + y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
