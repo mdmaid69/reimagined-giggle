@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def is_odd(n):
+        return n % 2 != 0
