@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
