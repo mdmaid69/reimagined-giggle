@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
