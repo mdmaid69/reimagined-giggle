@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
