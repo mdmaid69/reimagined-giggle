@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
