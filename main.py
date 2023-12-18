@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
