@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+text = "Hello, world!"
+print("Characters:", len(text))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
