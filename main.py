@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
