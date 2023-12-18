@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
