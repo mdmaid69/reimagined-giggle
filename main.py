@@ -1,5 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def split_path(path):
-        return os.path.split(path)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
