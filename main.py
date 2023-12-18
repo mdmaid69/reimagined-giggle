@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
