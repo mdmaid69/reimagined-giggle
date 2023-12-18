@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
