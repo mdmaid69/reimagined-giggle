@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
