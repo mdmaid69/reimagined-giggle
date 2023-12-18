@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
