@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
