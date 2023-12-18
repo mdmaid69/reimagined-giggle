@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def remove_duplicates(lst):
-        return list(set(lst))
+def convert_to_hex(n):
+        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
