@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def cube_number(x):
+        return x**3
+def calculate_speed(distance, time):
+        return distance / time
