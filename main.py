@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_power(work, time):
-        return work / time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_volume(length, width, height):
+        return length * width * height
