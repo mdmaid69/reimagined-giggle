@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
