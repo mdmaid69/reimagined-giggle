@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
