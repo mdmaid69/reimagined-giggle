@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
