@@ -1,5 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
