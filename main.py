@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_item(array, i):
+        return array[i]
+  def convert_to_binary(n):
+        return bin(n)
