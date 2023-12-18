@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
