@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
