@@ -1,7 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def get_array_as_bytes(array):
+        return bytes(array)
