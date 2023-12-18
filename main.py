@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
