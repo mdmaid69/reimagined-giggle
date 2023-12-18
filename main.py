@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
