@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import sys
+def print_python_version():
+        return sys.version
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
