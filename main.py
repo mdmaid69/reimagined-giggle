@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
