@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def convert_to_hex(n):
+        return hex(n)
