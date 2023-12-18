@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
