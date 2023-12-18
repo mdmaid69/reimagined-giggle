@@ -1,8 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
