@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
