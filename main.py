@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+def convert_to_octal(n):
+        return oct(n)
+def count_characters(sentence):
+        return len(sentence)
