@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
