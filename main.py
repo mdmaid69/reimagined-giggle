@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
