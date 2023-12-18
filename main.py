@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
