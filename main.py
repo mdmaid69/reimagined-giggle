@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
