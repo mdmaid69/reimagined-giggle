@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
