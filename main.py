@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
