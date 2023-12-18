@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
