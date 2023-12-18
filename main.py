@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
