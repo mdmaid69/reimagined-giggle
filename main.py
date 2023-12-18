@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
