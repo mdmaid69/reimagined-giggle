@@ -1,5 +1,12 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_queue():
-        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
