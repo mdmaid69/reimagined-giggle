@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
