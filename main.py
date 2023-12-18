@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_str(array):
+        return str(array)
