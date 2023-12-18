@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
