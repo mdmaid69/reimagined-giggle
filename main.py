@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
