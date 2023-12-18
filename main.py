@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def convert_to_hex(n):
-        return hex(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
