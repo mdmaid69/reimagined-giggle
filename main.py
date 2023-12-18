@@ -1,6 +1,9 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
