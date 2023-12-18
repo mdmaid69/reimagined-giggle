@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
