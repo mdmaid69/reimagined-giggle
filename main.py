@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
