@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
