@@ -1,7 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
