@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
