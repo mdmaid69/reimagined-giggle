@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def subtract_numbers(x, y):
+        return x - y
