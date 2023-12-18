@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
