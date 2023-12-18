@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
