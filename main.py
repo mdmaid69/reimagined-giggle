@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def multiply_numbers(x, y):
+        return x * y
