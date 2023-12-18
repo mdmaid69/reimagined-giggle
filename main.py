@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
