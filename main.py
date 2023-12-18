@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import collections
+def create_stack():
+        return collections.deque()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
