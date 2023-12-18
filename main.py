@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def convert_to_binary(n):
+        return bin(n)
