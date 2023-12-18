@@ -1,5 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
