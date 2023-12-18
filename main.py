@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_list_from_array(array):
+        return array.tolist()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
