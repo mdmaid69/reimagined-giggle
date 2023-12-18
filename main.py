@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
