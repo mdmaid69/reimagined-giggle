@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
