@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
