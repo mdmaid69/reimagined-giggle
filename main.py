@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def count_elements(lst):
+        return len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
