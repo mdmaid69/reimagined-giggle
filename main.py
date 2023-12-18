@@ -1,6 +1,7 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
