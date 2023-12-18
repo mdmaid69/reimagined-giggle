@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
