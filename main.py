@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
