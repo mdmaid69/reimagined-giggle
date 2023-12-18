@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
