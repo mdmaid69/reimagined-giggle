@@ -1,8 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
