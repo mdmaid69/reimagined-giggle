@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
