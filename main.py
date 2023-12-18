@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import array
-def reverse_array(array):
-        array.reverse()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
