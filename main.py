@@ -1,6 +1,8 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
