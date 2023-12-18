@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
