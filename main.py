@@ -1,5 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
