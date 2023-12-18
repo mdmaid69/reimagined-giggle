@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
