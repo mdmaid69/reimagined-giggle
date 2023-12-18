@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
