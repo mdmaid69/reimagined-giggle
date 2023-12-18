@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def set_array_item(array, i, item):
+        array[i] = item
+import getpass
+def get_username():
+        return getpass.getuser()
