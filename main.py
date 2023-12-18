@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
