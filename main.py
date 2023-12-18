@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
