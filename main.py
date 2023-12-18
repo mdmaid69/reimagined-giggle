@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-sentence = "Hello, world!"
 from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+print(Counter("hello world"))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
