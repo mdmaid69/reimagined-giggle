@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
