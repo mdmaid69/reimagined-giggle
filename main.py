@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
