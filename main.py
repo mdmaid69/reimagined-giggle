@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import sys
-def exit_program():
-        sys.exit()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_area(radius):
+        return 3.14 * radius * radius
