@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
