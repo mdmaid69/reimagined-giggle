@@ -1,6 +1,11 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def is_odd(n):
+        return n % 2 != 0
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
