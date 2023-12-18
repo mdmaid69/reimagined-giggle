@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def reverse_list(lst):
+        return lst[::-1]
