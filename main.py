@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
