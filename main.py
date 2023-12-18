@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
