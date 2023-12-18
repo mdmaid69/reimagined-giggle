@@ -1,6 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
