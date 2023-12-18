@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
