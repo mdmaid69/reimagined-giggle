@@ -1,7 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
