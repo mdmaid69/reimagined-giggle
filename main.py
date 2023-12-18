@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import logging
+def log_message(message):
+        logging.info(message)
