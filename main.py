@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_list(array):
+        return list(array)
