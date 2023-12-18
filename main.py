@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
