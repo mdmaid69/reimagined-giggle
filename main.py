@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import collections
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_factorial(n):
+        return math.factorial(n)
