@@ -1,5 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
