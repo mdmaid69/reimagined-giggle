@@ -1,7 +1,7 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
