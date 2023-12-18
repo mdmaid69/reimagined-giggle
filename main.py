@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
