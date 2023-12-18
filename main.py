@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def reverse_list(lst):
+  def reverse_list(lst):
         return lst[::-1]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
