@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
