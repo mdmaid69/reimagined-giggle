@@ -1,7 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def is_even(n):
-        return n % 2 == 0
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def clear_array(array):
+        array *= 0
