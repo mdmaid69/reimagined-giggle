@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_exponential(x):
+        return math.exp(x)
