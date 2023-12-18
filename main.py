@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import collections
-def create_stack():
-        return collections.deque()
+def find_max(numbers):
+        return max(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
