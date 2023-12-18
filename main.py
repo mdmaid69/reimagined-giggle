@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
