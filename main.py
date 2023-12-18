@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import time
+print(time.time())
