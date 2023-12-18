@@ -1,7 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import sys
+def exit_program():
+        sys.exit()
