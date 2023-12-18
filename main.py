@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def count_elements(lst):
-        return len(lst)
+def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
