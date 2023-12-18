@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
