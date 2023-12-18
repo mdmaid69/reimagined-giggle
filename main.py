@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
