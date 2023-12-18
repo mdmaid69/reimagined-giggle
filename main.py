@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def is_odd(n):
-        return n % 2 != 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
