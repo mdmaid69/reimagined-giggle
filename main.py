@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import logging
-def log_message(message):
-        logging.info(message)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
