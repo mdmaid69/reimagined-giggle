@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
