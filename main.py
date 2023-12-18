@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
