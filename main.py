@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
