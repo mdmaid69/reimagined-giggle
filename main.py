@@ -1,7 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
