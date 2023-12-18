@@ -1,4 +1,10 @@
-  def count_elements(lst):
-        return len(lst)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
