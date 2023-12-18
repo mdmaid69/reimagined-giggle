@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
