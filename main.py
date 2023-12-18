@@ -1,6 +1,8 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
