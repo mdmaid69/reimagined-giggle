@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def count_elements(lst):
+        return len(lst)
