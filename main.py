@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
