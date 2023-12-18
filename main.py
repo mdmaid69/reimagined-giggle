@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_itemsize(array):
+        return array.itemsize
