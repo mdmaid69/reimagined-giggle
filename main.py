@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def count_elements(lst):
+        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
