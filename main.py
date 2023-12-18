@@ -1,4 +1,5 @@
-import time
-print(time.time())
-import sys
-print(sys.version)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
