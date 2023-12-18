@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
