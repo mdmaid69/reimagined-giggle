@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
