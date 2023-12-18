@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import tensorflow as tf
-print(tf.__version__)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
