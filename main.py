@@ -1,7 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
