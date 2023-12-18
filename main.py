@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
