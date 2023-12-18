@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import time
+def get_current_time():
+        return time.ctime()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
