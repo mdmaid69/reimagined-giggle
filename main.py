@@ -1,6 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
