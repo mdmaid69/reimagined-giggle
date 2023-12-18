@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
