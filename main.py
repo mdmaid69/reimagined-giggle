@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
