@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
