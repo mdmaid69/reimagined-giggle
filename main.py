@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
