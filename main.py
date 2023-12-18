@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
