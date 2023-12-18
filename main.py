@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
