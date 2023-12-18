@@ -1,7 +1,5 @@
-def cube_number(x):
-        return x**3
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_speed(distance, time):
+        return distance / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
