@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
