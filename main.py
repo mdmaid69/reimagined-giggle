@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import platform
+def get_python_version():
+        return platform.python_version()
