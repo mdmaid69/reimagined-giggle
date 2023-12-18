@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def get_array_as_set(array):
-        return set(array)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
