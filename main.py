@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def split_path(path):
+        return os.path.split(path)
