@@ -1,4 +1,5 @@
-import time
-print(time.time())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
