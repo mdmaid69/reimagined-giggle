@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
