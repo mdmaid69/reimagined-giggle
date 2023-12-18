@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  def sort_list(lst):
+        return sorted(lst)
