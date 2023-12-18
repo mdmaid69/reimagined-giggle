@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def add_numbers(a, b):
-        return a + b
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def convert_to_binary(n):
+        return bin(n)
