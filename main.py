@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def add_numbers(x, y):
-        return x + y
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
