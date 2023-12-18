@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
