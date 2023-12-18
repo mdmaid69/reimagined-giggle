@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
