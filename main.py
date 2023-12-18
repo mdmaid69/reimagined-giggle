@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
