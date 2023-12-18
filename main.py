@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def sort_numbers(numbers):
+        return sorted(numbers)
