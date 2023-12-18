@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
