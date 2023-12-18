@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
