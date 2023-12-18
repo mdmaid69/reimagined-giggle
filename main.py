@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_current_time():
+        return time.time()
