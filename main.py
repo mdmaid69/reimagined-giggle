@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def subtract_numbers(x, y):
+        return x - y
