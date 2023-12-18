@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
