@@ -1,8 +1,8 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
