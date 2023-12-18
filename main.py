@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
