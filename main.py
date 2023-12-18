@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
