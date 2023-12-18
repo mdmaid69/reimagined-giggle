@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
