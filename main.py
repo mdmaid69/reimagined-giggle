@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
