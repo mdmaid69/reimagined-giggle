@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
