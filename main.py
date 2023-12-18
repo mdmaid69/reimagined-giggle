@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
