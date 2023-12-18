@@ -1,5 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
