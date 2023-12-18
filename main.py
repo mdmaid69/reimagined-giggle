@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
