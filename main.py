@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
