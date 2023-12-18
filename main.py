@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def reverse_list(lst):
-        return lst[::-1]
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
