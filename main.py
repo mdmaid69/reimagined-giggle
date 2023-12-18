@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def cube_number(x):
-        return x**3
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import collections
+def create_counter():
+        return collections.Counter()
