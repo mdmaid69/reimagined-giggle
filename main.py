@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_length(array):
+        return len(array)
