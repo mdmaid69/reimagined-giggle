@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import platform
+def get_python_version():
+        return platform.python_version()
