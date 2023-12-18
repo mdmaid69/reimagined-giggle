@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def multiply_numbers(x, y):
+        return x * y
