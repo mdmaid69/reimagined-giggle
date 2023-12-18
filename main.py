@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
