@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
