@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_max(numbers):
+        return max(numbers)
