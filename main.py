@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_min(numbers):
+        return min(numbers)
