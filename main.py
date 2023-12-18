@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def greet(name):
-        print(f"Hello, {name}!")
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def divide_numbers(x, y):
+        return x / y
