@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def reverse_array(array):
+        array.reverse()
