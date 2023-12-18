@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_volume(length, width, height):
+        return length * width * height
