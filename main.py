@@ -1,5 +1,9 @@
-import sys
-def print_python_version():
-        return sys.version
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
