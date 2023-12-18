@@ -1,3 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-print(sum(range(10)))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
