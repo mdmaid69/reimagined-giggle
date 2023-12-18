@@ -1,6 +1,9 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
