@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
