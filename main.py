@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_username():
+        return getpass.getuser()
