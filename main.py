@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
