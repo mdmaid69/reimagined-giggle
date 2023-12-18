@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_int(array):
+        return int(array[0])
