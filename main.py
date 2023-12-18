@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
