@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def append_to_array(array, item):
+        array.append(item)
