@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import time
-print(time.time())
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
