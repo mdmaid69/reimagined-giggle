@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
