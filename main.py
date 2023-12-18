@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_min(lst):
+        return min(lst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
