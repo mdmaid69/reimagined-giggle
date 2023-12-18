@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
