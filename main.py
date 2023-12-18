@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
