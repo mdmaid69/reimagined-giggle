@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
