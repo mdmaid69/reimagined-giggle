@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
