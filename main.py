@@ -1,5 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
