@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def find_min(lst):
-        return min(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
