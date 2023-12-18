@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
