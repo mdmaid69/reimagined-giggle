@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
