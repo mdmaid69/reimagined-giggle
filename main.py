@@ -1,6 +1,8 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
