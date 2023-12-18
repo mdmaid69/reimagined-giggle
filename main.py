@@ -1,4 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
