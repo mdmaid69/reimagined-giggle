@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_work(force, distance):
-        return force * distance
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_area_rectangle(l, w):
+        return l * w
