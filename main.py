@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
