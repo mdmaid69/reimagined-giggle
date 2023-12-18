@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
