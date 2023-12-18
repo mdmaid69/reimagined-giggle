@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_as_set(array):
+        return set(array)
