@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_density(mass, volume):
+        return mass / volume
