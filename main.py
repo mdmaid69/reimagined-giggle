@@ -1,7 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
