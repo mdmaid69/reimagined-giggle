@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
