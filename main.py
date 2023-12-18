@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_acceleration(speed, time):
-        return speed / time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
