@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
