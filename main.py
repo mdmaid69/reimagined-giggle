@@ -1,6 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
