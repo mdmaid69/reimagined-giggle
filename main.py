@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
