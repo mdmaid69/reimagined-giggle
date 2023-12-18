@@ -1,9 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
