@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
