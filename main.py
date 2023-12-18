@@ -1,6 +1,12 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
