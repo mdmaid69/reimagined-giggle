@@ -1,8 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_sign(x):
+        return math.copysign(1, x)
