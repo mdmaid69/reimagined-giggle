@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-print(time.time())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def append_to_array(array, item):
+        array.append(item)
