@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def convert_to_hex(n):
+        return hex(n)
