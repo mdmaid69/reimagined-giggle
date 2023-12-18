@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import platform
+def get_os_info():
+        return platform.uname()
