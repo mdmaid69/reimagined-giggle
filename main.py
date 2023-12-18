@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
