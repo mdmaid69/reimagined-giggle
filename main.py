@@ -1,6 +1,3 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_sine(x):
-        return math.sin(x)
+print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
