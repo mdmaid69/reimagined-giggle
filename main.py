@@ -1,9 +1,11 @@
-from flask import Flask
-app = Flask(__name__)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import queue
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
