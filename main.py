@@ -1,7 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
