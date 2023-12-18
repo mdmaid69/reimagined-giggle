@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
