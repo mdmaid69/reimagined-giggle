@@ -1,7 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
