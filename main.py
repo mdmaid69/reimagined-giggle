@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def remove_duplicates(lst):
-        return list(set(lst))
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
