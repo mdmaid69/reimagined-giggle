@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_acceleration(speed, time):
-        return speed / time
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def find_min(numbers):
+        return min(numbers)
