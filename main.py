@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+x = 10
+y = 20
+print("Sum:", x + y)
