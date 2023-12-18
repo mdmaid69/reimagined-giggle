@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def cube_number(x):
+        return x**3
