@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
