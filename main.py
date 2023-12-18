@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
