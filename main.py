@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
