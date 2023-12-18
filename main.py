@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
