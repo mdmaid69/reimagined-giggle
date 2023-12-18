@@ -1,5 +1,4 @@
+for i in range(10): print(i)
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def count_elements(lst):
-        return len(lst)
+def get_current_date():
+        return datetime.date.today()
