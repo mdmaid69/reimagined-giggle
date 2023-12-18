@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def reverse_array(array):
+        array.reverse()
