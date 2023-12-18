@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def find_max(numbers):
+        return max(numbers)
