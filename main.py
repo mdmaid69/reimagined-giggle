@@ -1,5 +1,10 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
