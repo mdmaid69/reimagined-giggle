@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
