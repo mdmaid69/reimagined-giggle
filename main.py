@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
