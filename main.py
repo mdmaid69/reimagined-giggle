@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
