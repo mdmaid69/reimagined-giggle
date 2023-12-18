@@ -1,6 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
