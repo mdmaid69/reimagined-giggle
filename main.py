@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
