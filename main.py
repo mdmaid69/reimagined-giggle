@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def count_characters(sentence):
+        return len(sentence)
