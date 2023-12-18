@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
