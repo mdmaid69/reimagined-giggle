@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
