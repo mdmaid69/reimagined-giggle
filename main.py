@@ -1,10 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
