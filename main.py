@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
