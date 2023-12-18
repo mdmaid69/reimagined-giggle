@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_area_circle(r):
+        return 3.14 * r**2
