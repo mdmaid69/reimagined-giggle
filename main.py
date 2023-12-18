@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def find_min(lst):
+        return min(lst)
