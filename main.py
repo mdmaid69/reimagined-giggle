@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
