@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
