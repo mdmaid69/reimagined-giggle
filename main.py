@@ -1,7 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
