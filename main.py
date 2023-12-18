@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
