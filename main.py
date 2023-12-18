@@ -1,7 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
