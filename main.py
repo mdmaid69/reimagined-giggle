@@ -1,8 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def find_unique_words(sentence):
+        return set(sentence.split())
