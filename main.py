@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
