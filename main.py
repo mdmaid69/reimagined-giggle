@@ -1,6 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import random
+def roll_die():
+        return random.randint(1, 6)
