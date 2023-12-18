@@ -1,5 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_bytearray(array):
+        return bytearray(array)
