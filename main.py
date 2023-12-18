@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import math
-print(math.pi)
+def calculate_tangent(x):
+        return math.tan(x)
+import time
+print(time.time())
