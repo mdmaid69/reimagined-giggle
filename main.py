@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
