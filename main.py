@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import time
+def get_current_time():
+        return time.time()
