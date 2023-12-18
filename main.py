@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import platform
+def get_os_info():
+        return platform.uname()
