@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
