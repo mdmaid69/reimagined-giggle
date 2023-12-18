@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
