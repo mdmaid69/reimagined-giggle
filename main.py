@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
