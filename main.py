@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
