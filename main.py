@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import time
+def get_current_time():
+        return time.time()
+def calculate_density(mass, volume):
+        return mass / volume
