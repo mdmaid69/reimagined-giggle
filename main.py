@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
