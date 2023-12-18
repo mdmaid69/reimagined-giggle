@@ -1,5 +1,9 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_bool(array):
+        return bool(array)
