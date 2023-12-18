@@ -1,6 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
