@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
