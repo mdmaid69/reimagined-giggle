@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
