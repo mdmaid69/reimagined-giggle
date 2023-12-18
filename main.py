@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
