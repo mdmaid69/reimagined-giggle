@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
