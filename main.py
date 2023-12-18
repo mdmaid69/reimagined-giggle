@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
