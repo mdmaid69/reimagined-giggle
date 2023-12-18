@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
