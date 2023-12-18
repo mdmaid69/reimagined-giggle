@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
