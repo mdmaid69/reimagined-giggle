@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
