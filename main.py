@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
