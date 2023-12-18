@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def convert_to_binary(n):
+        return bin(n)
