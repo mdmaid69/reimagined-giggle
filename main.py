@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
