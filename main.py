@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
