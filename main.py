@@ -1,6 +1,3 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+print(datetime.datetime.now())
+print([x**2 for x in range(10)])
