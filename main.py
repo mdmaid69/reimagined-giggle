@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+text = "Hello, world!"
+print("Reversed:", text[::-1])
