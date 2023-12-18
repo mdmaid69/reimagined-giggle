@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
