@@ -1,6 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
