@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
