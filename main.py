@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import logging
+def log_message(message):
+        logging.info(message)
