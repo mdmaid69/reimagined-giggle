@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_stack():
+        return collections.deque()
