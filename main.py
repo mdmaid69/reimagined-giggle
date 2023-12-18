@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_as_str(array):
+        return str(array)
