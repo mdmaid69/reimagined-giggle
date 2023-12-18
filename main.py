@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
