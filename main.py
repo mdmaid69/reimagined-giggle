@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
