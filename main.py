@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
