@@ -1,5 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_sine(x):
+        return math.sin(x)
