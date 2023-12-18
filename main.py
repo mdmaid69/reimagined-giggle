@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
