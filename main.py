@@ -1,7 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
