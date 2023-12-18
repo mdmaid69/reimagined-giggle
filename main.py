@@ -1,5 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
