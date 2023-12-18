@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
