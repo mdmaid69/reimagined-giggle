@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
