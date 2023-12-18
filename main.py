@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
