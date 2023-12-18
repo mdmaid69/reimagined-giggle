@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
