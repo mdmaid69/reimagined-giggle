@@ -1,6 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
