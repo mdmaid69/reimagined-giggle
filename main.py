@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def remove_duplicates(lst):
+        return list(set(lst))
