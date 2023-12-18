@@ -1,4 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-print([x**2 for x in range(10)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
