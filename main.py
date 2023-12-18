@@ -1,6 +1,9 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
