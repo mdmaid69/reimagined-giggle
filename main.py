@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
