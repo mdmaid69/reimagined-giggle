@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+print("Hello, world!")
