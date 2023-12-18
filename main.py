@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
