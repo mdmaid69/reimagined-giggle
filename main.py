@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def convert_to_binary(n):
+        return bin(n)
