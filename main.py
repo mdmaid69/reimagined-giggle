@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
