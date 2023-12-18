@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_volume(length, width, height):
-        return length * width * height
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
