@@ -1,5 +1,11 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def subtract_numbers(x, y):
-        return x - y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def is_even(n):
+        return n % 2 == 0
