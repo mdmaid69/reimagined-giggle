@@ -1,7 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
