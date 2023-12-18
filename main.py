@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
