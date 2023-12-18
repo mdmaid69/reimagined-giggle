@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_work(force, distance):
+        return force * distance
