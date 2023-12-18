@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
