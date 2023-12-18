@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
