@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
