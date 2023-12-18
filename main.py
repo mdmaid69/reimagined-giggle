@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
