@@ -1,6 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
