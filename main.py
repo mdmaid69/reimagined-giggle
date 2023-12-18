@@ -1,6 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_index(array, item):
+        return array.index(item)
