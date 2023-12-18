@@ -1,9 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-def calculate_power(work, time):
-        return work / time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
