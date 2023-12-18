@@ -1,6 +1,9 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
