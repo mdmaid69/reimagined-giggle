@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
