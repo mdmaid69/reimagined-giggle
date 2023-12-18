@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
