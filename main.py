@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_length(array):
+        return len(array)
