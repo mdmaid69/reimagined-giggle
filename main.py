@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
