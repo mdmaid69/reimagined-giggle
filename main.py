@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def multiply_numbers(x, y):
+        return x * y
