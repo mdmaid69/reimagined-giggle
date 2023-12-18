@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def is_odd(n):
+        return n % 2 != 0
