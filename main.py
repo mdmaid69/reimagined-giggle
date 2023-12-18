@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def split_path(path):
+        return os.path.split(path)
