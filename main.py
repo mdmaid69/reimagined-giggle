@@ -1,5 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
