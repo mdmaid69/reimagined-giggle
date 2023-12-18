@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def split_path(path):
-        return os.path.split(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
