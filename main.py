@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
