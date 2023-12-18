@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
