@@ -1,5 +1,7 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
