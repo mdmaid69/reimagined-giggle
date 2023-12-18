@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def square_number(x):
+        return x**2
