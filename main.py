@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def is_odd(n):
+        return n % 2 != 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
