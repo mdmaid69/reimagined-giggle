@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
