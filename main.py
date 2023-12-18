@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
