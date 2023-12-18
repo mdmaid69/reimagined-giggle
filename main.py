@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def add_numbers(x, y):
-        return x + y
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
