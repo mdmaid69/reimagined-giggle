@@ -1,6 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
