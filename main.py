@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def cube_number(x):
+        return x**3
+def calculate_work(force, distance):
+        return force * distance
