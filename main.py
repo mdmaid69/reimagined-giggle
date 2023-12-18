@@ -1,6 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_absolute_value(x):
+        return math.fabs(x)
