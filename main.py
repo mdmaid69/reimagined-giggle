@@ -1,8 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
