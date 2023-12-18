@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
