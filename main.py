@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
+import platform
+def get_python_version():
+        return platform.python_version()
