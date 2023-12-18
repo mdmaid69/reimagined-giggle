@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
