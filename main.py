@@ -1,5 +1,12 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_user_string():
+        return collections.UserString()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
