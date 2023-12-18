@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
