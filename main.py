@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_area(radius):
+        return 3.14 * radius * radius
