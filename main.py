@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
