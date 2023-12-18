@@ -1,5 +1,8 @@
-import time
-print(time.time())
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
