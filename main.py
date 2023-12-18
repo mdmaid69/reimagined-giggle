@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
