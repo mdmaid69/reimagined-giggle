@@ -1,7 +1,8 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
