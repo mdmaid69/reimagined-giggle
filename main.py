@@ -1,3 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-for i in range(10): print(i)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
