@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
