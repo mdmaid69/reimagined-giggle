@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
