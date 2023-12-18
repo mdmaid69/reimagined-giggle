@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
