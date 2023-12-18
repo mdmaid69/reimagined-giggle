@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def is_even(n):
-        return n % 2 == 0
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
