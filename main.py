@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
