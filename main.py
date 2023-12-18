@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
