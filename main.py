@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
