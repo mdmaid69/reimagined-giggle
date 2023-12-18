@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def add_numbers(x, y):
+        return x + y
+import random
+print(random.randint(0, 100))
