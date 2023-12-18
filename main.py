@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def cube_number(x):
-        return x**3
+import sys
+def exit_program():
+        sys.exit()
+import datetime
+def get_today_date():
+        return datetime.date.today()
