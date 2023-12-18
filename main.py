@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import platform
+def get_os_info():
+        return platform.uname()
+  def square_number(x):
+        return x**2
