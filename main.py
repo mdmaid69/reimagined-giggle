@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
