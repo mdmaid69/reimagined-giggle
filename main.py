@@ -1,6 +1,9 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
