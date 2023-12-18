@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def cube_number(x):
-        return x**3
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
