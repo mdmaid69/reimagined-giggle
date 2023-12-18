@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
