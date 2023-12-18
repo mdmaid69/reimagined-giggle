@@ -1,7 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def cube_number(x):
+        return x**3
