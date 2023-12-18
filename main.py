@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
