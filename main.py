@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_length(array):
+        return len(array)
