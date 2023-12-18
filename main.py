@@ -1,10 +1,3 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
 def calculate_payback_period(cash_flows):
         cumulative_cash_flow = 0
         for i, cf in enumerate(cash_flows):
@@ -12,3 +5,6 @@ def calculate_payback_period(cash_flows):
         if cumulative_cash_flow >= 0:
                 return i
         return None
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
