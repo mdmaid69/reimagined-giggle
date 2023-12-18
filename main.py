@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def reverse_array(array):
-        array.reverse()
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
