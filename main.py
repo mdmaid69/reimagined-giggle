@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
