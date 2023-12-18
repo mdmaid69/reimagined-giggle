@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
