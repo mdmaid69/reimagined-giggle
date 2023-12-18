@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
