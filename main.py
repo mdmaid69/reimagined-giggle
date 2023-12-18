@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_set(array):
+        return set(array)
