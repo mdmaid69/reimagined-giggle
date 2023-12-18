@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_array_item(array, i):
+        return array[i]
