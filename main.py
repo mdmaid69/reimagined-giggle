@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area_rectangle(l, w):
+        return l * w
