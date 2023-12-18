@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_speed(distance, time):
+        return distance / time
