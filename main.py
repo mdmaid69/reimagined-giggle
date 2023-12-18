@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
