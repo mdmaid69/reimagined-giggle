@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
