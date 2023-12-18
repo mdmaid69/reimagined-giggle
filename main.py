@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def set_array_item(array, i, item):
+        array[i] = item
