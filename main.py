@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
