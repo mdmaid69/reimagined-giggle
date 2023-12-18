@@ -1,6 +1,3 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+name = "Python"
+print("Hello,", name)
+for i in range(10): print(i)
