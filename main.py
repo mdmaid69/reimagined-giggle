@@ -1,9 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
