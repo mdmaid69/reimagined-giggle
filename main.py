@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
