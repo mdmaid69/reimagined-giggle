@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_area(radius):
+        return 3.14 * radius * radius
