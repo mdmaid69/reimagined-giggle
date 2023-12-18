@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
