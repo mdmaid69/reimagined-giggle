@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
