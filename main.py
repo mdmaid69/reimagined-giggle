@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
