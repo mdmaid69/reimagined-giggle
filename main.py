@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def sort_list(lst):
+        return sorted(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
