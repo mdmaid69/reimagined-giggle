@@ -1,6 +1,8 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
