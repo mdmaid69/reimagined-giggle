@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def add_numbers(a, b):
-        return a + b
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
