@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import collections
-def create_user_list():
-        return collections.UserList()
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
