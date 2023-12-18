@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
