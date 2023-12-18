@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
