@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
