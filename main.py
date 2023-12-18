@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
