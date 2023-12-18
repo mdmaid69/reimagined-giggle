@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def square_number(x):
+        return x**2
