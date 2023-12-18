@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
