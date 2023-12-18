@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import getpass
-def get_username():
-        return getpass.getuser()
+def get_string_from_array(array):
+        return array.tobytes()
