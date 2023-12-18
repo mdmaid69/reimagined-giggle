@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
