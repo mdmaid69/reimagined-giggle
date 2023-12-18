@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def sort_list(lst):
+        return sorted(lst)
