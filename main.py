@@ -1,5 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
