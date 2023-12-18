@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
