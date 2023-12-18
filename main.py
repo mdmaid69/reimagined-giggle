@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
