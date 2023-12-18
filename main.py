@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
