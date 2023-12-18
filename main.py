@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
