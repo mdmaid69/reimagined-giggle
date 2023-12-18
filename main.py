@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
