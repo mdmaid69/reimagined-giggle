@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
