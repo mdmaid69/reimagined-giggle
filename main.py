@@ -1,5 +1,10 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
