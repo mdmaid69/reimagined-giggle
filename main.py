@@ -1,5 +1,4 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+for i in range(10): print(i)
