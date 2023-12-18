@@ -1,4 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-print([x**2 for x in range(10)])
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
