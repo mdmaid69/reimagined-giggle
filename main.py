@@ -1,5 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-  def square_number(x):
-        return x**2
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_sine(x):
+        return math.sin(x)
