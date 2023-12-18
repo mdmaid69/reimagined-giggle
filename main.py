@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
