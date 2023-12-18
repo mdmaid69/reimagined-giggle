@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def multiply_numbers(x, y):
-        return x * y
+def is_odd(n):
+        return n % 2 != 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
