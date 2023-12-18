@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import platform
-def get_os_info():
-        return platform.uname()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
