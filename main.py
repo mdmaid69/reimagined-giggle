@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def greet(name):
-        print(f"Hello, {name}!")
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import json
+print(json.dumps({"name": "John", "age": 30}))
