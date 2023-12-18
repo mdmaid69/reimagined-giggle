@@ -1,5 +1,11 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def print_python_version():
+        return sys.version
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
