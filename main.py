@@ -1,4 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
