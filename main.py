@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def multiply_numbers(x, y):
+        return x * y
