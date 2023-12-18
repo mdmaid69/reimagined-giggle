@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
