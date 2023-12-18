@@ -1,6 +1,6 @@
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_arc_tangent(x):
+        return math.atan(x)
