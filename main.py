@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
