@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def split_path(path):
+        return os.path.split(path)
