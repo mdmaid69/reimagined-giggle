@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
