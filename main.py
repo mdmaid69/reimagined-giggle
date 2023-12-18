@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
