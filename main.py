@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def remove_duplicates(lst):
+        return list(set(lst))
