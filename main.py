@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def count_elements(lst):
-        return len(lst)
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Reversed:", text[::-1])
