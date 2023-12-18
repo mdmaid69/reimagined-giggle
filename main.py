@@ -1,12 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
