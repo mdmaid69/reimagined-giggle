@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-for i in range(5):
-        print(i)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
