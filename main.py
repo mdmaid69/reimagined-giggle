@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import numpy as np
+print(np.array([1, 2, 3]))
