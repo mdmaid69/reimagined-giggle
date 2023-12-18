@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
