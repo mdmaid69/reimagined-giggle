@@ -1,5 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_area_circle(r):
+        return 3.14 * r**2
