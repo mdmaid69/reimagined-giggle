@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
