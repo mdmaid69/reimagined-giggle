@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_speed(distance, time):
-        return distance / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
