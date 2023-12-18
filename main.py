@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
