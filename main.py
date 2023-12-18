@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
