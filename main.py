@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
