@@ -1,6 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
