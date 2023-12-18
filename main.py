@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
