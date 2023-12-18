@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
