@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_pressure(force, area):
+        return force / area
