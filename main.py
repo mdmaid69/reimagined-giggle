@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
