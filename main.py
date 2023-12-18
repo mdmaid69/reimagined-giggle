@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
