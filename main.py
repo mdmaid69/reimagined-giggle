@@ -1,6 +1,3 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+print("Hello, world!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
