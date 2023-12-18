@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
