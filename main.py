@@ -1,8 +1,7 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
