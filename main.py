@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def divide_numbers(x, y):
-        return x / y
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
