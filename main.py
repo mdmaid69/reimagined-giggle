@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
