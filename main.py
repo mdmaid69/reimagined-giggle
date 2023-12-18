@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
