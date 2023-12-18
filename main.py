@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def cube_number(x):
+        return x**3
+import array
+def get_array_as_list(array):
+        return list(array)
