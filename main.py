@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def is_odd(n):
-        return n % 2 != 0
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
