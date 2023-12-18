@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_sine(x):
+        return math.sin(x)
