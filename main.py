@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
