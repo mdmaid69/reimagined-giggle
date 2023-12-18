@@ -1,5 +1,10 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
