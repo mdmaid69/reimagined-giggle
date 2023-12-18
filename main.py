@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
