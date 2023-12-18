@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def count_words(sentence):
-        return len(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
