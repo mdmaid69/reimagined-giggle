@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
