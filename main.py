@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
