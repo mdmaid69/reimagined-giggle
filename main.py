@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
