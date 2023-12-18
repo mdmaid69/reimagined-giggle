@@ -1,5 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def convert_to_hex(n):
+        return hex(n)
