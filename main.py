@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+text = "Hello, world!"
+print("Characters:", len(text))
