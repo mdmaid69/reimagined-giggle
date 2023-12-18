@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import random
+print(random.randint(0, 100))
