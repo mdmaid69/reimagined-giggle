@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
