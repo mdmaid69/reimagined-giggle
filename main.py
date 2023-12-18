@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
