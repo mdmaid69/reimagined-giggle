@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import datetime
-print(datetime.datetime.now())
+def add_numbers(x, y):
+        return x + y
+def calculate_speed(distance, time):
+        return distance / time
