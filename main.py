@@ -1,8 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
