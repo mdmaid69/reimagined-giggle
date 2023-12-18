@@ -1,6 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
