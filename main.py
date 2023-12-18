@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
