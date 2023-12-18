@@ -1,10 +1,5 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
-import tensorflow as tf
-print(tf.__version__)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
