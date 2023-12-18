@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
