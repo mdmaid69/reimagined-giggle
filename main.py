@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
