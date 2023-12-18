@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import time
+def get_current_time():
+        return time.time()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
