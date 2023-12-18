@@ -1,5 +1,6 @@
-print(sum(range(10)))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
