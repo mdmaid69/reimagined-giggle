@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_power(work, time):
-        return work / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def reverse_string(s):
+        return s[::-1]
