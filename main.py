@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import time
-def get_time_since_epoch():
-        return time.time()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
