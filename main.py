@@ -1,8 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def convert_to_binary(n):
+        return bin(n)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
