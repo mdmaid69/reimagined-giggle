@@ -1,5 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
