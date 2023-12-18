@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_length(array):
+        return len(array)
