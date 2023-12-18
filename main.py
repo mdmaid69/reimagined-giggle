@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
