@@ -1,7 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def square_number(x):
+        return x**2
