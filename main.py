@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_list_from_array(array):
+        return array.tolist()
