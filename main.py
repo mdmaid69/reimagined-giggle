@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def count_characters(sentence):
+        return len(sentence)
