@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import datetime
+def get_today_date():
+        return datetime.date.today()
