@@ -1,8 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_power(work, time):
+        return work / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
