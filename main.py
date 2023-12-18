@@ -1,5 +1,7 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def subtract_numbers(x, y):
-        return x - y
+def get_array_as_bool(array):
+        return bool(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
