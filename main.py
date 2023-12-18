@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def insert_into_array(array, i, item):
+        array.insert(i, item)
