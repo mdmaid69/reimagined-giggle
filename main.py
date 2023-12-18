@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import platform
+def get_python_version():
+        return platform.python_version()
