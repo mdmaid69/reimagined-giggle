@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
