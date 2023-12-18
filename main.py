@@ -1,3 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-print(sum(range(10)))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
