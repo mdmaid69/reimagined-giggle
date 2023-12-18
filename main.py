@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+print(json.dumps({"name": "John", "age": 30}))
