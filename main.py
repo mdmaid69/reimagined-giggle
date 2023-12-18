@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
