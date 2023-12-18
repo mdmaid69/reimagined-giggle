@@ -1,6 +1,8 @@
-def square_number(x):
-        return x**2
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
