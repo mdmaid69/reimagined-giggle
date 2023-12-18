@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
