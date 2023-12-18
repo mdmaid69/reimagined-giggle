@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
