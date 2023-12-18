@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
