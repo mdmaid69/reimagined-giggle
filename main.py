@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def count_elements(lst):
-        return len(lst)
+  def split_path(path):
+        return os.path.split(path)
