@@ -1,4 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_area_rectangle(l, w):
-        return l * w
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def greet(name):
+        print(f"Hello, {name}!")
