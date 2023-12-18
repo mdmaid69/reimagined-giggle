@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_area(radius):
+        return 3.14 * radius * radius
