@@ -1,6 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
