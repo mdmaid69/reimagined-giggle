@@ -1,6 +1,6 @@
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
