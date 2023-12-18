@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
