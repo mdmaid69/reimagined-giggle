@@ -1,6 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
