@@ -1,6 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
