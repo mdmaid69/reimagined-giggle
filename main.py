@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
