@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
