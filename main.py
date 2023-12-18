@@ -1,5 +1,7 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
