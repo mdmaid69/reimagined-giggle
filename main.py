@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def is_even(n):
+        return n % 2 == 0
+def find_max(numbers):
+        return max(numbers)
