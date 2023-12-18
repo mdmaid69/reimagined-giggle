@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
