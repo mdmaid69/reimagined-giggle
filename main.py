@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
