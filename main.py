@@ -1,6 +1,10 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
