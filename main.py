@@ -1,4 +1,10 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_acceleration(speed, time):
-        return speed / time
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
