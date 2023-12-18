@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
