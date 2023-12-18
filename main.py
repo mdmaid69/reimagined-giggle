@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
