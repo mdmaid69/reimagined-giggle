@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import logging
-def log_message(message):
-        logging.info(message)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_density(mass, volume):
+        return mass / volume
