@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+import random
+print(random.randint(0, 100))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
