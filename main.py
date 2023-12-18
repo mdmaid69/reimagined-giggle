@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
