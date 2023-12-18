@@ -1,8 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_typecode(array):
+        return array.typecode
