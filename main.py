@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import sys
+print(sys.version)
+import platform
+def get_os_info():
+        return platform.uname()
