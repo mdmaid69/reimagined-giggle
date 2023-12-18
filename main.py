@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import time
+def get_current_time():
+        return time.time()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
