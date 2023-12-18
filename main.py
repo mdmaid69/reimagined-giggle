@@ -1,7 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+def change_working_directory(path):
+        os.chdir(path)
