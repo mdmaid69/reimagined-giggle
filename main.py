@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
