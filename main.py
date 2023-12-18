@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def is_odd(n):
-        return n % 2 != 0
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
