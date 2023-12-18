@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
