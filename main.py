@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
