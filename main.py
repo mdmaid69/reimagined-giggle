@@ -1,8 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
