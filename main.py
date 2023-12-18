@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def find_max(numbers):
+        return max(numbers)
