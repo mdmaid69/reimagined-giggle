@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
