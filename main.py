@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
