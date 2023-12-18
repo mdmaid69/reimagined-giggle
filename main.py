@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
