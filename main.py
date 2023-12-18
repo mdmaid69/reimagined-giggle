@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
