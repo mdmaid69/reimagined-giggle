@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
