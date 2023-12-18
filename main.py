@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
