@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def count_elements(lst):
+        return len(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
