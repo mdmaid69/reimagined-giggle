@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
