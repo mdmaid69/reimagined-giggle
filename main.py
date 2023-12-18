@@ -1,5 +1,8 @@
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
