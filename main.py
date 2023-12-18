@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_list_from_array(array):
+        return array.tolist()
