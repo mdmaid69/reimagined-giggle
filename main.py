@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_arc_cosine(x):
+        return math.acos(x)
