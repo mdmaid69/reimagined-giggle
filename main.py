@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_str(array):
-        return str(array)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
