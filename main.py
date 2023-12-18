@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import random
-def roll_die():
-        return random.randint(1, 6)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
