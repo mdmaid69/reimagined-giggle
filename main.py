@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
