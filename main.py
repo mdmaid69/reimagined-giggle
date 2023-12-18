@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+from collections import Counter
+print(Counter("hello world"))
