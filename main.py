@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
