@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def convert_to_hex(n):
+        return hex(n)
+import numpy as np
+print(np.array([1, 2, 3]))
