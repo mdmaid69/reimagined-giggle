@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
