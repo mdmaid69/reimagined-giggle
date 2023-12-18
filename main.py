@@ -1,4 +1,6 @@
-for i in range(10): print(i)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
