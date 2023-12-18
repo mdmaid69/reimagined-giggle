@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
