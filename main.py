@@ -1,8 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
