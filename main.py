@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
