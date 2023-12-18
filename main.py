@@ -1,7 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def get_string_from_array(array):
+        return array.tobytes()
