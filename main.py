@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def divide_numbers(x, y):
+        return x / y
