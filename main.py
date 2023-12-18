@@ -1,4 +1,8 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
