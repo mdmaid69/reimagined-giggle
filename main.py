@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+print(re.match("h.*o", "hello world"))
