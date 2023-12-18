@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
