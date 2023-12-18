@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
