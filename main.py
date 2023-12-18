@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
