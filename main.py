@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
   import os
-  def get_file_blocks_allocated(file_name):
+  def get_file_blocks(file_name):
         return os.stat(file_name).st_blocks
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
