@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
