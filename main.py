@@ -1,6 +1,11 @@
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
