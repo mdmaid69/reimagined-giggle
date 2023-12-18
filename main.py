@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
