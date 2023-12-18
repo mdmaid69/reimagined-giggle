@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
