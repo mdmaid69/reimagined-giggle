@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import platform
+def get_os_info():
+        return platform.uname()
