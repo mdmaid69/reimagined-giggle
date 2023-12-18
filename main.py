@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def count_elements(lst):
-        return len(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
