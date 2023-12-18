@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
