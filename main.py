@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
