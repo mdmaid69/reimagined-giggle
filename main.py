@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import sys
-print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_queue():
+        return collections.deque()
