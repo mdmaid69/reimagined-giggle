@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_as_set(array):
+        return set(array)
