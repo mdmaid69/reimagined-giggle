@@ -1,4 +1,4 @@
-def find_min(lst):
-        return min(lst)
-def is_palindrome(s):
-        return s == s[::-1]
+def add_numbers(x, y):
+        return x + y
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
