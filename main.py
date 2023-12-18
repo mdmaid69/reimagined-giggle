@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_set(array):
+        return set(array)
