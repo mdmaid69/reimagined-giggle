@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def remove_duplicates(lst):
+        return list(set(lst))
