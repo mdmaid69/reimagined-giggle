@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
