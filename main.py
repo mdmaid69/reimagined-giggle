@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
