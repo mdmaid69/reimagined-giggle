@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def convert_to_octal(n):
-        return oct(n)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_work(force, distance):
+        return force * distance
