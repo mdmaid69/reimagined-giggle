@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def cube_number(x):
+        return x**3
