@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
