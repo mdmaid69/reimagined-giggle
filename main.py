@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import tensorflow as tf
+print(tf.__version__)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
