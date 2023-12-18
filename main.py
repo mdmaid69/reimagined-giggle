@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
