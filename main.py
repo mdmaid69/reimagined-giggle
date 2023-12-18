@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def count_elements(lst):
-        return len(lst)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
