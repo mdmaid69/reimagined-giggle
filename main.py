@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
