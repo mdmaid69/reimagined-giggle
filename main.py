@@ -1,5 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_directory_name(path):
+        return os.path.dirname(path)
