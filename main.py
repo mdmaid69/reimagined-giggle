@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import tensorflow as tf
-print(tf.__version__)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def sort_list(lst):
+        return sorted(lst)
