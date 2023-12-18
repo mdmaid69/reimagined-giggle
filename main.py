@@ -1,6 +1,5 @@
+def add_numbers(a, b):
+        return a + b
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
