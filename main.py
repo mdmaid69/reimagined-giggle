@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
