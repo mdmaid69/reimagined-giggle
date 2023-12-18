@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
