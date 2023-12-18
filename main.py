@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
