@@ -1,5 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
