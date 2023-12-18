@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_power(work, time):
+        return work / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
