@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
