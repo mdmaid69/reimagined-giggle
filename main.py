@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
