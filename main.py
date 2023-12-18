@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
