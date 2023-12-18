@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
