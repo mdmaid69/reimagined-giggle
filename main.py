@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
