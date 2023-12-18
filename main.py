@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
