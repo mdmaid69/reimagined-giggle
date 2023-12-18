@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
