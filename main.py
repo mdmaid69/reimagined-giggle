@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
