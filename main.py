@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
