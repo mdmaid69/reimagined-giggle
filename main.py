@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import random
+print(random.randint(0, 100))
