@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
