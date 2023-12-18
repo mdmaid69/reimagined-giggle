@@ -1,5 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
