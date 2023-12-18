@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def cube_number(x):
+        return x**3
