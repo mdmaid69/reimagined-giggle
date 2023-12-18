@@ -1,4 +1,3 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+for i in range(10): print(i)
