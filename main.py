@@ -1,6 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_list_from_array(array):
+        return array.tolist()
