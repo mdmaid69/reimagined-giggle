@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
