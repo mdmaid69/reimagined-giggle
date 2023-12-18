@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
