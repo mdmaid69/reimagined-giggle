@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
