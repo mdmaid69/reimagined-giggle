@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def is_palindrome(s):
+        return s == s[::-1]
+import platform
+def get_os_info():
+        return platform.uname()
