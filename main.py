@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+def print_python_version():
+        print(sys.version)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
