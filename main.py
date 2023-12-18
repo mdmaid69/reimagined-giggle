@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
