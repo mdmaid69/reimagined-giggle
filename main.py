@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_as_repr(array):
+        return repr(array)
