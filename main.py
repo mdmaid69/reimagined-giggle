@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
