@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
