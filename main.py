@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
