@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
