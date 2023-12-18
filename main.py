@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def square_number(x):
-        return x**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
