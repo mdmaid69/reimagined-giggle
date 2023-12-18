@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def subtract_numbers(x, y):
+        return x - y
