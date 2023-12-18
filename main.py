@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
