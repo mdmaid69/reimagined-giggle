@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import platform
+def get_os_info():
+        return platform.uname()
