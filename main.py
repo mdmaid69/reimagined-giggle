@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
