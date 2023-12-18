@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
