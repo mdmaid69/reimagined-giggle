@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
