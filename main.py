@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def convert_to_hex(n):
-        return hex(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
