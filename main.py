@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def is_even(n):
-        return n % 2 == 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
