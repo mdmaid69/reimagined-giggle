@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def cube_number(x):
+        return x**3
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_as_bool(array):
+        return bool(array)
