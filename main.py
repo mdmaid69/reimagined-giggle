@@ -1,8 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
