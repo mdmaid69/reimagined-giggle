@@ -1,6 +1,10 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
