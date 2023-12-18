@@ -1,6 +1,8 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
