@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
