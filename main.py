@@ -1,8 +1,11 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
