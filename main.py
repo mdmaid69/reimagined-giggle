@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
