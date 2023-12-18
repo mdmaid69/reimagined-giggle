@@ -1,4 +1,11 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
