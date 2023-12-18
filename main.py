@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
