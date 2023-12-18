@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def add_numbers(x, y):
+        return x + y
