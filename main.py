@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def append_to_array(array, item):
+        array.append(item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
