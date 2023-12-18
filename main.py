@@ -1,5 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
