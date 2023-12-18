@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_as_str(array):
-        return str(array)
+def remove_from_array(array, item):
+        array.remove(item)
