@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
