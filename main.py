@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_item(array, i):
-        return array[i]
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
