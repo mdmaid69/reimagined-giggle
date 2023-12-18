@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def get_array_as_str(array):
+        return str(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
