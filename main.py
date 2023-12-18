@@ -1,7 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
