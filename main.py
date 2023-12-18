@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
