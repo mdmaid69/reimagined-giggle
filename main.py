@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
