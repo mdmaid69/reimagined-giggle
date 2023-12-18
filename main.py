@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
