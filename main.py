@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
