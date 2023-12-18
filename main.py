@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
