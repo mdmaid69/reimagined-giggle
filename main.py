@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
