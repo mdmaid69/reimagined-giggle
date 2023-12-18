@@ -1,7 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import random
+print(random.randint(0, 100))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
