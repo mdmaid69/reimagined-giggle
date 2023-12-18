@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
