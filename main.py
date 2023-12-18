@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
