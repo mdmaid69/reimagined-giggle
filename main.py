@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
