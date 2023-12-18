@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
