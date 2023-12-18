@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-from collections import Counter
-print(Counter("hello world"))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
