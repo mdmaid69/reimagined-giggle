@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
