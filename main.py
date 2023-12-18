@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
