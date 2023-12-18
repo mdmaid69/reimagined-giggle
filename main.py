@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
