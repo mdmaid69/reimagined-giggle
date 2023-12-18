@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
