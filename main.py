@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-print(datetime.datetime.now())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
