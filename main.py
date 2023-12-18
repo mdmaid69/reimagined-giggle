@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
