@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
