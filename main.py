@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_speed(distance, time):
+        return distance / time
