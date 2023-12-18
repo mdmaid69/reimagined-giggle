@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
