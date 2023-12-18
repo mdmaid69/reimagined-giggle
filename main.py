@@ -1,6 +1,3 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print("Hello, world!")
+def convert_to_octal(n):
+        return oct(n)
