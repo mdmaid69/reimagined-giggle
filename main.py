@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
