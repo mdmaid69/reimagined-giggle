@@ -1,8 +1,10 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
