@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_complex(array):
+        return complex(array[0])
