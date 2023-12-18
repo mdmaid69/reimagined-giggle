@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def count_elements(lst):
+        return len(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
