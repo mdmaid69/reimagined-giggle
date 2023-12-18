@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_power(work, time):
+        return work / time
+def find_max(numbers):
+        return max(numbers)
