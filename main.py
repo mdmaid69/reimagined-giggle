@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
