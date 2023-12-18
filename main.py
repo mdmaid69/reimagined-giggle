@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
