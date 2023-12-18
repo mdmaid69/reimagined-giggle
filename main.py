@@ -1,4 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
