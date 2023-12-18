@@ -1,4 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
