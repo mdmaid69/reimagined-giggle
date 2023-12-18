@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
