@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import platform
+def get_python_version():
+        return platform.python_version()
