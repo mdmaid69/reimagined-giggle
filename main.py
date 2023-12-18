@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
