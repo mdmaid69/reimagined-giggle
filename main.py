@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
