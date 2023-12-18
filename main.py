@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def sort_list(lst):
+        return sorted(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
