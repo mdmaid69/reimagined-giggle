@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
