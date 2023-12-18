@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
