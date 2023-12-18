@@ -1,6 +1,7 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
