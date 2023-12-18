@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import sys
+def exit_program():
+        sys.exit()
