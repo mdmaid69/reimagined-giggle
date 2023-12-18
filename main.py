@@ -1,7 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import numpy as np
-print(np.array([1, 2, 3]))
+def remove_from_array(array, item):
+        array.remove(item)
