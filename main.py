@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
