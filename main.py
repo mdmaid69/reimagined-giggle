@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import sys
-def print_python_version():
-        print(sys.version)
+def convert_to_binary(n):
+        return bin(n)
+name = "Python"
+print("Hello,", name)
