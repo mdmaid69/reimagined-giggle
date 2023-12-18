@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def count_characters(sentence):
+        return len(sentence)
