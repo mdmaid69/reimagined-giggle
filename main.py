@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
