@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_power(work, time):
+        return work / time
 import math
-print(math.pi)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
