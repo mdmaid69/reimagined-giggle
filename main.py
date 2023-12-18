@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
