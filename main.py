@@ -1,6 +1,3 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+print([x**2 for x in range(10)])
