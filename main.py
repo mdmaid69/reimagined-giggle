@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def reverse_string(s):
+        return s[::-1]
+from collections import Counter
+print(Counter("hello world"))
