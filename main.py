@@ -1,6 +1,8 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+def get_string_from_array(array):
+        return array.tobytes()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
