@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
