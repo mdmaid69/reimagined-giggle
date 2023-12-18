@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
