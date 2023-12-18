@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
