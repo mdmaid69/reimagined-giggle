@@ -1,5 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
