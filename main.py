@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
