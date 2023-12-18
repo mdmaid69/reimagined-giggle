@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
