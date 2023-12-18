@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_str(array):
+        return str(array)
