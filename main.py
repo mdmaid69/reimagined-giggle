@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
