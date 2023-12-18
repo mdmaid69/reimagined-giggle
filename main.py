@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
