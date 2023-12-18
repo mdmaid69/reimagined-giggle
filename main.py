@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_item(array, i):
+        return array[i]
+def is_even(n):
+        return n % 2 == 0
