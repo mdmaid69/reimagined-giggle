@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def divide_numbers(x, y):
-        return x / y
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
