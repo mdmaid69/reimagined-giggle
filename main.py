@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_even(n):
+        return n % 2 == 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
