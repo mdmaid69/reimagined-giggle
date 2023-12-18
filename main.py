@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
