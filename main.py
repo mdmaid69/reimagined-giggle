@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
