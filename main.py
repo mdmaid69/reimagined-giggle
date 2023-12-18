@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
