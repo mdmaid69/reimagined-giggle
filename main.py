@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
