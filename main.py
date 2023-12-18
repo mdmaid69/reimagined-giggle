@@ -1,6 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def is_even(n):
-        return n % 2 == 0
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
