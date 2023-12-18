@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
