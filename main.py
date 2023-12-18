@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def convert_to_octal(n):
+        return oct(n)
