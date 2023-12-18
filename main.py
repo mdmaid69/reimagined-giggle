@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
