@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
