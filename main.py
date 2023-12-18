@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def multiply_numbers(x, y):
+        return x * y
