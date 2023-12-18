@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def reverse_array(array):
+        array.reverse()
