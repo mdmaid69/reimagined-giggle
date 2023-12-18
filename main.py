@@ -1,5 +1,8 @@
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import time
-print(time.time())
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
