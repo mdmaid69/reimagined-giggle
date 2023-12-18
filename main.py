@@ -1,7 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
