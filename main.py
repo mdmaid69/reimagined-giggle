@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_max(numbers):
+        return max(numbers)
