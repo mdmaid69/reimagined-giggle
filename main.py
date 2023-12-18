@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
