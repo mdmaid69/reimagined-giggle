@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(x, y):
-        return x + y
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def reverse_array(array):
+        array.reverse()
