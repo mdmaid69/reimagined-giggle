@@ -1,4 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-for i in range(10): print(i)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
