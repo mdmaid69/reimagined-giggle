@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
