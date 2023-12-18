@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def convert_to_binary(n):
-        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
