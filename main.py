@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_queue():
+        return collections.deque()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
