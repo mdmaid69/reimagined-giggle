@@ -1,4 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
