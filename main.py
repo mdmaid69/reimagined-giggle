@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
