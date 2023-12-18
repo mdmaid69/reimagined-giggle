@@ -1,4 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_string():
+        return collections.UserString()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
