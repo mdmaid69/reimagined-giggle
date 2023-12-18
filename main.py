@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+print("Hello, world!")
+import array
+def get_array_itemsize(array):
+        return array.itemsize
