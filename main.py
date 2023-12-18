@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
