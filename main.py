@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import getpass
+def get_username():
+        return getpass.getuser()
