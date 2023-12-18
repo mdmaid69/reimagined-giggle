@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
