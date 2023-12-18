@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
