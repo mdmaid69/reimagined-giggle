@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
