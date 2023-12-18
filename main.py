@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
