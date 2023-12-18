@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
