@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
