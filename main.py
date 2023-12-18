@@ -1,5 +1,3 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+print(sum(range(10)))
