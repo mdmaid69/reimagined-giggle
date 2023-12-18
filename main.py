@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
