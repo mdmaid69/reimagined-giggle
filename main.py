@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def get_array_as_float(array):
+        return float(array[0])
