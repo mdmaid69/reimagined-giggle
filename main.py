@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
