@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
