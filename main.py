@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
