@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def convert_to_hex(n):
+        return hex(n)
