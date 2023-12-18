@@ -1,3 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-print(sum(range(10)))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
