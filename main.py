@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
