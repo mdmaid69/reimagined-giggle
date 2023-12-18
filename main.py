@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
