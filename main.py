@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+print(os.getcwd())
+def calculate_power(work, time):
+        return work / time
