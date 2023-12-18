@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def exit_program():
-        sys.exit()
+print([x**2 for x in range(10)])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
