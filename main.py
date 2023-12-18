@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
