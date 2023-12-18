@@ -1,9 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
