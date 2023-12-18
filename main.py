@@ -1,6 +1,4 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_as_set(array):
-        return set(array)
+print(math.pi)
