@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
