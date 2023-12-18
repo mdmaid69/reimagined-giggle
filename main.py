@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
