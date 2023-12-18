@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def split_path(path):
+        return os.path.split(path)
