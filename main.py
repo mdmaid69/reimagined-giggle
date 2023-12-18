@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+x = 10
+y = 20
+print("Sum:", x + y)
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
