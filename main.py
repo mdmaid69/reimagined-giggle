@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+def get_current_time():
+        return time.ctime()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
