@@ -1,6 +1,5 @@
+import random
+print(random.randint(0, 100))
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
