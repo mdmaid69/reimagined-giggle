@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import random
-print(random.randint(0, 100))
+def convert_to_octal(n):
+        return oct(n)
+def square_number(x):
+        return x**2
