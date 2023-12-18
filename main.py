@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_sine(x):
+        return math.sin(x)
