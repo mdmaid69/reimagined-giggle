@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import platform
+def get_os_info():
+        return platform.uname()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
