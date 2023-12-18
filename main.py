@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
