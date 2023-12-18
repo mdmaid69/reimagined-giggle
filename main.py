@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_as_repr(array):
+        return repr(array)
