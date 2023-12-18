@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-for i in range(5):
-        print(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
