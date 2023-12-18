@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def sort_numbers(numbers):
+        return sorted(numbers)
