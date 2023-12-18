@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
