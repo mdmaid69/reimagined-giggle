@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
