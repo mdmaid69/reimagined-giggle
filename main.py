@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
