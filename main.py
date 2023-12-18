@@ -1,6 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
