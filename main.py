@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
