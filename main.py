@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
