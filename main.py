@@ -1,6 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
