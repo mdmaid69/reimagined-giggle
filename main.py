@@ -1,4 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-  def convert_to_hex(n):
-        return hex(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
