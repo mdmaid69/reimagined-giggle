@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def check_if_array_contains_item(array, item):
+        return item in array
