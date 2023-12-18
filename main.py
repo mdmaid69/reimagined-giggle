@@ -1,8 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
