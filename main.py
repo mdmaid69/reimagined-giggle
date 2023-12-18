@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
