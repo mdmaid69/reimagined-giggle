@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-print(os.getcwd())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
