@@ -1,5 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-text = "Hello, world!"
-print("Characters:", len(text))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def multiply_numbers(x, y):
+        return x * y
