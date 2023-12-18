@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def square_number(x):
-        return x**2
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
