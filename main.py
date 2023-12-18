@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import getpass
-def get_username():
-        return getpass.getuser()
+def divide_numbers(x, y):
+        return x / y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
