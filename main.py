@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import time
+def get_current_time():
+        return time.ctime()
