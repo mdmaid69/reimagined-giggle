@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
