@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
