@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
