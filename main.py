@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
