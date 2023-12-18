@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
