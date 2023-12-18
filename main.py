@@ -1,6 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_power(work, time):
+        return work / time
