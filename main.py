@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+for i in range(10): print(i)
