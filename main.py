@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-print(math.pi)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
