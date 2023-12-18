@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
