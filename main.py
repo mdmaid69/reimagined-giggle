@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
