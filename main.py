@@ -1,18 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
