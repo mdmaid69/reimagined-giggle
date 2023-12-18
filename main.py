@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
