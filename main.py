@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
