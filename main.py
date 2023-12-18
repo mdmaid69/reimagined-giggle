@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
