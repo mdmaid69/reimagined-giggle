@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def greet(name):
-        print(f"Hello, {name}!")
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_sine(x):
+        return math.sin(x)
