@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
