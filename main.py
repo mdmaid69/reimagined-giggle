@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_work(force, distance):
+        return force * distance
