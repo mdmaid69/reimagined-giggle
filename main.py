@@ -1,6 +1,10 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import array
+def convert_array_to_string(array):
+        return array.tostring()
