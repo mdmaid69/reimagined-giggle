@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
