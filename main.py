@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
