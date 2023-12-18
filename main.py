@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
