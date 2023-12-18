@@ -1,5 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def count_elements(lst):
-        return len(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import time
+def get_current_time():
+        return time.ctime()
