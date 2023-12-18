@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def convert_array_to_list(array):
+        return array.tolist()
