@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def square_number(x):
-        return x**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
