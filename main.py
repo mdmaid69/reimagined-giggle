@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import sys
+def exit_program():
+        sys.exit()
