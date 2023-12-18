@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+print([x**2 for x in range(10)])
