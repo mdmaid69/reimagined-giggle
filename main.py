@@ -1,3 +1,5 @@
-print(sum(range(10)))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_area_rectangle(l, w):
+        return l * w
