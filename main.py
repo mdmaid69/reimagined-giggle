@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def subtract_numbers(x, y):
+        return x - y
