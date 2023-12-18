@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
