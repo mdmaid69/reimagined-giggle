@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
