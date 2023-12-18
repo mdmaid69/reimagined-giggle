@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
