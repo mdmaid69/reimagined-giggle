@@ -1,8 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
