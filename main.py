@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_array_to_string(array):
+        return array.tostring()
