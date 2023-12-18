@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
