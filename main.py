@@ -1,3 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-print(sum(range(10)))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_length(array):
+        return len(array)
