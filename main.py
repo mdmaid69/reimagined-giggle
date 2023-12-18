@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
