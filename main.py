@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
