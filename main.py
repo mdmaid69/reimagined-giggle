@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
