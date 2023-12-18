@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
