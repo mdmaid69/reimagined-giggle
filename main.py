@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
