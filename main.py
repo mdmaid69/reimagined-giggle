@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
