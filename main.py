@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
