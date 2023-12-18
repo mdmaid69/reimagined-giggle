@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def divide_numbers(x, y):
+        return x / y
+def calculate_power(work, time):
+        return work / time
