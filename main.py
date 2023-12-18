@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
