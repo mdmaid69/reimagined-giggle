@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
