@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def count_words(sentence):
-        return len(sentence.split())
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
