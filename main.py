@@ -1,8 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
