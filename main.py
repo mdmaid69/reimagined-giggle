@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
