@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-name = "Python"
-print("Hello,", name)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
