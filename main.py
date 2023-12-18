@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
