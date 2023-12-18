@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-from collections import Counter
-print(Counter("hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
