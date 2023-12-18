@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def greet(name):
+        print(f"Hello, {name}!")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
