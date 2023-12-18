@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def reverse_string(s):
-        return s[::-1]
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import sys
+  def get_python_version():
+        return sys.version
