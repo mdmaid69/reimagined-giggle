@@ -1,5 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
