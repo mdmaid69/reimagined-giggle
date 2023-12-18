@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import datetime
+def get_today_date():
+        return datetime.date.today()
