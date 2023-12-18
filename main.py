@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_pressure(force, area):
-        return force / area
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
