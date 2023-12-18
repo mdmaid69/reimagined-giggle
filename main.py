@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
