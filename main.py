@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
