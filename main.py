@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-text = "Hello, world!"
-print("Characters:", len(text))
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
