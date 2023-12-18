@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def remove_duplicates(lst):
+        return list(set(lst))
