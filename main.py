@@ -1,4 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def divide_numbers(x, y):
+        return x / y
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
