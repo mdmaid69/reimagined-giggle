@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
