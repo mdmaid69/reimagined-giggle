@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
