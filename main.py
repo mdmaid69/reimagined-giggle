@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
