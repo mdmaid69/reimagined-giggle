@@ -1,5 +1,9 @@
-import collections
-def create_stack():
-        return collections.deque()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
