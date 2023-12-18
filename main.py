@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_as_list(array):
+        return list(array)
