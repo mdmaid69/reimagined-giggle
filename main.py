@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_work(force, distance):
+        return force * distance
