@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_work(force, distance):
-        return force * distance
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
