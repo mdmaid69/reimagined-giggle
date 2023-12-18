@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
