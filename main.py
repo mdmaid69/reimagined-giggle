@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
