@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def get_array_length(array):
+        return len(array)
