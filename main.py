@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
