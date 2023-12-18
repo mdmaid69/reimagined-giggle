@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
