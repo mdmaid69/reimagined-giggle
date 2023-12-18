@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def get_list_from_array(array):
+        return array.tolist()
