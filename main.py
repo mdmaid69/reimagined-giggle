@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def clear_array(array):
+        array *= 0
+  import sys
+  def get_python_version():
+        return sys.version
