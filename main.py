@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
