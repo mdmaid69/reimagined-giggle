@@ -1,5 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_union(list1, list2):
+        return set(list1) | set(list2)
