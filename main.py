@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
