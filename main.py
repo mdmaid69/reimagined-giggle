@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def square_number(x):
+        return x**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
