@@ -1,6 +1,8 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_factorial(n):
+        return math.factorial(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
