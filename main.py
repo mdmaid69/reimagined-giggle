@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
