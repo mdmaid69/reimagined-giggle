@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_length(array):
-        return len(array)
+def is_even(n):
+        return n % 2 == 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
