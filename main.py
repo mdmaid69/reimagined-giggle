@@ -1,5 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
