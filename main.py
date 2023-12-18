@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_arc_tangent(x):
+        return math.atan(x)
