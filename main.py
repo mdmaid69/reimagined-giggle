@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
