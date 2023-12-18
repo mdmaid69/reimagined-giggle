@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
