@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-from collections import Counter
-print(Counter("hello world"))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def convert_to_hex(n):
+        return hex(n)
