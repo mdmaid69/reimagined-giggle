@@ -1,4 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-print(sum(range(10)))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
