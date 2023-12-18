@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def get_array_length(array):
+        return len(array)
