@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
