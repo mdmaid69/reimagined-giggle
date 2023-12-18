@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
