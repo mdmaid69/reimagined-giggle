@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
