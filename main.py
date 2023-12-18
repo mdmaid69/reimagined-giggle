@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_density(mass, volume):
+        return mass / volume
