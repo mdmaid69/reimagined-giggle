@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_length(array):
+        return len(array)
+  def add_numbers(x, y):
+        return x + y
