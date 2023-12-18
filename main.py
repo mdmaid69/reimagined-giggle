@@ -1,7 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
