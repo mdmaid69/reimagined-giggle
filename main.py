@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
