@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import collections
+def create_queue():
+        return collections.deque()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
