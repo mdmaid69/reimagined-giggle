@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  def remove_duplicates(lst):
+        return list(set(lst))
