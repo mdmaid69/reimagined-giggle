@@ -1,7 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
