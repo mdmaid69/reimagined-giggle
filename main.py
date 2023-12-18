@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
