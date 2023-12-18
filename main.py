@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
