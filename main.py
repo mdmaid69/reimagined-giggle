@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import sys
-def print_python_version():
-        print(sys.version)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
