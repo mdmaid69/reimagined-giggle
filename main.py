@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import collections
-def create_priority_queue():
-        return collections.deque()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
