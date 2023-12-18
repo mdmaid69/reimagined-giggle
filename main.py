@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
