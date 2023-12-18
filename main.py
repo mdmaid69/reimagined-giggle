@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
