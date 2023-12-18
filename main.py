@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
