@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
