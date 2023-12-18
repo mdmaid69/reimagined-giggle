@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
