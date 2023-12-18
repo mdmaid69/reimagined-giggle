@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
