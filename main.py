@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
