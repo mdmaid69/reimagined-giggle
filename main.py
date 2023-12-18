@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
