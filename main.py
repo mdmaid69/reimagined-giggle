@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
