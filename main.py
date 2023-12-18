@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
