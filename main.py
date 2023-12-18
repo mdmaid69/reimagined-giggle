@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import collections
-def create_priority_queue():
-        return collections.deque()
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
