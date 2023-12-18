@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+def print_python_version():
+        print(sys.version)
+  def multiply_numbers(x, y):
+        return x * y
