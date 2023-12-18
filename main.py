@@ -1,5 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
