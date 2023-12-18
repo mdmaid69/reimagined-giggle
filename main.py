@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_float(array):
+        return float(array[0])
