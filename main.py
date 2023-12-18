@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
