@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_dict():
+        return collections.UserDict()
