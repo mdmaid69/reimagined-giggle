@@ -1,5 +1,10 @@
-def count_words(sentence):
-        return len(sentence.split())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
