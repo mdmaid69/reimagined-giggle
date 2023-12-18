@@ -1,5 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sys
+def exit_program():
+        sys.exit()
