@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
