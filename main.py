@@ -1,5 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  def cube_number(x):
-        return x**3
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
