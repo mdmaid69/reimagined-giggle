@@ -1,6 +1,9 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
