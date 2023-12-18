@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
