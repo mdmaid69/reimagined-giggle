@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
