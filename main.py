@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
