@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
