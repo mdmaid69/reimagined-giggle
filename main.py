@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def square_number(x):
-        return x**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
