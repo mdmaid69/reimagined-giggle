@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
