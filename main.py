@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
