@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
