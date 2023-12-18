@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
