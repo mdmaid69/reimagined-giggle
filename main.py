@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def add_numbers(x, y):
+        return x + y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
