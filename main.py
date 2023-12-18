@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
