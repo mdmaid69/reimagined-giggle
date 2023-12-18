@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
