@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_area_circle(r):
+        return 3.14 * r**2
