@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
