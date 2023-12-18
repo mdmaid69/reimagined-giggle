@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
