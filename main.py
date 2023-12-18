@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import collections
-def create_counter():
-        return collections.Counter()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
