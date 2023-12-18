@@ -1,5 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
