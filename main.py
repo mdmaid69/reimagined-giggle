@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
