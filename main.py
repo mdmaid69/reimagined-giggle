@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
