@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
 import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_bool(array):
+        return bool(array)
