@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def cube_number(x):
+        return x**3
