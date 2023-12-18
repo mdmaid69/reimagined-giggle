@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
