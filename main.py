@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
