@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
