@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def sort_numbers(numbers):
-        return sorted(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
