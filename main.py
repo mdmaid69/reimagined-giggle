@@ -1,6 +1,11 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
