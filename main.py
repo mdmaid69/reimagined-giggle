@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
