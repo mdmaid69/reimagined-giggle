@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
