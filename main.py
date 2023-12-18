@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
