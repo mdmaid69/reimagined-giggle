@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
