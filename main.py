@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
