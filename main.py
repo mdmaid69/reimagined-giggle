@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
