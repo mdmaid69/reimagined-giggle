@@ -1,6 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
