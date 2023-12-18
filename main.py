@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
