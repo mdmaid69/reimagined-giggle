@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_palindrome(s):
+        return s == s[::-1]
+  import sys
+  def get_python_version():
+        return sys.version
