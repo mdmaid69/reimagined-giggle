@@ -1,6 +1,8 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
