@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-name = "Python"
-print("Hello,", name)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
