@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_bool(array):
+        return bool(array)
