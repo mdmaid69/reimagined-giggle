@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def convert_to_hex(n):
+        return hex(n)
