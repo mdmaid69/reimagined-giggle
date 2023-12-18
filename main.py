@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
