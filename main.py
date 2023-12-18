@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
