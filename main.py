@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
