@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
