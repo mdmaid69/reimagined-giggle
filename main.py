@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_item(array, i):
-        return array[i]
+import tensorflow as tf
+print(tf.__version__)
+import random
+print(random.randint(0, 100))
