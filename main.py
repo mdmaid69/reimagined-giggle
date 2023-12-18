@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def reverse_array(array):
-        array.reverse()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import logging
+def log_message(message):
+        logging.info(message)
