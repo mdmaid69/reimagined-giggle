@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_priority_queue():
+        return collections.deque()
