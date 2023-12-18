@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
