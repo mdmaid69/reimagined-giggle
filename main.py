@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
