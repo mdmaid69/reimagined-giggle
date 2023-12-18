@@ -1,8 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
