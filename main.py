@@ -1,6 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_work(force, distance):
+        return force * distance
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
