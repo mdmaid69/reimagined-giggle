@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_item(array, i):
+        return array[i]
