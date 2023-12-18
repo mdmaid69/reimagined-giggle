@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+def convert_to_octal(n):
+        return oct(n)
