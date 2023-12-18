@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cosine(x):
+        return math.cos(x)
+def find_max(lst):
+        return max(lst)
