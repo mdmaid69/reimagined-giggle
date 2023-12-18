@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
