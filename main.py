@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
