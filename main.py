@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
