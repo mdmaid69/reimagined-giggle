@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
