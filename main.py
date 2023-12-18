@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
