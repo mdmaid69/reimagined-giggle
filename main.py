@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def convert_to_hex(n):
+        return hex(n)
