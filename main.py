@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_base_name(path):
+        return os.path.basename(path)
