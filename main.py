@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.time()
+def calculate_work(force, distance):
+        return force * distance
