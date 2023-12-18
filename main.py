@@ -1,5 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
