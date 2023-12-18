@@ -1,4 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import time
-print(time.time())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
