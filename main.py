@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
