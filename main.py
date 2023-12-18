@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import sys
+def print_python_version():
+        print(sys.version)
