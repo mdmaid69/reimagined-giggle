@@ -1,6 +1,12 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
