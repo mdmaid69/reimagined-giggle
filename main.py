@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_user_string():
-        return collections.UserString()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
