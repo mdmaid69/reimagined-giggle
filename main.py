@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
