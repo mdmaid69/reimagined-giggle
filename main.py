@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
