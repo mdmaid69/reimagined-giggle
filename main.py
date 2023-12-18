@@ -1,6 +1,5 @@
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def get_current_time():
-        return time.ctime()
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
