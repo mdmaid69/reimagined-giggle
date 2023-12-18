@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def multiply_numbers(x, y):
+        return x * y
