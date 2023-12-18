@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
