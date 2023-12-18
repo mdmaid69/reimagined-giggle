@@ -1,4 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
