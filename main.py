@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
