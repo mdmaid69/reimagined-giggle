@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_pressure(force, area):
+        return force / area
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
