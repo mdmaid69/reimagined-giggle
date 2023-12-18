@@ -7,6 +7,6 @@ for i in range(5):
 
 while not q.empty():
         print(q.get())
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
