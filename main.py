@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+from collections import Counter
+print(Counter("hello world"))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
