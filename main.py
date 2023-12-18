@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def reverse_array(array):
+        array.reverse()
