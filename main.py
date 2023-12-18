@@ -1,6 +1,6 @@
 import time
-def get_current_time():
-        return time.ctime()
+def get_time_since_epoch():
+        return time.time()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_gamma_function(x):
+        return math.gamma(x)
