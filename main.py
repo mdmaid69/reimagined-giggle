@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
