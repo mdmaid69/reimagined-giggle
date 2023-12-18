@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_user_dict():
+        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
