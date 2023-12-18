@@ -1,5 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
