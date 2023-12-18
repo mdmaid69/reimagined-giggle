@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import array
-def clear_array(array):
-        array *= 0
+def append_to_array(array, item):
+        array.append(item)
