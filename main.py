@@ -1,5 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def clear_array(array):
+        array *= 0
