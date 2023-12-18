@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
