@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
