@@ -1,5 +1,9 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
