@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def reverse_string(s):
+        return s[::-1]
+import os
+def remove_directory(path):
+        os.rmdir(path)
