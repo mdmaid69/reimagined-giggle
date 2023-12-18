@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
