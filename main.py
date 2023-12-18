@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
