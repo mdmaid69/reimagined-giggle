@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
