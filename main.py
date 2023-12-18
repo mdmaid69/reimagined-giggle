@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def square_number(x):
+        return x**2
