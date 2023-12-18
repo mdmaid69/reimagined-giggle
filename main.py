@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
