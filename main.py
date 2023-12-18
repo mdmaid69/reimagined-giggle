@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
