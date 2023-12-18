@@ -1,5 +1,11 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
