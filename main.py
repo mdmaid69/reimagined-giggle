@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def calculate_area_rectangle(l, w):
+        return l * w
