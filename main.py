@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
