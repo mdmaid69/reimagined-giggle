@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
