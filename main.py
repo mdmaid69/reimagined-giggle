@@ -1,8 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
