@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-for i in range(5):
-        print(i)
+def square_number(x):
+        return x**2
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
