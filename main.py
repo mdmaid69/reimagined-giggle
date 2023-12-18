@@ -1,8 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def is_even(n):
+        return n % 2 == 0
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
