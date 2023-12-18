@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
