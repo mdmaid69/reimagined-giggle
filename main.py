@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
