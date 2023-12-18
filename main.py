@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
