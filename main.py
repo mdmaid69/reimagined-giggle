@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
