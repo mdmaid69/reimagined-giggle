@@ -1,6 +1,7 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
