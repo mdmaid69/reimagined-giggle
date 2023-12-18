@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
