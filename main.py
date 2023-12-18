@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def convert_to_hex(n):
+        return hex(n)
