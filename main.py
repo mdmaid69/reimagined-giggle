@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
