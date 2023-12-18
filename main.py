@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
