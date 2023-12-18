@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
