@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
