@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+for i in range(10): print(i)
