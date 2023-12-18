@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
