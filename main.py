@@ -1,5 +1,3 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-print(random.randint(0, 100))
+print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
