@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
