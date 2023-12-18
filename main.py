@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def subtract_numbers(x, y):
+        return x - y
