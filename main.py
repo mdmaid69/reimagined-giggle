@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
