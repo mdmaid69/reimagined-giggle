@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
