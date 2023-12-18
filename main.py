@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
