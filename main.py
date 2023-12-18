@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
