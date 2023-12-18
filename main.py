@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
