@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+print([x**2 for x in range(10)])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
