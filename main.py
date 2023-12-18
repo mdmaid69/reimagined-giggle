@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
