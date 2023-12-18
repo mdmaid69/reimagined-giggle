@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import platform
+def get_os_info():
+        return platform.uname()
+def add_numbers(x, y):
+        return x + y
