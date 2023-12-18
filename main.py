@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def get_array_item(array, i):
+        return array[i]
