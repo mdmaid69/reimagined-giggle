@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
