@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Words:", len(text.split()))
