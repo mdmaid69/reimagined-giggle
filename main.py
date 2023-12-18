@@ -1,5 +1,4 @@
-def square_number(x):
+  def square_number(x):
         return x**2
-import sys
-def print_python_version():
-        print(sys.version)
+  def convert_to_octal(n):
+        return oct(n)
