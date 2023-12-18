@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
