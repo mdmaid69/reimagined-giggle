@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
