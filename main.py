@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
