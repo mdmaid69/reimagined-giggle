@@ -1,4 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def add_numbers(a, b):
-        return a + b
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
