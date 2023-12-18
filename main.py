@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
