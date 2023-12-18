@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
