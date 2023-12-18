@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
