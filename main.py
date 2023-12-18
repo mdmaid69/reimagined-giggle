@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+x = 10
+y = 20
+print("Sum:", x + y)
+import collections
+def create_counter():
+        return collections.Counter()
