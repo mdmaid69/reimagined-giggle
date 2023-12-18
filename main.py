@@ -1,7 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
