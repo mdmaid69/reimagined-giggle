@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def convert_to_octal(n):
+        return oct(n)
+for i in range(5):
+        print(i)
