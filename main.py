@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
