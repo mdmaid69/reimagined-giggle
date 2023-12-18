@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def square_number(x):
+        return x**2
