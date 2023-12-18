@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
