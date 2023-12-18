@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
