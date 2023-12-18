@@ -1,8 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def multiply_numbers(x, y):
-        return x * y
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
