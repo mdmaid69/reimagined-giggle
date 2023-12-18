@@ -1,7 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
