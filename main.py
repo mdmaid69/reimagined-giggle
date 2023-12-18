@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def create_user_list():
-        return collections.UserList()
+for i in range(5):
+        print(i)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
