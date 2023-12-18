@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_to_hex(n):
+        return hex(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
