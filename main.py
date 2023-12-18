@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+print(math.pi)
