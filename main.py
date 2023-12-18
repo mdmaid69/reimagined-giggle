@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
