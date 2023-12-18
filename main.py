@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def convert_to_octal(n):
+        return oct(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
