@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
