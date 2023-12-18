@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import random
-print(random.randint(0, 100))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def convert_to_hex(n):
+        return hex(n)
