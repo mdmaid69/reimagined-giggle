@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
