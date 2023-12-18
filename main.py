@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+text = "Hello, world!"
+print("Words:", len(text.split()))
