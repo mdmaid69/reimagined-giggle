@@ -1,8 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
