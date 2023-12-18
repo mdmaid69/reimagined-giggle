@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_priority_queue():
+        return collections.deque()
+import time
+print(time.time())
