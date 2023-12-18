@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
