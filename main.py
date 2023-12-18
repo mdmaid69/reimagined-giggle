@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_item(array, i):
+        return array[i]
+import sys
+def print_python_version():
+        print(sys.version)
