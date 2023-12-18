@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import os
+def get_current_working_directory():
+        return os.getcwd()
