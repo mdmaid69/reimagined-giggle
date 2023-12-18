@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
