@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def add_numbers(a, b):
+        return a + b
