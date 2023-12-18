@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
