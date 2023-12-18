@@ -1,8 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
