@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
