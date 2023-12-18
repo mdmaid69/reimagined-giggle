@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
