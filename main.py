@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
