@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
