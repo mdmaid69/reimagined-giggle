@@ -1,5 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def is_odd(n):
-        return n % 2 != 0
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
