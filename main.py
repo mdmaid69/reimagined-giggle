@@ -1,6 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def convert_to_octal(n):
+        return oct(n)
+  def cube_number(x):
+        return x**3
