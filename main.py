@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_power(work, time):
+        return work / time
+def greet(name):
+        print(f"Hello, {name}!")
