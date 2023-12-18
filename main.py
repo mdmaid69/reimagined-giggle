@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def count_elements(lst):
+        return len(lst)
