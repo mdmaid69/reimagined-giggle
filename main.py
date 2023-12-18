@@ -1,5 +1,4 @@
+print("Hello, world!")
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
