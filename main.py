@@ -1,6 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
