@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
