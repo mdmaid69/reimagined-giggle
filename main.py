@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
