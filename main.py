@@ -1,6 +1,11 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
