@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_speed(distance, time):
+        return distance / time
