@@ -1,6 +1,12 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
