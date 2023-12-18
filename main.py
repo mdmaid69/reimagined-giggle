@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def is_odd(n):
+        return n % 2 != 0
