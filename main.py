@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+print(math.pi)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
