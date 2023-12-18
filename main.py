@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_work(force, distance):
+        return force * distance
