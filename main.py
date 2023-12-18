@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
