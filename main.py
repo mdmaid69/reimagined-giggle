@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
