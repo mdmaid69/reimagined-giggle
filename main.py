@@ -1,8 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def is_odd(n):
+        return n % 2 != 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
