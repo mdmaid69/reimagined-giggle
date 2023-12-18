@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def convert_to_binary(n):
+        return bin(n)
