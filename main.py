@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import time
-print(time.time())
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
