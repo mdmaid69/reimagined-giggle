@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
