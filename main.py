@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
