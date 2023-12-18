@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
