@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
