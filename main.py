@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import sys
+print(sys.version)
+  def subtract_numbers(x, y):
+        return x - y
