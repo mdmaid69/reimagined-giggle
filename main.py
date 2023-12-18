@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
