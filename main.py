@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
