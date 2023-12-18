@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
