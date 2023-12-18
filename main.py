@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
