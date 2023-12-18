@@ -1,4 +1,7 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
