@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
