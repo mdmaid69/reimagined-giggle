@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_power(work, time):
-        return work / time
+def calculate_speed(distance, time):
+        return distance / time
+  def cube_number(x):
+        return x**3
