@@ -1,4 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-for i in range(10): print(i)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
