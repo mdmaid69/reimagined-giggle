@@ -1,6 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
