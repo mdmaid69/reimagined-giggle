@@ -1,7 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
