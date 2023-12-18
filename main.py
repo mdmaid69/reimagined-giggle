@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def add_numbers(x, y):
-        return x + y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
