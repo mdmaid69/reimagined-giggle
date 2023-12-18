@@ -1,6 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def remove_directory(path):
+        os.rmdir(path)
