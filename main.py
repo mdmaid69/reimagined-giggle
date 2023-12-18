@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
