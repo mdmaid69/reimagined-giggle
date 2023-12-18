@@ -1,8 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
