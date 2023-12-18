@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_length(array):
+        return len(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
