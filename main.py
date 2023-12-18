@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
