@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_exponential(x):
+        return math.exp(x)
