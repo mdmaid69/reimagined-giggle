@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
