@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_str(array):
+        return str(array)
