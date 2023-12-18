@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_density(mass, volume):
+        return mass / volume
