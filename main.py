@@ -1,6 +1,11 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_density(mass, volume):
+        return mass / volume
