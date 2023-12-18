@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
