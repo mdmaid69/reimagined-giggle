@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import sys
-def print_python_version():
-        print(sys.version)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
