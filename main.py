@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_buffer_info(array):
+        return array.buffer_info()
