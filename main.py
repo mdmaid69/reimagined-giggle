@@ -1,5 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
