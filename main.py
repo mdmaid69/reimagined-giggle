@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
