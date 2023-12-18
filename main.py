@@ -1,5 +1,11 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_floor(x):
+        return math.floor(x)
