@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+def get_current_date():
+        return datetime.date.today()
