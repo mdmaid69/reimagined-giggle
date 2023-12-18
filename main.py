@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def square_number(x):
+        return x**2
+from collections import Counter
+print(Counter("hello world"))
