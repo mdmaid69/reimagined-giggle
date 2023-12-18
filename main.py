@@ -1,5 +1,12 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_ceiling(x):
+        return math.ceil(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
