@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
