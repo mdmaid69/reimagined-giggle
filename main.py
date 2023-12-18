@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_length(array):
+        return len(array)
+def reverse_list(lst):
+        return lst[::-1]
