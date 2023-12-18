@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
