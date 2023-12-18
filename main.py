@@ -1,6 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
