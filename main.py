@@ -1,9 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_area_circle(r):
+        return 3.14 * r**2
