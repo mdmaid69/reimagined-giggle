@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_odd(n):
-        return n % 2 != 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
