@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def is_even(n):
-        return n % 2 == 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
