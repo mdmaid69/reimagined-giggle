@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
