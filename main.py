@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
