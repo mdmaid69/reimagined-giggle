@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def remove_duplicates(lst):
-        return list(set(lst))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
