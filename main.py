@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
