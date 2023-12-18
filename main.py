@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+print(random.randint(0, 100))
