@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
