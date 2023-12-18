@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
