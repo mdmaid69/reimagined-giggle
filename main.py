@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
