@@ -1,11 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
