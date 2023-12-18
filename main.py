@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import sys
+def exit_program():
+        sys.exit()
