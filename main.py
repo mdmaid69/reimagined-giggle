@@ -1,6 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def reverse_string(s):
+        return s[::-1]
