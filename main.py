@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
