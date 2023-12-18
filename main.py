@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
