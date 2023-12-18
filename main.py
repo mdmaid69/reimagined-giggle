@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
