@@ -1,5 +1,8 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
