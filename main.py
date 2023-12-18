@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def get_base_name(path):
+        return os.path.basename(path)
