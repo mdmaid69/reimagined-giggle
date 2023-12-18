@@ -1,6 +1,4 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
