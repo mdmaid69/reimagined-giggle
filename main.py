@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
