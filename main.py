@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import random
+print(random.randint(0, 100))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
