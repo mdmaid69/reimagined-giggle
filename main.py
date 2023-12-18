@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
