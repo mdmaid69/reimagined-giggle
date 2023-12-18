@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
