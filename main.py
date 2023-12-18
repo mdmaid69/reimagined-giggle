@@ -1,6 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
