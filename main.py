@@ -1,4 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def divide_numbers(x, y):
+        return x / y
