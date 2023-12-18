@@ -1,6 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
