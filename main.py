@@ -1,4 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
