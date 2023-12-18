@@ -1,5 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
