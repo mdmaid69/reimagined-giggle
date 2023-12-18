@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def is_odd(n):
+        return n % 2 != 0
