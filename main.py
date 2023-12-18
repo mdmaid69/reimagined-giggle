@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+from collections import Counter
+print(Counter("hello world"))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
