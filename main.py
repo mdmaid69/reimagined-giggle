@@ -1,8 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def reverse_list(lst):
+        return lst[::-1]
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
