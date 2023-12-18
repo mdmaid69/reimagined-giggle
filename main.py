@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
