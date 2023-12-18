@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
