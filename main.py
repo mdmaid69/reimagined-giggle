@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def multiply_numbers(x, y):
+        return x * y
