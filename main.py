@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
