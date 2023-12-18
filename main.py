@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
