@@ -1,12 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
