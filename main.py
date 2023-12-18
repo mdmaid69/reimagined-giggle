@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
