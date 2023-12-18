@@ -1,6 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
