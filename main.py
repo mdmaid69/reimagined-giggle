@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
