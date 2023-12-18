@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_arc_cosine(x):
+        return math.acos(x)
