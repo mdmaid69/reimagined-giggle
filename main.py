@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def split_path(path):
+        return os.path.split(path)
