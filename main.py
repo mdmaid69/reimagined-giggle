@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
