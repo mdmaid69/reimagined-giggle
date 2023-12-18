@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_list_from_array(array):
+        return array.tolist()
