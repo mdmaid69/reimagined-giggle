@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+for i in range(5):
+        print(i)
+import collections
+def create_user_string():
+        return collections.UserString()
