@@ -1,6 +1,3 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
