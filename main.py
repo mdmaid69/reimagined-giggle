@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
