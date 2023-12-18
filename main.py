@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import random
+print(random.randint(0, 100))
+import collections
+def create_user_string():
+        return collections.UserString()
