@@ -1,7 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+for i in range(5):
+        print(i)
