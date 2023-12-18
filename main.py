@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
