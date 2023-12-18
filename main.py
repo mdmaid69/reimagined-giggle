@@ -1,6 +1,11 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
