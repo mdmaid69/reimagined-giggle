@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
