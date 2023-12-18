@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def check_if_array_contains_item(array, item):
+        return item in array
