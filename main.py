@@ -1,7 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_area(radius):
+        return 3.14 * radius * radius
