@@ -1,12 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
