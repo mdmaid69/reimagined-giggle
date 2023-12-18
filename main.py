@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
