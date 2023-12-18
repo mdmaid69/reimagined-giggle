@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
