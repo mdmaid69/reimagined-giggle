@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import tensorflow as tf
-print(tf.__version__)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_bool(array):
+        return bool(array)
