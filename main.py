@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_current_time():
+        return time.ctime()
