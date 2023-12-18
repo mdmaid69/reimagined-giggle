@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
