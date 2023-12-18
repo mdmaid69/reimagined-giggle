@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
