@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def divide_numbers(x, y):
+        return x / y
