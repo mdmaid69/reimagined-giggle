@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_stack():
-        return collections.deque()
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
