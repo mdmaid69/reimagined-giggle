@@ -1,4 +1,6 @@
-print("Hello, world!")
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
