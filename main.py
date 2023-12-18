@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
