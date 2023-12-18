@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import time
+def get_current_time():
+        return time.ctime()
