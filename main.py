@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import sys
-def exit_program():
-        sys.exit()
+  def get_current_directory():
+        return os.getcwd()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
