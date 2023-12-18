@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def square_number(x):
+        return x**2
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
