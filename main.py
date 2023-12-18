@@ -1,6 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
