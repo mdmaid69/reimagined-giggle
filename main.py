@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
