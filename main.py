@@ -1,8 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
