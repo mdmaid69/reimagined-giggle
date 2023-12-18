@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import numpy as np
+print(np.array([1, 2, 3]))
