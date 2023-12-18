@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
