@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_counter():
+        return collections.Counter()
