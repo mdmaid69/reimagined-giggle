@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-print(re.match("h.*o", "hello world"))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_work(force, distance):
+        return force * distance
