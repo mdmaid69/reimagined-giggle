@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def reverse_list(lst):
+        return lst[::-1]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
