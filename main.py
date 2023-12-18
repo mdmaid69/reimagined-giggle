@@ -1,5 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
