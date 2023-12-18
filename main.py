@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def is_palindrome(s):
+        return s == s[::-1]
+  def square_number(x):
+        return x**2
