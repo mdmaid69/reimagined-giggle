@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
