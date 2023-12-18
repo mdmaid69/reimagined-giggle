@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
