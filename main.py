@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
