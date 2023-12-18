@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
