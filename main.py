@@ -1,5 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
