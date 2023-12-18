@@ -1,4 +1,5 @@
-import time
-print(time.time())
-import random
-print(random.randint(0, 100))
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
