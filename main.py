@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import tensorflow as tf
-print(tf.__version__)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
