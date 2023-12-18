@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
