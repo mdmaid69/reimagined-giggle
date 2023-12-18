@@ -1,5 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def cube_number(x):
+        return x**3
+import re
+print(re.match("h.*o", "hello world"))
