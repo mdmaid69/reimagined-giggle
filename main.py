@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
