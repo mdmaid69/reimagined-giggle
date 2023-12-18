@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
