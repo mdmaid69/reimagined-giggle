@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import platform
+def get_os_info():
+        return platform.uname()
