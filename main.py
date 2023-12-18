@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
