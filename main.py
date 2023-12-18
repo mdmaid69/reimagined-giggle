@@ -1,6 +1,8 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
