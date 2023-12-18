@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
