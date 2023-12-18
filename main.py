@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def convert_array_to_list(array):
+        return array.tolist()
