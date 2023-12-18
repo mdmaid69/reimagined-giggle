@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_queue():
+        return collections.deque()
