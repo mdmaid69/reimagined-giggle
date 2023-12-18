@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
