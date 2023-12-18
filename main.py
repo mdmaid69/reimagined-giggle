@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
