@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
