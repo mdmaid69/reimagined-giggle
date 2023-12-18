@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
