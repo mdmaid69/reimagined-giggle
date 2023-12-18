@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
