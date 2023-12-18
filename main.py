@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_work(force, distance):
+        return force * distance
+def add_numbers(x, y):
+        return x + y
