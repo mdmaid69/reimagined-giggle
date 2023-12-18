@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
