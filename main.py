@@ -1,7 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
