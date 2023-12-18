@@ -1,6 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
