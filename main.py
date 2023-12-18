@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
