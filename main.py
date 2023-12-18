@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
