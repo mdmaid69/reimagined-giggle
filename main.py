@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import collections
+def create_stack():
+        return collections.deque()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
