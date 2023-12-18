@@ -1,5 +1,9 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
