@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
