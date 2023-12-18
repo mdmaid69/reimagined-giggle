@@ -1,5 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  def convert_to_octal(n):
+        return oct(n)
