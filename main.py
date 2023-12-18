@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
