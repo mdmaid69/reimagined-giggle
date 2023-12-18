@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import getpass
-def get_username():
-        return getpass.getuser()
+  def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
