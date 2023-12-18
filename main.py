@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
