@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
