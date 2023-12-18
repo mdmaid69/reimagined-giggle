@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
