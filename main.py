@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
