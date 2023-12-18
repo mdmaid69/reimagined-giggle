@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import time
+def get_time_since_epoch():
+        return time.time()
