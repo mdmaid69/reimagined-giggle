@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
