@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+x = 10
+y = 20
+print("Sum:", x + y)
