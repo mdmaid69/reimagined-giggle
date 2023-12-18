@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def cube_number(x):
+        return x**3
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
