@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
