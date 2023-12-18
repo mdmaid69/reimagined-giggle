@@ -1,8 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
