@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
