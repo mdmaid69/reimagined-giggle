@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
