@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
