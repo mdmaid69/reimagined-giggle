@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
