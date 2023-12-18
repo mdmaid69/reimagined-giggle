@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def find_max(lst):
+        return max(lst)
+import collections
+def create_stack():
+        return collections.deque()
