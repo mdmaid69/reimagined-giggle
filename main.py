@@ -1,6 +1,5 @@
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def create_user_string():
+        return collections.UserString()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
