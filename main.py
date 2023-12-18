@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def clear_array(array):
-        array *= 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
