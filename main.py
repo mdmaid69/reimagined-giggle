@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
