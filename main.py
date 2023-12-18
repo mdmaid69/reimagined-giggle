@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def clear_array(array):
+        array *= 0
