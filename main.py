@@ -1,10 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
