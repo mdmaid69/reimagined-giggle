@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
