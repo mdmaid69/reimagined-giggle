@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
