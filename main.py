@@ -1,5 +1,8 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def convert_to_octal(n):
-        return oct(n)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
