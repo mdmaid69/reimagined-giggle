@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
