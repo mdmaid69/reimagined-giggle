@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
