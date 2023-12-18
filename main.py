@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-import tensorflow as tf
-print(tf.__version__)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import platform
+def get_os_info():
+        return platform.uname()
