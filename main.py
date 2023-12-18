@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
