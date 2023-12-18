@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
