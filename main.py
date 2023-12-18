@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
