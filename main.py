@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
