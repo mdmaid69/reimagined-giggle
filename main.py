@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
