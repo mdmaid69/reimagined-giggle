@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
