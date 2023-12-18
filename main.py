@@ -1,5 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def subtract_numbers(x, y):
-        return x - y
+print(math.pi)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
