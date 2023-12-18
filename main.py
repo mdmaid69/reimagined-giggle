@@ -1,6 +1,14 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
