@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
