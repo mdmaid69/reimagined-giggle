@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
