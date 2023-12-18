@@ -1,8 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
