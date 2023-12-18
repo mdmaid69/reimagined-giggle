@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import time
-print(time.time())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
