@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
