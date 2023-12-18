@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import collections
+def create_stack():
+        return collections.deque()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
