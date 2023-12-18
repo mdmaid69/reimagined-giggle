@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_pressure(force, area):
+        return force / area
