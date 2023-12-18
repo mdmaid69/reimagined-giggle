@@ -1,8 +1,7 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
