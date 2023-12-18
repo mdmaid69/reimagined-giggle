@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def multiply_numbers(x, y):
+        return x * y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
