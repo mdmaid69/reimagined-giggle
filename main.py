@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def convert_to_hex(n):
+        return hex(n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
