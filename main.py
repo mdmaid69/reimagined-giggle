@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import datetime
-print(datetime.datetime.now())
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  def remove_duplicates(lst):
+        return list(set(lst))
