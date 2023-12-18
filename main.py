@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
