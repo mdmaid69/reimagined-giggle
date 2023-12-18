@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+for i in range(10): print(i)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
