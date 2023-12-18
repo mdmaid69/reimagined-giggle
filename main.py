@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
