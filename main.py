@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
