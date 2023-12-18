@@ -1,7 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
