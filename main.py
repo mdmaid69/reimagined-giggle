@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
