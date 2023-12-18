@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
