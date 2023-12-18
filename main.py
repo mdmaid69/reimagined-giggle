@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_exponential(x):
+        return math.exp(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
