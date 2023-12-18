@@ -1,7 +1,8 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import array
-def convert_string_to_array(string, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
         a.fromstring(string)
         return a
+import time
+def get_current_time():
+        return time.ctime()
