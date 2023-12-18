@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
