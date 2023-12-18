@@ -1,5 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def subtract_numbers(x, y):
+        return x - y
