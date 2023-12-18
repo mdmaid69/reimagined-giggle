@@ -1,6 +1,7 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
