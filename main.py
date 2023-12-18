@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def sort_list(lst):
+        return sorted(lst)
