@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import numpy as np
-print(np.array([1, 2, 3]))
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
