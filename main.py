@@ -1,5 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
