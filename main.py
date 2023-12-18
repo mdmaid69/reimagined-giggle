@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import sys
 def add_to_python_path(path):
         sys.path.append(path)
