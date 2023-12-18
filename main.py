@@ -1,5 +1,5 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import time
-print(time.time())
+def list_files_in_directory(path):
+        return os.listdir(path)
+def divide_numbers(x, y):
+        return x / y
