@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
