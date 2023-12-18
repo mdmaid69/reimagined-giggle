@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
