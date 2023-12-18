@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
