@@ -1,6 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
