@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def convert_to_octal(n):
-        return oct(n)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def get_array_itemsize(array):
+        return array.itemsize
