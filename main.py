@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_as_set(array):
-        return set(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
