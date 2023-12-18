@@ -1,11 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def add_numbers(a, b):
+        return a + b
