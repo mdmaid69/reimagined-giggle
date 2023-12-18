@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def get_array_as_tuple(array):
+        return tuple(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
