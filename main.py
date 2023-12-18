@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
