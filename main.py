@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
