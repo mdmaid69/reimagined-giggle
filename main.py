@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_area_rectangle(l, w):
+        return l * w
