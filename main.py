@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def count_elements(lst):
+        return len(lst)
