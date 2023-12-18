@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
