@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cosine(x):
+        return math.cos(x)
+def is_even(n):
+        return n % 2 == 0
