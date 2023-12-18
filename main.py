@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def create_counter():
-        return collections.Counter()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
