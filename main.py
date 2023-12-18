@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
