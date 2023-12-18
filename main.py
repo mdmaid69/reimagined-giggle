@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
