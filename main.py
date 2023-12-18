@@ -1,5 +1,6 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def convert_to_hex(n):
-        return hex(n)
+def create_user_list():
+        return collections.UserList()
+import array
+def reverse_array(array):
+        array.reverse()
