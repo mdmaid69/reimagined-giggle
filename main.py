@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
