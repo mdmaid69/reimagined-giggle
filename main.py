@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def is_odd(n):
-        return n % 2 != 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
