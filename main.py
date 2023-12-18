@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
