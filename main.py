@@ -1,7 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import collections
-def create_user_string():
-        return collections.UserString()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def create_user_dict():
+        return collections.UserDict()
