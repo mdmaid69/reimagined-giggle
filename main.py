@@ -1,5 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
