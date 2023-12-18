@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
