@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
