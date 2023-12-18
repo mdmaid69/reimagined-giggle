@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
