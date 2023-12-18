@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
