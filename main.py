@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
