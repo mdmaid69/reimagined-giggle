@@ -1,5 +1,3 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+print([x**2 for x in range(10)])
+def multiply_numbers(x, y):
+        return x * y
