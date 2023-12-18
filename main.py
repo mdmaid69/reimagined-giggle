@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
