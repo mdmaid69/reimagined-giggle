@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
