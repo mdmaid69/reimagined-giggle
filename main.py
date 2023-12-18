@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
