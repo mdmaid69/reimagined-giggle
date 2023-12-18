@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
