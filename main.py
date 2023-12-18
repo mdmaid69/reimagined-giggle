@@ -1,5 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
