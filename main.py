@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import time
-print(time.time())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import os
+def remove_directory(path):
+        os.rmdir(path)
