@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def remove_from_array(array, item):
+        array.remove(item)
