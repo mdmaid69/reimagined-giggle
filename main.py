@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_volume(length, width, height):
+        return length * width * height
