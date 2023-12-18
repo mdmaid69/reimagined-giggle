@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def change_working_directory(path):
+        os.chdir(path)
