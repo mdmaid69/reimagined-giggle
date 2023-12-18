@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import logging
+def log_message(message):
+        logging.info(message)
