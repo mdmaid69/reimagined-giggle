@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
