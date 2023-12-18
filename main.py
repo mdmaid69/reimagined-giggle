@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
