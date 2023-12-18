@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def multiply_numbers(x, y):
+        return x * y
