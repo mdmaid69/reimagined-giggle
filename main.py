@@ -1,7 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
