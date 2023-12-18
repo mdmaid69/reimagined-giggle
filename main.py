@@ -1,7 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def divide_numbers(x, y):
+        return x / y
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
