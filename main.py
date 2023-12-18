@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
