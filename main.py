@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
