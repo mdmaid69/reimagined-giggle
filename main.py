@@ -1,6 +1,10 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
