@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
