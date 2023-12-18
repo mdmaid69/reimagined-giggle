@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_bool(array):
+        return bool(array)
