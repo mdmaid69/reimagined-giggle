@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
