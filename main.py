@@ -1,5 +1,10 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def is_odd(n):
+        return n % 2 != 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
