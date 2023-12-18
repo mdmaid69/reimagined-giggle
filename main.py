@@ -1,6 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
