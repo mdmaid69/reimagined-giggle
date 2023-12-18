@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def is_odd(n):
-        return n % 2 != 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def count_characters(sentence):
+        return len(sentence)
