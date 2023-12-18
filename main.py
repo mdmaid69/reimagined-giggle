@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def convert_to_hex(n):
+        return hex(n)
