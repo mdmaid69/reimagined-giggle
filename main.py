@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
