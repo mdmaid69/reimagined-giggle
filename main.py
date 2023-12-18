@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
