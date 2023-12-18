@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
