@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
