@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
   import os
   def get_environment_variable(var_name):
         return os.getenv(var_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
