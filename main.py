@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_queue():
+        return collections.deque()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
