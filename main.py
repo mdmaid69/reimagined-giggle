@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
