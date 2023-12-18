@@ -1,6 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
