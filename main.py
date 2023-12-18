@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+print(os.getcwd())
