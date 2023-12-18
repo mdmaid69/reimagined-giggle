@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
