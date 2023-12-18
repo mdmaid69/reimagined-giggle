@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
