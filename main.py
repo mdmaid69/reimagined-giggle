@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
