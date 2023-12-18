@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
+import os
+def remove_directory(path):
+        os.rmdir(path)
