@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import collections
-def create_queue():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_counter():
+        return collections.Counter()
