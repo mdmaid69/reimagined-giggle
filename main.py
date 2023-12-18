@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def square_number(x):
-        return x**2
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
