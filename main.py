@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
