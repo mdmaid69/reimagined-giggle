@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
