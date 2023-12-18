@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
