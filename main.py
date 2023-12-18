@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
