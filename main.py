@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
