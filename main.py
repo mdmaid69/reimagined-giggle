@@ -1,7 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
