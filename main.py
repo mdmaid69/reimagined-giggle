@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import json
+print(json.dumps({"name": "John", "age": 30}))
