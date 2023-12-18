@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
