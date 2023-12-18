@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def convert_to_binary(n):
+        return bin(n)
+import tensorflow as tf
+print(tf.__version__)
