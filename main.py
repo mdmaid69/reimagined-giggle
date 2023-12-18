@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import sys
+def exit_program():
+        sys.exit()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
