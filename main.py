@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
