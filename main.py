@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_area_circle(r):
+        return 3.14 * r**2
