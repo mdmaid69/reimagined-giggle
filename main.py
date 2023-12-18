@@ -1,8 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
