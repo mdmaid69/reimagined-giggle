@@ -1,7 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+print(math.pi)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
