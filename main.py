@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
