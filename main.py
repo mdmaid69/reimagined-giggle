@@ -1,9 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
