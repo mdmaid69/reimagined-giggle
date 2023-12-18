@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def add_numbers(a, b):
-        return a + b
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
