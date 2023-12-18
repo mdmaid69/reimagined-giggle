@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
