@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def convert_to_binary(n):
-        return bin(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def count_elements(lst):
+        return len(lst)
