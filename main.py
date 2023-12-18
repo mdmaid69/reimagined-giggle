@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
