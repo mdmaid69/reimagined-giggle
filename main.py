@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
