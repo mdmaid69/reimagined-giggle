@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
