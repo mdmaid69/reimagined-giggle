@@ -1,6 +1,9 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
