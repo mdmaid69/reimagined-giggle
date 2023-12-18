@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
