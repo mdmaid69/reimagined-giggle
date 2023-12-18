@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
