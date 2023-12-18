@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
