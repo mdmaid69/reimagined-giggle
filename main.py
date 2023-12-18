@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import random
-print(random.randint(0, 100))
+import datetime
+print(datetime.datetime.now())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
