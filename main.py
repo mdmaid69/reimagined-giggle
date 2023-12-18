@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
