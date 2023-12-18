@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def square_number(x):
-        return x**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
