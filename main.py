@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
