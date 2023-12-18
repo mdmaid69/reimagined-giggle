@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def sort_list(lst):
+        return sorted(lst)
