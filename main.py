@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def greet(name):
+        print(f"Hello, {name}!")
+  def cube_number(x):
+        return x**3
