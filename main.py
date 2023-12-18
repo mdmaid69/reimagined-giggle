@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+for i in range(5):
+        print(i)
+for i in range(5):
+        print(i)
