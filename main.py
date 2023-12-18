@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
