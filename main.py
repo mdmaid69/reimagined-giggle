@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
