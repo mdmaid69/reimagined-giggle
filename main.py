@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def cube_number(x):
-        return x**3
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
