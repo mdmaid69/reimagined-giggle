@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_sign(x):
+        return math.copysign(1, x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
