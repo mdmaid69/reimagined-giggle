@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
