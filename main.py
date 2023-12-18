@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
