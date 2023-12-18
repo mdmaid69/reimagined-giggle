@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-print(datetime.datetime.now())
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sys
+def print_python_version():
+        return sys.version
