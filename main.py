@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def is_odd(n):
+        return n % 2 != 0
