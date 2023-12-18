@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
