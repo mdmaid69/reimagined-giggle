@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_array_typecode(array):
+        return array.typecode
