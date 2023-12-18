@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
