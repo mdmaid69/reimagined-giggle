@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+print(random.randint(0, 100))
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
