@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def is_even(n):
+        return n % 2 == 0
