@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_density(mass, volume):
+        return mass / volume
+def remove_duplicates(lst):
+        return list(set(lst))
