@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
