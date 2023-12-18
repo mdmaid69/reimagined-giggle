@@ -1,5 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_pressure(force, area):
-        return force / area
+def get_array_length(array):
+        return len(array)
