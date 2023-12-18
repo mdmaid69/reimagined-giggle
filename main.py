@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
