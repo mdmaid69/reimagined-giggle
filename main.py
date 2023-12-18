@@ -1,9 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
