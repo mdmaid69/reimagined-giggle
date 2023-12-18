@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
