@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
