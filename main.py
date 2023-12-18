@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
