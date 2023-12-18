@@ -1,7 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
