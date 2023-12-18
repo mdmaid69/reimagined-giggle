@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_as_list(array):
+        return list(array)
+import time
+def get_time_since_epoch():
+        return time.time()
