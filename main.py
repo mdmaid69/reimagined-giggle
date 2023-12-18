@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_queue():
-        return collections.deque()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
