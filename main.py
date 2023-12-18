@@ -1,6 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_power(work, time):
+        return work / time
