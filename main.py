@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
