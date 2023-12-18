@@ -1,10 +1,7 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+text = "Hello, world!"
+print("Uppercase:", text.upper())
