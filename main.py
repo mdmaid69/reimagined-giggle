@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
