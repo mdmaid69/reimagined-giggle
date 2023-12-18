@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def clear_array(array):
-        array *= 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
