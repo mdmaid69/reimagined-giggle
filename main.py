@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
