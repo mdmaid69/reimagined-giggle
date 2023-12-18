@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
