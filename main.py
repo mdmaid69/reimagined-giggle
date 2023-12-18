@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import time
+def get_current_time():
+        return time.ctime()
