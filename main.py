@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def create_queue():
-        return collections.deque()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import time
+def get_current_time():
+        return time.ctime()
