@@ -1,6 +1,8 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
