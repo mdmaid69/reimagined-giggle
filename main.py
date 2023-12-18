@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_speed(distance, time):
+        return distance / time
