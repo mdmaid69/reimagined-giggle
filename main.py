@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
