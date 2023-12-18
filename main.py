@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
