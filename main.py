@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_work(force, distance):
+        return force * distance
