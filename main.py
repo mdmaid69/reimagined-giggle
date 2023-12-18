@@ -1,5 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
