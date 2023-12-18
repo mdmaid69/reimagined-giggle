@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def convert_to_hex(n):
+        return hex(n)
