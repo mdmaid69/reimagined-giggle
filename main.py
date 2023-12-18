@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_cosine(x):
+        return math.acos(x)
