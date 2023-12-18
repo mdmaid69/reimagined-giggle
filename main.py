@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def subtract_numbers(x, y):
-        return x - y
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
