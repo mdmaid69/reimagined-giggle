@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
