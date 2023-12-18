@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import logging
+def log_message(message):
+        logging.info(message)
