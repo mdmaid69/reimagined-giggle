@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
