@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
