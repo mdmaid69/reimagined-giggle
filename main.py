@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
