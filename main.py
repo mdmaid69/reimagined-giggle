@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def is_odd(n):
+        return n % 2 != 0
