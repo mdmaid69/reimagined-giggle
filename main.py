@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
