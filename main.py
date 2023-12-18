@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_queue():
+        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
