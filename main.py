@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def divide_numbers(x, y):
+        return x / y
