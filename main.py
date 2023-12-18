@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
