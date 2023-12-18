@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
