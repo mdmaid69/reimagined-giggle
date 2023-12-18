@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
