@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
