@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
