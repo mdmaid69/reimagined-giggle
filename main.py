@@ -1,8 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_base_name(path):
+        return os.path.basename(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
