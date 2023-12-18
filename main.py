@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
