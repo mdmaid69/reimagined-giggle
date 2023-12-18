@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+print(random.randint(0, 100))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
