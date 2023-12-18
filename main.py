@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def append_to_array(array, item):
+        array.append(item)
