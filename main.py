@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def is_even(n):
+        return n % 2 == 0
