@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import sys
+  def get_python_version():
+        return sys.version
