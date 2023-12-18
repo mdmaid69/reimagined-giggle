@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_complex(array):
+        return complex(array[0])
