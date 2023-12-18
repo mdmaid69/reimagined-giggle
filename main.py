@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
