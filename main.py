@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
