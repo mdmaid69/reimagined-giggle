@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import time
-def get_time_since_epoch():
-        return time.time()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
