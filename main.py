@@ -1,8 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import datetime
+print(datetime.datetime.now())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
