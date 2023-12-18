@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
