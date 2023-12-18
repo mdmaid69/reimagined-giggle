@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def convert_to_hex(n):
-        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
