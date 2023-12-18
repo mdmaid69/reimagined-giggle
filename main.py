@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_density(mass, volume):
-        return mass / volume
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+for i in range(10): print(i)
