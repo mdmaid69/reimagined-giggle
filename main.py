@@ -1,6 +1,6 @@
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
