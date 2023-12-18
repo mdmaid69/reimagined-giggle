@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
