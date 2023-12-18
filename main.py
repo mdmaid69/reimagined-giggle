@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+for i in range(5):
+        print(i)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
