@@ -1,7 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
