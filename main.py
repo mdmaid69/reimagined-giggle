@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+name = "Python"
+print("Hello,", name)
+  def convert_to_hex(n):
+        return hex(n)
