@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
