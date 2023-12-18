@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
