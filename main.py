@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def greet(name):
+        print(f"Hello, {name}!")
