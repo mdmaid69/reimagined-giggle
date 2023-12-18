@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import collections
-def create_user_list():
-        return collections.UserList()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
