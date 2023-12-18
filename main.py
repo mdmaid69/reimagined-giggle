@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
