@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
