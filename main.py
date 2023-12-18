@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
