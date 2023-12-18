@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
