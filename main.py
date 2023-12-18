@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
