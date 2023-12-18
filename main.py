@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_speed(distance, time):
-        return distance / time
+def divide_numbers(x, y):
+        return x / y
+  def count_elements(lst):
+        return len(lst)
