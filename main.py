@@ -1,4 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-print([x**2 for x in range(10)])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
