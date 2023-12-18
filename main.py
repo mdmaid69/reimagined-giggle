@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def reverse_string(s):
-        return s[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
