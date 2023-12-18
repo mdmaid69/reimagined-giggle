@@ -1,5 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_array_as_int(array):
+        return int(array[0])
