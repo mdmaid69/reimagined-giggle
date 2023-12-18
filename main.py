@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_min(lst):
+        return min(lst)
+def is_palindrome(s):
+        return s == s[::-1]
