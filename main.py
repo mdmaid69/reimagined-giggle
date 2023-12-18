@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
