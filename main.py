@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
