@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
