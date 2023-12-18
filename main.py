@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
