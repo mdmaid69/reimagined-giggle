@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
