@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
