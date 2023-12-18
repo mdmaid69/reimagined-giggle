@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def cube_number(x):
+        return x**3
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
