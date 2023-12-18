@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
