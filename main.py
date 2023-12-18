@@ -1,7 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
