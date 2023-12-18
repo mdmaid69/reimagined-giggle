@@ -1,4 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-print(sum(range(10)))
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+print(math.pi)
