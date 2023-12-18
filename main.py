@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
