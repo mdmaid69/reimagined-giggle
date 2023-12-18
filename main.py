@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def exit_program():
+        sys.exit()
