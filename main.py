@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
