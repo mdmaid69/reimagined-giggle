@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+print(os.getcwd())
+def remove_duplicates(lst):
+        return list(set(lst))
