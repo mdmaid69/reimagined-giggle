@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-from collections import Counter
-print(Counter("hello world"))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def convert_to_binary(n):
+        return bin(n)
