@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
