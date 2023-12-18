@@ -1,6 +1,10 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
