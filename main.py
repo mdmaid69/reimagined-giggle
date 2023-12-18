@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def get_array_length(array):
+        return len(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
