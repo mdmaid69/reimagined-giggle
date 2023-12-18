@@ -1,5 +1,6 @@
 import array
-def get_list_from_array(array):
+def convert_array_to_list(array):
         return array.tolist()
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
