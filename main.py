@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def reverse_string(s):
+        return s[::-1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
