@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perpetuity(payment, rate):
+        return payment / rate
