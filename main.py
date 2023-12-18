@@ -1,9 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
