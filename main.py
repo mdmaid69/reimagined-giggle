@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import sys
+print(sys.version)
+def is_even(n):
+        return n % 2 == 0
