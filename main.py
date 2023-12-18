@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_density(mass, volume):
+        return mass / volume
