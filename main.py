@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def convert_array_to_unicode(array):
+        return array.tounicode()
