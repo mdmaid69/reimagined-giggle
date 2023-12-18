@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
