@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
