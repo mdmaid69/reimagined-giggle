@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_work(force, distance):
+        return force * distance
