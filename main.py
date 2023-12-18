@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_priority_queue():
-        return collections.deque()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
