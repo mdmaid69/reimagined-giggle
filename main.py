@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
