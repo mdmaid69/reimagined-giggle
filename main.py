@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
