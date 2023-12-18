@@ -1,7 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
