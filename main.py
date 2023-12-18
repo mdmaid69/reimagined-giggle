@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
