@@ -1,8 +1,8 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
