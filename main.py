@@ -1,5 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
