@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
