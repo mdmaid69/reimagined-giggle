@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
