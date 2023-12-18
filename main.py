@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
