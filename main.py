@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
