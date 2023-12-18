@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def add_numbers(a, b):
+        return a + b
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
