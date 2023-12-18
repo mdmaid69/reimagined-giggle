@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
