@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def cube_number(x):
-        return x**3
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_area_circle(r):
+        return 3.14 * r**2
