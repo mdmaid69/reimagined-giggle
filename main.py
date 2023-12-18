@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
