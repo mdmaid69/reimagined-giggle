@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
