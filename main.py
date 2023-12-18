@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
