@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def split_path(path):
+        return os.path.split(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
