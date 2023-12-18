@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
