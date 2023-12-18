@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-print(os.getcwd())
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def clear_array(array):
+        array *= 0
