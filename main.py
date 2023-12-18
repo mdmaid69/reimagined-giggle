@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
