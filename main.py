@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def is_odd(n):
-        return n % 2 != 0
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
