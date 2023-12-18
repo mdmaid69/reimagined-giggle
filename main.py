@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
