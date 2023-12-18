@@ -1,5 +1,7 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
