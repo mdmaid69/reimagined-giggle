@@ -1,7 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
