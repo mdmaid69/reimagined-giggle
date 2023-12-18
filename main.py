@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def is_palindrome(s):
+        return s == s[::-1]
