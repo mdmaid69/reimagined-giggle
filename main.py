@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import os
+def get_current_working_directory():
+        return os.getcwd()
