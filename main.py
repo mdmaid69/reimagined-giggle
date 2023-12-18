@@ -1,5 +1,12 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
