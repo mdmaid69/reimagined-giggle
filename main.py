@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
