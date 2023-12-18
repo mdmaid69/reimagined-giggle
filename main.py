@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_bytes_from_array(array):
+        return array.tobytes()
