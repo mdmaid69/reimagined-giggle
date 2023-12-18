@@ -1,6 +1,10 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
