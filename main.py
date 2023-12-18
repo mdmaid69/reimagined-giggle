@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def find_max(lst):
-        return max(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
