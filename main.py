@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def count_elements(lst):
+        return len(lst)
