@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def reverse_string(s):
+        return s[::-1]
