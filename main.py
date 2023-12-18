@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def multiply_numbers(x, y):
+        return x * y
+for i in range(5):
+        print(i)
