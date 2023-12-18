@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def clear_array(array):
-        array *= 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+def remove_directory(path):
+        os.rmdir(path)
