@@ -1,4 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
