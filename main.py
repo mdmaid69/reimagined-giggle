@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_power(work, time):
-        return work / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def convert_to_octal(n):
+        return oct(n)
