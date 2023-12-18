@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
