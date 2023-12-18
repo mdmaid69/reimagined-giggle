@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
