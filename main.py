@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
