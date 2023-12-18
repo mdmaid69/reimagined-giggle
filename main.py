@@ -1,5 +1,3 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+print(sum(range(10)))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
