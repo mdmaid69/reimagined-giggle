@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
