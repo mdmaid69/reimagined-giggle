@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
