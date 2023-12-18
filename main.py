@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import os
+def change_working_directory(path):
+        os.chdir(path)
