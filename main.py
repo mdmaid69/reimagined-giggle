@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_user_list():
+        return collections.UserList()
