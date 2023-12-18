@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
