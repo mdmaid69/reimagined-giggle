@@ -1,7 +1,5 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_speed(distance, time):
+        return distance / time
