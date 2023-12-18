@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
