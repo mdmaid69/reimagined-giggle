@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
