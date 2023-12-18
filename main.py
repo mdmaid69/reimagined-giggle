@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
