@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
