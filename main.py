@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
