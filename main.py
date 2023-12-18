@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_max(lst):
+        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
