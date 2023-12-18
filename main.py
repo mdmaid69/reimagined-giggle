@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import time
 def measure_execution_time(func, *args):
         start = time.time()
