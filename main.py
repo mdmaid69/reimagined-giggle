@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+from collections import Counter
+print(Counter("hello world"))
