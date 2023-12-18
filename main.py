@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_unique_words(sentence):
+        return set(sentence.split())
