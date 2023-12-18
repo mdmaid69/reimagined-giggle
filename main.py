@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
