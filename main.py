@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
