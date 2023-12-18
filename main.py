@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def get_array_as_set(array):
-        return set(array)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
