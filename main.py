@@ -1,6 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def get_current_date():
+        return datetime.date.today()
