@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def count_characters(sentence):
+        return len(sentence)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
