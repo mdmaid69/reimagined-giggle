@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
