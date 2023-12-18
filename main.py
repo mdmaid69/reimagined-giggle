@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
