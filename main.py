@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
