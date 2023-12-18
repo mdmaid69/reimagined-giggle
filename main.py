@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
