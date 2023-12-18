@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
