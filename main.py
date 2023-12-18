@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import time
+print(time.time())
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
