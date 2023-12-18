@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def add_numbers(a, b):
+        return a + b
