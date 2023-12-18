@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
