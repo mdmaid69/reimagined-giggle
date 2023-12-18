@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+print(os.getcwd())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
