@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
