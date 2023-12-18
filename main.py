@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
