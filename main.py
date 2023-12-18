@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
