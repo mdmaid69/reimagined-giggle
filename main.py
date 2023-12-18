@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
