@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import random
+print(random.randint(0, 100))
