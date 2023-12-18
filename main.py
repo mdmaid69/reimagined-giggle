@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def cube_number(x):
+        return x**3
