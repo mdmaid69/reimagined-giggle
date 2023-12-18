@@ -1,9 +1,10 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def read_from_json(json_string):
+        return json.loads(json_string)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
