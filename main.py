@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def is_odd(n):
+        return n % 2 != 0
+def count_words(sentence):
+        return len(sentence.split())
