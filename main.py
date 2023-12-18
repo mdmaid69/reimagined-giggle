@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
