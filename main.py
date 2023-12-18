@@ -1,3 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-print(sum(range(10)))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
