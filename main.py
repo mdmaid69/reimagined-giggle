@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
