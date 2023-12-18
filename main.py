@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
