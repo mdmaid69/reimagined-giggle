@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
