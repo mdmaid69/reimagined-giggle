@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-from collections import Counter
-print(Counter("hello world"))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
