@@ -1,7 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def check_if_array_contains_item(array, item):
+        return item in array
