@@ -1,5 +1,8 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
