@@ -1,6 +1,8 @@
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
