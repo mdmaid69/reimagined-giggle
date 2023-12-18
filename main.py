@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
