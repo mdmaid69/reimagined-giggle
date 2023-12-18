@@ -1,6 +1,9 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
