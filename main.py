@@ -1,4 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-print(sum(range(10)))
+  def reverse_list(lst):
+        return lst[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
