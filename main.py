@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
