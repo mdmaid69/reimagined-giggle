@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
+import socket
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_area_rectangle(l, w):
-        return l * w
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def cube_number(x):
+        return x**3
