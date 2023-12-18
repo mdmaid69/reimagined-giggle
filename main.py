@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
