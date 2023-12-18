@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+print(sys.version)
