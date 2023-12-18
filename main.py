@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def is_even(n):
-        return n % 2 == 0
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
