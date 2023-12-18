@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
