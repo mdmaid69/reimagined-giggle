@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def is_even(n):
-        return n % 2 == 0
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
