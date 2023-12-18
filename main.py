@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
