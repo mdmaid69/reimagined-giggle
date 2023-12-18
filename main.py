@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
