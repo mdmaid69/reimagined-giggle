@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
