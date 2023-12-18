@@ -1,8 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
