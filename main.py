@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
