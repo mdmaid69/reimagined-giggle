@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
