@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
