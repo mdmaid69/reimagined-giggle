@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
