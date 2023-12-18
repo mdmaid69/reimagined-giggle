@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_power(work, time):
+        return work / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
