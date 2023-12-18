@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def convert_to_binary(n):
+        return bin(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
