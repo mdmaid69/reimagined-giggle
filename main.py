@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import datetime
+print(datetime.datetime.now())
+def reverse_list(lst):
+        return lst[::-1]
