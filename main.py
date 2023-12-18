@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_length(array):
+        return len(array)
