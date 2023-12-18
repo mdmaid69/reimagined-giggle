@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
