@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_square_root(x):
+        return math.sqrt(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
