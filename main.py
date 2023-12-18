@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
