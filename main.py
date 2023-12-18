@@ -1,5 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import numpy as np
+print(np.array([1, 2, 3]))
