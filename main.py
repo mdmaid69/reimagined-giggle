@@ -1,6 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
