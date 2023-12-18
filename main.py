@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_pressure(force, area):
-        return force / area
+from collections import Counter
+print(Counter("hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
