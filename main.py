@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
