@@ -1,7 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
