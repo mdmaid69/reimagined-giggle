@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_base_name(path):
+        return os.path.basename(path)
