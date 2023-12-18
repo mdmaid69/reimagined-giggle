@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
