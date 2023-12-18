@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
