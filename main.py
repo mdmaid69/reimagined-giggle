@@ -1,9 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
