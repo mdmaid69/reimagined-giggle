@@ -1,8 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
