@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
