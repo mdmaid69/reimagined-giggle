@@ -1,4 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_current_time():
+        return time.time()
+print(sum(range(10)))
