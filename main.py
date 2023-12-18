@@ -1,5 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
