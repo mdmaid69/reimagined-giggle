@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def remove_directory(path):
-        os.rmdir(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
