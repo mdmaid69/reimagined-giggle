@@ -1,6 +1,5 @@
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
