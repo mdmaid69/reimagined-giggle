@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
