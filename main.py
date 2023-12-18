@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import logging
+def log_message(message):
+        logging.info(message)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
