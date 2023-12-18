@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
