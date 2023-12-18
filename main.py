@@ -1,5 +1,9 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
