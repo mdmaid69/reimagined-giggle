@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
