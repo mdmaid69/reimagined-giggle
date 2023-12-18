@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
