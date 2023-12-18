@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
