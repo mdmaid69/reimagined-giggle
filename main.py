@@ -1,4 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_power(work, time):
-        return work / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
