@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_typecode(array):
+        return array.typecode
