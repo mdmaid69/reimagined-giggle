@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_item(array, i):
-        return array[i]
+  def delete_file(file_name):
+        os.remove(file_name)
