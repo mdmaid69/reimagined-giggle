@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
