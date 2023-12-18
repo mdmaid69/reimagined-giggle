@@ -1,9 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
