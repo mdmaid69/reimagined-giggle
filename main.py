@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def count_words(sentence):
+        return len(sentence.split())
