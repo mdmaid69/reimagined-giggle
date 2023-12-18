@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def reverse_array(array):
-        array.reverse()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
