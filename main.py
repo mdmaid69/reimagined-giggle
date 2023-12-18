@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_complex(array):
+        return complex(array[0])
