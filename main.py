@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
