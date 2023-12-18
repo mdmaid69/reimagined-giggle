@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import collections
+def create_user_list():
+        return collections.UserList()
+import sys
+def print_python_version():
+        print(sys.version)
