@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
