@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
