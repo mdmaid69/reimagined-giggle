@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
