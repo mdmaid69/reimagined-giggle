@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
