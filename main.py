@@ -1,5 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_area_circle(r):
+        return 3.14 * r**2
