@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import sys
+def print_python_version():
+        return sys.version
+def convert_to_octal(n):
+        return oct(n)
