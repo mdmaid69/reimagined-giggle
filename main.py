@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
