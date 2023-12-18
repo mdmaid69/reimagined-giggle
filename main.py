@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def print_python_version():
+        return sys.version
