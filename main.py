@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
