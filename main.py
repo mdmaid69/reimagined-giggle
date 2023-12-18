@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
