@@ -1,7 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
