@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_bool(array):
+        return bool(array)
