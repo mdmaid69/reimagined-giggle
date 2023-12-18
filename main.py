@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def multiply_numbers(x, y):
+        return x * y
+  def cube_number(x):
+        return x**3
