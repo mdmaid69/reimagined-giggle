@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
