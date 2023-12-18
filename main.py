@@ -1,5 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import tensorflow as tf
-print(tf.__version__)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
