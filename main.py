@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
