@@ -1,10 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_acceleration(speed, time):
+        return speed / time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
