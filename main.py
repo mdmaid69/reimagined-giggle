@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
