@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
