@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_volume(length, width, height):
+        return length * width * height
