@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
