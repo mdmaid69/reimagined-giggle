@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_unicode(array):
+        return array.tounicode()
