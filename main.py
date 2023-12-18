@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_length(array):
+        return len(array)
