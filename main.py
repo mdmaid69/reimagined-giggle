@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
