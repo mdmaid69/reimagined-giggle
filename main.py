@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
