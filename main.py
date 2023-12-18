@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
