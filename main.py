@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
