@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
