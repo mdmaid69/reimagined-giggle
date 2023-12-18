@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def clear_array(array):
-        array *= 0
+import time
+def get_current_time():
+        return time.ctime()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
