@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
