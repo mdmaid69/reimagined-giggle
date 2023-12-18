@@ -1,6 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_unique_words(sentence):
+        return set(sentence.split())
