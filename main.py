@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def convert_to_binary(n):
+        return bin(n)
