@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
