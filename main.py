@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
