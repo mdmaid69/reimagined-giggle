@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
