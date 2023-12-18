@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
