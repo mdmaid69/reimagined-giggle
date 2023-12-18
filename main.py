@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
