@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def cube_number(x):
+        return x**3
