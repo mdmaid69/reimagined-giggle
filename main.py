@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
