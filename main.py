@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
