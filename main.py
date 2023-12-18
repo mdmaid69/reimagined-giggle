@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def convert_to_hex(n):
+        return hex(n)
