@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
