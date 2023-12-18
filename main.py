@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
