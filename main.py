@@ -1,5 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def convert_to_binary(n):
-        return bin(n)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
