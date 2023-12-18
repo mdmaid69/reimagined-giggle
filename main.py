@@ -1,8 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def get_array_as_float(array):
+        return float(array[0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
