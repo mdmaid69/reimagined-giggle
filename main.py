@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
