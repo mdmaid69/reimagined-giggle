@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def cube_number(x):
-        return x**3
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
