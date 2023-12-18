@@ -1,5 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import sys
+def print_python_version():
+        print(sys.version)
