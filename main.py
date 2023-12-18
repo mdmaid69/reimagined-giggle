@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def get_array_as_str(array):
+        return str(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
