@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
