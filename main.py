@@ -1,4 +1,4 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def find_min(numbers):
-        return min(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+name = "Python"
+print("Hello,", name)
