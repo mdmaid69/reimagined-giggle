@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import sys
-def exit_program():
-        sys.exit()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
