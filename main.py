@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
