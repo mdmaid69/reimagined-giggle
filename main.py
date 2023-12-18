@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
