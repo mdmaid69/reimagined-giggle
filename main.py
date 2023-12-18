@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
