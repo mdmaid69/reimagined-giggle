@@ -1,8 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
