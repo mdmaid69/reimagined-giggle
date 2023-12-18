@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
