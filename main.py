@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
