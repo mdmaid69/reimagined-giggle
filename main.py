@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
