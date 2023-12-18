@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def reverse_list(lst):
+        return lst[::-1]
