@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+print([x**2 for x in range(10)])
