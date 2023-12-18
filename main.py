@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def convert_to_binary(n):
-        return bin(n)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
