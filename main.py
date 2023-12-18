@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
