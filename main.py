@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
