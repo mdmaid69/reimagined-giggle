@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
