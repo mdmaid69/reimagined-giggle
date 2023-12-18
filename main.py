@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
