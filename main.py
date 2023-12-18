@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def sort_list(lst):
-        return sorted(lst)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
