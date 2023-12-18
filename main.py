@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
