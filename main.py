@@ -1,7 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
