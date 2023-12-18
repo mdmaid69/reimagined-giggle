@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
