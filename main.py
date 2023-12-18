@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_work(force, distance):
-        return force * distance
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
