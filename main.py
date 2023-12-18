@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
