@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def square_number(x):
+        return x**2
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
