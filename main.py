@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-print(os.getcwd())
+def count_elements(lst):
+        return len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
