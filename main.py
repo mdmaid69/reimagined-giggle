@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
