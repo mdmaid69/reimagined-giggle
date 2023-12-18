@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import os
+print(os.getcwd())
