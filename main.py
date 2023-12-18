@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
