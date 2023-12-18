@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
