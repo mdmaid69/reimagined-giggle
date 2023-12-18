@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import collections
+def create_counter():
+        return collections.Counter()
