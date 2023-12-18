@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import platform
+def get_python_version():
+        return platform.python_version()
