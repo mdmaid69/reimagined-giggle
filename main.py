@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def divide_numbers(x, y):
-        return x / y
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
