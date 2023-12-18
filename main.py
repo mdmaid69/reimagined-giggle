@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
