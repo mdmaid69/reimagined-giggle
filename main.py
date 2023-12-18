@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
