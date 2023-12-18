@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
