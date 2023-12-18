@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def divide_numbers(x, y):
+        return x / y
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
