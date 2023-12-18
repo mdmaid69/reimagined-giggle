@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def is_palindrome(s):
+        return s == s[::-1]
