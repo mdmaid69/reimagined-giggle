@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
