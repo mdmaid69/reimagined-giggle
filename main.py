@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_power(work, time):
+        return work / time
