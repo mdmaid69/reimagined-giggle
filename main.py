@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
