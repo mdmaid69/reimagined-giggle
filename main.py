@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
