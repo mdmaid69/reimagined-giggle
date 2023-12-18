@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def remove_duplicates(lst):
+        return list(set(lst))
