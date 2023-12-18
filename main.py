@@ -1,5 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
