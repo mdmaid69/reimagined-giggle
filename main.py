@@ -1,3 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-print("Hello, world!")
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_length(array):
+        return len(array)
