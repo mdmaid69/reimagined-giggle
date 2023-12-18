@@ -1,8 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
