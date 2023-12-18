@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
