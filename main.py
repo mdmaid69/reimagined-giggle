@@ -1,5 +1,6 @@
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import sys
-  def get_python_version():
-        return sys.version
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
