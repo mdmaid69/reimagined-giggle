@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def greet(name):
+        print(f"Hello, {name}!")
+for i in range(5):
+        print(i)
