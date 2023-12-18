@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-text = "Hello, world!"
-print("Characters:", len(text))
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
