@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
