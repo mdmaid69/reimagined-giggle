@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def convert_to_hex(n):
-        return hex(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
+name = "Python"
+print("Hello,", name)
