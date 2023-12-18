@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
