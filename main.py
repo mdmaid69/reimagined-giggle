@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
