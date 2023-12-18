@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+print(random.randint(0, 100))
