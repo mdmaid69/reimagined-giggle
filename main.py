@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
