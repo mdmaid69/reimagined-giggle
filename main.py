@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def square_number(x):
-        return x**2
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
