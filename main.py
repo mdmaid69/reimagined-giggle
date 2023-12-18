@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
