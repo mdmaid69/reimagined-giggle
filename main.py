@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
