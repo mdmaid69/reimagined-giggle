@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_slice(array, i, j):
+        return array[i:j]
