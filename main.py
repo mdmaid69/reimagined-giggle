@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
