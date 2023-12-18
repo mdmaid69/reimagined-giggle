@@ -1,7 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
