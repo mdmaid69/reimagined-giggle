@@ -1,12 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
