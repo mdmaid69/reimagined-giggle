@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
