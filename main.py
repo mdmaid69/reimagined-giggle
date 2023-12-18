@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
