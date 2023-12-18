@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
