@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
