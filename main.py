@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+print(os.getcwd())
