@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
