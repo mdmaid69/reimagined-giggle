@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
