@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
