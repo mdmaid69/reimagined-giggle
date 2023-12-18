@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_power(work, time):
+        return work / time
