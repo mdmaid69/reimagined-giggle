@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
