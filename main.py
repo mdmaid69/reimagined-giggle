@@ -1,4 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-def square_number(x):
-        return x**2
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
