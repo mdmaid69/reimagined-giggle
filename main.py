@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_sine(x):
+        return math.sin(x)
