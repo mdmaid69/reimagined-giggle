@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_power(work, time):
+        return work / time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
