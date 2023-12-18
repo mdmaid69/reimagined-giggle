@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
