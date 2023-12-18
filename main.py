@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
