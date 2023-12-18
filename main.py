@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
