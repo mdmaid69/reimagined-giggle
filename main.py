@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def convert_to_binary(n):
+        return bin(n)
