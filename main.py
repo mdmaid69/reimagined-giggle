@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
