@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
