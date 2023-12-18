@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_max(lst):
-        return max(lst)
+print(sum(range(10)))
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
