@@ -1,8 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
