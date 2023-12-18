@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def is_odd(n):
-        return n % 2 != 0
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
