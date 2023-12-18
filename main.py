@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
