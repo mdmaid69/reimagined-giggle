@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
