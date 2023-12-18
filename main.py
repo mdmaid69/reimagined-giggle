@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import datetime
-def get_current_date():
-        return datetime.date.today()
+x = 10
+y = 20
+print("Sum:", x + y)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
