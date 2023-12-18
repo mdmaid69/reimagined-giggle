@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
