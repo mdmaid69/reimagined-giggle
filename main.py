@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def cube_number(x):
+        return x**3
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
