@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
