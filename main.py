@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+print(time.time())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
