@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def is_odd(n):
+        return n % 2 != 0
