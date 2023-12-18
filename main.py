@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
