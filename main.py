@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
