@@ -1,6 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_queue():
+        return collections.deque()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
