@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def convert_to_hex(n):
-        return hex(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
