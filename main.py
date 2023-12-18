@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
