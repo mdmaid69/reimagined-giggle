@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_area_circle(r):
+        return 3.14 * r**2
