@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_density(mass, volume):
+        return mass / volume
