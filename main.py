@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_item(array, i):
+        return array[i]
