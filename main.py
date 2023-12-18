@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def reverse_list(lst):
-        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
