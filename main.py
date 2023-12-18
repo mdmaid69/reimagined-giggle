@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def is_even(n):
+        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
