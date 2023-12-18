@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
