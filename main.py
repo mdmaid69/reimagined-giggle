@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
