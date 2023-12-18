@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
