@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
