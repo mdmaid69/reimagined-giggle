@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
