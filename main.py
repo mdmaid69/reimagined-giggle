@@ -1,3 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-print(sum(range(10)))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
