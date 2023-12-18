@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
