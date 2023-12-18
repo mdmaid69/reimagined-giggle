@@ -1,8 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
