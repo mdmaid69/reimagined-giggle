@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
