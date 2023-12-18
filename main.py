@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def is_odd(n):
+        return n % 2 != 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
