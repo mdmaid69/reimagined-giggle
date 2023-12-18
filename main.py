@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
