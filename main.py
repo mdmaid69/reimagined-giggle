@@ -1,5 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
