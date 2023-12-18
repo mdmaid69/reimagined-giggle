@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_work(force, distance):
-        return force * distance
+def is_palindrome(s):
+        return s == s[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
