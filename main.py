@@ -1,7 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def sort_list(lst):
+        return sorted(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
