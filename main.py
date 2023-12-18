@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import time
+def get_current_time():
+        return time.ctime()
