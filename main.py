@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
