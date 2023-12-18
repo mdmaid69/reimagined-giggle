@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def count_characters(sentence):
+        return len(sentence)
