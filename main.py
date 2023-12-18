@@ -1,4 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-print([x**2 for x in range(10)])
+import array
+def reverse_array(array):
+        array.reverse()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
