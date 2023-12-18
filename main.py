@@ -1,8 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
