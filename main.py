@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def split_path(path):
+        return os.path.split(path)
