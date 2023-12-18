@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_list_from_array(array):
+        return array.tolist()
