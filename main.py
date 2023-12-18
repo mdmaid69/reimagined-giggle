@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-  def is_odd(n):
-        return n % 2 != 0
+  def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_hex(n):
+        return hex(n)
