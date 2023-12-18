@@ -1,12 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
