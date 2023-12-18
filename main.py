@@ -1,5 +1,3 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+for i in range(10): print(i)
+def multiply_numbers(x, y):
+        return x * y
