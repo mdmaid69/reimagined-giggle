@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
