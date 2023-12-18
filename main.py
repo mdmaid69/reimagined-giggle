@@ -1,8 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
