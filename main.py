@@ -1,5 +1,10 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
