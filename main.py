@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
