@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Characters:", len(text))
