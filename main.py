@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
