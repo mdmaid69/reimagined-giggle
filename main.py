@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
