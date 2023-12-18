@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def find_max(numbers):
-        return max(numbers)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
