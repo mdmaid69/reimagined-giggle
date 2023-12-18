@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
