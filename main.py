@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
