@@ -1,5 +1,8 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
