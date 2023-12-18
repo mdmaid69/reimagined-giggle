@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
