@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def is_even(n):
+        return n % 2 == 0
