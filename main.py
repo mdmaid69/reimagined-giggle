@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import time
+def get_current_time():
+        return time.time()
