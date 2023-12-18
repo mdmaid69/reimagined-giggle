@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
