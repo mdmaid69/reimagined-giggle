@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def change_working_directory(path):
+        os.chdir(path)
