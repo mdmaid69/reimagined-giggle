@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_work(force, distance):
+        return force * distance
