@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def is_odd(n):
+        return n % 2 != 0
