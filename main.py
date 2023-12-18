@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
