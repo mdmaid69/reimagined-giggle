@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_string_from_array(array):
+        return array.tobytes()
