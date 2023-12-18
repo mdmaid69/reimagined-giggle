@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_pressure(force, area):
+        return force / area
+  def subtract_numbers(x, y):
+        return x - y
