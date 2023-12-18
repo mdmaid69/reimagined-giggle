@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def split_path(path):
+        return os.path.split(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
