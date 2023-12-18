@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import random
-print(random.randint(0, 100))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
