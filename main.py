@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def remove_directory(path):
+        os.rmdir(path)
