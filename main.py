@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
