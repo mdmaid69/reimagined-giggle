@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_octal(n):
+        return oct(n)
