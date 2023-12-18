@@ -1,7 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
