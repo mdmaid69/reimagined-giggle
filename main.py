@@ -1,5 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def create_priority_queue():
+        return collections.deque()
