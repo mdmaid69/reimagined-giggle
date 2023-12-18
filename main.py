@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
