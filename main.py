@@ -1,4 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
