@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
