@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
