@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
