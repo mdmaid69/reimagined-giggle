@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_max(lst):
-        return max(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
