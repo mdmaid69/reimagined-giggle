@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import sys
-  def get_python_version():
-        return sys.version
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
