@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
