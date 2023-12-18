@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
