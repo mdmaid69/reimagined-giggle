@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
