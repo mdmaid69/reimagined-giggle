@@ -1,8 +1,7 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_max(lst):
+        return max(lst)
