@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
