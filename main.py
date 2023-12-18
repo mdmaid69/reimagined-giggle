@@ -1,5 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
