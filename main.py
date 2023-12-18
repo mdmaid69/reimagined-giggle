@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
