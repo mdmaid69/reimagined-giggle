@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
