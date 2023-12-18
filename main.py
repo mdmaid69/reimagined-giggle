@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def square_number(x):
+        return x**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
