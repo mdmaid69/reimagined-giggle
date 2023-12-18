@@ -1,6 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
