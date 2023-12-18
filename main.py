@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def append_to_array(array, item):
+        array.append(item)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
