@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
