@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
