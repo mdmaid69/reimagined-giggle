@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
