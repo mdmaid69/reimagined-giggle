@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
