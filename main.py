@@ -1,6 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def square_number(x):
+        return x**2
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
