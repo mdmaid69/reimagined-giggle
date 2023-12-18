@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def convert_to_hex(n):
+        return hex(n)
