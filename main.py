@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
