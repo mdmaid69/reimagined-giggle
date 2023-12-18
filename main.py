@@ -1,6 +1,7 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def square_number(x):
+        return x**2
