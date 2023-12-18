@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
