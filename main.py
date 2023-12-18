@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
