@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
