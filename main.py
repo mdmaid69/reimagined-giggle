@@ -1,5 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-from collections import Counter
-print(Counter("hello world"))
+  def cube_number(x):
+        return x**3
+def is_palindrome(s):
+        return s == s[::-1]
