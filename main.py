@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
