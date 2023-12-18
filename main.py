@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_average(lst):
+        return sum(lst) / len(lst)
