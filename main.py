@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def is_even(n):
+        return n % 2 == 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
