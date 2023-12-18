@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+print("Hello, world!")
