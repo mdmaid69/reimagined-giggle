@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def clear_array(array):
+        array *= 0
+import array
+def remove_from_array(array, item):
+        array.remove(item)
