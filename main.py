@@ -1,6 +1,5 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+print(math.pi)
