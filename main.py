@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
