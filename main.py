@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_min(numbers):
+        return min(numbers)
