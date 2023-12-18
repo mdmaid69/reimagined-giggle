@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
