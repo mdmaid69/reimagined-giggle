@@ -1,7 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
