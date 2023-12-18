@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import logging
+def log_message(message):
+        logging.info(message)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
