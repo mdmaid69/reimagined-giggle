@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
