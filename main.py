@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
