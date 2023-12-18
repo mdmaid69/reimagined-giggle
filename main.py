@@ -1,8 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+import sys
+def exit_program():
+        sys.exit()
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_typecode(array):
+        return array.typecode
