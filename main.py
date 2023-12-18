@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
