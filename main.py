@@ -3,6 +3,5 @@ def read_csv_file(filename):
         with open(filename, "r") as f:
         reader = csv.reader(f)
         return list(reader)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
