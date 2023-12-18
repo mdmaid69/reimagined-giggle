@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def is_odd(n):
+        return n % 2 != 0
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
