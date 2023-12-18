@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
