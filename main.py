@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
