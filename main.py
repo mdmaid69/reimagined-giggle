@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
