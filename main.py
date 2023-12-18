@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_list(array):
+        return list(array)
