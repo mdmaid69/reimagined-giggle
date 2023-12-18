@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
