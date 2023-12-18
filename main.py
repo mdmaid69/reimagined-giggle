@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
