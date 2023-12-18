@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
