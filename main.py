@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def create_priority_queue():
+        return collections.deque()
