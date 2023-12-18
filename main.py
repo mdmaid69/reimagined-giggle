@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def print_python_version():
+        return sys.version
