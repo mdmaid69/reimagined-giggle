@@ -1,3 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-print([x**2 for x in range(10)])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
