@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def convert_to_octal(n):
+        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
