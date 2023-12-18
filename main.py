@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
