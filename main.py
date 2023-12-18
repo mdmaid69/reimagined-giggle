@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
