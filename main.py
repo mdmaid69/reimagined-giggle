@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_work(force, distance):
+        return force * distance
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
