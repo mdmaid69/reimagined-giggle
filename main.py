@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+x = 10
+y = 20
+print("Sum:", x + y)
