@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
