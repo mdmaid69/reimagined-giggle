@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
