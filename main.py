@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
