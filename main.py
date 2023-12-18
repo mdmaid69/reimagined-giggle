@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
