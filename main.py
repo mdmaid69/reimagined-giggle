@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_typecode(array):
+        return array.typecode
