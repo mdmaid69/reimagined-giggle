@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import sys
+  def get_python_version():
+        return sys.version
+def cube_number(x):
+        return x**3
