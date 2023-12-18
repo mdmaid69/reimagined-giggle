@@ -1,5 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_sign(x):
+        return math.copysign(1, x)
