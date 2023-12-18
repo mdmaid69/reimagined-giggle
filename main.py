@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import sys
-def print_python_version():
-        return sys.version
+import array
+def clear_array(array):
+        array *= 0
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
