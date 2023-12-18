@@ -1,3 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-for i in range(10): print(i)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
