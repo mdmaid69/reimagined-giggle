@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
