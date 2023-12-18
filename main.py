@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
