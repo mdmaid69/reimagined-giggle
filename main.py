@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def is_odd(n):
+        return n % 2 != 0
