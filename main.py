@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
