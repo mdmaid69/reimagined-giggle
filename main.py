@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
