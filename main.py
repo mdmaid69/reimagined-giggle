@@ -1,7 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import collections
+def create_queue():
+        return collections.deque()
