@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def find_min(numbers):
-        return min(numbers)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
