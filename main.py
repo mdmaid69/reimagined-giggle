@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def multiply_numbers(x, y):
+        return x * y
