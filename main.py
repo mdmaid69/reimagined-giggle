@@ -1,4 +1,5 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_density(mass, volume):
+        return mass / volume
