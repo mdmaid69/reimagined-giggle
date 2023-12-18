@@ -1,5 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def cube_number(x):
-        return x**3
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def square_number(x):
+        return x**2
