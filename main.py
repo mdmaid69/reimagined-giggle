@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
