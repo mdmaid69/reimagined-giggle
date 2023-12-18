@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_exponential(x):
+        return math.exp(x)
