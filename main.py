@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def square_number(x):
+        return x**2
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
