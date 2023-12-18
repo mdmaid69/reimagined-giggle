@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
