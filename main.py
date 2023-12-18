@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
