@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
