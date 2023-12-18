@@ -1,7 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def add_numbers(a, b):
+        return a + b
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
