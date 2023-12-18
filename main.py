@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
