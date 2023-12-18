@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
