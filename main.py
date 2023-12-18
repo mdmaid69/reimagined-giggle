@@ -1,5 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
