@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
