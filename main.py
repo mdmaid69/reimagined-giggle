@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def is_palindrome(s):
+        return s == s[::-1]
