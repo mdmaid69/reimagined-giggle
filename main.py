@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def square_number(x):
-        return x**2
+  def subtract_numbers(x, y):
+        return x - y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
