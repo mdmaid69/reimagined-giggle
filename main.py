@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
