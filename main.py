@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
