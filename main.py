@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def remove_duplicates(lst):
+        return list(set(lst))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
