@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
