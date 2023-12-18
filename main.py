@@ -1,5 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def multiply_numbers(x, y):
-        return x * y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def sort_list(lst):
+        return sorted(lst)
