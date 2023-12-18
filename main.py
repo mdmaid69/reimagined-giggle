@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def multiply_numbers(x, y):
+        return x * y
