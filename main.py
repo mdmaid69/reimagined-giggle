@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_area_circle(r):
+        return 3.14 * r**2
