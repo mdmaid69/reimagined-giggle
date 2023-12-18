@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
