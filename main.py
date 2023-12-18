@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def cube_number(x):
+        return x**3
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
