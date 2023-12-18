@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def multiply_numbers(x, y):
+        return x * y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
