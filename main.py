@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_contains_item(array, item):
+        return item in array
