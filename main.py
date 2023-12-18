@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
