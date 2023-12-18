@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def multiply_numbers(x, y):
-        return x * y
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
