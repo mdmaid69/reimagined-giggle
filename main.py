@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
