@@ -1,8 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
