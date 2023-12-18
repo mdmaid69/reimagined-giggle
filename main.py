@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
