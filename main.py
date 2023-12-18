@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def cube_number(x):
-        return x**3
+  def add_numbers(x, y):
+        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
