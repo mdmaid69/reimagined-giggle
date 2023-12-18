@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import platform
+def get_python_version():
+        return platform.python_version()
+import getpass
+def get_username():
+        return getpass.getuser()
