@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import time
-print(time.time())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import collections
+def create_user_string():
+        return collections.UserString()
