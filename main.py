@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
