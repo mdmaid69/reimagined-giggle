@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
