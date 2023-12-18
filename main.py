@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_power(work, time):
+        return work / time
