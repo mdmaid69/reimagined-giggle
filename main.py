@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_stack():
-        return collections.deque()
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
