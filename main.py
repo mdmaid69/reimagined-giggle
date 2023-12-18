@@ -1,5 +1,9 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
