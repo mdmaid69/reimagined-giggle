@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def roll_die():
+        return random.randint(1, 6)
