@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
