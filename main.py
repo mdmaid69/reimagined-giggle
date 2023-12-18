@@ -1,6 +1,11 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
