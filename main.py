@@ -1,6 +1,3 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def find_min(lst):
+        return min(lst)
+print("Hello, world!")
