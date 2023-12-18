@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
