@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
