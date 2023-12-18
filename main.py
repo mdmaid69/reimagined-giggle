@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
