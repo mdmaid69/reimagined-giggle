@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+print(random.randint(0, 100))
