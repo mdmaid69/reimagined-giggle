@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
