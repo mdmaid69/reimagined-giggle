@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def find_min(lst):
-        return min(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_density(mass, volume):
+        return mass / volume
