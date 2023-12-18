@@ -1,5 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
