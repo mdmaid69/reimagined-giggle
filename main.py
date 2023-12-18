@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
