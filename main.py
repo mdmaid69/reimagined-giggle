@@ -1,5 +1,8 @@
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def pop_from_array(array, i=-1):
+        return array.pop(i)
