@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
+def add_numbers(x, y):
+        return x + y
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def generate_random_choice(choices):
+        return random.choice(choices)
