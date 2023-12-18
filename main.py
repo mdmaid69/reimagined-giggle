@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
