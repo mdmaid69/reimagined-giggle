@@ -1,5 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
