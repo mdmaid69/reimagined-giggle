@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def convert_to_hex(n):
+        return hex(n)
