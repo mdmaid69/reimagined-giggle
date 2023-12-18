@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
