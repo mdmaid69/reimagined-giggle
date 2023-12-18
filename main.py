@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
