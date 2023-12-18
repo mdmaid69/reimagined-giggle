@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
