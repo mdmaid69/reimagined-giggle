@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
