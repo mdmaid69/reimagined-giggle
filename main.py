@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_item(array, i):
-        return array[i]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
