@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
