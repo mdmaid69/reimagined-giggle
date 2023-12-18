@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def convert_to_binary(n):
-        return bin(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
