@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
