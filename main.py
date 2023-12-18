@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import time
-def get_current_time():
-        return time.ctime()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
