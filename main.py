@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
