@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def is_even(n):
+        return n % 2 == 0
