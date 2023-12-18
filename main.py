@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def get_array_as_set(array):
-        return set(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
