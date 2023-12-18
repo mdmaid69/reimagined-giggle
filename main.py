@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
