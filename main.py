@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
