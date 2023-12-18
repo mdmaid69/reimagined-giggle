@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_power(work, time):
+        return work / time
