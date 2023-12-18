@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def square_number(x):
-        return x**2
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
