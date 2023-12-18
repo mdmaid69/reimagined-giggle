@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_base_name(path):
+        return os.path.basename(path)
