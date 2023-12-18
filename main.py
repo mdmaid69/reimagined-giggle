@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
