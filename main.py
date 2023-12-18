@@ -1,5 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
