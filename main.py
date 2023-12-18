@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def is_even(n):
+        return n % 2 == 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
