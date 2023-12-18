@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def cube_number(x):
+        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
