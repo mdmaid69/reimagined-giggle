@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
