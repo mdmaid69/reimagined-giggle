@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
