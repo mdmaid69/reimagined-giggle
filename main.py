@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
