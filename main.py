@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+print(sum(range(10)))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
