@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_pressure(force, area):
+        return force / area
+def sort_numbers(numbers):
+        return sorted(numbers)
