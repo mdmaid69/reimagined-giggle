@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
