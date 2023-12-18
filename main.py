@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
