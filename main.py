@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def convert_to_binary(n):
+        return bin(n)
