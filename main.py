@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
