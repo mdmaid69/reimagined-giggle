@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_float(array):
+        return float(array[0])
