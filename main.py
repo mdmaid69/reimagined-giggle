@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def find_min(numbers):
+        return min(numbers)
