@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def get_current_working_directory():
+        return os.getcwd()
