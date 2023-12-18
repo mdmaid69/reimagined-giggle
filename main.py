@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def reverse_list(lst):
+        return lst[::-1]
