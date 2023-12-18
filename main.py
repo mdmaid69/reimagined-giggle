@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_floor(x):
+        return math.floor(x)
