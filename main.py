@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
