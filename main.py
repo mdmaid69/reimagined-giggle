@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
