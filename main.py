@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-  def convert_to_binary(n):
-        return bin(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def add_numbers(a, b):
+        return a + b
