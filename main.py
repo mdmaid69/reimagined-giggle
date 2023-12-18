@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
