@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
