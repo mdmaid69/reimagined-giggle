@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
