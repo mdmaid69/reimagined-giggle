@@ -1,3 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-print([x**2 for x in range(10)])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import collections
+def create_stack():
+        return collections.deque()
