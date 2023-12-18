@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def count_elements(lst):
-        return len(lst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
