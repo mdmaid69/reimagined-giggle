@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
