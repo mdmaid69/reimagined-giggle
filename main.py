@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_acceleration(speed, time):
+        return speed / time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
