@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def greet(name):
+        print(f"Hello, {name}!")
+import datetime
+def get_today_date():
+        return datetime.date.today()
