@@ -1,5 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def subtract_numbers(x, y):
-        return x - y
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
