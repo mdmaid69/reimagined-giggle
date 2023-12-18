@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
