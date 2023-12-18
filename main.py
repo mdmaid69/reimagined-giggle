@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def extend_array(array, iterable):
+        array.extend(iterable)
