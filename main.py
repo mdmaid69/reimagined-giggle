@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
