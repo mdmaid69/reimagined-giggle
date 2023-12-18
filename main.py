@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def convert_to_octal(n):
+        return oct(n)
