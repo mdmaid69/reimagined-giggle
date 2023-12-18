@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import random
-print(random.randint(0, 100))
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
