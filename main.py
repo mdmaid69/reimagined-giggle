@@ -1,6 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def square_number(x):
+        return x**2
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
