@@ -1,5 +1,3 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+print([x**2 for x in range(10)])
