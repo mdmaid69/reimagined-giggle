@@ -1,6 +1,6 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def iterate_over_array(array):
+        for item in array:
+        print(item)
