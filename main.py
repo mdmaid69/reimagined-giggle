@@ -1,4 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-for i in range(10): print(i)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_as_list(array):
+        return list(array)
