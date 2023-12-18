@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def clear_array(array):
-        array *= 0
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
