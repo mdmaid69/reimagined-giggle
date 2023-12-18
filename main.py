@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
