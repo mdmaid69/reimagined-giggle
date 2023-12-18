@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
