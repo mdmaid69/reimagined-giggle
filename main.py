@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
