@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def add_numbers(a, b):
+        return a + b
