@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
