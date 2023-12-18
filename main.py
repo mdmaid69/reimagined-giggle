@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
