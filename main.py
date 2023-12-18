@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_speed(distance, time):
+        return distance / time
