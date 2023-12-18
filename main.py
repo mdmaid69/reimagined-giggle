@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
