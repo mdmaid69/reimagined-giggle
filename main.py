@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
