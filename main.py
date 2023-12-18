@@ -1,10 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_queue():
+        return collections.deque()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
