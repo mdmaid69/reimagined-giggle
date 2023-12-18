@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_volume(length, width, height):
+        return length * width * height
