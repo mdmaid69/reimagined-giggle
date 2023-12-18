@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
