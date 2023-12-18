@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+text = "Hello, world!"
+print("Characters:", len(text))
