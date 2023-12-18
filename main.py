@@ -1,4 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_area_rectangle(l, w):
+        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
