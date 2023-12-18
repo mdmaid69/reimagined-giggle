@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def is_odd(n):
+        return n % 2 != 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
