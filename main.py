@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def square_number(x):
+        return x**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
