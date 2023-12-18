@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+for i in range(5):
+        print(i)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
