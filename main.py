@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def cube_number(x):
-        return x**3
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
