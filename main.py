@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
