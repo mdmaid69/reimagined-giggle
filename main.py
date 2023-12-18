@@ -1,6 +1,12 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
