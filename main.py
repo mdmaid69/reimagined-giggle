@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
