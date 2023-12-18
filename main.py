@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
