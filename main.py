@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
