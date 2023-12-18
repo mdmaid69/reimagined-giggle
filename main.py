@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sys
-def print_python_version():
-        return sys.version
+  def get_base_name(path):
+        return os.path.basename(path)
+import numpy as np
+print(np.array([1, 2, 3]))
