@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
