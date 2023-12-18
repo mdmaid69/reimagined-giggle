@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
