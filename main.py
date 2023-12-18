@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
