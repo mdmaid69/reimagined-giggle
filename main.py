@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
