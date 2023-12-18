@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def square_number(x):
-        return x**2
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
