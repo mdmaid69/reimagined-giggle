@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
