@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def set_array_item(array, i, item):
+        array[i] = item
+def find_max(lst):
+        return max(lst)
