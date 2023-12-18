@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def subtract_numbers(x, y):
+        return x - y
