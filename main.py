@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
