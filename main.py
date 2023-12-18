@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
