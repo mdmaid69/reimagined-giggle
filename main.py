@@ -1,9 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
