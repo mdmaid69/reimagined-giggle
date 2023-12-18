@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def find_unique_words(sentence):
+        return set(sentence.split())
