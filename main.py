@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def convert_to_binary(n):
+        return bin(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
