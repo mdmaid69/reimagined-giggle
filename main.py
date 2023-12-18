@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import collections
+def create_counter():
+        return collections.Counter()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
