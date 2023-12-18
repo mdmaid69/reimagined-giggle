@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def divide_numbers(x, y):
-        return x / y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
