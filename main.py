@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-from collections import Counter
-print(Counter("hello world"))
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_int(array):
+        return int(array[0])
