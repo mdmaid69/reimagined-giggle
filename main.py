@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_power(work, time):
+        return work / time
