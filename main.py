@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
