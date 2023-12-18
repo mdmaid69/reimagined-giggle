@@ -1,5 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
