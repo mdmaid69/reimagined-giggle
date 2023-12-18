@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+print(os.getcwd())
