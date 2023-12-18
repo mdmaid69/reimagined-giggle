@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import time
-print(time.time())
+import array
+def get_array_typecode(array):
+        return array.typecode
+  def add_numbers(x, y):
+        return x + y
