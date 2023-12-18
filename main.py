@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
