@@ -1,6 +1,7 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
-def convert_to_hex(n):
-        return hex(n)
