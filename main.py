@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_pressure(force, area):
+        return force / area
