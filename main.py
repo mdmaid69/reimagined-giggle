@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def convert_to_hex(n):
         return hex(n)
-def calculate_area_circle(r):
-        return 3.14 * r**2
