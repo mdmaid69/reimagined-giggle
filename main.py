@@ -1,5 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
