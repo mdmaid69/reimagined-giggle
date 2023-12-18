@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def square_number(x):
+        return x**2
