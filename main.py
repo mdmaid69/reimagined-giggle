@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
