@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
