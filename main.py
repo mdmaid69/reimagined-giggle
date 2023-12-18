@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_density(mass, volume):
-        return mass / volume
+print([x**2 for x in range(10)])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
