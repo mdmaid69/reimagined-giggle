@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+name = "Python"
+print("Hello,", name)
