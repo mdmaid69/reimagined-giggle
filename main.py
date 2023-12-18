@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
