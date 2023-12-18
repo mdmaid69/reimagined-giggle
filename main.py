@@ -1,6 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
