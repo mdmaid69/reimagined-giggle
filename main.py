@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
