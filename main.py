@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
