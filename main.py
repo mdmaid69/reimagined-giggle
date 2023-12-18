@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
