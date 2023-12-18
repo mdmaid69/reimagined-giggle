@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_volume(length, width, height):
-        return length * width * height
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
