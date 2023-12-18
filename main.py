@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def add_numbers(a, b):
-        return a + b
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
