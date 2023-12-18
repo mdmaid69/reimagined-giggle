@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
