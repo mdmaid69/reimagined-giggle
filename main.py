@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
