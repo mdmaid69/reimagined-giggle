@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_max(numbers):
+        return max(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
