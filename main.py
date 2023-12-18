@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def square_number(x):
-        return x**2
+import time
+def get_current_time():
+        return time.time()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
