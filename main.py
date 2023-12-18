@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
+def find_union(list1, list2):
+        return set(list1) | set(list2)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_file(file_name):
+        os.remove(file_name)
