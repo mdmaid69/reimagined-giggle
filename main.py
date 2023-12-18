@@ -1,8 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def sort_list(lst):
+        return sorted(lst)
