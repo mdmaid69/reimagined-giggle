@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import random
-print(random.randint(0, 100))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
