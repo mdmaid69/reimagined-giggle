@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def clear_array(array):
+        array *= 0
