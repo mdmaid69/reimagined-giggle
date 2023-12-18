@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
