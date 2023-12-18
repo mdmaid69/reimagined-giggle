@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_pressure(force, area):
+        return force / area
