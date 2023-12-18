@@ -1,6 +1,12 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
