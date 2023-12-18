@@ -1,3 +1,5 @@
-import random
-print(random.randint(0, 100))
-print("Hello, world!")
+  import sys
+  def get_python_version():
+        return sys.version
+def subtract_numbers(x, y):
+        return x - y
