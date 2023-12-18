@@ -1,7 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
