@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
