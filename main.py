@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
