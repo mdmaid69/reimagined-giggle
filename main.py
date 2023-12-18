@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def square_number(x):
-        return x**2
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def create_queue():
+        return collections.deque()
