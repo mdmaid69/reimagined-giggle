@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
