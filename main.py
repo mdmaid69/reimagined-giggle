@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
