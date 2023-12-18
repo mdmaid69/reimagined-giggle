@@ -1,5 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
