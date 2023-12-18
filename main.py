@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_string_from_array(array):
+        return array.tobytes()
