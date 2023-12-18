@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_as_set(array):
+        return set(array)
