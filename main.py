@@ -1,6 +1,3 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def convert_to_binary(n):
+        return bin(n)
+for i in range(10): print(i)
