@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
