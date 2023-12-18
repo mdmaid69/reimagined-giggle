@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_pressure(force, area):
-        return force / area
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
