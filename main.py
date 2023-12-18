@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def convert_to_hex(n):
+        return hex(n)
