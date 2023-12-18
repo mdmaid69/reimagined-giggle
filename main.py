@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
