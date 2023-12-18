@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_queue():
+        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
