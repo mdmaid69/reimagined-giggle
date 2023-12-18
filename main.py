@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
