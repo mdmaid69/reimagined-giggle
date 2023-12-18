@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
