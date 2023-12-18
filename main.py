@@ -1,8 +1,11 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
