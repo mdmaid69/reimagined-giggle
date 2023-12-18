@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-print(math.pi)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
