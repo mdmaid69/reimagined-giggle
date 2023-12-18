@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
