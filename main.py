@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
