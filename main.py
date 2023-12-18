@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
