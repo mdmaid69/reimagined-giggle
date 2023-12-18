@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def multiply_numbers(x, y):
+        return x * y
+  def convert_to_octal(n):
+        return oct(n)
