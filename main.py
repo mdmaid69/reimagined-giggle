@@ -1,5 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import platform
-def get_python_version():
-        return platform.python_version()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
