@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
