@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
 import collections
-def create_stack():
-        return collections.deque()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
