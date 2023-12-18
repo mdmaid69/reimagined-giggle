@@ -1,6 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
