@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
