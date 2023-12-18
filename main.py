@@ -1,6 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
