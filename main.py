@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
