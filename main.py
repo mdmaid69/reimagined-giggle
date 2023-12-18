@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
