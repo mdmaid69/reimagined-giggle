@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def is_odd(n):
+        return n % 2 != 0
