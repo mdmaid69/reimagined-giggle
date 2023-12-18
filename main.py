@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_cosine(x):
+        return math.cos(x)
