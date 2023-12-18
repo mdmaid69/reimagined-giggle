@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import logging
+def log_message(message):
+        logging.info(message)
