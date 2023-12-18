@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
