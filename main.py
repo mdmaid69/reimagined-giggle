@@ -1,6 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
