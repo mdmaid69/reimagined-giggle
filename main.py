@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def print_python_version():
-        return sys.version
+  def subtract_numbers(x, y):
+        return x - y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
