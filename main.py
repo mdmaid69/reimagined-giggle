@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
