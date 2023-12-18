@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
