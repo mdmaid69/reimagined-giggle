@@ -1,6 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
