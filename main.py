@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
