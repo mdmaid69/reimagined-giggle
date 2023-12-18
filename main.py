@@ -1,6 +1,8 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
