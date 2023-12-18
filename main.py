@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def is_odd(n):
+        return n % 2 != 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
