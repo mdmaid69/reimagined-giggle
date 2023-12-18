@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def find_union(list1, list2):
+        return set(list1) | set(list2)
