@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_priority_queue():
+        return collections.deque()
