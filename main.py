@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def remove_duplicates(lst):
+        return list(set(lst))
