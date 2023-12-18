@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
