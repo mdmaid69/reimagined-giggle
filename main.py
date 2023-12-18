@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def reverse_string(s):
+        return s[::-1]
