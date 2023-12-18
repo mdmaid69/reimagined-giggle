@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
