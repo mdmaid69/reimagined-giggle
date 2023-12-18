@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
