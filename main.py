@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
