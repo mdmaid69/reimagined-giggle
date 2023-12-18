@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def sort_list(lst):
+        return sorted(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
