@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
