@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
