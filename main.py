@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
