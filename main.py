@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
