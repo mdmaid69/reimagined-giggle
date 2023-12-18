@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
