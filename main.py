@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
