@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_power(work, time):
+        return work / time
