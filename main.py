@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
