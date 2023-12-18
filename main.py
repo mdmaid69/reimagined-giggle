@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def greet(name):
+        print(f"Hello, {name}!")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
