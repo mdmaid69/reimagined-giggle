@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
