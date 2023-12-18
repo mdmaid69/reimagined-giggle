@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
