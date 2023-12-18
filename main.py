@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
