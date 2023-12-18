@@ -1,5 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
