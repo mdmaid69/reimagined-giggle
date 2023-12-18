@@ -1,8 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
