@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
