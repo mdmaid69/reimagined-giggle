@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
