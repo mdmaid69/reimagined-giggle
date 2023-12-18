@@ -1,6 +1,7 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
