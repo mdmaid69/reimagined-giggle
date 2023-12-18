@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
