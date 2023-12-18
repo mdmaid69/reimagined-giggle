@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+from collections import Counter
+print(Counter("hello world"))
