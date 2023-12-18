@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
