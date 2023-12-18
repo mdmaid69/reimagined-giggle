@@ -1,6 +1,8 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
