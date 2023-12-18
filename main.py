@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
