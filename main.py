@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
