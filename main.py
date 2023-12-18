@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
