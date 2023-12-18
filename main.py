@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
