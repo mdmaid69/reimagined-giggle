@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-name = "Python"
-print("Hello,", name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def reverse_list(lst):
+        return lst[::-1]
