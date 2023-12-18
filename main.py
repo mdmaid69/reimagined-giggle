@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
