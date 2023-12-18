@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
