@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
