@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
