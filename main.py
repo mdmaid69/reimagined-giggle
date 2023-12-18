@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_pressure(force, area):
+        return force / area
