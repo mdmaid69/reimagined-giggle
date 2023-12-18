@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
