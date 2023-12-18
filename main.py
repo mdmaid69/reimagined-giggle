@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
