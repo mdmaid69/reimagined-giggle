@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def find_min(lst):
-        return min(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def greet(name):
+        print(f"Hello, {name}!")
