@@ -1,6 +1,5 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_speed(distance, time):
+        return distance / time
