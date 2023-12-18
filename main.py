@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
