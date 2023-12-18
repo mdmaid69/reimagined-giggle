@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
