@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
