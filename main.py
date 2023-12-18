@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
