@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
