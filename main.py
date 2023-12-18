@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
