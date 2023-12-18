@@ -1,8 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
