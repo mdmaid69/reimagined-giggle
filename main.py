@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+x = 10
+y = 20
+print("Sum:", x + y)
