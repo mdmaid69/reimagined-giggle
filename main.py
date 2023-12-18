@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
