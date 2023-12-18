@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
