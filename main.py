@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
