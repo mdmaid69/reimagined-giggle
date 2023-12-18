@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
