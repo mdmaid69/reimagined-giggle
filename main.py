@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
