@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+print(os.getcwd())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
