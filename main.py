@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+text = "Hello, world!"
+print("Characters:", len(text))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
