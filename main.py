@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import numpy as np
+print(np.array([1, 2, 3]))
