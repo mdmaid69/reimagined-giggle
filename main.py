@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
