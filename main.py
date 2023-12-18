@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+for i in range(10): print(i)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
