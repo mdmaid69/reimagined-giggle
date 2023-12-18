@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
