@@ -1,5 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import numpy as np
-print(np.array([1, 2, 3]))
+def clear_array(array):
+        array *= 0
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
