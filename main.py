@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_item(array, i):
+        return array[i]
