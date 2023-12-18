@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
