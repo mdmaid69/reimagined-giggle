@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import time
+def get_time_since_epoch():
+        return time.time()
