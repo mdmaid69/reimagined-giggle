@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import re
+print(re.match("h.*o", "hello world"))
