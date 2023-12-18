@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
