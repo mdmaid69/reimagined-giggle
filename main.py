@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
