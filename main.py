@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def add_numbers(a, b):
+        return a + b
+from collections import Counter
+print(Counter("hello world"))
