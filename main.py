@@ -1,6 +1,12 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
