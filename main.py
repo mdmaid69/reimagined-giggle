@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_item(array, i):
+        return array[i]
