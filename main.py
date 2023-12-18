@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
+import getpass
+def get_username():
+        return getpass.getuser()
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def copy_file(src, dst):
+        shutil.copy(src, dst)
