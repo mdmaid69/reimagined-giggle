@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def calculate_area_rectangle(l, w):
+        return l * w
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
