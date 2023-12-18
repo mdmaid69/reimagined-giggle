@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
