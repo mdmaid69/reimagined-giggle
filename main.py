@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sys
+def print_python_version():
+        return sys.version
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
