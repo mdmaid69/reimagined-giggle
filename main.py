@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import time
+def get_time_since_epoch():
+        return time.time()
