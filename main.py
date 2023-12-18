@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import sys
-def print_python_version():
-        return sys.version
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
