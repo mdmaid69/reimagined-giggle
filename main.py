@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def is_even(n):
+        return n % 2 == 0
