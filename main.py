@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def is_even(n):
+        return n % 2 == 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
