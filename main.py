@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_absolute_value(x):
+        return math.fabs(x)
