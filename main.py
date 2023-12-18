@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
