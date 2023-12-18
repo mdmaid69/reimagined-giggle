@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def square_number(x):
-        return x**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
