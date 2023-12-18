@@ -1,8 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
