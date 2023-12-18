@@ -1,5 +1,9 @@
-  def reverse_list(lst):
-        return lst[::-1]
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
