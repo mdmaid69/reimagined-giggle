@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def square_number(x):
-        return x**2
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
