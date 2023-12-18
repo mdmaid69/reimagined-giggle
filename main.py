@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_speed(distance, time):
-        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
