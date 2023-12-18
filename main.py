@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def sort_list(lst):
+        return sorted(lst)
