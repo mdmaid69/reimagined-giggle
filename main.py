@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
