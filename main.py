@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def convert_to_binary(n):
-        return bin(n)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
