@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_user_string():
+        return collections.UserString()
