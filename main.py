@@ -1,5 +1,10 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
