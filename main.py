@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
