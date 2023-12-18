@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
