@@ -1,6 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
