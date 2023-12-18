@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
