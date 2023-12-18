@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
