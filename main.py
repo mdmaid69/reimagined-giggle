@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def sort_list(lst):
-        return sorted(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import logging
+def log_message(message):
+        logging.info(message)
