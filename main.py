@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-x = 10
-y = 20
-print("Sum:", x + y)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
