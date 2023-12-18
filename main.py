@@ -1,8 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
