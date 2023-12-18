@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import collections
+def create_stack():
+        return collections.deque()
+for i in range(5):
+        print(i)
