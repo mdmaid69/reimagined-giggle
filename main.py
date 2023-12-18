@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
