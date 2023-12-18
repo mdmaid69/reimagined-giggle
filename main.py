@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def is_even(n):
+        return n % 2 == 0
