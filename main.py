@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_pressure(force, area):
+        return force / area
