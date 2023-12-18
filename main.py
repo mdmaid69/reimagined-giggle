@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_acceleration(speed, time):
+        return speed / time
