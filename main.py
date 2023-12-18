@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
