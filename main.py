@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
