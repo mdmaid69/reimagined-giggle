@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def find_unique_words(sentence):
+        return set(sentence.split())
