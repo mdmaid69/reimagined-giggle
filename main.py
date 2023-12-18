@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
