@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
