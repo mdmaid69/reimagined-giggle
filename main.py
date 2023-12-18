@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def delete_file(file_name):
+        os.remove(file_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
