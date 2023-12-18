@@ -1,4 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-print(sum(range(10)))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
