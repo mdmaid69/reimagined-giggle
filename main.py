@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
