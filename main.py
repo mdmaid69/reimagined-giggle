@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
