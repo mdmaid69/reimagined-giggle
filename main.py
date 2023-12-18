@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def find_min(lst):
+        return min(lst)
+def calculate_pressure(force, area):
+        return force / area
