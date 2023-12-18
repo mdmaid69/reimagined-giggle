@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def is_odd(n):
+        return n % 2 != 0
