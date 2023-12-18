@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_current_date():
+        return datetime.date.today()
