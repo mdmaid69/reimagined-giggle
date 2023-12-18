@@ -1,5 +1,8 @@
-import math
-print(math.pi)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
