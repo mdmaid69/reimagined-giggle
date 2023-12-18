@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
