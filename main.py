@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import time
-def get_current_time():
-        return time.ctime()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
