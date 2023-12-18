@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
