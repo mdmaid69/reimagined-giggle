@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_power(work, time):
-        return work / time
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
