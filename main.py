@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def get_array_as_repr(array):
+        return repr(array)
