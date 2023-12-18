@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
