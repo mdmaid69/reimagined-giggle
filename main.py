@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import datetime
 def get_days_until_next_year():
         next_year = datetime.date.today().year + 1
