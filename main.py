@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
