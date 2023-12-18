@@ -1,7 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
