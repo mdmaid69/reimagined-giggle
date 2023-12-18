@@ -1,5 +1,10 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
