@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def divide_numbers(x, y):
-        return x / y
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+print(time.time())
