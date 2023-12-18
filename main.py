@@ -1,6 +1,9 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_as_list(array):
+        return list(array)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
