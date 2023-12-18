@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
