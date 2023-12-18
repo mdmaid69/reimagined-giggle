@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_area_rectangle(l, w):
+        return l * w
