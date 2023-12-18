@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def convert_to_binary(n):
+        return bin(n)
