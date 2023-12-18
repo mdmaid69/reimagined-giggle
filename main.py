@@ -1,10 +1,4 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
