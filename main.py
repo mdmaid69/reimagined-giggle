@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def add_numbers(a, b):
+        return a + b
