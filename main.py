@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
