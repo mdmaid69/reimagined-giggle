@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
