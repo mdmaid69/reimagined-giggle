@@ -1,7 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def find_min(lst):
+        return min(lst)
+def multiply_numbers(x, y):
+        return x * y
