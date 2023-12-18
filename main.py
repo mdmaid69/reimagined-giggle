@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
+def multiply_numbers(x, y):
         return x * y
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
