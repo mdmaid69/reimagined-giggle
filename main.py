@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def is_odd(n):
+        return n % 2 != 0
