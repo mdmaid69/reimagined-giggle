@@ -1,5 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
