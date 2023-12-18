@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import time
+def get_time_since_epoch():
+        return time.time()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
