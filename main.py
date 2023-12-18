@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
