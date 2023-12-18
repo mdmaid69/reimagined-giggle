@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_area_circle(r):
+        return 3.14 * r**2
