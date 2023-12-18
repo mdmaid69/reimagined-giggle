@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
