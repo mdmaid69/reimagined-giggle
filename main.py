@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
