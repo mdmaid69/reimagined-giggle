@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
