@@ -1,8 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import sys
-def exit_program():
-        sys.exit()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def add_to_python_path(path):
+        sys.path.append(path)
