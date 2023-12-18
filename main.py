@@ -1,7 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
