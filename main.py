@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_volume(length, width, height):
+        return length * width * height
+import sys
+print(sys.version)
