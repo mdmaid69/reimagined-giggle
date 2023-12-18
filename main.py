@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
