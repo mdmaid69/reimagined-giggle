@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
