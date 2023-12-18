@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
