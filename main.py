@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+for i in range(5):
+        print(i)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
