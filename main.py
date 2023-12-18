@@ -1,4 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
