@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
