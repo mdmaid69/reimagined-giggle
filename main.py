@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def convert_to_hex(n):
-        return hex(n)
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
