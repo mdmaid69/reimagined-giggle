@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_speed(distance, time):
+        return distance / time
