@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
