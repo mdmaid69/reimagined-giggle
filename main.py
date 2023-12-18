@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
