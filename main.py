@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
