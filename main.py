@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def add_numbers(x, y):
-        return x + y
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_typecode(array):
+        return array.typecode
