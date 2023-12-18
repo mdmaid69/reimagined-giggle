@@ -1,5 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
