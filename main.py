@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
