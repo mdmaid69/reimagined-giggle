@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
