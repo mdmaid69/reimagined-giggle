@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def reverse_list(lst):
+        return lst[::-1]
+def multiply_numbers(x, y):
+        return x * y
