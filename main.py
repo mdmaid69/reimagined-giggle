@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def convert_array_to_string(array):
+        return array.tostring()
