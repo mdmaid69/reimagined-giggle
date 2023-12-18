@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
