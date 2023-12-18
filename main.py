@@ -1,10 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
