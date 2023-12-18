@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
