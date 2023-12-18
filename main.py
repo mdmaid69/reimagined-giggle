@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
