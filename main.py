@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_base_name(path):
+        return os.path.basename(path)
