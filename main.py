@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
