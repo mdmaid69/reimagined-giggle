@@ -1,6 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_length(array):
+        return len(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
