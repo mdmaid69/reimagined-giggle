@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
