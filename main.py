@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
