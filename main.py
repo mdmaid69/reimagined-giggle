@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import os
+def get_current_working_directory():
+        return os.getcwd()
