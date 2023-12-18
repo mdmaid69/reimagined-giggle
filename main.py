@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
