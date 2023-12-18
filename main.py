@@ -1,6 +1,6 @@
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
