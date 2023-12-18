@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
