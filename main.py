@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import tensorflow as tf
-print(tf.__version__)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
