@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
