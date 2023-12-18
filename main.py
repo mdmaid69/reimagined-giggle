@@ -1,5 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
