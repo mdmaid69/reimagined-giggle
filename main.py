@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def convert_to_hex(n):
-        return hex(n)
+  def is_even(n):
+        return n % 2 == 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
