@@ -1,5 +1,11 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
