@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
