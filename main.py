@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
