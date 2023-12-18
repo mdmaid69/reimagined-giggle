@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
