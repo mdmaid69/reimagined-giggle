@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def reverse_array(array):
-        array.reverse()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
