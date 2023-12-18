@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
