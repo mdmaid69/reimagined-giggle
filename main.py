@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
