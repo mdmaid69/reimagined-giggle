@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def convert_to_octal(n):
+        return oct(n)
