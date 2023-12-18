@@ -1,5 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
