@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
