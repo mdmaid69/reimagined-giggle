@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import sys
+def print_python_version():
+        print(sys.version)
