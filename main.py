@@ -1,6 +1,6 @@
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
