@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def get_array_as_bytes(array):
+        return bytes(array)
+  def is_even(n):
+        return n % 2 == 0
