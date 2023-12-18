@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import time
-def get_time_since_epoch():
-        return time.time()
+        return json.load(f)
+def sort_numbers(numbers):
+        return sorted(numbers)
