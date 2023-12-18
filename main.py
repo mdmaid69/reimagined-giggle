@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
