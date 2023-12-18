@@ -1,8 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
