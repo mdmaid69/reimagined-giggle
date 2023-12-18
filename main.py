@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def get_array_length(array):
+        return len(array)
