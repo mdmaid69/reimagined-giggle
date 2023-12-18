@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
