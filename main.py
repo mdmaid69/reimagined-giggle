@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
