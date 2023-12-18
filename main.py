@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
