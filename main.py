@@ -1,5 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
