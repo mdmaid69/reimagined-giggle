@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-print(random.randint(0, 100))
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
