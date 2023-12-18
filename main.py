@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
