@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+name = "Python"
+print("Hello,", name)
