@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area(radius):
-        return 3.14 * radius * radius
+print("Hello, world!")
+import array
+def get_array_length(array):
+        return len(array)
