@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
