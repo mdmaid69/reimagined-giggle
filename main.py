@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
