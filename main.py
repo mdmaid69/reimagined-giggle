@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
