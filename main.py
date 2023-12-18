@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_min(numbers):
+        return min(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
