@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
