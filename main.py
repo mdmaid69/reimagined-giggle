@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
