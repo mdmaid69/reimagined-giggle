@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
