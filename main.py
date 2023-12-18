@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
