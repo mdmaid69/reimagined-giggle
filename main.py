@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
