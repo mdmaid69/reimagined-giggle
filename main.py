@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
