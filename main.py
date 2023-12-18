@@ -1,6 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def get_array_as_memoryview(array):
+        return memoryview(array)
