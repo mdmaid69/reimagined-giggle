@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
