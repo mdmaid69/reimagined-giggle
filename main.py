@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def count_characters(sentence):
-        return len(sentence)
+print(sum(range(10)))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
