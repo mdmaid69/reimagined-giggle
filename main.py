@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
