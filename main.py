@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
