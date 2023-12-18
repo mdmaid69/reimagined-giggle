@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
