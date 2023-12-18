@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
