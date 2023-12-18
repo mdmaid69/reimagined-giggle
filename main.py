@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
