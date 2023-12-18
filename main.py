@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_array_typecode(array):
+        return array.typecode
