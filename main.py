@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
