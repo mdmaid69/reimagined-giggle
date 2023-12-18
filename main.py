@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
