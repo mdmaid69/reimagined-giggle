@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import sys
+def print_python_version():
+        return sys.version
