@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import collections
+def create_stack():
+        return collections.deque()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
