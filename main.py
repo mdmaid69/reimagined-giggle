@@ -1,6 +1,4 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def extend_array(array, iterable):
+        array.extend(iterable)
+for i in range(10): print(i)
