@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_counter():
+        return collections.Counter()
