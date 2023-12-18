@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
