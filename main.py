@@ -1,9 +1,6 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
