@@ -1,7 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def get_array_item_count(array, item):
+        return array.count(item)
+def is_even(n):
+        return n % 2 == 0
