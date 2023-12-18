@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
