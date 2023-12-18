@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_speed(distance, time):
+        return distance / time
