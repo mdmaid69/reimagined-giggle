@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def reverse_list(lst):
-        return lst[::-1]
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
