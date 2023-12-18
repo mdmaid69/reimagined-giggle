@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
