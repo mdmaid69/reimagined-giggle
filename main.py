@@ -1,5 +1,9 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  def convert_to_binary(n):
-        return bin(n)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
