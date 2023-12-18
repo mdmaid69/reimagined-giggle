@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
