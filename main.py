@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import datetime
+def get_current_date():
+        return datetime.date.today()
