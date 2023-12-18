@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_item_count(array, item):
+        return array.count(item)
