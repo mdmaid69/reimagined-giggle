@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
