@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_repr(array):
+        return repr(array)
