@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_to_json(data):
+        return json.dumps(data)
