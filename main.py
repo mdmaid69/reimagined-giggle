@@ -1,12 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+from collections import Counter
+print(Counter("hello world"))
