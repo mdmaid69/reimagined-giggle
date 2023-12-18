@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
