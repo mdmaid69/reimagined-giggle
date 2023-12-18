@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-for i in range(5):
-        print(i)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_speed(distance, time):
+        return distance / time
