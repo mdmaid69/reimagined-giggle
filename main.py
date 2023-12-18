@@ -1,5 +1,3 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+for i in range(10): print(i)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
