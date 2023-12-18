@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
