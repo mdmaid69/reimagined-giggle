@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
