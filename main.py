@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def reverse_array(array):
-        array.reverse()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
