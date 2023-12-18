@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import platform
-def get_os_info():
-        return platform.uname()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
