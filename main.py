@@ -1,8 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
