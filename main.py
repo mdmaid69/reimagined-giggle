@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def count_words(sentence):
-        return len(sentence.split())
+def is_even(n):
+        return n % 2 == 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
