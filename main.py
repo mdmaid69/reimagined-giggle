@@ -1,5 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
