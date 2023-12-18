@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
