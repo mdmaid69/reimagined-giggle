@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
