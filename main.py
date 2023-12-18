@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
