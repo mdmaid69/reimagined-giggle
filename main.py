@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+from collections import Counter
+print(Counter("hello world"))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
