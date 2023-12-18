@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
