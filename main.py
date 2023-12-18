@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import platform
-def get_python_version():
-        return platform.python_version()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
