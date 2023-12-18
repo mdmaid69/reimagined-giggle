@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_acceleration(speed, time):
+        return speed / time
+import datetime
+def get_today_date():
+        return datetime.date.today()
