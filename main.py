@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
