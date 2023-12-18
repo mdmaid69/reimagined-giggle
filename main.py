@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
