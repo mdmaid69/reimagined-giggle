@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
