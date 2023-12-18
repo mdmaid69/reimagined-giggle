@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_density(mass, volume):
+        return mass / volume
