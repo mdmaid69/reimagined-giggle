@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import platform
+def get_os_info():
+        return platform.uname()
