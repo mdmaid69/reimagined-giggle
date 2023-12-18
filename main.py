@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
