@@ -1,8 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def get_array_as_float(array):
+        return float(array[0])
+  def calculate_area_rectangle(l, w):
+        return l * w
