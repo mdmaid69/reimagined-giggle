@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
