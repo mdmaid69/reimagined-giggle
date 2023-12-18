@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_work(force, distance):
-        return force * distance
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
