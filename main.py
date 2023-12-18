@@ -1,6 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
