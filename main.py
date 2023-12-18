@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def is_odd(n):
+        return n % 2 != 0
