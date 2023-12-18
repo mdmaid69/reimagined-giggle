@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
