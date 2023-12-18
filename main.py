@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
