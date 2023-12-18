@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(a, b):
-        return a + b
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
