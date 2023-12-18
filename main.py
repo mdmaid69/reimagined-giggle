@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def get_current_working_directory():
+        return os.getcwd()
