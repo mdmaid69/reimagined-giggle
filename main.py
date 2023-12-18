@@ -1,6 +1,3 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+print(sum(range(10)))
+def calculate_area_circle(r):
+        return 3.14 * r**2
