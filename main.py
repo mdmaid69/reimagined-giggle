@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
