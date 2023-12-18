@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import sys
+def exit_program():
+        sys.exit()
