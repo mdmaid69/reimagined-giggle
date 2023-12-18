@@ -1,6 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
