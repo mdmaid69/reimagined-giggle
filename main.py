@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def remove_from_array(array, item):
+        array.remove(item)
