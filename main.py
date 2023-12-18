@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
