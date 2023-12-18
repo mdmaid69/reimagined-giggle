@@ -1,6 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
