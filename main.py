@@ -1,6 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def square_number(x):
+        return x**2
+import os
+def remove_directory(path):
+        os.rmdir(path)
