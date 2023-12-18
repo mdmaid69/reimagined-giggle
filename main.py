@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
