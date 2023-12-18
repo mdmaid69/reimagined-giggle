@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
