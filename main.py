@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import sys
+print(sys.version)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
