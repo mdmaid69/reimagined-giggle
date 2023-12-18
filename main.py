@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
