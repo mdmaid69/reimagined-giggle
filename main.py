@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_max(lst):
+        return max(lst)
