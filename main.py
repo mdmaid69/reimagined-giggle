@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def cube_number(x):
-        return x**3
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
