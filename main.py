@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
