@@ -1,5 +1,10 @@
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
