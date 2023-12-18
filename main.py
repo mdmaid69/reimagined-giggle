@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
