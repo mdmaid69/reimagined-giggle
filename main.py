@@ -1,7 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
