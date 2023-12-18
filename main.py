@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_exponential(x):
+        return math.exp(x)
