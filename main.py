@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def reverse_list(lst):
+        return lst[::-1]
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
