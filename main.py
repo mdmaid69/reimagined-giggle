@@ -1,4 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
