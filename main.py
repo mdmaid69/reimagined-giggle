@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
