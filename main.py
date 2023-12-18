@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  def is_even(n):
+        return n % 2 == 0
