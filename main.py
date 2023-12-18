@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
