@@ -1,8 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
