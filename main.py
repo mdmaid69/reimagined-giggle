@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_tangent(x):
+        return math.tan(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
