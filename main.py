@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def convert_to_hex(n):
+        return hex(n)
