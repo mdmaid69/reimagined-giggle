@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import random
-print(random.randint(0, 100))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
