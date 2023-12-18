@@ -1,8 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
