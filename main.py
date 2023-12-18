@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def count_elements(lst):
+        return len(lst)
