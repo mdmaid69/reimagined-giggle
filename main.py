@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
