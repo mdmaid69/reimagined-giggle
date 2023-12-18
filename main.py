@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_area_rectangle(l, w):
-        return l * w
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
