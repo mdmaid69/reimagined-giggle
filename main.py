@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
