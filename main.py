@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_as_int(array):
+        return int(array[0])
