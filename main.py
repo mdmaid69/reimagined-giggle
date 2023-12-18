@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
