@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
