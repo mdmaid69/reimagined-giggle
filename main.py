@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def subtract_numbers(x, y):
-        return x - y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
