@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+print(random.randint(0, 100))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
