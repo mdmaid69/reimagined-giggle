@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
