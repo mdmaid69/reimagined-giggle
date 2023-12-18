@@ -1,5 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def multiply_numbers(x, y):
-        return x * y
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
