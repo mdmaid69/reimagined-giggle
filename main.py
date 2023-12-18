@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
