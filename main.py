@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def square_number(x):
-        return x**2
+import time
+def get_current_time():
+        return time.time()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
