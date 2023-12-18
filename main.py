@@ -1,5 +1,9 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
