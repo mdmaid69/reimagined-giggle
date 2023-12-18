@@ -1,7 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
