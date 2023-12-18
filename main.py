@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
