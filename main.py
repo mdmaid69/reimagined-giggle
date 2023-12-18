@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import sys
-def exit_program():
-        sys.exit()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
