@@ -1,7 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def multiply_numbers(x, y):
+        return x * y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
