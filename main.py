@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import time
+def get_current_time():
+        return time.time()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
