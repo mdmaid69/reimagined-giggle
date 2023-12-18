@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
