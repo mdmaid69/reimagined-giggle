@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def reverse_array(array):
+        array.reverse()
+import sys
+def exit_program():
+        sys.exit()
