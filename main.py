@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
