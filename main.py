@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def find_min(numbers):
-        return min(numbers)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
