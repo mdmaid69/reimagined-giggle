@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-text = "Hello, world!"
-print("Characters:", len(text))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+x = 10
+y = 20
+print("Sum:", x + y)
