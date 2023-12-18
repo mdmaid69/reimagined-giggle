@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
