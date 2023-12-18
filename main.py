@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
