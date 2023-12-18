@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
