@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
