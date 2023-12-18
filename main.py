@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def convert_array_to_list(array):
+        return array.tolist()
