@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_user_string():
+        return collections.UserString()
