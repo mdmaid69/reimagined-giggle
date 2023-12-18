@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_as_str(array):
+        return str(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
