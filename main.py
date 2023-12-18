@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+print(math.pi)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
