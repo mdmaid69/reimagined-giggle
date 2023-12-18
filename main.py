@@ -1,4 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
