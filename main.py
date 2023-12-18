@@ -1,6 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
