@@ -1,6 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
