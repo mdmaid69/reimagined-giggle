@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def divide_numbers(x, y):
+        return x / y
+import time
+def get_time_since_epoch():
+        return time.time()
