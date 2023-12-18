@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def cube_number(x):
+        return x**3
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
