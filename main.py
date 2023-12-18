@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import platform
+def get_os_info():
+        return platform.uname()
+def convert_to_binary(n):
+        return bin(n)
