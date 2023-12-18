@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
