@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def convert_to_binary(n):
+        return bin(n)
