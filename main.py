@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
