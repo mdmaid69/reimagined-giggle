@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
