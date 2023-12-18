@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
