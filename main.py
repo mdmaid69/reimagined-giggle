@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import collections
-def create_stack():
-        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
+def sort_numbers(numbers):
+        return sorted(numbers)
