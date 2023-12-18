@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
