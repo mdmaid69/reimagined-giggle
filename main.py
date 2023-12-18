@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def convert_to_hex(n):
+        return hex(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
