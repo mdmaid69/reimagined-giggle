@@ -1,6 +1,10 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
