@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_area_rectangle(l, w):
+        return l * w
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def list_files_in_directory(path):
+        return os.listdir(path)
