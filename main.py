@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_int(array):
+        return int(array[0])
