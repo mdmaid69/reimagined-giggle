@@ -1,6 +1,10 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
