@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def square_number(x):
+        return x**2
+  def is_even(n):
+        return n % 2 == 0
