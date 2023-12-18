@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
