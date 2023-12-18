@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
