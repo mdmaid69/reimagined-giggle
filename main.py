@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_item(array, i):
+        return array[i]
