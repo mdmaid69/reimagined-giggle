@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
