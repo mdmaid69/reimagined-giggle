@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def sort_list(lst):
+        return sorted(lst)
