@@ -1,6 +1,10 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
