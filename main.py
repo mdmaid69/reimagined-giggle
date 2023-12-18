@@ -1,5 +1,3 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+for i in range(10): print(i)
