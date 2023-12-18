@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
