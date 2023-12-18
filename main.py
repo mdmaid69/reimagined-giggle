@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
