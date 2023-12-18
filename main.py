@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def subtract_numbers(x, y):
+        return x - y
+def square_number(x):
+        return x**2
