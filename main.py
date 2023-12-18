@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
