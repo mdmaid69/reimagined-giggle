@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  def add_numbers(x, y):
-        return x + y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
