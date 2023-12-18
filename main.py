@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
