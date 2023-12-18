@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
