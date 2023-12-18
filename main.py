@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
