@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
