@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
