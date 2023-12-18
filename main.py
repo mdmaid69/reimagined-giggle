@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def reverse_string(s):
+        return s[::-1]
