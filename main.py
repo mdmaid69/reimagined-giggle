@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
