@@ -1,3 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-print(sum(range(10)))
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
