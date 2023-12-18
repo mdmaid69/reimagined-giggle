@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def find_min(lst):
-        return min(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
