@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def subtract_numbers(x, y):
-        return x - y
+import sys
+def print_python_version():
+        print(sys.version)
+import logging
+def log_message(message):
+        logging.info(message)
