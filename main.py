@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
