@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_typecode(array):
+        return array.typecode
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
