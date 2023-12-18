@@ -1,5 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
