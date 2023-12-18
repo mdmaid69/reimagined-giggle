@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
