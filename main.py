@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import platform
-def get_os_info():
-        return platform.uname()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
