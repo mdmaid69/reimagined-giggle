@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_length(array):
-        return len(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
