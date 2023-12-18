@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
