@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_power(work, time):
+        return work / time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
