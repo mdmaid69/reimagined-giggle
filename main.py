@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
