@@ -1,5 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
