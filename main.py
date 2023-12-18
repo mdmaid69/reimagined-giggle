@@ -1,4 +1,5 @@
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
