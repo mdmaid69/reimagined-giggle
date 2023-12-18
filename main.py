@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
