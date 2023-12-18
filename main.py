@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
