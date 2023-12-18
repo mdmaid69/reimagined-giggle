@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_current_working_directory():
-        return os.getcwd()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
