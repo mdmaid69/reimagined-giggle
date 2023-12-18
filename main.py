@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
