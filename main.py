@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def add_numbers(x, y):
+        return x + y
