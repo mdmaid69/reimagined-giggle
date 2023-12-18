@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_volume(length, width, height):
+        return length * width * height
