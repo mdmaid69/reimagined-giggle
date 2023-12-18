@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def count_characters(sentence):
-        return len(sentence)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
