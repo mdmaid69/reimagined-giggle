@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
