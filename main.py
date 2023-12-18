@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
