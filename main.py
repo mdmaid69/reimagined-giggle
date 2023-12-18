@@ -1,6 +1,8 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
