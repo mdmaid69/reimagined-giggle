@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
