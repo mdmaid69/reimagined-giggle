@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import collections
+def create_user_string():
+        return collections.UserString()
