@@ -1,8 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
 import csv
-with open("some.csv", "w", newline="") as f:
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+        writer.writerows(data)
+def count_words(sentence):
+        return len(sentence.split())
