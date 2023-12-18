@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
