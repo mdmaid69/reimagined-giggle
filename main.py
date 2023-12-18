@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
