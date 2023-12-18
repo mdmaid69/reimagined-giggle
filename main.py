@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
