@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
