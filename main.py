@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
