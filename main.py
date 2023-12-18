@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import datetime
+print(datetime.datetime.now())
+  def reverse_list(lst):
+        return lst[::-1]
