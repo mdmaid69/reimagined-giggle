@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def add_numbers(a, b):
-        return a + b
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
