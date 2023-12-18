@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
