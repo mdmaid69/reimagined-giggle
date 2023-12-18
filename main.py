@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
