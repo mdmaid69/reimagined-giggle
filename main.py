@@ -1,6 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
