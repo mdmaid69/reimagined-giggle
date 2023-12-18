@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+print(time.time())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
