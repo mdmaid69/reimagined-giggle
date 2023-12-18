@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def cube_number(x):
-        return x**3
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_min(numbers):
+        return min(numbers)
