@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
