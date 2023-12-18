@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_min(lst):
+        return min(lst)
