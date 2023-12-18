@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
