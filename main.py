@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_current_working_directory():
+        return os.getcwd()
