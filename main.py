@@ -1,7 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
