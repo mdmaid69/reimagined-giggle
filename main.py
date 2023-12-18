@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import datetime
+def get_today_date():
+        return datetime.date.today()
