@@ -1,5 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
