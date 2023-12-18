@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
