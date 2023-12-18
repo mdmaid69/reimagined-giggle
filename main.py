@@ -1,10 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
