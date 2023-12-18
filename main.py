@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
