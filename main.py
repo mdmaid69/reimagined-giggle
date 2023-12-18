@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
