@@ -1,5 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_arc_sine(x):
+        return math.asin(x)
