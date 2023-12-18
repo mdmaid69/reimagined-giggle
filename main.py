@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def is_even(n):
+        return n % 2 == 0
