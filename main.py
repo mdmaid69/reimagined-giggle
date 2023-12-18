@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def add_numbers(x, y):
+        return x + y
