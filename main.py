@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_volume(length, width, height):
-        return length * width * height
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
