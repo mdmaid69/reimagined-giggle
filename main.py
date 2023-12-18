@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
