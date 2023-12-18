@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
