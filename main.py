@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
