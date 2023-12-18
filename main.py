@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
