@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def multiply_numbers(x, y):
+        return x * y
