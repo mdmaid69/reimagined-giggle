@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_acceleration(speed, time):
+        return speed / time
