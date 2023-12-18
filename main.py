@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
