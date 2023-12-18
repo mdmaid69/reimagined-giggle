@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
