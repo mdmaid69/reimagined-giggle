@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
