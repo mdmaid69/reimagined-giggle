@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_volume(length, width, height):
+        return length * width * height
