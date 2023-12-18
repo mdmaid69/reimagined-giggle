@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_counter():
-        return collections.Counter()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
