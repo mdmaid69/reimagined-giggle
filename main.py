@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_power(work, time):
+        return work / time
