@@ -1,5 +1,3 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+print(sum(range(10)))
+def count_characters(sentence):
+        return len(sentence)
