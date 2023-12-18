@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Uppercase:", text.upper())
