@@ -1,5 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
