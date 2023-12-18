@@ -1,10 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
