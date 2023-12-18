@@ -1,7 +1,8 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
