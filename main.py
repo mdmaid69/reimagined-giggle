@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
