@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
