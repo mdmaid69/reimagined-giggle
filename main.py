@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def is_odd(n):
+        return n % 2 != 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
