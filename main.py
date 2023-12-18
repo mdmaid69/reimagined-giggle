@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def cube_number(x):
-        return x**3
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
