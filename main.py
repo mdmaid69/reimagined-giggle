@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_union(list1, list2):
+        return set(list1) | set(list2)
