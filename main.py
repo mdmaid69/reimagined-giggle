@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
