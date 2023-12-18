@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def reverse_list(lst):
+        return lst[::-1]
