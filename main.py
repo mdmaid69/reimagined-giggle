@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def find_min(lst):
+        return min(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
