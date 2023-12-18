@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_user_list():
-        return collections.UserList()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def subtract_numbers(x, y):
+        return x - y
