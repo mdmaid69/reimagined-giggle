@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_user_list():
+        return collections.UserList()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
