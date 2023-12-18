@@ -1,3 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-for i in range(10): print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
