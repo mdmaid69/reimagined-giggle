@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
