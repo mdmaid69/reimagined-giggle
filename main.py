@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import sys
-def exit_program():
-        sys.exit()
+def calculate_floor(x):
+        return math.floor(x)
