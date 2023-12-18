@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
