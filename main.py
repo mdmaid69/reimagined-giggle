@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_file(file_name):
+        os.remove(file_name)
