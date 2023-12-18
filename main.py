@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
