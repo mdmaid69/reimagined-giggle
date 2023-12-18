@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def append_to_array(array, item):
+        array.append(item)
