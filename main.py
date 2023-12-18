@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
