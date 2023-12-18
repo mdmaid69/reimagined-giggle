@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
