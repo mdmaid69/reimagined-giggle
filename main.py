@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
