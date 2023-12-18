@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
