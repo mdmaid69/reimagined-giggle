@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
