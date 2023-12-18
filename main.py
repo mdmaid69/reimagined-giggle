@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
