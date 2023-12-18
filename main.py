@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
