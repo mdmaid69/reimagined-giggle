@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
