@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import time
+def get_current_time():
+        return time.time()
