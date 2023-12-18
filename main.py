@@ -1,3 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-print("Hello, world!")
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
