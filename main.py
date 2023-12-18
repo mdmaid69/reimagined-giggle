@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_bool(array):
+        return bool(array)
