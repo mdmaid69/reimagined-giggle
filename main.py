@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
