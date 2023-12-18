@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_tangent(x):
+        return math.tan(x)
