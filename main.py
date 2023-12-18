@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
