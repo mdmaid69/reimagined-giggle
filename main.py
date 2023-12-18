@@ -1,6 +1,5 @@
+import random
+print(random.randint(0, 100))
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def get_array_buffer_info(array):
+        return array.buffer_info()
