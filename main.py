@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_length(array):
+        return len(array)
+  def convert_to_octal(n):
+        return oct(n)
