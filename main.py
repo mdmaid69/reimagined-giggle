@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
