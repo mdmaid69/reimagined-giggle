@@ -1,7 +1,6 @@
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
