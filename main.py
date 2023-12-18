@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
