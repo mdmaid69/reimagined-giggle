@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def convert_to_binary(n):
-        return bin(n)
+def cube_number(x):
+        return x**3
+def calculate_speed(distance, time):
+        return distance / time
