@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_as_float(array):
+        return float(array[0])
