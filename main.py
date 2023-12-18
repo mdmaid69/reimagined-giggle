@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
