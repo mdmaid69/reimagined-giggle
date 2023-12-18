@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
