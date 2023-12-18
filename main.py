@@ -1,5 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def convert_to_binary(n):
-        return bin(n)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_acceleration(speed, time):
+        return speed / time
