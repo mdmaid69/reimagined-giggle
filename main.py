@@ -1,7 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import os
+def remove_directory(path):
+        os.rmdir(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
