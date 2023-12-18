@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_array_item(array, i):
+        return array[i]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
