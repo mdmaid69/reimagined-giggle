@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
