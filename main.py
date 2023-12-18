@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def add_numbers(x, y):
+        return x + y
