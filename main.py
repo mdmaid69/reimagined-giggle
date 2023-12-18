@@ -1,6 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
