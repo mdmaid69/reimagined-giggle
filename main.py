@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
