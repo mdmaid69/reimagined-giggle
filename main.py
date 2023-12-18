@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_elements(lst):
-        return len(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def find_min(lst):
+        return min(lst)
