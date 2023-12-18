@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
