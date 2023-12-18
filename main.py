@@ -1,5 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def is_palindrome(s):
-        return s == s[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def square_number(x):
+        return x**2
