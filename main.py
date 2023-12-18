@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
