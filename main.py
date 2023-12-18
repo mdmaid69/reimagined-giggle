@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
