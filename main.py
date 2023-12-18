@@ -1,6 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+print([x**2 for x in range(10)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
