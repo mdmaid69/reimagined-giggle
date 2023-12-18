@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
