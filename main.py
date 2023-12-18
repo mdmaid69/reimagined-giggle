@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
