@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def subtract_numbers(x, y):
-        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import numpy as np
+print(np.array([1, 2, 3]))
