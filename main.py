@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
