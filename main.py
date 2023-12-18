@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
