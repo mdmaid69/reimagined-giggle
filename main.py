@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
