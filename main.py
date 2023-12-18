@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
