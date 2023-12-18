@@ -1,7 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
