@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
