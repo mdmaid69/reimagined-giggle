@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def subtract_numbers(x, y):
-        return x - y
+import os
+print(os.getcwd())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
