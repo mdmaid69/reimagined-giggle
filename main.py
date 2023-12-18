@@ -1,6 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
