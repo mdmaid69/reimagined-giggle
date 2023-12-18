@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
