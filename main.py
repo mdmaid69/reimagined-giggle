@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def convert_to_octal(n):
-        return oct(n)
+  def delete_file(file_name):
+        os.remove(file_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
