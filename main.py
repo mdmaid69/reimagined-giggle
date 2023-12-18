@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_typecode(array):
+        return array.typecode
+import sys
+def exit_program():
+        sys.exit()
