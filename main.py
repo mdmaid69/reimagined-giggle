@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
