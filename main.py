@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
