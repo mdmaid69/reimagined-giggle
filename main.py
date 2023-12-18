@@ -1,6 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
