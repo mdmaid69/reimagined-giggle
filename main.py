@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
