@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
