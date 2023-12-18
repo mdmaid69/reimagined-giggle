@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
