@@ -1,6 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
