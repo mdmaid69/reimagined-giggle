@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
