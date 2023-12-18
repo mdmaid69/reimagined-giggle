@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def remove_duplicates(lst):
-        return list(set(lst))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
