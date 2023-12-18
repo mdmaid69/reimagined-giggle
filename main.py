@@ -1,6 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_sign(x):
+        return math.copysign(1, x)
