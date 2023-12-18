@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
