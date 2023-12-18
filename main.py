@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
