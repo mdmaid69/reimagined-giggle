@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
