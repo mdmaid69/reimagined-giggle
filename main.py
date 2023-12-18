@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import tensorflow as tf
-print(tf.__version__)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_list(array):
+        return list(array)
