@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
