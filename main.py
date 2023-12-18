@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def add_numbers(x, y):
+        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
