@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
