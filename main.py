@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
