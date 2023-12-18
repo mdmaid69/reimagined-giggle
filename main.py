@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
