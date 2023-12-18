@@ -1,4 +1,4 @@
-import random
-print(random.randint(0, 100))
-import datetime
-print(datetime.datetime.now())
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
