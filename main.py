@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def square_number(x):
+        return x**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
