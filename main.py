@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def is_even(n):
+        return n % 2 == 0
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
