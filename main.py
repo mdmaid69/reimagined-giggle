@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
