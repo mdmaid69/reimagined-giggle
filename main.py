@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
