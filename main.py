@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+name = "Python"
+print("Hello,", name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
