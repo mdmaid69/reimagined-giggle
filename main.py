@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
