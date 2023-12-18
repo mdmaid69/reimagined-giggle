@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
