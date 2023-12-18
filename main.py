@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
