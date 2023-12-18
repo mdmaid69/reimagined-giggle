@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
