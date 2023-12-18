@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
