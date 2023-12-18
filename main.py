@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
