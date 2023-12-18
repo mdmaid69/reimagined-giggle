@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
