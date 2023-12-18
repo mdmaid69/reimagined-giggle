@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
