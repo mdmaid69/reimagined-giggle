@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import time
+def get_current_time():
+        return time.ctime()
