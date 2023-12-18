@@ -1,7 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-i = 0
-while i < 5:
+for i in range(5):
         print(i)
-        i += 1
+text = "Hello, world!"
+print("Characters:", len(text))
