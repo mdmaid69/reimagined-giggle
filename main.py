@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
