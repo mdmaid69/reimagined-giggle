@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
