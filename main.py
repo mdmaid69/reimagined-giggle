@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
