@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def greet(name):
+        print(f"Hello, {name}!")
