@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def convert_to_hex(n):
+        return hex(n)
