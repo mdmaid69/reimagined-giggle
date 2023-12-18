@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
