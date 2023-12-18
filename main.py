@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
