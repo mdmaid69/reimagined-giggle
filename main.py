@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
