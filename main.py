@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import random
-print(random.randint(0, 100))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
