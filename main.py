@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
