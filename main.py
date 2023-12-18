@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def convert_to_octal(n):
+        return oct(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
