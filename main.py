@@ -1,6 +1,7 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
