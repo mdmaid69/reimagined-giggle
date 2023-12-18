@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
