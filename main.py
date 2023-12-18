@@ -1,8 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def convert_to_octal(n):
+        return oct(n)
