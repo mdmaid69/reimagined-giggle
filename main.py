@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
