@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_pressure(force, area):
+        return force / area
