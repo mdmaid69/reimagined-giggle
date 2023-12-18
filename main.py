@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def square_number(x):
-        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
