@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_work(force, distance):
+        return force * distance
