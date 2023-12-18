@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
