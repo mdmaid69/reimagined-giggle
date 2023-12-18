@@ -1,8 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
