@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
