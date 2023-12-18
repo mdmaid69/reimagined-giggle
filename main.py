@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def count_characters(sentence):
+        return len(sentence)
+import logging
+def log_message(message):
+        logging.info(message)
