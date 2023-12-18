@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import sys
+def exit_program():
+        sys.exit()
