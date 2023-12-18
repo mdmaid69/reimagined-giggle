@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+print(os.getcwd())
