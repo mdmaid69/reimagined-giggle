@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
