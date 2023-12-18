@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
