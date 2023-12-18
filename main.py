@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def remove_duplicates(lst):
+        return list(set(lst))
