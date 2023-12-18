@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def subtract_numbers(x, y):
+        return x - y
