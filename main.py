@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
