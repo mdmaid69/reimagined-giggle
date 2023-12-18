@@ -1,4 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
