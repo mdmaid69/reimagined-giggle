@@ -1,5 +1,8 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import platform
+def get_python_version():
+        return platform.python_version()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
