@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
