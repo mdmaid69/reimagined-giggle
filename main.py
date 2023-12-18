@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+name = "Python"
+print("Hello,", name)
