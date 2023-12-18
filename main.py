@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
