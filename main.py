@@ -1,5 +1,7 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_speed(distance, time):
+        return distance / time
