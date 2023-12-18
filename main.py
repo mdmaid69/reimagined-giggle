@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
