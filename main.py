@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
