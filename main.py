@@ -1,7 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
