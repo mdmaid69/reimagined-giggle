@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def add_numbers(x, y):
+        return x + y
