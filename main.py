@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
