@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def count_words(sentence):
+        return len(sentence.split())
