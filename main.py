@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
