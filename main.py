@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
