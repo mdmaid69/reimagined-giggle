@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
