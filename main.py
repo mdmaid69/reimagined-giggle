@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
