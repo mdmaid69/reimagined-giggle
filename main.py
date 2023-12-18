@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def split_path(path):
+        return os.path.split(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
