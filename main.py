@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
