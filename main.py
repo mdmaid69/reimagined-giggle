@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
