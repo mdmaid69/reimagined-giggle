@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
