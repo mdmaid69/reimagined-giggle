@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
