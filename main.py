@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def multiply_numbers(x, y):
+        return x * y
+def find_min(lst):
+        return min(lst)
