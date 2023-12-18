@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
