@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_sine(x):
+        return math.sin(x)
