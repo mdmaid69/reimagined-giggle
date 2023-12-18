@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def clear_array(array):
+        array *= 0
