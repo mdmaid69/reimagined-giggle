@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def is_odd(n):
+        return n % 2 != 0
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
