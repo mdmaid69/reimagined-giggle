@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
