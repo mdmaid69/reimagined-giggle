@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
