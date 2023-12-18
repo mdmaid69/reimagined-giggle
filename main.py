@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
