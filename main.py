@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
