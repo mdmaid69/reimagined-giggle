@@ -1,4 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-print([x**2 for x in range(10)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+print(math.pi)
