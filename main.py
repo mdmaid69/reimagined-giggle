@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import sys
+def print_python_version():
+        print(sys.version)
