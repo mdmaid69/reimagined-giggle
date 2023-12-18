@@ -1,7 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_density(mass, volume):
+        return mass / volume
