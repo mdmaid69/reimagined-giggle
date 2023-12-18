@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
