@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def is_odd(n):
+        return n % 2 != 0
