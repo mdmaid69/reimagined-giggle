@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
