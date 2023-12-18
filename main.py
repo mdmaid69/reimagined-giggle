@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
