@@ -1,6 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
