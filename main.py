@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
