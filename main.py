@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
