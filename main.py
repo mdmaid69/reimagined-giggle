@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
