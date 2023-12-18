@@ -1,5 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
