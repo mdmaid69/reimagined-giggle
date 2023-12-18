@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
