@@ -1,4 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def add_numbers(x, y):
-        return x + y
+def find_min(lst):
+        return min(lst)
+def is_palindrome(s):
+        return s == s[::-1]
