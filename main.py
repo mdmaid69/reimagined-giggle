@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_acceleration(speed, time):
-        return speed / time
+def is_odd(n):
+        return n % 2 != 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
