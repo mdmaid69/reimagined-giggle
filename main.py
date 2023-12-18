@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
