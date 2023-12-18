@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
