@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import platform
+def get_os_info():
+        return platform.uname()
