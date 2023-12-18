@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
