@@ -1,6 +1,12 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import platform
-def get_os_info():
-        return platform.uname()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
