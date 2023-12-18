@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def convert_to_binary(n):
+        return bin(n)
