@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
