@@ -1,7 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
