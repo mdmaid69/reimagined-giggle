@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
