@@ -1,4 +1,9 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def reverse_string(s):
+        return s[::-1]
