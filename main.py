@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def count_elements(lst):
-        return len(lst)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_area_rectangle(l, w):
+        return l * w
