@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+print(sum(range(10)))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
