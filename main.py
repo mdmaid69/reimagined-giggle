@@ -1,5 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
