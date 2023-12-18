@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
