@@ -1,6 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
