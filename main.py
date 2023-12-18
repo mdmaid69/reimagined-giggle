@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-from collections import Counter
-print(Counter("hello world"))
+import time
+print(time.time())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
