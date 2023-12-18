@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import getpass
+def get_username():
+        return getpass.getuser()
