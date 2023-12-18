@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
