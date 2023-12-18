@@ -1,6 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
