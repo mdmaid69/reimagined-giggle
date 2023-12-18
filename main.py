@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
