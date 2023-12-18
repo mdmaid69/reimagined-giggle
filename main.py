@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def remove_duplicates(lst):
+        return list(set(lst))
