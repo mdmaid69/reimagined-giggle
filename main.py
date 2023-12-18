@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
