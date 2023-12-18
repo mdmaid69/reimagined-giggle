@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
