@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
