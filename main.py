@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-for i in range(5):
-        print(i)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
