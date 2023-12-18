@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_max(numbers):
-        return max(numbers)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
