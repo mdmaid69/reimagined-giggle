@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
