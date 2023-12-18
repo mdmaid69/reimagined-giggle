@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def is_even(n):
+        return n % 2 == 0
+def divide_numbers(x, y):
+        return x / y
