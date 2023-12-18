@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
