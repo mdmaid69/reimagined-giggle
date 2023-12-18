@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
