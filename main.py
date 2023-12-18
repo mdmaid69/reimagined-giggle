@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import re
-print(re.match("h.*o", "hello world"))
+def convert_to_hex(n):
+        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
