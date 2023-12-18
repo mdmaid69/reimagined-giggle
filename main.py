@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
