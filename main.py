@@ -1,11 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_as_str(array):
+        return str(array)
