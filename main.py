@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def subtract_numbers(x, y):
+        return x - y
