@@ -1,5 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def reverse_list(lst):
-        return lst[::-1]
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
