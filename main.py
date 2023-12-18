@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
