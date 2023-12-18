@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import platform
-def get_python_version():
-        return platform.python_version()
+def convert_to_hex(n):
+        return hex(n)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
