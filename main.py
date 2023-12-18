@@ -1,6 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
