@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
