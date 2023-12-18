@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def reverse_list(lst):
+        return lst[::-1]
