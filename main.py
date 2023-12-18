@@ -1,8 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def get_array_as_list(array):
-        return list(array)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def get_array_as_frozenset(array):
+        return frozenset(array)
