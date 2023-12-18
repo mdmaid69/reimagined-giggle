@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-from collections import Counter
-print(Counter("hello world"))
+  def count_elements(lst):
+        return len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
