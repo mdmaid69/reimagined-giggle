@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
