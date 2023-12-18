@@ -1,6 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
