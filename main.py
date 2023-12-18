@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
