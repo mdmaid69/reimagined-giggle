@@ -1,6 +1,8 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
