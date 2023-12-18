@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_density(mass, volume):
-        return mass / volume
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_stack():
+        return collections.deque()
