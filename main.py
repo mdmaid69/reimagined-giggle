@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
