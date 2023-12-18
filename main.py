@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_repr(array):
+        return repr(array)
+import os
+print(os.getcwd())
