@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import sys
+def print_python_version():
+        return sys.version
+import platform
+def get_os_info():
+        return platform.uname()
