@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
