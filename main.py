@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def reverse_list(lst):
+        return lst[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
