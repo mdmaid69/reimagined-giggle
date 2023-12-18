@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
