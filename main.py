@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def find_min(lst):
-        return min(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def find_max(numbers):
+        return max(numbers)
