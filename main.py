@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
