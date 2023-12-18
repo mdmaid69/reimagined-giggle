@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
