@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import platform
+def get_python_version():
+        return platform.python_version()
