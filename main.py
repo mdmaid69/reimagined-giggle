@@ -1,5 +1,9 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def find_min(lst):
-        return min(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
