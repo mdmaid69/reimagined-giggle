@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import sys
+  def get_python_version():
+        return sys.version
+for i in range(5):
+        print(i)
