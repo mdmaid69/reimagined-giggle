@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sys
+def print_python_version():
+        return sys.version
