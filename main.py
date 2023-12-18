@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
