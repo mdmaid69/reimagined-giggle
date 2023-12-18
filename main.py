@@ -1,5 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
