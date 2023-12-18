@@ -1,7 +1,6 @@
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def subtract_numbers(x, y):
-        return x - y
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
