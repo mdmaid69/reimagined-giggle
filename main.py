@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
