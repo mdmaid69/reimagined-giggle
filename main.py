@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import sys
+  def get_python_version():
+        return sys.version
