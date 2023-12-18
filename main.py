@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
