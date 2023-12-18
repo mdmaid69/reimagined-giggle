@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
