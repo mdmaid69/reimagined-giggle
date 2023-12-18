@@ -1,7 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
