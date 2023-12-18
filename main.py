@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
