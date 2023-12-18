@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
