@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_length(array):
+        return len(array)
