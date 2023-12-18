@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def cube_number(x):
-        return x**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
