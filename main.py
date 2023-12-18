@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_typecode(array):
+        return array.typecode
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
