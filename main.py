@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def sort_list(lst):
-        return sorted(lst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
