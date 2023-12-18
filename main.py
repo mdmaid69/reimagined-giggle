@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_base_name(path):
+        return os.path.basename(path)
