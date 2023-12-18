@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Words:", len(text.split()))
