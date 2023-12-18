@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
