@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
