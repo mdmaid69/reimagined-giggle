@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
