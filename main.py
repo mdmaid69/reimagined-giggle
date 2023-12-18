@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
