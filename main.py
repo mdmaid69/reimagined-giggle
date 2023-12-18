@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
