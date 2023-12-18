@@ -1,4 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
