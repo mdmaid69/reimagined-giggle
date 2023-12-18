@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_unique_words(sentence):
-        return set(sentence.split())
+def cube_number(x):
+        return x**3
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
