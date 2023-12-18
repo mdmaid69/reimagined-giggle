@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
