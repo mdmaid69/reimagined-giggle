@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
