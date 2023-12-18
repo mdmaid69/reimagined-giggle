@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def multiply_numbers(x, y):
+        return x * y
