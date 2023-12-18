@@ -1,8 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_floor(x):
+        return math.floor(x)
