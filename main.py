@@ -1,7 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_array_as_bool(array):
+        return bool(array)
