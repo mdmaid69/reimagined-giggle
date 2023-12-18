@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
