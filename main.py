@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
