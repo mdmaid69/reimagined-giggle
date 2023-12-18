@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+text = "Hello, world!"
+print("Words:", len(text.split()))
