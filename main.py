@@ -1,6 +1,7 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
