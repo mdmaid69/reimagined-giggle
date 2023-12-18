@@ -1,8 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
   import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_mean(arr):
+        return np.mean(arr)
