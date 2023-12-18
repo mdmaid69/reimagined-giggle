@@ -1,4 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def sort_numbers(numbers):
-        return sorted(numbers)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def convert_to_hex(n):
+        return hex(n)
