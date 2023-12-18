@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_floor(x):
+        return math.floor(x)
