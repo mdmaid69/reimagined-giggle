@@ -1,7 +1,8 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
