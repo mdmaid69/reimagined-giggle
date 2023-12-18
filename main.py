@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
