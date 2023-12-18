@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
