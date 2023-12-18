@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
