@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def convert_to_binary(n):
-        return bin(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
