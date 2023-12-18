@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
