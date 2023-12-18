@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+print(sum(range(10)))
