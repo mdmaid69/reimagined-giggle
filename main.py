@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import numpy as np
+print(np.array([1, 2, 3]))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
