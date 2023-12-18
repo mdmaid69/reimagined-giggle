@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def split_path(path):
+        return os.path.split(path)
