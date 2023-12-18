@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_odd(n):
-        return n % 2 != 0
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cosine(x):
+        return math.cos(x)
