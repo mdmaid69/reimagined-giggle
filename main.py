@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
