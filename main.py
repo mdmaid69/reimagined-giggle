@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
