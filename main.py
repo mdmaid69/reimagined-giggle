@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def subtract_numbers(x, y):
-        return x - y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def reverse_list(lst):
+        return lst[::-1]
