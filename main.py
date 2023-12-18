@@ -1,5 +1,5 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-print(time.time())
+print(list(itertools.permutations([1, 2, 3])))
