@@ -1,7 +1,7 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def square_number(x):
+        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
