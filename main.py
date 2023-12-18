@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def convert_to_hex(n):
-        return hex(n)
+def find_min(lst):
+        return min(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
