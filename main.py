@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
