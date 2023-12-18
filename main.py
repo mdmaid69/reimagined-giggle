@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
