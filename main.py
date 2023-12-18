@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_volume(length, width, height):
+        return length * width * height
