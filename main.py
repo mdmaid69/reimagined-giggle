@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
