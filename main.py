@@ -1,5 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
