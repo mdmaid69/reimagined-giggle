@@ -1,7 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import numpy as np
+print(np.array([1, 2, 3]))
