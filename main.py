@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_perpetuity(payment, rate):
+        return payment / rate
