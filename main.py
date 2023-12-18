@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
