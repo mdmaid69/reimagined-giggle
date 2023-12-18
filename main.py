@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
