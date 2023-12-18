@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def reverse_string(s):
+        return s[::-1]
+  def convert_to_hex(n):
+        return hex(n)
