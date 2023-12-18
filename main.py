@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
