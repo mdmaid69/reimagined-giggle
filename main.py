@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
