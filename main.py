@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
