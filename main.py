@@ -1,10 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
