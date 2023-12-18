@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Characters:", len(text))
