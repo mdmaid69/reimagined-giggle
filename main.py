@@ -1,5 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
