@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
