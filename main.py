@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
