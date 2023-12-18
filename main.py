@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
