@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import datetime
+def get_today_date():
+        return datetime.date.today()
