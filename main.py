@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
