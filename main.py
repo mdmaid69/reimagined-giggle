@@ -1,5 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
