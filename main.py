@@ -1,4 +1,9 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
