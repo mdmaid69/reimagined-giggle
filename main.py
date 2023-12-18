@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def square_number(x):
+        return x**2
+import array
+def append_to_array(array, item):
+        array.append(item)
