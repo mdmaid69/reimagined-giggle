@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
