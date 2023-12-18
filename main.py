@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
