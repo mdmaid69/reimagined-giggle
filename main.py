@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
