@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+print(random.randint(0, 100))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
