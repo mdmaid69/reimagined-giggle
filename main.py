@@ -1,6 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
