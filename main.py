@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
