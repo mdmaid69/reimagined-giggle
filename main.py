@@ -1,8 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def is_even(n):
+        return n % 2 == 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
