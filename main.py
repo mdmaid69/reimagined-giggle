@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def convert_array_to_string(array):
+        return array.tostring()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
