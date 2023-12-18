@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import platform
+def get_python_version():
+        return platform.python_version()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
