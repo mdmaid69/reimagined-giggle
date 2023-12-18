@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
