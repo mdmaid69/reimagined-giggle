@@ -1,5 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-print([x**2 for x in range(10)])
+def cube_number(x):
+        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
