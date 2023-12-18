@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import getpass
-def get_username():
-        return getpass.getuser()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_max(lst):
+        return max(lst)
