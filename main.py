@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
