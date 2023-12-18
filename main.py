@@ -1,6 +1,4 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
