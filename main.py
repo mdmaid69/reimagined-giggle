@@ -1,7 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
