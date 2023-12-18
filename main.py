@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def reverse_string(s):
-        return s[::-1]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
