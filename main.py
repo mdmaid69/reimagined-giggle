@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
