@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_density(mass, volume):
+        return mass / volume
