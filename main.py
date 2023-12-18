@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
