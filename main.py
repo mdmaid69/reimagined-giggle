@@ -1,7 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_work(force, distance):
+        return force * distance
+import platform
+def get_python_version():
+        return platform.python_version()
