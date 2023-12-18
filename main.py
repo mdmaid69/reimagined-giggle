@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-from collections import Counter
-print(Counter("hello world"))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
