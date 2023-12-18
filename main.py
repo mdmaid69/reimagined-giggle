@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
