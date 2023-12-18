@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_pressure(force, area):
-        return force / area
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
