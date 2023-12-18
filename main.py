@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def get_current_time():
+        return time.ctime()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
