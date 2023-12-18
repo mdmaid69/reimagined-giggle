@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
