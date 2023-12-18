@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def add_numbers(a, b):
-        return a + b
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
