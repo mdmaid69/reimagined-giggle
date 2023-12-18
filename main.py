@@ -1,8 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
