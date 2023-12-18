@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def calculate_area_rectangle(l, w):
+        return l * w
