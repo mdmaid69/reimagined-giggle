@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
