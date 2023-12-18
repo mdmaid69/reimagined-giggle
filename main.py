@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
