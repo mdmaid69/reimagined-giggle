@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
