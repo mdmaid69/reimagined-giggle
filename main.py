@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
