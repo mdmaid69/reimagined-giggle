@@ -1,6 +1,8 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
