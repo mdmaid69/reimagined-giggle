@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
