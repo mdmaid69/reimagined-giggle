@@ -1,6 +1,8 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
