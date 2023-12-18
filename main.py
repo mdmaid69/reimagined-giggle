@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
