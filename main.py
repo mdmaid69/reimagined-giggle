@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
