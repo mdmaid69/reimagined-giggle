@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
