@@ -1,5 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
