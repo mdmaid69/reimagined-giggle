@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def square_number(x):
+        return x**2
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
