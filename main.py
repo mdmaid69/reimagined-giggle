@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
