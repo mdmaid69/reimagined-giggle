@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cosine(x):
+        return math.cos(x)
