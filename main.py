@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
