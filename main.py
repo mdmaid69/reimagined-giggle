@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def subtract_numbers(x, y):
-        return x - y
+x = 10
+y = 20
+print("Sum:", x + y)
+  def is_even(n):
+        return n % 2 == 0
