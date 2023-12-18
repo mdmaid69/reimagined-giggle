@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def find_max(numbers):
+        return max(numbers)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
