@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import datetime
+print(datetime.datetime.now())
