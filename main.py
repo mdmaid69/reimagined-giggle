@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_user_list():
+        return collections.UserList()
