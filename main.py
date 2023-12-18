@@ -1,4 +1,6 @@
-print(sum(range(10)))
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_as_set(array):
-        return set(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
