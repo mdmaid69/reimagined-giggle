@@ -1,5 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
