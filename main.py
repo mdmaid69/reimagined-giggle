@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
