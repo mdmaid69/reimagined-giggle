@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def clear_array(array):
-        array *= 0
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
