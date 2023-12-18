@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
