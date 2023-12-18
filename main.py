@@ -1,7 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def square_number(x):
+        return x**2
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
