@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def sort_list(lst):
-        return sorted(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_speed(distance, time):
+        return distance / time
