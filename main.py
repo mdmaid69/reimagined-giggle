@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_arc_cosine(x):
+        return math.acos(x)
