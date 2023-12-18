@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_area_rectangle(l, w):
+        return l * w
