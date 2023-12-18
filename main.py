@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def greet(name):
+        print(f"Hello, {name}!")
