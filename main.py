@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
