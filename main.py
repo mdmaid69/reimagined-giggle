@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
