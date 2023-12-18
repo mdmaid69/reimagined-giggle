@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
