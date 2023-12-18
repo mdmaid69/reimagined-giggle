@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_area_rectangle(l, w):
+        return l * w
