@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def reverse_string(s):
-        return s[::-1]
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
