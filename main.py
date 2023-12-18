@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
