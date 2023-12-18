@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def count_elements(lst):
+        return len(lst)
