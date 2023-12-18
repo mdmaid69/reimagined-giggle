@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
