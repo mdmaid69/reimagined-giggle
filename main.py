@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
