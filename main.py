@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
