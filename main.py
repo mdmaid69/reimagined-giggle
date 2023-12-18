@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
