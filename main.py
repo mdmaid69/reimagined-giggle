@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
