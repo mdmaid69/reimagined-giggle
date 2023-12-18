@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
