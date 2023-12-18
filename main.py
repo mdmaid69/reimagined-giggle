@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
