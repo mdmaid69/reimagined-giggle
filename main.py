@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
