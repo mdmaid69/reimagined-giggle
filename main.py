@@ -1,5 +1,11 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
