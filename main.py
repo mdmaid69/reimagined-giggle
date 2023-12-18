@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def cube_number(x):
+        return x**3
