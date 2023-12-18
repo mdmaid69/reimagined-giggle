@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def append_to_array(array, item):
+        array.append(item)
