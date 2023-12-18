@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def is_even(n):
+        return n % 2 == 0
