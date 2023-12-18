@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def reverse_string(s):
+        return s[::-1]
