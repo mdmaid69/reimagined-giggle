@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
