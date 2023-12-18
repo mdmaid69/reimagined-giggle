@@ -1,8 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
