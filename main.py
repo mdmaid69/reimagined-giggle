@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_acceleration(speed, time):
+        return speed / time
