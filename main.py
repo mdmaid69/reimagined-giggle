@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
