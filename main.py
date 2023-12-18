@@ -1,8 +1,9 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
