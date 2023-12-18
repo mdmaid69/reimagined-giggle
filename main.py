@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
