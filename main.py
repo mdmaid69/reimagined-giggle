@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
