@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
