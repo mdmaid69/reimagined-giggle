@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
