@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
