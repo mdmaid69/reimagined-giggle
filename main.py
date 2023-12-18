@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import datetime
+def get_current_date():
+        return datetime.date.today()
