@@ -1,8 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def reverse_list(lst):
+        return lst[::-1]
