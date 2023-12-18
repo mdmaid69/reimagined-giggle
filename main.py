@@ -1,6 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def sort_list(lst):
+        return sorted(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
