@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+print(json.dumps({"name": "John", "age": 30}))
