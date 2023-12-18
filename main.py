@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def convert_to_hex(n):
+        return hex(n)
