@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
