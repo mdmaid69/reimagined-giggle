@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
