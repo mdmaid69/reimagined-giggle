@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
