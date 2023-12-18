@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def reverse_list(lst):
+        return lst[::-1]
