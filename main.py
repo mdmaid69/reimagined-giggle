@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
