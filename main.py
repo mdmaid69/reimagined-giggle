@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def clear_array(array):
-        array *= 0
+  def get_base_name(path):
+        return os.path.basename(path)
