@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
