@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_set(array):
+        return set(array)
