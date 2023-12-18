@@ -1,4 +1,8 @@
-for i in range(5):
-        print(i)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_perpetuity(payment, rate):
+        return payment / rate
