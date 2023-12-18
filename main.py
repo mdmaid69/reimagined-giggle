@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import random
+print(random.randint(0, 100))
