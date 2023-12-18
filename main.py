@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_tangent(x):
+        return math.tan(x)
