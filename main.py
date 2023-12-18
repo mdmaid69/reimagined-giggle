@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
