@@ -1,7 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def square_number(x):
+        return x**2
