@@ -1,5 +1,8 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
