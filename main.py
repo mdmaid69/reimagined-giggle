@@ -1,7 +1,3 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+for i in range(10): print(i)
+import random
+print(random.randint(0, 100))
