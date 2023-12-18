@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
