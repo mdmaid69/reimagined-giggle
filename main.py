@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def add_numbers(x, y):
-        return x + y
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
