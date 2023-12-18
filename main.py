@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def count_characters(sentence):
-        return len(sentence)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
