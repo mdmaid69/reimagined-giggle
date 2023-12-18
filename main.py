@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_counter():
+        return collections.Counter()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
