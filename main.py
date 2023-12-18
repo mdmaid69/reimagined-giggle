@@ -1,4 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-print(sum(range(10)))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_time_since_epoch():
+        return time.time()
