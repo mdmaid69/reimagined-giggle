@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import datetime
+def get_current_date():
+        return datetime.date.today()
