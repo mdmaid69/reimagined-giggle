@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
