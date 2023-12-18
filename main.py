@@ -1,4 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def sort_list(lst):
+        return sorted(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
