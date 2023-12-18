@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
