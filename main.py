@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def remove_from_array(array, item):
+        array.remove(item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
