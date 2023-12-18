@@ -1,6 +1,7 @@
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def square_number(x):
+        return x**2
