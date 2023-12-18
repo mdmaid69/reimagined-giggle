@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def convert_to_hex(n):
+        return hex(n)
