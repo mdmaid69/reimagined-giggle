@@ -1,6 +1,11 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def clear_array(array):
-        array *= 0
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
