@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
