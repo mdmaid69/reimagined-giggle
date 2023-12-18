@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
