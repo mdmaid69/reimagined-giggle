@@ -1,5 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def square_number(x):
+        return x**2
