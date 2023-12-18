@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
