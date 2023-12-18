@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def remove_directory(path):
+        os.rmdir(path)
