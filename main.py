@@ -1,5 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import datetime
+print(datetime.datetime.now())
