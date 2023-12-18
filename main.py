@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+print(math.pi)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
