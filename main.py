@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
