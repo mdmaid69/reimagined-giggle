@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
