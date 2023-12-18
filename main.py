@@ -1,8 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def add_numbers(x, y):
+        return x + y
+def is_even(n):
+        return n % 2 == 0
