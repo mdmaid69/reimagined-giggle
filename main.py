@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
