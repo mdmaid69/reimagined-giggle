@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
