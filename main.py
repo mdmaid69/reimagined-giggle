@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
