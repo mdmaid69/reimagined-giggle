@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import datetime
+def get_current_date():
+        return datetime.date.today()
