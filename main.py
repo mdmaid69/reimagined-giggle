@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
