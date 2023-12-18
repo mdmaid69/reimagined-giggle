@@ -1,7 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
