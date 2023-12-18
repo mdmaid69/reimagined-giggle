@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
