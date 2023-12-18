@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_queue():
+        return collections.deque()
+def cube_number(x):
+        return x**3
