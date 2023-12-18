@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
