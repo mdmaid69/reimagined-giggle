@@ -1,5 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
