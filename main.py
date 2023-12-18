@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_length(array):
+        return len(array)
+  def sort_list(lst):
+        return sorted(lst)
