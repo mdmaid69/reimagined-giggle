@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
