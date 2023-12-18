@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
