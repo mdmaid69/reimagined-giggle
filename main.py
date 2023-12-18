@@ -1,7 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
