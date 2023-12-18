@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
