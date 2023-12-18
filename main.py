@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
