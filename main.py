@@ -1,6 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
