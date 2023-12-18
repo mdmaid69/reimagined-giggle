@@ -1,5 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import re
+print(re.match("h.*o", "hello world"))
