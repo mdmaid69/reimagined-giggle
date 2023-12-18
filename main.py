@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_list(array):
-        return list(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
