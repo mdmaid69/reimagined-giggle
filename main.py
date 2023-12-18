@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
