@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import numpy as np
+print(np.array([1, 2, 3]))
