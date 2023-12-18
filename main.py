@@ -1,7 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
