@@ -1,4 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+print([x**2 for x in range(10)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
