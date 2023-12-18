@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
