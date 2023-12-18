@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def is_palindrome(s):
-        return s == s[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
