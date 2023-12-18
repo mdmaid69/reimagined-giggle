@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
