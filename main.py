@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import sys
+def exit_program():
+        sys.exit()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
