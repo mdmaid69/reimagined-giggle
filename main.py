@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-from collections import Counter
-print(Counter("hello world"))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_work(force, distance):
+        return force * distance
