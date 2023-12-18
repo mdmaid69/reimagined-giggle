@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_float(array):
+        return float(array[0])
