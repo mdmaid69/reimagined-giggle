@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_item(array, i):
-        return array[i]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
