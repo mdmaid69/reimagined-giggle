@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
