@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+name = "Python"
+print("Hello,", name)
