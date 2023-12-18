@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import sys
+def exit_program():
+        sys.exit()
