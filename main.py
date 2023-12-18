@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+for i in range(5):
+        print(i)
