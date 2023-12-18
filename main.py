@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
