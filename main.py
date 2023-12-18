@@ -1,4 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def greet(name):
+        print(f"Hello, {name}!")
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
