@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def add_numbers(a, b):
+        return a + b
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
