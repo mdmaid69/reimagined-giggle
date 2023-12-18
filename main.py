@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
