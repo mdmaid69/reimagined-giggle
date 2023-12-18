@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-def count_characters(sentence):
-        return len(sentence)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
