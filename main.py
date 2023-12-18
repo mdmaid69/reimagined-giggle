@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
