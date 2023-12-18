@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
