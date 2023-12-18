@@ -1,5 +1,3 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_time_since_epoch():
-        return time.time()
+for i in range(5):
+        print(i)
+print(sum(range(10)))
