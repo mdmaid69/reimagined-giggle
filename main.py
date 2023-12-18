@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def reverse_list(lst):
+        return lst[::-1]
