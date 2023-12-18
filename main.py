@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def greet(name):
-        print(f"Hello, {name}!")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
