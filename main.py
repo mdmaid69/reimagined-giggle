@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
