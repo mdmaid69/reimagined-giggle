@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
