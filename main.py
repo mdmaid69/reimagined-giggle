@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import time
+def get_time_since_epoch():
+        return time.time()
