@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+name = "Python"
+print("Hello,", name)
