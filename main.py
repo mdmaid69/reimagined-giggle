@@ -1,6 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
