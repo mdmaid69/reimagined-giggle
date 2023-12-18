@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
