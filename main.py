@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
