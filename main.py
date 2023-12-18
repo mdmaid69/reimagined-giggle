@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
