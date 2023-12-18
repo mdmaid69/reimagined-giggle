@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
