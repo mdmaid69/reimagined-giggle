@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def convert_to_binary(n):
+        return bin(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
