@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_user_list():
+        return collections.UserList()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
