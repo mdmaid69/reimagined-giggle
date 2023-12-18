@@ -1,5 +1,14 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
