@@ -1,5 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
