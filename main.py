@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_speed(distance, time):
+        return distance / time
