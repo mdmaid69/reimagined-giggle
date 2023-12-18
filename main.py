@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
