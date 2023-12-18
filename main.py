@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-from collections import Counter
-print(Counter("hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
