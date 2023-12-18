@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
