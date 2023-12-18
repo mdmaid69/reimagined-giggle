@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
