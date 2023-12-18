@@ -1,6 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
