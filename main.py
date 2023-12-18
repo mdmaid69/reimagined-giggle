@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
