@@ -1,6 +1,6 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import platform
-def get_os_info():
-        return platform.uname()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
