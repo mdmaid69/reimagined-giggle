@@ -1,8 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import sys
-print(sys.version)
+def calculate_volume(length, width, height):
+        return length * width * height
+text = "Hello, world!"
+print("Uppercase:", text.upper())
