@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
