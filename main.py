@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def is_palindrome(s):
+        return s == s[::-1]
