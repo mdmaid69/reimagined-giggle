@@ -1,5 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_array_as_bytearray(array):
+        return bytearray(array)
