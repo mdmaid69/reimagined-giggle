@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_priority_queue():
+        return collections.deque()
