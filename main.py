@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_array_to_string(array):
+        return array.tostring()
