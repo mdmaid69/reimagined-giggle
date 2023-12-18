@@ -1,6 +1,6 @@
 import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
