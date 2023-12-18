@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
