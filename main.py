@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
