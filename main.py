@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
