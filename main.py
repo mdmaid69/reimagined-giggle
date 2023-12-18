@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
