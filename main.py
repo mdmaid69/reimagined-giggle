@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
