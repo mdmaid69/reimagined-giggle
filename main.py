@@ -1,6 +1,10 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
