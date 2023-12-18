@@ -1,7 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Characters:", len(text))
