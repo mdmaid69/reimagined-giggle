@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_volume(length, width, height):
+        return length * width * height
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
