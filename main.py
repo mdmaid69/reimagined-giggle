@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
