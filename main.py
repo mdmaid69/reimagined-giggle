@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def is_odd(n):
+        return n % 2 != 0
