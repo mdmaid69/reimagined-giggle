@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def count_words(sentence):
+        return len(sentence.split())
