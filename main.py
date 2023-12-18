@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_tangent(x):
+        return math.tan(x)
