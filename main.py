@@ -1,5 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_density(mass, volume):
+        return mass / volume
