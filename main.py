@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def is_even(n):
-        return n % 2 == 0
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
