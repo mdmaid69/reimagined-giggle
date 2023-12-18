@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
