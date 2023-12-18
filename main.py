@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
