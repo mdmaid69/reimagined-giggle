@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import collections
+def create_user_dict():
+        return collections.UserDict()
