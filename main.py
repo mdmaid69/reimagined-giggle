@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
