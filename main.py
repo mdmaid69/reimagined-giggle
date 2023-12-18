@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_area(radius):
+        return 3.14 * radius * radius
