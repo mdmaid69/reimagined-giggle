@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def convert_to_binary(n):
+        return bin(n)
