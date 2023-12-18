@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_area(radius):
+        return 3.14 * radius * radius
