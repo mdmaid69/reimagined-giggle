@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
