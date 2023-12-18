@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
