@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
