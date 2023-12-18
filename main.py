@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_work(force, distance):
+        return force * distance
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
