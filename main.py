@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
