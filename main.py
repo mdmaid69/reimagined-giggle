@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
