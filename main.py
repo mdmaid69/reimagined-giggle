@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
