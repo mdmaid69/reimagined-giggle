@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def is_palindrome(s):
+        return s == s[::-1]
