@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-print(math.pi)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sys
+  def get_python_version():
+        return sys.version
