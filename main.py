@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def multiply_numbers(x, y):
-        return x * y
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
