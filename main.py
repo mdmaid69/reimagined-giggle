@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def reverse_array(array):
-        array.reverse()
+def cube_number(x):
+        return x**3
+  def square_number(x):
+        return x**2
