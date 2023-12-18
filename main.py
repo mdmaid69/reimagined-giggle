@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
