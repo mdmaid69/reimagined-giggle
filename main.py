@@ -1,5 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+text = "Hello, world!"
+print("Words:", len(text.split()))
