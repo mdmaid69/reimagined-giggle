@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def multiply_numbers(x, y):
+        return x * y
