@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
