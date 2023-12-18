@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
