@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_as_list(array):
+        return list(array)
