@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
