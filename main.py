@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def cube_number(x):
-        return x**3
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
