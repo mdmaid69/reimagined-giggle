@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import collections
+def create_user_dict():
+        return collections.UserDict()
