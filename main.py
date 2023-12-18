@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
