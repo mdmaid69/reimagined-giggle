@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import time
-print(time.time())
+def count_characters(sentence):
+        return len(sentence)
+import random
+print(random.randint(0, 100))
