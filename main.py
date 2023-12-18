@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def is_palindrome(s):
+        return s == s[::-1]
