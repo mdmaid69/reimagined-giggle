@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
