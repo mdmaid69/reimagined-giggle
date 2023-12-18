@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
