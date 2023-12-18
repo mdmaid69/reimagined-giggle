@@ -1,8 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def get_bytes_from_array(array):
+        return array.tobytes()
