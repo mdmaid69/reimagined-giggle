@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
