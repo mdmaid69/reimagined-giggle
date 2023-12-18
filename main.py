@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
