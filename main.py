@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
