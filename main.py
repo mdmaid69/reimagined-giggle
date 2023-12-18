@@ -1,5 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
