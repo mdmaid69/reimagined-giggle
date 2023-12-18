@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
