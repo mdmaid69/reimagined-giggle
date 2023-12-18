@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
