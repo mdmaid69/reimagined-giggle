@@ -1,12 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_index(array, item):
+        return array.index(item)
