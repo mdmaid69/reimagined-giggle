@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
