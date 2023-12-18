@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
