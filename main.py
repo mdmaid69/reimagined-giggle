@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_pressure(force, area):
+        return force / area
