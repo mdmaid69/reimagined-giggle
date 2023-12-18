@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import collections
+def create_user_string():
+        return collections.UserString()
