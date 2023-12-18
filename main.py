@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
