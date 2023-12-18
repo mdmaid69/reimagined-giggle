@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_stack():
+        return collections.deque()
