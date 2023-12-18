@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def cube_number(x):
+        return x**3
