@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def sort_numbers(numbers):
+        return sorted(numbers)
