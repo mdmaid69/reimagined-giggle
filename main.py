@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
