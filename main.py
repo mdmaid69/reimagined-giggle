@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def convert_to_hex(n):
-        return hex(n)
+def add_numbers(a, b):
+        return a + b
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
