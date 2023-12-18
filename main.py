@@ -1,6 +1,7 @@
-for i in range(10): print(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
