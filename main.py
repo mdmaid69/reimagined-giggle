@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
