@@ -1,5 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
