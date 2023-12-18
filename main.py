@@ -1,6 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
