@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
