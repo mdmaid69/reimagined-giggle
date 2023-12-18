@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
