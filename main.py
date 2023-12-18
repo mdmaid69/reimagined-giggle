@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
