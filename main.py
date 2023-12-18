@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
