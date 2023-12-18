@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
