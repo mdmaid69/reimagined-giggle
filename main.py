@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
