@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
