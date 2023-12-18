@@ -1,7 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
