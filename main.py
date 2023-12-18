@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
