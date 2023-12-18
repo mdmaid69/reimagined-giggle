@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
