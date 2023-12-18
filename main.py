@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
