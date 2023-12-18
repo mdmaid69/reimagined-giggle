@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
