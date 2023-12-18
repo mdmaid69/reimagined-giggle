@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
