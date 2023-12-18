@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
