@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_item(array, i):
+        return array[i]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
