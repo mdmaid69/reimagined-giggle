@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
