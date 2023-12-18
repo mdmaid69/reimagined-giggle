@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_item(array, i):
-        return array[i]
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def extend_array(array, iterable):
+        array.extend(iterable)
