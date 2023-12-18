@@ -1,4 +1,9 @@
-def find_min(lst):
-        return min(lst)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
