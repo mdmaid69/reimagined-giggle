@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_circle_area(radius):
+        return math.pi * radius**2
