@@ -1,6 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
