@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
