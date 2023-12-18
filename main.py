@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
