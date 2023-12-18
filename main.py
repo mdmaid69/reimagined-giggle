@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
