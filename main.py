@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def count_characters(sentence):
-        return len(sentence)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
