@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_hex(n):
+        return hex(n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
