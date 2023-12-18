@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
