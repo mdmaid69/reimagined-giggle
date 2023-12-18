@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_power(work, time):
+        return work / time
