@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
