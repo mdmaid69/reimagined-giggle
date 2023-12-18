@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def cube_number(x):
+        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
