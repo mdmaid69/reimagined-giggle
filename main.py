@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
