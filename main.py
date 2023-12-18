@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def convert_to_octal(n):
+        return oct(n)
