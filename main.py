@@ -1,7 +1,4 @@
+print([x**2 for x in range(10)])
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def get_array_item_count(array, item):
+        return array.count(item)
