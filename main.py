@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
