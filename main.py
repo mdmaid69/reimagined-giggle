@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
