@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
