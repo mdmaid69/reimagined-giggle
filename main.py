@@ -1,6 +1,6 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+print(math.pi)
