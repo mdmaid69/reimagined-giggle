@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
