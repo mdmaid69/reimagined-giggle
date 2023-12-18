@@ -1,7 +1,5 @@
+def square_number(x):
+        return x**2
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
