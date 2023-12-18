@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-from collections import Counter
-print(Counter("hello world"))
+def calculate_pressure(force, area):
+        return force / area
+  def subtract_numbers(x, y):
+        return x - y
