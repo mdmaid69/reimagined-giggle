@@ -1,6 +1,5 @@
+import time
+print(time.time())
 import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_elements(iterable):
+        return collections.Counter(iterable)
