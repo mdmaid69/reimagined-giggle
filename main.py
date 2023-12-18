@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
