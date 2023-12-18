@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def append_to_array(array, item):
+        array.append(item)
