@@ -1,5 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
