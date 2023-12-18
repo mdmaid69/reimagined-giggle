@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
