@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def reverse_string(s):
+        return s[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
