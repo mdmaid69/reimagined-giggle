@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
