@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  def reverse_list(lst):
-        return lst[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
