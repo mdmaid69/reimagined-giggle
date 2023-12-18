@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
