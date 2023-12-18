@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
