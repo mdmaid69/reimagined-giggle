@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def subtract_numbers(x, y):
-        return x - y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import random
+print(random.randint(0, 100))
