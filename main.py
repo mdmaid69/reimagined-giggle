@@ -1,6 +1,12 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
