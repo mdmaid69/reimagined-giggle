@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+for i in range(10): print(i)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
