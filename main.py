@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
