@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
