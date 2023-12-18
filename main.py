@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import logging
+def log_message(message):
+        logging.info(message)
