@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
