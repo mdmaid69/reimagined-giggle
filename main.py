@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_bytearray(array):
+        return bytearray(array)
