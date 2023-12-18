@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
