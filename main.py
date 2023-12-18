@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def cube_number(x):
-        return x**3
+  def count_elements(lst):
+        return len(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
