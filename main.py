@@ -1,9 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
