@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
