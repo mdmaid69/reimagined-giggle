@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_bool(array):
+        return bool(array)
