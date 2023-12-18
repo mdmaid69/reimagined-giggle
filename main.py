@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
