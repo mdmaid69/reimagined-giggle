@@ -1,5 +1,7 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
