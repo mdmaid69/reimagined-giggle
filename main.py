@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
