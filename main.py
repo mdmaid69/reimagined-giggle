@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def add_numbers(x, y):
+        return x + y
