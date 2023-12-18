@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def reverse_list(lst):
+        return lst[::-1]
