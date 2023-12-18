@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
