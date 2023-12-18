@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def convert_array_to_string(array):
+        return array.tostring()
