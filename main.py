@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def convert_to_hex(n):
+        return hex(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
