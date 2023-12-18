@@ -1,6 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
