@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_power(work, time):
+        return work / time
