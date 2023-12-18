@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
