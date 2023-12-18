@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
