@@ -1,6 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
