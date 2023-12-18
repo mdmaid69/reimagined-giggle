@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def add_numbers(x, y):
+        return x + y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
