@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_max(numbers):
+        return max(numbers)
