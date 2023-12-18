@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def square_number(x):
+        return x**2
