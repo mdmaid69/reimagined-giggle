@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
