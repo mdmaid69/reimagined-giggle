@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
