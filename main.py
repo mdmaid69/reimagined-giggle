@@ -1,10 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import time
+def get_current_time():
+        return time.time()
+def cube_number(x):
+        return x**3
