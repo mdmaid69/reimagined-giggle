@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
