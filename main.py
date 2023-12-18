@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
