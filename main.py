@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import sys
+def print_python_version():
+        print(sys.version)
+name = "Python"
+print("Hello,", name)
