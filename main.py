@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
