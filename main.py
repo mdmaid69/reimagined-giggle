@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import random
-print(random.randint(0, 100))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_acceleration(speed, time):
+        return speed / time
