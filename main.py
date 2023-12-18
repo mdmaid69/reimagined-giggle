@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
