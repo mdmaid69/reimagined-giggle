@@ -1,8 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
