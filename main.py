@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
