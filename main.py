@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def roll_die():
+        return random.randint(1, 6)
