@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-print(re.match("h.*o", "hello world"))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_volume(length, width, height):
+        return length * width * height
