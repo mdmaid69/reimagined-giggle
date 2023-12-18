@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
