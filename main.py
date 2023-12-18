@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_floor(x):
+        return math.floor(x)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
