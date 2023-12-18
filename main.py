@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
