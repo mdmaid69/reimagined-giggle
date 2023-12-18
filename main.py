@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+print(re.match("h.*o", "hello world"))
