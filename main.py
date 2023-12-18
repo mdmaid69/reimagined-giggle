@@ -1,7 +1,5 @@
-def square_number(x):
-        return x**2
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
