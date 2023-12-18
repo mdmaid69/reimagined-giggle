@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import time
-def get_current_time():
-        return time.ctime()
+def is_even(n):
+        return n % 2 == 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
