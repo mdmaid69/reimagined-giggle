@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
