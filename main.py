@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-from collections import Counter
-print(Counter("hello world"))
+name = "Python"
+print("Hello,", name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
