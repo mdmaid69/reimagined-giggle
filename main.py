@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def cube_number(x):
+        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
