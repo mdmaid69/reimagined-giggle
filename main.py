@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_item(array, i):
+        return array[i]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
