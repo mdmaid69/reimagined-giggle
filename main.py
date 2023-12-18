@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
