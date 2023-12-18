@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
