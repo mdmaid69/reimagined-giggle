@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_item(array, i):
-        return array[i]
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
