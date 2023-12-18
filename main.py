@@ -1,6 +1,6 @@
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_ceiling(x):
+        return math.ceil(x)
