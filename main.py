@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import sys
+  def get_python_version():
+        return sys.version
