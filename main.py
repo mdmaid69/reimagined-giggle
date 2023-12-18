@@ -1,8 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import collections
+def create_queue():
+        return collections.deque()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
