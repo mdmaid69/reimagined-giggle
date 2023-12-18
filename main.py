@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
