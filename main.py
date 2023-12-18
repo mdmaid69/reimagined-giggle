@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_stack():
+        return collections.deque()
+  def add_numbers(x, y):
+        return x + y
