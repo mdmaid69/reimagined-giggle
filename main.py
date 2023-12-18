@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
