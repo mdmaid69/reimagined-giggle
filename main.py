@@ -1,7 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import sys
+def print_python_version():
+        return sys.version
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
