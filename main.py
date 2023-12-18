@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
