@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import sys
+  def get_python_version():
+        return sys.version
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
