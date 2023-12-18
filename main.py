@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def square_number(x):
+        return x**2
