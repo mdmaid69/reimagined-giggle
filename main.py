@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
