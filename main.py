@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
