@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
