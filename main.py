@@ -1,8 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
