@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
