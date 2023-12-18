@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
