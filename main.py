@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def reverse_array(array):
+        array.reverse()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
