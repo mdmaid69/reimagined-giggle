@@ -1,8 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
