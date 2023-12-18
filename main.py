@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
