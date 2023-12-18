@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def cube_number(x):
+        return x**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
