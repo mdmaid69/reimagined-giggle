@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+print([x**2 for x in range(10)])
