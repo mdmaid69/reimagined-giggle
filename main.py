@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
