@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_min(numbers):
+        return min(numbers)
