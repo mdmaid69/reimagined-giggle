@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
