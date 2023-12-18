@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import platform
+def get_python_version():
+        return platform.python_version()
+def add_numbers(x, y):
+        return x + y
