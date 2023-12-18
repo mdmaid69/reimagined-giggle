@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
