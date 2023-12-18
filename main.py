@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
