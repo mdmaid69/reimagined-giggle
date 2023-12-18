@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-for i in range(5):
-        print(i)
+def count_characters(sentence):
+        return len(sentence)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
