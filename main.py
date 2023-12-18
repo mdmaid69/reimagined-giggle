@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def find_max(numbers):
+        return max(numbers)
