@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
