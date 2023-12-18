@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
