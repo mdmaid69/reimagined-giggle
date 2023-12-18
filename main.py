@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
