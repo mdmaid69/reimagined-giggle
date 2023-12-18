@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
