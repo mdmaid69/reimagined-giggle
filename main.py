@@ -1,5 +1,7 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def convert_to_hex(n):
+        return hex(n)
