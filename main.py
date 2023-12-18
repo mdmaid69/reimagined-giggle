@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sys
+def print_python_version():
+        return sys.version
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
