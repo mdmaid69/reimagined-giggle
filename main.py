@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
