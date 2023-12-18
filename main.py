@@ -1,4 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
