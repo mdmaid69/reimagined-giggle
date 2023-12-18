@@ -1,4 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def convert_to_hex(n):
-        return hex(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
