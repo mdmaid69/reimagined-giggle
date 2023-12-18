@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
