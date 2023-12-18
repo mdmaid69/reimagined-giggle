@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
