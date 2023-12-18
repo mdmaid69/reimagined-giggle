@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def square_number(x):
+        return x**2
