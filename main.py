@@ -1,6 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def print_python_version():
-        return sys.version
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
