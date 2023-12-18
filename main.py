@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_index(array, item):
+        return array.index(item)
