@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import random
+print(random.randint(0, 100))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
