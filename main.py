@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
