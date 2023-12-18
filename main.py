@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_volume(length, width, height):
-        return length * width * height
+import tensorflow as tf
+print(tf.__version__)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
