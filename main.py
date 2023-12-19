@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
