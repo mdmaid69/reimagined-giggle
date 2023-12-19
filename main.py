@@ -1,4 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_pressure(force, area):
+        return force / area
+  def remove_duplicates(lst):
+        return list(set(lst))
