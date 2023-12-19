@@ -1,5 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
