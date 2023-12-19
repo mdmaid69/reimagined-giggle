@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
