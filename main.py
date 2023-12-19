@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def count_words(sentence):
+        return len(sentence.split())
