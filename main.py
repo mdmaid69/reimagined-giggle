@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
