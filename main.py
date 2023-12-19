@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_acceleration(speed, time):
+        return speed / time
