@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
