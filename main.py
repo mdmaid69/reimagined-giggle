@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
