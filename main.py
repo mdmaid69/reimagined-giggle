@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
