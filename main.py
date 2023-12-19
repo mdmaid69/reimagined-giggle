@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
