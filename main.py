@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
