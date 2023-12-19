@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
