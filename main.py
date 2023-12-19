@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_error_function(x):
+        return math.erf(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
