@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def add_numbers(x, y):
+        return x + y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
