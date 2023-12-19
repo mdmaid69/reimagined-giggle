@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_error_function(x):
+        return math.erf(x)
