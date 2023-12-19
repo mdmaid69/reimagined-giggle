@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_work(force, distance):
+        return force * distance
+def calculate_force(mass, acceleration):
+        return mass * acceleration
