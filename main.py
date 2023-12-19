@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
