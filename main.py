@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
