@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
