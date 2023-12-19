@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
