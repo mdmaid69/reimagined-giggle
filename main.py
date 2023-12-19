@@ -1,5 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
