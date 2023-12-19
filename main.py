@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+print("Hello, world!")
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
