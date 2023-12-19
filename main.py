@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def cube_number(x):
-        return x**3
+for i in range(10): print(i)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
