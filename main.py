@@ -1,7 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_area_rectangle(l, w):
-        return l * w
+def get_string_from_array(array):
+        return array.tobytes()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
