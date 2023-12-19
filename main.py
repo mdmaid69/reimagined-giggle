@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def cube_number(x):
+        return x**3
