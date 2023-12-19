@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
