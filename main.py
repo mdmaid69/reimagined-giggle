@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def roll_die():
+        return random.randint(1, 6)
