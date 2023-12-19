@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
