@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
