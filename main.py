@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
