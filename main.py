@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
