@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
