@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def count_words(sentence):
-        return len(sentence.split())
+  def add_numbers(x, y):
+        return x + y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
