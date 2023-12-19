@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import random
+print(random.randint(0, 100))
