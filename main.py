@@ -1,7 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_list_from_array(array):
+        return array.tolist()
