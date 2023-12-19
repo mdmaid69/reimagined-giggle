@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def multiply_numbers(x, y):
+        return x * y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
