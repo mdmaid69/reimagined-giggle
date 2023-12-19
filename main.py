@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
