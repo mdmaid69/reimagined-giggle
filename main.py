@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import random
-def roll_die():
-        return random.randint(1, 6)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
