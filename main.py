@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+for i in range(10): print(i)
