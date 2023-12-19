@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
