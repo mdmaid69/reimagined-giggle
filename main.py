@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import platform
+def get_os_info():
+        return platform.uname()
