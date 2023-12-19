@@ -1,5 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
