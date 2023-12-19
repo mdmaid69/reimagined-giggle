@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def reverse_string(s):
+        return s[::-1]
