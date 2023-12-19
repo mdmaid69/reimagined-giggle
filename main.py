@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  def sort_list(lst):
+        return sorted(lst)
