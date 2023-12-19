@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
