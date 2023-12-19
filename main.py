@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_item(array, i):
-        return array[i]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
