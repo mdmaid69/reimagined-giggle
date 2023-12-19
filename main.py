@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
