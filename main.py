@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
