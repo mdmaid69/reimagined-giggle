@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+print(os.getcwd())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
