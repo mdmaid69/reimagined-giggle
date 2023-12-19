@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import tensorflow as tf
+print(tf.__version__)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
