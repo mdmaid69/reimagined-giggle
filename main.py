@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_acceleration(speed, time):
-        return speed / time
+from collections import Counter
+print(Counter("hello world"))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
