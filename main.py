@@ -1,5 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def split_path(path):
-        return os.path.split(path)
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
