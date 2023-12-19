@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_pressure(force, area):
+        return force / area
