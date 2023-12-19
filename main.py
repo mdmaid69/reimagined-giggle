@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
