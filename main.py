@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
