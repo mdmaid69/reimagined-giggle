@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def cube_number(x):
+        return x**3
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
