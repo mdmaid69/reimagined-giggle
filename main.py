@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_work(force, distance):
+        return force * distance
