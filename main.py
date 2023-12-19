@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_area_rectangle(l, w):
+        return l * w
