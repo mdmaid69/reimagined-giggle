@@ -1,7 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
