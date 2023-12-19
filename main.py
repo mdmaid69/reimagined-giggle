@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
