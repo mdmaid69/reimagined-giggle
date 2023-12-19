@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import getpass
+def get_username():
+        return getpass.getuser()
