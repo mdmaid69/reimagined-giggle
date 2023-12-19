@@ -1,6 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
