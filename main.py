@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
