@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
