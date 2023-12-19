@@ -1,6 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
