@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
