@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
