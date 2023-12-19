@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_density(mass, volume):
+        return mass / volume
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_current_working_directory():
+        return os.getcwd()
