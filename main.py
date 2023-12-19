@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
