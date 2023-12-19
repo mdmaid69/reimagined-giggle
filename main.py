@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
