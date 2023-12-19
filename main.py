@@ -1,5 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
