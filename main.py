@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_work(force, distance):
+        return force * distance
