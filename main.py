@@ -1,5 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-print(random.randint(0, 100))
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
