@@ -1,7 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
