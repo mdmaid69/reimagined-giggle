@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
