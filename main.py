@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def reverse_string(s):
+        return s[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
