@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
