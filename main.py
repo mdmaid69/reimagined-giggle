@@ -1,7 +1,6 @@
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_array_index(array, item):
+        return array.index(item)
