@@ -1,7 +1,11 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def count_characters(sentence):
+        return len(sentence)
