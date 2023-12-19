@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
