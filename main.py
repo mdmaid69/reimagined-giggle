@@ -1,7 +1,6 @@
   import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def close_database_connection(connection):
+        connection.close()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
