@@ -1,8 +1,8 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
