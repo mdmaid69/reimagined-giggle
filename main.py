@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
