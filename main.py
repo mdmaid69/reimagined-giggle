@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
 numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+print("Max:", max(numbers))
