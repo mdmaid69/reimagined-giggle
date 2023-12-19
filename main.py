@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
