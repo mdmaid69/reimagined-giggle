@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import tensorflow as tf
+print(tf.__version__)
