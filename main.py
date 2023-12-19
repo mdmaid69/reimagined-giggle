@@ -1,8 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
