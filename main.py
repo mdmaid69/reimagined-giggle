@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
