@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
