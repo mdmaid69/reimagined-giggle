@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
