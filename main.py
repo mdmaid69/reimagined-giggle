@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import datetime
+def get_current_date():
+        return datetime.date.today()
