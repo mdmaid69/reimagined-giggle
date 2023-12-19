@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
