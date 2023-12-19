@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_ceiling(x):
+        return math.ceil(x)
