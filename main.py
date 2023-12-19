@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
