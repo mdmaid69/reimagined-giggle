@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_area_rectangle(l, w):
+        return l * w
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
