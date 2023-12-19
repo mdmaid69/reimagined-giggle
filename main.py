@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def divide_numbers(x, y):
-        return x / y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
