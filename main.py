@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def find_max(lst):
+        return max(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
