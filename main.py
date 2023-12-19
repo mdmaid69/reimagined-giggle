@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
