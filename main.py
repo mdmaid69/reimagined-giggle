@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
