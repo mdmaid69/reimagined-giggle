@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
