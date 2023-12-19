@@ -1,7 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
