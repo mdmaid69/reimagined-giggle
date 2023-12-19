@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
