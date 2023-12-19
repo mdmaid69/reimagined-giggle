@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
