@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_base_name(path):
+        return os.path.basename(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
