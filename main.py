@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
