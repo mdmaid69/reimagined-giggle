@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import sys
+def print_python_version():
+        print(sys.version)
