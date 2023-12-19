@@ -1,4 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def count_words(sentence):
-        return len(sentence.split())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import sys
+print(sys.version)
