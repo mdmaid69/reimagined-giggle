@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
