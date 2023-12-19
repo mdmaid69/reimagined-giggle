@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
