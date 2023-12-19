@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
