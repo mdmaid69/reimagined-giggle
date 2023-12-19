@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
