@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
