@@ -1,5 +1,8 @@
-for i in range(5):
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+i = 0
+while i < 5:
         print(i)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+        i += 1
