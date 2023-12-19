@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
