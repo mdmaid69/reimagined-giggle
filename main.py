@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def cube_number(x):
+        return x**3
