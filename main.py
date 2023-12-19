@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def count_characters(sentence):
-        return len(sentence)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
