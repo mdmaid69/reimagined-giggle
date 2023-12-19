@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def is_odd(n):
-        return n % 2 != 0
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
