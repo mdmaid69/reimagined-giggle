@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
