@@ -1,6 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
