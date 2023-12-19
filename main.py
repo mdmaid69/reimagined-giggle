@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
