@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
