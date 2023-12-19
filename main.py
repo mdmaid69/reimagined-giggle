@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
