@@ -1,5 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
