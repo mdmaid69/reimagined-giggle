@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
