@@ -1,4 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
