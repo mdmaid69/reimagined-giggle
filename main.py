@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
