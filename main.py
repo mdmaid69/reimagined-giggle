@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
