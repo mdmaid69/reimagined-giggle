@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
