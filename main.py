@@ -1,6 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
