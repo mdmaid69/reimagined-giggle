@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
