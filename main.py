@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
