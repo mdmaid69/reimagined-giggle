@@ -1,5 +1,5 @@
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
