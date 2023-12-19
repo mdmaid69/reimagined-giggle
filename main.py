@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_user_list():
+        return collections.UserList()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
