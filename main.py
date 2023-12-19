@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
