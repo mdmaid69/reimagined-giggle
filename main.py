@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
