@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
