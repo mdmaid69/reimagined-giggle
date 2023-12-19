@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
