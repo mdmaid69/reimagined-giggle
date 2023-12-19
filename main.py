@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def convert_to_binary(n):
+        return bin(n)
