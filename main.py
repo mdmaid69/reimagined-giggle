@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
