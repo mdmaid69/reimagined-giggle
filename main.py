@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def count_words(sentence):
+        return len(sentence.split())
