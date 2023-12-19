@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
