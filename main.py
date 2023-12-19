@@ -1,7 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
