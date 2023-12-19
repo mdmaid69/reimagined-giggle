@@ -1,4 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-print("Hello, world!")
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_area_rectangle(l, w):
+        return l * w
