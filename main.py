@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def find_max(lst):
-        return max(lst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
