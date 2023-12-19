@@ -1,8 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
