@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
