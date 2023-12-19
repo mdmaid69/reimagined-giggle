@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
