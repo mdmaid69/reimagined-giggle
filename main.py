@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
