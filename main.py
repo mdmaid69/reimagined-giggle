@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_pressure(force, area):
+        return force / area
