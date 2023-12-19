@@ -1,5 +1,9 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
