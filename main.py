@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
