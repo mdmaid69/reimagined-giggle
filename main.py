@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
