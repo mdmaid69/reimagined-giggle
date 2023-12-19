@@ -1,5 +1,5 @@
-import time
-print(time.time())
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_buffer_info(array):
+        return array.buffer_info()
