@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
