@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
