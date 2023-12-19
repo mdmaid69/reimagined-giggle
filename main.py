@@ -1,4 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
