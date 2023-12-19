@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import json
+print(json.dumps({"name": "John", "age": 30}))
