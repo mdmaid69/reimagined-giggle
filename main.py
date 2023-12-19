@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
