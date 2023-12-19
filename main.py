@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def square_number(x):
+        return x**2
