@@ -1,5 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def sort_numbers(numbers):
-        return sorted(numbers)
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
