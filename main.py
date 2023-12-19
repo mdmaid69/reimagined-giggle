@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
