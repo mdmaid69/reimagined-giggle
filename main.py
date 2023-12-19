@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
