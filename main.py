@@ -1,6 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_current_working_directory():
+        return os.getcwd()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
