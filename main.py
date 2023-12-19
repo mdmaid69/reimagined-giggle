@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
