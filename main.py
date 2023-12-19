@@ -1,5 +1,10 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
