@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def count_elements(lst):
+        return len(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
