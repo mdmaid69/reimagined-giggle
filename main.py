@@ -1,8 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import time
+def get_current_time():
+        return time.time()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
