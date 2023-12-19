@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import re
+print(re.match("h.*o", "hello world"))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
