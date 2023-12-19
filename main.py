@@ -1,6 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
