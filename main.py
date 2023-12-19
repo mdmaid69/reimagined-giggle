@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import datetime
-print(datetime.datetime.now())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
