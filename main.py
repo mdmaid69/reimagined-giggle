@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
