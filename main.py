@@ -1,7 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
