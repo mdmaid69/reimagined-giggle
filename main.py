@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
