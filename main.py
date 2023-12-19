@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-print(math.pi)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def reverse_list(lst):
+        return lst[::-1]
