@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def convert_to_binary(n):
-        return bin(n)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def is_palindrome(s):
+        return s == s[::-1]
