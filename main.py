@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def add_numbers(a, b):
-        return a + b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
