@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def add_numbers(x, y):
-        return x + y
+import os
+print(os.getcwd())
+import array
+def reverse_array(array):
+        array.reverse()
