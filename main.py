@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
