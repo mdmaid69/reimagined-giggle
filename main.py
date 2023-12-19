@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
