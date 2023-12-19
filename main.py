@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import sys
-print(sys.version)
+import collections
+def create_user_list():
+        return collections.UserList()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
