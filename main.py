@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_acceleration(speed, time):
+        return speed / time
