@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def divide_numbers(x, y):
-        return x / y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_work(force, distance):
+        return force * distance
