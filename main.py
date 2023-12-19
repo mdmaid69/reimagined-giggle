@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
