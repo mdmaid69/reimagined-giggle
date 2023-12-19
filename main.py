@@ -1,4 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-  def sort_list(lst):
-        return sorted(lst)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_work(force, distance):
+        return force * distance
