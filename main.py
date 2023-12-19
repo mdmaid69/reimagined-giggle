@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def append_to_array(array, item):
+        array.append(item)
