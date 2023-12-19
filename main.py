@@ -1,9 +1,8 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
