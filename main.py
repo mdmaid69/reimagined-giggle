@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
