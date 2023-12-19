@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def reverse_list(lst):
+        return lst[::-1]
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
