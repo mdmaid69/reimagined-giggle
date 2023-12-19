@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
