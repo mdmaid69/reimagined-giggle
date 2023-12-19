@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
