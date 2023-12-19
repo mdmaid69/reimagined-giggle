@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def convert_to_octal(n):
+        return oct(n)
