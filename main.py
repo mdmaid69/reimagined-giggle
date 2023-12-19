@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
