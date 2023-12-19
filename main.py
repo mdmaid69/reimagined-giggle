@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
