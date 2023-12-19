@@ -1,5 +1,11 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
