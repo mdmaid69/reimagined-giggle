@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
