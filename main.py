@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+print(os.getcwd())
