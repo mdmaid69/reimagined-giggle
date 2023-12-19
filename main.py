@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
