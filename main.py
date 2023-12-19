@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
