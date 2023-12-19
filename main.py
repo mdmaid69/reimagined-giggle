@@ -1,6 +1,7 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
