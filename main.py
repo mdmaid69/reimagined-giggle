@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def get_array_as_int(array):
+        return int(array[0])
