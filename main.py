@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
