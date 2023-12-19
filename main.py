@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import sys
+def exit_program():
+        sys.exit()
