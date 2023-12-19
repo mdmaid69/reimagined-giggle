@@ -1,5 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
