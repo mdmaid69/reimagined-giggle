@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_speed(distance, time):
+        return distance / time
