@@ -1,4 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
