@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
