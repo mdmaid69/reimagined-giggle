@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def reverse_list(lst):
+        return lst[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
