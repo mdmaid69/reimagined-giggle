@@ -1,5 +1,3 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+print([x**2 for x in range(10)])
