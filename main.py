@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-name = "Python"
-print("Hello,", name)
+def find_max(lst):
+        return max(lst)
+import time
+def get_current_time():
+        return time.ctime()
