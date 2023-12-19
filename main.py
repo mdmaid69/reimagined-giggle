@@ -1,7 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
