@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
