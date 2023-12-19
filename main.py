@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def convert_to_octal(n):
+        return oct(n)
