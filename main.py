@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
