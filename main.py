@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
