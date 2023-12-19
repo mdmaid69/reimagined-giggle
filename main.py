@@ -1,6 +1,7 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
