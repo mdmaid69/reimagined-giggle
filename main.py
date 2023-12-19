@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
