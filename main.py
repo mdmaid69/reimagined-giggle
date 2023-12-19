@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+print("Characters:", len(text))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
