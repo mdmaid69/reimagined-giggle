@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
