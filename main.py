@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
