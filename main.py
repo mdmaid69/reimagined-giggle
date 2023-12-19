@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-from collections import Counter
-print(Counter("hello world"))
+def is_even(n):
+        return n % 2 == 0
+import collections
+def create_user_list():
+        return collections.UserList()
