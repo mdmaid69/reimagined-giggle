@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
