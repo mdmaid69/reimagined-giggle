@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
