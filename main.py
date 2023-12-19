@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
