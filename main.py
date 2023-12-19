@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def get_array_as_repr(array):
+        return repr(array)
