@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def sort_numbers(numbers):
+        return sorted(numbers)
