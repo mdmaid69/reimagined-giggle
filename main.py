@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def find_max(lst):
+        return max(lst)
