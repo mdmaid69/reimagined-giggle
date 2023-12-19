@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def reverse_list(lst):
+        return lst[::-1]
