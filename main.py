@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
