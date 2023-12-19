@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import tensorflow as tf
-print(tf.__version__)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
