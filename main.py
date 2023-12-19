@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
