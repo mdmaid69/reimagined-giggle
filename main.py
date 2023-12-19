@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def is_odd(n):
-        return n % 2 != 0
+  def count_elements(lst):
+        return len(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
