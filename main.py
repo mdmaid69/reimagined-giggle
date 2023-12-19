@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
