@@ -1,6 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
