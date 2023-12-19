@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_min(lst):
+        return min(lst)
