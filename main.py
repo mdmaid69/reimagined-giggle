@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
