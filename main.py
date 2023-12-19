@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+name = "Python"
+print("Hello,", name)
