@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
