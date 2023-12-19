@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
