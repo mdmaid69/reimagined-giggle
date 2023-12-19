@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
