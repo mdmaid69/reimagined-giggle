@@ -1,6 +1,3 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_pressure(force, area):
+        return force / area
+print([x**2 for x in range(10)])
