@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_binary(n):
+        return bin(n)
