@@ -1,5 +1,10 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_volume(length, width, height):
-        return length * width * height
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
