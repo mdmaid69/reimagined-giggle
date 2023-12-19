@@ -1,5 +1,6 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_frozenset(array):
+        return frozenset(array)
