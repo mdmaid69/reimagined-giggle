@@ -1,7 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
