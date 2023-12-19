@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
