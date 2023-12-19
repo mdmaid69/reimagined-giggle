@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
