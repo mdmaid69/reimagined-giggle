@@ -1,7 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import sys
+def exit_program():
+        sys.exit()
