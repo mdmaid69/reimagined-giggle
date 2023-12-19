@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
