@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
