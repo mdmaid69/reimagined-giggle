@@ -1,6 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_acceleration(speed, time):
+        return speed / time
