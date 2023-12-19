@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
