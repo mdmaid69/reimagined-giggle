@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
