@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
