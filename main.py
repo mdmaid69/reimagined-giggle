@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
