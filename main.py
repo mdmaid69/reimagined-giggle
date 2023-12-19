@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
