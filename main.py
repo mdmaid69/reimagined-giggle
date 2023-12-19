@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
