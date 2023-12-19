@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
