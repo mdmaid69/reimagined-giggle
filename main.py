@@ -1,8 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
