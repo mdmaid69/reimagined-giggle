@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
