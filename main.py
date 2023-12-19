@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
