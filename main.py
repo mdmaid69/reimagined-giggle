@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def sort_list(lst):
+        return sorted(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
