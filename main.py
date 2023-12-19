@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
