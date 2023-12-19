@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_list(array):
+        return list(array)
