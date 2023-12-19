@@ -1,6 +1,8 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
