@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
