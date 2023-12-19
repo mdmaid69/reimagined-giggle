@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import logging
+def log_message(message):
+        logging.info(message)
