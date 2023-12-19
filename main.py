@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
