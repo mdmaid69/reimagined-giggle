@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
