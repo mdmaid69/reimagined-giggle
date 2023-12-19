@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
