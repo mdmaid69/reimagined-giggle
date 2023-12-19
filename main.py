@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
