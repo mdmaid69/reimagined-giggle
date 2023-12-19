@@ -1,5 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def subtract_numbers(x, y):
-        return x - y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
