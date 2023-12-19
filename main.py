@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import time
+def get_time_since_epoch():
+        return time.time()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
