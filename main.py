@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
