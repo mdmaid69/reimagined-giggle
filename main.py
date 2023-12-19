@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
