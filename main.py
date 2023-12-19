@@ -1,5 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
