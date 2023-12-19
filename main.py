@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
