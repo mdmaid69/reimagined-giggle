@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
