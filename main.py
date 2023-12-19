@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
