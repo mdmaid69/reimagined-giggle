@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def append_to_array(array, item):
-        array.append(item)
+def reverse_array(array):
+        array.reverse()
