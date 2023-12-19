@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
