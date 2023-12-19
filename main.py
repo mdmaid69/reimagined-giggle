@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
