@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
