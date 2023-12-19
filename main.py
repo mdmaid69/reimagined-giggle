@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
