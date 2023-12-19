@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import logging
+def log_message(message):
+        logging.info(message)
