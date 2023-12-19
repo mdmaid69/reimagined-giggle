@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def convert_to_octal(n):
+        return oct(n)
+import sys
+def print_python_version():
+        return sys.version
