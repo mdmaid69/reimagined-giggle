@@ -1,5 +1,9 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def roll_die():
+        return random.randint(1, 6)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
