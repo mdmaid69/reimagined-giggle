@@ -1,8 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def square_number(x):
+        return x**2
