@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def reverse_array(array):
+        array.reverse()
