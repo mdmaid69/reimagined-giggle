@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_item(array, i):
-        return array[i]
+def is_even(n):
+        return n % 2 == 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
