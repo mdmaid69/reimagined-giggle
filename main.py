@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
