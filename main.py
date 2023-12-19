@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
