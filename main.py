@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
