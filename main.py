@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
