@@ -1,6 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def square_number(x):
+        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
