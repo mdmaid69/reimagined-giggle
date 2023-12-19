@@ -1,6 +1,4 @@
-print([x**2 for x in range(10)])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def reverse_string(s):
+        return s[::-1]
+def reverse_list(lst):
+        return lst[::-1]
