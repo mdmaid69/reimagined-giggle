@@ -1,8 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def square_number(x):
+        return x**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
