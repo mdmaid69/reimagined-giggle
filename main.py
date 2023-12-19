@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def check_if_array_contains_item(array, item):
+        return item in array
+text = "Hello, world!"
+print("Uppercase:", text.upper())
