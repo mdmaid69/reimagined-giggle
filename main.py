@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
