@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
