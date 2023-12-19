@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
