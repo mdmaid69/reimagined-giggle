@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_item(array, i):
+        return array[i]
