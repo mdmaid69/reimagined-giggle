@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+print(Counter("hello world"))
