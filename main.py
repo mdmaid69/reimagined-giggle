@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
