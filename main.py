@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def convert_to_octal(n):
+        return oct(n)
