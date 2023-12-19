@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_username():
+        return getpass.getuser()
