@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def reverse_string(s):
+        return s[::-1]
+def subtract_numbers(x, y):
+        return x - y
