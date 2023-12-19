@@ -1,5 +1,7 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def subtract_numbers(x, y):
-        return x - y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
