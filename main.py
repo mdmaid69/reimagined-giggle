@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import time
+print(time.time())
