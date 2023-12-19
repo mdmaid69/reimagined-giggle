@@ -1,6 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
