@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def count_elements(lst):
+        return len(lst)
