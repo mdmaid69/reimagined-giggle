@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
