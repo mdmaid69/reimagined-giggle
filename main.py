@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
