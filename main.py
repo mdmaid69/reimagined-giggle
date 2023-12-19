@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def multiply_numbers(x, y):
+        return x * y
