@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
