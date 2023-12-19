@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
