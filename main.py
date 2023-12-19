@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
