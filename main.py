@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
