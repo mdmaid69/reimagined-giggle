@@ -1,5 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
