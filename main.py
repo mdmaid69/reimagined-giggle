@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
