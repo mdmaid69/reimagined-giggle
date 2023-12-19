@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-print(math.pi)
+def calculate_speed(distance, time):
+        return distance / time
+for i in range(5):
+        print(i)
