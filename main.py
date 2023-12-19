@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def multiply_numbers(x, y):
+        return x * y
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
