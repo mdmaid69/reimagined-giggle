@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+text = "Hello, world!"
+print("Reversed:", text[::-1])
