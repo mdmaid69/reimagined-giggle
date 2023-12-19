@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
