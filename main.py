@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
