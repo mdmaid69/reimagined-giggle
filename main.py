@@ -1,6 +1,5 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
