@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_bool(array):
+        return bool(array)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
