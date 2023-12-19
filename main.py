@@ -1,7 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
