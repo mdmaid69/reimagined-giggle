@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def convert_to_octal(n):
+        return oct(n)
