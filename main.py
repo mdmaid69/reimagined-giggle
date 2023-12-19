@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def count_characters(sentence):
+        return len(sentence)
