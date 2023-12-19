@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
