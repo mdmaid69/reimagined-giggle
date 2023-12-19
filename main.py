@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
