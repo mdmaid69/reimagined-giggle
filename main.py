@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def subtract_numbers(x, y):
-        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
