@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import platform
+def get_python_version():
+        return platform.python_version()
