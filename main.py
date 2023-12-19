@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
