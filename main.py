@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def is_odd(n):
-        return n % 2 != 0
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
