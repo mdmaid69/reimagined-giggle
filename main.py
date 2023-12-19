@@ -1,6 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
