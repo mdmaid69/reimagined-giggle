@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
