@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
