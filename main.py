@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
