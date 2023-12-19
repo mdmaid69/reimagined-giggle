@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import getpass
+def get_username():
+        return getpass.getuser()
