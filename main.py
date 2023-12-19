@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
