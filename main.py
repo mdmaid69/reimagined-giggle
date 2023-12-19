@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def sort_numbers(numbers):
-        return sorted(numbers)
+def cube_number(x):
+        return x**3
+import array
+def get_string_from_array(array):
+        return array.tobytes()
