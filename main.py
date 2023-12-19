@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def reverse_list(lst):
+        return lst[::-1]
