@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def count_elements(lst):
-        return len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
