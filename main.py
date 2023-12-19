@@ -1,8 +1,7 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
