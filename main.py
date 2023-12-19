@@ -1,5 +1,11 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
