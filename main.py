@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
