@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
