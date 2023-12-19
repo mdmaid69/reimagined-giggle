@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
