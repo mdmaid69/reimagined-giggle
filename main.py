@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import numpy as np
+print(np.array([1, 2, 3]))
