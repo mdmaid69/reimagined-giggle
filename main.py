@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
