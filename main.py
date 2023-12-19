@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def divide_numbers(x, y):
+        return x / y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
