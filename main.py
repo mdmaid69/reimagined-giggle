@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
