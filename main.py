@@ -1,6 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
