@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
