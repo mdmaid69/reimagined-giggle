@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
