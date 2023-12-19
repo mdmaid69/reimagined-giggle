@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
