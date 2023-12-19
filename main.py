@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_density(mass, volume):
+        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
