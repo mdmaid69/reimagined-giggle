@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
