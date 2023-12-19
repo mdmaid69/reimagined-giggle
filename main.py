@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_list(array):
+        return list(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
