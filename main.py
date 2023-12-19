@@ -1,4 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-for i in range(10): print(i)
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
