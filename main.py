@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
