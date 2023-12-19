@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
