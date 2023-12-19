@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
