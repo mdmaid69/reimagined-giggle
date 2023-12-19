@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import sys
+print(sys.version)
