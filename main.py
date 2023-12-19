@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
