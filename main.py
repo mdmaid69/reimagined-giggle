@@ -1,7 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
