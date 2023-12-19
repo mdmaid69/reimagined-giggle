@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import platform
+def get_os_info():
+        return platform.uname()
