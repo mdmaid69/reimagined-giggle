@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+from collections import Counter
+print(Counter("hello world"))
