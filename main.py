@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def print_python_version():
+        print(sys.version)
