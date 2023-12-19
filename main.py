@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
