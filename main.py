@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
