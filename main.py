@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
