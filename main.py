@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
