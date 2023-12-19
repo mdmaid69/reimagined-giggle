@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
