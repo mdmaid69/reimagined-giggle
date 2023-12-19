@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
