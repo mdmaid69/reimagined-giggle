@@ -1,6 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
