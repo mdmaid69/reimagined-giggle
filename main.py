@@ -1,8 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
