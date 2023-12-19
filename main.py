@@ -1,7 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_item(array, i):
+        return array[i]
