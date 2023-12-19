@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_max(numbers):
-        return max(numbers)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
