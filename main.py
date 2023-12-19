@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+from collections import Counter
+print(Counter("hello world"))
