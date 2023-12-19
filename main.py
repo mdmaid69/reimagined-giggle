@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
