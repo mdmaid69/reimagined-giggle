@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
