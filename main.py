@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import sys
+print(sys.version)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
