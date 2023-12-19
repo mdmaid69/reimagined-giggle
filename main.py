@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def convert_to_binary(n):
-        return bin(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
