@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
