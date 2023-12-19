@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
