@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
