@@ -1,11 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
