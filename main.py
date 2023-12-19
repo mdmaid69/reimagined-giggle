@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_user_string():
+        return collections.UserString()
