@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_odd(n):
+        return n % 2 != 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
