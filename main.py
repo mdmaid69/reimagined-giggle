@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
