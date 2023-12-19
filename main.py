@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
