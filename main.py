@@ -1,4 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
