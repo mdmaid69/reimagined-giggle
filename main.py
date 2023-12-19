@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
