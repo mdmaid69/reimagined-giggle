@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_area_circle(r):
+        return 3.14 * r**2
