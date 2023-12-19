@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
