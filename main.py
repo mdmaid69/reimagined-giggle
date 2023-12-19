@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
