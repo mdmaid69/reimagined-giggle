@@ -1,8 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def find_max(lst):
+        return max(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
