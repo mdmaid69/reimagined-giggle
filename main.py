@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def count_elements(lst):
+        return len(lst)
