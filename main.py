@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def cube_number(x):
+        return x**3
