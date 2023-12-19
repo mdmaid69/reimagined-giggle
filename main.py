@@ -1,6 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
