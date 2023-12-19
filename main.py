@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import sys
+def print_python_version():
+        print(sys.version)
