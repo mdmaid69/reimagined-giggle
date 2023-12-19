@@ -1,6 +1,7 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
