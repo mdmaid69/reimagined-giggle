@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
