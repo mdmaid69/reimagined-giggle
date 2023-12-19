@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_stack():
-        return collections.deque()
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
