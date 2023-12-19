@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def count_elements(lst):
+        return len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
