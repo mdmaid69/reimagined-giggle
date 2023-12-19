@@ -1,8 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
