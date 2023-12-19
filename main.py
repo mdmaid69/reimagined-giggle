@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
