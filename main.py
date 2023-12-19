@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def divide_numbers(x, y):
-        return x / y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
