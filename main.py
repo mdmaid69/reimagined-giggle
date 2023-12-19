@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def sort_list(lst):
+        return sorted(lst)
