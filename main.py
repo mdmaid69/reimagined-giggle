@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_float(array):
+        return float(array[0])
