@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_sine(x):
+        return math.sin(x)
