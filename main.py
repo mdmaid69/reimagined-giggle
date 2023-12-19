@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
