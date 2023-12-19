@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_max(numbers):
+        return max(numbers)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
