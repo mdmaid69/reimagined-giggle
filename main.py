@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
