@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
