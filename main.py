@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def get_array_as_repr(array):
+        return repr(array)
