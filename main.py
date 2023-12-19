@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
