@@ -1,4 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
