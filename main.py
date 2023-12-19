@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def subtract_numbers(x, y):
-        return x - y
+from collections import Counter
+print(Counter("hello world"))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
