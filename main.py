@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import platform
+def get_os_info():
+        return platform.uname()
