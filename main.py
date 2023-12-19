@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
