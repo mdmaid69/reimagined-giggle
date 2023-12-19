@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_combinations(n, k):
+        return math.comb(n, k)
