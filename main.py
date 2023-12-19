@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
