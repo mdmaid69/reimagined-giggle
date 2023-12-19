@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
