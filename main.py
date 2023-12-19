@@ -1,7 +1,8 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
