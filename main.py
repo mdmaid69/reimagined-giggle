@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
