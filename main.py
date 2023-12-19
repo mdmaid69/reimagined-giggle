@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_area_rectangle(l, w):
+        return l * w
