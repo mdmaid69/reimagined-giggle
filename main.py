@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
