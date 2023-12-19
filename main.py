@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+print([x**2 for x in range(10)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
