@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
