@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+for i in range(10): print(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
