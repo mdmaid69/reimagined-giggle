@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
