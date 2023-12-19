@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
