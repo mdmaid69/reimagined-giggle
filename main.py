@@ -1,8 +1,7 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
