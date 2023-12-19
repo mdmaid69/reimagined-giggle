@@ -1,6 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
