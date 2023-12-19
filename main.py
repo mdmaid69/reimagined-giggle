@@ -1,5 +1,8 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def multiply_numbers(x, y):
-        return x * y
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
