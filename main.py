@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
