@@ -1,6 +1,9 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
