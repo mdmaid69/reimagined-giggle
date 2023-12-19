@@ -1,6 +1,7 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
