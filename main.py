@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
