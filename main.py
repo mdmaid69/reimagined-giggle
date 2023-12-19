@@ -1,7 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
