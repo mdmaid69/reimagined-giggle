@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def reverse_list(lst):
+        return lst[::-1]
