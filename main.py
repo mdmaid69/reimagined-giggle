@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import time
-print(time.time())
+import array
+def get_array_as_repr(array):
+        return repr(array)
+name = "Python"
+print("Hello,", name)
