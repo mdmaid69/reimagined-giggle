@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
