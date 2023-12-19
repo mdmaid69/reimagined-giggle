@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
