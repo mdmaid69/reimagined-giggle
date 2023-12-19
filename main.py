@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
