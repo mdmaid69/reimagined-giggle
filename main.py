@@ -1,5 +1,5 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+print("Is palindrome:", text == text[::-1])
