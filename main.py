@@ -1,11 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
