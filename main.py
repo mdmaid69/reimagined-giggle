@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
