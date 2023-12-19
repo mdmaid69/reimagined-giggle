@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
