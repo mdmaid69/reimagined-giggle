@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
