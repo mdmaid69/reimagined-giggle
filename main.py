@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
