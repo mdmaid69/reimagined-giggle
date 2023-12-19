@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_user_string():
+        return collections.UserString()
