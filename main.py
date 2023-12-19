@@ -1,6 +1,10 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
