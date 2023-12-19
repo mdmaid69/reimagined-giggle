@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
