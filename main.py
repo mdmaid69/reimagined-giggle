@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
