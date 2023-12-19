@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
