@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+from collections import Counter
+print(Counter("hello world"))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
