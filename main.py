@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
