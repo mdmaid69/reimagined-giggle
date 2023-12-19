@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
