@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
