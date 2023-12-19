@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
