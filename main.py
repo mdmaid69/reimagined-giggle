@@ -1,8 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
