@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
