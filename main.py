@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_max(numbers):
+        return max(numbers)
