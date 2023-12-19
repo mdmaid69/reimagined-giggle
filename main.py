@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
