@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
