@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def divide_numbers(x, y):
+        return x / y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
