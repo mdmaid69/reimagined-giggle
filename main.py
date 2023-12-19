@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
