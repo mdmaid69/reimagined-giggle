@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
