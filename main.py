@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
