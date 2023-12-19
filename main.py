@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import time
-print(time.time())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
