@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
