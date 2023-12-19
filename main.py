@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
