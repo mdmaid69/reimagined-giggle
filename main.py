@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import logging
-def log_message(message):
-        logging.info(message)
+  def is_even(n):
+        return n % 2 == 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
