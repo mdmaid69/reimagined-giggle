@@ -1,5 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
