@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
