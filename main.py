@@ -1,4 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-for i in range(10): print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+i = 0
+while i < 5:
+        print(i)
+        i += 1
