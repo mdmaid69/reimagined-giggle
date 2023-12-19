@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_area(radius):
+        return 3.14 * radius * radius
