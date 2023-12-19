@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import sys
+def print_python_version():
+        print(sys.version)
+import datetime
+def get_today_date():
+        return datetime.date.today()
