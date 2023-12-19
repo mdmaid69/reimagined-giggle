@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
