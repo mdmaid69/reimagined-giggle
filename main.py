@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def find_min(numbers):
-        return min(numbers)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def get_current_time():
+        return time.time()
