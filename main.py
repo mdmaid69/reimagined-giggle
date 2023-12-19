@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
