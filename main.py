@@ -1,6 +1,8 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
