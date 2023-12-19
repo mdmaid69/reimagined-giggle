@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
