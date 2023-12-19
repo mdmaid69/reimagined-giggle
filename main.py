@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import tensorflow as tf
+print(tf.__version__)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
