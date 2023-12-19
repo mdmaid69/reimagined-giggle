@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
