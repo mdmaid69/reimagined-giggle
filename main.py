@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def append_to_array(array, item):
+        array.append(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
