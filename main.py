@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import time
-print(time.time())
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
