@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_length(array):
+        return len(array)
