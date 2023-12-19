@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
