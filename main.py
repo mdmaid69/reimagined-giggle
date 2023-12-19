@@ -1,5 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_arc_tangent(x):
+        return math.atan(x)
