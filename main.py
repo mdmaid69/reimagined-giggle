@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_speed(distance, time):
+        return distance / time
