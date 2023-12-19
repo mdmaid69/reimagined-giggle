@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
