@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
