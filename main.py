@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+for i in range(10): print(i)
