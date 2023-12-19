@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
