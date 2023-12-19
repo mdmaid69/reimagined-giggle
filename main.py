@@ -1,6 +1,3 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+for i in range(10): print(i)
