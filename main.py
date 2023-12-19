@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
