@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import sys
+print(sys.version)
+def count_characters(sentence):
+        return len(sentence)
