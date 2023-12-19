@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
