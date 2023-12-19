@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sys
-print(sys.version)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
