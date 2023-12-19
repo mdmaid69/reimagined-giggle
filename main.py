@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+name = "Python"
+print("Hello,", name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
