@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
