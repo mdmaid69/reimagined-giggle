@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_work(force, distance):
+        return force * distance
+x = 10
+y = 20
+print("Sum:", x + y)
