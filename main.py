@@ -1,7 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
