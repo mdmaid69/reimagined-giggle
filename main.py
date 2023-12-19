@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import time
+def get_current_time():
+        return time.time()
