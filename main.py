@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
