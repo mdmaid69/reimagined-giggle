@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
