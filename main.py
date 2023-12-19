@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
