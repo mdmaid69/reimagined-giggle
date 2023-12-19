@@ -1,5 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import array
-def reverse_array(array):
-        array.reverse()
-  def convert_to_octal(n):
-        return oct(n)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
