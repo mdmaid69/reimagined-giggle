@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
