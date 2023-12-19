@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_acceleration(speed, time):
-        return speed / time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
