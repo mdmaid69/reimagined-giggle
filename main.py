@@ -1,7 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import numpy as np
+print(np.array([1, 2, 3]))
