@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
