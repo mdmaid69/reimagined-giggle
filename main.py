@@ -1,8 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import getpass
+def get_username():
+        return getpass.getuser()
