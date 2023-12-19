@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
