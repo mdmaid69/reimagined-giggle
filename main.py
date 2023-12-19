@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
