@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
