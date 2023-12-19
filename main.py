@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def greet(name):
+        print(f"Hello, {name}!")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
