@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_acceleration(speed, time):
+        return speed / time
