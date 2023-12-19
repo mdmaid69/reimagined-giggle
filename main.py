@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+name = "Python"
+print("Hello,", name)
