@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
