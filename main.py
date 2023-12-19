@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
