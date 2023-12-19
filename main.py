@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+for i in range(10): print(i)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
