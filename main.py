@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
