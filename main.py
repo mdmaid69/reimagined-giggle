@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
