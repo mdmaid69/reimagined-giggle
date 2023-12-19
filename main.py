@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def find_min(numbers):
+        return min(numbers)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
