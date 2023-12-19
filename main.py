@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import sys
-def print_python_version():
-        return sys.version
+print(sum(range(10)))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
