@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import collections
+def create_user_list():
+        return collections.UserList()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
