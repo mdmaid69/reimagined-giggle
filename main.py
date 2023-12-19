@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
