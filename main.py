@@ -1,4 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-print([x**2 for x in range(10)])
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
