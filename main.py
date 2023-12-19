@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
