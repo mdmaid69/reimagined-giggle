@@ -1,7 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
