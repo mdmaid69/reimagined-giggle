@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def count_characters(sentence):
+        return len(sentence)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
