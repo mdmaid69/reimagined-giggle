@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-print(datetime.datetime.now())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
