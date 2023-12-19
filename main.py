@@ -1,7 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_int(array):
+        return int(array[0])
