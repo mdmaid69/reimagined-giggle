@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sys
+def print_python_version():
+        print(sys.version)
