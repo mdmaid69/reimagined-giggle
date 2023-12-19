@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
