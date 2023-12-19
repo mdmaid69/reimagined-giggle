@@ -1,6 +1,6 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
