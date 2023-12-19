@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
