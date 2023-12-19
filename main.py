@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
