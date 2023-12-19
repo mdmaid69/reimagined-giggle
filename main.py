@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def convert_to_hex(n):
+        return hex(n)
