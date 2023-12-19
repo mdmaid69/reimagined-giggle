@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_int(array):
+        return int(array[0])
