@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
