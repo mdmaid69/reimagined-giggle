@@ -1,6 +1,8 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
