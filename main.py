@@ -1,6 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
