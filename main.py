@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
