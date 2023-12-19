@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
