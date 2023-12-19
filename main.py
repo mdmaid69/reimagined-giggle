@@ -1,5 +1,12 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
