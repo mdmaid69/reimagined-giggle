@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
