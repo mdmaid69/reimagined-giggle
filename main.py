@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def multiply_numbers(x, y):
+        return x * y
