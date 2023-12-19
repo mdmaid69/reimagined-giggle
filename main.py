@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
