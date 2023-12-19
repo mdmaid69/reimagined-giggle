@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
