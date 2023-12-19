@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
