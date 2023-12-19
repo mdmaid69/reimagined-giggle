@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import json
+def convert_to_json(data):
+        return json.dumps(data)
