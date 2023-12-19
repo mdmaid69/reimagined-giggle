@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
