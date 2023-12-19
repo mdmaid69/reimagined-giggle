@@ -1,4 +1,8 @@
-import random
-print(random.randint(0, 100))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
