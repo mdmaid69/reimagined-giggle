@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
