@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
