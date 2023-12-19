@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
