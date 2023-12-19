@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+print("Hello, world!")
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
