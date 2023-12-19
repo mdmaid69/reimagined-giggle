@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
