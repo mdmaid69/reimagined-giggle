@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def remove_duplicates(lst):
+        return list(set(lst))
