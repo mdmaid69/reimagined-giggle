@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
