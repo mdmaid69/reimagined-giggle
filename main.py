@@ -1,6 +1,8 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def remove_from_array(array, item):
+        array.remove(item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
