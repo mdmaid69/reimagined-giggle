@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
