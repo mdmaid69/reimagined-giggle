@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
