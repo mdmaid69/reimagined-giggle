@@ -1,4 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def add_numbers(a, b):
-        return a + b
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+text = "Hello, world!"
+print("Reversed:", text[::-1])
