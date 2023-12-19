@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_item(array, i):
+        return array[i]
