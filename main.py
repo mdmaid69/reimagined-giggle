@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import logging
+def log_message(message):
+        logging.info(message)
