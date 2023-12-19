@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
