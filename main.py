@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
