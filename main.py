@@ -1,4 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-print(sum(range(10)))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_index(array, item):
+        return array.index(item)
