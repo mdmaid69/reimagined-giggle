@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
