@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
