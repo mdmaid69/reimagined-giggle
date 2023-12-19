@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
