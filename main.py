@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_work(force, distance):
+        return force * distance
