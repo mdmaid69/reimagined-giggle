@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_max(lst):
-        return max(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def add_numbers(a, b):
+        return a + b
