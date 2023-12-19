@@ -1,7 +1,9 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import socket
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+@app.route("/")
+def hello():
+        return "Hello, World!"
