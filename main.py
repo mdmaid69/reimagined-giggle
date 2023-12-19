@@ -1,10 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
