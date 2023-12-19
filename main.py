@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
