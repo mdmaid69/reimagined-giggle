@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
