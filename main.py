@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_sine(x):
+        return math.sin(x)
