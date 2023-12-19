@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
