@@ -1,8 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
