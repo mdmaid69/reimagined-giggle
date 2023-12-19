@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import random
+print(random.randint(0, 100))
