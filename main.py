@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
