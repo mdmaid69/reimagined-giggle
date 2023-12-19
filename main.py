@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
