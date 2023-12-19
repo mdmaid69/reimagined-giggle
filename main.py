@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
