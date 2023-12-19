@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
