@@ -1,7 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def count_words(sentence):
+        return len(sentence.split())
