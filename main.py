@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_even(n):
-        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
