@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def add_numbers(x, y):
+        return x + y
