@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
