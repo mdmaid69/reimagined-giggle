@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
