@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
