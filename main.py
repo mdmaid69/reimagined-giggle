@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import platform
+def get_os_info():
+        return platform.uname()
