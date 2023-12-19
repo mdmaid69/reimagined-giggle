@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+from collections import Counter
+print(Counter("hello world"))
