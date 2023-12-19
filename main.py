@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
