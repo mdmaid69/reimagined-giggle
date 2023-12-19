@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
