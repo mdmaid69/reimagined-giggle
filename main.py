@@ -1,5 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def square_number(x):
-        return x**2
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
