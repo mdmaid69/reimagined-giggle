@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
