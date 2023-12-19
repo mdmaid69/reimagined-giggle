@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def convert_to_binary(n):
-        return bin(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def square_number(x):
+        return x**2
