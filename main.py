@@ -1,6 +1,7 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
