@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_floor(x):
+        return math.floor(x)
+  def is_even(n):
+        return n % 2 == 0
