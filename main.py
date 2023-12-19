@@ -1,4 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def is_even(n):
+        return n % 2 == 0
