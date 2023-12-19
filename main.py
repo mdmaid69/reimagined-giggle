@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def greet(name):
-        print(f"Hello, {name}!")
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
