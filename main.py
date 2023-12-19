@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def set_array_item(array, i, item):
+        array[i] = item
