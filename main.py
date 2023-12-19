@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
