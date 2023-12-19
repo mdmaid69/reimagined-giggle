@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
