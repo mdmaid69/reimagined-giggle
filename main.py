@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_itemsize(array):
+        return array.itemsize
