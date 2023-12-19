@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
