@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
