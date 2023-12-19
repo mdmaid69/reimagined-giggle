@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
