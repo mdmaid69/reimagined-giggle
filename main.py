@@ -1,5 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
