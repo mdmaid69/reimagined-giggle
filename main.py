@@ -1,6 +1,10 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
