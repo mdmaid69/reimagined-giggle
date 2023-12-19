@@ -1,6 +1,7 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
