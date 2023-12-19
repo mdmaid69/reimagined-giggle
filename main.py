@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
