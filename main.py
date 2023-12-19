@@ -1,8 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def is_odd(n):
+        return n % 2 != 0
