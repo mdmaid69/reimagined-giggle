@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import sys
-def exit_program():
-        sys.exit()
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
