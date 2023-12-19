@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
