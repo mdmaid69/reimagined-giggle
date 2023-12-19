@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
