@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def reverse_list(lst):
+        return lst[::-1]
