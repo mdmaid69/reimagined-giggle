@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+def get_current_time():
+        return time.time()
+  def is_odd(n):
+        return n % 2 != 0
