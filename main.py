@@ -1,7 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
