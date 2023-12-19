@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def multiply_numbers(x, y):
+        return x * y
