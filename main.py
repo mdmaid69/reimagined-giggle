@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
