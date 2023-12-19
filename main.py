@@ -1,9 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
