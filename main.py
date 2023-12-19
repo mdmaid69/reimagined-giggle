@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+from collections import Counter
+print(Counter("hello world"))
+import time
+print(time.time())
