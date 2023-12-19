@@ -1,8 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
