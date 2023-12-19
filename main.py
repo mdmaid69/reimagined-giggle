@@ -1,8 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
