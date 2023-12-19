@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def convert_to_binary(n):
+        return bin(n)
+  def is_even(n):
+        return n % 2 == 0
