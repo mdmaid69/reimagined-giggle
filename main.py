@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_current_directory():
+        return os.getcwd()
