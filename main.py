@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+text = "Hello, world!"
+print("Words:", len(text.split()))
+text = "Hello, world!"
+print("Words:", len(text.split()))
