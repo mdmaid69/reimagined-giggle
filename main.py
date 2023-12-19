@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
