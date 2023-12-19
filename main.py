@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def count_words(sentence):
+        return len(sentence.split())
+def sort_numbers(numbers):
+        return sorted(numbers)
