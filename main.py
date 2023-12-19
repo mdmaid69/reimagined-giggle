@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def is_palindrome(s):
-        return s == s[::-1]
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
