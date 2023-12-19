@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def check_if_array_contains_item(array, item):
+        return item in array
+def subtract_numbers(x, y):
+        return x - y
