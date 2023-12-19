@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def convert_to_octal(n):
+        return oct(n)
