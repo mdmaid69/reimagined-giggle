@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
