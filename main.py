@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
