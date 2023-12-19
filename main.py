@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
