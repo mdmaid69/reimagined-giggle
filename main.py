@@ -1,5 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def remove_duplicates(lst):
-        return list(set(lst))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
