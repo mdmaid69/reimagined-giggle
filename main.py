@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
