@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
