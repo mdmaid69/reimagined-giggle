@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
