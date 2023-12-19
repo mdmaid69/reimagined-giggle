@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
