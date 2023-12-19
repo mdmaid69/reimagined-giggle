@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
