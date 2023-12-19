@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
