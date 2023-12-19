@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
