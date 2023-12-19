@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
