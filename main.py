@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import re
+print(re.match("h.*o", "hello world"))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
