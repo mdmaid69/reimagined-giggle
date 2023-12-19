@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
