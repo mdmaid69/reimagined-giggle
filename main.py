@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def convert_to_hex(n):
-        return hex(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_area_circle(r):
+        return 3.14 * r**2
