@@ -1,4 +1,11 @@
-  def cube_number(x):
-        return x**3
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
