@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_volume(length, width, height):
+        return length * width * height
