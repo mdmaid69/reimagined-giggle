@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
