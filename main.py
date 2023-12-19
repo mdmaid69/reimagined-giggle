@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
