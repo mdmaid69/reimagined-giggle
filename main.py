@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
