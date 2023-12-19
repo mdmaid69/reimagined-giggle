@@ -1,9 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def get_array_typecode(array):
+        return array.typecode
