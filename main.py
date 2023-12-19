@@ -1,5 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
