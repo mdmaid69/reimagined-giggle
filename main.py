@@ -1,5 +1,8 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
