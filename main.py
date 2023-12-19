@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import json
+print(json.dumps({"name": "John", "age": 30}))
