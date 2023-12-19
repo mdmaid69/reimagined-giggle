@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
