@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def add_numbers(x, y):
-        return x + y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import sys
+def print_python_version():
+        print(sys.version)
