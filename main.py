@@ -1,6 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
