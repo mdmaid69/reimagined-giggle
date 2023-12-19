@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_work(force, distance):
-        return force * distance
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_acceleration(speed, time):
+        return speed / time
