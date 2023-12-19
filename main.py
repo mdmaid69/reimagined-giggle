@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
