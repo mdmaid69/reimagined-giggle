@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
