@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
