@@ -1,6 +1,8 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
