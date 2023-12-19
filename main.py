@@ -1,5 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
