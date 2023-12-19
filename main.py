@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_speed(distance, time):
+        return distance / time
+def find_max(lst):
+        return max(lst)
