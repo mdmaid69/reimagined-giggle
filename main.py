@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def convert_to_binary(n):
+        return bin(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
