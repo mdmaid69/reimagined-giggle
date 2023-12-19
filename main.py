@@ -1,4 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-print(math.pi)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def add_numbers(a, b):
+        return a + b
