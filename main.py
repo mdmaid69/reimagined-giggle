@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
