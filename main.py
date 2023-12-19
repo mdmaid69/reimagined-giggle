@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import sys
+def print_python_version():
+        return sys.version
