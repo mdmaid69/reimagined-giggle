@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def add_numbers(a, b):
+        return a + b
