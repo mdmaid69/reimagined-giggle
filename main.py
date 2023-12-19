@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_bytearray(array):
+        return bytearray(array)
