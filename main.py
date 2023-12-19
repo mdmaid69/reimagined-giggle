@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
