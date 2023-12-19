@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
