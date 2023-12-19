@@ -1,6 +1,5 @@
-print(sum(range(10)))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+print(random.randint(0, 100))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
