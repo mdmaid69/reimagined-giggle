@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_acceleration(speed, time):
+        return speed / time
