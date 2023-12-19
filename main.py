@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
