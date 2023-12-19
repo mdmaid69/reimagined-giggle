@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def reverse_list(lst):
+        return lst[::-1]
