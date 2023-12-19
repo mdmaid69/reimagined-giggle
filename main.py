@@ -1,5 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def find_max(lst):
-        return max(lst)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_pressure(force, area):
+        return force / area
