@@ -1,9 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def remove_duplicates(lst):
+        return list(set(lst))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
