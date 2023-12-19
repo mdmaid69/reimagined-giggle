@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
