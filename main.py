@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
