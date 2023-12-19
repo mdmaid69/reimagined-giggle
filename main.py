@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def get_current_directory():
-        return os.getcwd()
+for i in range(10): print(i)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
