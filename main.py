@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
