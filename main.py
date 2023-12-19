@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_work(force, distance):
+        return force * distance
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
