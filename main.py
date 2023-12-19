@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
