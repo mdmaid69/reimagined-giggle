@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
