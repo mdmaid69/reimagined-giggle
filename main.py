@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+print(json.dumps({"name": "John", "age": 30}))
