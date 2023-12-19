@@ -1,6 +1,7 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_error_function(x):
+        return math.erf(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
