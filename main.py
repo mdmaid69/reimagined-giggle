@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def clear_array(array):
+        array *= 0
