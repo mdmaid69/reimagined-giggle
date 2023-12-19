@@ -1,7 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import sys
-def print_python_version():
-        return sys.version
+def get_array_index(array, item):
+        return array.index(item)
