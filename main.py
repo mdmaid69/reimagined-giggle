@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def is_odd(n):
+        return n % 2 != 0
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
