@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
