@@ -1,4 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
