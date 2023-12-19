@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
