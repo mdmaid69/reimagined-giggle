@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def divide_numbers(x, y):
+        return x / y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
