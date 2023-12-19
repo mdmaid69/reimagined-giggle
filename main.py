@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
