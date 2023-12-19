@@ -1,6 +1,3 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_acceleration(speed, time):
+        return speed / time
+print([x**2 for x in range(10)])
