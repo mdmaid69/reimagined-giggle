@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
