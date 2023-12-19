@@ -1,5 +1,5 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def square_number(x):
-        return x**2
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_density(mass, volume):
+        return mass / volume
