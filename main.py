@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
