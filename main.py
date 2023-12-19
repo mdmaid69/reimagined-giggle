@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_hex(n):
+        return hex(n)
