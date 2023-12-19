@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
