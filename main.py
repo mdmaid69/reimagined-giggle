@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
