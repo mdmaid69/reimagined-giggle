@@ -1,7 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def is_palindrome(s):
+        return s == s[::-1]
