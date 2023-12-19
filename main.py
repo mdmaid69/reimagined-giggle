@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
