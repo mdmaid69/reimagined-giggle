@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
