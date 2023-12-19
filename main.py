@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
