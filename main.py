@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
