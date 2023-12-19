@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
