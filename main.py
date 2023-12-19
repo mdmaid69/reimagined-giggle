@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
