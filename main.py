@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_str(array):
+        return str(array)
