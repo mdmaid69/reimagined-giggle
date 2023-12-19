@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
