@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
