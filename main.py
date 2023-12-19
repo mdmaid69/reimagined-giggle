@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
