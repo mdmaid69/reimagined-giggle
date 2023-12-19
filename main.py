@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
