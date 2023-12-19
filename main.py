@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
