@@ -1,4 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
