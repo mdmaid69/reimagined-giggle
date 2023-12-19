@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_counter():
+        return collections.Counter()
