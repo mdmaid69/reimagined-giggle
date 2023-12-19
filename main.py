@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
