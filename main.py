@@ -1,5 +1,12 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
