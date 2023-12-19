@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import sys
+  def get_python_version():
+        return sys.version
