@@ -1,5 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
