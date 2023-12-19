@@ -1,5 +1,9 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import random
-print(random.randint(0, 100))
+def generate_random_number(start, end):
+        return random.randint(start, end)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
