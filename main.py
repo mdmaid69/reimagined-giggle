@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def reverse_list(lst):
+        return lst[::-1]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
