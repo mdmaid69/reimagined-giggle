@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
