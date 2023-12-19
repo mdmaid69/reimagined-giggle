@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
