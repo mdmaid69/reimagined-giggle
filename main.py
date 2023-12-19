@@ -1,5 +1,5 @@
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
