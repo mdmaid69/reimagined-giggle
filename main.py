@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
