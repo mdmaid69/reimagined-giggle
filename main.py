@@ -1,8 +1,8 @@
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
