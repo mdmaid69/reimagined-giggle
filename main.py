@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
