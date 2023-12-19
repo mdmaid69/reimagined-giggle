@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
