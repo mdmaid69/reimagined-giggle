@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_current_working_directory():
+        return os.getcwd()
+import random
+print(random.randint(0, 100))
