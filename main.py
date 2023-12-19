@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+print(math.pi)
+import collections
+def create_user_dict():
+        return collections.UserDict()
