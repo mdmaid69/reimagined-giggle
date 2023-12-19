@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import logging
-def log_message(message):
-        logging.info(message)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import time
+def get_current_time():
+        return time.time()
