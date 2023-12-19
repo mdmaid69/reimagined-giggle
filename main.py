@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
+import datetime
+def get_current_date():
+        return datetime.date.today()
