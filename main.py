@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  def convert_to_octal(n):
-        return oct(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
