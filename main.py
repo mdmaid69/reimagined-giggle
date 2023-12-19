@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_max(numbers):
-        return max(numbers)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
