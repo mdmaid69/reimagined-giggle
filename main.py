@@ -1,4 +1,10 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
