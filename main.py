@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
