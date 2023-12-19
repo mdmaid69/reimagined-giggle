@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def is_palindrome(s):
-        return s == s[::-1]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
