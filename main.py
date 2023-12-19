@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def print_python_version():
+        print(sys.version)
+def sort_numbers(numbers):
+        return sorted(numbers)
