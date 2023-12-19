@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
