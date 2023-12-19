@@ -1,5 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
