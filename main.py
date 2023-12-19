@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
