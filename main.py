@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def cube_number(x):
+        return x**3
