@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_item(array, i):
+        return array[i]
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_list(array):
+        return list(array)
