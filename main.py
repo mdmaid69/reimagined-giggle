@@ -1,6 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
