@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def add_numbers(x, y):
+        return x + y
