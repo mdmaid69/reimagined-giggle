@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
