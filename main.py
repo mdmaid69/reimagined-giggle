@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
