@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
