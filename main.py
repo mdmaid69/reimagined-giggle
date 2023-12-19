@@ -1,6 +1,9 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
