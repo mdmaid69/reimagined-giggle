@@ -1,6 +1,8 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
