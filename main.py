@@ -1,6 +1,6 @@
 import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
