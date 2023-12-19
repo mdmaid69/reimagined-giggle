@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
