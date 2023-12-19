@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
