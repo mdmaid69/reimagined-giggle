@@ -1,6 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import logging
-def log_message(message):
-        logging.info(message)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def divide_numbers(x, y):
+        return x / y
