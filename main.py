@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
