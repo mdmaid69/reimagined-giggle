@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
