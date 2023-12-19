@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_pressure(force, area):
-        return force / area
+import getpass
+def get_username():
+        return getpass.getuser()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
