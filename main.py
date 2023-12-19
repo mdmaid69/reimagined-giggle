@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
