@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def multiply_numbers(x, y):
+        return x * y
