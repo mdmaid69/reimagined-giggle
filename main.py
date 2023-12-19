@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_area_rectangle(l, w):
-        return l * w
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
