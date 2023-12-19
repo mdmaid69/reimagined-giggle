@@ -1,6 +1,11 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
