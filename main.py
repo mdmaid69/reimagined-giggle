@@ -1,8 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
