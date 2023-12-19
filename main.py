@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+name = "Python"
+print("Hello,", name)
