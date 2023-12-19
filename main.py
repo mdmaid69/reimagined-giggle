@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def is_odd(n):
+        return n % 2 != 0
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
