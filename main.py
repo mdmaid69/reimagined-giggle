@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
