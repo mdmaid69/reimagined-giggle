@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
