@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_list(array):
+        return array.tolist()
+def convert_to_octal(n):
+        return oct(n)
