@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def reverse_string(s):
-        return s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
