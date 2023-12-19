@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def count_elements(lst):
+        return len(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
