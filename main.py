@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
