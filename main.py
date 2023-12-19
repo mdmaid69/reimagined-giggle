@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_current_time():
-        return time.time()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
