@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
