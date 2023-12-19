@@ -1,3 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
