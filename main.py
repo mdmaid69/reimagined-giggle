@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
