@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
