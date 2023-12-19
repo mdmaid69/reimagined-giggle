@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
