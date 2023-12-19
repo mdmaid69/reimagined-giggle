@@ -1,6 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_size_in_bytes(file_name):
+  def get_file_size(file_name):
         return os.stat(file_name).st_size
-import sys
-def print_python_version():
-        return sys.version
