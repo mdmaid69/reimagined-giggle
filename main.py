@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import platform
-def get_os_info():
-        return platform.uname()
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
