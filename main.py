@@ -1,4 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+text = "Hello, world!"
+print("Characters:", len(text))
+import time
+print(time.time())
