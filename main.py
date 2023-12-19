@@ -1,5 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def count_elements(lst):
-        return len(lst)
+def get_array_item(array, i):
+        return array[i]
