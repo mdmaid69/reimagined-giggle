@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
