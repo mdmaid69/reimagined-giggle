@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
