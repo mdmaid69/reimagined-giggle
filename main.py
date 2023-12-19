@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
