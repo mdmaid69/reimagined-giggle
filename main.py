@@ -1,6 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def remove_duplicates(lst):
+        return list(set(lst))
