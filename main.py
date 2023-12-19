@@ -1,5 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+for i in range(10): print(i)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
