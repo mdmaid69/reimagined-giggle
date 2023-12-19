@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
