@@ -4,5 +4,5 @@ def is_prime(n):
         if n % i == 0:
                 return False
         return True
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
