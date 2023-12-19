@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
