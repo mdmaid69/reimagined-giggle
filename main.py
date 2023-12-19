@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
