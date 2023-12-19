@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import time
+def get_current_time():
+        return time.ctime()
