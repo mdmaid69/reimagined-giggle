@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
