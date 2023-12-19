@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area(radius):
+        return 3.14 * radius * radius
