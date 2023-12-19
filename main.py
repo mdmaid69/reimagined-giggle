@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
