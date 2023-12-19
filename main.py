@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
