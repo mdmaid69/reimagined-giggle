@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
