@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_array_length(array):
+        return len(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
