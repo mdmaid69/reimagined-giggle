@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
