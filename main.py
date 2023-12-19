@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def add_numbers(a, b):
+        return a + b
