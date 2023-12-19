@@ -1,8 +1,9 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
