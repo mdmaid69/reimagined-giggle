@@ -1,4 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_elements(lst):
-        return len(lst)
+def square_number(x):
+        return x**2
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
