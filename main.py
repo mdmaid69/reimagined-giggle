@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import datetime
+print(datetime.datetime.now())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
