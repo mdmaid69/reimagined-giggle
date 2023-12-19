@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import sys
+def print_python_version():
+        return sys.version
