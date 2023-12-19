@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
