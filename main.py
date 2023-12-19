@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
