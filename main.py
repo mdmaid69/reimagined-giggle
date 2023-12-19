@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
