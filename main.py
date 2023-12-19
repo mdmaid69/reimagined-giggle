@@ -1,6 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_array_to_list(array):
+        return array.tolist()
