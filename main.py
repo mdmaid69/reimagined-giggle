@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
