@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
