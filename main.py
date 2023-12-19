@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
