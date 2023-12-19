@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_density(mass, volume):
+        return mass / volume
