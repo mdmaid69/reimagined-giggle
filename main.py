@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+print("Hello, world!")
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
