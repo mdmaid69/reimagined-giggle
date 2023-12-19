@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def clear_array(array):
-        array *= 0
+import time
+def get_current_time():
+        return time.ctime()
+def find_min(numbers):
+        return min(numbers)
