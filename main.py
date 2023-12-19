@@ -1,6 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
