@@ -1,6 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import logging
-def log_message(message):
-        logging.info(message)
+for i in range(5):
+        print(i)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
