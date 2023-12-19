@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
