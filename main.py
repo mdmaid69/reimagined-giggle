@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_max(lst):
+        return max(lst)
+  def add_numbers(x, y):
+        return x + y
