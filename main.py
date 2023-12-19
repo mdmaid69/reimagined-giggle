@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
