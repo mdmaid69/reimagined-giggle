@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+print(os.getcwd())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
