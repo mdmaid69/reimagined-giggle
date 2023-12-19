@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def count_words(sentence):
+        return len(sentence.split())
