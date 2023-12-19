@@ -1,8 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
