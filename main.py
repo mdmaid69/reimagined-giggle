@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
