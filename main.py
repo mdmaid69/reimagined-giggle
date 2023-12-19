@@ -1,4 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-def convert_to_octal(n):
-        return oct(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_typecode(array):
+        return array.typecode
