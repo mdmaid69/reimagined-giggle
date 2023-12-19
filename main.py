@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
