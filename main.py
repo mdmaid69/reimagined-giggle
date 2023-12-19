@@ -1,6 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
