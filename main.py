@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def square_number(x):
-        return x**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_speed(distance, time):
+        return distance / time
