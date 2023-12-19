@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
