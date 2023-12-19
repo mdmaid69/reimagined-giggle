@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
