@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
