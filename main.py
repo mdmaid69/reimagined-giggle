@@ -1,6 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
