@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_stack():
+        return collections.deque()
+def find_max(lst):
+        return max(lst)
