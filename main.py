@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def is_even(n):
+        return n % 2 == 0
