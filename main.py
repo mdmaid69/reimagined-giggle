@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
