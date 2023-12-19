@@ -1,6 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
