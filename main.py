@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
