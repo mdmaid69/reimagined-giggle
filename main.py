@@ -1,4 +1,9 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
