@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
