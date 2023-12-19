@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
