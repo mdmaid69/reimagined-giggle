@@ -1,5 +1,8 @@
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
