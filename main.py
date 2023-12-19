@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
