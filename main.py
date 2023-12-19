@@ -1,5 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_arc_sine(x):
+        return math.asin(x)
