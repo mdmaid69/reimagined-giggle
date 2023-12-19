@@ -1,6 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def is_odd(n):
+        return n % 2 != 0
+  def count_elements(lst):
+        return len(lst)
