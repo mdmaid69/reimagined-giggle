@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import collections
+def create_user_string():
+        return collections.UserString()
