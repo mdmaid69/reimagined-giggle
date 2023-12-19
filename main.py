@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
