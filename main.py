@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_work(force, distance):
-        return force * distance
+import time
+def get_time_since_epoch():
+        return time.time()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
