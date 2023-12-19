@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print(sum(range(10)))
+import array
+def get_array_item(array, i):
+        return array[i]
