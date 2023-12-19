@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
