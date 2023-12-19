@@ -1,8 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
