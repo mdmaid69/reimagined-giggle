@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
