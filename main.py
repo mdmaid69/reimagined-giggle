@@ -1,7 +1,4 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+print("Words:", len(text.split()))
