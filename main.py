@@ -1,7 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
