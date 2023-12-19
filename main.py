@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_min(lst):
+        return min(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
