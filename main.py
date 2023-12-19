@@ -1,7 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
