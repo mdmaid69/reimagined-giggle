@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def set_array_item(array, i, item):
+        array[i] = item
