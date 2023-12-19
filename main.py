@@ -1,8 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
