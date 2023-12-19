@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
