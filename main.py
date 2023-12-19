@@ -1,5 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
