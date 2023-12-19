@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
