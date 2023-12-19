@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import sys
+def print_python_version():
+        return sys.version
