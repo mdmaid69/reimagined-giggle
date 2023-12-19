@@ -1,6 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
