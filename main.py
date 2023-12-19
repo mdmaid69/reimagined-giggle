@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
