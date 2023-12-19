@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
