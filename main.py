@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
