@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
