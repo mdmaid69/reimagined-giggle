@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
