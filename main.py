@@ -1,5 +1,9 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
