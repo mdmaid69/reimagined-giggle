@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
