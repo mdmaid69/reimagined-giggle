@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_typecode(array):
-        return array.typecode
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
