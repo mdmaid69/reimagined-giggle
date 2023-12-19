@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def is_even(n):
+        return n % 2 == 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
