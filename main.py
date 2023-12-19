@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
