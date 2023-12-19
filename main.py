@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def greet(name):
-        print(f"Hello, {name}!")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
