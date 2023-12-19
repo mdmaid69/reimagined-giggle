@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
