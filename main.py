@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def reverse_array(array):
+        array.reverse()
