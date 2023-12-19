@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
