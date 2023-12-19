@@ -1,7 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
