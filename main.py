@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
