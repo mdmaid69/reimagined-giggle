@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
