@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
