@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
