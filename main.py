@@ -1,5 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def log_message(message):
+        logging.info(message)
