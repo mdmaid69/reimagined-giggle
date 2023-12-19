@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
