@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
