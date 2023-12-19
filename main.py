@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_power(work, time):
+        return work / time
