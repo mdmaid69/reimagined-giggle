@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
