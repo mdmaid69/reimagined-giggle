@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def count_words(sentence):
+        return len(sentence.split())
