@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
