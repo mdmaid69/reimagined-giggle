@@ -1,6 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
