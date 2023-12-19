@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
