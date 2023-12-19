@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
