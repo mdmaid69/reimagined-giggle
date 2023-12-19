@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
