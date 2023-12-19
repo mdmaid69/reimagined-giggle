@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import os
-print(os.getcwd())
+def find_max(numbers):
+        return max(numbers)
+  def subtract_numbers(x, y):
+        return x - y
