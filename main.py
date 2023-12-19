@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
