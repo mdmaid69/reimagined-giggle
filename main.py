@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def count_elements(lst):
-        return len(lst)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
