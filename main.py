@@ -1,5 +1,4 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+print([x**2 for x in range(10)])
