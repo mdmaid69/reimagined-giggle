@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def find_min(lst):
-        return min(lst)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
