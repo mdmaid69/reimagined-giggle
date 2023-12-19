@@ -1,7 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+from collections import Counter
+print(Counter("hello world"))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
