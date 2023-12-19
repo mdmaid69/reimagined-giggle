@@ -1,8 +1,6 @@
 import collections
-def create_queue():
-        return collections.deque()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
