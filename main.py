@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+for i in range(5):
+        print(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
