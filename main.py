@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
