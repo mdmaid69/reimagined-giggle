@@ -1,5 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
