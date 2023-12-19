@@ -1,7 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
