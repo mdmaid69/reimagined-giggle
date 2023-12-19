@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
