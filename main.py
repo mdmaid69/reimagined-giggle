@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_power(work, time):
+        return work / time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
