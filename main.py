@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Characters:", len(text))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
