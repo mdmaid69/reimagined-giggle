@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def remove_duplicates(lst):
-        return list(set(lst))
+def greet(name):
+        print(f"Hello, {name}!")
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
