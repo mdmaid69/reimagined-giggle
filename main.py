@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
