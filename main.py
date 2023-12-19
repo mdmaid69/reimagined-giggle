@@ -1,4 +1,7 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Cube numbers:", [x**3 for x in range(n)])
