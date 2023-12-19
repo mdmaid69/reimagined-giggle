@@ -1,5 +1,9 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
