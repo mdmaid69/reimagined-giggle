@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_density(mass, volume):
-        return mass / volume
+import datetime
+print(datetime.datetime.now())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
