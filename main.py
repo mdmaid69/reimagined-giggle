@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def divide_numbers(x, y):
-        return x / y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
