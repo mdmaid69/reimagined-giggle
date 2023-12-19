@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_work(force, distance):
+        return force * distance
