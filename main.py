@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
