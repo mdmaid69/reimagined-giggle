@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
