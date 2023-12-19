@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
