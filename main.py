@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def convert_to_hex(n):
-        return hex(n)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import os
+def get_current_working_directory():
+        return os.getcwd()
