@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
