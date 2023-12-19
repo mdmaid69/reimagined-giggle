@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
