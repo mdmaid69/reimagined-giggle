@@ -1,5 +1,6 @@
-for i in range(10): print(i)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
