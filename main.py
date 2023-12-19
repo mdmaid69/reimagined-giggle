@@ -1,7 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_index(array, item):
+        return array.index(item)
