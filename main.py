@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def cube_number(x):
-        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_acceleration(speed, time):
+        return speed / time
