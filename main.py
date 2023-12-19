@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_arc_tangent(x):
+        return math.atan(x)
