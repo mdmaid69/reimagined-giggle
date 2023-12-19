@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
