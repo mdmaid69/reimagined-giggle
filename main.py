@@ -1,6 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
