@@ -1,6 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def remove_duplicates(lst):
+        return list(set(lst))
