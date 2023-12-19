@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_int(array):
+        return int(array[0])
