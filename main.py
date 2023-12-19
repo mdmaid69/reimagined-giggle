@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+x = 10
+y = 20
+print("Sum:", x + y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
