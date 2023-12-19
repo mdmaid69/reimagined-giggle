@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
