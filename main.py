@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def reverse_list(lst):
-        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
