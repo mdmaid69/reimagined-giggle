@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
