@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
