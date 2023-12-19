@@ -1,4 +1,12 @@
-  def cube_number(x):
-        return x**3
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
