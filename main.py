@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def count_elements(lst):
+        return len(lst)
+def convert_to_hex(n):
+        return hex(n)
