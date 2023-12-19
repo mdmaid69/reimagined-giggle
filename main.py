@@ -1,5 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
