@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_pressure(force, area):
+        return force / area
