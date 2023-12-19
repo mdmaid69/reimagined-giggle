@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
