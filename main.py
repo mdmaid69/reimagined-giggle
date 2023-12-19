@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
