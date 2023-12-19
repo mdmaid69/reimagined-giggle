@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+print(math.pi)
