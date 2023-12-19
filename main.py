@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_pressure(force, area):
+        return force / area
