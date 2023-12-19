@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
