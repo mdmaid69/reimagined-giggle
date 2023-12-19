@@ -1,6 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_stack():
+        return collections.deque()
