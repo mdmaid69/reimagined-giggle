@@ -1,6 +1,6 @@
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
