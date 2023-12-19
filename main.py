@@ -1,6 +1,5 @@
+import time
+print(time.time())
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def get_array_as_frozenset(array):
+        return frozenset(array)
