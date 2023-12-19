@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_item(array, i):
+        return array[i]
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
