@@ -1,5 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
