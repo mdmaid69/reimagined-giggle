@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
