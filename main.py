@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_item(array, i):
-        return array[i]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
