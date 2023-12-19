@@ -1,6 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
