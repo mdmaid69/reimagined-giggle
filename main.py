@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
