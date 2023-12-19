@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
