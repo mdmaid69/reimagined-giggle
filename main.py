@@ -1,9 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def count_elements(lst):
+        return len(lst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
