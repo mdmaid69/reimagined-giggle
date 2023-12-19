@@ -1,6 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
