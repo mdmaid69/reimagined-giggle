@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def cube_number(x):
+        return x**3
+  def reverse_list(lst):
+        return lst[::-1]
