@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_max(numbers):
+        return max(numbers)
