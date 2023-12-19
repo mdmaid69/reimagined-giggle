@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
