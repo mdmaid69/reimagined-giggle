@@ -1,6 +1,5 @@
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
