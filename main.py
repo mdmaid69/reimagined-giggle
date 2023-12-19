@@ -1,6 +1,7 @@
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
