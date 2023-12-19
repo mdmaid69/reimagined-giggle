@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import random
+def roll_die():
+        return random.randint(1, 6)
