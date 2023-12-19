@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
