@@ -1,8 +1,9 @@
-import unittest
+from flask import Flask
+app = Flask(__name__)
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
