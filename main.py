@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
