@@ -1,6 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
