@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def clear_array(array):
+        array *= 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
