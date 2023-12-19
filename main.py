@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
