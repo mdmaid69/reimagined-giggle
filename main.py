@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def reverse_list(lst):
+        return lst[::-1]
