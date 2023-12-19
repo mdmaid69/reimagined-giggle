@@ -1,7 +1,8 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
