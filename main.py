@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
