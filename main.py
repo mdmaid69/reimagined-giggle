@@ -1,9 +1,4 @@
-import time
-print(time.time())
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  def convert_to_hex(n):
+        return hex(n)
+def sort_list(lst):
+        return sorted(lst)
