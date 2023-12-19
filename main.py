@@ -1,7 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
