@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import logging
-def log_message(message):
-        logging.info(message)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
