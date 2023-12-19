@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import collections
+def create_counter():
+        return collections.Counter()
+import numpy as np
+print(np.array([1, 2, 3]))
