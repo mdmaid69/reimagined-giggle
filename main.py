@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import datetime
+print(datetime.datetime.now())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
