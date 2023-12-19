@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def count_elements(lst):
+        return len(lst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
