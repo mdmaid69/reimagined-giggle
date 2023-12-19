@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def get_array_as_set(array):
+        return set(array)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
