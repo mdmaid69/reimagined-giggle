@@ -1,6 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
