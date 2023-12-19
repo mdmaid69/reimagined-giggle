@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def convert_to_binary(n):
+        return bin(n)
