@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def is_even(n):
+        return n % 2 == 0
