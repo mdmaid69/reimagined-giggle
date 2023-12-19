@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
