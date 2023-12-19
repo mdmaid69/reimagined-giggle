@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def count_words(sentence):
+        return len(sentence.split())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
