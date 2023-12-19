@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
