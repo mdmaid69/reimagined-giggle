@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
