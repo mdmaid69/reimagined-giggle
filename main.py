@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
