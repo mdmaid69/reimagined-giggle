@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
