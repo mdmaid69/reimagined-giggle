@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import random
+print(random.randint(0, 100))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
