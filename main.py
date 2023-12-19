@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
