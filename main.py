@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
