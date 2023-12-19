@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
