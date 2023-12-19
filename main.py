@@ -2,6 +2,5 @@
   def plot_histogram(data, bins):
         plt.hist(data, bins=bins)
         plt.show()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_volume(length, width, height):
+        return length * width * height
