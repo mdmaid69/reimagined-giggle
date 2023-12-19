@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
