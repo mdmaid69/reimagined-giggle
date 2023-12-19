@@ -1,6 +1,6 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_factorial(n):
+        return math.factorial(n)
