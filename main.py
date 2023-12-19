@@ -1,4 +1,8 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
