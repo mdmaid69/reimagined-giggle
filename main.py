@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
