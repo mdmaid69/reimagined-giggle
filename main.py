@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_density(mass, volume):
+        return mass / volume
