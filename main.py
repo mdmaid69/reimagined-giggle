@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
