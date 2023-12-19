@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_area_rectangle(l, w):
-        return l * w
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
