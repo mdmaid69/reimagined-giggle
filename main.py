@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def count_characters(sentence):
+        return len(sentence)
