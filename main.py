@@ -1,6 +1,7 @@
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
