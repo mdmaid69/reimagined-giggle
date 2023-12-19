@@ -1,9 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
