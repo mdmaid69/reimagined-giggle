@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
