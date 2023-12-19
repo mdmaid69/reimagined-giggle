@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+x = 10
+y = 20
+print("Sum:", x + y)
