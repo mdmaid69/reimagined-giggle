@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Words:", len(text.split()))
