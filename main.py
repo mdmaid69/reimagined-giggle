@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
