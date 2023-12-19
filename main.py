@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def clear_array(array):
-        array *= 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_area_rectangle(l, w):
+        return l * w
