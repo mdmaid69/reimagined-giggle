@@ -1,5 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_density(mass, volume):
+        return mass / volume
