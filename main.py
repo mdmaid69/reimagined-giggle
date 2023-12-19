@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
