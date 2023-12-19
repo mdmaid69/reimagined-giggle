@@ -1,5 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-for i in range(10): print(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import os
+def remove_directory(path):
+        os.rmdir(path)
