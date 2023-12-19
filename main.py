@@ -1,5 +1,4 @@
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
