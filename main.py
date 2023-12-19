@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_queue():
+        return collections.deque()
