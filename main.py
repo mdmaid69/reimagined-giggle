@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
