@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
