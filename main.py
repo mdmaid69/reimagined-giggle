@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def convert_to_octal(n):
-        return oct(n)
+def get_array_as_str(array):
+        return str(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
