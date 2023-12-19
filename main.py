@@ -1,6 +1,6 @@
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
