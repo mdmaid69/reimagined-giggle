@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def get_array_itemsize(array):
+        return array.itemsize
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
