@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
