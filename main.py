@@ -1,6 +1,7 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
