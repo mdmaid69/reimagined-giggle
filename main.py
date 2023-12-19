@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
