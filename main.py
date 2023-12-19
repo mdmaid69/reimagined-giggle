@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
