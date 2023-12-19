@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
