@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
