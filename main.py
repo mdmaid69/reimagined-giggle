@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def create_counter():
+        return collections.Counter()
