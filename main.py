@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
