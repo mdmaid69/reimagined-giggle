@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
