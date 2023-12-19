@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_current_time():
-        return time.time()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def exit_program():
+        sys.exit()
