@@ -1,7 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_min(lst):
+        return min(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
