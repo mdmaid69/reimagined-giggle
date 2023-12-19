@@ -1,7 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import numpy as np
+print(np.array([1, 2, 3]))
