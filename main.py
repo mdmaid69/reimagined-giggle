@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def count_elements(lst):
+        return len(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
