@@ -1,9 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
