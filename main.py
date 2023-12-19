@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_acceleration(speed, time):
+        return speed / time
