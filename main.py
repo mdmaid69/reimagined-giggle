@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def convert_to_binary(n):
-        return bin(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def convert_to_octal(n):
+        return oct(n)
