@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+print(sys.version)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
