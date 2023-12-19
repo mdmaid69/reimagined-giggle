@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def is_odd(n):
+        return n % 2 != 0
