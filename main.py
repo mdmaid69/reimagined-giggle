@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
