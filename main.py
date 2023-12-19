@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import sys
+def print_python_version():
+        print(sys.version)
