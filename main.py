@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import logging
+def log_message(message):
+        logging.info(message)
