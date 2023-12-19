@@ -1,6 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
