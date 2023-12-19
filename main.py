@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
