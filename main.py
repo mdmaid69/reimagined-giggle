@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
