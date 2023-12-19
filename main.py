@@ -1,5 +1,4 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def cube_number(x):
-        return x**3
+def calculate_density(mass, volume):
+        return mass / volume
+def divide_numbers(x, y):
+        return x / y
