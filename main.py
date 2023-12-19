@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
