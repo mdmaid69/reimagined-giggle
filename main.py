@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def count_characters(sentence):
+        return len(sentence)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
