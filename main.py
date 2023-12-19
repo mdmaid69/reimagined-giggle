@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
