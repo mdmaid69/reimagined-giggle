@@ -1,8 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
