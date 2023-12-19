@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
