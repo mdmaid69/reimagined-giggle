@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
