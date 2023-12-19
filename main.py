@@ -1,6 +1,5 @@
 import array
 def set_array_slice(array, i, j, iterable):
         array[i:j] = iterable
-import sys
-def print_python_version():
-        print(sys.version)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
