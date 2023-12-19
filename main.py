@@ -1,3 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-print([x**2 for x in range(10)])
+import random
+print(random.randint(0, 100))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
