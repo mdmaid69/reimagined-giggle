@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_exponential(x):
+        return math.exp(x)
