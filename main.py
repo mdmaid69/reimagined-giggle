@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
