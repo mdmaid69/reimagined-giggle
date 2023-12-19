@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_counter():
-        return collections.Counter()
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_bool(array):
+        return bool(array)
