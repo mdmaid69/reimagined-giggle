@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_speed(distance, time):
+        return distance / time
