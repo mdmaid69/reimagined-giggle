@@ -1,5 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
