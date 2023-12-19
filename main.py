@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
