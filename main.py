@@ -1,6 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import time
-def get_current_time():
-        return time.time()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
