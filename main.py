@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
