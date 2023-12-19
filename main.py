@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
