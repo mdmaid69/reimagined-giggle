@@ -1,3 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-print(sum(range(10)))
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
