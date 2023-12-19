@@ -1,5 +1,11 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import random
-print(random.randint(0, 100))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
