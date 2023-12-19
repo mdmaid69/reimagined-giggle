@@ -1,8 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_repr(array):
+        return repr(array)
