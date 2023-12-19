@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_tuple(array):
+        return tuple(array)
