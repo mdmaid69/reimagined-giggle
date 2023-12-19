@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
