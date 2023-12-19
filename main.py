@@ -1,6 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
