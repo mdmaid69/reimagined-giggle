@@ -1,4 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def convert_to_hex(n):
-        return hex(n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
