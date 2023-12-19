@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
