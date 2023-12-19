@@ -1,6 +1,5 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def divide_numbers(x, y):
+        return x / y
