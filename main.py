@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_max(numbers):
-        return max(numbers)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
