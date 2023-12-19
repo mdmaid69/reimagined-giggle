@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
