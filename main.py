@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def is_even(n):
-        return n % 2 == 0
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
