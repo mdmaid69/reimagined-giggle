@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
