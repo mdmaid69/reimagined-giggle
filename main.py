@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
