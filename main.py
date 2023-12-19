@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
