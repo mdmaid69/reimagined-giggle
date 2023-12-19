@@ -1,4 +1,5 @@
-def count_elements(lst):
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  def count_elements(lst):
         return len(lst)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
