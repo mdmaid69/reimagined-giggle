@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
