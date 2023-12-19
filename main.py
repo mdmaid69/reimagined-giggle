@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
