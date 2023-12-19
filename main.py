@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import platform
+def get_os_info():
+        return platform.uname()
