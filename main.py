@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
