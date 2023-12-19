@@ -1,12 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
