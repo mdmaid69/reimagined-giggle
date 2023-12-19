@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def convert_to_octal(n):
+        return oct(n)
