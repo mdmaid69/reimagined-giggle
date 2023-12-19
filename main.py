@@ -1,5 +1,3 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_work(force, distance):
-        return force * distance
+import random
+print(random.randint(0, 100))
+print([x**2 for x in range(10)])
