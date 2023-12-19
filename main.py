@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
