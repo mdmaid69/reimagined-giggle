@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def divide_numbers(x, y):
-        return x / y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
