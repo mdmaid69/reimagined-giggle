@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import tensorflow as tf
+print(tf.__version__)
