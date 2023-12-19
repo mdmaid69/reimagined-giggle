@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def count_elements(lst):
-        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import os
+print(os.getcwd())
