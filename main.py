@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_length(array):
+        return len(array)
