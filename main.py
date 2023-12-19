@@ -1,8 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import time
+def get_current_time():
+        return time.time()
+def remove_duplicates(lst):
+        return list(set(lst))
