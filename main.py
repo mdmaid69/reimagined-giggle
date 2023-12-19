@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import re
-print(re.match("h.*o", "hello world"))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
