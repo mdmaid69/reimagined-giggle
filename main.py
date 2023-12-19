@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
