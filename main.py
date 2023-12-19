@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
