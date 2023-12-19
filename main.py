@@ -1,5 +1,13 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
