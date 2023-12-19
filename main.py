@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
