@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
