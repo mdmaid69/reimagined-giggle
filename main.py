@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
