@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_min(numbers):
+        return min(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
