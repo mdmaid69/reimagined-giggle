@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
