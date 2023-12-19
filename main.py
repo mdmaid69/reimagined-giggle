@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
