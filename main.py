@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_user_list():
+        return collections.UserList()
+import sys
+def print_python_version():
+        return sys.version
