@@ -1,6 +1,10 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
