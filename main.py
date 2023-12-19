@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
