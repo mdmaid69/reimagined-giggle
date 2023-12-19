@@ -1,6 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
