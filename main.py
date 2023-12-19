@@ -1,3 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-print(sum(range(10)))
+import time
+print(time.time())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
