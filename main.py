@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
