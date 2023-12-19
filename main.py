@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import time
+def get_time_since_epoch():
+        return time.time()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
