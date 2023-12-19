@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
