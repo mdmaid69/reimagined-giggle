@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_max(numbers):
+        return max(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
