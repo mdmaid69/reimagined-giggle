@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
