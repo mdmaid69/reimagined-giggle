@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
