@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
