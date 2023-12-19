@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
