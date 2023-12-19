@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
