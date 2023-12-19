@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import time
+def get_current_time():
+        return time.ctime()
