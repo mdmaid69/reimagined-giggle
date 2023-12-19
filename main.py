@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
