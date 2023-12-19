@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def find_min(lst):
-        return min(lst)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
