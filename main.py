@@ -1,5 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
