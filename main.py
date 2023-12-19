@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def count_characters(sentence):
-        return len(sentence)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
