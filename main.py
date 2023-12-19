@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
