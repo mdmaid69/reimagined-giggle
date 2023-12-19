@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
