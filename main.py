@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
