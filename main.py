@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
