@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def convert_to_octal(n):
+        return oct(n)
