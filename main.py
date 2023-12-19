@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
