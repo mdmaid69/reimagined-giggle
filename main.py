@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def add_numbers(x, y):
+        return x + y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
