@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def subtract_numbers(x, y):
+        return x - y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
