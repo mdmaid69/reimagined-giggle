@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
