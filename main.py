@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import logging
+def log_message(message):
+        logging.info(message)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
