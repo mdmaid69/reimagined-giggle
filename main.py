@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
