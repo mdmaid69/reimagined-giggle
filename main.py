@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import sys
-def exit_program():
-        sys.exit()
+def find_min(numbers):
+        return min(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
