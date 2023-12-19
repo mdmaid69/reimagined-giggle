@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
