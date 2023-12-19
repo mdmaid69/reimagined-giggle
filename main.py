@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
