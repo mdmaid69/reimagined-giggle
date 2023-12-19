@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_list(array):
+        return list(array)
