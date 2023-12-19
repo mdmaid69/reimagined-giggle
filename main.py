@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+print(random.randint(0, 100))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
