@@ -1,5 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def add_numbers(x, y):
-        return x + y
+def find_max(numbers):
+        return max(numbers)
+def multiply_numbers(x, y):
+        return x * y
