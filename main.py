@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
