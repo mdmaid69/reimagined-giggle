@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def is_odd(n):
+        return n % 2 != 0
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
