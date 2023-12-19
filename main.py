@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
