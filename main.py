@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_speed(distance, time):
+        return distance / time
