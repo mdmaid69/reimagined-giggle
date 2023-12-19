@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
