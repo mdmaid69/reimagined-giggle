@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
