@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
