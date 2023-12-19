@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
