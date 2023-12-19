@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
