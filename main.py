@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
