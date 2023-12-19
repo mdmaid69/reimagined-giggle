@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
