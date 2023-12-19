@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
