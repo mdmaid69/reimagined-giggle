@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
