@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
