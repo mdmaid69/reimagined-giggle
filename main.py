@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
