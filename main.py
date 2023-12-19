@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
