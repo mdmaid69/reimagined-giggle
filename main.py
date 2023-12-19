@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
