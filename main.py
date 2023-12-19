@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
