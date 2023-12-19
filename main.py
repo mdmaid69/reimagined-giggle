@@ -1,5 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
