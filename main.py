@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+for i in range(5):
+        print(i)
