@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_directory_name(path):
+        return os.path.dirname(path)
