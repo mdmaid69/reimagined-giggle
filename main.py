@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
