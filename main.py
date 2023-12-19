@@ -1,5 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_floor(x):
+        return math.floor(x)
+import getpass
+def get_username():
+        return getpass.getuser()
