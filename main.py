@@ -1,6 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import platform
+def get_os_info():
+        return platform.uname()
