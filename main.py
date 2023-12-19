@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
