@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+for i in range(10): print(i)
