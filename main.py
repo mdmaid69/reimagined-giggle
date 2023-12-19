@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def get_list_from_array(array):
+def convert_array_to_list(array):
         return array.tolist()
