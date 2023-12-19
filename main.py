@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_as_list(array):
+        return list(array)
