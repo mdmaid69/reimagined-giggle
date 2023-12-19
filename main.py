@@ -1,5 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def multiply_numbers(x, y):
+        return x * y
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
