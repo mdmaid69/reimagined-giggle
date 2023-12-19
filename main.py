@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
