@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
