@@ -1,6 +1,4 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
