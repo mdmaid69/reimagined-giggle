@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_array_as_complex(array):
+        return complex(array[0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
