@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_typecode(array):
+        return array.typecode
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
