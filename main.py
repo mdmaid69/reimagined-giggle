@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def reverse_list(lst):
+        return lst[::-1]
