@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def subtract_numbers(x, y):
+        return x - y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
