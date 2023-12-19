@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
