@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def check_if_array_contains_item(array, item):
+        return item in array
