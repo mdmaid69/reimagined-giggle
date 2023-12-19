@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
