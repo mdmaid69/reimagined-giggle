@@ -1,11 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
