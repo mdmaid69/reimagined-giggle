@@ -1,5 +1,8 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import sys
+def print_python_version():
+        print(sys.version)
