@@ -1,5 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def convert_to_octal(n):
-        return oct(n)
+def square_number(x):
+        return x**2
+import os
+print(os.getcwd())
