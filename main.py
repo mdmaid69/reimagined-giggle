@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
