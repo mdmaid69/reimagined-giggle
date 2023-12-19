@@ -1,5 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import time
-print(time.time())
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
