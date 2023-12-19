@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def cube_number(x):
-        return x**3
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
