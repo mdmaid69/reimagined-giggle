@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
