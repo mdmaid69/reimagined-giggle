@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_pressure(force, area):
+        return force / area
