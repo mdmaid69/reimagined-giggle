@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
