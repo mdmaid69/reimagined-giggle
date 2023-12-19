@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
