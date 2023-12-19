@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
