@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+name = "Python"
+print("Hello,", name)
