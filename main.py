@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_unique_words(sentence):
+        return set(sentence.split())
