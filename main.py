@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
