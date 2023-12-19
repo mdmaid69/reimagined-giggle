@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def subtract_numbers(x, y):
+        return x - y
