@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def convert_to_hex(n):
-        return hex(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
