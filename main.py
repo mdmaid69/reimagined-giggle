@@ -1,7 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+print(sum(range(10)))
