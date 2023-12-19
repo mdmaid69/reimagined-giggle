@@ -1,4 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-print([x**2 for x in range(10)])
+def calculate_acceleration(speed, time):
+        return speed / time
+def convert_to_octal(n):
+        return oct(n)
