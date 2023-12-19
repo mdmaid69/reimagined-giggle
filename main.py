@@ -1,5 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def get_array_length(array):
-        return len(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def get_array_item(array, i):
+        return array[i]
