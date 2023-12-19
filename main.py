@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def find_min(lst):
+        return min(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
