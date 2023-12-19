@@ -1,5 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import time
-print(time.time())
+def calculate_circle_area(radius):
+        return math.pi * radius**2
