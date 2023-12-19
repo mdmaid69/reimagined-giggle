@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
