@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def remove_duplicates(lst):
+        return list(set(lst))
