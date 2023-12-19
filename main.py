@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
