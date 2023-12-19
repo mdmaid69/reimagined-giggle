@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
