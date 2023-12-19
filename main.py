@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
