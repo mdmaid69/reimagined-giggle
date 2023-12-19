@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def sort_list(lst):
-        return sorted(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
