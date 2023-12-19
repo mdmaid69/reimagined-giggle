@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import time
-print(time.time())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+for i in range(10): print(i)
