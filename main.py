@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
