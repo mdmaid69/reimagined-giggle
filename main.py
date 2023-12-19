@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+i = 0
+while i < 5:
+        print(i)
+        i += 1
