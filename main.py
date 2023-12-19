@@ -1,4 +1,4 @@
-import time
-print(time.time())
-def calculate_speed(distance, time):
-        return distance / time
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
