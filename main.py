@@ -1,9 +1,8 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
