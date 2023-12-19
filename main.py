@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
