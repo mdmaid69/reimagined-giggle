@@ -1,11 +1,7 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
