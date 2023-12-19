@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
