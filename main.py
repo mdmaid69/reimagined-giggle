@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
