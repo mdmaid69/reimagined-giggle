@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def reverse_string(s):
-        return s[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+for i in range(10): print(i)
