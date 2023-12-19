@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
