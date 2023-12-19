@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
