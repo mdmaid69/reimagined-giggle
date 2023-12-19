@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
