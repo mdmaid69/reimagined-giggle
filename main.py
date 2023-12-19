@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
