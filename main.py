@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
