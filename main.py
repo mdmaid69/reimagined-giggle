@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def convert_to_octal(n):
+        return oct(n)
