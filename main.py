@@ -1,5 +1,11 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
