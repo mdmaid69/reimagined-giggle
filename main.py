@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def convert_to_hex(n):
-        return hex(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
