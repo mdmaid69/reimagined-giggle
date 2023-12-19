@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def sort_list(lst):
+        return sorted(lst)
