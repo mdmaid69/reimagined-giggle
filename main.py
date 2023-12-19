@@ -1,8 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
