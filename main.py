@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def convert_to_hex(n):
-        return hex(n)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
