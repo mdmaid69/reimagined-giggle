@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
