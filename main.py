@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
