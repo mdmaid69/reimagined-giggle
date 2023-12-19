@@ -1,8 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
