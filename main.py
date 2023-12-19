@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
