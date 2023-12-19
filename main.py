@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
