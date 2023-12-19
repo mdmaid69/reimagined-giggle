@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
