@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
