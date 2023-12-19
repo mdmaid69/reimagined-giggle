@@ -1,6 +1,3 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+for i in range(10): print(i)
+from collections import Counter
+print(Counter("hello world"))
