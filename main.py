@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
