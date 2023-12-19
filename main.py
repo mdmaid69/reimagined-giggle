@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-name = "Python"
-print("Hello,", name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
