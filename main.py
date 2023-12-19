@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
