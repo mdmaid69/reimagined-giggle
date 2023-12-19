@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def convert_to_binary(n):
+        return bin(n)
