@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
