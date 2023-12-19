@@ -1,5 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
