@@ -1,7 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
