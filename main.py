@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
