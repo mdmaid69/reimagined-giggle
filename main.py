@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
