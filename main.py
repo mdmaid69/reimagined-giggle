@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
