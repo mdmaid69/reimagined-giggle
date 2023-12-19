@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
