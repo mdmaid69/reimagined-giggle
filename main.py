@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
