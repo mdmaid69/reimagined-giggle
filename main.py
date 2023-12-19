@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def is_even(n):
+        return n % 2 == 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
