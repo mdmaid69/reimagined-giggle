@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_item(array, i):
+        return array[i]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
