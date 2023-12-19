@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+for i in range(10): print(i)
+import platform
+def get_os_info():
+        return platform.uname()
