@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
