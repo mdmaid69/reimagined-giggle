@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
