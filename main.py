@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
