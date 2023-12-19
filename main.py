@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
