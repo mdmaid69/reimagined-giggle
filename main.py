@@ -1,7 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
