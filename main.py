@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
