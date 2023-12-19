@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
