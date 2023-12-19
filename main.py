@@ -1,5 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
