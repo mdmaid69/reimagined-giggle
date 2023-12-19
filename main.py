@@ -1,7 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
