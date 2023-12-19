@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_string_from_array(array):
+        return array.tobytes()
