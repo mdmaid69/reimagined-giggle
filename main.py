@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
