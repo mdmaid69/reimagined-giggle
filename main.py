@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_floor(x):
+        return math.floor(x)
