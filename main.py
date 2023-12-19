@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import random
+print(random.randint(0, 100))
+import json
+print(json.dumps({"name": "John", "age": 30}))
