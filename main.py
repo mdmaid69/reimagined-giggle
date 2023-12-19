@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def add_numbers(a, b):
-        return a + b
+def calculate_speed(distance, time):
+        return distance / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
