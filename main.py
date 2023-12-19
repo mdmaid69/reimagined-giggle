@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
