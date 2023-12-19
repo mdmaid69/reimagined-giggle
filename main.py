@@ -1,5 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_ceiling(x):
+        return math.ceil(x)
