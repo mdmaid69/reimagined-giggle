@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import collections
+def create_counter():
+        return collections.Counter()
