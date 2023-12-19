@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_stack():
+        return collections.deque()
