@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
