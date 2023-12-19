@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
