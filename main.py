@@ -1,5 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
