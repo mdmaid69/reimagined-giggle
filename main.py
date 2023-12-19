@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
