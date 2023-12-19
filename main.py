@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
