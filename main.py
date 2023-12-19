@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_list_from_array(array):
+        return array.tolist()
