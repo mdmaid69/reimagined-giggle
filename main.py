@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
