@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_power(work, time):
+        return work / time
+import time
+def get_current_time():
+        return time.time()
