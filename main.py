@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
