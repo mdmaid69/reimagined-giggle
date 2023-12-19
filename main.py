@@ -1,5 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
