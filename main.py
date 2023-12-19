@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+print(json.dumps({"name": "John", "age": 30}))
