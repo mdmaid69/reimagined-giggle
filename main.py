@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def get_array_slice(array, i, j):
+        return array[i:j]
