@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def convert_to_binary(n):
-        return bin(n)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
