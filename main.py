@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_floor(x):
+        return math.floor(x)
