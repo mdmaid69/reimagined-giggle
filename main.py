@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
