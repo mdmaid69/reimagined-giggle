@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
