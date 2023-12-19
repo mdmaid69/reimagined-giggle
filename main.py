@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
