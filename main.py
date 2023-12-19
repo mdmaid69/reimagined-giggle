@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def square_number(x):
-        return x**2
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
