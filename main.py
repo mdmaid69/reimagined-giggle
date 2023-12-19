@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def count_words(sentence):
+        return len(sentence.split())
