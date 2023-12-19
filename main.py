@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
