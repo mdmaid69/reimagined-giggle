@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def remove_duplicates(lst):
+        return list(set(lst))
