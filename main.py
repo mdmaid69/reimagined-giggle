@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
