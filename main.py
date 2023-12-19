@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
