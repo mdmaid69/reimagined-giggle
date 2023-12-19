@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import re
-print(re.match("h.*o", "hello world"))
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_work(force, distance):
+        return force * distance
