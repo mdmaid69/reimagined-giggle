@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
