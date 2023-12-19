@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
