@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import platform
+def get_os_info():
+        return platform.uname()
