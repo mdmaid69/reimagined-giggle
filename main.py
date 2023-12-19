@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
