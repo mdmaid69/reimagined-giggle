@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
