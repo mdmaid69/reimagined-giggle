@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  import sys
+  def get_python_version():
+        return sys.version
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
