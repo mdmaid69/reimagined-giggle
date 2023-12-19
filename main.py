@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import sys
+  def get_python_version():
+        return sys.version
