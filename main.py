@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def greet(name):
-        print(f"Hello, {name}!")
+def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
