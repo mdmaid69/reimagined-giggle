@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
