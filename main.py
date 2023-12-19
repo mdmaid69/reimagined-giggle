@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
