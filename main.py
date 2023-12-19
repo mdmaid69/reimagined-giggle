@@ -1,5 +1,12 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
