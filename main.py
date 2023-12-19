@@ -1,5 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
