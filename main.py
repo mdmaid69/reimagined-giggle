@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import numpy as np
+print(np.array([1, 2, 3]))
