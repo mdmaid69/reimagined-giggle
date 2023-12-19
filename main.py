@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
