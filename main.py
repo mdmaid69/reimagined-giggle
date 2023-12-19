@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
