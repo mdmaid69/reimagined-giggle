@@ -1,9 +1,6 @@
   import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
