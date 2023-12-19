@@ -1,5 +1,8 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
