@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_user_list():
+        return collections.UserList()
