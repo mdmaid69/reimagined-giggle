@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
