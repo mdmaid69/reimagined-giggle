@@ -1,6 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
