@@ -1,5 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_absolute_value(x):
+        return math.fabs(x)
