@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
