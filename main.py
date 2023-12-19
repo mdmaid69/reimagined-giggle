@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_density(mass, volume):
-        return mass / volume
+def count_characters(sentence):
+        return len(sentence)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
