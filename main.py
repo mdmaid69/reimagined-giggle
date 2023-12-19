@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
