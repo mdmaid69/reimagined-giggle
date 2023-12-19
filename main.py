@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def subtract_numbers(x, y):
+        return x - y
