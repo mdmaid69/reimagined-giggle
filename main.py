@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
