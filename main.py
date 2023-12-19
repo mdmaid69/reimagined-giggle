@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
