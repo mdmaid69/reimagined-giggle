@@ -1,6 +1,6 @@
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
