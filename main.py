@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
