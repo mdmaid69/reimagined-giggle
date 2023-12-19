@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
