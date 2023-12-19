@@ -1,6 +1,11 @@
-def calculate_power(work, time):
-        return work / time
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
