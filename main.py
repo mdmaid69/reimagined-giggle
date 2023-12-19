@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
