@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import sys
-  def get_python_version():
-        return sys.version
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
