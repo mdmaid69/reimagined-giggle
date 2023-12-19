@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def subtract_numbers(x, y):
+        return x - y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
