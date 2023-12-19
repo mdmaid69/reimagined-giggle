@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
