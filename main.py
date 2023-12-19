@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_current_directory():
+        return os.getcwd()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
