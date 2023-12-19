@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_as_bytearray(array):
+        return bytearray(array)
