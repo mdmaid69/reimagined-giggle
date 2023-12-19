@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
