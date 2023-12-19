@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
