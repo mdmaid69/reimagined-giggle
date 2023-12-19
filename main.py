@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_complex(array):
+        return complex(array[0])
