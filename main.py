@@ -1,6 +1,6 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
