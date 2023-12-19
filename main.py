@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+print("Hello, world!")
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
