@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
