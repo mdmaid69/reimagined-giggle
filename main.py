@@ -1,5 +1,8 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
