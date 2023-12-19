@@ -1,5 +1,11 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
