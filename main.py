@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import time
-def get_current_time():
-        return time.time()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
