@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def find_min(lst):
+        return min(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
