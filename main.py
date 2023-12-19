@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
