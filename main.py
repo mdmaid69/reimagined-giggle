@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def reverse_array(array):
+        array.reverse()
