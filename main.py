@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
