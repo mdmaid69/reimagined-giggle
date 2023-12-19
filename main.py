@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
