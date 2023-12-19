@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def add_numbers(x, y):
-        return x + y
+def calculate_density(mass, volume):
+        return mass / volume
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
