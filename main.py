@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_area_rectangle(l, w):
-        return l * w
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
