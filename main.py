@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import platform
-def get_python_version():
-        return platform.python_version()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
