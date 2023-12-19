@@ -1,5 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
