@@ -1,6 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import array
-def reverse_array(array):
-        array.reverse()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def get_array_as_set(array):
+        return set(array)
