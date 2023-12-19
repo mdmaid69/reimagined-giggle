@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
