@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
