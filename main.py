@@ -1,5 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
