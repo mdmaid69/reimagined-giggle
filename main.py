@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
