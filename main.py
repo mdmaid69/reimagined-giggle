@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
