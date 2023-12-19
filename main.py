@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
