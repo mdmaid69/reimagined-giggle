@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
