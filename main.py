@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
