@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
