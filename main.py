@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import time
+def get_current_time():
+        return time.time()
