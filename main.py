@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
