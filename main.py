@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_user_list():
-        return collections.UserList()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def sort_list(lst):
+        return sorted(lst)
