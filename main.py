@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+print([x**2 for x in range(10)])
