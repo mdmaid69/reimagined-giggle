@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
