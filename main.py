@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
