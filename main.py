@@ -1,6 +1,9 @@
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
