@@ -1,7 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import numpy as np
+print(np.array([1, 2, 3]))
