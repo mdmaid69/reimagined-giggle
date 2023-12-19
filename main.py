@@ -1,9 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import time
+print(time.time())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
