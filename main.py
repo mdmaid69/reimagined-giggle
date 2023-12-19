@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
