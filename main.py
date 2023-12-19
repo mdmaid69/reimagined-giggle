@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def find_min(numbers):
+        return min(numbers)
