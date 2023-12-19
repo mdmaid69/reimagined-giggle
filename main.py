@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_area_rectangle(l, w):
+        return l * w
