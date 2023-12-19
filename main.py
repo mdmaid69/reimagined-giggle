@@ -1,12 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
