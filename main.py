@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def square_number(x):
-        return x**2
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
