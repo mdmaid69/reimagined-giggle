@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
