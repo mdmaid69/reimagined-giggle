@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def convert_to_hex(n):
-        return hex(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
