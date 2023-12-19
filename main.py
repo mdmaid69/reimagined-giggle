@@ -1,4 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-def subtract_numbers(x, y):
-        return x - y
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
