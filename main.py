@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def multiply_numbers(x, y):
-        return x * y
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
