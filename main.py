@@ -1,6 +1,9 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
