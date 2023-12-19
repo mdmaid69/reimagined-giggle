@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import random
+print(random.randint(0, 100))
