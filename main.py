@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
