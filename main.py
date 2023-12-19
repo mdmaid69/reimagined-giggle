@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def is_even(n):
+        return n % 2 == 0
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
