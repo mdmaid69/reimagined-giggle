@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_area(radius):
+        return 3.14 * radius * radius
