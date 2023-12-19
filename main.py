@@ -1,5 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def is_palindrome(s):
-        return s == s[::-1]
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
