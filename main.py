@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
