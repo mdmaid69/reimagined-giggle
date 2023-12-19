@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
