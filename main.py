@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import logging
-def log_message(message):
-        logging.info(message)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
