@@ -1,8 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
