@@ -1,6 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def get_current_datetime():
+        return datetime.datetime.now()
