@@ -1,5 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import sys
+def exit_program():
+        sys.exit()
