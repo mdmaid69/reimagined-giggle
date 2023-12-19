@@ -1,6 +1,8 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
