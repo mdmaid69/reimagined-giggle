@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
