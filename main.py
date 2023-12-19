@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def count_elements(lst):
+        return len(lst)
