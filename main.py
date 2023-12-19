@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def is_odd(n):
-        return n % 2 != 0
+import time
+print(time.time())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
