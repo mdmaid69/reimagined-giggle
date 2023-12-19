@@ -1,9 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def count_elements(lst):
+        return len(lst)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
