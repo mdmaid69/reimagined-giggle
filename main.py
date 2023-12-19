@@ -1,6 +1,5 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
