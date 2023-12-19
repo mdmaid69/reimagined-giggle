@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
