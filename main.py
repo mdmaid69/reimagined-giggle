@@ -1,6 +1,7 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
