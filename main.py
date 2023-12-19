@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_max(lst):
+        return max(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
