@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
