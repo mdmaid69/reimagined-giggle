@@ -1,9 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
