@@ -1,7 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
