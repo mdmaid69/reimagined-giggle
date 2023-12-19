@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
