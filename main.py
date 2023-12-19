@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
