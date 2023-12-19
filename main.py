@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
