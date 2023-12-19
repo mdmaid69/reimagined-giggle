@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def cube_number(x):
+        return x**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
