@@ -1,4 +1,10 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
