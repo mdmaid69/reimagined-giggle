@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def split_path(path):
+        return os.path.split(path)
