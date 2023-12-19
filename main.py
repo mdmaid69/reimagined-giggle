@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
