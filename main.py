@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_work(force, distance):
+        return force * distance
