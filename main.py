@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_median(arr):
+        return np.median(arr)
