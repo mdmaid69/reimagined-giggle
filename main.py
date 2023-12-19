@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
