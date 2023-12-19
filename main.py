@@ -1,6 +1,3 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+print([x**2 for x in range(10)])
