@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def find_max(numbers):
+        return max(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
