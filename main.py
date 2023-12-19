@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import time
-def get_current_time():
-        return time.time()
+import tensorflow as tf
+print(tf.__version__)
+def remove_duplicates(lst):
+        return list(set(lst))
