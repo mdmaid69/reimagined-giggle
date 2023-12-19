@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
