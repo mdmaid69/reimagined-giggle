@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def reverse_list(lst):
-        return lst[::-1]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
