@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
