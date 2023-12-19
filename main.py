@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
