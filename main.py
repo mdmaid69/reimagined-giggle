@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
