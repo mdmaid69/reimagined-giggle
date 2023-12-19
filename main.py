@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_current_directory():
-        return os.getcwd()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
