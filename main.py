@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
