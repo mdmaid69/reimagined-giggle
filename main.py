@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_pressure(force, area):
+        return force / area
