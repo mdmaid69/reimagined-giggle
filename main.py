@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_acceleration(speed, time):
+        return speed / time
