@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_list(array):
+        return list(array)
