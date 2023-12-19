@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
