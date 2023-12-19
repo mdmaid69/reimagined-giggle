@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_density(mass, volume):
-        return mass / volume
+def count_characters(sentence):
+        return len(sentence)
+  def calculate_area_rectangle(l, w):
+        return l * w
