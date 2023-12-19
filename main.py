@@ -1,7 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
