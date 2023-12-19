@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_pressure(force, area):
+        return force / area
