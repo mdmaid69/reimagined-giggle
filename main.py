@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_volume(length, width, height):
-        return length * width * height
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
