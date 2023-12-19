@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-from collections import Counter
-print(Counter("hello world"))
+import sys
+def exit_program():
+        sys.exit()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
