@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
