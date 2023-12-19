@@ -1,5 +1,7 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
