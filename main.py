@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def sort_list(lst):
+        return sorted(lst)
