@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
