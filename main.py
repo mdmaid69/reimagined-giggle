@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
