@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import random
+def roll_die():
+        return random.randint(1, 6)
