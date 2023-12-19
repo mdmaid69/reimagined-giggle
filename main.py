@@ -1,5 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import datetime
-print(datetime.datetime.now())
+def get_array_index(array, item):
+        return array.index(item)
+def multiply_numbers(x, y):
+        return x * y
