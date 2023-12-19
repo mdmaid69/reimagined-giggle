@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import logging
+def log_message(message):
+        logging.info(message)
