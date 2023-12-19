@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
