@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
