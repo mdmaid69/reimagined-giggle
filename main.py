@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
