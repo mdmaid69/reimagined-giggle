@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
