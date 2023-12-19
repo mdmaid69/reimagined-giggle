@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
