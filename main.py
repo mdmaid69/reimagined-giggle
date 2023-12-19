@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
