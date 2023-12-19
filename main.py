@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import os
+print(os.getcwd())
+def is_odd(n):
+        return n % 2 != 0
