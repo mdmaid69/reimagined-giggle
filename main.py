@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
