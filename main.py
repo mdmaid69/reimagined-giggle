@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_area_rectangle(l, w):
+        return l * w
