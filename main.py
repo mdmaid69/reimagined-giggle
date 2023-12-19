@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
