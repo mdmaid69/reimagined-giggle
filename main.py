@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_min(lst):
+        return min(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
