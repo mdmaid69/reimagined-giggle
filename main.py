@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
