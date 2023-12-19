@@ -1,7 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
