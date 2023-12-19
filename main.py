@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
