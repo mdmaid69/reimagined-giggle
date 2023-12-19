@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
