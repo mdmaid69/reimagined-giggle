@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import re
+print(re.match("h.*o", "hello world"))
+def is_even(n):
+        return n % 2 == 0
