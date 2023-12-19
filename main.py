@@ -1,4 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-print([x**2 for x in range(10)])
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
