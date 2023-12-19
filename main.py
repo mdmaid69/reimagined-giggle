@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_typecode(array):
+        return array.typecode
+import time
+def get_current_time():
+        return time.time()
