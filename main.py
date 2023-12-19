@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+print(os.getcwd())
