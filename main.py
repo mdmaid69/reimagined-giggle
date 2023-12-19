@@ -1,6 +1,6 @@
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
