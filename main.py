@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
