@@ -1,7 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
