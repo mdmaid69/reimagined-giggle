@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
