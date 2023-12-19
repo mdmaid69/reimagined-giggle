@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
