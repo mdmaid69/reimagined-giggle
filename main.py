@@ -1,5 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
