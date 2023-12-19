@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import random
-def roll_die():
-        return random.randint(1, 6)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
