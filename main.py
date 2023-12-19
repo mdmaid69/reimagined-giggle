@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import sys
-  def get_python_version():
-        return sys.version
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
