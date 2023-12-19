@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def square_number(x):
-        return x**2
+import sys
+def print_python_version():
+        print(sys.version)
+import time
+def get_current_time():
+        return time.time()
