@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_length(array):
+        return len(array)
