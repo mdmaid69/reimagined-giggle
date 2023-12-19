@@ -1,5 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
