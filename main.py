@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
