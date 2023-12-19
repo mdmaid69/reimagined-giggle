@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
