@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import collections
+def create_stack():
+        return collections.deque()
