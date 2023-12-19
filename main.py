@@ -1,6 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
