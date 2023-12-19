@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
