@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
