@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+import datetime
+def get_current_date():
+        return datetime.date.today()
