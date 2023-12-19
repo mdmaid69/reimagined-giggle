@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
