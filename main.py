@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
