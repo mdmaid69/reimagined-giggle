@@ -1,6 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def remove_duplicates(lst):
+        return list(set(lst))
