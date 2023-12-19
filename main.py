@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_logarithm_base_e(x):
+        return math.log(x)
