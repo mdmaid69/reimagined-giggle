@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
