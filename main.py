@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+for i in range(10): print(i)
