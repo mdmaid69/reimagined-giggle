@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
