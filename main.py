@@ -1,5 +1,9 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
