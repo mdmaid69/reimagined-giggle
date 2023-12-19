@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def clear_array(array):
-        array *= 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
