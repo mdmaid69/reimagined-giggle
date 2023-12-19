@@ -1,5 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
