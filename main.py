@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
