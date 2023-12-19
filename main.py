@@ -1,5 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_work(force, distance):
+        return force * distance
