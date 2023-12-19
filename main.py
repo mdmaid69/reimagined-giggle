@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import collections
+def create_stack():
+        return collections.deque()
