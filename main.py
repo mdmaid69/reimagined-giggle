@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import logging
-def log_message(message):
-        logging.info(message)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
