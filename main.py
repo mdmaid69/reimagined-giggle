@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
