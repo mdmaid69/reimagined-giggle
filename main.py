@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+name = "Python"
+print("Hello,", name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
