@@ -1,7 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+print([x**2 for x in range(10)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
