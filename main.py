@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_floor(x):
+        return math.floor(x)
