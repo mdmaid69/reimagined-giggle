@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
