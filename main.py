@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
+import sys
+def exit_program():
+        sys.exit()
