@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
