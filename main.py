@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
