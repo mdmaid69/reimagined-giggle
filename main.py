@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
