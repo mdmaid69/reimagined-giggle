@@ -1,7 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
