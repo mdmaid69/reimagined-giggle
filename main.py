@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+for i in range(5):
+        print(i)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
