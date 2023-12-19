@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
