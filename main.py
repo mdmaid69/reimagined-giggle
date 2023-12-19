@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
