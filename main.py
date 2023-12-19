@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def convert_to_octal(n):
+        return oct(n)
+  def convert_to_binary(n):
+        return bin(n)
