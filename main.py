@@ -1,5 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def convert_to_octal(n):
-        return oct(n)
+def count_elements(lst):
+        return len(lst)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
