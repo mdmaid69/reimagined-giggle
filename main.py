@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import getpass
+def get_username():
+        return getpass.getuser()
