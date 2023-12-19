@@ -1,7 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
