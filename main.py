@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
