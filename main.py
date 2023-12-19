@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def square_number(x):
+        return x**2
