@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
