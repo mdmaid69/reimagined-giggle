@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
