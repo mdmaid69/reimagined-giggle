@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
