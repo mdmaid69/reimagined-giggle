@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def find_max(lst):
-        return max(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
