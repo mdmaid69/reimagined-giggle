@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def is_odd(n):
+        return n % 2 != 0
