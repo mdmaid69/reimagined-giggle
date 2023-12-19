@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
