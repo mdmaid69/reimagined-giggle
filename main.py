@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def is_even(n):
+        return n % 2 == 0
