@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
