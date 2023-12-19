@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-print(random.randint(0, 100))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
