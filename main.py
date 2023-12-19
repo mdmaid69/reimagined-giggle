@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
