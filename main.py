@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
