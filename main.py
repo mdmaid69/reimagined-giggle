@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def divide_numbers(x, y):
-        return x / y
+def calculate_error_function(x):
+        return math.erf(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
