@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import tensorflow as tf
-print(tf.__version__)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_max(numbers):
+        return max(numbers)
