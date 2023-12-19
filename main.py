@@ -1,8 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
