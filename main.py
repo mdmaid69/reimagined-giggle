@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_length(array):
+        return len(array)
