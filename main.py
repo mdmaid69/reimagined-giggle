@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def cube_number(x):
+        return x**3
+  def is_even(n):
+        return n % 2 == 0
