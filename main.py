@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+from collections import Counter
+print(Counter("hello world"))
