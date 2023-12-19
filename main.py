@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def find_max(numbers):
+        return max(numbers)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
