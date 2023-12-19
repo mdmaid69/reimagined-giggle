@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
