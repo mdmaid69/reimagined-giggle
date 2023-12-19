@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-print(random.randint(0, 100))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_pressure(force, area):
+        return force / area
