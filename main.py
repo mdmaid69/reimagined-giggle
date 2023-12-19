@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def find_max(lst):
+        return max(lst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
