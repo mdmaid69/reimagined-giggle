@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
