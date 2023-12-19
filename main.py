@@ -1,6 +1,5 @@
+import sys
+print(sys.version)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
