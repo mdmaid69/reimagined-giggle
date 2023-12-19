@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
