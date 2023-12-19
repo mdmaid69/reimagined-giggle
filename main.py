@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
