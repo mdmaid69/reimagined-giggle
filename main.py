@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
