@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
