@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
+def convert_to_binary(n):
+        return bin(n)
