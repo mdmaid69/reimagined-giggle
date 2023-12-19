@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+print("Hello, world!")
