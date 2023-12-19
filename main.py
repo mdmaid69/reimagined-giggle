@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
