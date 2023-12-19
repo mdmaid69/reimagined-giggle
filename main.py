@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_work(force, distance):
-        return force * distance
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
