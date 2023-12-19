@@ -1,5 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_pressure(force, area):
-        return force / area
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
