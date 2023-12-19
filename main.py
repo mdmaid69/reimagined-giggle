@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
