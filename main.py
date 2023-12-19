@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
