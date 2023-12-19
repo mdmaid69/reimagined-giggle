@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sys
+print(sys.version)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
