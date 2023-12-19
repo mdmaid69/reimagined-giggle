@@ -1,5 +1,5 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+print(random.randint(0, 100))
