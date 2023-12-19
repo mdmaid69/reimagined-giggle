@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
