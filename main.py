@@ -1,5 +1,10 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def find_max(numbers):
-        return max(numbers)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
