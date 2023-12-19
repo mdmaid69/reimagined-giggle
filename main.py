@@ -1,4 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
