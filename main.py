@@ -1,7 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def convert_to_hex(n):
+        return hex(n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
