@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_user_string():
+        return collections.UserString()
