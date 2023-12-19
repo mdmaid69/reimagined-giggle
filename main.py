@@ -1,8 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
