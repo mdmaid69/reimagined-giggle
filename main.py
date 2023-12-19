@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
+import getpass
+def get_username():
+        return getpass.getuser()
