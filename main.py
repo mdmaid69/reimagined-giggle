@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def is_even(n):
-        return n % 2 == 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_list_from_array(array):
+        return array.tolist()
