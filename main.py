@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
