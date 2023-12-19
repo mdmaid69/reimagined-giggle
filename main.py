@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
