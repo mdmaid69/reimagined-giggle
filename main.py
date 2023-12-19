@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_string(array):
+        return array.tostring()
