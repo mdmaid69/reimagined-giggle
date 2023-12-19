@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import random
+print(random.randint(0, 100))
+  def convert_to_hex(n):
+        return hex(n)
