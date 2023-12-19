@@ -1,8 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
