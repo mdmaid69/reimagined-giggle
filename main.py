@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
