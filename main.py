@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
