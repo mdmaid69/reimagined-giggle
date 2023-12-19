@@ -1,6 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import re
-def find_pattern(pattern, string):
+def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
-  import os
-  def split_path(path):
-        return os.path.split(path)
