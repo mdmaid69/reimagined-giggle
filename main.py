@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
