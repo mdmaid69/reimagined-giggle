@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import datetime
+print(datetime.datetime.now())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
