@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
