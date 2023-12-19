@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+x = 10
+y = 20
+print("Sum:", x + y)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
