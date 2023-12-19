@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_work(force, distance):
+        return force * distance
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
