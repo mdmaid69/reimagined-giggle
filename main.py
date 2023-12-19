@@ -1,7 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
