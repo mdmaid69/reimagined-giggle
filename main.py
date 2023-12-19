@@ -1,5 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_acceleration(speed, time):
+        return speed / time
