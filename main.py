@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
