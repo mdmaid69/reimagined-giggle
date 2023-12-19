@@ -1,4 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def cube_number(x):
-        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
