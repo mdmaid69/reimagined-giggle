@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
