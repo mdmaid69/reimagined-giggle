@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import os
-print(os.getcwd())
-x = 10
-y = 20
-print("Sum:", x + y)
+def get_file_size(filename):
+        return os.path.getsize(filename)
