@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_index(array, item):
+        return array.index(item)
