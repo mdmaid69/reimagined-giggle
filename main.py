@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
