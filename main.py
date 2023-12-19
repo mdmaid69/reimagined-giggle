@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_volume(length, width, height):
-        return length * width * height
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def count_characters(sentence):
+        return len(sentence)
