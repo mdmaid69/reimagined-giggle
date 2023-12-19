@@ -1,11 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+from collections import Counter
+print(Counter("hello world"))
