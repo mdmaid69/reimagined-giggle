@@ -1,5 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
