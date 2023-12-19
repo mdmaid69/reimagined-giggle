@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
