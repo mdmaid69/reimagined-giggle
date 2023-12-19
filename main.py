@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
