@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
