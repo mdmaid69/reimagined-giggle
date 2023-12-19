@@ -1,5 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
