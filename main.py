@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def cube_number(x):
+        return x**3
