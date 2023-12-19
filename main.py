@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import random
-print(random.randint(0, 100))
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
