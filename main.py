@@ -1,5 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_as_set(array):
+        return set(array)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
