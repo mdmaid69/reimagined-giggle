@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
