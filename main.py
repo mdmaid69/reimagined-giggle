@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_binary(n):
-        return bin(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
