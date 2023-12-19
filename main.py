@@ -1,5 +1,8 @@
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
