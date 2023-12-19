@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
