@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def multiply_numbers(x, y):
+        return x * y
