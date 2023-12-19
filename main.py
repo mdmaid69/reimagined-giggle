@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_power(work, time):
+        return work / time
