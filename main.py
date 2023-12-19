@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_min(numbers):
-        return min(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def clear_array(array):
+        array *= 0
