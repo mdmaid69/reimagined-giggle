@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-print(math.pi)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
