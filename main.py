@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
