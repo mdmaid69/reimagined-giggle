@@ -1,7 +1,7 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
