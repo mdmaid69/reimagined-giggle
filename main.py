@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
