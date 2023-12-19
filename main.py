@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def reverse_list(lst):
-        return lst[::-1]
+def get_array_item(array, i):
+        return array[i]
