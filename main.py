@@ -1,5 +1,9 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
