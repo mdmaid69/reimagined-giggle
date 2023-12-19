@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
