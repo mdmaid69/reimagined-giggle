@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
