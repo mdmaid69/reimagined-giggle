@@ -1,7 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
