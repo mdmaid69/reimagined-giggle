@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
