@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+def exit_program():
+        sys.exit()
