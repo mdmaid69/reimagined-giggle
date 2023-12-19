@@ -1,6 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import tensorflow as tf
+print(tf.__version__)
