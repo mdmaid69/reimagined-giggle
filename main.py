@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
