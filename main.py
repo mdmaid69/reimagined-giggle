@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_as_str(array):
-        return str(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def cube_number(x):
+        return x**3
