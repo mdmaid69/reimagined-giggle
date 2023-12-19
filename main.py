@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def convert_to_binary(n):
+        return bin(n)
