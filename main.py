@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_str(array):
+        return str(array)
