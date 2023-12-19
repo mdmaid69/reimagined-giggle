@@ -1,3 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-print([x**2 for x in range(10)])
+def subtract_numbers(x, y):
+        return x - y
+  def remove_duplicates(lst):
+        return list(set(lst))
