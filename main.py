@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+print("Hello, world!")
+import json
+def convert_to_json(data):
+        return json.dumps(data)
