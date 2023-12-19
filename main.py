@@ -1,4 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_speed(distance, time):
-        return distance / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
