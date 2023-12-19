@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
