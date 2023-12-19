@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_work(force, distance):
+        return force * distance
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
