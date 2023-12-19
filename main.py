@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
