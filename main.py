@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_work(force, distance):
+        return force * distance
