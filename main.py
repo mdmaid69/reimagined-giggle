@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def create_user_string():
-        return collections.UserString()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_sine(x):
+        return math.sin(x)
