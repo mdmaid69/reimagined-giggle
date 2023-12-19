@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def subtract_numbers(x, y):
+        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
