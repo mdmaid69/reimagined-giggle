@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
