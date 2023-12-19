@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
