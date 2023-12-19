@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
