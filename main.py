@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
