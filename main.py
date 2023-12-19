@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
