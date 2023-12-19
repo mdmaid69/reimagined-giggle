@@ -1,5 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
