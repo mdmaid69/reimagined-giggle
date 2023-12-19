@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
