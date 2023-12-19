@@ -1,5 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
