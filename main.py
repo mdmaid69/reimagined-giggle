@@ -1,5 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
