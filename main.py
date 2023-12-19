@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
