@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import datetime
+def get_today_date():
+        return datetime.date.today()
