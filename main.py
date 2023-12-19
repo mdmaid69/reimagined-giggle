@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
