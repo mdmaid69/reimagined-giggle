@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
