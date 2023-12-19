@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
