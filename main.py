@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
