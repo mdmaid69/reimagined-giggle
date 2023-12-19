@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import sys
-def exit_program():
-        sys.exit()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
