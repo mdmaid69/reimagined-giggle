@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
