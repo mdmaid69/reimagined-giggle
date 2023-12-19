@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
