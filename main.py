@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_pressure(force, area):
-        return force / area
+def cube_number(x):
+        return x**3
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
