@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import sys
-def print_python_version():
-        return sys.version
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
