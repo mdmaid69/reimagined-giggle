@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
