@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
