@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
