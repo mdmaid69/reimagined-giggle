@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
