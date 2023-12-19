@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
