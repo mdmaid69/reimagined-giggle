@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import random
+def roll_die():
+        return random.randint(1, 6)
