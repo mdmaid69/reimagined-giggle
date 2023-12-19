@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
