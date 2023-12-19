@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
