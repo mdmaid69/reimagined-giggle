@@ -1,5 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
