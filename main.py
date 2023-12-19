@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import datetime
+def get_current_date():
+        return datetime.date.today()
