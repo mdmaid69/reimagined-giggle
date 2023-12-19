@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_even(n):
-        return n % 2 == 0
+def calculate_volume(length, width, height):
+        return length * width * height
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
