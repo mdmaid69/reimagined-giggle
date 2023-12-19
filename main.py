@@ -1,8 +1,5 @@
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
