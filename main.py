@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
