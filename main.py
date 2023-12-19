@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def convert_to_hex(n):
-        return hex(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def clear_array(array):
+        array *= 0
