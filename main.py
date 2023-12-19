@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
