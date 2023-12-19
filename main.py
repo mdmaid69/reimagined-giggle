@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
