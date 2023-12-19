@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def find_max(numbers):
-        return max(numbers)
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
