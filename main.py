@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
