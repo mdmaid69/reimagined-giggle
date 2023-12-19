@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
