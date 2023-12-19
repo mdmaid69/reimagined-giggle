@@ -1,6 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
