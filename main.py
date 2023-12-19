@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
