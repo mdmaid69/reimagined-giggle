@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
