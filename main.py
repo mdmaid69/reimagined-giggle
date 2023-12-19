@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
