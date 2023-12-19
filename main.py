@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def convert_to_hex(n):
+        return hex(n)
