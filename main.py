@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
