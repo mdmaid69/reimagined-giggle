@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
