@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
