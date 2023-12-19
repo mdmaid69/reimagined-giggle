@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
