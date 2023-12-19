@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
