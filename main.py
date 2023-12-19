@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
