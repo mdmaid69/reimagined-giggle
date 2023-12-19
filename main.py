@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
