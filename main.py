@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_power(work, time):
+        return work / time
+import random
+def roll_die():
+        return random.randint(1, 6)
