@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def multiply_numbers(x, y):
+        return x * y
+  def add_numbers(x, y):
+        return x + y
