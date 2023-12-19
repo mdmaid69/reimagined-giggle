@@ -1,7 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
