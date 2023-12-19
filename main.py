@@ -1,6 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
