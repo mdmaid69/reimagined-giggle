@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
