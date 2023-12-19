@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
