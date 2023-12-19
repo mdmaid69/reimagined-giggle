@@ -1,6 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
