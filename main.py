@@ -1,8 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def convert_to_octal(n):
+        return oct(n)
