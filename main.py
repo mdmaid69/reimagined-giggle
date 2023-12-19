@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
