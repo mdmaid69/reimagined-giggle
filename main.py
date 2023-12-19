@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import getpass
+def get_username():
+        return getpass.getuser()
