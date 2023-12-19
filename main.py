@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
