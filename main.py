@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
