@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def add_numbers(x, y):
-        return x + y
+  def split_path(path):
+        return os.path.split(path)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
