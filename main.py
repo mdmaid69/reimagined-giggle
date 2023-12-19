@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_length(array):
+        return len(array)
