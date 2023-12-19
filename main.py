@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def cube_number(x):
-        return x**3
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
