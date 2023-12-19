@@ -1,6 +1,9 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
