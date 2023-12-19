@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def is_palindrome(s):
-        return s == s[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
