@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
