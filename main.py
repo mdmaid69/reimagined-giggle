@@ -1,7 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
