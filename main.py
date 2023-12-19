@@ -1,7 +1,8 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
