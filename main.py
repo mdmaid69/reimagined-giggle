@@ -1,8 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
