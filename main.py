@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
