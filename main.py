@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def remove_duplicates(lst):
+        return list(set(lst))
+x = 10
+y = 20
+print("Sum:", x + y)
