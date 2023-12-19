@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def is_odd(n):
+        return n % 2 != 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
