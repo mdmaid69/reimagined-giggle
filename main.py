@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
