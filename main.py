@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def subtract_numbers(x, y):
+        return x - y
+def divide_numbers(x, y):
+        return x / y
