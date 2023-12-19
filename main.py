@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
