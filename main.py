@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
