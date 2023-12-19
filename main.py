@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import collections
-def create_user_list():
-        return collections.UserList()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import getpass
+def get_username():
+        return getpass.getuser()
