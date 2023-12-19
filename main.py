@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
