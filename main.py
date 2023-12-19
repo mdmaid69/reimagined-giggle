@@ -1,8 +1,8 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
