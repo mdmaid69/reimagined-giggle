@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
