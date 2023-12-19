@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import platform
+def get_os_info():
+        return platform.uname()
