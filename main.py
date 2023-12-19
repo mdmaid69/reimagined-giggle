@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
