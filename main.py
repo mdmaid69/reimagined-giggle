@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import sys
+print(sys.version)
