@@ -1,8 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
