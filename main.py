@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_user_list():
+        return collections.UserList()
