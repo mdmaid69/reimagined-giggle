@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def is_odd(n):
+        return n % 2 != 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
