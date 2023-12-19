@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
