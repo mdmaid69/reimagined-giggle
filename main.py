@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
