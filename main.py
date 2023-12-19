@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
