@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
