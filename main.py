@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
