@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
