@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_min(lst):
-        return min(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def add_numbers(x, y):
+        return x + y
