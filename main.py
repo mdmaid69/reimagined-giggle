@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
