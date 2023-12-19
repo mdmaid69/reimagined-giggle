@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
