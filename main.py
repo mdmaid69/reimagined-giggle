@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
