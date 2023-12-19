@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
