@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
