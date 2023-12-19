@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def clear_array(array):
+        array *= 0
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
