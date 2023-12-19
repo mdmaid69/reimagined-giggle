@@ -1,6 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_absolute_value(x):
+        return math.fabs(x)
