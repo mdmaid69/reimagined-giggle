@@ -1,5 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  def add_numbers(x, y):
+        return x + y
