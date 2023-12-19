@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_as_str(array):
+        return str(array)
