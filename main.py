@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
