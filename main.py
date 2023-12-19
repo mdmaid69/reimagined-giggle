@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+for i in range(5):
+        print(i)
