@@ -1,12 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
