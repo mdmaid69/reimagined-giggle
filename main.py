@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
