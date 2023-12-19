@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def add_numbers(a, b):
+        return a + b
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
