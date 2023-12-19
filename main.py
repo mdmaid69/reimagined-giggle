@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_list(array):
+        return list(array)
