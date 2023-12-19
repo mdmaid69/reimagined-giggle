@@ -1,5 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
