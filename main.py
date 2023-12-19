@@ -1,8 +1,6 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def clear_array(array):
-        array *= 0
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_item_count(array, item):
+        return array.count(item)
