@@ -1,6 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
