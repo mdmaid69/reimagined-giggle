@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_user_string():
+        return collections.UserString()
+def cube_number(x):
+        return x**3
