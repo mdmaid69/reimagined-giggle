@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import tensorflow as tf
+print(tf.__version__)
