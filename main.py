@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_power(work, time):
+        return work / time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
