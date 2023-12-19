@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
