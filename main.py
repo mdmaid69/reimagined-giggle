@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
