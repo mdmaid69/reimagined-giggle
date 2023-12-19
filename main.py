@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
