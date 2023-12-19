@@ -1,7 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
