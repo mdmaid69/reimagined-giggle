@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
