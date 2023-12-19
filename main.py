@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_max(lst):
+        return max(lst)
