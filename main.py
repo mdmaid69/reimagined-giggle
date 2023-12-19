@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
