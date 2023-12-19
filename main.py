@@ -1,8 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_complex(array):
+        return complex(array[0])
