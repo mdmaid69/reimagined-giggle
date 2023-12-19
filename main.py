@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_power(work, time):
-        return work / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
