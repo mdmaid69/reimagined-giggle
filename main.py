@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import random
-print(random.randint(0, 100))
+def clear_array(array):
+        array *= 0
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
