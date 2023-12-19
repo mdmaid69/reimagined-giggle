@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_queue():
+        return collections.deque()
+def sort_list(lst):
+        return sorted(lst)
