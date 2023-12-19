@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def greet(name):
-        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
