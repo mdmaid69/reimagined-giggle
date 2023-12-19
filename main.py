@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
