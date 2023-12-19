@@ -1,5 +1,7 @@
-import time
-print(time.time())
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
