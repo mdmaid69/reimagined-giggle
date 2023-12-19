@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
