@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
