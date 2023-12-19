@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
