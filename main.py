@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
