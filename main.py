@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import time
+print(time.time())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
