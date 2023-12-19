@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
