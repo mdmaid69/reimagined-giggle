@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
