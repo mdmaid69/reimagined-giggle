@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def is_odd(n):
-        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
