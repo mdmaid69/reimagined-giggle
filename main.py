@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_floor(x):
+        return math.floor(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
