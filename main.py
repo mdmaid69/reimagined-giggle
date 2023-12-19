@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_area_rectangle(l, w):
+        return l * w
