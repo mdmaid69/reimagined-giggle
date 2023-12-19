@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
