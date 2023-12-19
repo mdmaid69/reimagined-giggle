@@ -1,5 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
