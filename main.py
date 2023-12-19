@@ -1,4 +1,9 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
