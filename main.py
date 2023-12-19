@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
