@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
