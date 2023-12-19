@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
