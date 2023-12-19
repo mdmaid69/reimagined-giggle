@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def count_elements(lst):
+        return len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
