@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
