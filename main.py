@@ -1,7 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def sort_list(lst):
+        return sorted(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
