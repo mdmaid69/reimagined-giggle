@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
