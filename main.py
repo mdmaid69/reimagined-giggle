@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
