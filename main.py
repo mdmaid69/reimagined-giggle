@@ -1,4 +1,7 @@
-print(sum(range(10)))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
