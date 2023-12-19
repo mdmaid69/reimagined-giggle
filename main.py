@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def reverse_array(array):
+        array.reverse()
+for i in range(5):
+        print(i)
