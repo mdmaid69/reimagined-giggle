@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
