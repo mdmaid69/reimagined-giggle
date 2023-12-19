@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
