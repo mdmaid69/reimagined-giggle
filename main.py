@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
