@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
