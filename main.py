@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
