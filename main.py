@@ -1,4 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_density(mass, volume):
+        return mass / volume
