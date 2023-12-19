@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
