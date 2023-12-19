@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
