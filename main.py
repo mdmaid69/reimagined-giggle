@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import os
+def get_current_working_directory():
+        return os.getcwd()
