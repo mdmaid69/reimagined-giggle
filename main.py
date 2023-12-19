@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
