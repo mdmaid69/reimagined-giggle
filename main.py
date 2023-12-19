@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+from collections import Counter
+print(Counter("hello world"))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
