@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
