@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  def calculate_area_rectangle(l, w):
+        return l * w
