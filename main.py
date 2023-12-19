@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def is_even(n):
+        return n % 2 == 0
