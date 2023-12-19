@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
