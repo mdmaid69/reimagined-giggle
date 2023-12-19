@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import datetime
-print(datetime.datetime.now())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
