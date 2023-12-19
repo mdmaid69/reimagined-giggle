@@ -1,3 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-print([x**2 for x in range(10)])
+def calculate_work(force, distance):
+        return force * distance
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
