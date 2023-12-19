@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
