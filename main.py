@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
