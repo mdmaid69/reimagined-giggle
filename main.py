@@ -1,6 +1,3 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+print(sum(range(10)))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
