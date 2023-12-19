@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
