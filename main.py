@@ -1,9 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
