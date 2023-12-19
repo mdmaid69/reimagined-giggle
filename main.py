@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
