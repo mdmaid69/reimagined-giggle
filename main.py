@@ -1,5 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def add_numbers(x, y):
-        return x + y
+def calculate_exponential(x):
+        return math.exp(x)
+def remove_duplicates(lst):
+        return list(set(lst))
