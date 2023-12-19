@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_unique_words(sentence):
+        return set(sentence.split())
