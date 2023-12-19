@@ -1,6 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
