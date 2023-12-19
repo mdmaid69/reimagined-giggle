@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
