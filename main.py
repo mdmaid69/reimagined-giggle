@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def append_to_array(array, item):
+        array.append(item)
