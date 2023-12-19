@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
