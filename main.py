@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
