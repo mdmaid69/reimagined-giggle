@@ -1,8 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
