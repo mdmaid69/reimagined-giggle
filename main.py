@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
