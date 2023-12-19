@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
