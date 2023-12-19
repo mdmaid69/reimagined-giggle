@@ -1,6 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
