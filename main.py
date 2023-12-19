@@ -1,6 +1,12 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
