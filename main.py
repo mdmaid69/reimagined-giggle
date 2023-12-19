@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
