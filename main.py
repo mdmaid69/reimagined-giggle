@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
