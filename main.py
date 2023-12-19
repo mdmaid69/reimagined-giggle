@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import sys
-  def get_python_version():
-        return sys.version
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
