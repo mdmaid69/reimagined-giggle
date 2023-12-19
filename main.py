@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def sort_list(lst):
+        return sorted(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
