@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_floor(x):
+        return math.floor(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
