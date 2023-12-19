@@ -1,10 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
