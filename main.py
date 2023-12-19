@@ -1,8 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
