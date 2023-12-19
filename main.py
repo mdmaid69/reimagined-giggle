@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_exponential(x):
+        return math.exp(x)
