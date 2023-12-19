@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
