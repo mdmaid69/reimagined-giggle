@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+text = "Hello, world!"
+print("Characters:", len(text))
