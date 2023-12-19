@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
