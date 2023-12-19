@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
