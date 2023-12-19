@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
