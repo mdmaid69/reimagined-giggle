@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
