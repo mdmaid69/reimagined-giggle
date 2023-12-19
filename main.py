@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_set(array):
+        return set(array)
