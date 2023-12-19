@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
