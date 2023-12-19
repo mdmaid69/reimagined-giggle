@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
