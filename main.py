@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
