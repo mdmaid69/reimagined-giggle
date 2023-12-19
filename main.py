@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
