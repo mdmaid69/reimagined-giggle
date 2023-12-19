@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
