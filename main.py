@@ -1,7 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+print(random.randint(0, 100))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
