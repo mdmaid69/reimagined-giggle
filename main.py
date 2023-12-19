@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_length(array):
+        return len(array)
