@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_user_string():
-        return collections.UserString()
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
