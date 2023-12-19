@@ -1,7 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
