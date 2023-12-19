@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def exit_program():
+        sys.exit()
