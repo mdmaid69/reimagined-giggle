@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
