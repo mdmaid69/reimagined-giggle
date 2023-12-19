@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
