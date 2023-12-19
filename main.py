@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import math
 def calculate_cosine(x):
         return math.cos(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
