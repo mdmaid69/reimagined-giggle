@@ -1,7 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
