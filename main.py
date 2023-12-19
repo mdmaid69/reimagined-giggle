@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_pressure(force, area):
-        return force / area
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
