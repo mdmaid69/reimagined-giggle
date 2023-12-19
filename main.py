@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def get_current_time():
+        return time.ctime()
