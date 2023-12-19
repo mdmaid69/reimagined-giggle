@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
