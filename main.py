@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
