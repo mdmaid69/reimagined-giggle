@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def cube_number(x):
+        return x**3
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
