@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
