@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
