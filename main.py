@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sys
-print(sys.version)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_item(array, i):
+        return array[i]
