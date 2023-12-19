@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
 import random
-print(random.randint(0, 100))
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
