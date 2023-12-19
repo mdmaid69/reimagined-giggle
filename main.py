@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
