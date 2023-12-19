@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
