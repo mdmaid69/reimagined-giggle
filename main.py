@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
