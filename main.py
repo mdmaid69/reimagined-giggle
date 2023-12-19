@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def cube_number(x):
-        return x**3
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
