@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def find_max(lst):
+        return max(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
