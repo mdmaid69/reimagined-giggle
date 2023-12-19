@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-print(math.pi)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_power(work, time):
+        return work / time
