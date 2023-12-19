@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
