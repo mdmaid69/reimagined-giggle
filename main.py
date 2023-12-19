@@ -1,10 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def add_numbers(x, y):
+        return x + y
+  def calculate_area_rectangle(l, w):
+        return l * w
