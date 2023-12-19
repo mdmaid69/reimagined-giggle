@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
