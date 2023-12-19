@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
