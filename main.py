@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
