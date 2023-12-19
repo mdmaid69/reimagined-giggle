@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def sort_list(lst):
+        return sorted(lst)
