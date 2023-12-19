@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
