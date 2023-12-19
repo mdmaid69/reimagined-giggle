@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
