@@ -1,7 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
