@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
