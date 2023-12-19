@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+for i in range(5):
+        print(i)
+import sys
+def exit_program():
+        sys.exit()
