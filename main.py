@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_counter():
-        return collections.Counter()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
