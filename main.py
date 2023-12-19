@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_current_directory():
+        return os.getcwd()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
