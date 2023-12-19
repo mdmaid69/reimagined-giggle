@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
