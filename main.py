@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
