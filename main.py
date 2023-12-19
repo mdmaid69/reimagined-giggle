@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_power(work, time):
+        return work / time
+import sys
+def exit_program():
+        sys.exit()
