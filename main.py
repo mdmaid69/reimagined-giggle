@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def cube_number(x):
+        return x**3
+import re
+print(re.match("h.*o", "hello world"))
