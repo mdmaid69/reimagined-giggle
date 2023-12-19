@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
