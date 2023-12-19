@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+x = 10
+y = 20
+print("Sum:", x + y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
