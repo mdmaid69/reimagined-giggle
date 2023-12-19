@@ -1,7 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
