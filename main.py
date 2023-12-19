@@ -1,5 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def is_odd(n):
+        return n % 2 != 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
