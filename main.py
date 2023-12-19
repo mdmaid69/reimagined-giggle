@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_queue():
-        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
+  def sort_list(lst):
+        return sorted(lst)
