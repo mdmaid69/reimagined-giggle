@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
