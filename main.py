@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_arc_tangent(x):
+        return math.atan(x)
