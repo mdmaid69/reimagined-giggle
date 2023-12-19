@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-name = "Python"
-print("Hello,", name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
