@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
