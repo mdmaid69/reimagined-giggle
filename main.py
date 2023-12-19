@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_volume(length, width, height):
+        return length * width * height
+def count_words(sentence):
+        return len(sentence.split())
