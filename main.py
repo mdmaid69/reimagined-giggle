@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
