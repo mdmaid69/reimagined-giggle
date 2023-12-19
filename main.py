@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+for i in range(5):
+        print(i)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
