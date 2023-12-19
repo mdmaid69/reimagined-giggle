@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
