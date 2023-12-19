@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
