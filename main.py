@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
