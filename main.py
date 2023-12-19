@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
