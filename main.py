@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import json
+print(json.dumps({"name": "John", "age": 30}))
