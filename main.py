@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import platform
-def get_os_info():
-        return platform.uname()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
