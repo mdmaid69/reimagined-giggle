@@ -1,8 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_bool(array):
+        return bool(array)
