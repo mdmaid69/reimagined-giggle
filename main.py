@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_repr(array):
+        return repr(array)
