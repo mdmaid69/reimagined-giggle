@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
