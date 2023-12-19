@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
