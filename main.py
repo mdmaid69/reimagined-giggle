@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
