@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
