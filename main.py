@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
