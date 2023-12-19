@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_work(force, distance):
+        return force * distance
