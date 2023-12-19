@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
