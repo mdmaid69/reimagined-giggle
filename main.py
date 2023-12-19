@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
