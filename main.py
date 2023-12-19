@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
