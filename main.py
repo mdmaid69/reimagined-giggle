@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_work(force, distance):
+        return force * distance
+def reverse_list(lst):
+        return lst[::-1]
