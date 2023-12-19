@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
