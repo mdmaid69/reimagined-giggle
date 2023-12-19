@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def add_numbers(x, y):
         return x + y
-def find_union(list1, list2):
-        return set(list1) | set(list2)
