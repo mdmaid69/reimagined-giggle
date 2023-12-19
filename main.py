@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_queue():
-        return collections.deque()
+import sys
+print(sys.version)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
