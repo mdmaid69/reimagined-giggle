@@ -1,4 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-for i in range(10): print(i)
+def square_number(x):
+        return x**2
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
