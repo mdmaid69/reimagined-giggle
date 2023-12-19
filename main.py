@@ -1,5 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import datetime
-print(datetime.datetime.now())
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
