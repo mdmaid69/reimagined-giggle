@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
