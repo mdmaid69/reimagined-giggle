@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+print(math.pi)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
