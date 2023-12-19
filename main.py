@@ -1,4 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-print(sum(range(10)))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def is_palindrome(s):
+        return s == s[::-1]
