@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
