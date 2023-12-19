@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def find_min(lst):
+        return min(lst)
+def calculate_power(work, time):
+        return work / time
