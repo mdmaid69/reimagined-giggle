@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
