@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def subtract_numbers(x, y):
+        return x - y
