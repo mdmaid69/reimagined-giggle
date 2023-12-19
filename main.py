@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
