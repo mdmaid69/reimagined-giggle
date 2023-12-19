@@ -1,6 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
