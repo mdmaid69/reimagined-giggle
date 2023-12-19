@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
