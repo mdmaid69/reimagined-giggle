@@ -1,7 +1,5 @@
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
