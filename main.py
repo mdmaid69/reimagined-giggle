@@ -1,3 +1,4 @@
-print(sum(range(10)))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def reverse_string(s):
+        return s[::-1]
+def cube_number(x):
+        return x**3
