@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def cube_number(x):
+        return x**3
