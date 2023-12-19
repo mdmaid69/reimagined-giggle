@@ -1,8 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def cube_number(x):
+        return x**3
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
