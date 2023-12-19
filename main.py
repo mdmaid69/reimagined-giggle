@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def find_max(lst):
-        return max(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
