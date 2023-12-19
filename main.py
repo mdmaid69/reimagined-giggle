@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def subtract_numbers(x, y):
+        return x - y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
