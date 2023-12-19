@@ -1,7 +1,4 @@
-import math
-print(math.pi)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
