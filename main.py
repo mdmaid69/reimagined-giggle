@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
