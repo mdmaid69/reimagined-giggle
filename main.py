@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def count_characters(sentence):
+        return len(sentence)
