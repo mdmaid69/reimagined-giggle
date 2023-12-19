@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_length(array):
-        return len(array)
+  def is_even(n):
+        return n % 2 == 0
+from collections import Counter
+print(Counter("hello world"))
