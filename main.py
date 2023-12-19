@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def count_elements(lst):
+        return len(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
