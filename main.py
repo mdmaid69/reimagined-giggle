@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def convert_to_octal(n):
-        return oct(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
