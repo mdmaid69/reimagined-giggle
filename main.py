@@ -1,7 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
