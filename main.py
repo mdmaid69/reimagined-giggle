@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def square_number(x):
+        return x**2
