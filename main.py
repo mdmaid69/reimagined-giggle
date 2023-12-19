@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
