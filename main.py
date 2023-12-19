@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def divide_numbers(x, y):
+        return x / y
