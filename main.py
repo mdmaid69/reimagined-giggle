@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_pressure(force, area):
+        return force / area
