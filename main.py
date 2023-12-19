@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
