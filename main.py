@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
