@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
