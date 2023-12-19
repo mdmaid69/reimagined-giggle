@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
