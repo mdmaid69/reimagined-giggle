@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def set_array_item(array, i, item):
+        array[i] = item
