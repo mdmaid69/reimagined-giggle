@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def set_array_item(array, i, item):
+        array[i] = item
