@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
