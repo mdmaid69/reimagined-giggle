@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def sort_list(lst):
+        return sorted(lst)
