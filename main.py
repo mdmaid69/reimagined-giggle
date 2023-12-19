@@ -1,5 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def convert_to_binary(n):
-        return bin(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
