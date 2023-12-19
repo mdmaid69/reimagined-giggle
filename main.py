@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
