@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
