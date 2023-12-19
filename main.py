@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import array
-def reverse_array(array):
-        array.reverse()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
