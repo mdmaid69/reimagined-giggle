@@ -1,7 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import sys
-def exit_program():
-        sys.exit()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
