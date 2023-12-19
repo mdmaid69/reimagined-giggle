@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def reverse_array(array):
+        array.reverse()
+import re
+print(re.match("h.*o", "hello world"))
