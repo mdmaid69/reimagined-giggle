@@ -1,10 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import time
+def get_current_time():
+        return time.time()
