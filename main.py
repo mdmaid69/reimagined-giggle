@@ -1,6 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
