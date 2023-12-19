@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_density(mass, volume):
-        return mass / volume
+import platform
+def get_os_info():
+        return platform.uname()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
