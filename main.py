@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
