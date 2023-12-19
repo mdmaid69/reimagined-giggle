@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
