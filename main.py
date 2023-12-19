@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
