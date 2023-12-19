@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def subtract_numbers(x, y):
-        return x - y
+  def remove_duplicates(lst):
+        return list(set(lst))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
