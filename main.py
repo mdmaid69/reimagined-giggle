@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
