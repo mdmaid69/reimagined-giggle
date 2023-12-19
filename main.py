@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
