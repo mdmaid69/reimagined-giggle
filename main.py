@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def square_number(x):
+        return x**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
