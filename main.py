@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
