@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
