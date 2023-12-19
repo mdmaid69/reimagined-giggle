@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+print(sum(range(10)))
