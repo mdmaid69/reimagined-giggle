@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
