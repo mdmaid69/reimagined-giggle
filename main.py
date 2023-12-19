@@ -1,5 +1,12 @@
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
