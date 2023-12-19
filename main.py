@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_speed(distance, time):
-        return distance / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
