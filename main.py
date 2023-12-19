@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
