@@ -1,12 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import platform
+def get_python_version():
+        return platform.python_version()
