@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
