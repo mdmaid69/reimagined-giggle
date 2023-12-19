@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
