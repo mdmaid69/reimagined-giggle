@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_user_list():
+        return collections.UserList()
