@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
