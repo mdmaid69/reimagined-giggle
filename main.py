@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def create_user_string():
+        return collections.UserString()
