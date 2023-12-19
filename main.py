@@ -1,7 +1,4 @@
+print(sum(range(10)))
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_gamma_function(x):
+        return math.gamma(x)
