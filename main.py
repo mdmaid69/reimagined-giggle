@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import platform
-def get_python_version():
-        return platform.python_version()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
