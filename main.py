@@ -1,6 +1,6 @@
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def get_array_as_list(array):
+        return list(array)
