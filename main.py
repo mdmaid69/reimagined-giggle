@@ -1,7 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_density(mass, volume):
+        return mass / volume
