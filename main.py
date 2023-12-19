@@ -1,5 +1,8 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
