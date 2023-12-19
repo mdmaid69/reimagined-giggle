@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
