@@ -1,5 +1,10 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
