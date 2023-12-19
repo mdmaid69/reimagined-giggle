@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
