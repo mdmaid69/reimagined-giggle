@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
