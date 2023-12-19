@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
