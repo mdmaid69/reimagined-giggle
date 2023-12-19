@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
