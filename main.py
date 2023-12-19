@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
