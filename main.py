@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def greet(name):
+        print(f"Hello, {name}!")
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
