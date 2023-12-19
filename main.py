@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
