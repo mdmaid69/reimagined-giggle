@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
