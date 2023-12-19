@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def subtract_numbers(x, y):
+        return x - y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
