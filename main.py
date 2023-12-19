@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def multiply_numbers(x, y):
-        return x * y
+for i in range(10): print(i)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
