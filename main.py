@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
