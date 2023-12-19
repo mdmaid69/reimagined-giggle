@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
