@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
