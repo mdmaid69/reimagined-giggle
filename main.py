@@ -1,6 +1,9 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
