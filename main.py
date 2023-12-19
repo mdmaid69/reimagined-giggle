@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import sys
+  def get_python_version():
+        return sys.version
