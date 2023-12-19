@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
