@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def sort_list(lst):
+        return sorted(lst)
