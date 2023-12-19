@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
