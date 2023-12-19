@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+for i in range(5):
+        print(i)
+def subtract_numbers(x, y):
+        return x - y
