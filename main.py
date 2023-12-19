@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
