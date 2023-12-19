@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
