@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
