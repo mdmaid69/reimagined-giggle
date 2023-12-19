@@ -1,7 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
