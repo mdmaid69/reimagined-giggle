@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def add_numbers(x, y):
-        return x + y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
