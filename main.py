@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
