@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
