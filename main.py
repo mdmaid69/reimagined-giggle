@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def convert_to_octal(n):
+        return oct(n)
