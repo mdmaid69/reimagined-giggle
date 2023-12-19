@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
