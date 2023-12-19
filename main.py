@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
