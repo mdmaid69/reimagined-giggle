@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
