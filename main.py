@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_floor(x):
+        return math.floor(x)
