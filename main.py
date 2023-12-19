@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
