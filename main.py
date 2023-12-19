@@ -1,6 +1,6 @@
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def pop_from_array(array, i=-1):
+        return array.pop(i)
