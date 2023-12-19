@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
