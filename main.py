@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
