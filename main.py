@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
