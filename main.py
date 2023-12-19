@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
