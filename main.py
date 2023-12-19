@@ -1,5 +1,7 @@
-def count_characters(sentence):
-        return len(sentence)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
