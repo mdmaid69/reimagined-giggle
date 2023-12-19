@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+print(math.pi)
