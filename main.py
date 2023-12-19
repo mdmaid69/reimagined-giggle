@@ -1,12 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
