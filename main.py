@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
