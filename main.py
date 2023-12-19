@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import time
-def get_time_since_epoch():
-        return time.time()
+def count_elements(lst):
+        return len(lst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
