@@ -1,8 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
