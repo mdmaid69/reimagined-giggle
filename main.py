@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
