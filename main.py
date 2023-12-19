@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
