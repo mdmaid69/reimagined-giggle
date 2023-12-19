@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
