@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
