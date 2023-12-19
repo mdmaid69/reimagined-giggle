@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import datetime
+print(datetime.datetime.now())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
