@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
