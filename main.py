@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
