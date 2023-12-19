@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import tensorflow as tf
-print(tf.__version__)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
