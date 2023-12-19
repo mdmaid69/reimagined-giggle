@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def subtract_numbers(x, y):
+        return x - y
