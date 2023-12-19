@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
