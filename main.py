@@ -1,6 +1,7 @@
+def count_characters(sentence):
+        return len(sentence)
   import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
