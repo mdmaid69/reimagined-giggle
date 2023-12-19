@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import sys
+def exit_program():
+        sys.exit()
+def reverse_list(lst):
+        return lst[::-1]
