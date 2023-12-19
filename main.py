@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import random
-print(random.randint(0, 100))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
