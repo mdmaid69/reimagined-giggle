@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
