@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
