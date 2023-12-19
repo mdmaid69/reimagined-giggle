@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def square_number(x):
-        return x**2
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
