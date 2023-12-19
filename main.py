@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
