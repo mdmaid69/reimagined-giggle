@@ -1,5 +1,10 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
