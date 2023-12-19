@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
