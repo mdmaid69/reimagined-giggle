@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
