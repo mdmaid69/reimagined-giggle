@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
