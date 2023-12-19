@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
