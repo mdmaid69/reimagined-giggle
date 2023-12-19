@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
