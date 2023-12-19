@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
