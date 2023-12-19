@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import numpy as np
+print(np.array([1, 2, 3]))
