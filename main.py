@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
