@@ -1,7 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
