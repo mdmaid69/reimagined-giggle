@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
