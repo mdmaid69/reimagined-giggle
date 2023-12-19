@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
