@@ -1,6 +1,7 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
