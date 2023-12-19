@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_array_to_unicode(array):
+        return array.tounicode()
