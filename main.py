@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_sine(x):
+        return math.sin(x)
