@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
