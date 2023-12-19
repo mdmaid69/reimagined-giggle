@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
