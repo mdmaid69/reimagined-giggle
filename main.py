@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
