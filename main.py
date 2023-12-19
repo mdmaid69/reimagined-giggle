@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
