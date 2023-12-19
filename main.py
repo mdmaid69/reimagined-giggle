@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
