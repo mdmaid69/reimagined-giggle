@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
