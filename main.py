@@ -1,3 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-print(sum(range(10)))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import logging
+def log_message(message):
+        logging.info(message)
