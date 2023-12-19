@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import time
+print(time.time())
