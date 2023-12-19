@@ -1,6 +1,8 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
