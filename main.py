@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import random
+print(random.randint(0, 100))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
