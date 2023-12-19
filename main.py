@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
