@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def convert_to_binary(n):
+        return bin(n)
