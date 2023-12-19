@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
