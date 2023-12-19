@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
