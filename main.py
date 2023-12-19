@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
