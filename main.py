@@ -1,4 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-print(sum(range(10)))
+def add_numbers(x, y):
+        return x + y
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
