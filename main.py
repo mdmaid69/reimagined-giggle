@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
