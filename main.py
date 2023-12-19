@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def subtract_numbers(x, y):
+        return x - y
