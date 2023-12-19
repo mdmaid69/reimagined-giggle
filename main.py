@@ -1,5 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
