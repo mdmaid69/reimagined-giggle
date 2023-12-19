@@ -1,5 +1,12 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_area_rectangle(l, w):
-        return l * w
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
