@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def greet(name):
+        print(f"Hello, {name}!")
