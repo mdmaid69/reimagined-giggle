@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
