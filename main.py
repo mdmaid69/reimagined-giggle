@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
