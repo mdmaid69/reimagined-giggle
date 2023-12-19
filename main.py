@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_cosine(x):
+        return math.cos(x)
