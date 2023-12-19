@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
