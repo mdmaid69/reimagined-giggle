@@ -1,5 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
