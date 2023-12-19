@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def reverse_list(lst):
+        return lst[::-1]
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
