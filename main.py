@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
