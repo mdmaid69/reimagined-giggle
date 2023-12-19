@@ -1,6 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
