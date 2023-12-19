@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
