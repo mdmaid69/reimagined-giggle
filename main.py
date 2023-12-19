@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import platform
-def get_os_info():
-        return platform.uname()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
