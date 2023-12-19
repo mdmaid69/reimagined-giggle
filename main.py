@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
