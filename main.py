@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
