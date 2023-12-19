@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import platform
-def get_python_version():
-        return platform.python_version()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
