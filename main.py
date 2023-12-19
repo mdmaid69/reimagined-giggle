@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def is_odd(n):
+        return n % 2 != 0
