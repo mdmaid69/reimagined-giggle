@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
