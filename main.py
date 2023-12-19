@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import time
+print(time.time())
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
