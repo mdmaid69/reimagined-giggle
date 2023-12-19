@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
