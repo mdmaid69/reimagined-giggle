@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-print(sys.version)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
