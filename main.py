@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import sys
+def exit_program():
+        sys.exit()
