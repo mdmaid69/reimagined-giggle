@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
