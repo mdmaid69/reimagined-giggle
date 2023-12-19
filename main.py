@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
