@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import collections
-def create_queue():
-        return collections.deque()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
