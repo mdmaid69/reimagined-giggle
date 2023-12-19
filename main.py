@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_pressure(force, area):
+        return force / area
