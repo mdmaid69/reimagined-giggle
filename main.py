@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
