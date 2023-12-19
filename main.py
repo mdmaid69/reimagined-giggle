@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
