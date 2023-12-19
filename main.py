@@ -1,5 +1,9 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
