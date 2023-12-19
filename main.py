@@ -1,7 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
