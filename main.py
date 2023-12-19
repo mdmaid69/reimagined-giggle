@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def find_max(numbers):
+        return max(numbers)
+def convert_to_octal(n):
+        return oct(n)
