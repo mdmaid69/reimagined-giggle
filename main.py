@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
