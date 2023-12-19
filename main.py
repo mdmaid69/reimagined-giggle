@@ -1,9 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
