@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def remove_from_array(array, item):
+        array.remove(item)
