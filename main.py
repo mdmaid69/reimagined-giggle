@@ -1,8 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def set_array_item(array, i, item):
+        array[i] = item
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
