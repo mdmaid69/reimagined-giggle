@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def convert_to_octal(n):
-        return oct(n)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
