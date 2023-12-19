@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import tensorflow as tf
+print(tf.__version__)
