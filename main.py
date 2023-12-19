@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_item(array, i):
+        return array[i]
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
