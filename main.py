@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_slice(array, i, j):
+        return array[i:j]
