@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
