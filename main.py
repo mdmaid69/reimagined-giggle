@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
