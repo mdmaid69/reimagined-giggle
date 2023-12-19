@@ -1,5 +1,3 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+for i in range(10): print(i)
