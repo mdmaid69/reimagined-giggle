@@ -1,5 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def get_array_as_int(array):
+        return int(array[0])
