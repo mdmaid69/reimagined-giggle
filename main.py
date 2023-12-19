@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def reverse_list(lst):
+        return lst[::-1]
