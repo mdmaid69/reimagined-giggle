@@ -1,7 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_speed(distance, time):
+        return distance / time
