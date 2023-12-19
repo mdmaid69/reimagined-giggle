@@ -1,7 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_typecode(array):
+        return array.typecode
