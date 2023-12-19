@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import time
+def get_current_time():
+        return time.ctime()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cosine(x):
+        return math.cos(x)
