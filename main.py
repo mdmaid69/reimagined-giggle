@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import time
+print(time.time())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
