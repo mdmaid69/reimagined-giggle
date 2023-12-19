@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_acceleration(speed, time):
-        return speed / time
+from collections import Counter
+print(Counter("hello world"))
+def add_numbers(a, b):
+        return a + b
