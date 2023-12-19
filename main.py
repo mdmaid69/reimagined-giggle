@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
