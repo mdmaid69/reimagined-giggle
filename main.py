@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+print(sum(range(10)))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
