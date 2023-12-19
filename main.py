@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+for i in range(5):
+        print(i)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
