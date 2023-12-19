@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
