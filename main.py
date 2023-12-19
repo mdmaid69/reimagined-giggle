@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
