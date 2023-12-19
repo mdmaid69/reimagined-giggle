@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
