@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+for i in range(10): print(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
