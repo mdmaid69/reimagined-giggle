@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import numpy as np
+print(np.array([1, 2, 3]))
