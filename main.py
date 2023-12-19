@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def remove_from_array(array, item):
+        array.remove(item)
