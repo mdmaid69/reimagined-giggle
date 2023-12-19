@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
