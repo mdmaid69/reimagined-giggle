@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import platform
-def get_os_info():
-        return platform.uname()
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
