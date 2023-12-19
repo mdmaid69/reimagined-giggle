@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import datetime
+def get_today_date():
+        return datetime.date.today()
+for i in range(5):
+        print(i)
