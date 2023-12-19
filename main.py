@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
