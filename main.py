@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
