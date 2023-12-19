@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
