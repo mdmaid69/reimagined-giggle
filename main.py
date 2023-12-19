@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-x = 10
-y = 20
-print("Sum:", x + y)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
