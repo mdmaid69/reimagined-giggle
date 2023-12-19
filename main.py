@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
