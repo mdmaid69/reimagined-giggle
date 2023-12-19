@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
