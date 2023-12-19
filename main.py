@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_max(lst):
+        return max(lst)
