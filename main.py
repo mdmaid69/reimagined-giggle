@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
