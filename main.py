@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
