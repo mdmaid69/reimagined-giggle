@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_bool(array):
+        return bool(array)
