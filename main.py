@@ -1,8 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_base_name(path):
+        return os.path.basename(path)
