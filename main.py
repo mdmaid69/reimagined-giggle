@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
