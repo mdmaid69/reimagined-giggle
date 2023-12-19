@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_sine(x):
+        return math.sin(x)
