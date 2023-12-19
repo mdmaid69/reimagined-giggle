@@ -1,5 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
