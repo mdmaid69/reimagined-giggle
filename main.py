@@ -1,5 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def reverse_string(s):
+        return s[::-1]
