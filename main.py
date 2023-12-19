@@ -1,5 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
