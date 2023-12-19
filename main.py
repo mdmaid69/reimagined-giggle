@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
