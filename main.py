@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def is_odd(n):
+        return n % 2 != 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
