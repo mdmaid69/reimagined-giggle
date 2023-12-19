@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
