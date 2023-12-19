@@ -1,7 +1,9 @@
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
