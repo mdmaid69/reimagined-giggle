@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
