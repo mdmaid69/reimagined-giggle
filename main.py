@@ -1,7 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
