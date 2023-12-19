@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import json
+print(json.dumps({"name": "John", "age": 30}))
