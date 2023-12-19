@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
