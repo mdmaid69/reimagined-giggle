@@ -1,4 +1,5 @@
+import collections
+def create_stack():
+        return collections.deque()
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def count_words(sentence):
-        return len(sentence.split())
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
