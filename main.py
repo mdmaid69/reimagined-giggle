@@ -1,6 +1,4 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+print([x**2 for x in range(10)])
