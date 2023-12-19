@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
