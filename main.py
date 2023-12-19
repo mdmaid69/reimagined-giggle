@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
