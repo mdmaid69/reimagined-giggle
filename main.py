@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
