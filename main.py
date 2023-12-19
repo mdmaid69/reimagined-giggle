@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
