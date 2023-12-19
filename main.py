@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
