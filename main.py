@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def split_path(path):
+        return os.path.split(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
