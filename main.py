@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_work(force, distance):
+        return force * distance
