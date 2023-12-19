@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_stack():
+        return collections.deque()
