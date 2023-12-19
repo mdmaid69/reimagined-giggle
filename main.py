@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
