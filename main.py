@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_item(array, i):
+        return array[i]
