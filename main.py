@@ -1,6 +1,12 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
