@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def convert_array_to_string(array):
+        return array.tostring()
