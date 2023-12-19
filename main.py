@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
