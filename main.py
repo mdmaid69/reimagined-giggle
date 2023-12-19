@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
