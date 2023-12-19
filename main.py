@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def add_numbers(x, y):
+        return x + y
