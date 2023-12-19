@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-for i in range(5):
-        print(i)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
