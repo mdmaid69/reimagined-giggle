@@ -1,6 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
