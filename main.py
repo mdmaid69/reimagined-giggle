@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def convert_to_binary(n):
+        return bin(n)
