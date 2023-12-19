@@ -1,5 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
