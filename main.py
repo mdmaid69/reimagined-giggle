@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+for i in range(5):
+        print(i)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
