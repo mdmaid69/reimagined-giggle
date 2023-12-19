@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
