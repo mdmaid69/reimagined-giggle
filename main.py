@@ -1,5 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
