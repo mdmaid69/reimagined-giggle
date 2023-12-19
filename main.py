@@ -1,9 +1,7 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
+def calculate_hyperbolic_arc_tangent(x):
         return math.atanh(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
