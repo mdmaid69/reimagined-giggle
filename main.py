@@ -1,5 +1,8 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
