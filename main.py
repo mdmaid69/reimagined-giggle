@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_pressure(force, area):
+        return force / area
