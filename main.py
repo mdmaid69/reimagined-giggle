@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
