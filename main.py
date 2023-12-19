@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
