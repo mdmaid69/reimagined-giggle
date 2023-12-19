@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
