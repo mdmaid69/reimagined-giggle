@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
