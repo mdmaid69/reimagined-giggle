@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def is_odd(n):
+        return n % 2 != 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
