@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_current_working_directory():
+        return os.getcwd()
+def convert_to_hex(n):
+        return hex(n)
