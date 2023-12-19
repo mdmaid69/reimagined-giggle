@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_volume(length, width, height):
+        return length * width * height
