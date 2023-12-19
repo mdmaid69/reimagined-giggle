@@ -1,6 +1,9 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
