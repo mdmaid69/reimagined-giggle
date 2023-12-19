@@ -1,5 +1,9 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
