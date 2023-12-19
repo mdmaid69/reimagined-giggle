@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
