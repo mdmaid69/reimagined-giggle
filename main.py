@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
