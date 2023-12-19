@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
