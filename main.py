@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import platform
+def get_python_version():
+        return platform.python_version()
