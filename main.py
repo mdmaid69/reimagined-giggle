@@ -1,6 +1,8 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
