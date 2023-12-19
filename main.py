@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def add_numbers(x, y):
+        return x + y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
