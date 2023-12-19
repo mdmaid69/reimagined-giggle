@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_octal(n):
+        return oct(n)
