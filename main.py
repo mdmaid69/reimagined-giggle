@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Reversed:", text[::-1])
