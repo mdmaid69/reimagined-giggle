@@ -1,4 +1,6 @@
-for i in range(10): print(i)
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
