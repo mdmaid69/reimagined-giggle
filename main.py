@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
