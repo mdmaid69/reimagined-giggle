@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
