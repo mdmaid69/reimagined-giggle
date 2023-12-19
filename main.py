@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
