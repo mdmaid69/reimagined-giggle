@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
