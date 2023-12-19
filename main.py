@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import time
+print(time.time())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
