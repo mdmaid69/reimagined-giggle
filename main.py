@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
