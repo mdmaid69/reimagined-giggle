@@ -1,5 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_min(lst):
-        return min(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
