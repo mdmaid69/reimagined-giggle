@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def change_working_directory(path):
+        os.chdir(path)
