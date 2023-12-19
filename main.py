@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
