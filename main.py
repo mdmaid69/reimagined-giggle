@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def square_number(x):
+        return x**2
