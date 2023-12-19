@@ -1,6 +1,7 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_as_float(array):
+        return float(array[0])
