@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
