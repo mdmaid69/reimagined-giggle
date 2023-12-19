@@ -1,4 +1,9 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
