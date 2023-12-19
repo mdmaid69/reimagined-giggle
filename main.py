@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import platform
+def get_python_version():
+        return platform.python_version()
