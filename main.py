@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
