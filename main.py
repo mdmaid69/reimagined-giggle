@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_user_dict():
+        return collections.UserDict()
