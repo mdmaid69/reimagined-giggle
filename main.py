@@ -1,11 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_area(radius):
+        return 3.14 * radius * radius
+i = 0
+while i < 5:
+        print(i)
+        i += 1
