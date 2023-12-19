@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_repr(array):
+        return repr(array)
