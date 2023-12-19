@@ -1,6 +1,8 @@
-import json
-def load_json(filename):
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+        reader = csv.reader(f)
+        return list(reader)
