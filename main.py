@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import os
+print(os.getcwd())
