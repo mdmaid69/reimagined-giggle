@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
