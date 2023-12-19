@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
