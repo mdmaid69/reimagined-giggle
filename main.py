@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_volume(length, width, height):
+        return length * width * height
