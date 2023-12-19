@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
