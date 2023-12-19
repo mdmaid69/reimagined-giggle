@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import os
+print(os.getcwd())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
