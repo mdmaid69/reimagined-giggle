@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+i = 0
+while i < 5:
+        print(i)
+        i += 1
