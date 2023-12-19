@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
