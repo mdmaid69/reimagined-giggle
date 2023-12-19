@@ -1,5 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_list_from_array(array):
+        return array.tolist()
+  def count_elements(lst):
+        return len(lst)
