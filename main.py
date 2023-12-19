@@ -1,7 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
