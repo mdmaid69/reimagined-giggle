@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
