@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
