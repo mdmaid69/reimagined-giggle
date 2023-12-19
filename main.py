@@ -1,5 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def remove_duplicates(lst):
-        return list(set(lst))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
