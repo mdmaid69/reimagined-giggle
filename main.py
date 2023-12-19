@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_list(array):
-        return list(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
