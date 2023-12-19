@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
