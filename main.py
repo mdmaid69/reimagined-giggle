@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
