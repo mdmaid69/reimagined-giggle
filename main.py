@@ -1,6 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
