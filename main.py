@@ -1,4 +1,12 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
