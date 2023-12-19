@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
