@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
