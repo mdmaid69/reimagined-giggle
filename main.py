@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
