@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def is_palindrome(s):
-        return s == s[::-1]
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
