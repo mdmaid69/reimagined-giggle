@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
