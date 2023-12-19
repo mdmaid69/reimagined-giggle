@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
