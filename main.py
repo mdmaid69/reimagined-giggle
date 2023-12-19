@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
