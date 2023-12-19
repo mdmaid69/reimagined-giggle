@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_octal(n):
-        return oct(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import numpy as np
+print(np.array([1, 2, 3]))
