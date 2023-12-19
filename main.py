@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
