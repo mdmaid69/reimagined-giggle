@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
