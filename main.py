@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
