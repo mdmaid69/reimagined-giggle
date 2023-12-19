@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
