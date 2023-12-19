@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
