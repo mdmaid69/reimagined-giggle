@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def create_user_list():
+        return collections.UserList()
