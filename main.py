@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
