@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
