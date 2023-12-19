@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
