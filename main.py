@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_area(radius):
+        return 3.14 * radius * radius
