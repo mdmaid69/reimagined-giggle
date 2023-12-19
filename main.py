@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
