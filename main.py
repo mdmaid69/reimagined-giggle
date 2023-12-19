@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_tangent(x):
+        return math.tan(x)
