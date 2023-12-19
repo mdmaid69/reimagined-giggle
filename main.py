@@ -1,13 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def get_array_as_frozenset(array):
+        return frozenset(array)
