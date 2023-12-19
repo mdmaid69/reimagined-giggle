@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
