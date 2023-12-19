@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
