@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
