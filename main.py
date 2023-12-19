@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
