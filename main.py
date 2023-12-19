@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
