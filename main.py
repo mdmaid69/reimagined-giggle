@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def reverse_list(lst):
+        return lst[::-1]
