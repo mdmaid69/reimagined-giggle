@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
