@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
