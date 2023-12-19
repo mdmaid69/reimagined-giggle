@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
