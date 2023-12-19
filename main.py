@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
