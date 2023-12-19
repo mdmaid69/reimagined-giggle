@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
