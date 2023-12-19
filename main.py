@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
