@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-print(random.randint(0, 100))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
