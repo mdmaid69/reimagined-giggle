@@ -1,8 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import platform
+def get_os_info():
+        return platform.uname()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
