@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def convert_to_hex(n):
+        return hex(n)
