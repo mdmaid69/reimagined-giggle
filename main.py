@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def is_palindrome(s):
+        return s == s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
