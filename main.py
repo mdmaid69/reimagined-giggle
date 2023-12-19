@@ -1,5 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
