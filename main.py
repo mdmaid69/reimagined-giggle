@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
