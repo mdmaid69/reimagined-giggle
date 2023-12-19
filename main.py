@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def print_python_version():
+        return sys.version
