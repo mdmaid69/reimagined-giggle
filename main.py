@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
