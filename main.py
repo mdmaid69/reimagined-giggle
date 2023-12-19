@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
