@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
