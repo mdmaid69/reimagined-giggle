@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
