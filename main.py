@@ -1,5 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_acceleration(speed, time):
-        return speed / time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import os
+def change_working_directory(path):
+        os.chdir(path)
