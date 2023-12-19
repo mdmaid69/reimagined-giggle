@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
