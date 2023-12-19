@@ -1,4 +1,10 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
