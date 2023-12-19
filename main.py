@@ -1,5 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
