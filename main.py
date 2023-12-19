@@ -1,4 +1,8 @@
-  def square_number(x):
-        return x**2
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_priority_queue():
+        return collections.deque()
