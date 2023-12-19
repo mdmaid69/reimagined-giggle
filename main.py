@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
