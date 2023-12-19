@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
