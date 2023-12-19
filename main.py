@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def add_numbers(x, y):
-        return x + y
+def divide_numbers(x, y):
+        return x / y
+def find_min(lst):
+        return min(lst)
