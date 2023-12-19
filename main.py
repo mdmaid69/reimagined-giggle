@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
