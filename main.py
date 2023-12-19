@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
