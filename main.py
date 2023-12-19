@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
