@@ -1,5 +1,9 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
