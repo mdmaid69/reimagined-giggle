@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def append_to_array(array, item):
+        array.append(item)
