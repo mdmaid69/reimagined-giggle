@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
