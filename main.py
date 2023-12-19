@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def reverse_string(s):
+        return s[::-1]
+def count_characters(sentence):
+        return len(sentence)
