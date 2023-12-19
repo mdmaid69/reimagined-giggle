@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
