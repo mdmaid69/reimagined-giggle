@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def convert_to_octal(n):
+        return oct(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
