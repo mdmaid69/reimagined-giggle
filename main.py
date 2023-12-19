@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
