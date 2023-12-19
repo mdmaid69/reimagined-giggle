@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.time()
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
