@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def clear_array(array):
-        array *= 0
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_array_to_bytes(array):
+        return array.tobytes()
