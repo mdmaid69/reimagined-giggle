@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
