@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
