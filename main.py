@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+print(datetime.datetime.now())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
