@@ -1,7 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
