@@ -1,6 +1,3 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
