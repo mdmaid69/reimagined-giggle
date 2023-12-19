@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def convert_to_hex(n):
+        return hex(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
