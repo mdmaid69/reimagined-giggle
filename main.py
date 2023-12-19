@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_power(work, time):
-        return work / time
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
