@@ -1,9 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
