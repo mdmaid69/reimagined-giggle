@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def get_array_length(array):
-        return len(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_itemsize(array):
+        return array.itemsize
