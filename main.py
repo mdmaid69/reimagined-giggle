@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-def exit_program():
-        sys.exit()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
