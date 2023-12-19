@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
