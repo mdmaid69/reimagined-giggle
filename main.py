@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_density(mass, volume):
-        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
