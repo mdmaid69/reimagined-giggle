@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
