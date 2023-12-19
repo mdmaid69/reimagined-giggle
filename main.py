@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
