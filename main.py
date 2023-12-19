@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_max(numbers):
+        return max(numbers)
