@@ -1,5 +1,5 @@
-print([x**2 for x in range(10)])
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
