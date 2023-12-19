@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
