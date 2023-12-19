@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def subtract_numbers(x, y):
-        return x - y
+def count_words(sentence):
+        return len(sentence.split())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
