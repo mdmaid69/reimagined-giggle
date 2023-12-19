@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def reverse_array(array):
+        array.reverse()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
