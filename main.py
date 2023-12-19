@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
