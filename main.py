@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
