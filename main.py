@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
