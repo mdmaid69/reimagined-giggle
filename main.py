@@ -1,5 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_speed(distance, time):
+        return distance / time
