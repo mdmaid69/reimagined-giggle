@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_factorial(n):
+        return math.factorial(n)
