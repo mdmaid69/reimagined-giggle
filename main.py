@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import sys
+def print_python_version():
+        return sys.version
