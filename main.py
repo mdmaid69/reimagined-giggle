@@ -1,8 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
