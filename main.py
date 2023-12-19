@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_max(numbers):
+        return max(numbers)
