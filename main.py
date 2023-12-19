@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
