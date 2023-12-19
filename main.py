@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
