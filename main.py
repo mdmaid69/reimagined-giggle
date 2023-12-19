@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
