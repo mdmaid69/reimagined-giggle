@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
