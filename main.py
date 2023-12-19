@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
