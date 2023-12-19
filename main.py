@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import getpass
+def get_username():
+        return getpass.getuser()
