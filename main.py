@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_str(array):
+        return str(array)
