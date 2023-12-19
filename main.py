@@ -1,4 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-for i in range(10): print(i)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
