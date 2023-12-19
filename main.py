@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
