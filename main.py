@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import sys
+def print_python_version():
+        return sys.version
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
