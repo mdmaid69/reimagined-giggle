@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
