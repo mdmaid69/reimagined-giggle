@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
