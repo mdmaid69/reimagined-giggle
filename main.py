@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
