@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
