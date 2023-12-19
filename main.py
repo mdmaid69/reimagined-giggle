@@ -1,6 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
