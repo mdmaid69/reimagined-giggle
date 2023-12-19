@@ -1,5 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
