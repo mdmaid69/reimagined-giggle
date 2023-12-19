@@ -1,8 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
