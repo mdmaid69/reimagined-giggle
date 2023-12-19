@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
