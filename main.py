@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def convert_to_binary(n):
+        return bin(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
