@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def convert_to_binary(n):
+        return bin(n)
