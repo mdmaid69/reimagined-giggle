@@ -1,6 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
