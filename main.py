@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-from collections import Counter
-print(Counter("hello world"))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
