@@ -1,4 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-print(sum(range(10)))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_rectangle(l, w):
+        return l * w
