@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def subtract_numbers(x, y):
+        return x - y
