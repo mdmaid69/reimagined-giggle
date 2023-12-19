@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def calculate_speed(distance, time):
+        return distance / time
