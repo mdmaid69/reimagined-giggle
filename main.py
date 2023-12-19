@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_environment_variable(var):
+        return os.getenv(var)
