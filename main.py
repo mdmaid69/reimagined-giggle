@@ -1,6 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
