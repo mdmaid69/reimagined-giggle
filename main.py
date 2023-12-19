@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
