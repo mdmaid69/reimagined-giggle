@@ -1,6 +1,8 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
