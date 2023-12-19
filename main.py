@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def delete_file(file_name):
+        os.remove(file_name)
