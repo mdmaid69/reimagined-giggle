@@ -1,5 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import numpy as np
+print(np.array([1, 2, 3]))
