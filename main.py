@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
