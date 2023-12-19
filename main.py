@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def multiply_numbers(x, y):
+        return x * y
