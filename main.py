@@ -1,5 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
