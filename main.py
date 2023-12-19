@@ -1,6 +1,3 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+print([x**2 for x in range(10)])
+import os
+print(os.getcwd())
