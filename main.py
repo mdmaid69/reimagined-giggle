@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
