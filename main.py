@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def is_even(n):
+        return n % 2 == 0
