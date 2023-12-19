@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def find_min(lst):
-        return min(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
