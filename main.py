@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
