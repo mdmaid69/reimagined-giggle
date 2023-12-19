@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_power(work, time):
+        return work / time
+import array
+def append_to_array(array, item):
+        array.append(item)
