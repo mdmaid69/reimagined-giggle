@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
