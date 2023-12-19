@@ -1,5 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def subtract_numbers(x, y):
-        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
