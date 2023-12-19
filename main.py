@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+from collections import Counter
+print(Counter("hello world"))
