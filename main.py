@@ -1,5 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
