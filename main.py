@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
