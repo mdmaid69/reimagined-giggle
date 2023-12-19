@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
