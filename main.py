@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def multiply_numbers(x, y):
+        return x * y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
