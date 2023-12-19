@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import random
+def roll_die():
+        return random.randint(1, 6)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
