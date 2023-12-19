@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
