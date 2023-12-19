@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
