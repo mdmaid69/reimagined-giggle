@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
