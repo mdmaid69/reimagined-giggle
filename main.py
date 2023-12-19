@@ -1,7 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
