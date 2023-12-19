@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def is_palindrome(s):
+        return s == s[::-1]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
