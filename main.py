@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
