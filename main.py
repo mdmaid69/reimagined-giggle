@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
