@@ -1,8 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
