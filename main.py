@@ -1,5 +1,6 @@
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-def multiply_numbers(x, y):
-        return x * y
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
