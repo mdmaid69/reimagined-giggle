@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
