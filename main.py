@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
