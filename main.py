@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
