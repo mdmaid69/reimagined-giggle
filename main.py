@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_unique_words(sentence):
+        return set(sentence.split())
