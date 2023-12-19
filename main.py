@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
