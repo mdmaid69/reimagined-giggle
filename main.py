@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_user_list():
+        return collections.UserList()
