@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import platform
+def get_python_version():
+        return platform.python_version()
+import random
+def roll_die():
+        return random.randint(1, 6)
