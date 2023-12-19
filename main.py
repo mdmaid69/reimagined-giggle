@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def divide_numbers(x, y):
+        return x / y
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
