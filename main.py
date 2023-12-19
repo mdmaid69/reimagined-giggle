@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
