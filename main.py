@@ -1,5 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
