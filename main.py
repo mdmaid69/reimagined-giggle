@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def find_max(numbers):
+        return max(numbers)
