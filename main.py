@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+for i in range(10): print(i)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
