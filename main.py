@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
