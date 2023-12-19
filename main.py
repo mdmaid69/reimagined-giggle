@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
