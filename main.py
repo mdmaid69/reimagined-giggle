@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def print_python_version():
-        print(sys.version)
+def sort_list(lst):
+        return sorted(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
