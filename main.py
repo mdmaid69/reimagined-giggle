@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
