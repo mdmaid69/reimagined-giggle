@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
