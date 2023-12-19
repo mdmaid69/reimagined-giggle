@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_density(mass, volume):
+        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
