@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
