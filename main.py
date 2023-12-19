@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
