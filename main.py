@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
