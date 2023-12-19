@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def add_numbers(a, b):
+        return a + b
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
