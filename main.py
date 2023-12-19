@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
