@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_bytes(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
