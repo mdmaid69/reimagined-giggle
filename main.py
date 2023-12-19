@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_hex(n):
+        return hex(n)
