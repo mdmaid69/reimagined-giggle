@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_area(radius):
+        return 3.14 * radius * radius
