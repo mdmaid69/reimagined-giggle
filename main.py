@@ -1,6 +1,5 @@
 import sys
-def exit_program():
-        sys.exit()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def print_python_version():
+        return sys.version
+def calculate_density(mass, volume):
+        return mass / volume
