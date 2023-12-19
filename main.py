@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def roll_die():
+        return random.randint(1, 6)
