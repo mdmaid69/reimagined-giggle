@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_pressure(force, area):
-        return force / area
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
