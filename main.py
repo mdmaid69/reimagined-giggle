@@ -1,8 +1,8 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
