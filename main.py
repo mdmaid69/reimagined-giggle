@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
