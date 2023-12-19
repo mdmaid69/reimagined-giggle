@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
