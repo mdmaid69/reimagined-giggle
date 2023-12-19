@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
