@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
