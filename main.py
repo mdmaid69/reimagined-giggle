@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_max(numbers):
-        return max(numbers)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
