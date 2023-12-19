@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
