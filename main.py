@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def convert_to_binary(n):
+        return bin(n)
+import array
+def clear_array(array):
+        array *= 0
