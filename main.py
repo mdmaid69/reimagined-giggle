@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
