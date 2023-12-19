@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_pressure(force, area):
-        return force / area
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
