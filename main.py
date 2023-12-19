@@ -1,5 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import re
+print(re.match("h.*o", "hello world"))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
