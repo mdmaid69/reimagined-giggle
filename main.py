@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
