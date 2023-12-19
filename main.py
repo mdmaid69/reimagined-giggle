@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def remove_duplicates(lst):
-        return list(set(lst))
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
