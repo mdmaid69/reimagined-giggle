@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_item(array, i):
+        return array[i]
