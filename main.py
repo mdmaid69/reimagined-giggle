@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def reverse_array(array):
-        array.reverse()
+def count_elements(lst):
+        return len(lst)
+def is_even(n):
+        return n % 2 == 0
