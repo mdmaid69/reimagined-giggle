@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import os
+def change_working_directory(path):
+        os.chdir(path)
