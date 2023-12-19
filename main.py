@@ -1,6 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-print(math.pi)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
