@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
