@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+print(json.dumps({"name": "John", "age": 30}))
