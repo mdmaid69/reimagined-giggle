@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def remove_duplicates(lst):
+        return list(set(lst))
