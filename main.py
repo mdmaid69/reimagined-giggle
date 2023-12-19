@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
