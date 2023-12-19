@@ -1,8 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def split_path(path):
+        return os.path.split(path)
