@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
