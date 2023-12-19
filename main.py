@@ -1,6 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
