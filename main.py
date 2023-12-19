@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def add_numbers(x, y):
+        return x + y
