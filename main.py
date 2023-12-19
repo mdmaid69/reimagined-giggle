@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_current_directory():
-        return os.getcwd()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
