@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
