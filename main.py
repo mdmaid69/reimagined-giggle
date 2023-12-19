@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_area_circle(r):
+        return 3.14 * r**2
