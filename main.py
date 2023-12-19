@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
