@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
