@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+name = "Python"
+print("Hello,", name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
