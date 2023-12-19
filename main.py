@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
