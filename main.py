@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def cube_number(x):
+        return x**3
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
