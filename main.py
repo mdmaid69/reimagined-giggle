@@ -1,8 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
