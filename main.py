@@ -1,8 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_arc_sine(x):
+        return math.asin(x)
