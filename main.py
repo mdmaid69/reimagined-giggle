@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
