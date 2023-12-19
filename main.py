@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
