@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
