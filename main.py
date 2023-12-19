@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
