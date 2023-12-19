@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
