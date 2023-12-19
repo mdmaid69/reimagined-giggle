@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_min(lst):
+        return min(lst)
