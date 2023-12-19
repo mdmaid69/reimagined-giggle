@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
