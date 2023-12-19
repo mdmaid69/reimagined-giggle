@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def split_path(path):
+        return os.path.split(path)
