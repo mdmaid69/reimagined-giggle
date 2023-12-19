@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_base_name(path):
+        return os.path.basename(path)
