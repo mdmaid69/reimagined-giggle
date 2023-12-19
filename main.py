@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_speed(distance, time):
+        return distance / time
