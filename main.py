@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
