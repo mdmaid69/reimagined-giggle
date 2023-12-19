@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_volume(length, width, height):
+        return length * width * height
