@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
