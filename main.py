@@ -1,6 +1,9 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
