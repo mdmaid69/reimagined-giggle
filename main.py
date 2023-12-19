@@ -1,6 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
