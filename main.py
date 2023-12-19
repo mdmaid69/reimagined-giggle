@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
