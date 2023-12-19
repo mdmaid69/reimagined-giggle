@@ -1,5 +1,3 @@
-  def subtract_numbers(x, y):
-        return x - y
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print([x**2 for x in range(10)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
