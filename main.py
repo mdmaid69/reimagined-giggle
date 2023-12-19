@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
