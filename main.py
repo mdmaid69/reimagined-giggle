@@ -1,4 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
