@@ -1,10 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
+def is_odd(n):
+        return n % 2 != 0
