@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
