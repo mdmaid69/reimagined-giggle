@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def convert_to_hex(n):
-        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
