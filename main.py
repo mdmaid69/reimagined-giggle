@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def is_odd(n):
+        return n % 2 != 0
