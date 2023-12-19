@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import datetime
+def get_current_date():
+        return datetime.date.today()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
