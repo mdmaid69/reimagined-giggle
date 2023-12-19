@@ -1,4 +1,9 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def remove_duplicates(lst):
-        return list(set(lst))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import sys
+  def get_python_version():
+        return sys.version
