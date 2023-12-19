@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
