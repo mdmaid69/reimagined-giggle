@@ -1,8 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
