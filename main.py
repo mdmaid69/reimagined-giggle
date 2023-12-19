@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def convert_to_octal(n):
+        return oct(n)
