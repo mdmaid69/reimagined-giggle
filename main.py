@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
