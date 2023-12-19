@@ -1,4 +1,10 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def convert_to_binary(n):
+        return bin(n)
