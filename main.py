@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
