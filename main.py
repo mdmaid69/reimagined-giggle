@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
