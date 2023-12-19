@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
