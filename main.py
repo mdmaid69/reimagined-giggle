@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_float(array):
+        return float(array[0])
