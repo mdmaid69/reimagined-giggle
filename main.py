@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
