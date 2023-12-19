@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
