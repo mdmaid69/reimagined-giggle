@@ -1,5 +1,9 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
