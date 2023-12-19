@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
