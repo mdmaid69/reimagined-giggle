@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
