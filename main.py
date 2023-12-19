@@ -1,5 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
