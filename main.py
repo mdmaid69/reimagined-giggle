@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
