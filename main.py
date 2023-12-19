@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
