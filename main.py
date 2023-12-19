@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
