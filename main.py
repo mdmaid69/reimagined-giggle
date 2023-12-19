@@ -1,6 +1,3 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import sys
-def exit_program():
-        sys.exit()
+def calculate_speed(distance, time):
+        return distance / time
+print("Hello, world!")
