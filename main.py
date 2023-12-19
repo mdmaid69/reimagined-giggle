@@ -1,6 +1,7 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import getpass
-def get_username():
-        return getpass.getuser()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
