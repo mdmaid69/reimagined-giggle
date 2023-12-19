@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
