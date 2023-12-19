@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
