@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_itemsize(array):
+        return array.itemsize
