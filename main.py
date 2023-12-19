@@ -1,6 +1,7 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
