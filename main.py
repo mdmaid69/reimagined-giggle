@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
