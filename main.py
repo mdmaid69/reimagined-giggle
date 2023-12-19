@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_area_rectangle(l, w):
+        return l * w
