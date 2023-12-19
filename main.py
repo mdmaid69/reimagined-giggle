@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
