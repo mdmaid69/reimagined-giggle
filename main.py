@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import time
-def get_current_time():
-        return time.ctime()
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_max(lst):
+        return max(lst)
