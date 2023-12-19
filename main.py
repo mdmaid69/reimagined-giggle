@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
