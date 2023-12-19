@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
