@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
