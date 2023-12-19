@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
