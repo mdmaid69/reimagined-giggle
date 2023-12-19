@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
