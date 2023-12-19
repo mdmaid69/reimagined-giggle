@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
