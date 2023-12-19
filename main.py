@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
