@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def clear_array(array):
+        array *= 0
