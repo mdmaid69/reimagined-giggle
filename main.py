@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
