@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def add_numbers(a, b):
+        return a + b
