@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import sys
-def print_python_version():
-        return sys.version
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
