@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
