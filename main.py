@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_min(lst):
+        return min(lst)
