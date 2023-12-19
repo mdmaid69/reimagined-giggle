@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-def get_time_since_epoch():
-        return time.time()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def multiply_numbers(x, y):
+        return x * y
