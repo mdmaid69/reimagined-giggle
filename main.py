@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Uppercase:", text.upper())
