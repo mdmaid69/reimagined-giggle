@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def cube_number(x):
-        return x**3
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
