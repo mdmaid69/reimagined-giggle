@@ -1,5 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def is_even(n):
-        return n % 2 == 0
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
