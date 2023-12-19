@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
