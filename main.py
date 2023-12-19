@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
