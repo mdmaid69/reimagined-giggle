@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
