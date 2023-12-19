@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def get_array_as_bool(array):
+        return bool(array)
