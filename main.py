@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
