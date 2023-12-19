@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
