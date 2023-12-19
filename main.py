@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
