@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
