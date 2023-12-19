@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  def square_number(x):
-        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
