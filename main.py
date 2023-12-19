@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
