@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import time
-def get_current_time():
-        return time.time()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
