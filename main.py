@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_tangent(x):
+        return math.tan(x)
