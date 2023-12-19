@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_as_str(array):
+        return str(array)
