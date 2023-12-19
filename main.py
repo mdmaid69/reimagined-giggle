@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
