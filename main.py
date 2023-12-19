@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_item(array, i):
+        return array[i]
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
