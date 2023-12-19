@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
