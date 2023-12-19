@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
