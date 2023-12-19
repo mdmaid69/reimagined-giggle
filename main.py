@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
