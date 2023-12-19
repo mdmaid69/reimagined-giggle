@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_stack():
-        return collections.deque()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_index(array, item):
+        return array.index(item)
