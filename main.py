@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
