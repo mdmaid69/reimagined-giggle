@@ -1,4 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_binary(n):
+        return bin(n)
