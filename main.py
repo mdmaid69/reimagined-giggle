@@ -1,3 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-print([x**2 for x in range(10)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
