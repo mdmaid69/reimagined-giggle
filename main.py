@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
