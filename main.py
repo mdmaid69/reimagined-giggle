@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(a, b):
+        return a + b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
