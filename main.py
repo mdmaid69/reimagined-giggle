@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
