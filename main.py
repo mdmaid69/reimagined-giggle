@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def sort_list(lst):
-        return sorted(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
