@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def convert_to_octal(n):
-        return oct(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
