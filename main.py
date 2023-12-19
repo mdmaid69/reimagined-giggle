@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
