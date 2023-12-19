@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
