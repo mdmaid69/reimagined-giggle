@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
