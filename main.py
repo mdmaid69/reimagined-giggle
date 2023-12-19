@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
