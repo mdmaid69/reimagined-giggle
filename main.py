@@ -1,10 +1,6 @@
-  def cube_number(x):
-        return x**3
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
