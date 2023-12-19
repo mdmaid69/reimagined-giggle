@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
