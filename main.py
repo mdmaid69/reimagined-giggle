@@ -1,5 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
