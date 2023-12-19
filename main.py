@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
