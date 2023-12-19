@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_base_name(path):
+        return os.path.basename(path)
