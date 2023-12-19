@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_work(force, distance):
+        return force * distance
