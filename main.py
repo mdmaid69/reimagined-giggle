@@ -1,11 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def clear_array(array):
+        array *= 0
