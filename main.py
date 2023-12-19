@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_repr(array):
+        return repr(array)
