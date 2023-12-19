@@ -1,5 +1,3 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_min(lst):
-        return min(lst)
+print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
