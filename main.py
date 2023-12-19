@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def convert_to_hex(n):
+        return hex(n)
