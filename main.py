@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
