@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def clear_array(array):
-        array *= 0
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
