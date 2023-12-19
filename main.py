@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
