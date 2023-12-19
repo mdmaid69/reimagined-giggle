@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import platform
+def get_python_version():
+        return platform.python_version()
