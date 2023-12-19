@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import numpy as np
+print(np.array([1, 2, 3]))
