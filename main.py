@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def get_current_working_directory():
+        return os.getcwd()
