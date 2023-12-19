@@ -1,6 +1,10 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
