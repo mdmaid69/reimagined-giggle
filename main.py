@@ -1,5 +1,8 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
