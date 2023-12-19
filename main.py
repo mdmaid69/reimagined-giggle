@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def find_max(numbers):
+        return max(numbers)
+text = "Hello, world!"
+print("Words:", len(text.split()))
