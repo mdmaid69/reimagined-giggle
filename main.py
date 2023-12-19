@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
