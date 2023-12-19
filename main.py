@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
