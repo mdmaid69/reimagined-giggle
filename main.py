@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_volume(length, width, height):
+        return length * width * height
