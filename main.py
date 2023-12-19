@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
