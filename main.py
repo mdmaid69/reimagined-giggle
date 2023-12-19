@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def convert_array_to_list(array):
+        return array.tolist()
