@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def get_file_blocks(file_name):
+  def get_file_blocks_allocated(file_name):
         return os.stat(file_name).st_blocks
-def calculate_area_rectangle(l, w):
-        return l * w
