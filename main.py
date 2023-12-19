@@ -1,4 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
