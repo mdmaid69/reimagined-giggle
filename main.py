@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_work(force, distance):
+        return force * distance
