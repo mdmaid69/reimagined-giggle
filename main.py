@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
