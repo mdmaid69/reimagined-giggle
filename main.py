@@ -1,5 +1,8 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_pressure(force, area):
-        return force / area
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
