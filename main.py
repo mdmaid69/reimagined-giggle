@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
