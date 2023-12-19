@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def get_array_as_repr(array):
+        return repr(array)
