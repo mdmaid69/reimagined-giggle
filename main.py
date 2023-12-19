@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
