@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def remove_duplicates(lst):
+        return list(set(lst))
