@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
