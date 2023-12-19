@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
