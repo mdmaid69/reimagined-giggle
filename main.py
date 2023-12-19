@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
