@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import collections
+def create_user_string():
+        return collections.UserString()
