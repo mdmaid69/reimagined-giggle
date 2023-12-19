@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def multiply_numbers(x, y):
-        return x * y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
