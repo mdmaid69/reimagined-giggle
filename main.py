@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
