@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
