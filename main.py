@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
