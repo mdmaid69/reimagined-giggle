@@ -1,4 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def is_palindrome(s):
-        return s == s[::-1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
