@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def count_elements(lst):
+        return len(lst)
