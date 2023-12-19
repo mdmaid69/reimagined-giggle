@@ -1,8 +1,9 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_item(array, i):
-        return array[i]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
