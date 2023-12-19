@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
+def add_numbers(a, b):
+        return a + b
