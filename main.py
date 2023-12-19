@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
