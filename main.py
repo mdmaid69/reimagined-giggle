@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
