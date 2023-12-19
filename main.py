@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
