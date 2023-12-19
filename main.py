@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
