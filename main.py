@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def clear_array(array):
-        array *= 0
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
