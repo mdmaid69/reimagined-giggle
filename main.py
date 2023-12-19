@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
