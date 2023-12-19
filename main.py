@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
