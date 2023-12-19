@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_current_directory():
+        return os.getcwd()
+import collections
+def create_counter():
+        return collections.Counter()
