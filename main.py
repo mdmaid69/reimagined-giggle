@@ -1,6 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_area(radius):
+        return 3.14 * radius * radius
