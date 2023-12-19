@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
