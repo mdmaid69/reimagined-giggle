@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def is_even(n):
-        return n % 2 == 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def cube_number(x):
+        return x**3
