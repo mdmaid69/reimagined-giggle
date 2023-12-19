@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
