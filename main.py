@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_float(array):
+        return float(array[0])
