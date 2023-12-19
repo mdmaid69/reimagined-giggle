@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
