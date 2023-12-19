@@ -1,4 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
