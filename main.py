@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_pressure(force, area):
+        return force / area
