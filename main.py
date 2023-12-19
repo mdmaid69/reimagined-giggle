@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def multiply_numbers(x, y):
+        return x * y
