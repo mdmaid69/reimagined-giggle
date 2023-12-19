@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
