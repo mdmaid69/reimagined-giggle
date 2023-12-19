@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_speed(distance, time):
+        return distance / time
