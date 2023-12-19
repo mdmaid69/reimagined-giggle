@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
