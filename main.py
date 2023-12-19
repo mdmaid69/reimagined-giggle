@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_current_directory():
+        return os.getcwd()
