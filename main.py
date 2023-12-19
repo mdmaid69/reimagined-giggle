@@ -1,5 +1,9 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
