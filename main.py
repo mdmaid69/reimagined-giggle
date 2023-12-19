@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_power(work, time):
-        return work / time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
