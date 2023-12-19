@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
