@@ -1,6 +1,8 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-print(sum(range(10)))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
