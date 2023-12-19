@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
