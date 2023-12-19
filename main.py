@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def reverse_string(s):
-        return s[::-1]
+def convert_to_octal(n):
+        return oct(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
