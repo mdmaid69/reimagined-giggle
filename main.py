@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def get_base_name(path):
+        return os.path.basename(path)
