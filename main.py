@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
