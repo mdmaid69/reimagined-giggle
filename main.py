@@ -1,8 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
