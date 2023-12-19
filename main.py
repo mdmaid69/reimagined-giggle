@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_item(array, i):
+        return array[i]
