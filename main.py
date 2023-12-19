@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def multiply_numbers(x, y):
+        return x * y
