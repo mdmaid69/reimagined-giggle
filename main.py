@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-print(sys.version)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
