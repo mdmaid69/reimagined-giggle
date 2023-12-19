@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def convert_to_binary(n):
+        return bin(n)
