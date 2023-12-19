@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
