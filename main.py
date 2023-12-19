@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def cube_number(x):
-        return x**3
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
