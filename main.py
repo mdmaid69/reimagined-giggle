@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def count_elements(lst):
+        return len(lst)
+def calculate_work(force, distance):
+        return force * distance
