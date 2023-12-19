@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
