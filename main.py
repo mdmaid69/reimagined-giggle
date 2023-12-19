@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
