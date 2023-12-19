@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
