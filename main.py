@@ -1,5 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def cube_number(x):
-        return x**3
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
