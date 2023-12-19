@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
