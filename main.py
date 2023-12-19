@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_power(work, time):
-        return work / time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def find_max(numbers):
+        return max(numbers)
