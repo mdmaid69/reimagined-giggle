@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_float(array):
+        return float(array[0])
