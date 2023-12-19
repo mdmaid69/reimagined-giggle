@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
