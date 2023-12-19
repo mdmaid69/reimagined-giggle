@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def convert_to_hex(n):
+        return hex(n)
