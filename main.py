@@ -1,7 +1,6 @@
-import sys
-print(sys.version)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
