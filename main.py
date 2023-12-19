@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
