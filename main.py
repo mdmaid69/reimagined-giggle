@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
