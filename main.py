@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
