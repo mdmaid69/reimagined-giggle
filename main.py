@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
