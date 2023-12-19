@@ -1,7 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import re
-def split_by_pattern(pattern, string):
+def split_string(pattern, string):
         return re.split(pattern, string)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
