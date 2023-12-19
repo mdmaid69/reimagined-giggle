@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
