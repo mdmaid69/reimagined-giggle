@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
