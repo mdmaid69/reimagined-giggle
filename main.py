@@ -1,6 +1,12 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
