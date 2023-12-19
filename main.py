@@ -1,5 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
