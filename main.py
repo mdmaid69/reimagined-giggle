@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
