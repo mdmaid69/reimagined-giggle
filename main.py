@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-name = "Python"
-print("Hello,", name)
+def reverse_list(lst):
+        return lst[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
