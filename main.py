@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
