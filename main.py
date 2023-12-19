@@ -1,6 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
