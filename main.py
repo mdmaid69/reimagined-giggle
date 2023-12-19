@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def convert_to_binary(n):
-        return bin(n)
+def add_numbers(x, y):
+        return x + y
+import os
+def change_working_directory(path):
+        os.chdir(path)
