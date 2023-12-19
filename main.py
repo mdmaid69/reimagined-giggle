@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
