@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def count_elements(lst):
+        return len(lst)
