@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
