@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
