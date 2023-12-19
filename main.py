@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
