@@ -1,8 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_float(array):
+        return float(array[0])
+import json
+print(json.dumps({"name": "John", "age": 30}))
