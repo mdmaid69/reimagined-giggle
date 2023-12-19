@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def clear_array(array):
-        array *= 0
+import logging
+def log_message(message):
+        logging.info(message)
+  def is_odd(n):
+        return n % 2 != 0
