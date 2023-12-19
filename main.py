@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  def multiply_numbers(x, y):
-        return x * y
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
