@@ -1,7 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def calculate_area_rectangle(l, w):
+        return l * w
+def sort_numbers(numbers):
+        return sorted(numbers)
