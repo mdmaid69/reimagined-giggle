@@ -1,5 +1,11 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
