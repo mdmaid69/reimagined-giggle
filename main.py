@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
