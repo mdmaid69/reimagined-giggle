@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def remove_duplicates(lst):
-        return list(set(lst))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
