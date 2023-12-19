@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import tensorflow as tf
-print(tf.__version__)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
