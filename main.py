@@ -1,8 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import numpy as np
+print(np.array([1, 2, 3]))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
