@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
