@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
