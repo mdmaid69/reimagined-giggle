@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_length(array):
+        return len(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
