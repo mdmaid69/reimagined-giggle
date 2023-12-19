@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def exit_program():
+        sys.exit()
