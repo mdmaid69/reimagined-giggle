@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
