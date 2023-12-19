@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
