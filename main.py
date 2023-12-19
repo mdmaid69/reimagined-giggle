@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
