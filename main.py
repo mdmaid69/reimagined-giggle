@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
