@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
