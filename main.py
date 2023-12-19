@@ -1,7 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def count_elements(lst):
+        return len(lst)
