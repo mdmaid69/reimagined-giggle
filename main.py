@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
