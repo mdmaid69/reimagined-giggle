@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def divide_numbers(x, y):
+        return x / y
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
