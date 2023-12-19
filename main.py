@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import random
-print(random.randint(0, 100))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_force(mass, acceleration):
+        return mass * acceleration
