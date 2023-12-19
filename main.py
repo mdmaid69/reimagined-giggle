@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import getpass
+def get_username():
+        return getpass.getuser()
