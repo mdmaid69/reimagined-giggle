@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
