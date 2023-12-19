@@ -1,6 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
