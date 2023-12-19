@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_set(array):
-        return set(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
