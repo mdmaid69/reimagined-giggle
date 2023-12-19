@@ -1,6 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_sine(x):
+        return math.sin(x)
