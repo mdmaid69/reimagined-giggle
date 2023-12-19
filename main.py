@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_volume(length, width, height):
-        return length * width * height
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+name = "Python"
+print("Hello,", name)
