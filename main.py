@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
