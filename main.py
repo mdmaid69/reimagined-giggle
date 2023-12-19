@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_even(n):
+        return n % 2 == 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
