@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
