@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
