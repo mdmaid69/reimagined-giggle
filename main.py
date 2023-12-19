@@ -1,3 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-print(sum(range(10)))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def create_counter():
+        return collections.Counter()
