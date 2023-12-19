@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def find_min(lst):
-        return min(lst)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
