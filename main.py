@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
