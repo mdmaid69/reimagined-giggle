@@ -1,6 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
