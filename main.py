@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_power(work, time):
+        return work / time
