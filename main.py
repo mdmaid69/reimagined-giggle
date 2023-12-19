@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def remove_duplicates(lst):
-        return list(set(lst))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
