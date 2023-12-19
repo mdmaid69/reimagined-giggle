@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def add_numbers(x, y):
+        return x + y
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
