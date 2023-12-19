@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import time
+def get_current_time():
+        return time.time()
