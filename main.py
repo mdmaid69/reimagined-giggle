@@ -1,7 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
