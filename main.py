@@ -1,8 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
