@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import os
+print(os.getcwd())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
