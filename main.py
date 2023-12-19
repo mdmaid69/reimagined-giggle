@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def sort_list(lst):
-        return sorted(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
