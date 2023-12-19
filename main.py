@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_power(work, time):
+        return work / time
