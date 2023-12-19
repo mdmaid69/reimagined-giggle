@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_int(array):
+        return int(array[0])
