@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def add_numbers(a, b):
-        return a + b
+def convert_to_hex(n):
+        return hex(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
