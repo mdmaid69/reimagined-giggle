@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
