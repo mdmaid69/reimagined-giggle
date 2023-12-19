@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
