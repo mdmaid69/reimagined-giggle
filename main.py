@@ -1,5 +1,9 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+i = 0
+while i < 5:
+        print(i)
+        i += 1
