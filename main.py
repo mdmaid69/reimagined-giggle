@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def is_even(n):
-        return n % 2 == 0
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import logging
+def log_message(message):
+        logging.info(message)
