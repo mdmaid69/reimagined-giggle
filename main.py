@@ -1,8 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
