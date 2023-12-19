@@ -1,6 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
