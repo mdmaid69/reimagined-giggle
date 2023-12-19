@@ -1,6 +1,8 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
