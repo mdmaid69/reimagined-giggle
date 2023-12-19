@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
