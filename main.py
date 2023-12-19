@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
