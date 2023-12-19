@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
