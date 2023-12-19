@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
