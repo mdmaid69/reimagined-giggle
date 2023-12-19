@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def cube_number(x):
-        return x**3
+import sys
+def exit_program():
+        sys.exit()
+import math
+print(math.pi)
