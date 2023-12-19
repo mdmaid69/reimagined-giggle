@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
