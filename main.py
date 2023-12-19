@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
