@@ -1,6 +1,9 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import time
-def get_current_time():
-        return time.time()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
