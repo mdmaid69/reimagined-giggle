@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
