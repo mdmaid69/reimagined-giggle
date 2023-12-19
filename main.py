@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
