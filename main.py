@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
