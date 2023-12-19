@@ -1,7 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
