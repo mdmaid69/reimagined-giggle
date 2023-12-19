@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
