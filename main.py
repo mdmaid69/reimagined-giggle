@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+for i in range(10): print(i)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
