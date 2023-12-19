@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import datetime
+def get_current_date():
+        return datetime.date.today()
