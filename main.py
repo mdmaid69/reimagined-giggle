@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_set(array):
+        return set(array)
+def is_even(n):
+        return n % 2 == 0
