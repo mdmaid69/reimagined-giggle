@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
