@@ -1,7 +1,6 @@
-import time
-print(time.time())
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
