@@ -1,6 +1,8 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
