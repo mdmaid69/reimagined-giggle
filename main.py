@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def clear_array(array):
-        array *= 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_work(force, distance):
+        return force * distance
