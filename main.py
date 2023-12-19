@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
