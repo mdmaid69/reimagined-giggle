@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
