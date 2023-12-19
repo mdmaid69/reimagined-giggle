@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
