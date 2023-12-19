@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
