@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
