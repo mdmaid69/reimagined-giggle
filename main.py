@@ -1,7 +1,7 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
