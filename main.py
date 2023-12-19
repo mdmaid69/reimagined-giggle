@@ -1,7 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import platform
+def get_python_version():
+        return platform.python_version()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
