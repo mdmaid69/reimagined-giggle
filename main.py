@@ -1,5 +1,4 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def is_odd(n):
+        return n % 2 != 0
