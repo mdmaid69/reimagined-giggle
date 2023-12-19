@@ -1,5 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def convert_to_binary(n):
-        return bin(n)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
