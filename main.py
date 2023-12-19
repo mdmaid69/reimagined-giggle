@@ -1,5 +1,6 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
