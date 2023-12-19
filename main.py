@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def cube_number(x):
-        return x**3
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
