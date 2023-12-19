@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def reverse_string(s):
+        return s[::-1]
