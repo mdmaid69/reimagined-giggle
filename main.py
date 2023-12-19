@@ -1,7 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
