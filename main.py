@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_power(work, time):
+        return work / time
