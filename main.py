@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
