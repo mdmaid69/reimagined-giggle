@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_work(force, distance):
-        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+def log_message(message):
+        logging.info(message)
