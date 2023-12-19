@@ -1,6 +1,11 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
