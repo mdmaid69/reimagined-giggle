@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def get_current_time():
+        return time.time()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
