@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
