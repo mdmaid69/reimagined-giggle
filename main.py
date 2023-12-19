@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def count_elements(lst):
+        return len(lst)
+def reverse_list(lst):
+        return lst[::-1]
