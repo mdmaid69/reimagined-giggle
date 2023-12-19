@@ -1,4 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
