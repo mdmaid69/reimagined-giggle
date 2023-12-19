@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
