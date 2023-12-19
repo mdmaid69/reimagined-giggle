@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
