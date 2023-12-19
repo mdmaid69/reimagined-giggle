@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def square_number(x):
-        return x**2
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_priority_queue():
+        return collections.deque()
