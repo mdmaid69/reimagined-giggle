@@ -1,8 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
