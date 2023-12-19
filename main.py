@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import platform
+def get_python_version():
+        return platform.python_version()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
