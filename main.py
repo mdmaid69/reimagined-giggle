@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_list(array):
+        return array.tolist()
