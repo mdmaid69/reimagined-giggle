@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def extend_array(array, iterable):
+        array.extend(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
