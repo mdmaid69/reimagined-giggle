@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
