@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import numpy as np
+print(np.array([1, 2, 3]))
