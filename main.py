@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def convert_to_binary(n):
+        return bin(n)
