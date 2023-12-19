@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
