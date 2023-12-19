@@ -1,8 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
