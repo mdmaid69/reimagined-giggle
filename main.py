@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
