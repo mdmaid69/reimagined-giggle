@@ -1,8 +1,8 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
