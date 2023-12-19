@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
