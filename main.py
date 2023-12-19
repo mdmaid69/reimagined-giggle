@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def reverse_string(s):
+        return s[::-1]
+for i in range(5):
+        print(i)
