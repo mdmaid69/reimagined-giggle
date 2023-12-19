@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_pressure(force, area):
+        return force / area
