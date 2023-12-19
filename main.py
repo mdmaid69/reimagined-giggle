@@ -1,6 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
