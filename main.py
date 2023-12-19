@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_int(array):
+        return int(array[0])
