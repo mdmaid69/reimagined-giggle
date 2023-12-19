@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+text = "Hello, world!"
+print("Characters:", len(text))
