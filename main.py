@@ -1,8 +1,6 @@
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def set_array_item(array, i, item):
+        array[i] = item
