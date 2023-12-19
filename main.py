@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def square_number(x):
-        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_typecode(array):
+        return array.typecode
