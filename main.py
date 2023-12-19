@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
