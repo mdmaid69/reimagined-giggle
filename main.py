@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
