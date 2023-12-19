@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
