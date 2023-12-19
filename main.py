@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
