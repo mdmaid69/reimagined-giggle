@@ -1,6 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
