@@ -1,5 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def cube_number(x):
-        return x**3
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
