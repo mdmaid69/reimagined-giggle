@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
