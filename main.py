@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_max(lst):
-        return max(lst)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def find_min(lst):
+        return min(lst)
