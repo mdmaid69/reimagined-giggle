@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_max(numbers):
+        return max(numbers)
