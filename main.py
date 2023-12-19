@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
