@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_current_directory():
-        return os.getcwd()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
