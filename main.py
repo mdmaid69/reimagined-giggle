@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
