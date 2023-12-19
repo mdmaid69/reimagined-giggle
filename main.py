@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_area_rectangle(l, w):
+        return l * w
