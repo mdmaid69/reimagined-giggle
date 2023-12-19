@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
