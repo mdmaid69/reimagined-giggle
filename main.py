@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
