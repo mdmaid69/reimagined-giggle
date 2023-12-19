@@ -1,7 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
