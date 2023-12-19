@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
