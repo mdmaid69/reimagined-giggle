@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import platform
+def get_os_info():
+        return platform.uname()
