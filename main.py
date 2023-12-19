@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
