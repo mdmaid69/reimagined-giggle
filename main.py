@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
