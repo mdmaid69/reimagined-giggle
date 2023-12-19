@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def count_elements(lst):
+        return len(lst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
