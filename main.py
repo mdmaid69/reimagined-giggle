@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
