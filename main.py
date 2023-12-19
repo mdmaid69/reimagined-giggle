@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
