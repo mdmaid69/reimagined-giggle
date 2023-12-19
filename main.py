@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def add_numbers(a, b):
-        return a + b
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
