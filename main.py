@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_item(array, i):
-        return array[i]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
