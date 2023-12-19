@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def remove_duplicates(lst):
-        return list(set(lst))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
