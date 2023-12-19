@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_cosine(x):
+        return math.cos(x)
