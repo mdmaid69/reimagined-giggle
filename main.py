@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
