@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
