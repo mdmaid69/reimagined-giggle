@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_min(lst):
+        return min(lst)
