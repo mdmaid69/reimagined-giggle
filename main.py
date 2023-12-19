@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
