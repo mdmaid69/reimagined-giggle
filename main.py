@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
