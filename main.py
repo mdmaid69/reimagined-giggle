@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def create_priority_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
