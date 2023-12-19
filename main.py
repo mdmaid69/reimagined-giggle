@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
