@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def is_odd(n):
-        return n % 2 != 0
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
