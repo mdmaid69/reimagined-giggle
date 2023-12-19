@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
