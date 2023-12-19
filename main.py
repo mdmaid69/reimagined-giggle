@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
