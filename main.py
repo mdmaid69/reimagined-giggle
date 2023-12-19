@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
