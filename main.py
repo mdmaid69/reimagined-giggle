@@ -1,8 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
