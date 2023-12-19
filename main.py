@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
