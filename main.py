@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def add_numbers(x, y):
+        return x + y
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
