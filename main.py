@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_as_repr(array):
-        return repr(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
