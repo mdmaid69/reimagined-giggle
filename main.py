@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
