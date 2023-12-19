@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_stack():
+        return collections.deque()
