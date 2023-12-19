@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
