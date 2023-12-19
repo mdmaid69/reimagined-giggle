@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
