@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
