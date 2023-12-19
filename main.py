@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
