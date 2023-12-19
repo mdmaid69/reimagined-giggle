@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def reverse_string(s):
-        return s[::-1]
+def calculate_work(force, distance):
+        return force * distance
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
