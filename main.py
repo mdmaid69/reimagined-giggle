@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
