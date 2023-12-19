@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
