@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def square_number(x):
-        return x**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
