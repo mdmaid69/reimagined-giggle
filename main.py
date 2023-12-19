@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def create_user_dict():
+        return collections.UserDict()
