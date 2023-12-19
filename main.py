@@ -1,8 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
