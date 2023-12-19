@@ -1,6 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
