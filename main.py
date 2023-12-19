@@ -1,5 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
