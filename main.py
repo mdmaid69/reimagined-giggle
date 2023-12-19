@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-x = 10
-y = 20
-print("Sum:", x + y)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
