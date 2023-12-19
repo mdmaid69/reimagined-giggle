@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_min(numbers):
-        return min(numbers)
+print([x**2 for x in range(10)])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
