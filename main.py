@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_user_string():
+        return collections.UserString()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
