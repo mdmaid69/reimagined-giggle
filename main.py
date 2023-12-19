@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
