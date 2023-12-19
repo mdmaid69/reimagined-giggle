@@ -1,6 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_gamma_function(x):
+        return math.gamma(x)
