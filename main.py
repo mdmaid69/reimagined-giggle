@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+from collections import Counter
+print(Counter("hello world"))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
