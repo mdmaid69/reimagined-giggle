@@ -1,5 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
