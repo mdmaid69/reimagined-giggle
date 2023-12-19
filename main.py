@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_speed(distance, time):
+        return distance / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
