@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_array_typecode(array):
+        return array.typecode
+import sys
+print(sys.version)
