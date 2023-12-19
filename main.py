@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+for i in range(10): print(i)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
