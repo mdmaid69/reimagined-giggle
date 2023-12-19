@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
