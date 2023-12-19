@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
