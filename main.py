@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+def exit_program():
+        sys.exit()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
