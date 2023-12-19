@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
