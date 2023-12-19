@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def square_number(x):
-        return x**2
+  def is_even(n):
+        return n % 2 == 0
+name = "Python"
+print("Hello,", name)
