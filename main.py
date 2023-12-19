@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
