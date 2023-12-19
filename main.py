@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_priority_queue():
+        return collections.deque()
+def reverse_list(lst):
+        return lst[::-1]
