@@ -1,9 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
