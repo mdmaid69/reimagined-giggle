@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_array_to_list(array):
+        return array.tolist()
+def remove_duplicates(lst):
+        return list(set(lst))
