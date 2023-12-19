@@ -1,8 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
