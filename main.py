@@ -1,5 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
