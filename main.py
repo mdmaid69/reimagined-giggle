@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+name = "Python"
+print("Hello,", name)
