@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_bytes_from_array(array):
+        return array.tobytes()
