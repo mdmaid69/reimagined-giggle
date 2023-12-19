@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def cube_number(x):
-        return x**3
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
