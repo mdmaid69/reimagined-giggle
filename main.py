@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+for i in range(5):
+        print(i)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
