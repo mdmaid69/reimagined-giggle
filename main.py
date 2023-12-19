@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def is_palindrome(s):
-        return s == s[::-1]
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
