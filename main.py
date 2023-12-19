@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def find_max(lst):
-        return max(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
