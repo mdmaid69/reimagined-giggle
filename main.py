@@ -1,5 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def change_working_directory(path):
+        os.chdir(path)
