@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
