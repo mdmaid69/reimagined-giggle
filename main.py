@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
