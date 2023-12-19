@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
