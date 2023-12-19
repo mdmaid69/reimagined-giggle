@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
