@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import json
+def convert_to_json(data):
+        return json.dumps(data)
