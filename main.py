@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
