@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_acceleration(speed, time):
-        return speed / time
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
