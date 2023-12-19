@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_absolute_value(x):
+        return math.fabs(x)
