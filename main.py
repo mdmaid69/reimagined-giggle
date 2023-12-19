@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_exponential(x):
+        return math.exp(x)
