@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def is_even(n):
+        return n % 2 == 0
