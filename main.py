@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
