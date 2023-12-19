@@ -1,6 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
