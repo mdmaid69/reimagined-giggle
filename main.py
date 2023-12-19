@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+from collections import Counter
+print(Counter("hello world"))
+  def sort_list(lst):
+        return sorted(lst)
