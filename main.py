@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
