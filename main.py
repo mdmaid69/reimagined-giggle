@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
