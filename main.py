@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import platform
-def get_python_version():
-        return platform.python_version()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
