@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
