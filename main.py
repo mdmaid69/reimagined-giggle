@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_pressure(force, area):
-        return force / area
+  def is_odd(n):
+        return n % 2 != 0
+import sys
+def print_python_version():
+        return sys.version
