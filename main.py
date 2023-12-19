@@ -1,6 +1,10 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def is_even(n):
+        return n % 2 == 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
