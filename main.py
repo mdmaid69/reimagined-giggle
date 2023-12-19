@@ -1,4 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import datetime
+print(datetime.datetime.now())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
