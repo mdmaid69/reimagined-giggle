@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Cube numbers:", [x**3 for x in range(n)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
