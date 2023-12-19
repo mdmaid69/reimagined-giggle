@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
