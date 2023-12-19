@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
