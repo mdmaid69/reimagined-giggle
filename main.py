@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
