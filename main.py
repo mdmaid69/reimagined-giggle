@@ -1,6 +1,3 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+print([x**2 for x in range(10)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
