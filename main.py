@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
