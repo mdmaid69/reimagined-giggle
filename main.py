@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_power(work, time):
+        return work / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
