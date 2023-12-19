@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def convert_to_binary(n):
-        return bin(n)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
