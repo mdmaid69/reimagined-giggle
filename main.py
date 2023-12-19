@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
