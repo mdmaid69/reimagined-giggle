@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
