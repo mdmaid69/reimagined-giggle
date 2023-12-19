@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
