@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
