@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
