@@ -1,4 +1,8 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
