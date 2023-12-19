@@ -1,4 +1,8 @@
-import math
-print(math.pi)
-  def multiply_numbers(x, y):
-        return x * y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
