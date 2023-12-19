@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
