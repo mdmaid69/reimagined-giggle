@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
