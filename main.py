@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+def get_time_since_epoch():
+        return time.time()
