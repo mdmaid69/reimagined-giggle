@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
