@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
