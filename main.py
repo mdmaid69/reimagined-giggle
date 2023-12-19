@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
