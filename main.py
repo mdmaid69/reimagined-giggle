@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def count_characters(sentence):
+        return len(sentence)
+  def reverse_list(lst):
+        return lst[::-1]
