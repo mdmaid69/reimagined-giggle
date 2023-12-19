@@ -1,4 +1,8 @@
-def greet(name):
-        print(f"Hello, {name}!")
-for i in range(5):
-        print(i)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
