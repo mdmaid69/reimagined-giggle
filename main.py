@@ -1,8 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def roll_die():
-        return random.randint(1, 6)
+def get_array_item_count(array, item):
+        return array.count(item)
