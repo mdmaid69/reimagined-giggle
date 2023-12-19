@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import random
+print(random.randint(0, 100))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
