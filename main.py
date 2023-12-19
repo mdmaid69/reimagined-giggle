@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
