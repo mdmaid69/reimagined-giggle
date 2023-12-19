@@ -1,7 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def count_elements(lst):
+        return len(lst)
