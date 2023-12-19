@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
