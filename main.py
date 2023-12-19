@@ -1,5 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import sys
+  def get_python_version():
+        return sys.version
