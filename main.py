@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
