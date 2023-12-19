@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
