@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_float(array):
+        return float(array[0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
