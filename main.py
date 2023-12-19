@@ -1,4 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-print([x**2 for x in range(10)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
