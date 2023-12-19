@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import sys
-print(sys.version)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
