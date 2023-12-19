@@ -1,7 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
