@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
