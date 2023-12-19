@@ -1,8 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
