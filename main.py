@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
