@@ -1,5 +1,11 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
