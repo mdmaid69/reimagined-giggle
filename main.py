@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_stack():
+        return collections.deque()
 import math
-print(math.pi)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
