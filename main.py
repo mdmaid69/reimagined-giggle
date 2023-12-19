@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
