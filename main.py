@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
