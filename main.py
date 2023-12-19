@@ -1,5 +1,6 @@
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_array_as_repr(array):
+        return repr(array)
