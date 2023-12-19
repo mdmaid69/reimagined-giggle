@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def cube_number(x):
-        return x**3
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
