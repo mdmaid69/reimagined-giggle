@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
