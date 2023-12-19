@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def square_number(x):
-        return x**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
