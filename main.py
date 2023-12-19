@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def reverse_list(lst):
+        return lst[::-1]
