@@ -1,8 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
