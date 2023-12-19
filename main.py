@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
