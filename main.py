@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import tensorflow as tf
+print(tf.__version__)
