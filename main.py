@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
