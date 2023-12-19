@@ -1,4 +1,10 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def sort_list(lst):
-        return sorted(lst)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
