@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
