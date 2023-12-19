@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def convert_to_hex(n):
+        return hex(n)
+import time
+def get_current_time():
+        return time.time()
