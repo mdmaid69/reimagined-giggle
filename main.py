@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def clear_array(array):
+        array *= 0
