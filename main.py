@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
