@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import collections
+def create_counter():
+        return collections.Counter()
