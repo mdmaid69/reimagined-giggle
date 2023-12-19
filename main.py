@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_array_to_string(array):
+        return array.tostring()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
