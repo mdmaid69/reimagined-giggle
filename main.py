@@ -1,5 +1,9 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
