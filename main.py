@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def count_words(sentence):
-        return len(sentence.split())
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
