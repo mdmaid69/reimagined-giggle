@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+print([x**2 for x in range(10)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
