@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_exponential(x):
+        return math.exp(x)
+import sys
+def print_python_version():
+        print(sys.version)
