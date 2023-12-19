@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
