@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
