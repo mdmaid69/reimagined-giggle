@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_power(work, time):
+        return work / time
