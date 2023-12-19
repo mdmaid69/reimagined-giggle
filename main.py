@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import json
+def convert_to_json(data):
+        return json.dumps(data)
