@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
