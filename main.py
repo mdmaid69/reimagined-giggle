@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
