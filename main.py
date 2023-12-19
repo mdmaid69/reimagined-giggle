@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
