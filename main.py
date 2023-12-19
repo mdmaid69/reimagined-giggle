@@ -1,6 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
