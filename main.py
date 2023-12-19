@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
