@@ -1,8 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
