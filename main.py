@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def reverse_array(array):
+        array.reverse()
