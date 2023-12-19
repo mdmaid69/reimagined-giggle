@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import time
+print(time.time())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
