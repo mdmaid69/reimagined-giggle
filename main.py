@@ -1,6 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def multiply_numbers(x, y):
+        return x * y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
