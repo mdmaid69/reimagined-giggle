@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
