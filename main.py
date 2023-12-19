@@ -1,5 +1,8 @@
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_floor(x):
+        return math.floor(x)
