@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_acceleration(speed, time):
+        return speed / time
