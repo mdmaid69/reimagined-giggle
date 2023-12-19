@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
