@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
