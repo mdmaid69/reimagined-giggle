@@ -1,5 +1,4 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+print(re.match("h.*o", "hello world"))
