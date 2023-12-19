@@ -1,6 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_tangent(x):
+        return math.tan(x)
