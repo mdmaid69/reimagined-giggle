@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def subtract_numbers(x, y):
-        return x - y
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
