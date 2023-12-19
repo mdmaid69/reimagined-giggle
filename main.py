@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import sys
-  def get_python_version():
-        return sys.version
+def reverse_string(s):
+        return s[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
