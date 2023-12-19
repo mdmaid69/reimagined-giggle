@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
