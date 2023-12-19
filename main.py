@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
