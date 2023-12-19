@@ -1,5 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import array
-def clear_array(array):
-        array *= 0
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def get_string_from_array(array):
+        return array.tobytes()
