@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
