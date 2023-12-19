@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+print(os.getcwd())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
