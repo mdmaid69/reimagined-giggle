@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def find_max(numbers):
+        return max(numbers)
