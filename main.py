@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
