@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
