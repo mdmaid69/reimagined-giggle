@@ -1,6 +1,3 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def get_current_time():
-        return time.ctime()
+def find_max(lst):
+        return max(lst)
+print("Hello, world!")
