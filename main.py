@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_speed(distance, time):
-        return distance / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
