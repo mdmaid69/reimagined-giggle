@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
