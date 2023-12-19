@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
