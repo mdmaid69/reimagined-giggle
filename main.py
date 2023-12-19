@@ -1,4 +1,3 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_work(force, distance):
+        return force * distance
+for i in range(10): print(i)
