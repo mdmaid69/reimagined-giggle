@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
