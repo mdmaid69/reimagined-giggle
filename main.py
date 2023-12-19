@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_user_list():
+        return collections.UserList()
