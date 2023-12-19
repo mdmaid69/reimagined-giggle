@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
