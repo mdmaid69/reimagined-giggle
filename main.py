@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import tensorflow as tf
+print(tf.__version__)
