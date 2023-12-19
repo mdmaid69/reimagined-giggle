@@ -1,5 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
