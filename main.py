@@ -1,6 +1,12 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
