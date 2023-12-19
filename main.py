@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
