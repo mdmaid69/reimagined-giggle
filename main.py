@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def is_odd(n):
+        return n % 2 != 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
