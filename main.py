@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_as_str(array):
+        return str(array)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
