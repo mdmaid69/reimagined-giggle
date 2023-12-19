@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
