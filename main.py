@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import platform
+def get_python_version():
+        return platform.python_version()
+def find_unique_words(sentence):
+        return set(sentence.split())
