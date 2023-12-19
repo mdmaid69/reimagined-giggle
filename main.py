@@ -1,6 +1,8 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
