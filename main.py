@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
