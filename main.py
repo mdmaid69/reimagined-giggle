@@ -1,8 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
