@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
