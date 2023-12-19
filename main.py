@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
