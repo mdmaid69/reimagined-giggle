@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
