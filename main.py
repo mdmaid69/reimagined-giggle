@@ -1,5 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_user_string():
-        return collections.UserString()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
