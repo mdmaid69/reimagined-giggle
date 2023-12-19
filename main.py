@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_exponential(x):
+        return math.exp(x)
