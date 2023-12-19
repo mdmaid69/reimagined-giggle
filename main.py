@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
