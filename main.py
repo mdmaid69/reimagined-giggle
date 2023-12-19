@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
