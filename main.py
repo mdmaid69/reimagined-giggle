@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
