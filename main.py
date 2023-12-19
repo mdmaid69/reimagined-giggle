@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-  def sort_list(lst):
-        return sorted(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+name = "Python"
+print("Hello,", name)
