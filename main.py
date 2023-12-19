@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
