@@ -1,5 +1,4 @@
+def is_palindrome(s):
+        return s == s[::-1]
 numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+print("Even:", [n for n in numbers if n % 2 == 0])
