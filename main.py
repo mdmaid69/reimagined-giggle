@@ -1,6 +1,9 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
