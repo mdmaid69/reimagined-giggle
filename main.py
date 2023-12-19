@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
