@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_as_set(array):
+        return set(array)
