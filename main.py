@@ -1,4 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_power(work, time):
-        return work / time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_current_directory():
+        return os.getcwd()
