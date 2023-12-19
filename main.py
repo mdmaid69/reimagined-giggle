@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import time
-print(time.time())
+def get_array_length(array):
+        return len(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
