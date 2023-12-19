@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
