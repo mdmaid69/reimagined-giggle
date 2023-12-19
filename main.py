@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def remove_duplicates(lst):
-        return list(set(lst))
+def convert_to_hex(n):
+        return hex(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
