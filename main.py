@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def exit_program():
-        sys.exit()
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
