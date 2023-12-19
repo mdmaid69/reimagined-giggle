@@ -1,6 +1,11 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
