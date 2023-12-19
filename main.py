@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def multiply_numbers(x, y):
-        return x * y
+def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
