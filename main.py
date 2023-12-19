@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
