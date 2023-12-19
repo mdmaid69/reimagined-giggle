@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
