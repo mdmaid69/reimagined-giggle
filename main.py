@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
