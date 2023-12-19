@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
