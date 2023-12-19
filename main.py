@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_queue():
-        return collections.deque()
+def find_min(lst):
+        return min(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
