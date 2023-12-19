@@ -1,5 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def remove_duplicates(lst):
-        return list(set(lst))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def convert_to_binary(n):
+        return bin(n)
