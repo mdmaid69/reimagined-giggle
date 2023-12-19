@@ -1,6 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
