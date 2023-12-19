@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def find_union(list1, list2):
+        return set(list1) | set(list2)
