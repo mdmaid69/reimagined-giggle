@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
