@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import os
-print(os.getcwd())
+  import sys
+  def get_python_version():
+        return sys.version
+  import sys
+  def get_python_version():
+        return sys.version
