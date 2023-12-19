@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
