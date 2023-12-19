@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_speed(distance, time):
-        return distance / time
+import time
+def get_current_time():
+        return time.time()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
