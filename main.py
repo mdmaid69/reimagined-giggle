@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
