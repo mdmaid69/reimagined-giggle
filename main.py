@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-for i in range(10): print(i)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
