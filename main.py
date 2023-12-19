@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def subtract_numbers(x, y):
+        return x - y
