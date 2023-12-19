@@ -1,6 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
