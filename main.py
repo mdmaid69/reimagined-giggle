@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import getpass
+def get_username():
+        return getpass.getuser()
