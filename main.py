@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
