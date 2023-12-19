@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
