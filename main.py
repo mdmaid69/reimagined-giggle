@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
