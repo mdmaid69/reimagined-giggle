@@ -1,8 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
