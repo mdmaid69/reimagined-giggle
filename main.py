@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_user_list():
-        return collections.UserList()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def convert_to_hex(n):
+        return hex(n)
