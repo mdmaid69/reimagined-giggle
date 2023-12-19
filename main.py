@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
