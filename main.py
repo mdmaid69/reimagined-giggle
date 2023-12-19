@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
