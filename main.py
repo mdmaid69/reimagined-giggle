@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import time
-def get_current_time():
-        return time.ctime()
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
