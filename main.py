@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def find_unique_words(sentence):
+        return set(sentence.split())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
