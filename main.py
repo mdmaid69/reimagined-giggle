@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
