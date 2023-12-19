@@ -1,7 +1,6 @@
-def square_number(x):
-        return x**2
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
