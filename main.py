@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
