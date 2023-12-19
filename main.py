@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_current_working_directory():
+        return os.getcwd()
