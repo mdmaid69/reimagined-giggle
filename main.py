@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
