@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+name = "Python"
+print("Hello,", name)
