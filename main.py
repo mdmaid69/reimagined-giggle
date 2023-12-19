@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def convert_array_to_list(array):
+        return array.tolist()
