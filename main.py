@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
