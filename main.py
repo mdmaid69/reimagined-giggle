@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+for i in range(5):
+        print(i)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
