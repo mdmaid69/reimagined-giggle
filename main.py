@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def find_unique_words(sentence):
+        return set(sentence.split())
