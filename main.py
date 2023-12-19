@@ -1,6 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
