@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
