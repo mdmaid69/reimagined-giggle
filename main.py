@@ -1,6 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
