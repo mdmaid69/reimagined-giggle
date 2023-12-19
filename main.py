@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
