@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_power(work, time):
-        return work / time
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
