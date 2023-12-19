@@ -1,7 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
