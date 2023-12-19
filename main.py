@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
