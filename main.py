@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
