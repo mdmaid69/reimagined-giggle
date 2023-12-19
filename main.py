@@ -1,4 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_work(force, distance):
-        return force * distance
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_acceleration(speed, time):
+        return speed / time
