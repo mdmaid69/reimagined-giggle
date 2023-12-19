@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import random
+print(random.randint(0, 100))
