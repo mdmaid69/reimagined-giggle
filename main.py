@@ -1,9 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+def exit_program():
+        sys.exit()
