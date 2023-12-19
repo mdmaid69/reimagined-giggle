@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_exponential(x):
+        return math.exp(x)
