@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def convert_to_binary(n):
+        return bin(n)
