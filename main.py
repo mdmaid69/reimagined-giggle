@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
