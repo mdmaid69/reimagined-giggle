@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_min(numbers):
+        return min(numbers)
