@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
