@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
