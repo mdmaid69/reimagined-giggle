@@ -1,5 +1,7 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
