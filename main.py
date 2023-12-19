@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+x = 10
+y = 20
+print("Sum:", x + y)
