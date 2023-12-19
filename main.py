@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_pressure(force, area):
+        return force / area
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
