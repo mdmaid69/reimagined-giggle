@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_string():
-        return collections.UserString()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
