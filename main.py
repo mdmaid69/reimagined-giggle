@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
