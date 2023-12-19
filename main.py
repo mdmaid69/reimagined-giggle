@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
