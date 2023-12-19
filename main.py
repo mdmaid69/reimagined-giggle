@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import sys
+def exit_program():
+        sys.exit()
+  def reverse_list(lst):
+        return lst[::-1]
