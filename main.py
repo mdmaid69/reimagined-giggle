@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_tangent(x):
+        return math.tan(x)
