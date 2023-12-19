@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
