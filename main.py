@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_str(array):
+        return str(array)
+def add_numbers(a, b):
+        return a + b
