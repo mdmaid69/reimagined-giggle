@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def add_numbers(a, b):
+        return a + b
