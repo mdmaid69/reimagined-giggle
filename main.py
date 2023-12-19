@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def remove_duplicates(lst):
-        return list(set(lst))
+  def count_elements(lst):
+        return len(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
