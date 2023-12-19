@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_length(array):
+        return len(array)
+import sys
+def exit_program():
+        sys.exit()
