@@ -1,6 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
