@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
