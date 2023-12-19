@@ -1,6 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
