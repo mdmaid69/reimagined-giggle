@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_min(lst):
+        return min(lst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
