@@ -1,7 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
