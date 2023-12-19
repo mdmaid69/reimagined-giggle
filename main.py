@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
