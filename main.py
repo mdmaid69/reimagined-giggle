@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
