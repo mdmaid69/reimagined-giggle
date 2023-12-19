@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
