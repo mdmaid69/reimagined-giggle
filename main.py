@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
