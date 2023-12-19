@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
