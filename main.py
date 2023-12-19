@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
