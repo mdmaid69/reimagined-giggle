@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_item(array, i):
-        return array[i]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
