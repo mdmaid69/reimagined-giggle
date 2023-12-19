@@ -1,6 +1,8 @@
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_base_name(path):
+        return os.path.basename(path)
