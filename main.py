@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
