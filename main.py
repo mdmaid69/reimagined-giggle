@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
