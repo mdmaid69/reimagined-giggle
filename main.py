@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Reversed:", text[::-1])
