@@ -1,7 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
