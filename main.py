@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
