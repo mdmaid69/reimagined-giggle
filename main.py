@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_length(array):
-        return len(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
