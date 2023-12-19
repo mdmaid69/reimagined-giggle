@@ -1,6 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
