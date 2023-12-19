@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
