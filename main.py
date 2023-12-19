@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def count_characters(sentence):
+        return len(sentence)
