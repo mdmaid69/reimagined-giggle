@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_list(array):
+        return list(array)
