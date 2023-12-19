@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
