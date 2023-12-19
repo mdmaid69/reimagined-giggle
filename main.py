@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
