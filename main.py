@@ -1,5 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def is_palindrome(s):
+        return s == s[::-1]
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
