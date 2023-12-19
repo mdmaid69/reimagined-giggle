@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def cube_number(x):
+        return x**3
