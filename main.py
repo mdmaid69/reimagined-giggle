@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
