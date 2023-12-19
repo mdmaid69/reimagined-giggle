@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
