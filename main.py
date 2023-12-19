@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
