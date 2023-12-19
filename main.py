@@ -1,5 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_volume(length, width, height):
+        return length * width * height
