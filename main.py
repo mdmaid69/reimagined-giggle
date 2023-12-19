@@ -1,5 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
