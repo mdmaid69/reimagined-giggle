@@ -1,8 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import platform
+def get_python_version():
+        return platform.python_version()
