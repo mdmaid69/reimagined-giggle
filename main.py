@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-print(random.randint(0, 100))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
