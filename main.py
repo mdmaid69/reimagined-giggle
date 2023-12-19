@@ -1,5 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
