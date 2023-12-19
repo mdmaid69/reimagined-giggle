@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+  def multiply_numbers(x, y):
+        return x * y
