@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
