@@ -1,6 +1,9 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
