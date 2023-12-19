@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import time
-print(time.time())
+def reverse_list(lst):
+        return lst[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
