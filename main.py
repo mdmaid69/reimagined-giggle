@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
+for i in range(5):
+        print(i)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
