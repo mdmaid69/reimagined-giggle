@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
