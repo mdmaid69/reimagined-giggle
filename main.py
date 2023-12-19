@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_characters(sentence):
-        return len(sentence)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
