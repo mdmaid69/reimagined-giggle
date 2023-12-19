@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
