@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
