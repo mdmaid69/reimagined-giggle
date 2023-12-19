@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+text = "Hello, world!"
+print("Words:", len(text.split()))
