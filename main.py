@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def reverse_string(s):
+        return s[::-1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
