@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_stack():
+        return collections.deque()
+def convert_to_binary(n):
+        return bin(n)
