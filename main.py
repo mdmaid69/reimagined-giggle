@@ -1,6 +1,5 @@
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
