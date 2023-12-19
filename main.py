@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
