@@ -1,5 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def convert_to_hex(n):
+        return hex(n)
