@@ -1,5 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def sort_list(lst):
-        return sorted(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
