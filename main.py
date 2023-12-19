@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
