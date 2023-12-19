@@ -1,5 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import numpy as np
-print(np.array([1, 2, 3]))
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
