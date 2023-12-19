@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import platform
-def get_os_info():
-        return platform.uname()
+def square_number(x):
+        return x**2
+import json
+print(json.dumps({"name": "John", "age": 30}))
