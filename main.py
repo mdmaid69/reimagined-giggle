@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import datetime
+def get_current_date():
+        return datetime.date.today()
