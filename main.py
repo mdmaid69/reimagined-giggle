@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def exit_program():
+        sys.exit()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
