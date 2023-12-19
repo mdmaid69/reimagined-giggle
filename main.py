@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import sys
+  def get_python_version():
+        return sys.version
