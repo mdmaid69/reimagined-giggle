@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
