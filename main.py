@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+print([x**2 for x in range(10)])
