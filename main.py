@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
