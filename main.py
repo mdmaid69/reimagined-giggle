@@ -1,5 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
