@@ -1,5 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def count_words(sentence):
-        return len(sentence.split())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
