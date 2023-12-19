@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def reverse_array(array):
+        array.reverse()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
