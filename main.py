@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
