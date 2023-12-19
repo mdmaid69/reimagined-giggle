@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
