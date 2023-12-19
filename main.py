@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
