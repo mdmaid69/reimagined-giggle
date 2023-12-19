@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
