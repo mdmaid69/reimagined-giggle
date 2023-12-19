@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_list(array):
-        return list(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
