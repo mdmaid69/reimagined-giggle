@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
