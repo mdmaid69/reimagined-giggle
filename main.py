@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
