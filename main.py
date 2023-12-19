@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
