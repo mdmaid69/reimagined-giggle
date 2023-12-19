@@ -1,6 +1,5 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
