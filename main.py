@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
