@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def cube_number(x):
-        return x**3
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
