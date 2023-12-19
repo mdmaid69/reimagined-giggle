@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
