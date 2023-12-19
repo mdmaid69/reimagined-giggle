@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
