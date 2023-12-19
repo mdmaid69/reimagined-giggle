@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def find_max(lst):
+        return max(lst)
