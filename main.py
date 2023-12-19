@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import sys
+def exit_program():
+        sys.exit()
+  def is_even(n):
+        return n % 2 == 0
