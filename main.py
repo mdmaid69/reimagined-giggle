@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
