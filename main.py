@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_string_from_array(array):
+        return array.tobytes()
