@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-print(random.randint(0, 100))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
