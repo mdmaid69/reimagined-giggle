@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
