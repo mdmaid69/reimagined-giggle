@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
