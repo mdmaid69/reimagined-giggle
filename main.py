@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
