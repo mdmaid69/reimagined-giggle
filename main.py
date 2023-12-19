@@ -1,6 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_sine(x):
+        return math.sin(x)
