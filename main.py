@@ -1,11 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_list_from_array(array):
+        return array.tolist()
