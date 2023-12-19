@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
