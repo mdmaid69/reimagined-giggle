@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_cosine(x):
+        return math.cos(x)
