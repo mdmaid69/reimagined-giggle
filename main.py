@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_area_rectangle(l, w):
-        return l * w
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+for i in range(10): print(i)
