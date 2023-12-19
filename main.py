@@ -1,6 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
