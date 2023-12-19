@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
