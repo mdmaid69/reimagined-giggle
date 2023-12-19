@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
