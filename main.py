@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
-def is_palindrome(s):
-        return s == s[::-1]
