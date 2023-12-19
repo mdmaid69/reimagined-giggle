@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def is_odd(n):
+        return n % 2 != 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
