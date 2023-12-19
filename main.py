@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
