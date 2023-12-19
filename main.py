@@ -1,5 +1,12 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def reverse_list(lst):
-        return lst[::-1]
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
