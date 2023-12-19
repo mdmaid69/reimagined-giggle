@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
