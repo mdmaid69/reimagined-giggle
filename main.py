@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
