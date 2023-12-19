@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def convert_array_to_string(array):
+        return array.tostring()
