@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
