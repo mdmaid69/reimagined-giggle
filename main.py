@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def delete_file(file_name):
+        os.remove(file_name)
