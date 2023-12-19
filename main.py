@@ -1,6 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
