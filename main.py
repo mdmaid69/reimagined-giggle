@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
