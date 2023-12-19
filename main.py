@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
