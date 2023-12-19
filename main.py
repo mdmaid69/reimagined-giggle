@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
