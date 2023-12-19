@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
