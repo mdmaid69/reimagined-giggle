@@ -1,8 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def multiply_numbers(x, y):
+        return x * y
