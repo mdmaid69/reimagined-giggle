@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
