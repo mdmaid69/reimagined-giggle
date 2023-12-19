@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
