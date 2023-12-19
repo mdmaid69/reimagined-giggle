@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
