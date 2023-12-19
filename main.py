@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
