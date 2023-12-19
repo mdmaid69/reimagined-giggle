@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
