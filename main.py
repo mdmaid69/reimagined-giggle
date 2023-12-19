@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import sys
+def print_python_version():
+        return sys.version
