@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def square_number(x):
+        return x**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
