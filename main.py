@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
