@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def is_even(n):
+        return n % 2 == 0
