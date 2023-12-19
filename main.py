@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def count_characters(sentence):
-        return len(sentence)
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
