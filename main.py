@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-  def is_odd(n):
-        return n % 2 != 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
