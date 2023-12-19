@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def add_numbers(x, y):
-        return x + y
+  def split_path(path):
+        return os.path.split(path)
+  def square_number(x):
+        return x**2
