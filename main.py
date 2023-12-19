@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
