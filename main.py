@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def clear_array(array):
-        array *= 0
+def calculate_work(force, distance):
+        return force * distance
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
