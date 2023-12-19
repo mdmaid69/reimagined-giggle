@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
