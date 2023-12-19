@@ -1,5 +1,4 @@
+print([x**2 for x in range(10)])
 import collections
-def create_queue():
-        return collections.deque()
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_elements(iterable):
+        return collections.Counter(iterable)
