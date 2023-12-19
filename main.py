@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
