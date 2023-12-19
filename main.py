@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import sys
-def exit_program():
-        sys.exit()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
