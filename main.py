@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
