@@ -1,6 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
