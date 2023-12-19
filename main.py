@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
