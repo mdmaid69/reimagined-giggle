@@ -1,5 +1,6 @@
-import time
-print(time.time())
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_speed(distance, time):
+        return distance / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
