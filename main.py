@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
