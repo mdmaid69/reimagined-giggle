@@ -1,7 +1,8 @@
-def add_numbers(a, b):
-        return a + b
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
+import math
+def calculate_sine(x):
+        return math.sin(x)
