@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_list_from_array(array):
+        return array.tolist()
