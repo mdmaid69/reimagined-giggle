@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
