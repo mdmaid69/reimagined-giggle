@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+for i in range(10): print(i)
