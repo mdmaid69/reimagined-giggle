@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_length(array):
+        return len(array)
