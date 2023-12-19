@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
