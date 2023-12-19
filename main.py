@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def square_number(x):
-        return x**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
