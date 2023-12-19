@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
