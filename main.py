@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
