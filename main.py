@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def clear_array(array):
+        array *= 0
