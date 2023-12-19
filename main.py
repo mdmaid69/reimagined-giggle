@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_length(array):
+        return len(array)
