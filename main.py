@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_array_length(array):
-        return len(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
