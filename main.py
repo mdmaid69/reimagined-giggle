@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import tensorflow as tf
-print(tf.__version__)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import time
+def get_time_since_epoch():
+        return time.time()
