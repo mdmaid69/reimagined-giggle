@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
