@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
