@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
