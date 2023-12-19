@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
