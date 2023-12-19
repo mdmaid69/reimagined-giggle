@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_exponential(x):
+        return math.exp(x)
