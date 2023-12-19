@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import datetime
+def get_today_date():
+        return datetime.date.today()
