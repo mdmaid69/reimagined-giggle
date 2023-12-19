@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
