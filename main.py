@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_as_set(array):
+        return set(array)
