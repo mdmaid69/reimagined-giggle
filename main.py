@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
