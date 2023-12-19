@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
