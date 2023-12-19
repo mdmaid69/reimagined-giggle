@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import os
+def change_working_directory(path):
+        os.chdir(path)
