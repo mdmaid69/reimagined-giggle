@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
