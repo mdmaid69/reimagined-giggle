@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
