@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def cube_number(x):
-        return x**3
+def calculate_speed(distance, time):
+        return distance / time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
