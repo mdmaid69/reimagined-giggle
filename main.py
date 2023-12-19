@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  def calculate_area_rectangle(l, w):
+        return l * w
