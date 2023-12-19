@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import os
-print(os.getcwd())
+for i in range(5):
+        print(i)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
