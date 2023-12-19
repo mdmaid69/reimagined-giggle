@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
