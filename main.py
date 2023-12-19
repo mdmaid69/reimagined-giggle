@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import random
+print(random.randint(0, 100))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
