@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
