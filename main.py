@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_work(force, distance):
+        return force * distance
