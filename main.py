@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
