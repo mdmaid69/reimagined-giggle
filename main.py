@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
