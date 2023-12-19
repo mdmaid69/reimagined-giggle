@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
