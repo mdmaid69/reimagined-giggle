@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
