@@ -1,8 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
