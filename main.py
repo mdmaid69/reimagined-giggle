@@ -1,7 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_power(work, time):
+        return work / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
