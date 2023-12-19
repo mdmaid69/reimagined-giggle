@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
