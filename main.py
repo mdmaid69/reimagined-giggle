@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
