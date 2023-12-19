@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def remove_duplicates(lst):
+        return list(set(lst))
