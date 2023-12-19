@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
