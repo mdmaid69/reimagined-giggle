@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
