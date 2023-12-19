@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  def subtract_numbers(x, y):
-        return x - y
+def square_number(x):
+        return x**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
