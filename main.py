@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+print("Hello, world!")
