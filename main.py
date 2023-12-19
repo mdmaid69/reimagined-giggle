@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
