@@ -1,8 +1,8 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
