@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
