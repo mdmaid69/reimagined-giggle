@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
