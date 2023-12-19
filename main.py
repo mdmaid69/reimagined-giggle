@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
