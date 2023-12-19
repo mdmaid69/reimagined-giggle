@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
