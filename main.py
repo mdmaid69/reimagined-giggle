@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def add_numbers(a, b):
+        return a + b
+def find_min(numbers):
+        return min(numbers)
