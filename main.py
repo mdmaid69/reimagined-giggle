@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
