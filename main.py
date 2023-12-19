@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  def is_even(n):
-        return n % 2 == 0
+  def square_number(x):
+        return x**2
+def divide_numbers(x, y):
+        return x / y
