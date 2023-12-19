@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+for i in range(10): print(i)
