@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def cube_number(x):
-        return x**3
+import collections
+def create_user_dict():
+        return collections.UserDict()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
