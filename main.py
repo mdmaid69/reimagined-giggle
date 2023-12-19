@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def count_elements(lst):
-        return len(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import collections
+def create_counter():
+        return collections.Counter()
