@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_hex(n):
+        return hex(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
