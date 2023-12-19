@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
