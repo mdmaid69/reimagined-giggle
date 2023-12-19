@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_work(force, distance):
+        return force * distance
