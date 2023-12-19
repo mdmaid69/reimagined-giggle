@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
