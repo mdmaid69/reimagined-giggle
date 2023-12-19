@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
