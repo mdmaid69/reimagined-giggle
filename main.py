@@ -1,6 +1,3 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def reverse_list(lst):
+        return lst[::-1]
+print([x**2 for x in range(10)])
