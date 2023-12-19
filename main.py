@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import sys
+print(sys.version)
