@@ -1,8 +1,12 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
