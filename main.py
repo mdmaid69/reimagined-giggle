@@ -1,5 +1,3 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+print([x**2 for x in range(10)])
+def reverse_string(s):
+        return s[::-1]
