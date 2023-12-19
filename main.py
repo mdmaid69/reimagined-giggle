@@ -1,5 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def cube_number(x):
-        return x**3
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def append_to_array(array, item):
+        array.append(item)
