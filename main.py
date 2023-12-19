@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
