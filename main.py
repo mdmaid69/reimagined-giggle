@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+print(json.dumps({"name": "John", "age": 30}))
