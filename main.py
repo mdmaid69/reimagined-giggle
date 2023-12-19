@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
