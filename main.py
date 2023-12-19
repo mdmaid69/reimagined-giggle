@@ -1,6 +1,8 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import collections
+def create_queue():
+        return collections.deque()
