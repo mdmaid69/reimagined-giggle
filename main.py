@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
