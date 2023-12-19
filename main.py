@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_str(array):
-        return str(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
