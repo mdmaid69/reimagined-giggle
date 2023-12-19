@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
