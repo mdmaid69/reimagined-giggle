@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_typecode(array):
+        return array.typecode
