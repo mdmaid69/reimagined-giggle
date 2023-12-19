@@ -1,6 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+from collections import Counter
+print(Counter("hello world"))
