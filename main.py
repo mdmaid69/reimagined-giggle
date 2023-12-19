@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_even(n):
-        return n % 2 == 0
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
