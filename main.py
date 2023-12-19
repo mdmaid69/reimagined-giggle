@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
