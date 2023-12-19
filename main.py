@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
