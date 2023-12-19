@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
