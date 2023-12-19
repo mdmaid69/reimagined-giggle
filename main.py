@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-for i in range(5):
-        print(i)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
