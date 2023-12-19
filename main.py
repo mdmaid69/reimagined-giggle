@@ -1,4 +1,3 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
