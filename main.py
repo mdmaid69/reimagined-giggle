@@ -1,11 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def clear_array(array):
+        array *= 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
