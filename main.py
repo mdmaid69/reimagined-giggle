@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
