@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_item_count(array, item):
+        return array.count(item)
