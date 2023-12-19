@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
