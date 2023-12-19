@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
