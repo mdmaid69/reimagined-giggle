@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
