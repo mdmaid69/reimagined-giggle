@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
