@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_min(lst):
-        return min(lst)
+def is_even(n):
+        return n % 2 == 0
+import collections
+def create_stack():
+        return collections.deque()
