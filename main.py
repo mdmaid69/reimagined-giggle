@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
