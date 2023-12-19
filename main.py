@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
