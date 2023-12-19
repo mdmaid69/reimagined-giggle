@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
