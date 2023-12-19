@@ -1,5 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import array
-def get_array_item(array, i):
-        return array[i]
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def check_if_array_contains_item(array, item):
+        return item in array
