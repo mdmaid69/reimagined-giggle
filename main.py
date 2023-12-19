@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def greet(name):
-        print(f"Hello, {name}!")
+import sys
+print(sys.version)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
