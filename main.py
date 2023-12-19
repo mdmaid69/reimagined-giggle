@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
