@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
