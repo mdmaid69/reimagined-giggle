@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
