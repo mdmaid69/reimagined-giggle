@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
