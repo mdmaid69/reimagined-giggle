@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
