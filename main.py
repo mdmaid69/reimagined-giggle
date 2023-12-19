@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
