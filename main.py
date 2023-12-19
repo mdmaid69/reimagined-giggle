@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_density(mass, volume):
-        return mass / volume
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
