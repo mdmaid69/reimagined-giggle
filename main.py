@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
