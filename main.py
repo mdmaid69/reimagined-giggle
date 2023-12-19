@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
