@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def reverse_list(lst):
+        return lst[::-1]
