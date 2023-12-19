@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
