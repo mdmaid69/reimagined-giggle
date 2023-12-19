@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
