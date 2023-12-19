@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
