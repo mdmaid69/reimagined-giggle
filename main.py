@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
