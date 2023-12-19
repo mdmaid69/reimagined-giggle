@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
