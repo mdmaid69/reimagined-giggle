@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_work(force, distance):
+        return force * distance
+  def remove_duplicates(lst):
+        return list(set(lst))
