@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_min(lst):
-        return min(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
