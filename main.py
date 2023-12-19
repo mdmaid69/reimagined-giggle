@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def cube_number(x):
+        return x**3
+import datetime
+def get_current_date():
+        return datetime.date.today()
