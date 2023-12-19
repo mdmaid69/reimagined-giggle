@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
