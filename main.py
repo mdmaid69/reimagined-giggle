@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def multiply_numbers(x, y):
+        return x * y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
