@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import datetime
+def get_current_date():
+        return datetime.date.today()
