@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
