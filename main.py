@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
