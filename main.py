@@ -1,4 +1,9 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
