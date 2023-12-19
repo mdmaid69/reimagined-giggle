@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
