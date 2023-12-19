@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
