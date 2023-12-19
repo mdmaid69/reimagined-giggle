@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
