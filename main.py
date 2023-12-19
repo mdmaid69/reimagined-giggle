@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import logging
+def log_message(message):
+        logging.info(message)
