@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
