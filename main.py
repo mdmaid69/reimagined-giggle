@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
