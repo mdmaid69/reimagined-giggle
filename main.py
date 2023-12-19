@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_current_directory():
+        return os.getcwd()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
