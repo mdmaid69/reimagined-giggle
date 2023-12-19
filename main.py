@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
