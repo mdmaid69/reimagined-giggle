@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def cube_number(x):
-        return x**3
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
