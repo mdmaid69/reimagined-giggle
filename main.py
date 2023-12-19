@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
