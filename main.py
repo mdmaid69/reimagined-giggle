@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
