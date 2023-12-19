@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def divide_numbers(x, y):
-        return x / y
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+print(os.getcwd())
