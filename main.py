@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+print("Hello, world!")
