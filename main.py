@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
