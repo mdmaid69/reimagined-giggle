@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
