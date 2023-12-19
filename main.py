@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
