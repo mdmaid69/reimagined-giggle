@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
