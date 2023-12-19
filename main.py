@@ -1,6 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
