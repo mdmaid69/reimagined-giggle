@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import os
+def change_working_directory(path):
+        os.chdir(path)
