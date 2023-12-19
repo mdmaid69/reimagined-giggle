@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
