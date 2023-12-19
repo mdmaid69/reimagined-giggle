@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def cube_number(x):
+        return x**3
