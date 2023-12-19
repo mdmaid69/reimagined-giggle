@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def convert_to_binary(n):
+        return bin(n)
