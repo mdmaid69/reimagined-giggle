@@ -1,9 +1,8 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_from_file(filename, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
