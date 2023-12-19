@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
