@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
