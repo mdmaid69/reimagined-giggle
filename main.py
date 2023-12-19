@@ -1,5 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import os
-print(os.getcwd())
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def list_files_in_directory(path):
+        return os.listdir(path)
