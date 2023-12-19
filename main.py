@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def get_time_since_epoch():
+        return time.time()
