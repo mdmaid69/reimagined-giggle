@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import sys
+def exit_program():
+        sys.exit()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
