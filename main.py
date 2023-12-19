@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+print(os.getcwd())
