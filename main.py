@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
