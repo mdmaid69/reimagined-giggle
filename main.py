@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
