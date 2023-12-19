@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import collections
+def create_stack():
+        return collections.deque()
+  def reverse_list(lst):
+        return lst[::-1]
