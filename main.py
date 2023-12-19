@@ -1,5 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
