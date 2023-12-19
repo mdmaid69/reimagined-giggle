@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
