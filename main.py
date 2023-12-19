@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
