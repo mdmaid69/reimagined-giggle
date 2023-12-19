@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_to_octal(n):
+        return oct(n)
+import time
+print(time.time())
