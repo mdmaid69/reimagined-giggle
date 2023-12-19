@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def find_unique_words(sentence):
+        return set(sentence.split())
