@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
