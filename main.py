@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
