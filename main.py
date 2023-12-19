@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
