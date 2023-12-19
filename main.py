@@ -1,9 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+x = 10
+y = 20
+print("Sum:", x + y)
