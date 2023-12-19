@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import time
-print(time.time())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
