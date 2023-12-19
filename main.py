@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
