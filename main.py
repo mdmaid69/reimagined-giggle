@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import time
+def get_time_since_epoch():
+        return time.time()
+def divide_numbers(x, y):
+        return x / y
