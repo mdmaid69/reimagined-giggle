@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
