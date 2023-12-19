@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_work(force, distance):
+        return force * distance
+def add_numbers(a, b):
+        return a + b
