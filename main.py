@@ -1,4 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
