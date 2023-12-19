@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
