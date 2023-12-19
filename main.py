@@ -1,4 +1,5 @@
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 def calculate_roi(gain, cost):
         return (gain - cost) / cost
-def is_palindrome(s):
-        return s == s[::-1]
