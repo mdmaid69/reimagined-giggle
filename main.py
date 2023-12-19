@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
