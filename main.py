@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
