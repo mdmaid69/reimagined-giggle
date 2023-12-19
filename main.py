@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
