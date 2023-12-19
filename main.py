@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
