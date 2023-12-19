@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
