@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
