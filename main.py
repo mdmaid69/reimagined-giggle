@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
