@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
