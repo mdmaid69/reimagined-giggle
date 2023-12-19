@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_density(mass, volume):
+        return mass / volume
