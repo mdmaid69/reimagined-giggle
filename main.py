@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
