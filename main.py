@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
