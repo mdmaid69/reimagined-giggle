@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+for i in range(10): print(i)
