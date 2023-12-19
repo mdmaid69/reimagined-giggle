@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
