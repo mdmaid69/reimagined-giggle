@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import datetime
+print(datetime.datetime.now())
