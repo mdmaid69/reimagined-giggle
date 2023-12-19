@@ -1,6 +1,6 @@
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def print_python_version():
+        return sys.version
