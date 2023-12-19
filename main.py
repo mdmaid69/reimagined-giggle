@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
