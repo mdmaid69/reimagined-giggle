@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
