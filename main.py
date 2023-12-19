@@ -1,8 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_sign(x):
+        return math.copysign(1, x)
+def find_max(numbers):
+        return max(numbers)
