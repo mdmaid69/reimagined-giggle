@@ -1,5 +1,8 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import numpy as np
-print(np.array([1, 2, 3]))
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_array_to_list(array):
+        return array.tolist()
