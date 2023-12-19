@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_speed(distance, time):
+        return distance / time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
