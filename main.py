@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import sys
-def print_python_version():
-        return sys.version
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
