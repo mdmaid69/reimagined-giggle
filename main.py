@@ -1,6 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
