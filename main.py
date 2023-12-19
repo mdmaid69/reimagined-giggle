@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
