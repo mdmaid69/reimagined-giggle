@@ -1,7 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_mode(file_name):
+  def get_file_permissions(file_name):
         return os.stat(file_name).st_mode
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
