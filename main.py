@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
