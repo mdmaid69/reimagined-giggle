@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_counter():
-        return collections.Counter()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import sys
+print(sys.version)
