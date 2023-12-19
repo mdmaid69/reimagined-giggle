@@ -1,8 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def add_numbers(x, y):
+        return x + y
