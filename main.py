@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
