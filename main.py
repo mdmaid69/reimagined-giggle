@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import re
+print(re.match("h.*o", "hello world"))
