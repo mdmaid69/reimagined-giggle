@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import time
+print(time.time())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
