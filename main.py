@@ -1,5 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
