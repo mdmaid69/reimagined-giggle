@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
