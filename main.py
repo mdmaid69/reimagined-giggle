@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
