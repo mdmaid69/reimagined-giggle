@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
