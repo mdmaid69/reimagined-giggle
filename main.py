@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
