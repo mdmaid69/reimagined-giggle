@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def square_number(x):
-        return x**2
+import time
+def get_time_since_epoch():
+        return time.time()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
