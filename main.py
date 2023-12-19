@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
