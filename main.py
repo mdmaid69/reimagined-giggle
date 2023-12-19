@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
