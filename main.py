@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
