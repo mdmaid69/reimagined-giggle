@@ -1,8 +1,8 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import csv
-with open("some.csv", "w", newline="") as f:
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+        writer.writerows(data)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
