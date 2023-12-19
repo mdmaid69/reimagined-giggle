@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+name = "Python"
+print("Hello,", name)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
