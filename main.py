@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def sort_list(lst):
+        return sorted(lst)
