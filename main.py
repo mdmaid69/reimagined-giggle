@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-x = 10
-y = 20
-print("Sum:", x + y)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
