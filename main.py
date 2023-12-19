@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
