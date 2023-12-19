@@ -1,5 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
