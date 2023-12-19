@@ -1,5 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
