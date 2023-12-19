@@ -1,7 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
