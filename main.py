@@ -1,6 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
