@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def change_working_directory(path):
+        os.chdir(path)
