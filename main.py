@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def is_odd(n):
+        return n % 2 != 0
