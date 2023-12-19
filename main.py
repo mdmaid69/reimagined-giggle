@@ -1,5 +1,5 @@
+import time
+print(time.time())
   import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def is_palindrome(s):
-        return s == s[::-1]
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
