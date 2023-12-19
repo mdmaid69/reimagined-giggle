@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
