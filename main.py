@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import sys
-  def get_python_version():
-        return sys.version
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
