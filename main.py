@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
