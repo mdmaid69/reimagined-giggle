@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
