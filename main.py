@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
