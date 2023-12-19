@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
