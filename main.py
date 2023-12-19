@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
