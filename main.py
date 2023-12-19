@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
