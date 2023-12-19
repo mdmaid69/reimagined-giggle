@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
