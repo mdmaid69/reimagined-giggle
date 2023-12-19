@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
