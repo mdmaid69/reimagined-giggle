@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_list_from_array(array):
+        return array.tolist()
