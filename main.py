@@ -1,6 +1,10 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
