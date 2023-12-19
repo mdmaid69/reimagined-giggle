@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def subtract_numbers(x, y):
+        return x - y
