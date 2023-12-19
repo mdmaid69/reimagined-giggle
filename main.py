@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
