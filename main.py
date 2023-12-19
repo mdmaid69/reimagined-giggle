@@ -1,7 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def convert_array_to_string(array):
+        return array.tostring()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
