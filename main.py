@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_str(array):
+        return str(array)
