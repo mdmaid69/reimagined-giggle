@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
