@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def is_palindrome(s):
+        return s == s[::-1]
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
