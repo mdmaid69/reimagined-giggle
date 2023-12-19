@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def convert_to_hex(n):
-        return hex(n)
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
