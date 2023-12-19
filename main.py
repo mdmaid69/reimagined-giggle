@@ -1,7 +1,11 @@
-import socket
+import queue
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_density(mass, volume):
+        return mass / volume
