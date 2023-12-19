@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def add_numbers(x, y):
-        return x + y
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
