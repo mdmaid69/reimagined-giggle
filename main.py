@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
