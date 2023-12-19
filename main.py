@@ -1,6 +1,6 @@
+name = "Python"
+print("Hello,", name)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
