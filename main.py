@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
