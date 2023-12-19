@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def reverse_list(lst):
-        return lst[::-1]
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
