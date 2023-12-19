@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_volume(length, width, height):
+        return length * width * height
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
