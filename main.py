@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import sys
-  def get_python_version():
-        return sys.version
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
