@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
