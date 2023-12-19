@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
