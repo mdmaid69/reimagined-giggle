@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_work(force, distance):
+        return force * distance
+def reverse_string(s):
+        return s[::-1]
