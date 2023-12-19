@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
