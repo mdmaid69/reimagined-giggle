@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_length(array):
-        return len(array)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_average(lst):
+        return sum(lst) / len(lst)
