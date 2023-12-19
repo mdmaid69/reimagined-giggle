@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_area(radius):
+        return 3.14 * radius * radius
