@@ -1,8 +1,7 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
