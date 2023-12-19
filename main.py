@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+print(random.randint(0, 100))
