@@ -1,6 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def clear_array(array):
-        array *= 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+def convert_array_to_unicode(array):
+        return array.tounicode()
