@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import time
-def get_current_time():
-        return time.time()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
