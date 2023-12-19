@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-for i in range(5):
-        print(i)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
