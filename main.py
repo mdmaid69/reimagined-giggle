@@ -1,6 +1,5 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+print(re.match("h.*o", "hello world"))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
