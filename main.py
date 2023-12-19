@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def subtract_numbers(x, y):
+        return x - y
+import time
+def get_time_since_epoch():
+        return time.time()
