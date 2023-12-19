@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
