@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import sys
+def print_python_version():
+        print(sys.version)
+def sort_numbers(numbers):
+        return sorted(numbers)
