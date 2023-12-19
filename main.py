@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_max(lst):
+        return max(lst)
+  def subtract_numbers(x, y):
+        return x - y
