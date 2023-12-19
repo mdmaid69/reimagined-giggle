@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
