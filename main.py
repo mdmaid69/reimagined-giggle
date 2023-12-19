@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
