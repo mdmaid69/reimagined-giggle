@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
