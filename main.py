@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
