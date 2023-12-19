@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
