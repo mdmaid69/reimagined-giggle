@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
