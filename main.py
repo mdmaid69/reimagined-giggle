@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
