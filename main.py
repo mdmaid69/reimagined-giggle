@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
