@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
