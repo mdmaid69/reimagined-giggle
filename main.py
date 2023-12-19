@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
