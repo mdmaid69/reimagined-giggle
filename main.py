@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-print(math.pi)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
