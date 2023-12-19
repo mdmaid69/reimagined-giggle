@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_area_circle(r):
+        return 3.14 * r**2
