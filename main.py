@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
