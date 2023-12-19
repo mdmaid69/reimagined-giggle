@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
