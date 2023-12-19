@@ -1,8 +1,7 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
