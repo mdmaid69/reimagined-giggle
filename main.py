@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
