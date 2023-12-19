@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_density(mass, volume):
+        return mass / volume
