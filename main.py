@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
