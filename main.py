@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
