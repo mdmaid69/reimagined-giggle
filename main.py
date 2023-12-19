@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
