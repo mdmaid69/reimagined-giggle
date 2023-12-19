@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
