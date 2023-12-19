@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
