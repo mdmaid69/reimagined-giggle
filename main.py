@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
