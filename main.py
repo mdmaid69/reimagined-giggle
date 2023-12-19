@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def divide_numbers(x, y):
+        return x / y
