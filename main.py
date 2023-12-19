@@ -1,8 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
