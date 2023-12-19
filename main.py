@@ -1,4 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
