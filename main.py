@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
