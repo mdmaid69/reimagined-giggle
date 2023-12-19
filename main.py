@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
