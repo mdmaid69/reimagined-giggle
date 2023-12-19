@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
