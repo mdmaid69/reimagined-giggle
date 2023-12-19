@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_sine(x):
+        return math.sin(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
