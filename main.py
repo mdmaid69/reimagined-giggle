@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def count_characters(sentence):
+        return len(sentence)
