@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
