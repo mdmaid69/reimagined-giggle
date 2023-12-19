@@ -1,8 +1,11 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
