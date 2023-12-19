@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_power(work, time):
+        return work / time
+import collections
+def create_stack():
+        return collections.deque()
