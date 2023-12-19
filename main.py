@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
