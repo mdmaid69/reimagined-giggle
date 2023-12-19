@@ -1,3 +1,4 @@
-print("Hello, world!")
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_density(mass, volume):
+        return mass / volume
+from collections import Counter
+print(Counter("hello world"))
