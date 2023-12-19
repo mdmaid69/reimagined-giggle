@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
