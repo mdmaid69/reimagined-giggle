@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
