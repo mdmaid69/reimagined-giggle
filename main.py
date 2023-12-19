@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def is_even(n):
+        return n % 2 == 0
