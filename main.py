@@ -1,6 +1,8 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
