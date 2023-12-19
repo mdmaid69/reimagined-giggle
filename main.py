@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_item(array, i):
-        return array[i]
+from collections import Counter
+print(Counter("hello world"))
+import random
+print(random.randint(0, 100))
