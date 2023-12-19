@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-name = "Python"
-print("Hello,", name)
+import array
+def reverse_array(array):
+        array.reverse()
+def cube_number(x):
+        return x**3
