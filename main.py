@@ -1,5 +1,8 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def count_characters(sentence):
-        return len(sentence)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
