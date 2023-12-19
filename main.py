@@ -1,5 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
