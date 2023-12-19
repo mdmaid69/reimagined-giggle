@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_force(mass, acceleration):
+        return mass * acceleration
