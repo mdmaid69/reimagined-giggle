@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
