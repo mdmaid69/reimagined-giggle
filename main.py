@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
