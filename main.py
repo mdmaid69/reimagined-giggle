@@ -1,6 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
