@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
