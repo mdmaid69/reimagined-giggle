@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
