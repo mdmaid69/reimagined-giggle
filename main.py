@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
