@@ -1,6 +1,8 @@
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
