@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def add_numbers(x, y):
-        return x + y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
