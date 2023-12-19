@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
