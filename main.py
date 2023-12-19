@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def subtract_numbers(x, y):
+        return x - y
