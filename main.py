@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
