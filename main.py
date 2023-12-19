@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
