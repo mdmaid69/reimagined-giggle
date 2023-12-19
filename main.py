@@ -1,8 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
