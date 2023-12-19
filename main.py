@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def clear_array(array):
-        array *= 0
+for i in range(5):
+        print(i)
+import collections
+def create_user_dict():
+        return collections.UserDict()
