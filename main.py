@@ -1,7 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import os
+def change_working_directory(path):
+        os.chdir(path)
