@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
