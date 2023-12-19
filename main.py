@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import platform
+def get_python_version():
+        return platform.python_version()
