@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_exponential(x):
+        return math.exp(x)
