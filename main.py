@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
