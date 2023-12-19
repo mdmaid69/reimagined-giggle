@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import platform
+def get_python_version():
+        return platform.python_version()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
