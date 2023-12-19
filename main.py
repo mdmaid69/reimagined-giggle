@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_acceleration(speed, time):
-        return speed / time
+def cube_number(x):
+        return x**3
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
