@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
