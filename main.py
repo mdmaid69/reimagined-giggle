@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
