@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def count_elements(lst):
+        return len(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
