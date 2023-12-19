@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
