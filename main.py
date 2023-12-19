@@ -1,7 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
