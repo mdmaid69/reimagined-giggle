@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
