@@ -1,4 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-print(sum(range(10)))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
