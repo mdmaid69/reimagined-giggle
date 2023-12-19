@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def count_words(sentence):
+        return len(sentence.split())
