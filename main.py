@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
