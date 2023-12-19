@@ -1,8 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def find_max(numbers):
+        return max(numbers)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
