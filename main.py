@@ -1,6 +1,4 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+for i in range(10): print(i)
