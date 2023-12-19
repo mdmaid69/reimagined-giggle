@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_counter():
-        return collections.Counter()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+text = "Hello, world!"
+print("Characters:", len(text))
