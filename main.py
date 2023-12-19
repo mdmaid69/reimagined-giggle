@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_power(work, time):
-        return work / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
