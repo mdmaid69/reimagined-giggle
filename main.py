@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
