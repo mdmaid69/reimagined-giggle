@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def count_elements(lst):
-        return len(lst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
