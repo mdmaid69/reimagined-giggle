@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
