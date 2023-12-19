@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_int(array):
+        return int(array[0])
