@@ -1,7 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
