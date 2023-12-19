@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_current_directory():
+        return os.getcwd()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
