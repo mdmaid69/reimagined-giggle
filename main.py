@@ -1,6 +1,3 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+print([x**2 for x in range(10)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
