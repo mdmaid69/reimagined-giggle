@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
