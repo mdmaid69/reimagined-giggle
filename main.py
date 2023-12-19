@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
