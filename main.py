@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def remove_duplicates(lst):
+        return list(set(lst))
