@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
