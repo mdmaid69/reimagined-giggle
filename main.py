@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_itemsize(array):
+        return array.itemsize
