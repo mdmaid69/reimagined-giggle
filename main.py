@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
