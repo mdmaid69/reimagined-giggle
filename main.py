@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
