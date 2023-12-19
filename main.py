@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def cube_number(x):
+        return x**3
