@@ -1,5 +1,6 @@
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def add_numbers(x, y):
-        return x + y
+def get_today_date():
+        return datetime.date.today()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
