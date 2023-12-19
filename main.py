@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
