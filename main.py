@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def greet(name):
+        print(f"Hello, {name}!")
