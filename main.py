@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
