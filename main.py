@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
