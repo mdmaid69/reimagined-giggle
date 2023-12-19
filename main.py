@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
