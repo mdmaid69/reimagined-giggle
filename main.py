@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
