@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def convert_to_octal(n):
+        return oct(n)
