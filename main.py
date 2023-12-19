@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
