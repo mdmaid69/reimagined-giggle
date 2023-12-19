@@ -1,5 +1,8 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
