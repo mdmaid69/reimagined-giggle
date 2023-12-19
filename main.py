@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
