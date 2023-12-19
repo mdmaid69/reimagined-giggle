@@ -1,5 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import datetime
+print(datetime.datetime.now())
