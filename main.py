@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
