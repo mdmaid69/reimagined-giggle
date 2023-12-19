@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
