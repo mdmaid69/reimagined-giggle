@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
