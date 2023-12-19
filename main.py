@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
