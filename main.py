@@ -1,5 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
