@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
