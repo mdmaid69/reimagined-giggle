@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import tensorflow as tf
+print(tf.__version__)
