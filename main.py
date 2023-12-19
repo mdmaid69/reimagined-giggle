@@ -1,8 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
