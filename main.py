@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+print(re.match("h.*o", "hello world"))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
