@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
