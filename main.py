@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_perpetuity(payment, rate):
+        return payment / rate
