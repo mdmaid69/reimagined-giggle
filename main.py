@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
