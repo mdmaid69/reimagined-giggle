@@ -1,6 +1,12 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
