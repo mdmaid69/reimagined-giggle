@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
