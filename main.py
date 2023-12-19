@@ -1,7 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
