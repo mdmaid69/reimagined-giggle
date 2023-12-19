@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
