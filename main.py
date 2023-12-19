@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
