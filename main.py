@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
