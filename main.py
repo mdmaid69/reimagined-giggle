@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def convert_to_hex(n):
-        return hex(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import collections
+def create_queue():
+        return collections.deque()
