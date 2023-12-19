@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def is_even(n):
+        return n % 2 == 0
