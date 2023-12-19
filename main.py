@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_floor(x):
+        return math.floor(x)
