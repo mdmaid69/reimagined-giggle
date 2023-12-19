@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
