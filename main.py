@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_pressure(force, area):
+        return force / area
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
