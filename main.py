@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_as_set(array):
+        return set(array)
