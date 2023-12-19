@@ -1,6 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
