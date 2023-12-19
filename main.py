@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_max(lst):
-        return max(lst)
+import math
+print(math.pi)
+import sys
+def exit_program():
+        sys.exit()
