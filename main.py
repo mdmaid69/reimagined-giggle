@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
