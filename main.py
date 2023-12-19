@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import datetime
-print(datetime.datetime.now())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
