@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
