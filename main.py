@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def count_elements(lst):
+        return len(lst)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_itemsize(array):
+        return array.itemsize
