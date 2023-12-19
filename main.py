@@ -1,5 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import random
+print(random.randint(0, 100))
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Square numbers:", [x**2 for x in range(n)])
