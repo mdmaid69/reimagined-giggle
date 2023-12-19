@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
