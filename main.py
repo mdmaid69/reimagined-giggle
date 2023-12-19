@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
