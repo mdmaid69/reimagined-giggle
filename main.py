@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
