@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def sort_numbers(numbers):
+        return sorted(numbers)
