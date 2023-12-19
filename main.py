@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
