@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def cube_number(x):
+        return x**3
+def find_min(lst):
+        return min(lst)
