@@ -1,4 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
