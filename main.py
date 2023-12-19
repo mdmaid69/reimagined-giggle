@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
