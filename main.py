@@ -1,5 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def split_path(path):
-        return os.path.split(path)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
