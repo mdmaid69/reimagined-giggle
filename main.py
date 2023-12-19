@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
