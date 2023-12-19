@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
