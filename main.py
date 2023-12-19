@@ -1,11 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+x = 10
+y = 20
+print("Sum:", x + y)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
