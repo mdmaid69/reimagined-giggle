@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-for i in range(5):
-        print(i)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def exit_program():
+        sys.exit()
