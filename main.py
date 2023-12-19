@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def convert_to_hex(n):
-        return hex(n)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
