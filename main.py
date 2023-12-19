@@ -1,4 +1,12 @@
-def cube_number(x):
-        return x**3
-def calculate_pressure(force, area):
-        return force / area
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
