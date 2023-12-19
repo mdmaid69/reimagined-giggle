@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
