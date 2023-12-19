@@ -1,6 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
