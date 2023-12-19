@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def square_number(x):
+        return x**2
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
