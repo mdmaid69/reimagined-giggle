@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import datetime
+print(datetime.datetime.now())
