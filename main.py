@@ -1,5 +1,3 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_user_list():
-        return collections.UserList()
+def convert_to_octal(n):
+        return oct(n)
+print([x**2 for x in range(10)])
