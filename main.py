@@ -1,6 +1,8 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_tangent(x):
+        return math.tan(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
