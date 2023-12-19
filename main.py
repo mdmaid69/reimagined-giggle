@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def is_palindrome(s):
-        return s == s[::-1]
+def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
