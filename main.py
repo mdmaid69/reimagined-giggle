@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def cube_number(x):
+        return x**3
