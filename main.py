@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
