@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def add_numbers(x, y):
+        return x + y
