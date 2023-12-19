@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
