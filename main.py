@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
