@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
