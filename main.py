@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
