@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
