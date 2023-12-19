@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
