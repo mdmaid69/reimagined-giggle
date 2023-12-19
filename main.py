@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def cube_number(x):
+        return x**3
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_slice(array, i, j):
+        return array[i:j]
