@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
+import array
+def get_array_as_str(array):
+        return str(array)
