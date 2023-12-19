@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
