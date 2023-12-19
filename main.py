@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
