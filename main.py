@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def exit_program():
-        sys.exit()
+def square_number(x):
+        return x**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
