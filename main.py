@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_area_rectangle(l, w):
+        return l * w
