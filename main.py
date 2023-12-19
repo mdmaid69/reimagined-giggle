@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
