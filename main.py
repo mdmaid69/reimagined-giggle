@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
