@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_typecode(array):
+        return array.typecode
 from flask import Flask
 app = Flask(__name__)
 
