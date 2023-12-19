@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def count_elements(lst):
+        return len(lst)
+print([x**2 for x in range(10)])
