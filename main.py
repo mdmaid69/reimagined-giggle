@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-print(math.pi)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
