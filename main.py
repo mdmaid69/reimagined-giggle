@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
