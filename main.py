@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
