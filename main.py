@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
