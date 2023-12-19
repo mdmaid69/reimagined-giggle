@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import sys
+def print_python_version():
+        print(sys.version)
