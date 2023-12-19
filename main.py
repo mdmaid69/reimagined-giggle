@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def convert_to_hex(n):
+        return hex(n)
