@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-name = "Python"
-print("Hello,", name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def multiply_numbers(x, y):
+        return x * y
