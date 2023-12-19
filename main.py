@@ -1,7 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import random
+print(random.randint(0, 100))
+  def convert_to_hex(n):
+        return hex(n)
