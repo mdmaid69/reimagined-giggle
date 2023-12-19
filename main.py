@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_user_string():
+        return collections.UserString()
