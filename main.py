@@ -1,5 +1,10 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
