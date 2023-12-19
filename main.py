@@ -1,5 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
