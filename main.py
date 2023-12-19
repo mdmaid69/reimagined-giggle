@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
