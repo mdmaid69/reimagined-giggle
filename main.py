@@ -1,8 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
