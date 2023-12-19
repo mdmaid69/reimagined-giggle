@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def convert_to_binary(n):
-        return bin(n)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
