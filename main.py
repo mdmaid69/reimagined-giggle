@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def convert_to_octal(n):
+        return oct(n)
