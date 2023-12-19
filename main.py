@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
