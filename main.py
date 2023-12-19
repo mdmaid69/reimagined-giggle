@@ -1,8 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
