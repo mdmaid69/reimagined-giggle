@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import time
-print(time.time())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def count_elements(lst):
+        return len(lst)
