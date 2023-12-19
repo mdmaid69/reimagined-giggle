@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
