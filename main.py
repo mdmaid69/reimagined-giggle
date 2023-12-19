@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
