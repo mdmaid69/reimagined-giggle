@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
