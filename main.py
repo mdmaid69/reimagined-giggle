@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
