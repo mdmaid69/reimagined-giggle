@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
