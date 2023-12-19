@@ -1,10 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
