@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def reverse_array(array):
-        array.reverse()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
