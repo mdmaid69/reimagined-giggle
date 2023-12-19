@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
