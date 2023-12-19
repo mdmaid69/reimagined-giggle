@@ -1,5 +1,11 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
