@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
