@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
