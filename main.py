@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def sort_numbers(numbers):
+        return sorted(numbers)
