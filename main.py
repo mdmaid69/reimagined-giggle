@@ -1,5 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
