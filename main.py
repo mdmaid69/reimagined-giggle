@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def add_numbers(x, y):
+        return x + y
