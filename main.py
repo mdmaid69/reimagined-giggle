@@ -1,8 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import time
+print(time.time())
+import os
+print(os.getcwd())
