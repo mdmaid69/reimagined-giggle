@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def reverse_list(lst):
-        return lst[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
