@@ -1,4 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-for i in range(10): print(i)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def divide_numbers(x, y):
+        return x / y
