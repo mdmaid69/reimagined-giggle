@@ -1,12 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
