@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def greet(name):
+        print(f"Hello, {name}!")
+  def subtract_numbers(x, y):
+        return x - y
