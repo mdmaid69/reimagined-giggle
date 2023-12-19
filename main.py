@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
