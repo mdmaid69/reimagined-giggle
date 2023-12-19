@@ -1,7 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
