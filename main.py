@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
