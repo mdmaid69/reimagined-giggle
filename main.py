@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import datetime
+print(datetime.datetime.now())
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+print("Reversed:", text[::-1])
