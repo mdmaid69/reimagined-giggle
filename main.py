@@ -1,4 +1,4 @@
-import sys
-print(sys.version)
-name = "Python"
-print("Hello,", name)
+def multiply_numbers(x, y):
+        return x * y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
