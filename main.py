@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  def count_elements(lst):
-        return len(lst)
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
