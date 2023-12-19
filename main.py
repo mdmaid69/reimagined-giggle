@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
