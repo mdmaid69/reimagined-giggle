@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
