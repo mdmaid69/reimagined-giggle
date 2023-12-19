@@ -1,5 +1,6 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
