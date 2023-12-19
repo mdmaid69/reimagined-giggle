@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def cube_number(x):
+        return x**3
