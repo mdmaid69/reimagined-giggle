@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
