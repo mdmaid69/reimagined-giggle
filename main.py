@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
