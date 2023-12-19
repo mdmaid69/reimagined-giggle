@@ -1,10 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def cube_number(x):
+        return x**3
