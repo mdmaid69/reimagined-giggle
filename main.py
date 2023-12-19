@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
