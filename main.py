@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
