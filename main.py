@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
