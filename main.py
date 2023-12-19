@@ -1,5 +1,5 @@
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_circle_area(radius):
+        return math.pi * radius**2
