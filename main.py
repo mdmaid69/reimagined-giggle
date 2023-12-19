@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
