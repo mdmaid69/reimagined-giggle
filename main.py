@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
