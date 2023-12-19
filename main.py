@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
