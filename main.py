@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
