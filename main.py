@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def add_numbers(x, y):
+        return x + y
+def reverse_string(s):
+        return s[::-1]
