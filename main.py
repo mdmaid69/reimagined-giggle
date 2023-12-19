@@ -1,4 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
