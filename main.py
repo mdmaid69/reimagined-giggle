@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
