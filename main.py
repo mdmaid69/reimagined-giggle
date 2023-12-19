@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
