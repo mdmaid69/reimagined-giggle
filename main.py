@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
