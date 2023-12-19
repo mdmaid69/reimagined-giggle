@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
