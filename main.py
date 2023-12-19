@@ -1,6 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import numpy as np
+print(np.array([1, 2, 3]))
