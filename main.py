@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import collections
-def create_stack():
-        return collections.deque()
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
