@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import sys
+  def get_python_version():
+        return sys.version
