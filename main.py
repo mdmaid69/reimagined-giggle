@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+print(random.randint(0, 100))
