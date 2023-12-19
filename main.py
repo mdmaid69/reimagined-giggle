@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
