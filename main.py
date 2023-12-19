@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
