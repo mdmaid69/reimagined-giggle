@@ -1,6 +1,8 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import sys
-def print_python_version():
-        print(sys.version)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
