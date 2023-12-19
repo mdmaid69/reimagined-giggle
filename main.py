@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-text = "Hello, world!"
-print("Characters:", len(text))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+print(sys.version)
