@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
