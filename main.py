@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
