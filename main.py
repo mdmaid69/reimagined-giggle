@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def is_even(n):
-        return n % 2 == 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
