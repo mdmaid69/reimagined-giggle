@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
