@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
