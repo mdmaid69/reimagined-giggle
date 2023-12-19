@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
