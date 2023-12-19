@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def get_array_typecode(array):
+        return array.typecode
