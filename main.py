@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
