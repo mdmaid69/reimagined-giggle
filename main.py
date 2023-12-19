@@ -1,8 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
