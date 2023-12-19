@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
