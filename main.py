@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
