@@ -1,5 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-print([x**2 for x in range(10)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
