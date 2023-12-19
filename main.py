@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_power(work, time):
-        return work / time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import collections
+def create_user_string():
+        return collections.UserString()
