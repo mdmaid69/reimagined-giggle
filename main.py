@@ -1,14 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
