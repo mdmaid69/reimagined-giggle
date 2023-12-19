@@ -1,5 +1,5 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def convert_to_binary(n):
+        return bin(n)
