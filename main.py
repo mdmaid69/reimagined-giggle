@@ -1,7 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_length(array):
+        return len(array)
+def is_palindrome(s):
+        return s == s[::-1]
