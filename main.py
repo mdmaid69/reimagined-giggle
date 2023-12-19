@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def square_number(x):
-        return x**2
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
