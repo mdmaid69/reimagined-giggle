@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_sine(x):
+        return math.sin(x)
