@@ -1,8 +1,8 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
