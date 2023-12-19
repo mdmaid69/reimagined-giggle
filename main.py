@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def get_array_slice(array, i, j):
+        return array[i:j]
