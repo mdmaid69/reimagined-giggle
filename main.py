@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
