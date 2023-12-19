@@ -1,6 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_bytes_from_array(array):
+        return array.tobytes()
