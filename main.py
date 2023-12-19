@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
