@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
