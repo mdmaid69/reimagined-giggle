@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
