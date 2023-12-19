@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_user_string():
-        return collections.UserString()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
