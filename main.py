@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
