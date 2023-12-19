@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
