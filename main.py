@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import logging
-def log_message(message):
-        logging.info(message)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
