@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
