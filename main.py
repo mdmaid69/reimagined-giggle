@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Characters:", len(text))
+for i in range(5):
+        print(i)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
