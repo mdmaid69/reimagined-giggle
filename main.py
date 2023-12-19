@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import collections
+def create_counter():
+        return collections.Counter()
+import logging
+def log_message(message):
+        logging.info(message)
