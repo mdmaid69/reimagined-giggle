@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
