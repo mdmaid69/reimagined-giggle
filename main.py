@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+for i in range(5):
+        print(i)
