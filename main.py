@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def sort_list(lst):
-        return sorted(lst)
+name = "Python"
+print("Hello,", name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
