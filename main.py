@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
