@@ -1,6 +1,3 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+print(sum(range(10)))
+def calculate_work(force, distance):
+        return force * distance
