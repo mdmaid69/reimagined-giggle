@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def convert_to_octal(n):
+        return oct(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
