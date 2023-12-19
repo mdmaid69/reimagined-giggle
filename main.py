@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_acceleration(speed, time):
+        return speed / time
