@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
