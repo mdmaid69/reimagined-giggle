@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def is_palindrome(s):
+        return s == s[::-1]
