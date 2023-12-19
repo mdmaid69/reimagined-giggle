@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
