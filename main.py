@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
