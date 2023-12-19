@@ -1,5 +1,10 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
