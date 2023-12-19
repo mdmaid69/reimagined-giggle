@@ -1,5 +1,7 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
