@@ -1,8 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
