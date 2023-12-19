@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_typecode(array):
+        return array.typecode
