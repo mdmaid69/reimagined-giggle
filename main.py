@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_as_list(array):
-        return list(array)
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
