@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+text = "Hello, world!"
+print("Characters:", len(text))
