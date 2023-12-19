@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
