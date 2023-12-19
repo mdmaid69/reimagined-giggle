@@ -1,5 +1,10 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
