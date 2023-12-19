@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+print("Hello, world!")
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
