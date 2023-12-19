@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
