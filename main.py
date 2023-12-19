@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
