@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
