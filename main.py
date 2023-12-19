@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
