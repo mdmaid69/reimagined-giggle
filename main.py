@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
