@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_as_set(array):
+        return set(array)
