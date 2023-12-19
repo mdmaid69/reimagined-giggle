@@ -1,8 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+x = 10
+y = 20
+print("Sum:", x + y)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
