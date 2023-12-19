@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_exponential(x):
+        return math.exp(x)
