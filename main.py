@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import os
+def change_working_directory(path):
+        os.chdir(path)
