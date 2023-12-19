@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
