@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def count_words(sentence):
+        return len(sentence.split())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
