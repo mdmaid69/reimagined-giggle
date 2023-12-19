@@ -1,5 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tensorflow as tf
-print(tf.__version__)
+text = "Hello, world!"
+print("Characters:", len(text))
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
