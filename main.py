@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import datetime
+def get_current_date():
+        return datetime.date.today()
