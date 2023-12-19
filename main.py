@@ -1,7 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_to_hex(n):
+        return hex(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
