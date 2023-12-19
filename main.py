@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
