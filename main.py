@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_str(array):
+        return str(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
