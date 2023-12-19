@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
