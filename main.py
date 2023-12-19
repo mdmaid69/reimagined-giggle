@@ -1,8 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
