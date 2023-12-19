@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def convert_to_binary(n):
+        return bin(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
