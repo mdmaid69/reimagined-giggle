@@ -1,6 +1,11 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_speed(distance, time):
+        return distance / time
