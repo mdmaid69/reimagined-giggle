@@ -1,5 +1,7 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def count_elements(lst):
-        return len(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
