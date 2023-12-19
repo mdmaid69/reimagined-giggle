@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_list(array):
+        return list(array)
