@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
