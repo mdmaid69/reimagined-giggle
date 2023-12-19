@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
