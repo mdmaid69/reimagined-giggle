@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
