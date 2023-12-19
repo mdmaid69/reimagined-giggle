@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_complex(array):
+        return complex(array[0])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
