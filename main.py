@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def convert_to_hex(n):
+        return hex(n)
