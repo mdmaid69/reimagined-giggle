@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
