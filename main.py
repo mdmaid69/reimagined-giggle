@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
