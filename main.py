@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
