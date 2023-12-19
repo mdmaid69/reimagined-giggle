@@ -1,7 +1,7 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
