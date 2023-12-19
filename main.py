@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
