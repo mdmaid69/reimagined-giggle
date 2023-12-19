@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
   import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
