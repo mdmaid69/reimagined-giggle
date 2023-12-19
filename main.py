@@ -1,6 +1,8 @@
-def cube_number(x):
-        return x**3
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
