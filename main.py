@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
