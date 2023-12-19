@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
