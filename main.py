@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
