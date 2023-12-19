@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_floor(x):
+        return math.floor(x)
