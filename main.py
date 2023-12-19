@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
