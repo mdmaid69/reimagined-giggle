@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
