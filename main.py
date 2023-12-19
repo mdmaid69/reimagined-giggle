@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
