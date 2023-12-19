@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
