@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
