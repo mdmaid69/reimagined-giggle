@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
