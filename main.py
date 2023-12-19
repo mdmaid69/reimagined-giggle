@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
