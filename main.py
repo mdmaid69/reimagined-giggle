@@ -1,6 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
