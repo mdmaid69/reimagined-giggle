@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def count_characters(sentence):
-        return len(sentence)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def remove_from_array(array, item):
+        array.remove(item)
