@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
