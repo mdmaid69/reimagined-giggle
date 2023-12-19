@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
