@@ -1,13 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
