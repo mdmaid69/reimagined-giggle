@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
