@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def calculate_area_rectangle(l, w):
+        return l * w
