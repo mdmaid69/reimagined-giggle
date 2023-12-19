@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_power(work, time):
-        return work / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
