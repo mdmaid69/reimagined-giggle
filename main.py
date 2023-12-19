@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
