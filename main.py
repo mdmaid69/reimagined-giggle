@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
