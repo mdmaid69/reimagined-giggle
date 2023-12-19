@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
