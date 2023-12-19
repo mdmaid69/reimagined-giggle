@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
