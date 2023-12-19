@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
