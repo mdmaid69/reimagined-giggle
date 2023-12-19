@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+print(random.randint(0, 100))
