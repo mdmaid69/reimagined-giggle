@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
