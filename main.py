@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
