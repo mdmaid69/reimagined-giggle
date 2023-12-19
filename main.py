@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
