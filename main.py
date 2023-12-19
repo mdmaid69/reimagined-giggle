@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
