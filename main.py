@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
