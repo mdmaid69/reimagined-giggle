@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
