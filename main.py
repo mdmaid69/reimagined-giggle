@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_queue():
+        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
