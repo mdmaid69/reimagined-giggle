@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_power(work, time):
+        return work / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
