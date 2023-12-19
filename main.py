@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
