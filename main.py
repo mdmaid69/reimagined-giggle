@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
