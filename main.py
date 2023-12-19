@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def is_even(n):
+        return n % 2 == 0
