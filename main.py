@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_item_count(array, item):
+        return array.count(item)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
