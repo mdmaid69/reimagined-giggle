@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def count_elements(lst):
-        return len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
