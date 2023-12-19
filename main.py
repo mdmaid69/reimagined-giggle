@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def convert_to_binary(n):
+        return bin(n)
