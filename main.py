@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
