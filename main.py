@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import platform
-def get_os_info():
-        return platform.uname()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
