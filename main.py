@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
