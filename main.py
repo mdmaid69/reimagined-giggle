@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
