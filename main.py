@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
