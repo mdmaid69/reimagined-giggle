@@ -1,6 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
