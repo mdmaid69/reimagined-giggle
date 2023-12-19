@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+x = 10
+y = 20
+print("Sum:", x + y)
