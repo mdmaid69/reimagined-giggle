@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
