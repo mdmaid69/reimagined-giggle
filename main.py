@@ -1,7 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def multiply_numbers(x, y):
+        return x * y
+  def calculate_area_rectangle(l, w):
+        return l * w
