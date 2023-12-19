@@ -1,6 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
