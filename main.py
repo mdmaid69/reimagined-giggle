@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
