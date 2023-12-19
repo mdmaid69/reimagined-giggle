@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def clear_array(array):
-        array *= 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
