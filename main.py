@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
