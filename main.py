@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+print(time.time())
+def calculate_speed(distance, time):
+        return distance / time
