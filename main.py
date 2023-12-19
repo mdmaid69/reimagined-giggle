@@ -1,6 +1,9 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
