@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
+  import re
+  def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def is_even(n):
+        return n % 2 == 0
