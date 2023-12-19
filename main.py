@@ -1,4 +1,12 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import time
+def get_current_time():
+        return time.time()
