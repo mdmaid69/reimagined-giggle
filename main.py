@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
