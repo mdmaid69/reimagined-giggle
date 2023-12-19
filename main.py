@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
