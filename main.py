@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
