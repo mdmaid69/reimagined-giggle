@@ -1,5 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
