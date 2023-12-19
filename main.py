@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
