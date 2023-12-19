@@ -1,8 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_volume(length, width, height):
+        return length * width * height
