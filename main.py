@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
