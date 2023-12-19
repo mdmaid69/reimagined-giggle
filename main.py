@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_str(array):
+        return str(array)
