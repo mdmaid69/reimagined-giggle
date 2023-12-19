@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def append_to_array(array, item):
+        array.append(item)
