@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_acceleration(speed, time):
+        return speed / time
