@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
