@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import platform
-def get_os_info():
-        return platform.uname()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
