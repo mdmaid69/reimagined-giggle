@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
