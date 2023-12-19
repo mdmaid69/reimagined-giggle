@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
