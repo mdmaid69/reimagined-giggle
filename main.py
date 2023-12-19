@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import tensorflow as tf
+print(tf.__version__)
