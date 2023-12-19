@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def subtract_numbers(x, y):
+        return x - y
