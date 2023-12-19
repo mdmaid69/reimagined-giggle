@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def square_number(x):
+        return x**2
