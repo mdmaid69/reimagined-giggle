@@ -1,6 +1,11 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
