@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
