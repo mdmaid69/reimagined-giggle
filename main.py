@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
