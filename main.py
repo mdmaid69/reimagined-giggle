@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import sys
-print(sys.version)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
