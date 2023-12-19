@@ -1,5 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def add_numbers(x, y):
-        return x + y
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
