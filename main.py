@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def get_array_as_repr(array):
+        return repr(array)
