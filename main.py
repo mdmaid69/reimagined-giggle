@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
