@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
 text = "Hello, world!"
-print("Characters:", len(text))
+print("Uppercase:", text.upper())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
