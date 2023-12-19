@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def divide_numbers(x, y):
+        return x / y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
