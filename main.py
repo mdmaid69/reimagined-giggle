@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
