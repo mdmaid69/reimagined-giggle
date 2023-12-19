@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
