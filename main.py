@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
