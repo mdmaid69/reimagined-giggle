@@ -1,4 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
