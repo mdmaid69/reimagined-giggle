@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
