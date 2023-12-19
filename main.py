@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
