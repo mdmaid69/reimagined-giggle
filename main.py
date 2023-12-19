@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
