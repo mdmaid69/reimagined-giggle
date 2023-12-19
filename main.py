@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
