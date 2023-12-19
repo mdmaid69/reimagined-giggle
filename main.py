@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def count_characters(sentence):
+        return len(sentence)
