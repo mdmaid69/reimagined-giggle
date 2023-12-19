@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def append_to_array(array, item):
-        array.append(item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def convert_to_hex(n):
+        return hex(n)
