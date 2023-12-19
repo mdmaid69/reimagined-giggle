@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import array
-def get_array_item(array, i):
-        return array[i]
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
