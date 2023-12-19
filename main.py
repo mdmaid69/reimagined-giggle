@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
