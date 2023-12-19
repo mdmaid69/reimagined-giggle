@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
