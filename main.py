@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
