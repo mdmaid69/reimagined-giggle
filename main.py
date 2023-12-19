@@ -1,8 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
