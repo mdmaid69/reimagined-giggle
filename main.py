@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
