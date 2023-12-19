@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
