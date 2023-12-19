@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
