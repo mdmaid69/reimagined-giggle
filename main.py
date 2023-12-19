@@ -1,5 +1,9 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def square_number(x):
-        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
