@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+x = 10
+y = 20
+print("Sum:", x + y)
