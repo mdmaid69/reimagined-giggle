@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
