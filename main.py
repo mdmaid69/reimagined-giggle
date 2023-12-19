@@ -1,4 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
