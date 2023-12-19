@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
