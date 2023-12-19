@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
