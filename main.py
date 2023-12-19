@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
