@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
