@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import getpass
+def get_username():
+        return getpass.getuser()
