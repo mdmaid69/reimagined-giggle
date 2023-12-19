@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+def greet(name):
+        print(f"Hello, {name}!")
