@@ -1,8 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
