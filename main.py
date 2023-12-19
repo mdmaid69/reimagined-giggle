@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
