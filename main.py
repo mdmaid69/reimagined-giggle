@@ -1,7 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
