@@ -1,5 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
