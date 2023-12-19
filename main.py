@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_work(force, distance):
+        return force * distance
