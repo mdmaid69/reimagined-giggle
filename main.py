@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_cosine(x):
+        return math.cos(x)
