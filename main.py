@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
