@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
