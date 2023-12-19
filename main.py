@@ -1,5 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
