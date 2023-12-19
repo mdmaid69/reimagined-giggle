@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
