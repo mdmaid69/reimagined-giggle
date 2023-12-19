@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def cube_number(x):
-        return x**3
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
