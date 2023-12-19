@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
