@@ -1,5 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
