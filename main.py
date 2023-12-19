@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def add_numbers(a, b):
-        return a + b
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
