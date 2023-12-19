@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def change_working_directory(path):
+        os.chdir(path)
