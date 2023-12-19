@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import time
+def get_current_time():
+        return time.ctime()
+import os
+print(os.getcwd())
