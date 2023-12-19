@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
