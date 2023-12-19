@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
