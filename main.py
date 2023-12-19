@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import random
-print(random.randint(0, 100))
+def is_even(n):
+        return n % 2 == 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
