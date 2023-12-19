@@ -1,8 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
