@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def square_number(x):
+        return x**2
+def calculate_speed(distance, time):
+        return distance / time
