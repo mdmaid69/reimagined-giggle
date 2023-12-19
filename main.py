@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
