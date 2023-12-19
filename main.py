@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
