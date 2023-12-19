@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
