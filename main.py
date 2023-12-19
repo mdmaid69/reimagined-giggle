@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
