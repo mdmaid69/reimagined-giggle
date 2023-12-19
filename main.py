@@ -1,5 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def reverse_string(s):
-        return s[::-1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import re
+print(re.match("h.*o", "hello world"))
