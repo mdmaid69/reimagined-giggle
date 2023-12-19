@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_set(array):
-        return set(array)
+def count_characters(sentence):
+        return len(sentence)
+import datetime
+print(datetime.datetime.now())
