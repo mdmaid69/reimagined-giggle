@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def is_palindrome(s):
+        return s == s[::-1]
