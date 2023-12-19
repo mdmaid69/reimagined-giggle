@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def remove_from_array(array, item):
+        array.remove(item)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
