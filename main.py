@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
