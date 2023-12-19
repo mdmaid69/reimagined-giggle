@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
