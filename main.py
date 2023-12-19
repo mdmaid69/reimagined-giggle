@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
