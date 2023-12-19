@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def create_user_string():
+        return collections.UserString()
