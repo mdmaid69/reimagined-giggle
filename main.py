@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
