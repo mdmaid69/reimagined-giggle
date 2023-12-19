@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
