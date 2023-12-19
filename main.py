@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
