@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
