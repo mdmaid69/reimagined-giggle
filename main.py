@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def convert_to_binary(n):
+        return bin(n)
