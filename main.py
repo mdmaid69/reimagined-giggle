@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
