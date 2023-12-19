@@ -1,9 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def convert_to_binary(n):
-        return bin(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import os
+def get_current_working_directory():
+        return os.getcwd()
