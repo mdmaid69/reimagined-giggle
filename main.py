@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
