@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
