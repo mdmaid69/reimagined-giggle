@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
