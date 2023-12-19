@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def add_numbers(x, y):
+        return x + y
