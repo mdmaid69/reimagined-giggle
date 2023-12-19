@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def convert_to_hex(n):
-        return hex(n)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
