@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def count_elements(lst):
+        return len(lst)
