@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def reverse_list(lst):
-        return lst[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
