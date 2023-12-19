@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
