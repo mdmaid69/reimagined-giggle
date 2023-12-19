@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+print(re.match("h.*o", "hello world"))
