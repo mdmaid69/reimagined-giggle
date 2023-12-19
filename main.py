@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import random
+print(random.randint(0, 100))
