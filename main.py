@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def subtract_numbers(x, y):
-        return x - y
+def calculate_volume(length, width, height):
+        return length * width * height
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
