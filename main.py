@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import random
+def roll_die():
+        return random.randint(1, 6)
