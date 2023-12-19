@@ -1,5 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
