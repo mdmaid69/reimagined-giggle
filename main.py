@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
