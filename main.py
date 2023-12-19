@@ -1,6 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_user_string():
-        return collections.UserString()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
