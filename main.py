@@ -1,5 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_max(numbers):
-        return max(numbers)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
