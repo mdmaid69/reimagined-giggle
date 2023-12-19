@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def remove_from_array(array, item):
+        array.remove(item)
