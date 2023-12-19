@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
