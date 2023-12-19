@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
