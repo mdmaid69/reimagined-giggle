@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
