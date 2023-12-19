@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
