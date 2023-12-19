@@ -1,6 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
