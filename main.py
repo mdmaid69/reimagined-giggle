@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
