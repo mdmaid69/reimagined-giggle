@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
