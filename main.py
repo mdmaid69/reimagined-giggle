@@ -1,8 +1,9 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
