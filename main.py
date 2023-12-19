@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
