@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
