@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
