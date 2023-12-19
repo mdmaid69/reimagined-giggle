@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
