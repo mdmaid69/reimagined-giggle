@@ -1,7 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
