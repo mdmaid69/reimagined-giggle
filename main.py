@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
