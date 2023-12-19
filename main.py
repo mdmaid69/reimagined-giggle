@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def is_even(n):
+        return n % 2 == 0
