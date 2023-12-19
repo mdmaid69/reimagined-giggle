@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
