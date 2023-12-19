@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
