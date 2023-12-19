@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_max(lst):
+        return max(lst)
