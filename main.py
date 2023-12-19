@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
