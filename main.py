@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
