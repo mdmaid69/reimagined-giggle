@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
