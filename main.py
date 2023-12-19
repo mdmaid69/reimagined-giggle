@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
