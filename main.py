@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
