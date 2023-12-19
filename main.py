@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
