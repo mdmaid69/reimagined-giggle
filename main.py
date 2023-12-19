@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
