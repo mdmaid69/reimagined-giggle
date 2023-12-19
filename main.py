@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def append_to_array(array, item):
+        array.append(item)
