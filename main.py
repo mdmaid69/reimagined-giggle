@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-for i in range(10): print(i)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_typecode(array):
+        return array.typecode
