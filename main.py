@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
