@@ -1,6 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
