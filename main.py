@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_speed(distance, time):
+        return distance / time
+import re
+print(re.match("h.*o", "hello world"))
