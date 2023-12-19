@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
