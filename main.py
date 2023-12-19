@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
