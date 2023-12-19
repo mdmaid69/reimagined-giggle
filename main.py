@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def add_numbers(x, y):
+        return x + y
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_repr(array):
+        return repr(array)
