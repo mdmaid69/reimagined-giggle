@@ -1,5 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
