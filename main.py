@@ -1,5 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import platform
+def get_os_info():
+        return platform.uname()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
