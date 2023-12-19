@@ -1,7 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import getpass
+def get_username():
+        return getpass.getuser()
+def reverse_list(lst):
+        return lst[::-1]
