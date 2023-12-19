@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
