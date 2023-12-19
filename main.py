@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
