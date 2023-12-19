@@ -1,5 +1,8 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
