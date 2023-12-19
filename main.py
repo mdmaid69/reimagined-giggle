@@ -1,6 +1,9 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
