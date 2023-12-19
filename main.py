@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
