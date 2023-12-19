@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def convert_to_octal(n):
-        return oct(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
