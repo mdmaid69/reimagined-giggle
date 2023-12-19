@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
