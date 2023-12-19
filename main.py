@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def cube_number(x):
+        return x**3
