@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_density(mass, volume):
+        return mass / volume
