@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def reverse_array(array):
+        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
