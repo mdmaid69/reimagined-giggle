@@ -1,7 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def count_elements(lst):
+        return len(lst)
