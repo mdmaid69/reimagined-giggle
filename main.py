@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
