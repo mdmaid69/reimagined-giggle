@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def generate_random_choice(choices):
+        return random.choice(choices)
