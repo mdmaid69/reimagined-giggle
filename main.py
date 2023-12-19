@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
