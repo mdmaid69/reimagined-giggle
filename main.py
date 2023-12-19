@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
