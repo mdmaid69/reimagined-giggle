@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+print("Hello, world!")
+import time
+def get_current_time():
+        return time.ctime()
