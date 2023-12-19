@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def multiply_numbers(x, y):
+        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
