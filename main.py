@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
