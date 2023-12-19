@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
