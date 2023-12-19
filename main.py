@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
