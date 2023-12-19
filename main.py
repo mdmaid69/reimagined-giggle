@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
