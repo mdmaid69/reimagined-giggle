@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def square_number(x):
+        return x**2
