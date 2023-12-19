@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def cube_number(x):
+        return x**3
