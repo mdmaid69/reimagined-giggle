@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
