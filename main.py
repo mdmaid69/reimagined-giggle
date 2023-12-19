@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        return sys.version
+  def cube_number(x):
+        return x**3
