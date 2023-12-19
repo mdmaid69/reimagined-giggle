@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
