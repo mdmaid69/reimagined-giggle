@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import random
+print(random.randint(0, 100))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
