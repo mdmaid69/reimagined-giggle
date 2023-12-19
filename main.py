@@ -1,6 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import tensorflow as tf
+print(tf.__version__)
