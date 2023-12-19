@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def is_even(n):
+        return n % 2 == 0
