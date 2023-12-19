@@ -1,6 +1,11 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
