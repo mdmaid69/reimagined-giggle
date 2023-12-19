@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
