@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def print_python_version():
+        print(sys.version)
