@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
