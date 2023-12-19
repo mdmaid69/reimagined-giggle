@@ -1,7 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def clear_array(array):
+        array *= 0
