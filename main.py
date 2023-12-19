@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_set(array):
+        return set(array)
+def reverse_list(lst):
+        return lst[::-1]
