@@ -1,7 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_density(mass, volume):
+        return mass / volume
