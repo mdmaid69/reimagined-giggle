@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
