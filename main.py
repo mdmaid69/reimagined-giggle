@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
