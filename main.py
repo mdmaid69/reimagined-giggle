@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
