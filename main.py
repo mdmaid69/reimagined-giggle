@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def greet(name):
-        print(f"Hello, {name}!")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
