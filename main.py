@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def reverse_array(array):
-        array.reverse()
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
