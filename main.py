@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import getpass
+def get_username():
+        return getpass.getuser()
