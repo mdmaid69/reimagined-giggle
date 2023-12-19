@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def get_current_time():
+        return time.ctime()
