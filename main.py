@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def convert_to_hex(n):
+        return hex(n)
