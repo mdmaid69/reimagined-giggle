@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_typecode(array):
-        return array.typecode
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
