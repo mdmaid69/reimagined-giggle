@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def add_numbers(x, y):
+        return x + y
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_int(array):
+        return int(array[0])
