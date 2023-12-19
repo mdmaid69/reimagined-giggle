@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
