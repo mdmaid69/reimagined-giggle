@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
