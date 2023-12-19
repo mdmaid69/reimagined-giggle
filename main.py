@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
