@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def add_numbers(x, y):
+        return x + y
+import logging
+def log_message(message):
+        logging.info(message)
