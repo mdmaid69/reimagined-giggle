@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import os
-print(os.getcwd())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
