@@ -1,10 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
