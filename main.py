@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import getpass
+def get_username():
+        return getpass.getuser()
