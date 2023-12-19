@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_power(work, time):
+        return work / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
