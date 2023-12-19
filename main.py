@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
