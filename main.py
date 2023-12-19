@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
