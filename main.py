@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_arc_sine(x):
+        return math.asin(x)
