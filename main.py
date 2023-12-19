@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_size(file_name):
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
