@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import sys
+def exit_program():
+        sys.exit()
