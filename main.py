@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
