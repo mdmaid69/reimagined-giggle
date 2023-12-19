@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
