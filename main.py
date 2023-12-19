@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_density(mass, volume):
+        return mass / volume
