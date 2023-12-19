@@ -1,6 +1,8 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+def find_union(list1, list2):
+        return set(list1) | set(list2)
