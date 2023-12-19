@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
