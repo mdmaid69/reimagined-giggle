@@ -1,5 +1,3 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+print("Hello, world!")
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
