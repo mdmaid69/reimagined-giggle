@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def find_min(numbers):
+        return min(numbers)
