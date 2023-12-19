@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def reverse_string(s):
+        return s[::-1]
