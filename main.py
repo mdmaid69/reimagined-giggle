@@ -1,8 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
