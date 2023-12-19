@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def count_characters(sentence):
-        return len(sentence)
+print(sum(range(10)))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
