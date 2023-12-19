@@ -1,7 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
