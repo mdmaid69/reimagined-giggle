@@ -1,4 +1,4 @@
-def add_numbers(x, y):
+  def add_numbers(x, y):
         return x + y
-def reverse_string(s):
-        return s[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
