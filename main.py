@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
