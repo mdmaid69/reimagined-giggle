@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def multiply_numbers(x, y):
+        return x * y
