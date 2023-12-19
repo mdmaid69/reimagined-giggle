@@ -1,3 +1,6 @@
-print(sum(range(10)))
-  def cube_number(x):
-        return x**3
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
