@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
