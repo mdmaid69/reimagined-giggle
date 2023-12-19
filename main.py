@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import os
+print(os.getcwd())
