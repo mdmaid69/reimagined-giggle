@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
