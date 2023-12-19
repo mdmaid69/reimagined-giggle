@@ -1,7 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
