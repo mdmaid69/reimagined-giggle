@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
