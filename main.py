@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+print(os.getcwd())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
