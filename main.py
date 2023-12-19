@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
