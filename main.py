@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import json
+def convert_to_json(data):
+        return json.dumps(data)
