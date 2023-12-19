@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
