@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
