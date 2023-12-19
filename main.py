@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def convert_to_binary(n):
+        return bin(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
