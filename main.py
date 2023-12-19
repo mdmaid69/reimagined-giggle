@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
