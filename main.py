@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+print(time.time())
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
