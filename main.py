@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
