@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
