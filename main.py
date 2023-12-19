@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import collections
-def create_stack():
-        return collections.deque()
+def divide_numbers(x, y):
+        return x / y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
