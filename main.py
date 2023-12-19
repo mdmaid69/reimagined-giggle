@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
