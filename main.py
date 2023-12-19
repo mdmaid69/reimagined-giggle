@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
