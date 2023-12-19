@@ -1,5 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-print(os.getcwd())
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
