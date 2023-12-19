@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
