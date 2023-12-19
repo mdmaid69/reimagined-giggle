@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+from collections import Counter
+print(Counter("hello world"))
