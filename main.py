@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
