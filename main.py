@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def square_number(x):
+        return x**2
