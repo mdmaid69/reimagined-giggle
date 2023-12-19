@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
