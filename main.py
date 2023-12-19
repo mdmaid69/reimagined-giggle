@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def exit_program():
+        sys.exit()
