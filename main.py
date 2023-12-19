@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
