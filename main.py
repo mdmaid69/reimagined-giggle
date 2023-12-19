@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
