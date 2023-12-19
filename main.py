@@ -1,4 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-print([x**2 for x in range(10)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_max(lst):
+        return max(lst)
