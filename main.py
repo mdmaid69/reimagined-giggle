@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
