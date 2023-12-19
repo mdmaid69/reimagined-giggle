@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
