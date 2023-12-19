@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def cube_number(x):
+        return x**3
