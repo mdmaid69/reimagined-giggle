@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def greet(name):
+        print(f"Hello, {name}!")
