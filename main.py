@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-from collections import Counter
-print(Counter("hello world"))
+import sys
+def exit_program():
+        sys.exit()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
