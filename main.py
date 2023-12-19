@@ -1,9 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def reverse_string(s):
+        return s[::-1]
