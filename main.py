@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
