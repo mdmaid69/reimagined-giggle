@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
