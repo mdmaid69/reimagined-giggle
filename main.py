@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_item_count(array, item):
+        return array.count(item)
