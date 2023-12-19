@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_max(numbers):
-        return max(numbers)
+for i in range(10): print(i)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
