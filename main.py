@@ -1,3 +1,7 @@
-def find_min(lst):
-        return min(lst)
-print("Hello, world!")
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+print(re.match("h.*o", "hello world"))
