@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def reverse_array(array):
+        array.reverse()
