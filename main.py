@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_volume(length, width, height):
+        return length * width * height
