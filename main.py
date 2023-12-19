@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
