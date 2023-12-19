@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import json
+print(json.dumps({"name": "John", "age": 30}))
