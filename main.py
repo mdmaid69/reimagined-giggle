@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def get_array_as_bytes(array):
+        return bytes(array)
