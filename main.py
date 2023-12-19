@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
