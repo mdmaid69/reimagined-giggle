@@ -1,4 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-for i in range(10): print(i)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
