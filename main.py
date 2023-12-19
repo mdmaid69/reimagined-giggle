@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
