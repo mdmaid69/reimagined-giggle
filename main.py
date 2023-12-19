@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
