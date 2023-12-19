@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
