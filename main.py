@@ -1,5 +1,4 @@
+for i in range(10): print(i)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_exponential(x):
+        return math.exp(x)
