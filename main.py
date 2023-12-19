@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
