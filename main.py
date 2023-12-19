@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def square_number(x):
-        return x**2
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
