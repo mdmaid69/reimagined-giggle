@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
