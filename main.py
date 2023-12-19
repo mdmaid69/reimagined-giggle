@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
