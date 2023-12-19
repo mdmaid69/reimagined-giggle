@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
