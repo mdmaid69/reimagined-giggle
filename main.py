@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
