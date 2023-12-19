@@ -1,6 +1,10 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
