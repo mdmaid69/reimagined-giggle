@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
