@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
