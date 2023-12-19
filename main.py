@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
