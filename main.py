@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_speed(distance, time):
-        return distance / time
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
