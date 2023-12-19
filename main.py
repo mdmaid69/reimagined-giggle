@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
