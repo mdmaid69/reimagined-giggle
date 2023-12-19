@@ -1,5 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def square_number(x):
-        return x**2
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def subtract_numbers(x, y):
+        return x - y
