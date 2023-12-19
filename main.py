@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
