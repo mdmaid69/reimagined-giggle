@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def is_even(n):
-        return n % 2 == 0
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
