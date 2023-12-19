@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def find_max(lst):
-        return max(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def reverse_array(array):
+        array.reverse()
