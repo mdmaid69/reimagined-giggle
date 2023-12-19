@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
