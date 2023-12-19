@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
