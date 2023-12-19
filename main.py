@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
