@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
