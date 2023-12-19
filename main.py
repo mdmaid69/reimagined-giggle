@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
