@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import collections
+def create_queue():
+        return collections.deque()
