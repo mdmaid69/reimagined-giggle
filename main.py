@@ -1,5 +1,10 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
