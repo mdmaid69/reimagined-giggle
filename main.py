@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
