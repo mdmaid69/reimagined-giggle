@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import re
-print(re.match("h.*o", "hello world"))
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
