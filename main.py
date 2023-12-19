@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
