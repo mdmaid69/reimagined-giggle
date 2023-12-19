@@ -1,5 +1,11 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def add_numbers(x, y):
+        return x + y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
