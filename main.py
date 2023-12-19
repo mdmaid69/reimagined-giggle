@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+print([x**2 for x in range(10)])
+import array
+def clear_array(array):
+        array *= 0
