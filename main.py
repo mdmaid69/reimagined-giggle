@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def multiply_numbers(x, y):
+        return x * y
