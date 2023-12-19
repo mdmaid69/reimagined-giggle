@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def reverse_list(lst):
-        return lst[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
