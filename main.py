@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+for i in range(10): print(i)
+import time
+def get_time_since_epoch():
+        return time.time()
