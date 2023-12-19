@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
