@@ -1,7 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
