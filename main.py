@@ -1,9 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
