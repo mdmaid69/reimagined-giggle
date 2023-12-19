@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
