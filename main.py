@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
