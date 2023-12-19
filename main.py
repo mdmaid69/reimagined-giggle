@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
+  import sys
+  def get_python_version():
+        return sys.version
