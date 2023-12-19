@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
