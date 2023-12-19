@@ -1,7 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
