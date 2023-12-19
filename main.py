@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
