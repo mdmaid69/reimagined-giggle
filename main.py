@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_min(lst):
+        return min(lst)
+  def convert_to_binary(n):
+        return bin(n)
