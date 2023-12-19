@@ -1,5 +1,11 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
