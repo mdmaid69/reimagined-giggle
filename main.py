@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
 n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
