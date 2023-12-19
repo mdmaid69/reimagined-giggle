@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_area_circle(r):
+        return 3.14 * r**2
