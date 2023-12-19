@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_volume(length, width, height):
+        return length * width * height
