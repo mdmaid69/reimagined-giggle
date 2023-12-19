@@ -1,7 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
