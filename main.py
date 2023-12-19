@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
