@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import random
+print(random.randint(0, 100))
