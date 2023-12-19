@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
