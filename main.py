@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
