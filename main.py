@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def multiply_numbers(x, y):
+        return x * y
+def count_words(sentence):
+        return len(sentence.split())
