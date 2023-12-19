@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
