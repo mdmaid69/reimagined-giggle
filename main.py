@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
