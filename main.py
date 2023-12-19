@@ -1,4 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
