@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import logging
+def log_message(message):
+        logging.info(message)
