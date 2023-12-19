@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
