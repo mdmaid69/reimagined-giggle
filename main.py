@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
