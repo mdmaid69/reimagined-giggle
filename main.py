@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
