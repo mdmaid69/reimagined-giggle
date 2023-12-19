@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def append_to_array(array, item):
+        array.append(item)
