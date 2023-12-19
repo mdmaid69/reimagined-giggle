@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
