@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
