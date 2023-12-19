@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
