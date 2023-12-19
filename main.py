@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
