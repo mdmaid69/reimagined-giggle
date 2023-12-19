@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import re
-print(re.match("h.*o", "hello world"))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
