@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
