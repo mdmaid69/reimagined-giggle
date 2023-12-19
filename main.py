@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
