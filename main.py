@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
