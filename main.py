@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_work(force, distance):
-        return force * distance
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
