@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
