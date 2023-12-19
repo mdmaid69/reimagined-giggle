@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
