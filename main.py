@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import time
-def get_current_time():
-        return time.ctime()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
