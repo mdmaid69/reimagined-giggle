@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
