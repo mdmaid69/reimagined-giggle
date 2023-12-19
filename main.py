@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
