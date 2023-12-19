@@ -1,8 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_string_from_array(array):
+        return array.tobytes()
