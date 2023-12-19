@@ -1,6 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
