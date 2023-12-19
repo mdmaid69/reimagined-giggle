@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
