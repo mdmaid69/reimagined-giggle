@@ -1,6 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
