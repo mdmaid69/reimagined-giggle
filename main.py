@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_bool(array):
+        return bool(array)
