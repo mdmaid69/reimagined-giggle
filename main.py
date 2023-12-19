@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
