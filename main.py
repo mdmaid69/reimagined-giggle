@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
