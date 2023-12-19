@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
