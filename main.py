@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_hex(n):
+        return hex(n)
