@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-name = "Python"
-print("Hello,", name)
+def reverse_string(s):
+        return s[::-1]
+import os
+def remove_directory(path):
+        os.rmdir(path)
