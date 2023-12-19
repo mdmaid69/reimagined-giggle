@@ -1,5 +1,12 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
