@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
