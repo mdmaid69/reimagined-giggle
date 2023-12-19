@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
