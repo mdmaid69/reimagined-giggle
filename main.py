@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
