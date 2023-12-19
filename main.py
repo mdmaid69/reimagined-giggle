@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+print([x**2 for x in range(10)])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
