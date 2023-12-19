@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
