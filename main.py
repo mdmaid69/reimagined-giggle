@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
