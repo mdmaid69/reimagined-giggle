@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import sys
+def print_python_version():
+        return sys.version
