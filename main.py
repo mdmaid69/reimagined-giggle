@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
