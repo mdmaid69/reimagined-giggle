@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
