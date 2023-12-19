@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
