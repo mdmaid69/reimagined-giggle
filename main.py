@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sys
-def print_python_version():
-        return sys.version
+def find_max(lst):
+        return max(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
