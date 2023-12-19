@@ -1,8 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
