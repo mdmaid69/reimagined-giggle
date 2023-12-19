@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
