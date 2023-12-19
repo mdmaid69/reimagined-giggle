@@ -1,5 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
