@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def find_unique_words(sentence):
+        return set(sentence.split())
