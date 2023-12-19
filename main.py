@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
