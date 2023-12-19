@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
