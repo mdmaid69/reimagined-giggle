@@ -1,5 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+print(random.randint(0, 100))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
