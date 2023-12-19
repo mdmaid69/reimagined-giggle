@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+x = 10
+y = 20
+print("Sum:", x + y)
