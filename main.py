@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_min(numbers):
-        return min(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
