@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
