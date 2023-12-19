@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def convert_to_hex(n):
+        return hex(n)
