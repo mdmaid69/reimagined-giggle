@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
