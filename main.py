@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-from collections import Counter
-print(Counter("hello world"))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import os
+def change_working_directory(path):
+        os.chdir(path)
