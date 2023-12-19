@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+from collections import Counter
+print(Counter("hello world"))
