@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
