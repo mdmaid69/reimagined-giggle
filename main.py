@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def subtract_numbers(x, y):
-        return x - y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_bool(array):
+        return bool(array)
