@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def square_number(x):
+        return x**2
