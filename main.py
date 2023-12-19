@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_queue():
+        return collections.deque()
