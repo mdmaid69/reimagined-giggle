@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
