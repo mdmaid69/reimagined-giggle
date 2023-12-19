@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
