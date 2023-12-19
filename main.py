@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
