@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def subtract_numbers(x, y):
+        return x - y
