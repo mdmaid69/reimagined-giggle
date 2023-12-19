@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
