@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
