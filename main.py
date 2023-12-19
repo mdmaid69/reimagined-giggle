@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def sort_list(lst):
-        return sorted(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_current_directory():
+        return os.getcwd()
