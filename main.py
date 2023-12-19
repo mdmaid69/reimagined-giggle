@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
