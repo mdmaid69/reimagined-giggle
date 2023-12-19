@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
