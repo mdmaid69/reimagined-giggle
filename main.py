@@ -1,5 +1,10 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
