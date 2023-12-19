@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
