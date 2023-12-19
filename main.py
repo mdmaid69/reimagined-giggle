@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
