@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
