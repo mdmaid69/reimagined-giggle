@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def get_array_as_str(array):
+        return str(array)
