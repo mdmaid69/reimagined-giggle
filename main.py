@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+from collections import Counter
+print(Counter("hello world"))
