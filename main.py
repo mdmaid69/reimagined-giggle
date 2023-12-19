@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
