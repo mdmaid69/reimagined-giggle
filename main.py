@@ -1,7 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
