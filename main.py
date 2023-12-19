@@ -1,5 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
