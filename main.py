@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
