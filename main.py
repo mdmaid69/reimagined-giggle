@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
