@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def square_number(x):
-        return x**2
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import time
+def get_current_time():
+        return time.time()
