@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
