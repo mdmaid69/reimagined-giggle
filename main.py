@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
