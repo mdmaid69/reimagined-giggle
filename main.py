@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
