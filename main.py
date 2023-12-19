@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
