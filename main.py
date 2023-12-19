@@ -1,4 +1,6 @@
-print(sum(range(10)))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
