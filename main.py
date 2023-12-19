@@ -1,8 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
