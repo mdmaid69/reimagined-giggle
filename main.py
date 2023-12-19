@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
