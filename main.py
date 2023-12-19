@@ -1,8 +1,9 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
