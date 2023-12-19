@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
