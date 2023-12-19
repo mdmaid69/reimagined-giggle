@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
