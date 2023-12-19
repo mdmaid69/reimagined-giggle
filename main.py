@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
