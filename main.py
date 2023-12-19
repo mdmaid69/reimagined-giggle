@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
