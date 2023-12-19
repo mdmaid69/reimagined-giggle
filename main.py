@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_floor(x):
+        return math.floor(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
