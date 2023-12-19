@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import array
-def get_array_length(array):
-        return len(array)
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
