@@ -1,6 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
