@@ -1,8 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def append_to_array(array, item):
+        array.append(item)
