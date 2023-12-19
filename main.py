@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
