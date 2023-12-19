@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def subtract_numbers(x, y):
+        return x - y
