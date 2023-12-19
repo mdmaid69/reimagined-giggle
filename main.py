@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
