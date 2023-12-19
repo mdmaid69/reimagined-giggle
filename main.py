@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import collections
+def create_user_string():
+        return collections.UserString()
