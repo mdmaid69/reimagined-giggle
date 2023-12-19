@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
