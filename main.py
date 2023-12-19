@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_unicode(array):
+        return array.tounicode()
