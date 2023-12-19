@@ -1,6 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
