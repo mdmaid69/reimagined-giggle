@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
