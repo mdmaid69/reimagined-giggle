@@ -1,5 +1,5 @@
   def calculate_perimeter_triangle(a, b, c):
         return a + b + c
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
