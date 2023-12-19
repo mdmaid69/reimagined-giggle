@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
