@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
