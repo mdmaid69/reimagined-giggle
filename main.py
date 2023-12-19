@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
