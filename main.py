@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def add_numbers(x, y):
+        return x + y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
