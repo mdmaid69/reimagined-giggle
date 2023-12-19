@@ -1,5 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def reverse_string(s):
-        return s[::-1]
+def create_counter():
+        return collections.Counter()
