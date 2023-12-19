@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
