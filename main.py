@@ -1,4 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-for i in range(10): print(i)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
