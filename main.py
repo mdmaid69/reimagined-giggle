@@ -1,5 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
