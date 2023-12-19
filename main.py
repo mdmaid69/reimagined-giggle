@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import array
-def reverse_array(array):
-        array.reverse()
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
