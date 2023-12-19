@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
