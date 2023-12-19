@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
