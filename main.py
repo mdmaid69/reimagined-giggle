@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
