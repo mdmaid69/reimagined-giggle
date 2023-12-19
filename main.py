@@ -1,5 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
