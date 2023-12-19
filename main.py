@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def cube_number(x):
-        return x**3
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
