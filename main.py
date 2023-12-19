@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import platform
+def get_os_info():
+        return platform.uname()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
