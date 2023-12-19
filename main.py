@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def count_elements(lst):
+        return len(lst)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_exponential(x):
+        return math.exp(x)
