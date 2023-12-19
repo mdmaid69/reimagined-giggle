@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
