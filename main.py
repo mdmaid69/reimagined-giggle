@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
