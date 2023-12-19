@@ -1,8 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
