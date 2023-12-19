@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_square_root(x):
+        return math.sqrt(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
