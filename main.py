@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
