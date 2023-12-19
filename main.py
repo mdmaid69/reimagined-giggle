@@ -1,6 +1,11 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
