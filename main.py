@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_pressure(force, area):
+        return force / area
