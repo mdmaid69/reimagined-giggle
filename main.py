@@ -1,8 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
