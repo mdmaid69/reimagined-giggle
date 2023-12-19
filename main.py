@@ -1,6 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
