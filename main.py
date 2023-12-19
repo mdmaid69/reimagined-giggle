@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
