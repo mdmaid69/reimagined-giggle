@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
