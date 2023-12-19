@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
