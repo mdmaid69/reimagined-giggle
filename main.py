@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def add_numbers(a, b):
+        return a + b
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
