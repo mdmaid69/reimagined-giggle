@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
