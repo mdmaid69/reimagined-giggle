@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
