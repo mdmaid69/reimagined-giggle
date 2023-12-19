@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-def roll_die():
-        return random.randint(1, 6)
+import platform
+def get_os_info():
+        return platform.uname()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
