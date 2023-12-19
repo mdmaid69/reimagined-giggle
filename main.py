@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
