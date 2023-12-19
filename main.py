@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def add_numbers(x, y):
-        return x + y
+  def is_even(n):
+        return n % 2 == 0
+def count_words(sentence):
+        return len(sentence.split())
