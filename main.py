@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_speed(distance, time):
-        return distance / time
+  def get_base_name(path):
+        return os.path.basename(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
