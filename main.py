@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_set(array):
+        return set(array)
