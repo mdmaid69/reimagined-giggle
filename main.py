@@ -1,5 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
