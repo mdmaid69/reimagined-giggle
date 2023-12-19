@@ -1,6 +1,9 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
