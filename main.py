@@ -1,7 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
