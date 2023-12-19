@@ -1,7 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
