@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
