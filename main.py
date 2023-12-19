@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
