@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
