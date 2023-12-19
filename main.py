@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def square_number(x):
+        return x**2
