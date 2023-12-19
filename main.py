@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def convert_to_binary(n):
-        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
