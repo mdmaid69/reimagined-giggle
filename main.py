@@ -1,7 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
