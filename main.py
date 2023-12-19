@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
