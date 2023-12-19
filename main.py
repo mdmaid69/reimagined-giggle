@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sys
+def print_python_version():
+        print(sys.version)
