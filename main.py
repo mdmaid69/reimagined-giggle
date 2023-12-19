@@ -1,3 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-print([x**2 for x in range(10)])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def count_elements(lst):
+        return len(lst)
