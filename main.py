@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
