@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
