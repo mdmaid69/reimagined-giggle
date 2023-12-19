@@ -1,10 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def subtract_numbers(x, y):
+        return x - y
