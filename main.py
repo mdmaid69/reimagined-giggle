@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
