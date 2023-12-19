@@ -1,6 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def insert_into_array(array, i, item):
+        array.insert(i, item)
