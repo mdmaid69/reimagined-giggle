@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def split_path(path):
+        return os.path.split(path)
