@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
