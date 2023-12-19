@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
