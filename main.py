@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
