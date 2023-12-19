@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
