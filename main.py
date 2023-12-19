@@ -1,7 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
