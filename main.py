@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_pressure(force, area):
+        return force / area
+def is_even(n):
+        return n % 2 == 0
