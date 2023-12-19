@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
