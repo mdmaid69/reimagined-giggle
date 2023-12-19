@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
