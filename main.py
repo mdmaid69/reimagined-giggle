@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_list(array):
+        return list(array)
