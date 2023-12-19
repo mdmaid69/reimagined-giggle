@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
