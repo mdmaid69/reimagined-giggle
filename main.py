@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
