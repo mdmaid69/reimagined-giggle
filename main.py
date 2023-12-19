@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
