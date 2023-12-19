@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def convert_to_binary(n):
+        return bin(n)
