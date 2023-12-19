@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
