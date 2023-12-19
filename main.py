@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def is_odd(n):
-        return n % 2 != 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
