@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def count_characters(sentence):
-        return len(sentence)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def get_array_length(array):
+        return len(array)
