@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
