@@ -1,5 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-for i in range(5):
-        print(i)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
