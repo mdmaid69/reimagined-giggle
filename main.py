@@ -1,6 +1,7 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
