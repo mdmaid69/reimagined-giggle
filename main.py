@@ -1,6 +1,10 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_to_binary(n):
+        return bin(n)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
