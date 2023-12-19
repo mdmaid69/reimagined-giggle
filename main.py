@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import os
+def get_current_working_directory():
+        return os.getcwd()
