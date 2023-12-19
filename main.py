@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
