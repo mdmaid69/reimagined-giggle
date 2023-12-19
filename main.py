@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def sort_list(lst):
+        return sorted(lst)
