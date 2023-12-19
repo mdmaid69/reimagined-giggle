@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
