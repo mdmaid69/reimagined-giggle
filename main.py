@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def count_elements(lst):
+        return len(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
