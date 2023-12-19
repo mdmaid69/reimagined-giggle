@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def convert_to_binary(n):
-        return bin(n)
+import math
+print(math.pi)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
