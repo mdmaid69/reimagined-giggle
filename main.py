@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def cube_number(x):
+        return x**3
+import array
+def get_array_typecode(array):
+        return array.typecode
