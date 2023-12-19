@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
