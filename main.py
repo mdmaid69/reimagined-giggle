@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def add_numbers(x, y):
+        return x + y
