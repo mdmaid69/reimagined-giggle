@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_speed(distance, time):
+        return distance / time
