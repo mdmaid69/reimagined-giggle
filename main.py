@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def greet(name):
+        print(f"Hello, {name}!")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
