@@ -1,4 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
