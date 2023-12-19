@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_gamma_function(x):
+        return math.gamma(x)
