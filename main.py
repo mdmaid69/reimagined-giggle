@@ -1,9 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def get_array_typecode(array):
+        return array.typecode
+def find_unique_words(sentence):
+        return set(sentence.split())
