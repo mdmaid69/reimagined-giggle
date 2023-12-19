@@ -1,5 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
