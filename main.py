@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
