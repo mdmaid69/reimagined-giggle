@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
