@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
