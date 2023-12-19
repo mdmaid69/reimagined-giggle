@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
