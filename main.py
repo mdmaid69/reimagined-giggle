@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import sys
-def print_python_version():
-        print(sys.version)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
