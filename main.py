@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import collections
+def create_user_dict():
+        return collections.UserDict()
