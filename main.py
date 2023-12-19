@@ -1,7 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def convert_to_binary(n):
+        return bin(n)
