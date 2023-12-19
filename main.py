@@ -1,5 +1,8 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
