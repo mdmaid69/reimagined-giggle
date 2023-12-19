@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import random
+print(random.randint(0, 100))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
