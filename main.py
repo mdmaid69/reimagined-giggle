@@ -1,5 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_work(force, distance):
-        return force * distance
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+text = "Hello, world!"
+print("Words:", len(text.split()))
