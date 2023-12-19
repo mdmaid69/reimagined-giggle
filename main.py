@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
