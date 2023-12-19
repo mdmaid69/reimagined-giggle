@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
