@@ -1,6 +1,7 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
