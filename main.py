@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
