@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
