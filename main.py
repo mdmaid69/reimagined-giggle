@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def cube_number(x):
-        return x**3
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
