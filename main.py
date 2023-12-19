@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
