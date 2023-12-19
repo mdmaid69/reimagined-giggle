@@ -1,6 +1,8 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
