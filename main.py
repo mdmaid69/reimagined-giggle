@@ -1,5 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def cube_number(x):
-        return x**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
