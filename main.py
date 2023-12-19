@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+def print_python_version():
+        return sys.version
