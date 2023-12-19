@@ -1,5 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_factorial(n):
+        return math.factorial(n)
