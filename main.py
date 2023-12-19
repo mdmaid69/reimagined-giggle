@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import numpy as np
+print(np.array([1, 2, 3]))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
