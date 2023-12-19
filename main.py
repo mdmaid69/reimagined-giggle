@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cosine(x):
+        return math.cos(x)
