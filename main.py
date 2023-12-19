@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
