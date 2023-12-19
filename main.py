@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
