@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_floor(x):
+        return math.floor(x)
