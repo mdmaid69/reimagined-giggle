@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
