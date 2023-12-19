@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
