@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
