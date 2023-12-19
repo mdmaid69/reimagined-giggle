@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
