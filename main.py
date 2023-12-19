@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
