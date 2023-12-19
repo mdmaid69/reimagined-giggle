@@ -1,5 +1,11 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
