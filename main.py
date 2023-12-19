@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_str(array):
+        return str(array)
