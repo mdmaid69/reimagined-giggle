@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
