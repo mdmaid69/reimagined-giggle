@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
