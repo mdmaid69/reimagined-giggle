@@ -1,8 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
