@@ -1,5 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_as_float(array):
+        return float(array[0])
