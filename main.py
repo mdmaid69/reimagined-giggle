@@ -1,7 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_acceleration(speed, time):
+        return speed / time
