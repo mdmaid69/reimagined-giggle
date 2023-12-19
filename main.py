@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def reverse_list(lst):
+        return lst[::-1]
