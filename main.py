@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_current_working_directory():
+        return os.getcwd()
