@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
