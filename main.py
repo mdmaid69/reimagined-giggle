@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
