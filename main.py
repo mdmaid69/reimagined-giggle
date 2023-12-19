@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_user_dict():
+        return collections.UserDict()
