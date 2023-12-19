@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def multiply_numbers(x, y):
-        return x * y
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
