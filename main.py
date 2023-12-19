@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
