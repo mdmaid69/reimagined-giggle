@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import numpy as np
+print(np.array([1, 2, 3]))
