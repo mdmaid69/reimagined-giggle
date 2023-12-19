@@ -1,4 +1,8 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_acceleration(speed, time):
-        return speed / time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
