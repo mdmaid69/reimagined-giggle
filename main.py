@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import platform
-def get_os_info():
-        return platform.uname()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import sys
+def print_python_version():
+        print(sys.version)
