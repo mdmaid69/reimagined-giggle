@@ -1,4 +1,4 @@
-print("Hello, world!")
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def count_characters(sentence):
+        return len(sentence)
+def calculate_volume(length, width, height):
+        return length * width * height
