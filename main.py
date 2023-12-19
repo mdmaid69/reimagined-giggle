@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
