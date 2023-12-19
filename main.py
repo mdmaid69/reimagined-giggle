@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
