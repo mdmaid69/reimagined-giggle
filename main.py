@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
