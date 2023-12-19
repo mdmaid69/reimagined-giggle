@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def square_number(x):
-        return x**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
