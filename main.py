@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
