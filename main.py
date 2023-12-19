@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def count_elements(lst):
-        return len(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def is_palindrome(s):
+        return s == s[::-1]
