@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
