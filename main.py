@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
