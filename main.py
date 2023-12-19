@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def count_elements(lst):
+        return len(lst)
