@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+x = 10
+y = 20
+print("Sum:", x + y)
+import collections
+def create_queue():
+        return collections.deque()
