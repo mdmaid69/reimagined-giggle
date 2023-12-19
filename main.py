@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def remove_directory(path):
+        os.rmdir(path)
