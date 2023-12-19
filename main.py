@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def convert_to_octal(n):
+        return oct(n)
