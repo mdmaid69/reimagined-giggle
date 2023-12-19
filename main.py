@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
