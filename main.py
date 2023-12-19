@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
+import getpass
+def get_username():
+        return getpass.getuser()
