@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
