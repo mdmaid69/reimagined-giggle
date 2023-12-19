@@ -1,6 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import getpass
+def get_username():
+        return getpass.getuser()
