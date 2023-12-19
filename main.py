@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_bytearray(array):
+        return bytearray(array)
