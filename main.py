@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
