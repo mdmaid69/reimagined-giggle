@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
