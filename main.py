@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
