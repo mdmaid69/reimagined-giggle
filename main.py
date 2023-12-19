@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
