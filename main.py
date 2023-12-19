@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
