@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def is_even(n):
+        return n % 2 == 0
