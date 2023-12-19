@@ -1,5 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
