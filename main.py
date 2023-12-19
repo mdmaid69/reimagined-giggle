@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import random
-print(random.randint(0, 100))
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
