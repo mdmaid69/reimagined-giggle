@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_work(force, distance):
+        return force * distance
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
