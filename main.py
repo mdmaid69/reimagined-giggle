@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
