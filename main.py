@@ -1,8 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
