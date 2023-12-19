@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
