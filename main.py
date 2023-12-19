@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
