@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
