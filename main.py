@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def reverse_list(lst):
+        return lst[::-1]
