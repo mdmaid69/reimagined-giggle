@@ -1,6 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def count_elements(lst):
+        return len(lst)
