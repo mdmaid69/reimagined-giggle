@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def square_number(x):
+        return x**2
