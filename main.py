@@ -1,7 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+def print_python_version():
+        print(sys.version)
