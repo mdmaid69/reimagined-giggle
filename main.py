@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
