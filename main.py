@@ -1,6 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
