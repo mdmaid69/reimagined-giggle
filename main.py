@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_area_rectangle(l, w):
+        return l * w
