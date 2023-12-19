@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
