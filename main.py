@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_arc_sine(x):
+        return math.asin(x)
