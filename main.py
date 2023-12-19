@@ -1,5 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-for i in range(10): print(i)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
