@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
