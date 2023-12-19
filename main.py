@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_even(n):
+        return n % 2 == 0
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
