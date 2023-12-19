@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
