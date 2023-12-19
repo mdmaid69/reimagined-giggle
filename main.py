@@ -1,9 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def multiply_numbers(x, y):
+        return x * y
