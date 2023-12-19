@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def is_even(n):
+        return n % 2 == 0
