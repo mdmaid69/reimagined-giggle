@@ -1,5 +1,8 @@
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def get_array_as_int(array):
+        return int(array[0])
