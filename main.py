@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_max(lst):
-        return max(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def sort_list(lst):
+        return sorted(lst)
