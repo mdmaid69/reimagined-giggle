@@ -1,7 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
