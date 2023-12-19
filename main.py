@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def print_python_version():
-        return sys.version
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def remove_duplicates(lst):
+        return list(set(lst))
