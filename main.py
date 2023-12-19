@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def square_number(x):
+        return x**2
+import time
+def get_time_since_epoch():
+        return time.time()
