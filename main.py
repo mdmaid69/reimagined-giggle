@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import datetime
-print(datetime.datetime.now())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
