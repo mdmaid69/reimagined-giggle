@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def cube_number(x):
-        return x**3
+def calculate_pressure(force, area):
+        return force / area
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
