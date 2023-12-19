@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+for i in range(5):
+        print(i)
