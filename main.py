@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_user_string():
+        return collections.UserString()
+  def sort_list(lst):
+        return sorted(lst)
