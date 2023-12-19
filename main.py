@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+print(datetime.datetime.now())
