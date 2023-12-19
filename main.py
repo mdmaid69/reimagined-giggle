@@ -1,6 +1,7 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
