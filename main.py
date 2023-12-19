@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
