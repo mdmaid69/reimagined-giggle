@@ -1,4 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_union(list1, list2):
+        return set(list1) | set(list2)
