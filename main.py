@@ -1,6 +1,5 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def get_array_item_count(array, item):
+        return array.count(item)
+def count_elements(lst):
+        return len(lst)
