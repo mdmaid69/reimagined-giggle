@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
