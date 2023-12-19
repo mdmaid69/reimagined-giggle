@@ -1,5 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def is_odd(n):
+        return n % 2 != 0
+def calculate_volume(length, width, height):
+        return length * width * height
