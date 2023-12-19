@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def remove_from_array(array, item):
+        array.remove(item)
