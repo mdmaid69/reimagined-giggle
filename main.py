@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
