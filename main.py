@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
