@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_volume(length, width, height):
+        return length * width * height
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
