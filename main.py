@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
