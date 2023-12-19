@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def sort_list(lst):
-        return sorted(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
