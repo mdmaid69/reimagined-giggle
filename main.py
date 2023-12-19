@@ -1,7 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
