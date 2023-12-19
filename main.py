@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
