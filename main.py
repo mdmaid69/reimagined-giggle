@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
