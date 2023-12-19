@@ -1,9 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+print(re.match("h.*o", "hello world"))
