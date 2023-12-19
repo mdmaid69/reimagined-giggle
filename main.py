@@ -1,4 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-print([x**2 for x in range(10)])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Words:", len(text.split()))
