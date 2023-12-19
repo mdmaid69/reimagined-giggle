@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
