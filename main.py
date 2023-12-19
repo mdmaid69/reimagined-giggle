@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def append_to_array(array, item):
-        array.append(item)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_array_as_bytearray(array):
+        return bytearray(array)
