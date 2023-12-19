@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def is_odd(n):
+        return n % 2 != 0
