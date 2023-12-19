@@ -1,7 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
