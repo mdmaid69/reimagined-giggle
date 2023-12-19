@@ -1,6 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-print([x**2 for x in range(10)])
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
