@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_as_float(array):
+        return float(array[0])
