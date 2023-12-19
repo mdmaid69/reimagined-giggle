@@ -1,5 +1,10 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_item(array, i):
-        return array[i]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
