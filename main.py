@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
