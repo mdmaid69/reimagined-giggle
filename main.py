@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def is_odd(n):
+        return n % 2 != 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
