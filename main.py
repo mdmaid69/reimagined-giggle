@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
