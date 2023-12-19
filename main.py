@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
