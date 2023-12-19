@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
