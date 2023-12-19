@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
