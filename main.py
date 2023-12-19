@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_list_from_array(array):
+        return array.tolist()
+import re
+print(re.match("h.*o", "hello world"))
