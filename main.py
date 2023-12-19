@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def convert_to_octal(n):
-        return oct(n)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
