@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def append_to_array(array, item):
-        array.append(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
