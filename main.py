@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
