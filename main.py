@@ -1,7 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
