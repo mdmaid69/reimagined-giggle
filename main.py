@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_area_rectangle(l, w):
+        return l * w
