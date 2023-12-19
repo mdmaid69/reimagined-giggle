@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
