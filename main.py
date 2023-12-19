@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_acceleration(speed, time):
+        return speed / time
