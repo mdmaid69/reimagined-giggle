@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
