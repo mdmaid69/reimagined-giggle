@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def count_characters(sentence):
+        return len(sentence)
