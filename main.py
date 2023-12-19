@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import platform
-def get_os_info():
-        return platform.uname()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
