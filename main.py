@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
