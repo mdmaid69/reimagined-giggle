@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
