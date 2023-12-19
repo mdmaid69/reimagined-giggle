@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+text = "Hello, world!"
+print("Characters:", len(text))
