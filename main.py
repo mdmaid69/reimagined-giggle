@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
