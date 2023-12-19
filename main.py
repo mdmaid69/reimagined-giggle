@@ -1,6 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
