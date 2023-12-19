@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def remove_duplicates(lst):
+        return list(set(lst))
