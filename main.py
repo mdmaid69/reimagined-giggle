@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
