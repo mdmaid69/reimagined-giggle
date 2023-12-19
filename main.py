@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
