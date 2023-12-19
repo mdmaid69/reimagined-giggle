@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
