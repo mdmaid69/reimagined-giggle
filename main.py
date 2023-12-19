@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
