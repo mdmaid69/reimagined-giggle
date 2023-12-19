@@ -1,6 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
