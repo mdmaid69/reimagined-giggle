@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
