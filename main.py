@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
