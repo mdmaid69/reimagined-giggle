@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
