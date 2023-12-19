@@ -1,5 +1,5 @@
-for i in range(10): print(i)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
