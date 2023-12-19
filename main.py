@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import os
+print(os.getcwd())
