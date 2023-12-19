@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
