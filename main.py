@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import time
-def get_current_time():
-        return time.ctime()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+print(random.randint(0, 100))
