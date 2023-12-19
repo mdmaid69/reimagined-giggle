@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_power(work, time):
-        return work / time
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
