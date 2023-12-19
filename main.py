@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
