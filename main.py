@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_stack():
-        return collections.deque()
+  def square_number(x):
+        return x**2
+def add_numbers(a, b):
+        return a + b
