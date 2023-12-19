@@ -1,5 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
