@@ -1,12 +1,4 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+for i in range(10): print(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
