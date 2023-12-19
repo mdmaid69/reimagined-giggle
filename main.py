@@ -1,6 +1,8 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
