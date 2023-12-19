@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
