@@ -1,8 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
