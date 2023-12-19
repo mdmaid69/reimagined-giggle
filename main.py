@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_index(array, item):
-        return array.index(item)
+print([x**2 for x in range(10)])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
