@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
