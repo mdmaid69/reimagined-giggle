@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
