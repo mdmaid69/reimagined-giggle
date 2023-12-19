@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_cosine(x):
+        return math.cos(x)
