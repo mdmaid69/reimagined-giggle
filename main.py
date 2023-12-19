@@ -1,5 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
