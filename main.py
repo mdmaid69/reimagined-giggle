@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
