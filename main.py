@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
