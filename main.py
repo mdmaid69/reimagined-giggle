@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def subtract_numbers(x, y):
+        return x - y
+def cube_number(x):
+        return x**3
