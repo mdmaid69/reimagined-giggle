@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
