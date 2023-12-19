@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def is_even(n):
+        return n % 2 == 0
