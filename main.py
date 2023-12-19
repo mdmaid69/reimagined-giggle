@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def convert_to_octal(n):
+        return oct(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
