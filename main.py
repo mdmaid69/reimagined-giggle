@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_sine(x):
+        return math.sin(x)
+import re
+print(re.match("h.*o", "hello world"))
