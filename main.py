@@ -1,5 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def remove_duplicates(lst):
+        return list(set(lst))
