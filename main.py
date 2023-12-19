@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
