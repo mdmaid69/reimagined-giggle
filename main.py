@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
