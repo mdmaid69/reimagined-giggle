@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
