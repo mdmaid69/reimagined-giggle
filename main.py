@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
