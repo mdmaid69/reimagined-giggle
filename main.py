@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
