@@ -1,6 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-print("Hello, world!")
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
