@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
