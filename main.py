@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
