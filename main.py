@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
