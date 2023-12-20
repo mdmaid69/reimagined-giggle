@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
