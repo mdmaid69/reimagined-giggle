@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def square_number(x):
+        return x**2
+  def convert_to_binary(n):
+        return bin(n)
