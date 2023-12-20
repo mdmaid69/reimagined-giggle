@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
