@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_power(work, time):
+        return work / time
