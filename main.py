@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
