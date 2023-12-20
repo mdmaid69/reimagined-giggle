@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
