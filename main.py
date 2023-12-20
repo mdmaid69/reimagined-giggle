@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import time
-def get_current_time():
-        return time.ctime()
+def sort_list(lst):
+        return sorted(lst)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
