@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
