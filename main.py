@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
