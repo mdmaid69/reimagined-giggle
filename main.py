@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def reverse_list(lst):
-        return lst[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_counter():
+        return collections.Counter()
