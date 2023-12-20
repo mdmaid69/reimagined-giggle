@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
