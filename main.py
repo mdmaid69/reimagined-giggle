@@ -1,3 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-print("Hello, world!")
+import time
+print(time.time())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
