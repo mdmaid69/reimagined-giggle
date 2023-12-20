@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def clear_array(array):
+        array *= 0
