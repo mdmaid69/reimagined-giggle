@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
