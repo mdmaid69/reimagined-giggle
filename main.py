@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
