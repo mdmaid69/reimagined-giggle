@@ -1,6 +1,3 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def convert_to_binary(n):
+        return bin(n)
+print([x**2 for x in range(10)])
