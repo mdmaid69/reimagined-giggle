@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
