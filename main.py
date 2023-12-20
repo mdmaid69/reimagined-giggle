@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_set(array):
+        return set(array)
