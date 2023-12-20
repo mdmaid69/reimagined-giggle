@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+print(math.pi)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
