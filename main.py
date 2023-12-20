@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
