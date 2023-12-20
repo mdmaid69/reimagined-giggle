@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def cube_number(x):
-        return x**3
+import sys
+def exit_program():
+        sys.exit()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
