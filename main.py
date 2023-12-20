@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
