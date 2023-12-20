@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
