@@ -1,9 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
