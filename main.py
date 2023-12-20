@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
