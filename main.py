@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
