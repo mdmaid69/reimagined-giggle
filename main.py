@@ -1,5 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-text = "Hello, world!"
-print("Characters:", len(text))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def get_current_time():
+        return time.ctime()
