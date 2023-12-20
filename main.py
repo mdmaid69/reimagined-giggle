@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
