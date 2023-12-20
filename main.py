@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
