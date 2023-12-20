@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_counter():
+        return collections.Counter()
+def find_unique_words(sentence):
+        return set(sentence.split())
