@@ -1,6 +1,3 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+for i in range(10): print(i)
