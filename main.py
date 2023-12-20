@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
