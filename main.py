@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def convert_to_octal(n):
-        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
