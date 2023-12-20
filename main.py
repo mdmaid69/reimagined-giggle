@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
