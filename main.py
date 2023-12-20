@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import re
+print(re.match("h.*o", "hello world"))
