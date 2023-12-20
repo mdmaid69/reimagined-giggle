@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-from collections import Counter
-print(Counter("hello world"))
+  def split_path(path):
+        return os.path.split(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
