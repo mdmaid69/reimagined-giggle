@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def subtract_numbers(x, y):
+        return x - y
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
