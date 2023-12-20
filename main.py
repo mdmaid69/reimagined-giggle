@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
