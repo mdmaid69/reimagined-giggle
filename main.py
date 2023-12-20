@@ -1,6 +1,7 @@
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
