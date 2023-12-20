@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def insert_into_array(array, i, item):
+        array.insert(i, item)
