@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
