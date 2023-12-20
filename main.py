@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
