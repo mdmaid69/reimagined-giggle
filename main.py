@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import platform
+def get_os_info():
+        return platform.uname()
+import time
+def get_time_since_epoch():
+        return time.time()
