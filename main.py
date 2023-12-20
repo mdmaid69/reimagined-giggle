@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
