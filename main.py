@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
