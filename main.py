@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
