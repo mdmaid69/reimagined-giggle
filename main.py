@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_repr(array):
+        return repr(array)
