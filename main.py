@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
