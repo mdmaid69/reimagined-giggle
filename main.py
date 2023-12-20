@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
