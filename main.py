@@ -1,5 +1,7 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
