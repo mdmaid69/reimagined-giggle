@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def append_to_array(array, item):
+        array.append(item)
