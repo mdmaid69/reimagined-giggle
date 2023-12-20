@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def reverse_string(s):
-        return s[::-1]
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
