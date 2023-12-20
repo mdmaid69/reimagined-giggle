@@ -1,5 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def divide_numbers(x, y):
+        return x / y
+def find_union(list1, list2):
+        return set(list1) | set(list2)
