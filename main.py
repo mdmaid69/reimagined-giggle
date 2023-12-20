@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
