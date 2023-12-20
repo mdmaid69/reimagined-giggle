@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
