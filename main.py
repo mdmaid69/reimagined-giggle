@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_index(array, item):
+        return array.index(item)
