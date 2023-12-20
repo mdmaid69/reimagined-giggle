@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
