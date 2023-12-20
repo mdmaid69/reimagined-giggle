@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
