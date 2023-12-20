@@ -1,6 +1,12 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
