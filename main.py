@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-print(random.randint(0, 100))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
