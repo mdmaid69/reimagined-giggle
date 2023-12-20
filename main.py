@@ -1,11 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
