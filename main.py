@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_speed(distance, time):
+        return distance / time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
