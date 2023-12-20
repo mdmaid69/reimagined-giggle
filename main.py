@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import platform
+def get_python_version():
+        return platform.python_version()
