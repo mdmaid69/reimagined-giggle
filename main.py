@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import sys
+print(sys.version)
