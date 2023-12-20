@@ -1,5 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import json
-print(json.dumps({"name": "John", "age": 30}))
+for i in range(5):
+        print(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
