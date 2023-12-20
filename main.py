@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import datetime
+def get_today_date():
+        return datetime.date.today()
