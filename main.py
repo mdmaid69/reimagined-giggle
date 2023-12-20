@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def clear_array(array):
-        array *= 0
+def subtract_numbers(x, y):
+        return x - y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
