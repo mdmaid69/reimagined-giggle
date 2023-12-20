@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_memoryview(array):
+        return memoryview(array)
