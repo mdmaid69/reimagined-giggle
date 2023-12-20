@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
