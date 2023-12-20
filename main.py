@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def square_number(x):
-        return x**2
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
