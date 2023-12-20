@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+from collections import Counter
+print(Counter("hello world"))
