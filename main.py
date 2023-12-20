@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
