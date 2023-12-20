@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
