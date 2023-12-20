@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_to_hex(n):
+        return hex(n)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
