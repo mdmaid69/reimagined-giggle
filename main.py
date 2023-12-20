@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
