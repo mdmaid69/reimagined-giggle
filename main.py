@@ -1,7 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
