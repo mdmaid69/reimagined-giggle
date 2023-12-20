@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
