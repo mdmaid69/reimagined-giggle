@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
