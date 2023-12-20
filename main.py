@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import collections
+def create_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Words:", len(text.split()))
