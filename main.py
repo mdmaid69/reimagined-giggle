@@ -1,6 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
