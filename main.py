@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
