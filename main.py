@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_area(radius):
+        return 3.14 * radius * radius
