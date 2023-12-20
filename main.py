@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def is_even(n):
+        return n % 2 == 0
