@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
