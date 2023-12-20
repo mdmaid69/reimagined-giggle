@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_area(radius):
+        return 3.14 * radius * radius
