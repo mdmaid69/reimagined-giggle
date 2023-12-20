@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
