@@ -1,5 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import collections
-def create_user_list():
-        return collections.UserList()
-for i in range(5):
-        print(i)
+def create_stack():
+        return collections.deque()
