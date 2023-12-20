@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+print(sum(range(10)))
