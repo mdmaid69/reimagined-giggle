@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
