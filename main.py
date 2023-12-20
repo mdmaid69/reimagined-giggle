@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
