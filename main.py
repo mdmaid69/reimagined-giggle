@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
