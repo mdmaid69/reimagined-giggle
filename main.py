@@ -1,6 +1,6 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_size(file_name):
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
