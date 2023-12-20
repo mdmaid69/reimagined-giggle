@@ -1,7 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
