@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
