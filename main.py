@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
