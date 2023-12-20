@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
