@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
