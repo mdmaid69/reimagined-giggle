@@ -1,4 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-for i in range(10): print(i)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_power(work, time):
+        return work / time
