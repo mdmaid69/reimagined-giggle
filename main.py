@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def count_elements(lst):
+        return len(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
