@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
