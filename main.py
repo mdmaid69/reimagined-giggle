@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
