@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
