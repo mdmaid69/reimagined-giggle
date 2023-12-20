@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
