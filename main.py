@@ -1,4 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def cube_number(x):
+        return x**3
