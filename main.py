@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
