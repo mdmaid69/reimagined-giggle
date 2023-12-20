@@ -1,8 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def get_array_as_list(array):
-        return list(array)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_array_to_unicode(array):
+        return array.tounicode()
