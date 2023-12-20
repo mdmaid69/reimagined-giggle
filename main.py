@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_area_rectangle(l, w):
+        return l * w
