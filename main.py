@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-print(re.match("h.*o", "hello world"))
+  def cube_number(x):
+        return x**3
+import datetime
+def get_current_date():
+        return datetime.date.today()
