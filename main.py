@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def clear_array(array):
+        array *= 0
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
