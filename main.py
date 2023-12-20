@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
