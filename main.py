@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
