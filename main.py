@@ -1,6 +1,11 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
