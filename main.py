@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def reverse_array(array):
-        array.reverse()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
