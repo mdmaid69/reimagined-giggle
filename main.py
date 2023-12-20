@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def cube_number(x):
+        return x**3
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
