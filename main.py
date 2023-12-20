@@ -1,7 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def generate_random_choice(choices):
+        return random.choice(choices)
