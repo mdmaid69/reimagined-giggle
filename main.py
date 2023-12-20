@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
