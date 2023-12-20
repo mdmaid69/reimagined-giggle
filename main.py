@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_priority_queue():
+        return collections.deque()
+print("Hello, world!")
