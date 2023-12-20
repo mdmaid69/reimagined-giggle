@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
