@@ -1,6 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def convert_to_octal(n):
+        return oct(n)
