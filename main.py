@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
