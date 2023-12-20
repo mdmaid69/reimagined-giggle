@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
