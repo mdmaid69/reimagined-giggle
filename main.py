@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
