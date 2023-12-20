@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
