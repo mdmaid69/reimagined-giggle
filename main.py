@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
