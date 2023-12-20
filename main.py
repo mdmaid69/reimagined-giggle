@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
