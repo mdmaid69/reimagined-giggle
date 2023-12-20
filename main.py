@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
