@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def is_odd(n):
-        return n % 2 != 0
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
