@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
