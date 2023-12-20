@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
