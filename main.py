@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
