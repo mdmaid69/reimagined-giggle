@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
