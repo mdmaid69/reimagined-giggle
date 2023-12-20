@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import time
-print(time.time())
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_work(force, distance):
+        return force * distance
