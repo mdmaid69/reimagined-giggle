@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
