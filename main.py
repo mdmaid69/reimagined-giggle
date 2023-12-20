@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def is_odd(n):
+        return n % 2 != 0
