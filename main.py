@@ -1,6 +1,9 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import json
-def load_json(filename):
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import csv
+def read_csv_file(filename):
         with open(filename, "r") as f:
-        return json.load(f)
+        reader = csv.reader(f)
+        return list(reader)
