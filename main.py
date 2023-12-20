@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def multiply_numbers(x, y):
+        return x * y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
