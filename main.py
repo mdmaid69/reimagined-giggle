@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
