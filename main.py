@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def append_to_array(array, item):
+        array.append(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
