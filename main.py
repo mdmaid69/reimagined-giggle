@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
