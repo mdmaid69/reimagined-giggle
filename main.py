@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
