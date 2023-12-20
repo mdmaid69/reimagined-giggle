@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_user_list():
+        return collections.UserList()
