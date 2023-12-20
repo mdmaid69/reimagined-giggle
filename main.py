@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def reverse_list(lst):
-        return lst[::-1]
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
