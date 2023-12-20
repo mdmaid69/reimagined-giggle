@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
