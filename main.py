@@ -1,7 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def insert_into_array(array, i, item):
+        array.insert(i, item)
