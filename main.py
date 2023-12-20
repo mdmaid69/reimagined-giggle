@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
