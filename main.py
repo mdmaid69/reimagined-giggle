@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
