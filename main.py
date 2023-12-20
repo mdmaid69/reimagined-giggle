@@ -1,5 +1,8 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def reverse_array(array):
+        array.reverse()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
