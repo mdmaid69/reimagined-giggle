@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
