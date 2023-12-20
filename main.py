@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
