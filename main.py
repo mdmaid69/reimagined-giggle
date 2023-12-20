@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
