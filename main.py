@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
