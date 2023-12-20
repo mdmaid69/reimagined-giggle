@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
