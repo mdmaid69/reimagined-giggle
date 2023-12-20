@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
 import collections
-def create_priority_queue():
-        return collections.deque()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
