@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
