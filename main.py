@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def find_min(numbers):
-        return min(numbers)
+print(sum(range(10)))
+import collections
+def create_user_dict():
+        return collections.UserDict()
