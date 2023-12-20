@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_arc_sine(x):
+        return math.asin(x)
