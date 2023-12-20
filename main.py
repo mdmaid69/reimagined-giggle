@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import time
+def get_current_time():
+        return time.time()
+text = "Hello, world!"
+print("Words:", len(text.split()))
