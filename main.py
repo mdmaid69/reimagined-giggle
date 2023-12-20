@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
