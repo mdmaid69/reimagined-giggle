@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
