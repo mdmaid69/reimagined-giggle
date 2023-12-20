@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import collections
-def create_user_string():
-        return collections.UserString()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def remove_duplicates(lst):
+        return list(set(lst))
