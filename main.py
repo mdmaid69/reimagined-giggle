@@ -1,5 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
