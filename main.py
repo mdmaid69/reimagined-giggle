@@ -1,10 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
