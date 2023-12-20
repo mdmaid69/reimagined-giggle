@@ -1,4 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-for i in range(10): print(i)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def reverse_list(lst):
+        return lst[::-1]
