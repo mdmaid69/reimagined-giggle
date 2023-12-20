@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
+  def get_file_mode(file_name):
         return os.stat(file_name).st_mode
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
