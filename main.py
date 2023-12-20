@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def multiply_numbers(x, y):
+        return x * y
+  def convert_to_hex(n):
+        return hex(n)
