@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+from collections import Counter
+print(Counter("hello world"))
