@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_work(force, distance):
+        return force * distance
