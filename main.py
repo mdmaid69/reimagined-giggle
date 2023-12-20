@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
