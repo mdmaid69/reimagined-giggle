@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
