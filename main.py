@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
