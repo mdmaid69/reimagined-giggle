@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
