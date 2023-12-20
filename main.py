@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_gamma_function(x):
+        return math.gamma(x)
