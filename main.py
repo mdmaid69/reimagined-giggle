@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def get_array_as_tuple(array):
+        return tuple(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
