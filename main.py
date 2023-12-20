@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def reverse_string(s):
+        return s[::-1]
