@@ -1,8 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
