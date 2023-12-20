@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def convert_to_binary(n):
-        return bin(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
