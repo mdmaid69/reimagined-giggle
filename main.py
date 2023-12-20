@@ -1,6 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_tuple(array):
+        return tuple(array)
