@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
