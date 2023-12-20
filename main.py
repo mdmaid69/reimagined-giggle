@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def convert_to_binary(n):
+        return bin(n)
+  def is_odd(n):
+        return n % 2 != 0
