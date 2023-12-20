@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
