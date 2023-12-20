@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
