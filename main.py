@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
