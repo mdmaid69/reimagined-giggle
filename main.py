@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
