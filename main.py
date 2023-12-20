@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def add_numbers(a, b):
+        return a + b
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
