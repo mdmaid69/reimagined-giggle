@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def is_odd(n):
+        return n % 2 != 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
