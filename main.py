@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_characters(sentence):
-        return len(sentence)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
