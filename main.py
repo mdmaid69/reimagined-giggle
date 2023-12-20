@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
