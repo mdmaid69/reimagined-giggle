@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def reverse_array(array):
-        array.reverse()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def get_array_as_bytearray(array):
+        return bytearray(array)
