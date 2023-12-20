@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_work(force, distance):
-        return force * distance
+def divide_numbers(x, y):
+        return x / y
+import array
+def reverse_array(array):
+        array.reverse()
