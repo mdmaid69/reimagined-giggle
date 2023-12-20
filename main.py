@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def convert_to_binary(n):
+        return bin(n)
