@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+print(sys.version)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
