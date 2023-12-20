@@ -1,5 +1,3 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
