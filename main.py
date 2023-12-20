@@ -1,7 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
