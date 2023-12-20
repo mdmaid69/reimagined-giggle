@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_unique_words(sentence):
+        return set(sentence.split())
