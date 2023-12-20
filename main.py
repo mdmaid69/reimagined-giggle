@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
