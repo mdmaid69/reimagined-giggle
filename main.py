@@ -1,5 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
