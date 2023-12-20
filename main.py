@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def get_array_item_count(array, item):
+        return array.count(item)
