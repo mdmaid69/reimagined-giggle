@@ -1,4 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
