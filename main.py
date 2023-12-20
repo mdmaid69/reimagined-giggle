@@ -1,4 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-print(sum(range(10)))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
