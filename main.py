@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_pressure(force, area):
-        return force / area
+  def add_numbers(x, y):
+        return x + y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
