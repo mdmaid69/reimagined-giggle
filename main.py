@@ -1,7 +1,14 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
