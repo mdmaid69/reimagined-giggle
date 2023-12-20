@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
