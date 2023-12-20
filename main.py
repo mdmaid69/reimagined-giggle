@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
