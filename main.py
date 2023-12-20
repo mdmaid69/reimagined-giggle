@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_average(lst):
+        return sum(lst) / len(lst)
