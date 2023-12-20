@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
