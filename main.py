@@ -1,5 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def add_numbers(x, y):
+        return x + y
