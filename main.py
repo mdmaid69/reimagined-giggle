@@ -1,7 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
