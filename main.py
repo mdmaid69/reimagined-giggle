@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
