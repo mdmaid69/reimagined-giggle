@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
