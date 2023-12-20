@@ -1,5 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import os
-def remove_directory(path):
-        os.rmdir(path)
-def find_max(lst):
-        return max(lst)
+def get_current_working_directory():
+        return os.getcwd()
