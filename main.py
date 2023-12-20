@@ -1,6 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
