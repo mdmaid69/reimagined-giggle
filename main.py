@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
