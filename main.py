@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def count_elements(lst):
-        return len(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
