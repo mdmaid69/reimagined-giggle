@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_string_from_array(array):
+        return array.tobytes()
