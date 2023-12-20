@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
