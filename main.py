@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
