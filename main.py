@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def add_numbers(x, y):
-        return x + y
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
