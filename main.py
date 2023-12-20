@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
