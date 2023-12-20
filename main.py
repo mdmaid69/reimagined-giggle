@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-print(math.pi)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def reverse_list(lst):
+        return lst[::-1]
