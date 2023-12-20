@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import re
-print(re.match("h.*o", "hello world"))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def count_elements(lst):
+        return len(lst)
