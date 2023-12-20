@@ -1,6 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
