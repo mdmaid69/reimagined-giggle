@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
