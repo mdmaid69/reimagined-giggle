@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
