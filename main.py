@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
