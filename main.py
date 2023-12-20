@@ -1,10 +1,4 @@
-print([x**2 for x in range(10)])
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def sort_numbers(numbers):
+        return sorted(numbers)
+def sort_list(lst):
+        return sorted(lst)
