@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def count_elements(lst):
+        return len(lst)
