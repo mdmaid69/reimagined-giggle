@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
