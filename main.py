@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
