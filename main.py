@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
