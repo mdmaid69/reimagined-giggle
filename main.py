@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
