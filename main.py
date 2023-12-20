@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
