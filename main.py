@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
