@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
