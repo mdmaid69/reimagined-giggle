@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def count_words(sentence):
+        return len(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
