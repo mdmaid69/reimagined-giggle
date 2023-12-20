@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
