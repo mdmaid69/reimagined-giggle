@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_str(array):
+        return str(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
