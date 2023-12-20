@@ -1,5 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
