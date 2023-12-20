@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
