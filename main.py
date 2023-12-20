@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import logging
+def log_message(message):
+        logging.info(message)
+  def reverse_list(lst):
+        return lst[::-1]
