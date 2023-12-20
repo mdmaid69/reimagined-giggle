@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def find_unique_words(sentence):
+        return set(sentence.split())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
