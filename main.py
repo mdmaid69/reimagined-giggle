@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_array_as_complex(array):
+        return complex(array[0])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
