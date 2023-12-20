@@ -1,6 +1,9 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
