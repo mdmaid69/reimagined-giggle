@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
