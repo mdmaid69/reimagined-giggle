@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
