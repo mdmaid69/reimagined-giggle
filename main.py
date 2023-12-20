@@ -1,11 +1,7 @@
+import random
+print(random.randint(0, 100))
 import array
-def get_array_item(array, i):
-        return array[i]
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
