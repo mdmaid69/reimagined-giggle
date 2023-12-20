@@ -1,6 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
