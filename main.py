@@ -1,8 +1,6 @@
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
