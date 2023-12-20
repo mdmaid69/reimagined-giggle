@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_tangent(x):
+        return math.tan(x)
