@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import sys
+  def get_python_version():
+        return sys.version
