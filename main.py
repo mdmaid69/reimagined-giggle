@@ -1,5 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_speed(distance, time):
-        return distance / time
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
