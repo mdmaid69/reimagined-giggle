@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
