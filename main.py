@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+x = 10
+y = 20
+print("Sum:", x + y)
