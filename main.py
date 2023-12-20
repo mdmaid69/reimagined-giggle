@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
