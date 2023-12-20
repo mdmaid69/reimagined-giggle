@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
