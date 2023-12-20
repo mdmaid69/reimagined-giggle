@@ -1,5 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-print(random.randint(0, 100))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
