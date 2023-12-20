@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
