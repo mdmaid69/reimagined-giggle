@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
