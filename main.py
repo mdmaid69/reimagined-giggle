@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
