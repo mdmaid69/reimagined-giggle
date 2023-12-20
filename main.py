@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
