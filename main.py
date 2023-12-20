@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
