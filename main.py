@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
