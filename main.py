@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def add_numbers(x, y):
+        return x + y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
