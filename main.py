@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
