@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
