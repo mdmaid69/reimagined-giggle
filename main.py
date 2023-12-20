@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
