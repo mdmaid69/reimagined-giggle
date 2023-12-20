@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_user_string():
+        return collections.UserString()
+def add_numbers(a, b):
+        return a + b
