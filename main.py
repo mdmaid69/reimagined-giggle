@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def convert_to_hex(n):
+        return hex(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
