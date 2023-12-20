@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
