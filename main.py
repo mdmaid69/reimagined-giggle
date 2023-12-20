@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
