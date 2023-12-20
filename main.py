@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
