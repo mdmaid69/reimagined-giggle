@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
