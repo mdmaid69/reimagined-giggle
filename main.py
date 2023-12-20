@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
