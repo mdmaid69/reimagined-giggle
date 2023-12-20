@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
