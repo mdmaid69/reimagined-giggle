@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
