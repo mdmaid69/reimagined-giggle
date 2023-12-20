@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
