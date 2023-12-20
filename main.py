@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import random
+def roll_die():
+        return random.randint(1, 6)
