@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
