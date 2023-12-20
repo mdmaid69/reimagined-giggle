@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def cube_number(x):
+        return x**3
