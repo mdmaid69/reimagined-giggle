@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
