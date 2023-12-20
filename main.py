@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_queue():
-        return collections.deque()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
