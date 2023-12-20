@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_max(lst):
+        return max(lst)
