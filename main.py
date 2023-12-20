@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
