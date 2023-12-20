@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
