@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
