@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def clear_array(array):
+        array *= 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
