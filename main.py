@@ -1,5 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import collections
-def create_user_list():
-        return collections.UserList()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def create_user_string():
+        return collections.UserString()
