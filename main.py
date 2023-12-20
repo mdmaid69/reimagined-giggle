@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_octal(n):
+        return oct(n)
