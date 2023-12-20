@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_typecode(array):
-        return array.typecode
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
