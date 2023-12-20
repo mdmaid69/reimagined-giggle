@@ -1,9 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
