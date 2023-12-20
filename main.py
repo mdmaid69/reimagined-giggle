@@ -1,6 +1,10 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def convert_to_octal(n):
+        return oct(n)
