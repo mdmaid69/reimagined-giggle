@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def is_odd(n):
-        return n % 2 != 0
+for i in range(5):
+        print(i)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
