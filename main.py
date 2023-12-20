@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
