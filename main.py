@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def convert_to_hex(n):
+        return hex(n)
