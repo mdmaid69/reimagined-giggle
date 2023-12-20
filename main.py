@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def convert_to_binary(n):
+        return bin(n)
