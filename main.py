@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def sort_list(lst):
-        return sorted(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
