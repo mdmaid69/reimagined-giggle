@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
