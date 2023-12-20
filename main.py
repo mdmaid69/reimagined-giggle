@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
