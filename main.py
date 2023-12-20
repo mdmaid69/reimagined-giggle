@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
