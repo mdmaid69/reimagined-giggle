@@ -1,5 +1,6 @@
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def get_string_from_array(array):
+        return array.tobytes()
