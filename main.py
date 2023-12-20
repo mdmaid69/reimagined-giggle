@@ -1,4 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-for i in range(10): print(i)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
