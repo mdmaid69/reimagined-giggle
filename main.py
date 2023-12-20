@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def remove_duplicates(lst):
-        return list(set(lst))
+import tensorflow as tf
+print(tf.__version__)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
