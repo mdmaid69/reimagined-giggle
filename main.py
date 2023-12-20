@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_user_list():
+        return collections.UserList()
