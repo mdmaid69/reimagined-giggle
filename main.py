@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
