@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
