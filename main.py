@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_pressure(force, area):
-        return force / area
+for i in range(5):
+        print(i)
+  def convert_to_octal(n):
+        return oct(n)
