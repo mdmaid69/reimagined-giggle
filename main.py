@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
