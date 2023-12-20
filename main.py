@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def count_words(sentence):
+        return len(sentence.split())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
