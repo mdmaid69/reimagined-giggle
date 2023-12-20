@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def add_numbers(a, b):
+        return a + b
