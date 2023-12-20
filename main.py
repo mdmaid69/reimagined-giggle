@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
