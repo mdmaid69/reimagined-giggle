@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
