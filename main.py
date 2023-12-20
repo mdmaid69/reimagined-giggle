@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
