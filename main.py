@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
