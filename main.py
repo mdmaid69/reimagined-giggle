@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
