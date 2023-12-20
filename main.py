@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def convert_to_hex(n):
-        return hex(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
