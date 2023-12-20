@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
