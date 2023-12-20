@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_length(array):
+        return len(array)
