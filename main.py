@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
