@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_volume(length, width, height):
+        return length * width * height
