@@ -1,6 +1,11 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
