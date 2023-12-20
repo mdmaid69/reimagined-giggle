@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
