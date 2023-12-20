@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+print(math.pi)
