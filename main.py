@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def clear_array(array):
-        array *= 0
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
