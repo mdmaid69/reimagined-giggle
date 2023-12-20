@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import getpass
+def get_username():
+        return getpass.getuser()
+  def remove_duplicates(lst):
+        return list(set(lst))
