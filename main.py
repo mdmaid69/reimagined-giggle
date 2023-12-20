@@ -1,8 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
