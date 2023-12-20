@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
