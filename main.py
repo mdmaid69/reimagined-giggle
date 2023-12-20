@@ -1,6 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+x = 10
+y = 20
+print("Sum:", x + y)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
