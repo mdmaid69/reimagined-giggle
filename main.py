@@ -1,5 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def subtract_numbers(x, y):
+        return x - y
