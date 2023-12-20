@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def count_elements(lst):
-        return len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
