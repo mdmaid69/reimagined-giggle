@@ -1,5 +1,8 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
