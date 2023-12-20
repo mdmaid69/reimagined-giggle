@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
