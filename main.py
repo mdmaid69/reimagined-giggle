@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
