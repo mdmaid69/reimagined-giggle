@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
