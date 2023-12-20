@@ -1,7 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+print([x**2 for x in range(10)])
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
