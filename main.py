@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Characters:", len(text))
+  def reverse_list(lst):
+        return lst[::-1]
