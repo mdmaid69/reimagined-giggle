@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
