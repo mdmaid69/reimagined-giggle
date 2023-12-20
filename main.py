@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
