@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
