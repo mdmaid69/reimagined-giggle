@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
