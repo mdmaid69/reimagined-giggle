@@ -1,8 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_area(radius):
+        return 3.14 * radius * radius
+x = 10
+y = 20
+print("Sum:", x + y)
