@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
