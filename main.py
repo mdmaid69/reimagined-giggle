@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def is_palindrome(s):
+        return s == s[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
