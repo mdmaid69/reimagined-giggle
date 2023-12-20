@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
