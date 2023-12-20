@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import collections
+def create_stack():
+        return collections.deque()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
