@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
