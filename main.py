@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_index(array, item):
+        return array.index(item)
