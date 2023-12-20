@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
