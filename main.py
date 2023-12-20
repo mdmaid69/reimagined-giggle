@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
