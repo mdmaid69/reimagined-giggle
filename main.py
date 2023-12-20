@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
