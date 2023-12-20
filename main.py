@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def sort_numbers(numbers):
+        return sorted(numbers)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
