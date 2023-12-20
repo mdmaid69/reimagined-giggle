@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
