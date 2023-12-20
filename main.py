@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def count_elements(lst):
-        return len(lst)
+import time
+print(time.time())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
