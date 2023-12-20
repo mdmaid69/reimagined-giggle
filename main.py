@@ -1,8 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_error_function(x):
+        return math.erf(x)
+def convert_to_hex(n):
+        return hex(n)
