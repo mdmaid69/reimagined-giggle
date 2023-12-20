@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
