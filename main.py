@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
