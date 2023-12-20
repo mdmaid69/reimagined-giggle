@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
