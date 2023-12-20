@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
