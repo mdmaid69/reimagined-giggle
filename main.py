@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_user_string():
-        return collections.UserString()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
