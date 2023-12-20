@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
