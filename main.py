@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
