@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
