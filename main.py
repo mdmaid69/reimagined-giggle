@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-for i in range(5):
-        print(i)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
