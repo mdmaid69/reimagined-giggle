@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
