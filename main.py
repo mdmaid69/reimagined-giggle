@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def is_odd(n):
-        return n % 2 != 0
+import tensorflow as tf
+print(tf.__version__)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
