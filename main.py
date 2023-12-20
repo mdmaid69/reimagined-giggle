@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import collections
+def create_counter():
+        return collections.Counter()
