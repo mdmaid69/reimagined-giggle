@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
