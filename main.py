@@ -1,8 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
