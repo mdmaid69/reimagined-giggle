@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
