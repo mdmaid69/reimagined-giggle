@@ -1,8 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
