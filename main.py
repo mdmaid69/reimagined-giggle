@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
