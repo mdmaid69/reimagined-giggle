@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_memoryview(array):
+        return memoryview(array)
