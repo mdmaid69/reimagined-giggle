@@ -1,5 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
