@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def remove_duplicates(lst):
-        return list(set(lst))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
