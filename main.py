@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_acceleration(speed, time):
+        return speed / time
