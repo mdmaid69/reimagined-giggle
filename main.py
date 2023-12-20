@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
