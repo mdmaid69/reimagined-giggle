@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_work(force, distance):
-        return force * distance
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_user_list():
+        return collections.UserList()
