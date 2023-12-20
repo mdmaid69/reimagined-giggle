@@ -1,5 +1,7 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def reverse_list(lst):
+        return lst[::-1]
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
