@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def divide_numbers(x, y):
+        return x / y
