@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
