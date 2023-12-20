@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_item(array, i):
+        return array[i]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
