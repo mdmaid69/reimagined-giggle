@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_sine(x):
+        return math.sin(x)
