@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
