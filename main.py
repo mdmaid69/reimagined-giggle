@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
