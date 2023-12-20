@@ -1,6 +1,6 @@
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def create_user_list():
+        return collections.UserList()
