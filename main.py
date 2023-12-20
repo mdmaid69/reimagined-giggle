@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
