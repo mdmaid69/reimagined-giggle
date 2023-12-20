@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
