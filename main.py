@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def square_number(x):
-        return x**2
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
