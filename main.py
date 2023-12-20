@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import datetime
+def get_today_date():
+        return datetime.date.today()
