@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_square_root(x):
+        return math.sqrt(x)
