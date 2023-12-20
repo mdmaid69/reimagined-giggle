@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_pressure(force, area):
+        return force / area
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
