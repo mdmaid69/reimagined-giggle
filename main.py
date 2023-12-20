@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
