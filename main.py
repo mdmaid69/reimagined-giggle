@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def add_numbers(a, b):
+        return a + b
+import re
+print(re.match("h.*o", "hello world"))
