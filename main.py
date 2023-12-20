@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
