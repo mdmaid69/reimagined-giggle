@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_area_circle(r):
+        return 3.14 * r**2
