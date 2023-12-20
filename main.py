@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_user_dict():
+        return collections.UserDict()
