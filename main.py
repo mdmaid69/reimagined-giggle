@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
