@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import sys
-def print_python_version():
-        print(sys.version)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
