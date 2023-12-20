@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import platform
+def get_python_version():
+        return platform.python_version()
