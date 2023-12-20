@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
