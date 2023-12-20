@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_typecode(array):
-        return array.typecode
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
