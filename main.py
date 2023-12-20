@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+def print_python_version():
+        print(sys.version)
