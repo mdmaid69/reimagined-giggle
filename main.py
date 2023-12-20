@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
