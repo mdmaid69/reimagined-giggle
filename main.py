@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def convert_to_binary(n):
-        return bin(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_counter():
+        return collections.Counter()
