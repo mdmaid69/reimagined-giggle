@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
+import math
+print(math.pi)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
