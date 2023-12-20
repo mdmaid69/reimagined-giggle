@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import time
+def get_current_time():
+        return time.ctime()
+  def is_odd(n):
+        return n % 2 != 0
