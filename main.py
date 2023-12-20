@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
