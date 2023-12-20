@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
