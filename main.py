@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
