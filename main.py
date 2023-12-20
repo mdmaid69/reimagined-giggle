@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def square_number(x):
+        return x**2
+  import sys
+  def get_python_version():
+        return sys.version
