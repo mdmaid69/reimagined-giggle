@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
