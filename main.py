@@ -1,7 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import sys
+def exit_program():
+        sys.exit()
