@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
