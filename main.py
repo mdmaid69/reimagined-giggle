@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
