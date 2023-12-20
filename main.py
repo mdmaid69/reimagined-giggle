@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import time
-def get_time_since_epoch():
-        return time.time()
+def greet(name):
+        print(f"Hello, {name}!")
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
