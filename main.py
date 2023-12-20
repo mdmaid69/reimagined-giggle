@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
