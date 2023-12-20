@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import platform
+def get_python_version():
+        return platform.python_version()
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
