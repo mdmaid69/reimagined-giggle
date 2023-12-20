@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+x = 10
+y = 20
+print("Sum:", x + y)
