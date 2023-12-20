@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
