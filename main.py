@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
