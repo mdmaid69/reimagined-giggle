@@ -1,6 +1,7 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
