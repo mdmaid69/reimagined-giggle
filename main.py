@@ -1,5 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
