@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
