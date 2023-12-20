@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
