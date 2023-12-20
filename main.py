@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def create_queue():
-        return collections.deque()
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_int(array):
+        return int(array[0])
