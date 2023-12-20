@@ -1,7 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
