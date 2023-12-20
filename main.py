@@ -1,7 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
