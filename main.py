@@ -1,5 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
