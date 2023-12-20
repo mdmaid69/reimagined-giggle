@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_list(array):
-        return list(array)
+def reverse_string(s):
+        return s[::-1]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
