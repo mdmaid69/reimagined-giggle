@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
