@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_average(lst):
+        return sum(lst) / len(lst)
