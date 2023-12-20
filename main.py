@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
