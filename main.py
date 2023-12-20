@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sys
-def print_python_version():
-        print(sys.version)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
