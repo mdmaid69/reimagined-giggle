@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
