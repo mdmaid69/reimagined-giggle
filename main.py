@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def reverse_list(lst):
-        return lst[::-1]
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
