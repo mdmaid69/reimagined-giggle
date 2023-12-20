@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_as_bool(array):
+        return bool(array)
