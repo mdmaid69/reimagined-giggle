@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import tensorflow as tf
+print(tf.__version__)
+import time
+def get_current_time():
+        return time.ctime()
