@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_area_rectangle(l, w):
+        return l * w
