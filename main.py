@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
