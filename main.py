@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
