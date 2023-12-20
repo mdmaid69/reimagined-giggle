@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
