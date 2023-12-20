@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
