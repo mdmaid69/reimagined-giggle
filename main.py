@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
