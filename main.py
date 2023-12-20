@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def count_elements(lst):
-        return len(lst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+print(sys.version)
