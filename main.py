@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_min(numbers):
-        return min(numbers)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
