@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
