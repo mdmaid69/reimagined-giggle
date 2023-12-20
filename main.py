@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
