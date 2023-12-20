@@ -1,5 +1,4 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+for i in range(10): print(i)
