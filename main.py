@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+for i in range(5):
+        print(i)
+def find_unique_words(sentence):
+        return set(sentence.split())
