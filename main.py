@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
