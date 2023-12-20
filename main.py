@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
