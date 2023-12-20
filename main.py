@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
