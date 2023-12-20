@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
