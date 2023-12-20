@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
