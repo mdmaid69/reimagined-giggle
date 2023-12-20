@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
