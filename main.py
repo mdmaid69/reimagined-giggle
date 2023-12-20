@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
