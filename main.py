@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-print(os.getcwd())
+import getpass
+def get_username():
+        return getpass.getuser()
+def greet(name):
+        print(f"Hello, {name}!")
