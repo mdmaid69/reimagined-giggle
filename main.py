@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_min(lst):
+        return min(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
