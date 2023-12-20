@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
