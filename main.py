@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
