@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+for i in range(5):
+        print(i)
