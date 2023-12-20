@@ -1,8 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
