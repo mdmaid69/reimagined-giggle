@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
