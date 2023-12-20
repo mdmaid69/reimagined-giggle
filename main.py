@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import time
+print(time.time())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
