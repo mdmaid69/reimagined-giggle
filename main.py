@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def multiply_numbers(x, y):
+        return x * y
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
