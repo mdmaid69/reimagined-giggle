@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-print(sys.version)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
