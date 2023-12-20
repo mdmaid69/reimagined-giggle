@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
