@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
