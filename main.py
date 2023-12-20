@@ -1,6 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
