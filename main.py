@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def count_words(sentence):
-        return len(sentence.split())
+import tensorflow as tf
+print(tf.__version__)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
