@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
