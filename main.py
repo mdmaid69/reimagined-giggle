@@ -1,4 +1,10 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def find_min(lst):
-        return min(lst)
+import datetime
+print(datetime.datetime.now())
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
