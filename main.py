@@ -1,10 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
