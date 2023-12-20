@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Reversed:", text[::-1])
