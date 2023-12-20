@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_error_function(x):
+        return math.erf(x)
