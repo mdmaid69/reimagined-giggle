@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
