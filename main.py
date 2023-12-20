@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def divide_numbers(x, y):
+        return x / y
+  def calculate_area_circle(r):
+        return 3.14 * r**2
