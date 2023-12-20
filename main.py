@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_speed(distance, time):
+        return distance / time
+def convert_to_octal(n):
+        return oct(n)
