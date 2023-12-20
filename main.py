@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def sort_list(lst):
+        return sorted(lst)
