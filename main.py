@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
