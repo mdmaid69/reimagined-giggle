@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
