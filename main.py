@@ -1,6 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
