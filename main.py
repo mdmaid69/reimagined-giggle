@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def reverse_list(lst):
+        return lst[::-1]
