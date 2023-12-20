@@ -1,8 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
