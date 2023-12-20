@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import platform
+def get_python_version():
+        return platform.python_version()
+name = "Python"
+print("Hello,", name)
