@@ -1,7 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
