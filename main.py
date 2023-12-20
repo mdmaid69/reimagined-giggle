@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
