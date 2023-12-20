@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
