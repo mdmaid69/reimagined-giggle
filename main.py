@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
