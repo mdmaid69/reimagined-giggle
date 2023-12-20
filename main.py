@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
