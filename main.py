@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
