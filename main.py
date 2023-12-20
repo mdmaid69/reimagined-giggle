@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
