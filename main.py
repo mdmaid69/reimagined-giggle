@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def reverse_array(array):
+        array.reverse()
+def remove_duplicates(lst):
+        return list(set(lst))
