@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
