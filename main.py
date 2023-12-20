@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
