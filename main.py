@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def sort_list(lst):
+        return sorted(lst)
