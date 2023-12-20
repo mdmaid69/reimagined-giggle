@@ -1,7 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
