@@ -1,7 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
