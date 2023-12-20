@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
