@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def is_palindrome(s):
+        return s == s[::-1]
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
