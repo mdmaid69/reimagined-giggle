@@ -1,4 +1,6 @@
-import time
-print(time.time())
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
