@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
