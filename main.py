@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
