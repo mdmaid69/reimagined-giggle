@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_item(array, i):
+        return array[i]
+import random
+print(random.randint(0, 100))
