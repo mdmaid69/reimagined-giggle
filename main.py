@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
