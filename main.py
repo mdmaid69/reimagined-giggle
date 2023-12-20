@@ -1,5 +1,3 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+print(sum(range(10)))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
