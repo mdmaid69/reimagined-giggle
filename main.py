@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
