@@ -1,10 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
