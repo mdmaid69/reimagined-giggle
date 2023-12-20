@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_queue():
+        return collections.deque()
