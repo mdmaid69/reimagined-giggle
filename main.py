@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
