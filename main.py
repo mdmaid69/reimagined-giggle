@@ -1,5 +1,6 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def get_array_as_repr(array):
+        return repr(array)
