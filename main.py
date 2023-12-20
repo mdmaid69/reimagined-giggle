@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
