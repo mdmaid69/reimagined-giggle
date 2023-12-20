@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import logging
+def log_message(message):
+        logging.info(message)
+import numpy as np
+print(np.array([1, 2, 3]))
