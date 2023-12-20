@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def remove_duplicates(lst):
+        return list(set(lst))
