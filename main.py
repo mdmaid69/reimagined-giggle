@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
