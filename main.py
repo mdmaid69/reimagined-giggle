@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
