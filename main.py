@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
 import collections
-def create_user_string():
-        return collections.UserString()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
