@@ -1,5 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def check_if_array_contains_item(array, item):
+        return item in array
