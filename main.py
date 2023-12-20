@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def find_min(lst):
+        return min(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
