@@ -1,5 +1,8 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def is_even(n):
-        return n % 2 == 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
