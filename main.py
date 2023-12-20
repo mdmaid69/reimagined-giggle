@@ -1,5 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
