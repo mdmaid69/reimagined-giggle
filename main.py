@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_area_rectangle(l, w):
-        return l * w
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_list(array):
+        return list(array)
