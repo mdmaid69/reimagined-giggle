@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def print_python_version():
-        return sys.version
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
