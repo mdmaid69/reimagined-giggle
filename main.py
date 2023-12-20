@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def reverse_list(lst):
+        return lst[::-1]
