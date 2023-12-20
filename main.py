@@ -1,5 +1,6 @@
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_hex(n):
-        return hex(n)
+def get_array_as_bytearray(array):
+        return bytearray(array)
