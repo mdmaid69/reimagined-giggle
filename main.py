@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_area(radius):
+        return 3.14 * radius * radius
