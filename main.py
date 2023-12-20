@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
