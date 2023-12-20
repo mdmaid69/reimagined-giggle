@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
