@@ -1,7 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
