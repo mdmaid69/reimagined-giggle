@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def reverse_list(lst):
+        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
