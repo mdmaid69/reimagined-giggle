@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def square_number(x):
+        return x**2
