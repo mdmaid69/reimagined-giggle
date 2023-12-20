@@ -1,8 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
