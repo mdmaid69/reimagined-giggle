@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
