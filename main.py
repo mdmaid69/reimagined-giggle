@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import logging
-def log_message(message):
-        logging.info(message)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import time
+def get_current_time():
+        return time.ctime()
