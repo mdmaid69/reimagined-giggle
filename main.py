@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
