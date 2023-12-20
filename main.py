@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
