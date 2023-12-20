@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def is_even(n):
-        return n % 2 == 0
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
