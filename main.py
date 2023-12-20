@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def sort_list(lst):
+        return sorted(lst)
