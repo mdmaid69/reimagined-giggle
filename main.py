@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
