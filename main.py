@@ -1,5 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
