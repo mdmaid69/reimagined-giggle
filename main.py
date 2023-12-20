@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def remove_duplicates(lst):
+        return list(set(lst))
