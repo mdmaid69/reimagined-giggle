@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
