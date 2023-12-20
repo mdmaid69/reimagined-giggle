@@ -1,6 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
