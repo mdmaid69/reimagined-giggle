@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def reverse_string(s):
-        return s[::-1]
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
