@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
