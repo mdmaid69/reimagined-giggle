@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
