@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
