@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def reverse_list(lst):
+        return lst[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
