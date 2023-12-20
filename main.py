@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
