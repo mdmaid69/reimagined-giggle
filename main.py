@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
