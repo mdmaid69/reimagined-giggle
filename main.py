@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
