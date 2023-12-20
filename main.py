@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+for i in range(10): print(i)
