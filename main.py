@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
