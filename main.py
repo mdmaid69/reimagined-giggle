@@ -1,5 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
