@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
