@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+print(sum(range(10)))
