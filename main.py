@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
