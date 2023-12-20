@@ -1,6 +1,8 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
