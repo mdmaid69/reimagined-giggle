@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def is_odd(n):
+        return n % 2 != 0
