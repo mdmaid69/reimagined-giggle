@@ -1,8 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
