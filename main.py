@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
