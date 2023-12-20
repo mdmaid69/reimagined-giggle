@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def convert_to_hex(n):
+        return hex(n)
