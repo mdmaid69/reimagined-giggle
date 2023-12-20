@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
