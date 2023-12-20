@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+x = 10
+y = 20
+print("Sum:", x + y)
