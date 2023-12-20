@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
