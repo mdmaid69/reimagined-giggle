@@ -1,6 +1,9 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
