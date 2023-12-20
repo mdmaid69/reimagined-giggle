@@ -1,3 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-for i in range(10): print(i)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
