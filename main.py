@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
 import datetime
-def get_today_date():
-        return datetime.date.today()
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_area_rectangle(l, w):
+        return l * w
