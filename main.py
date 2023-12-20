@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
