@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import platform
-def get_python_version():
-        return platform.python_version()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_typecode(array):
+        return array.typecode
