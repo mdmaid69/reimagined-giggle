@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def multiply_numbers(x, y):
+        return x * y
