@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_base_name(path):
+        return os.path.basename(path)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
