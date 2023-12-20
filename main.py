@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def subtract_numbers(x, y):
+        return x - y
