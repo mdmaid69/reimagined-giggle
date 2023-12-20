@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sys
-def print_python_version():
-        return sys.version
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
