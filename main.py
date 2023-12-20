@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def create_queue():
-        return collections.deque()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
