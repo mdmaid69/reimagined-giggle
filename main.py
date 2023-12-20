@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
