@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_floor(x):
+        return math.floor(x)
