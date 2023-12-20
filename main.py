@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
