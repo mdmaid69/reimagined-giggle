@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
