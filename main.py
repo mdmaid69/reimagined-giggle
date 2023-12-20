@@ -1,5 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
