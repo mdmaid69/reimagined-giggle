@@ -1,4 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-print(sum(range(10)))
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_power(work, time):
+        return work / time
