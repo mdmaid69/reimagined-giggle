@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
