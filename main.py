@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
