@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
