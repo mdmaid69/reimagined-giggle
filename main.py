@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
