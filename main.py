@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
