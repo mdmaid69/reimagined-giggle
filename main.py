@@ -1,10 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-text = "Hello, world!"
-print("Characters:", len(text))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def sort_list(lst):
+        return sorted(lst)
