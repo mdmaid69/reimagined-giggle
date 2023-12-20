@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
