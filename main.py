@@ -1,9 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
