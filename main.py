@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
