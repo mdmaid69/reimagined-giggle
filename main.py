@@ -1,8 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def split_path(path):
-        return os.path.split(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
