@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
