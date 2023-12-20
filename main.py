@@ -1,5 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
