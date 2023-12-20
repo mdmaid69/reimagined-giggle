@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def count_characters(sentence):
-        return len(sentence)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
