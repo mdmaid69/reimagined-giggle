@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
