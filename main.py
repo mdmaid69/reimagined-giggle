@@ -1,8 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
