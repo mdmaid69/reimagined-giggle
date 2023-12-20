@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def square_number(x):
+        return x**2
