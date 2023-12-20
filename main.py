@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
