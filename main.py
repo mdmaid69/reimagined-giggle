@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
