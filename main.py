@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
