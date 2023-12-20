@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
