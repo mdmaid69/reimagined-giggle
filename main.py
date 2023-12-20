@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def is_even(n):
+        return n % 2 == 0
