@@ -1,4 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
