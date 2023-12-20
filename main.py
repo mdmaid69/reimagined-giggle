@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
