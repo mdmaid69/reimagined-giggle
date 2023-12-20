@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
