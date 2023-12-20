@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-def calculate_power(work, time):
-        return work / time
+def calculate_work(force, distance):
+        return force * distance
+  def sort_list(lst):
+        return sorted(lst)
