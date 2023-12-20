@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_list_from_array(array):
+        return array.tolist()
