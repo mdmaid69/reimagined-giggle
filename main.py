@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
