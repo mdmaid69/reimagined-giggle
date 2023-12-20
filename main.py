@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
