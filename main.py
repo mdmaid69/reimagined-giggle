@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
