@@ -1,5 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
