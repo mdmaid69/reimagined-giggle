@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
