@@ -1,7 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_item(array, i):
+        return array[i]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
