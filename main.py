@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
