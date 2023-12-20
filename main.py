@@ -1,5 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import platform
+def get_python_version():
+        return platform.python_version()
