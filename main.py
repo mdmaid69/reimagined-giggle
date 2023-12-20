@@ -1,5 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sys
-def exit_program():
-        sys.exit()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
