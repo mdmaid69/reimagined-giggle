@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def count_words(sentence):
+        return len(sentence.split())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
