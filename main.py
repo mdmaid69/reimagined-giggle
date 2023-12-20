@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
