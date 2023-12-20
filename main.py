@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
