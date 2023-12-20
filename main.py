@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
