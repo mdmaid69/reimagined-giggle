@@ -1,7 +1,7 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
-def find_max(numbers):
-        return max(numbers)
