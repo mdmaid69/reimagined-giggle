@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
