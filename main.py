@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def reverse_list(lst):
+        return lst[::-1]
+  def add_numbers(x, y):
+        return x + y
