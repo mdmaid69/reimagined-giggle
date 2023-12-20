@@ -1,7 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
