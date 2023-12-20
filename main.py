@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def reverse_array(array):
+        array.reverse()
