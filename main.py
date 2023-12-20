@@ -1,5 +1,6 @@
   import numpy as np
   def calculate_median(arr):
         return np.median(arr)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
