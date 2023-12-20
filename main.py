@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
