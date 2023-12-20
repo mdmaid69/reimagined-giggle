@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def convert_to_octal(n):
-        return oct(n)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
