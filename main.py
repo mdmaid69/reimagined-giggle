@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def count_characters(sentence):
+        return len(sentence)
