@@ -1,7 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
