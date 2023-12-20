@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_priority_queue():
+        return collections.deque()
