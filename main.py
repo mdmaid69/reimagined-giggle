@@ -1,5 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
