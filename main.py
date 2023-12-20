@@ -1,5 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
