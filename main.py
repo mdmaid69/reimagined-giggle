@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
