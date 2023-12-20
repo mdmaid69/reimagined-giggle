@@ -1,6 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
