@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def find_max(numbers):
-        return max(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_work(force, distance):
+        return force * distance
