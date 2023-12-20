@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
