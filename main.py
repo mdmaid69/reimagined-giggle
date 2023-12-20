@@ -1,7 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
