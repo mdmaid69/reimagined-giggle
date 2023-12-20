@@ -1,4 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-for i in range(10): print(i)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
