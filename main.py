@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
