@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  def remove_duplicates(lst):
+        return list(set(lst))
