@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
