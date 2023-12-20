@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
