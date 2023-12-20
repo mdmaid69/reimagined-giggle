@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
