@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
