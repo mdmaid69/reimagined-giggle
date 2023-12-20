@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
