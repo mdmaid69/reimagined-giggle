@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_volume(length, width, height):
+        return length * width * height
