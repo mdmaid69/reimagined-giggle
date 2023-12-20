@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
