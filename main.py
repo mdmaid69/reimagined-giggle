@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
