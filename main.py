@@ -1,6 +1,6 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
