@@ -1,5 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import os
-print(os.getcwd())
+def find_max(lst):
+        return max(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
