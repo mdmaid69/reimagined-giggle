@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_item(array, i):
+        return array[i]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
