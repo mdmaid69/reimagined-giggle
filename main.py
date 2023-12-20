@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
