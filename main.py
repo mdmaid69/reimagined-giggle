@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
