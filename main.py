@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
