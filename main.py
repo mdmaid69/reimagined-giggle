@@ -1,6 +1,9 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
