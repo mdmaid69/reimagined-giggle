@@ -1,5 +1,9 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
