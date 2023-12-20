@@ -1,5 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
