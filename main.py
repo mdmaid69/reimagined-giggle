@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
