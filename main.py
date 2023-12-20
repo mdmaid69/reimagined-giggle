@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
