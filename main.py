@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import tensorflow as tf
-print(tf.__version__)
+for i in range(10): print(i)
+import math
+def calculate_floor(x):
+        return math.floor(x)
