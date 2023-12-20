@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
