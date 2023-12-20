@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import sys
-print(sys.version)
+  def square_number(x):
+        return x**2
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
