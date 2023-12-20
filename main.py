@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def find_min(numbers):
-        return min(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
