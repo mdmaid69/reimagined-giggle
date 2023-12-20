@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
