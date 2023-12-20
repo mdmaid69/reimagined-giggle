@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import time
-def get_current_time():
-        return time.time()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
