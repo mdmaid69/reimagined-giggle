@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
