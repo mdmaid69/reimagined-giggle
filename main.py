@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def split_path(path):
-        return os.path.split(path)
-def find_max(lst):
-        return max(lst)
+  def get_directory_name(path):
+        return os.path.dirname(path)
