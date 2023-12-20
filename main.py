@@ -1,4 +1,8 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def set_array_item(array, i, item):
+        array[i] = item
