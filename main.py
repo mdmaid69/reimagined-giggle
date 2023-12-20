@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
+def convert_to_octal(n):
+        return oct(n)
