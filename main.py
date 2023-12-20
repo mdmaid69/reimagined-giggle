@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_factorial(n):
+        return math.factorial(n)
