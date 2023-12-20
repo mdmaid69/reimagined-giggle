@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
