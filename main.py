@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import collections
+def create_user_string():
+        return collections.UserString()
+text = "Hello, world!"
+print("Words:", len(text.split()))
