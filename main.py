@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
