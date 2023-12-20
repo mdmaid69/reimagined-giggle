@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def cube_number(x):
-        return x**3
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
