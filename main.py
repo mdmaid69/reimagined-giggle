@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
