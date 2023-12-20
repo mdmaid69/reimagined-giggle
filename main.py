@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
