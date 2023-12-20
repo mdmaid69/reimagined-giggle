@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
