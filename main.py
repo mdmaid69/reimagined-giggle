@@ -1,5 +1,6 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
