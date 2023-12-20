@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def find_max(lst):
-        return max(lst)
+def calculate_sign(x):
+        return math.copysign(1, x)
