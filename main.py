@@ -1,5 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+print("Hello, world!")
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
