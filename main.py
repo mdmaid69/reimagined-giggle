@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
