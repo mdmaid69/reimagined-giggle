@@ -1,4 +1,3 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import datetime
-print(datetime.datetime.now())
+for i in range(10): print(i)
+  def multiply_numbers(x, y):
+        return x * y
