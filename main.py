@@ -1,6 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-print("Hello, world!")
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
