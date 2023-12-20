@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def divide_numbers(x, y):
+        return x / y
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
