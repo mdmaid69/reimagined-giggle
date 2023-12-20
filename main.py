@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
