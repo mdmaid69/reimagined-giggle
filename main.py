@@ -1,9 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
