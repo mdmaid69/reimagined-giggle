@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import time
+def get_current_time():
+        return time.ctime()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
