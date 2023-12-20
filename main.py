@@ -1,5 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
