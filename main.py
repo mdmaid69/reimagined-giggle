@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import sys
+def print_python_version():
+        return sys.version
+def reverse_list(lst):
+        return lst[::-1]
