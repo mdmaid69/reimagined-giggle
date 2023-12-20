@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
