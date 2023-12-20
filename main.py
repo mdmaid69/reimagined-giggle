@@ -1,7 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
