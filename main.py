@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
