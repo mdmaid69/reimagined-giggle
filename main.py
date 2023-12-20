@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
