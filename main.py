@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_index(array, item):
+        return array.index(item)
