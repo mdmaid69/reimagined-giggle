@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
