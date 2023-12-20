@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
