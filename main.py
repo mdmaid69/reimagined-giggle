@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+from collections import Counter
+print(Counter("hello world"))
