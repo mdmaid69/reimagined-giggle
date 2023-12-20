@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def reverse_list(lst):
+        return lst[::-1]
