@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
