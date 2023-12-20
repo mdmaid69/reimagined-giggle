@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
