@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import datetime
+def get_today_date():
+        return datetime.date.today()
