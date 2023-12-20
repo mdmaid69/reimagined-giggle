@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
