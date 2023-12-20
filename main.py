@@ -1,5 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+print([x**2 for x in range(10)])
