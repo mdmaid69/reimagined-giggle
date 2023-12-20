@@ -1,5 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
