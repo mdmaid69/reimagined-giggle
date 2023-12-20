@@ -1,8 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_array_itemsize(array):
+        return array.itemsize
