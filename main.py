@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def sort_list(lst):
+        return sorted(lst)
