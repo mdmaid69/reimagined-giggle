@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import collections
+def create_priority_queue():
+        return collections.deque()
