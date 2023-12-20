@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
