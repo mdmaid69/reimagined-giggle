@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def sort_numbers(numbers):
+        return sorted(numbers)
