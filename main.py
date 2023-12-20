@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_work(force, distance):
+        return force * distance
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
