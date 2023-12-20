@@ -1,6 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
