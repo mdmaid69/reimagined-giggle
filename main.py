@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import tensorflow as tf
-print(tf.__version__)
+import random
+print(random.randint(0, 100))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
