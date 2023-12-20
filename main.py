@@ -1,6 +1,5 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
