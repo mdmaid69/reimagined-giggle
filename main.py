@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_counter():
-        return collections.Counter()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
