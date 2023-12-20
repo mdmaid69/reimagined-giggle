@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def convert_to_octal(n):
+        return oct(n)
