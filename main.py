@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import numpy as np
+print(np.array([1, 2, 3]))
+  def calculate_area_rectangle(l, w):
+        return l * w
