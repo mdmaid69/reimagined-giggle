@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
