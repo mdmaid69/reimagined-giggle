@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_repr(array):
+        return repr(array)
