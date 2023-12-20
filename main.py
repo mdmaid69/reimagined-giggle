@@ -1,6 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
