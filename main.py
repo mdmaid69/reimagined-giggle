@@ -1,5 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_current_working_directory():
+        return os.getcwd()
