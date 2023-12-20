@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_user_string():
-        return collections.UserString()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
