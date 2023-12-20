@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
