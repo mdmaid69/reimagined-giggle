@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
