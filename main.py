@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
