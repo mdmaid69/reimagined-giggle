@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
