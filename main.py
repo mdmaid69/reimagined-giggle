@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
