@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
