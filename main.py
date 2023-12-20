@@ -1,6 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
