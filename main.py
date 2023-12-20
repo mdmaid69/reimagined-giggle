@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.time()
