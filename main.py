@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import sys
-  def get_python_version():
-        return sys.version
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
