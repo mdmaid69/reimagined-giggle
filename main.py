@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def multiply_numbers(x, y):
+        return x * y
