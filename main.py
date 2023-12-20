@@ -1,6 +1,3 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def count_elements(lst):
+        return len(lst)
+print([x**2 for x in range(10)])
