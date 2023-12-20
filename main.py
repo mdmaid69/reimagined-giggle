@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
