@@ -1,5 +1,9 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        print(sys.version)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
