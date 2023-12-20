@@ -1,6 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
