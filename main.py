@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
