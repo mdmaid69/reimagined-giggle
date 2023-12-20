@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
