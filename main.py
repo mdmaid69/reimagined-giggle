@@ -1,6 +1,7 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
