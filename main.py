@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def find_unique_words(sentence):
+        return set(sentence.split())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
