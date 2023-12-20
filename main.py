@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
