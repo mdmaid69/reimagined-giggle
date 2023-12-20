@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+print(time.time())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
