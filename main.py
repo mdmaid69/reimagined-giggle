@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
