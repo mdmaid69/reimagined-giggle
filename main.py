@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_set(array):
+        return set(array)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
