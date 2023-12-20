@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_repr(array):
+        return repr(array)
