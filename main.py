@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
