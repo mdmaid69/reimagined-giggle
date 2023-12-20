@@ -1,6 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
