@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
