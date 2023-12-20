@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def convert_to_binary(n):
-        return bin(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
