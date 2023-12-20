@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def is_palindrome(s):
-        return s == s[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def print_python_version():
+        return sys.version
