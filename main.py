@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def find_min(numbers):
+        return min(numbers)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
