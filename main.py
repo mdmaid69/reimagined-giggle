@@ -1,10 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
