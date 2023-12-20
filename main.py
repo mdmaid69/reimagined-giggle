@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
