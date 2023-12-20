@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
