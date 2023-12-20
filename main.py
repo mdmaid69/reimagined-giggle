@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
