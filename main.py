@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_gamma_function(x):
+        return math.gamma(x)
