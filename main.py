@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
