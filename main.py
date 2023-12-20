@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_length(array):
-        return len(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
