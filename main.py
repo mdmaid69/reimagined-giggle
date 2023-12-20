@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def square_number(x):
+        return x**2
