@@ -1,6 +1,5 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+print(re.match("h.*o", "hello world"))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
