@@ -1,5 +1,10 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def remove_duplicates(lst):
-        return list(set(lst))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
