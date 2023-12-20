@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
