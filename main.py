@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def get_time_since_epoch():
+        return time.time()
