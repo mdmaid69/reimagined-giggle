@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_acceleration(speed, time):
+        return speed / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
