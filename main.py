@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
