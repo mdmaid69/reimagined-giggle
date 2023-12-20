@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
