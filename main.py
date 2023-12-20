@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def convert_to_hex(n):
+        return hex(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
