@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+x = 10
+y = 20
+print("Sum:", x + y)
+import tensorflow as tf
+print(tf.__version__)
