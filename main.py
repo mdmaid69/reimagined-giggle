@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
