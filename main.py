@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
