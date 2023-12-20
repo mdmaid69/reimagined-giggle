@@ -1,8 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
