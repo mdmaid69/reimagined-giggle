@@ -1,6 +1,4 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_pressure(force, area):
+        return force / area
+  def count_elements(lst):
+        return len(lst)
