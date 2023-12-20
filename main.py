@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
