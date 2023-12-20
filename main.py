@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_queue():
-        return collections.deque()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
