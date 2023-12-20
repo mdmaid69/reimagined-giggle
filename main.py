@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
