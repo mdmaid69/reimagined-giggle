@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_user_list():
+        return collections.UserList()
