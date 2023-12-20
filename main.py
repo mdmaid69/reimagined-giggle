@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def is_palindrome(s):
+        return s == s[::-1]
