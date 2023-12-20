@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 text = "Hello, world!"
 print("Uppercase:", text.upper())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
