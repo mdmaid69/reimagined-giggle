@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
