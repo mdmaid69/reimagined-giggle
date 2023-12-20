@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
