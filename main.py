@@ -1,6 +1,8 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
