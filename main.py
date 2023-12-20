@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
