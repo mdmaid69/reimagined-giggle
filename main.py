@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
