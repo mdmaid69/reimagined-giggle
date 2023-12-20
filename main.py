@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
