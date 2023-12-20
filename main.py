@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def count_characters(sentence):
+        return len(sentence)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
