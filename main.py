@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
