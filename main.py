@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def count_elements(lst):
+        return len(lst)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
