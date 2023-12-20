@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
