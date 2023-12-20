@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
