@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def is_even(n):
-        return n % 2 == 0
+  def square_number(x):
+        return x**2
+import math
+def calculate_tangent(x):
+        return math.tan(x)
