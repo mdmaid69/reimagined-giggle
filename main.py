@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
