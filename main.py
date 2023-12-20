@@ -1,5 +1,12 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
