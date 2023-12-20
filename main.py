@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
