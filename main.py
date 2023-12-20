@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print([x**2 for x in range(10)])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
