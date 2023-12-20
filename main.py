@@ -1,14 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
