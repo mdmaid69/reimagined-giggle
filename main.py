@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sys
-print(sys.version)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
