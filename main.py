@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
