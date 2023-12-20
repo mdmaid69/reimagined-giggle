@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
