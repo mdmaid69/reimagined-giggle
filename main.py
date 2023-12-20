@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def cube_number(x):
+        return x**3
+def calculate_area_rectangle(l, w):
+        return l * w
