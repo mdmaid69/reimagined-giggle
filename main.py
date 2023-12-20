@@ -1,6 +1,8 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
