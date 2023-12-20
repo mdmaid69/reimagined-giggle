@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
