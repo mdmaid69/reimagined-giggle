@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
