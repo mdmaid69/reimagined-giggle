@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
