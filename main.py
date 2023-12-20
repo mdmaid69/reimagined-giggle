@@ -1,8 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
