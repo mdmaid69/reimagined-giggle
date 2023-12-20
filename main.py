@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
