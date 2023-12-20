@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def subtract_numbers(x, y):
-        return x - y
+def is_even(n):
+        return n % 2 == 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
