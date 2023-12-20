@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import getpass
+def get_username():
+        return getpass.getuser()
+import random
+print(random.randint(0, 100))
