@@ -1,6 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-x = 10
-y = 20
-print("Sum:", x + y)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
