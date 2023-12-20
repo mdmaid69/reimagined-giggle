@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_even(n):
-        return n % 2 == 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
