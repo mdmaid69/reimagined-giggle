@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def is_palindrome(s):
+        return s == s[::-1]
