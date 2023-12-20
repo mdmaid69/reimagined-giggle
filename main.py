@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def subtract_numbers(x, y):
+        return x - y
