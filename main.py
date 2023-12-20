@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def multiply_numbers(x, y):
+        return x * y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
