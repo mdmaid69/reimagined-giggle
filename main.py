@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
