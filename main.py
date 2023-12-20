@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
