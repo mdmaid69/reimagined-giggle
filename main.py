@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
