@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
