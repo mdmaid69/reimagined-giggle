@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
