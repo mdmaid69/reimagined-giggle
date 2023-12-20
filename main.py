@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
