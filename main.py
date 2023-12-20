@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
