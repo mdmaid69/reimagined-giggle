@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
