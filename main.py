@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
