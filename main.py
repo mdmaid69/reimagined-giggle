@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
