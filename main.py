@@ -1,6 +1,8 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+x = 10
+y = 20
+print("Sum:", x + y)
