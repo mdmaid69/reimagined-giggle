@@ -1,7 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def is_odd(n):
+        return n % 2 != 0
+def calculate_perpetuity(payment, rate):
+        return payment / rate
