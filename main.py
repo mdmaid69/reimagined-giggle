@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import platform
+def get_os_info():
+        return platform.uname()
