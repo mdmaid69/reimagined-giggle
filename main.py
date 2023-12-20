@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
