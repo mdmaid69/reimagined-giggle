@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def clear_array(array):
-        array *= 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
