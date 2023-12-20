@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
