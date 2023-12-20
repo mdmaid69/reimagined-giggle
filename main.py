@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def is_palindrome(s):
+        return s == s[::-1]
