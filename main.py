@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
