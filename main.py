@@ -1,7 +1,4 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
