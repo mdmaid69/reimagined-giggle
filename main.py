@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def count_words(sentence):
+        return len(sentence.split())
