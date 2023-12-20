@@ -1,5 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import sys
+def exit_program():
+        sys.exit()
