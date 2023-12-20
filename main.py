@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def reverse_list(lst):
-        return lst[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
