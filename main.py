@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
