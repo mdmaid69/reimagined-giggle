@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import time
-def get_current_time():
-        return time.time()
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
