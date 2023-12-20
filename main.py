@@ -1,5 +1,9 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import random
+def roll_die():
+        return random.randint(1, 6)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
