@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
