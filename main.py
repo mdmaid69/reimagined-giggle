@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
