@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
