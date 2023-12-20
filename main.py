@@ -1,5 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
