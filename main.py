@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_item(array, i):
+        return array[i]
