@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def clear_array(array):
-        array *= 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import tensorflow as tf
+print(tf.__version__)
