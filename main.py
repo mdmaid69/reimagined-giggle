@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
