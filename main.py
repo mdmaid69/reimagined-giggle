@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
