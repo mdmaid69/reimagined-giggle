@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
