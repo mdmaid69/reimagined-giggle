@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import collections
+def create_user_list():
+        return collections.UserList()
