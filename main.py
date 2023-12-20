@@ -1,6 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
