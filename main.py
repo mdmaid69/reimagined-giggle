@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def calculate_power(work, time):
-        return work / time
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
