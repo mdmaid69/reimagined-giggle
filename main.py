@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def add_numbers(a, b):
-        return a + b
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
