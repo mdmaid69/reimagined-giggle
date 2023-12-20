@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
