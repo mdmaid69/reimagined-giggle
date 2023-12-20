@@ -1,9 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
