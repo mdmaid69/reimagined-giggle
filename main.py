@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import sys
-  def get_python_version():
-        return sys.version
+from collections import Counter
+print(Counter("hello world"))
+import datetime
+def get_today_date():
+        return datetime.date.today()
