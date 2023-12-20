@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
