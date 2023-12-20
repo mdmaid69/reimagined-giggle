@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
