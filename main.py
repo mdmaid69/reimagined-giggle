@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import time
+def get_time_since_epoch():
+        return time.time()
