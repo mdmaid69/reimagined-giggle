@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+print(time.time())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
