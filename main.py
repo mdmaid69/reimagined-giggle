@@ -1,7 +1,6 @@
+  def multiply_numbers(x, y):
+        return x * y
   import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
