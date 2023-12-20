@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def cube_number(x):
-        return x**3
+import time
+def get_current_time():
+        return time.ctime()
+def convert_to_octal(n):
+        return oct(n)
