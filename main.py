@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
