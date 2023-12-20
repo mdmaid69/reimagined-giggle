@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def convert_to_hex(n):
+        return hex(n)
