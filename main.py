@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
