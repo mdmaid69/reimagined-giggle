@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
