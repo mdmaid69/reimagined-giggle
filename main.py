@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import platform
+def get_python_version():
+        return platform.python_version()
