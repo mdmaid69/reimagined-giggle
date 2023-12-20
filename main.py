@@ -1,5 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_pressure(force, area):
-        return force / area
+  def subtract_numbers(x, y):
+        return x - y
+def find_min(lst):
+        return min(lst)
