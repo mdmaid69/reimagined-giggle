@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
