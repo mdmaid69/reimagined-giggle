@@ -1,6 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import time
+print(time.time())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
