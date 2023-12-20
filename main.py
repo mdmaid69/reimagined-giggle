@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import datetime
+print(datetime.datetime.now())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
