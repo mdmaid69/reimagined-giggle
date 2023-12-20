@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
