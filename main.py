@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
