@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import random
-def roll_die():
-        return random.randint(1, 6)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
