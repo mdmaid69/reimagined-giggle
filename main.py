@@ -1,6 +1,7 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
