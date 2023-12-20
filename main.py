@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
