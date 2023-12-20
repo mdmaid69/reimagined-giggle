@@ -1,7 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
