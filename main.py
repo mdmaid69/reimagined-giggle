@@ -1,10 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def find_max(lst):
+        return max(lst)
