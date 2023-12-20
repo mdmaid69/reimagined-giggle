@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
