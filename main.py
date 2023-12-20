@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def greet(name):
+        print(f"Hello, {name}!")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
