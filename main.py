@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
