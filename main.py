@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
