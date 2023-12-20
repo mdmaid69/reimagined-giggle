@@ -1,7 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
