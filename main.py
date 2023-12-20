@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
