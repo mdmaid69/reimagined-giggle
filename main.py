@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
