@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def multiply_numbers(x, y):
-        return x * y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
