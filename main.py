@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
