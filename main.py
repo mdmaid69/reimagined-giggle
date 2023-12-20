@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
