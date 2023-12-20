@@ -1,9 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
