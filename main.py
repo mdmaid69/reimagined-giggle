@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+for i in range(5):
+        print(i)
+def convert_to_binary(n):
+        return bin(n)
