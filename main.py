@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
