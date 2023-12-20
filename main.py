@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import time
+def get_current_time():
+        return time.time()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
