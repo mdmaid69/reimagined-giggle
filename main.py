@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_power(work, time):
-        return work / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_queue():
+        return collections.deque()
