@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
