@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
