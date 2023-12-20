@@ -1,7 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
