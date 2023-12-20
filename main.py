@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
