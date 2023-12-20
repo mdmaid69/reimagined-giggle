@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def remove_duplicates(lst):
+        return list(set(lst))
