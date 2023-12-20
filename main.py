@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import os
-print(os.getcwd())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
