@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
