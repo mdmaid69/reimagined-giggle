@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_priority_queue():
+        return collections.deque()
