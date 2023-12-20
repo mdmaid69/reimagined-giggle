@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
