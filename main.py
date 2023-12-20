@@ -1,3 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-print("Hello, world!")
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
