@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_power(work, time):
+        return work / time
+def calculate_density(mass, volume):
+        return mass / volume
