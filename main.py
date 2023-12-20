@@ -1,9 +1,10 @@
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
 import array
-def get_array_from_file(filename, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
