@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
