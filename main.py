@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
