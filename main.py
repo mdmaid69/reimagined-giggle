@@ -1,6 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
