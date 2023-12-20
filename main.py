@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
