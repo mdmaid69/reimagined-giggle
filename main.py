@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
