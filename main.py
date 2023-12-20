@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+for i in range(5):
+        print(i)
+def calculate_work(force, distance):
+        return force * distance
