@@ -1,8 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
