@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def is_odd(n):
+        return n % 2 != 0
+  def calculate_area_rectangle(l, w):
+        return l * w
