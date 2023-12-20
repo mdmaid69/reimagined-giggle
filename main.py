@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
