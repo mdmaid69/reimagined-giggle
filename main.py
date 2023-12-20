@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_pressure(force, area):
+        return force / area
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
