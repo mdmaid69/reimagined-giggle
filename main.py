@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import sys
+  def get_python_version():
+        return sys.version
