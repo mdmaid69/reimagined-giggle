@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
