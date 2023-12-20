@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
