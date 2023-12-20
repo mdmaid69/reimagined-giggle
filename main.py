@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_length(array):
+        return len(array)
