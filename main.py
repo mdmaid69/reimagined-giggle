@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
