@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
