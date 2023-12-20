@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
