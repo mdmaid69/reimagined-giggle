@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
