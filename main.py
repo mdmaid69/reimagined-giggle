@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def append_to_array(array, item):
+        array.append(item)
