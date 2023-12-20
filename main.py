@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def multiply_numbers(x, y):
-        return x * y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_pressure(force, area):
+        return force / area
