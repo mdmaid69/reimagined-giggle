@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def add_numbers(x, y):
-        return x + y
+def cube_number(x):
+        return x**3
+import array
+def remove_from_array(array, item):
+        array.remove(item)
