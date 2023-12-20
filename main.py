@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
