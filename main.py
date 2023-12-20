@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
