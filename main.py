@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import sys
-def exit_program():
-        sys.exit()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
