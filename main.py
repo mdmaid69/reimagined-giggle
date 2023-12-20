@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
