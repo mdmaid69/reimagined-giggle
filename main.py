@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
