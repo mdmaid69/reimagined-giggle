@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def convert_to_hex(n):
-        return hex(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
