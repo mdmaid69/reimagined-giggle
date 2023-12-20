@@ -1,4 +1,10 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def calculate_area_rectangle(l, w):
-        return l * w
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
