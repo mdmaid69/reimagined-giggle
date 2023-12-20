@@ -1,5 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
