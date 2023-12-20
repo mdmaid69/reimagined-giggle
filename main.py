@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def reverse_string(s):
-        return s[::-1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
