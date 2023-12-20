@@ -1,4 +1,11 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def reverse_string(s):
+        return s[::-1]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
