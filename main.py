@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
