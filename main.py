@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def convert_to_binary(n):
-        return bin(n)
+import array
+def clear_array(array):
+        array *= 0
+import datetime
+def get_current_date():
+        return datetime.date.today()
