@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_speed(distance, time):
+        return distance / time
+def greet(name):
+        print(f"Hello, {name}!")
