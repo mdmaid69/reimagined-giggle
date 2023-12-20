@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
