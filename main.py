@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
