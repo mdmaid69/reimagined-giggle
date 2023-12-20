@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
