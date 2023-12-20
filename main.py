@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
