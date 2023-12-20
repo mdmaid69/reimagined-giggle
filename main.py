@@ -1,6 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
