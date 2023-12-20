@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+print(random.randint(0, 100))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
