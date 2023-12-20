@@ -1,7 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def multiply_numbers(x, y):
-        return x * y
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
