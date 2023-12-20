@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
