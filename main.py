@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
