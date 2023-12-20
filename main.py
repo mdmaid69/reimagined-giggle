@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
