@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
