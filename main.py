@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def is_even(n):
-        return n % 2 == 0
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def count_elements(lst):
+        return len(lst)
