@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
