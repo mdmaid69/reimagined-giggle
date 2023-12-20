@@ -1,5 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
