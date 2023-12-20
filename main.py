@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
