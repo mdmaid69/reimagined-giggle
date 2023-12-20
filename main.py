@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
