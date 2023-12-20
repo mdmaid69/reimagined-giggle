@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
