@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
