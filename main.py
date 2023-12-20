@@ -1,4 +1,4 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+print("Is palindrome:", text == text[::-1])
