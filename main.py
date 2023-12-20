@@ -1,8 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
