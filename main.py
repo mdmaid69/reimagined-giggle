@@ -1,5 +1,6 @@
-print([x**2 for x in range(10)])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
