@@ -1,5 +1,3 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def count_words(sentence):
-        return len(sentence.split())
+print(sum(range(10)))
+text = "Hello, world!"
+print("Words:", len(text.split()))
