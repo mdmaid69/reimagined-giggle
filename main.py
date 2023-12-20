@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
