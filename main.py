@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def multiply_numbers(x, y):
+        return x * y
