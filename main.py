@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
