@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_power(work, time):
-        return work / time
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
