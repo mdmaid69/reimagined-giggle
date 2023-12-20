@@ -1,7 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_area_rectangle(l, w):
+        return l * w
