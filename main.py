@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
