@@ -1,7 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_power(work, time):
+        return work / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
