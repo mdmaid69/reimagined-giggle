@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
