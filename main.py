@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def remove_duplicates(lst):
+        return list(set(lst))
+  def count_elements(lst):
+        return len(lst)
