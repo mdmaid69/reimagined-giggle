@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_unique_words(sentence):
+        return set(sentence.split())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
