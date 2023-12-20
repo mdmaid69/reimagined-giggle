@@ -1,6 +1,12 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
