@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
