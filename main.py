@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
