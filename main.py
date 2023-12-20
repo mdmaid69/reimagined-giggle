@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
