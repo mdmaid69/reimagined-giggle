@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
