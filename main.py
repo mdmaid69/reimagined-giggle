@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_directory_name(path):
+        return os.path.dirname(path)
