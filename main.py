@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
