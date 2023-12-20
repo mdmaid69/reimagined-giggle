@@ -1,4 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-print(sum(range(10)))
+def cube_number(x):
+        return x**3
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
