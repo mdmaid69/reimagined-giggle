@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_sine(x):
+        return math.sin(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
