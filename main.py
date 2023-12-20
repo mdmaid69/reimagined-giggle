@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def square_number(x):
+        return x**2
