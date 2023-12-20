@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
