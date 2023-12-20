@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(a, b):
+        return a + b
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
