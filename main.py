@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def clear_array(array):
+        array *= 0
+def calculate_area_rectangle(l, w):
+        return l * w
