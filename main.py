@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
