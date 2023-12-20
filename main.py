@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def is_palindrome(s):
+        return s == s[::-1]
