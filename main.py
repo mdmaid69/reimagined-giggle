@@ -1,7 +1,8 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
