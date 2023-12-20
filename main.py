@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
