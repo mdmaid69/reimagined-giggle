@@ -1,6 +1,5 @@
 import re
-def split_string(pattern, string):
+def split_by_pattern(pattern, string):
         return re.split(pattern, string)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def remove_duplicates(lst):
+        return list(set(lst))
