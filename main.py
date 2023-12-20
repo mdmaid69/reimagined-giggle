@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
