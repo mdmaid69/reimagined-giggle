@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
