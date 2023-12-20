@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_float(array):
+        return float(array[0])
