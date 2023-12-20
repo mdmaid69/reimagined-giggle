@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
