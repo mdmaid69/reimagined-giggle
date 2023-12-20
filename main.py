@@ -1,7 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_item(array, i):
+        return array[i]
