@@ -1,4 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
