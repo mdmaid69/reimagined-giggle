@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
