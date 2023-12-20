@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
