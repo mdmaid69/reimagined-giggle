@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def cube_number(x):
-        return x**3
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
