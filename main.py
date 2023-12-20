@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import tensorflow as tf
+print(tf.__version__)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
