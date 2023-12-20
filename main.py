@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def multiply_numbers(x, y):
+        return x * y
