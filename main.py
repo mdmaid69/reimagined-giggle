@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
