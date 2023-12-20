@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import collections
-def create_queue():
-        return collections.deque()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
