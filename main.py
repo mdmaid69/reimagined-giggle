@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
