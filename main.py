@@ -1,8 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import re
+print(re.match("h.*o", "hello world"))
