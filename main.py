@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
