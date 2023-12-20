@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import platform
-def get_os_info():
-        return platform.uname()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
