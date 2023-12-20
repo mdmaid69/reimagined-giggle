@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
