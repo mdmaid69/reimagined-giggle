@@ -1,3 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-print("Hello, world!")
+def multiply_numbers(x, y):
+        return x * y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
