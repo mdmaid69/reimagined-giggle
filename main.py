@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+print([x**2 for x in range(10)])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
