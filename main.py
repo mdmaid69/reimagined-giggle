@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
