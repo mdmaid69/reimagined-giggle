@@ -1,8 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def add_numbers(a, b):
+        return a + b
+def reverse_string(s):
+        return s[::-1]
