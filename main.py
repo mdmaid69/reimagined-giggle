@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
