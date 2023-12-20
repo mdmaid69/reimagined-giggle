@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
