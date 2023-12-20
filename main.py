@@ -1,4 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
