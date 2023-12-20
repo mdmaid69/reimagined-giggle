@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_power(work, time):
-        return work / time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
