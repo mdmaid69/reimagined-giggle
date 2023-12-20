@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_power(work, time):
+        return work / time
