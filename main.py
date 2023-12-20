@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
