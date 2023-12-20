@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_as_list(array):
-        return list(array)
+def remove_from_array(array, item):
+        array.remove(item)
