@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
