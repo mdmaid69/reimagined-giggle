@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
