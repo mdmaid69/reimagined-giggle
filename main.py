@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
