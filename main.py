@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
