@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
