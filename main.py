@@ -1,6 +1,7 @@
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
