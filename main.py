@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
