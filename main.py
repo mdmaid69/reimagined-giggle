@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
