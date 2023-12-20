@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def clear_array(array):
+        array *= 0
