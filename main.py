@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def convert_to_hex(n):
-        return hex(n)
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
