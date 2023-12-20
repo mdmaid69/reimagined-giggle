@@ -1,5 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_array_as_float(array):
+        return float(array[0])
