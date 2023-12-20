@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
