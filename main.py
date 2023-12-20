@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
