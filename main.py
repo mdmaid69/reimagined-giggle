@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
