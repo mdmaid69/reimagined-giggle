@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
