@@ -1,8 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
