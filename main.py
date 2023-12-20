@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
