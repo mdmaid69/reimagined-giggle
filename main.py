@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
