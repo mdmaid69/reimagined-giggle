@@ -1,5 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def multiply_numbers(x, y):
-        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
