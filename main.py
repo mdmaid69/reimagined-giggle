@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
