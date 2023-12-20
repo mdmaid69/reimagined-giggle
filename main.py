@@ -1,7 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_string_from_array(array):
+        return array.tobytes()
