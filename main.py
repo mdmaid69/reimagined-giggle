@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
