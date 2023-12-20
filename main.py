@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+print(os.getcwd())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
