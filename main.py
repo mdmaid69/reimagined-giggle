@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
