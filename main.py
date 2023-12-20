@@ -1,8 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def add_numbers(x, y):
+        return x + y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
