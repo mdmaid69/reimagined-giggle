@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
