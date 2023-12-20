@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+print([x**2 for x in range(10)])
