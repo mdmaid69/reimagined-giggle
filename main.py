@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
