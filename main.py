@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_volume(length, width, height):
+        return length * width * height
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
