@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def find_min(lst):
-        return min(lst)
+import math
+print(math.pi)
+  def count_elements(lst):
+        return len(lst)
