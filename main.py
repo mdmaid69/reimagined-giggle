@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
