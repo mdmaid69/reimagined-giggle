@@ -1,6 +1,9 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
