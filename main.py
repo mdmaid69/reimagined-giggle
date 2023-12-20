@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-print(math.pi)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def convert_to_hex(n):
+        return hex(n)
