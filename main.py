@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def cube_number(x):
-        return x**3
+def calculate_pressure(force, area):
+        return force / area
+def multiply_numbers(x, y):
+        return x * y
