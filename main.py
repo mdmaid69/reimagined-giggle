@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
