@@ -1,8 +1,3 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-x = 10
-y = 20
-print("Sum:", x + y)
+for i in range(10): print(i)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
