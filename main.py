@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
