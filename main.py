@@ -1,4 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-print([x**2 for x in range(10)])
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_item(array, i):
+        return array[i]
