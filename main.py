@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_sign(x):
+        return math.copysign(1, x)
