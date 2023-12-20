@@ -1,9 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
