@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def change_working_directory(path):
+        os.chdir(path)
