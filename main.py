@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_user_list():
+        return collections.UserList()
