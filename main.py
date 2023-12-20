@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_user_dict():
+        return collections.UserDict()
