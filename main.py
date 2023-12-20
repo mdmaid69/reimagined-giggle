@@ -1,5 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_sign(x):
+        return math.copysign(1, x)
