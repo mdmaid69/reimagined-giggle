@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
