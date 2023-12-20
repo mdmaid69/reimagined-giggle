@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
