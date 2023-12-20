@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def cube_number(x):
-        return x**3
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
