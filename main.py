@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-print(random.randint(0, 100))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
