@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
