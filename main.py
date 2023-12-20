@@ -1,5 +1,12 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
