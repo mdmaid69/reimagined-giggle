@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def change_working_directory(path):
+        os.chdir(path)
