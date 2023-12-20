@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def cube_number(x):
+        return x**3
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
