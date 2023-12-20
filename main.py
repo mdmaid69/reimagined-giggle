@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def divide_numbers(x, y):
+        return x / y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
