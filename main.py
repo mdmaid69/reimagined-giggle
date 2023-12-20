@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_work(force, distance):
+        return force * distance
