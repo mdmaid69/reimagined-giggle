@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_typecode(array):
+        return array.typecode
