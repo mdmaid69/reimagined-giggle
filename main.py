@@ -1,7 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
