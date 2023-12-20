@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_gamma_function(x):
+        return math.gamma(x)
