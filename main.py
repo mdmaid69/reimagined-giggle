@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
