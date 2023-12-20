@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
 def clear_array(array):
         array *= 0
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
