@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
