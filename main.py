@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def is_palindrome(s):
+        return s == s[::-1]
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
