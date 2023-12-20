@@ -1,6 +1,7 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
