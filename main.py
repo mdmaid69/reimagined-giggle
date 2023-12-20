@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
