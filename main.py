@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_user_list():
+        return collections.UserList()
