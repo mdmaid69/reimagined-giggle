@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
