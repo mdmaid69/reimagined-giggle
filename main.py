@@ -1,5 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
