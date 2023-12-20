@@ -1,7 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
 text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Reversed:", text[::-1])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
