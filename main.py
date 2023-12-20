@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
