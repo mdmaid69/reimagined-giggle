@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_complex(array):
+        return complex(array[0])
