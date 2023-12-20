@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_length(array):
+        return len(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
