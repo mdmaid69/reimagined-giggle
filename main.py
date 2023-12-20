@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_unique_words(sentence):
+        return set(sentence.split())
