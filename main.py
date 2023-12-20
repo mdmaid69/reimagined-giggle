@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def find_min(numbers):
-        return min(numbers)
+  import sys
+  def get_python_version():
+        return sys.version
+text = "Hello, world!"
+print("Words:", len(text.split()))
