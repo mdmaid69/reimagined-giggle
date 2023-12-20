@@ -1,6 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
