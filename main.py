@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
