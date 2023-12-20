@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
