@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_priority_queue():
+        return collections.deque()
