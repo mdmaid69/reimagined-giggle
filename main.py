@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
