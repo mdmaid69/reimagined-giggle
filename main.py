@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
