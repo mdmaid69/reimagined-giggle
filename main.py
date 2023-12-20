@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
