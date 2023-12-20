@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
