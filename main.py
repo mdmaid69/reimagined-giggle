@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
