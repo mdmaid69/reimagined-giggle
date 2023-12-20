@@ -1,4 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
