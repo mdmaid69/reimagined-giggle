@@ -1,5 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def square_number(x):
-        return x**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
