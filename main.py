@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
