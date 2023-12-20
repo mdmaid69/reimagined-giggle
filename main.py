@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
