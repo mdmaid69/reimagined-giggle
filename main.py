@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
