@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
