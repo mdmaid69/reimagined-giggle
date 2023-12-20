@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
