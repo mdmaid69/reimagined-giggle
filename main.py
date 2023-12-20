@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def add_numbers(x, y):
-        return x + y
+def count_characters(sentence):
+        return len(sentence)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
