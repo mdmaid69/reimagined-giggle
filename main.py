@@ -1,3 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-print(sum(range(10)))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_error_function(x):
+        return math.erf(x)
