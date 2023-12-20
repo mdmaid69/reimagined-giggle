@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_work(force, distance):
+        return force * distance
+  def reverse_list(lst):
+        return lst[::-1]
