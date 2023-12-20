@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def get_array_as_bool(array):
+        return bool(array)
