@@ -1,5 +1,9 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
