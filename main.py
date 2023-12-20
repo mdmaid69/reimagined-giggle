@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
