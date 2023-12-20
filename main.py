@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
