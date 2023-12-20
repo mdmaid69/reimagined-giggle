@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
