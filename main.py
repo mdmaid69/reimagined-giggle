@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
