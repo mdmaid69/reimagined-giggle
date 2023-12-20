@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
