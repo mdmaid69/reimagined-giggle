@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import datetime
-print(datetime.datetime.now())
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
