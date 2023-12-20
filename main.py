@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
