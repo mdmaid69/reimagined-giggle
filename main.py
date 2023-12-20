@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+def is_odd(n):
+        return n % 2 != 0
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
