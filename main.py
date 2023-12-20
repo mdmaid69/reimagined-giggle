@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
