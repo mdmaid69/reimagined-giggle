@@ -1,4 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-print("Hello, world!")
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
