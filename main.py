@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
