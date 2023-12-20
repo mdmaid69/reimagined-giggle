@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_pressure(force, area):
+        return force / area
