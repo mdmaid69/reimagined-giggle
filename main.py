@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
