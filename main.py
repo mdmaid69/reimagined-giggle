@@ -1,3 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-print("Hello, world!")
+def square_number(x):
+        return x**2
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
