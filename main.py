@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def add_numbers(a, b):
-        return a + b
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
