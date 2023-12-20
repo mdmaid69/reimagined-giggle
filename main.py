@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Reversed:", text[::-1])
