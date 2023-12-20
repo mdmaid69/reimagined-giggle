@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
