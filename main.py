@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
