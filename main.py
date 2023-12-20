@@ -1,5 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
