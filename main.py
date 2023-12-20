@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
