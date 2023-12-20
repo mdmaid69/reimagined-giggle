@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
   def get_file_flags(file_name):
         return os.stat(file_name).st_flags
