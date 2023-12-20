@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
