@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
