@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def find_max(numbers):
+        return max(numbers)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
