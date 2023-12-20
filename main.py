@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
