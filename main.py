@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def reverse_list(lst):
-        return lst[::-1]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
