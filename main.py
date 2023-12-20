@@ -1,5 +1,8 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
