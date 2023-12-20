@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
