@@ -1,5 +1,8 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def square_number(x):
-        return x**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
