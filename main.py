@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
