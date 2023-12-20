@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
