@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
