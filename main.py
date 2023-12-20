@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
