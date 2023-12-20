@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def divide_numbers(x, y):
-        return x / y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import sys
+def exit_program():
+        sys.exit()
