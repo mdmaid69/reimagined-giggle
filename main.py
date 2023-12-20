@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
