@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
