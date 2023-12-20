@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
