@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+x = 10
+y = 20
+print("Sum:", x + y)
