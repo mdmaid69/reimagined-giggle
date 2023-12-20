@@ -1,3 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-print([x**2 for x in range(10)])
+  def sort_list(lst):
+        return sorted(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
