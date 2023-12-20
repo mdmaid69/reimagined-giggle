@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
