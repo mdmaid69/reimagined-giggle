@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_words(sentence):
+        return len(sentence.split())
