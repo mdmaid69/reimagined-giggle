@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
