@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
