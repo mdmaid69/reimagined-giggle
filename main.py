@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def cube_number(x):
+        return x**3
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
