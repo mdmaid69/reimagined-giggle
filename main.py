@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_as_list(array):
+        return list(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
