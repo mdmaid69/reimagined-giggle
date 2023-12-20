@@ -1,4 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
