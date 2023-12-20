@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+text = "Hello, world!"
+print("Characters:", len(text))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
