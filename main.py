@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_speed(distance, time):
+        return distance / time
