@@ -1,6 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
