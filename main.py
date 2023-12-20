@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
