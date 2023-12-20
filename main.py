@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
