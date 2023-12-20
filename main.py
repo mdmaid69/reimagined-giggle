@@ -1,5 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
