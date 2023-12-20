@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sys
+  def get_python_version():
+        return sys.version
