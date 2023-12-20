@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
