@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
