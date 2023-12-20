@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-print(math.pi)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
