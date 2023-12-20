@@ -1,6 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def clear_array(array):
+        array *= 0
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
