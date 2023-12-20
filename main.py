@@ -1,5 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
