@@ -1,5 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+print(datetime.datetime.now())
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
