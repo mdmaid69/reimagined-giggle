@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
