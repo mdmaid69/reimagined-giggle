@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def cube_number(x):
-        return x**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
