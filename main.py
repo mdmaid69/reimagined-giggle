@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def count_words(sentence):
+        return len(sentence.split())
