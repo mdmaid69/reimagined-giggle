@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
