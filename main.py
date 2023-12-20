@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
