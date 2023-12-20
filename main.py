@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
