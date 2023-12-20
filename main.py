@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def sort_list(lst):
+        return sorted(lst)
