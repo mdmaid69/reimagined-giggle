@@ -1,5 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
