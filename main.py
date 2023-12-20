@@ -1,6 +1,8 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
