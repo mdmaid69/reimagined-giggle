@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
