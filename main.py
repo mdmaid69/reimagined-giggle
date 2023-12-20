@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
