@@ -1,5 +1,6 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
