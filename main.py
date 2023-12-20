@@ -1,8 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
