@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_square_root(x):
+        return math.sqrt(x)
+def count_words(sentence):
+        return len(sentence.split())
