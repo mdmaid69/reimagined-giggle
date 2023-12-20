@@ -1,5 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+print(math.pi)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
