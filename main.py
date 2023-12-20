@@ -1,5 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_area_rectangle(l, w):
-        return l * w
+def create_stack():
+        return collections.deque()
