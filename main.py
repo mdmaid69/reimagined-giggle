@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_rectangle(l, w):
+        return l * w
