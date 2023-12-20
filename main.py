@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
