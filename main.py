@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
