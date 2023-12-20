@@ -1,6 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import datetime
+def get_today_date():
+        return datetime.date.today()
