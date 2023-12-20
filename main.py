@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-print(math.pi)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
