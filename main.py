@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
