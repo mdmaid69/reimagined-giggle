@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def count_characters(sentence):
+        return len(sentence)
