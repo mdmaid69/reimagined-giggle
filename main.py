@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
