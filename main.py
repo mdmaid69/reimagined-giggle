@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
