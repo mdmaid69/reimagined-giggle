@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
