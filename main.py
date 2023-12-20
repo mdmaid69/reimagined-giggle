@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def add_numbers(x, y):
+        return x + y
