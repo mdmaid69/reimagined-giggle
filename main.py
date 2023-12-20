@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
