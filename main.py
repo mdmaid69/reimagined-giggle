@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_item(array, i):
+        return array[i]
