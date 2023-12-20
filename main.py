@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
