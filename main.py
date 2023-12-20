@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_power(work, time):
+        return work / time
