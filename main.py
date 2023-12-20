@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
