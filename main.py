@@ -1,7 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
