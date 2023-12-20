@@ -1,3 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-print(sum(range(10)))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
