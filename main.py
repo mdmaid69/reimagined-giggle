@@ -1,5 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def count_elements(lst):
-        return len(lst)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
