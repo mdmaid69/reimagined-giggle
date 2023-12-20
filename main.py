@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
