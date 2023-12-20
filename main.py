@@ -1,6 +1,11 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
