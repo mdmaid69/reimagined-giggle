@@ -1,5 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
