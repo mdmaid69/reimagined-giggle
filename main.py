@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
