@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def print_python_version():
+        return sys.version
