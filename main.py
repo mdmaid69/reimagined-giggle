@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
