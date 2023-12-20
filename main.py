@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
