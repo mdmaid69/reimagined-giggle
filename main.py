@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
