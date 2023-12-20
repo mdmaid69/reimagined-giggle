@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
