@@ -1,7 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def reverse_list(lst):
+        return lst[::-1]
+def reverse_list(lst):
+        return lst[::-1]
