@@ -1,7 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def greet(name):
+        print(f"Hello, {name}!")
+import datetime
+def get_today_date():
+        return datetime.date.today()
