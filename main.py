@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
