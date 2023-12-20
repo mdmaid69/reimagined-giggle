@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def add_numbers(a, b):
+        return a + b
