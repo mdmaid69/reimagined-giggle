@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
