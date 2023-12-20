@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_as_float(array):
+        return float(array[0])
