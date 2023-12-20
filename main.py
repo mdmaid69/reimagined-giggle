@@ -1,3 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-for i in range(10): print(i)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
