@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
