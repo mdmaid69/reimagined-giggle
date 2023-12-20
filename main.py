@@ -1,6 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def set_array_item(array, i, item):
+        array[i] = item
