@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def cube_number(x):
+        return x**3
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
