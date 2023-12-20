@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
