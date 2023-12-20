@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
