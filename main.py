@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
