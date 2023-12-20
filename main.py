@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_typecode(array):
+        return array.typecode
+  def convert_to_hex(n):
+        return hex(n)
