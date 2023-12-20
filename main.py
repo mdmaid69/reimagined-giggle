@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import platform
+def get_python_version():
+        return platform.python_version()
