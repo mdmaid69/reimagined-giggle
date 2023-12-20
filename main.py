@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import collections
+def create_user_list():
+        return collections.UserList()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
