@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_work(force, distance):
-        return force * distance
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def split_path(path):
+        return os.path.split(path)
