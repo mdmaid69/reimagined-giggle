@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-for i in range(5):
-        print(i)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
