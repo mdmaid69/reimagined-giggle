@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
