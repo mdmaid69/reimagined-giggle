@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
