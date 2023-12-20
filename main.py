@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
