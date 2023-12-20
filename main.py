@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import sys
+def exit_program():
+        sys.exit()
