@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
