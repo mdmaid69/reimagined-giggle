@@ -1,7 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import platform
+def get_python_version():
+        return platform.python_version()
