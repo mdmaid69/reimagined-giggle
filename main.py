@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def square_number(x):
-        return x**2
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
