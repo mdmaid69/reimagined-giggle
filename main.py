@@ -1,5 +1,9 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import numpy as np
-print(np.array([1, 2, 3]))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
