@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import re
-print(re.match("h.*o", "hello world"))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
