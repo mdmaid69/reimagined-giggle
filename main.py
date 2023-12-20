@@ -1,5 +1,5 @@
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_sine(x):
+        return math.sin(x)
