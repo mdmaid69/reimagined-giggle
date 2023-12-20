@@ -1,6 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
