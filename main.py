@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_item(array, i):
+        return array[i]
+def find_min(numbers):
+        return min(numbers)
