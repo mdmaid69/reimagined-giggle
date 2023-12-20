@@ -1,7 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
