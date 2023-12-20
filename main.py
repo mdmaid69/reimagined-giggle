@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
