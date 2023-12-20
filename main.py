@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
