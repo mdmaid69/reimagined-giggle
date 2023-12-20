@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
