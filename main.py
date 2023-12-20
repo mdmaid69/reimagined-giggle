@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sys
+def print_python_version():
+        return sys.version
