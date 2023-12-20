@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
