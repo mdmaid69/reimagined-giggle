@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import time
+def get_time_since_epoch():
+        return time.time()
