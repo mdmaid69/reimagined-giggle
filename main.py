@@ -1,6 +1,5 @@
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
