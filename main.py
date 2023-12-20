@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_work(force, distance):
-        return force * distance
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
