@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import logging
-def log_message(message):
-        logging.info(message)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def reverse_list(lst):
+        return lst[::-1]
