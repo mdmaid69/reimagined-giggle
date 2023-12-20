@@ -1,5 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
