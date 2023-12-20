@@ -1,5 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
