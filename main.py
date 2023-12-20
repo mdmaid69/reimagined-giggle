@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
