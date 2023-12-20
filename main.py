@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
