@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
