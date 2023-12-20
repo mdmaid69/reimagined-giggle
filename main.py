@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import datetime
+def get_current_date():
+        return datetime.date.today()
