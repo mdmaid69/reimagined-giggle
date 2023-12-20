@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
