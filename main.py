@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
