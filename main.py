@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+from collections import Counter
+print(Counter("hello world"))
