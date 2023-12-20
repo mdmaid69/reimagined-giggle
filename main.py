@@ -1,5 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_array_to_string(array):
+        return array.tostring()
