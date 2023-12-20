@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import getpass
-def get_username():
-        return getpass.getuser()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
