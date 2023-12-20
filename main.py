@@ -1,8 +1,7 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
