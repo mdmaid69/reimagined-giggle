@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def is_even(n):
+        return n % 2 == 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
