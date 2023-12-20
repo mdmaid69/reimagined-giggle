@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
