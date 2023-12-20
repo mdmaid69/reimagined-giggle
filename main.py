@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
