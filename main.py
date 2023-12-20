@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
