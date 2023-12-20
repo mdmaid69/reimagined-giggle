@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
