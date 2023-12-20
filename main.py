@@ -1,5 +1,3 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import tensorflow as tf
-print(tf.__version__)
+print(sum(range(10)))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
