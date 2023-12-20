@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
