@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+print(datetime.datetime.now())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
