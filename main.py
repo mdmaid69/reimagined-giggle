@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
