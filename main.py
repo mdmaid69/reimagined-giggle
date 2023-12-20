@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
