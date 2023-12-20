@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
