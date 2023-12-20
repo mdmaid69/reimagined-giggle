@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
