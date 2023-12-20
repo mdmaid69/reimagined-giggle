@@ -1,8 +1,6 @@
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
