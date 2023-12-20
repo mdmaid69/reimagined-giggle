@@ -1,9 +1,11 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
