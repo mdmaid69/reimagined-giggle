@@ -1,6 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-for i in range(10): print(i)
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
