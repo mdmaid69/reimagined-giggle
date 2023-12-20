@@ -1,5 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
