@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
