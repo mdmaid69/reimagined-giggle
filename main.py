@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_itemsize(array):
+        return array.itemsize
