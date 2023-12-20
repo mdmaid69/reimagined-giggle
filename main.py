@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
