@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  def sort_list(lst):
+        return sorted(lst)
