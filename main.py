@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
