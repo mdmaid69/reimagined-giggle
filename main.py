@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
