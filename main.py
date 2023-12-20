@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def reverse_string(s):
+        return s[::-1]
