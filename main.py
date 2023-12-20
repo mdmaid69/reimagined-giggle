@@ -1,5 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
