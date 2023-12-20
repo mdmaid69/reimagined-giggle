@@ -1,10 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
