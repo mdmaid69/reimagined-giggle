@@ -1,7 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_index(array, item):
+        return array.index(item)
