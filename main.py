@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
