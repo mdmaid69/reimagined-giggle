@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_queue():
-        return collections.deque()
+import time
+print(time.time())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
