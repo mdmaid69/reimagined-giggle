@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def is_even(n):
-        return n % 2 == 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
