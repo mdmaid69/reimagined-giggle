@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
