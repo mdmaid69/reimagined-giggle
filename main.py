@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+for i in range(10): print(i)
