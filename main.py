@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+from collections import Counter
+print(Counter("hello world"))
