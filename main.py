@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
