@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
