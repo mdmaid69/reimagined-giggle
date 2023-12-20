@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def exit_program():
+        sys.exit()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
