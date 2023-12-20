@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
