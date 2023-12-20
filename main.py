@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
