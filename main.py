@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
