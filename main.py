@@ -1,5 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
