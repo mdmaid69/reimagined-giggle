@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
