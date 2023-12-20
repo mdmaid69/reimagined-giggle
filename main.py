@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
