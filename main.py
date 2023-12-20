@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
