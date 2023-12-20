@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
