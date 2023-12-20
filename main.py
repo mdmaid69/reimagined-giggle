@@ -1,6 +1,7 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
