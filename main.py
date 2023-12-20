@@ -1,5 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
