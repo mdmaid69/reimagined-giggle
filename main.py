@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
