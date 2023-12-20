@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
