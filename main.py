@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
