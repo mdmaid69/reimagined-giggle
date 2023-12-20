@@ -1,6 +1,6 @@
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def get_array_as_frozenset(array):
+        return frozenset(array)
