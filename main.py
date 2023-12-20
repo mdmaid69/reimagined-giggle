@@ -1,6 +1,9 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
