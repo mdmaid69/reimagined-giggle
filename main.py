@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
