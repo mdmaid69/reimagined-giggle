@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def change_working_directory(path):
-        os.chdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_itemsize(array):
+        return array.itemsize
