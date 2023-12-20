@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
