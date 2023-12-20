@@ -1,6 +1,4 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+print(math.pi)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
