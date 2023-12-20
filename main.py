@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
