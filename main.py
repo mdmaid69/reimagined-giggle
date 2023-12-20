@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
