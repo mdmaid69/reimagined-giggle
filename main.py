@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
