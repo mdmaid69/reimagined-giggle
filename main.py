@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import logging
+def log_message(message):
+        logging.info(message)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
