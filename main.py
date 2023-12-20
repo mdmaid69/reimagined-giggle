@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_set(array):
+        return set(array)
