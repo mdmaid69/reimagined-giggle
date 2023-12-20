@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def add_numbers(x, y):
-        return x + y
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
