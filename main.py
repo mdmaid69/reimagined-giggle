@@ -1,12 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_error_function(x):
+        return math.erf(x)
