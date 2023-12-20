@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def add_numbers(x, y):
-        return x + y
+import array
+def reverse_array(array):
+        array.reverse()
+import numpy as np
+print(np.array([1, 2, 3]))
