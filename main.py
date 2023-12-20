@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
