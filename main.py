@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
