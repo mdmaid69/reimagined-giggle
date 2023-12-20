@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
