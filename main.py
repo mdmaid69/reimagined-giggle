@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def multiply_numbers(x, y):
-        return x * y
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
