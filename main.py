@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def get_time_since_epoch():
-        return time.time()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
