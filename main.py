@@ -1,6 +1,6 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
