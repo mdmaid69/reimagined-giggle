@@ -1,5 +1,10 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import re
+print(re.match("h.*o", "hello world"))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
