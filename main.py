@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
