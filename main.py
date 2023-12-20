@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
