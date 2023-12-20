@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
