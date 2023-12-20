@@ -1,5 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
