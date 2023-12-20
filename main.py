@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
