@@ -1,4 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def convert_to_hex(n):
+        return hex(n)
