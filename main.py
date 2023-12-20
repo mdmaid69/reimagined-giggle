@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
