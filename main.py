@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def convert_to_binary(n):
+        return bin(n)
