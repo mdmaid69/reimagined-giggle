@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
