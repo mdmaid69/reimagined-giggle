@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def reverse_string(s):
+        return s[::-1]
