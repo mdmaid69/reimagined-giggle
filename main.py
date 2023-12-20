@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import sys
+print(sys.version)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
