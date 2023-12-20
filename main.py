@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
