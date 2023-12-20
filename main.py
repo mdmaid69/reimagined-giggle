@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def divide_numbers(x, y):
+        return x / y
