@@ -1,8 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+print("Hello, world!")
+import array
+def get_string_from_array(array):
+        return array.tobytes()
