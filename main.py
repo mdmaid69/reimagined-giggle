@@ -1,4 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def subtract_numbers(x, y):
+        return x - y
