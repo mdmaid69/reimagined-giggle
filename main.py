@@ -1,6 +1,3 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+print(sum(range(10)))
+def cube_number(x):
+        return x**3
