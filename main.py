@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def append_to_array(array, item):
+        array.append(item)
