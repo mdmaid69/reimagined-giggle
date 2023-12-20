@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+print(sum(range(10)))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
