@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
