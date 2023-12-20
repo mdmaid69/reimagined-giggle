@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def is_even(n):
-        return n % 2 == 0
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import datetime
+def get_current_date():
+        return datetime.date.today()
