@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
