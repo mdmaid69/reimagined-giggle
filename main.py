@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+from collections import Counter
+print(Counter("hello world"))
+def find_unique_words(sentence):
+        return set(sentence.split())
