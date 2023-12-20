@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
