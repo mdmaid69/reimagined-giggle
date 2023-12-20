@@ -1,5 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_bytes(array):
+        return bytes(array)
