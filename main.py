@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_power(work, time):
+        return work / time
