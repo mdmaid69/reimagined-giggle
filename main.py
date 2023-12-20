@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
