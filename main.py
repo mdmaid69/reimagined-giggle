@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
