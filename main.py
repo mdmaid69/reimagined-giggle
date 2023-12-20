@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
