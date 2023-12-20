@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
