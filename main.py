@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import platform
+def get_os_info():
+        return platform.uname()
+  def remove_duplicates(lst):
+        return list(set(lst))
