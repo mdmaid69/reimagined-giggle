@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
