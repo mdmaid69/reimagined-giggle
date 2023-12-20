@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def count_characters(sentence):
+        return len(sentence)
