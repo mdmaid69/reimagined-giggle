@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import json
+print(json.dumps({"name": "John", "age": 30}))
