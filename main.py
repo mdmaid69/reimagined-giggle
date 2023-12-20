@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def set_array_item(array, i, item):
+        array[i] = item
