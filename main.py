@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+print(os.getcwd())
