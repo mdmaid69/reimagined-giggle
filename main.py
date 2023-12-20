@@ -1,7 +1,5 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def is_odd(n):
-        return n % 2 != 0
+def get_array_as_complex(array):
+        return complex(array[0])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
