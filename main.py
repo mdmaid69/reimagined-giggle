@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
