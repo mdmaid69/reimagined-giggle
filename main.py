@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import random
+print(random.randint(0, 100))
+x = 10
+y = 20
+print("Sum:", x + y)
