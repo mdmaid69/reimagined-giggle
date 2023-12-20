@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_user_list():
+        return collections.UserList()
+for i in range(5):
+        print(i)
