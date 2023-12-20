@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
