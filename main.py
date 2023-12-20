@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
