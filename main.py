@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def count_elements(lst):
+        return len(lst)
+  def reverse_list(lst):
+        return lst[::-1]
