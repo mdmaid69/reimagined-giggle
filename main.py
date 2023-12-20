@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
