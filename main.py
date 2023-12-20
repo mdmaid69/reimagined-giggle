@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
