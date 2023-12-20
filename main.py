@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_floor(x):
+        return math.floor(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
