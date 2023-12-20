@@ -1,7 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
