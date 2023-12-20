@@ -1,6 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
