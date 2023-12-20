@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import collections
+def create_priority_queue():
+        return collections.deque()
