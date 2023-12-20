@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def is_palindrome(s):
+        return s == s[::-1]
