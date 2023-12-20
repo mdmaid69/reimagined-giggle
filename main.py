@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
