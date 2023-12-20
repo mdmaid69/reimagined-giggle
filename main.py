@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
