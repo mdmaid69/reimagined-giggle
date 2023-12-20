@@ -1,5 +1,3 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def reverse_list(lst):
+        return lst[::-1]
+for i in range(10): print(i)
