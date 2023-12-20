@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_date():
+        return datetime.date.today()
