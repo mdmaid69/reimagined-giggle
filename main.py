@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
