@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
