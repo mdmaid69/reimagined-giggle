@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
