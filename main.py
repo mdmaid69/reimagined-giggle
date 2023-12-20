@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
