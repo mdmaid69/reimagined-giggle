@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
