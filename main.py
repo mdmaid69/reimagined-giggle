@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
