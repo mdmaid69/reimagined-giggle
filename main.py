@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_area_circle(r):
+        return 3.14 * r**2
