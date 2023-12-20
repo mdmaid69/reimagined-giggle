@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
