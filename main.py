@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
