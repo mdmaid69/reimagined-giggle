@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_sine(x):
+        return math.sin(x)
