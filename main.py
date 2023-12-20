@@ -1,4 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def get_array_length(array):
+        return len(array)
