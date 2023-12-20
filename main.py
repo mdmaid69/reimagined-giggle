@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
