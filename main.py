@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
