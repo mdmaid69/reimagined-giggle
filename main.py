@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
