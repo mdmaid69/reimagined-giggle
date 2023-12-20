@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def append_to_array(array, item):
+        array.append(item)
