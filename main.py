@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import logging
+def log_message(message):
+        logging.info(message)
