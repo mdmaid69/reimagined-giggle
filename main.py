@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
