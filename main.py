@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_list(array):
+        return list(array)
