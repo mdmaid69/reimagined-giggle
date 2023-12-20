@@ -1,7 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
