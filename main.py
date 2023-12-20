@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import sys
+def exit_program():
+        sys.exit()
