@@ -1,6 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
