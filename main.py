@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
