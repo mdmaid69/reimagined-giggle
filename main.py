@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
