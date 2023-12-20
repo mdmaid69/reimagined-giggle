@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def count_elements(lst):
-        return len(lst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
