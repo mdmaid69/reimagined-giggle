@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
