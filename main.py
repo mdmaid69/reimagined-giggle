@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
