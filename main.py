@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import random
+print(random.randint(0, 100))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
