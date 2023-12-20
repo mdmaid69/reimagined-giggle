@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def is_even(n):
+        return n % 2 == 0
