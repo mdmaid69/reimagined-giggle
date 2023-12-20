@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
