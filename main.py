@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import time
-def get_time_since_epoch():
-        return time.time()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+x = 10
+y = 20
+print("Sum:", x + y)
