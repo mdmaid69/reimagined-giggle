@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_acceleration(speed, time):
+        return speed / time
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
