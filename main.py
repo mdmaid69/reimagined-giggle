@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def clear_array(array):
+        array *= 0
