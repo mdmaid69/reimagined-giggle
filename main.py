@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
