@@ -1,7 +1,8 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
