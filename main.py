@@ -1,4 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-for i in range(10): print(i)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def count_words(sentence):
+        return len(sentence.split())
