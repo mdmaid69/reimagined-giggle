@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
