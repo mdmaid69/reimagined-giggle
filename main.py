@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
