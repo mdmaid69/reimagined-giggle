@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def is_even(n):
+        return n % 2 == 0
