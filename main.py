@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
