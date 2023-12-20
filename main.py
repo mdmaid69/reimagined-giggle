@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
