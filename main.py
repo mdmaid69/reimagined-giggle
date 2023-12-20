@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def find_min(lst):
+        return min(lst)
+def calculate_density(mass, volume):
+        return mass / volume
