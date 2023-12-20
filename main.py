@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_queue():
-        return collections.deque()
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
