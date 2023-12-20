@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
