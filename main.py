@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_counter():
-        return collections.Counter()
+def cube_number(x):
+        return x**3
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
