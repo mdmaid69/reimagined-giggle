@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
