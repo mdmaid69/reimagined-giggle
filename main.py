@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
