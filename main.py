@@ -1,5 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
