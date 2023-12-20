@@ -1,5 +1,12 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
