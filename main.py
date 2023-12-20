@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
