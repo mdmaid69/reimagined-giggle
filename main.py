@@ -1,7 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
