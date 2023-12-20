@@ -1,5 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
