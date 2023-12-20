@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_density(mass, volume):
+        return mass / volume
