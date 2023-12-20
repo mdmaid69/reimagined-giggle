@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import os
+print(os.getcwd())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
