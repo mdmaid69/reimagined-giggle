@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
