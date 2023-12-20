@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def is_palindrome(s):
+        return s == s[::-1]
