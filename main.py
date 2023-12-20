@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
