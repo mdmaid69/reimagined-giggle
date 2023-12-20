@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def convert_to_hex(n):
+        return hex(n)
