@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
