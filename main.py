@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
