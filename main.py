@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def is_even(n):
+        return n % 2 == 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
