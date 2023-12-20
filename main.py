@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
