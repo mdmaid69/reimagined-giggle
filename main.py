@@ -1,6 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
