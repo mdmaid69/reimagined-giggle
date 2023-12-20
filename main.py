@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+print(os.getcwd())
