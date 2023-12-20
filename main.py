@@ -1,6 +1,8 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
