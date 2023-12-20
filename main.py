@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
