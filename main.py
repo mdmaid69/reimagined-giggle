@@ -1,8 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
