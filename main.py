@@ -1,8 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def convert_to_hex(n):
+        return hex(n)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
