@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_as_complex(array):
+        return complex(array[0])
