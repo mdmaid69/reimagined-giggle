@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
