@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
