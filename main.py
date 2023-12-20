@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_as_bool(array):
+        return bool(array)
