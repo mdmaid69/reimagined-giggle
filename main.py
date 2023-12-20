@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def split_path(path):
+        return os.path.split(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
