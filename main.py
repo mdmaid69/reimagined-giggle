@@ -1,8 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def reverse_list(lst):
+        return lst[::-1]
