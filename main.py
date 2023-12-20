@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
