@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
