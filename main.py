@@ -1,5 +1,5 @@
+  def cube_number(x):
+        return x**3
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
