@@ -1,5 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
