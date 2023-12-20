@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
