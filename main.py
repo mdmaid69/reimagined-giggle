@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
