@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
