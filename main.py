@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
