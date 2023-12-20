@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
