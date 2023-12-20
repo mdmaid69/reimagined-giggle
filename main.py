@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
