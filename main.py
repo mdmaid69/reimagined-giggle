@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
