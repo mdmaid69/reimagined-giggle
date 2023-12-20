@@ -1,6 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import platform
+def get_os_info():
+        return platform.uname()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
