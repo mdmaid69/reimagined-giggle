@@ -1,6 +1,7 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
