@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
