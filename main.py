@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
