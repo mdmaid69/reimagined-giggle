@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
