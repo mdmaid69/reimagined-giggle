@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def count_elements(lst):
+        return len(lst)
