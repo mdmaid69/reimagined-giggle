@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
