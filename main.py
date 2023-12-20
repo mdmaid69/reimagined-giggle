@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
