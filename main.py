@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
