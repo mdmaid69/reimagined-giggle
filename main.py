@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import datetime
-def get_current_date():
-        return datetime.date.today()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def reverse_list(lst):
+        return lst[::-1]
