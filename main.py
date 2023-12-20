@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
