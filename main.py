@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_int(array):
+        return int(array[0])
+  def subtract_numbers(x, y):
+        return x - y
