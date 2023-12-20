@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def find_min(numbers):
+        return min(numbers)
