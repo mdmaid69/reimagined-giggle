@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
