@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
