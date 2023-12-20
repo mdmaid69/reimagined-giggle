@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_as_set(array):
+        return set(array)
