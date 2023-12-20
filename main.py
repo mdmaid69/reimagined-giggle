@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
