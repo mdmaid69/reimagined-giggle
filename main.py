@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
