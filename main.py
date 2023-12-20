@@ -1,5 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
