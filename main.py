@@ -1,7 +1,10 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
