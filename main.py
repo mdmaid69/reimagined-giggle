@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
