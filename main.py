@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
