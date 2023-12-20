@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_speed(distance, time):
+        return distance / time
