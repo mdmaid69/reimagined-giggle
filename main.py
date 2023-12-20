@@ -1,7 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import datetime
+def get_today_date():
+        return datetime.date.today()
