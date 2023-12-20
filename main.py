@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
