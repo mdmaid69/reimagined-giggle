@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def is_odd(n):
+        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
