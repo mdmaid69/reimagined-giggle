@@ -1,8 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
