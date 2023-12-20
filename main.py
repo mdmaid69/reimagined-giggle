@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
