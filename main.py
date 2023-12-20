@@ -1,4 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def reverse_list(lst):
-        return lst[::-1]
+import random
+print(random.randint(0, 100))
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
