@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
