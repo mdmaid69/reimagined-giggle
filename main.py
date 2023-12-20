@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
