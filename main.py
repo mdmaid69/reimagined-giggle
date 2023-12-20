@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
