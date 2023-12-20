@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
