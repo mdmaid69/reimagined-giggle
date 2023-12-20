@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def is_even(n):
-        return n % 2 == 0
+  def square_number(x):
+        return x**2
+import time
+def get_time_since_epoch():
+        return time.time()
