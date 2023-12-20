@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
