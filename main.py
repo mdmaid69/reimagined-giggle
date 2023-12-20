@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def reverse_list(lst):
-        return lst[::-1]
+def reverse_string(s):
+        return s[::-1]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
