@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def divide_numbers(x, y):
-        return x / y
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
