@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
