@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def calculate_area_circle(r):
+        return 3.14 * r**2
