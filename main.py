@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
