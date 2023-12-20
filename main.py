@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_power(work, time):
+        return work / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
