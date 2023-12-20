@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def convert_to_octal(n):
+        return oct(n)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_bytes_from_array(array):
+        return array.tobytes()
