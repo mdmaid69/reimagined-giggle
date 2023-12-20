@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
