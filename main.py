@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def square_number(x):
+        return x**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
