@@ -1,5 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
