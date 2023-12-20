@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
