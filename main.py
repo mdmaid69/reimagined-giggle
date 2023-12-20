@@ -1,5 +1,7 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
