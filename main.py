@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
