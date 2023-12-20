@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
