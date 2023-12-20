@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
