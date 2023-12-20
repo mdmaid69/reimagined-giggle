@@ -1,5 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def add_numbers(x, y):
+        return x + y
+def count_characters(sentence):
+        return len(sentence)
