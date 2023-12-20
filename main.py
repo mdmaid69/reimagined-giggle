@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
