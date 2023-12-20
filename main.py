@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def convert_to_hex(n):
+        return hex(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
