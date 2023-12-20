@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def clear_array(array):
+        array *= 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
