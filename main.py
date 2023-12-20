@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
