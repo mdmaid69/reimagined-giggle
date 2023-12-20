@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
