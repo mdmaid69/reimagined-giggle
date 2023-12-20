@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+print([x**2 for x in range(10)])
