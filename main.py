@@ -1,3 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-for i in range(10): print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_union(list1, list2):
+        return set(list1) | set(list2)
