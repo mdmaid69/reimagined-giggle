@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
