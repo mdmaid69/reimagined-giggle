@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_array_to_list(array):
+        return array.tolist()
