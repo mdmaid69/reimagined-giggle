@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
