@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import getpass
+def get_username():
+        return getpass.getuser()
