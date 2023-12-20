@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
