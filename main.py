@@ -1,6 +1,5 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_as_complex(array):
+        return complex(array[0])
+def is_even(n):
+        return n % 2 == 0
