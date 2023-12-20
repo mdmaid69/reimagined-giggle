@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import tensorflow as tf
+print(tf.__version__)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
