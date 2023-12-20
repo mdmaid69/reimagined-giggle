@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_power(work, time):
-        return work / time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def find_min(lst):
+        return min(lst)
