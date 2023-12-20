@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
