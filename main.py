@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-import sys
-print(sys.version)
+from collections import Counter
+print(Counter("hello world"))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
