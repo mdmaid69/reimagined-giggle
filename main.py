@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_palindrome(s):
-        return s == s[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
