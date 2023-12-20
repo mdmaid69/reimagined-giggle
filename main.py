@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
