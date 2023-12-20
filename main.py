@@ -1,4 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
