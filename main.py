@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
