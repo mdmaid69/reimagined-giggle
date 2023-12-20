@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
