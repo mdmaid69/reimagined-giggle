@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
