@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def reverse_list(lst):
+        return lst[::-1]
