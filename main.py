@@ -1,6 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def get_array_typecode(array):
+        return array.typecode
