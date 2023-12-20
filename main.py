@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
