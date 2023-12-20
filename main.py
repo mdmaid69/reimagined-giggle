@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
