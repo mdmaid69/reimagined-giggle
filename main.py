@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
