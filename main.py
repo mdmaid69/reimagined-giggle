@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
