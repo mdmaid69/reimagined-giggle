@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_power(work, time):
+        return work / time
+import platform
+def get_python_version():
+        return platform.python_version()
