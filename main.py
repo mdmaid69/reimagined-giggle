@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def reverse_string(s):
-        return s[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
