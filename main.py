@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
