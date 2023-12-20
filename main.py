@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
