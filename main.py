@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
