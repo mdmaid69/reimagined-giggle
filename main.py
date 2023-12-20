@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
