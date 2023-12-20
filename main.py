@@ -1,8 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
