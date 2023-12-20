@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
