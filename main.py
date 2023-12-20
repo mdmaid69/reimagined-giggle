@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
