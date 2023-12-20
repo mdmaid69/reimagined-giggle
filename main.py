@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
