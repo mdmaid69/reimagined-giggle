@@ -1,7 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
