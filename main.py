@@ -1,6 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_area(radius):
+        return 3.14 * radius * radius
