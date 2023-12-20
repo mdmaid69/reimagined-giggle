@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
