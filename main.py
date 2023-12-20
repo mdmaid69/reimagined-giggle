@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
