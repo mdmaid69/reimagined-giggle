@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
