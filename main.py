@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
