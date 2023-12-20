@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
