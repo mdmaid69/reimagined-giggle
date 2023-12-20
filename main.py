@@ -1,6 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def remove_duplicates(lst):
+        return list(set(lst))
