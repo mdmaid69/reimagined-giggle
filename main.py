@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def convert_to_binary(n):
+        return bin(n)
