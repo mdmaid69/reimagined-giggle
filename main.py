@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
