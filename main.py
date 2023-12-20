@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
 def calculate_sine(x):
         return math.sin(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
