@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
