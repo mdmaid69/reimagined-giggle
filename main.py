@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def convert_to_binary(n):
+        return bin(n)
