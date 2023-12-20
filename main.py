@@ -1,6 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def add_numbers(x, y):
+        return x + y
