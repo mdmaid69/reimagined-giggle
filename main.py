@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
