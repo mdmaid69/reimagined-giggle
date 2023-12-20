@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
