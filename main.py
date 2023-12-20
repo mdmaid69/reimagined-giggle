@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def set_array_item(array, i, item):
+        array[i] = item
