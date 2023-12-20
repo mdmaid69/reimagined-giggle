@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
