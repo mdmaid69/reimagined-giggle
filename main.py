@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def add_numbers(x, y):
-        return x + y
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
