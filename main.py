@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
