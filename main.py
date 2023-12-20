@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
