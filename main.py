@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
