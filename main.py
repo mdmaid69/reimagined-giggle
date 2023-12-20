@@ -1,4 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
