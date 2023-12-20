@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
