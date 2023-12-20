@@ -1,7 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import os
+def change_working_directory(path):
+        os.chdir(path)
