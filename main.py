@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
