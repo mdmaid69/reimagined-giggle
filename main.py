@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
