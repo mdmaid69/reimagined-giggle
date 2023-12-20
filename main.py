@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
