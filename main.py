@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
