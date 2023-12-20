@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
