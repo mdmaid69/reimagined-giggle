@@ -1,8 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
