@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
