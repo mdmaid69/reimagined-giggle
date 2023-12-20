@@ -1,7 +1,12 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
