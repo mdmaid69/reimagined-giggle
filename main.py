@@ -1,6 +1,11 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import sys
+def exit_program():
+        sys.exit()
