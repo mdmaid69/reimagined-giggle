@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
