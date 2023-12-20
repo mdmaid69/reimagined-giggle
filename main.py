@@ -1,4 +1,3 @@
-def find_min(lst):
-        return min(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+print("Hello, world!")
+def calculate_area_rectangle(l, w):
+        return l * w
