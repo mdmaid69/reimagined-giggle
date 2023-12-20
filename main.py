@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
