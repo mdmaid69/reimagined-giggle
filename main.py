@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
