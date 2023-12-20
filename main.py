@@ -1,9 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
