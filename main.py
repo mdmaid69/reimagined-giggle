@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
