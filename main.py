@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
