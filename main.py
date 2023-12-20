@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
