@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def add_numbers(x, y):
+        return x + y
