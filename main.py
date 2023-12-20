@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_buffer_info(array):
+        return array.buffer_info()
