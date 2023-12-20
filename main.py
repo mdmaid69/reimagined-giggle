@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_base_name(path):
+        return os.path.basename(path)
