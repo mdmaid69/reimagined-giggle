@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
