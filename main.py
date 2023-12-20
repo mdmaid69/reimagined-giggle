@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import re
+print(re.match("h.*o", "hello world"))
+def convert_to_hex(n):
+        return hex(n)
