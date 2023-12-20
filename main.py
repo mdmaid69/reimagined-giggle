@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
