@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
