@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def is_odd(n):
+        return n % 2 != 0
