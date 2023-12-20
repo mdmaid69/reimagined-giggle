@@ -1,7 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import logging
+def log_message(message):
+        logging.info(message)
