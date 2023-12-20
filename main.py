@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
