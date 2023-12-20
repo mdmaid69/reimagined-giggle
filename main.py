@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
