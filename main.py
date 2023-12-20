@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
