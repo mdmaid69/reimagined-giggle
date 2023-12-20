@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
