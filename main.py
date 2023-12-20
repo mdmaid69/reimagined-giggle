@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def square_number(x):
-        return x**2
+def calculate_cosine(x):
+        return math.cos(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
