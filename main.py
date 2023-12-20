@@ -1,4 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-for i in range(10): print(i)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_pressure(force, area):
+        return force / area
