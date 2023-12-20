@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import tensorflow as tf
-print(tf.__version__)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
