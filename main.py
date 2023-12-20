@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
