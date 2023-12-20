@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
