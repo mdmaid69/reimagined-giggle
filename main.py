@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def is_even(n):
+        return n % 2 == 0
