@@ -1,6 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
