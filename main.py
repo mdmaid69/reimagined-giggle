@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
