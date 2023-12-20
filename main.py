@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_min(numbers):
-        return min(numbers)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
