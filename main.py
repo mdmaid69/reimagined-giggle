@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
