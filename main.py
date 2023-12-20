@@ -1,8 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
