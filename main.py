@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def cube_number(x):
+        return x**3
