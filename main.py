@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def reverse_string(s):
-        return s[::-1]
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
