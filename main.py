@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
