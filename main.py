@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_base_name(path):
+        return os.path.basename(path)
