@@ -1,8 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def get_array_typecode(array):
+        return array.typecode
