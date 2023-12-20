@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_bytes(array):
+        return bytes(array)
