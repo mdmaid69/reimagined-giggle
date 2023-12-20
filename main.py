@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+  def count_elements(lst):
+        return len(lst)
