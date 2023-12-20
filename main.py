@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
