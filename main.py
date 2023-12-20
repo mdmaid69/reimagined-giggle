@@ -1,6 +1,8 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
