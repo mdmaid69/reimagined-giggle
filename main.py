@@ -1,6 +1,3 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+print("Hello, world!")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
