@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
