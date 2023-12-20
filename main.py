@@ -1,4 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-print(sum(range(10)))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
