@@ -1,7 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
