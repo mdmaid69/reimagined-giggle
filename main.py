@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def is_odd(n):
-        return n % 2 != 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_perpetuity(payment, rate):
+        return payment / rate
