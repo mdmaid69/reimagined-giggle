@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
