@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
