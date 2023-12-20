@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
