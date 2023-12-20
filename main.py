@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
