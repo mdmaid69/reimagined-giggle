@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
