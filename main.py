@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
