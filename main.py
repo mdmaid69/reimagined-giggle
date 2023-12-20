@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
