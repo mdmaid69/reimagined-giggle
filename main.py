@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
