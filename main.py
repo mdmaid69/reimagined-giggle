@@ -1,7 +1,12 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
