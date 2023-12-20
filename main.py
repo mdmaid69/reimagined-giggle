@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def divide_numbers(x, y):
+        return x / y
