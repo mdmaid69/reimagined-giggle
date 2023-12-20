@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
