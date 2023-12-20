@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
