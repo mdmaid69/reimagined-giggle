@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
