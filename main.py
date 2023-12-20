@@ -1,5 +1,7 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
