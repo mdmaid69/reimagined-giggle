@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def is_odd(n):
+        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
