@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
