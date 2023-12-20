@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
