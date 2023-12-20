@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
