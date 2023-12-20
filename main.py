@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-from collections import Counter
-print(Counter("hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
