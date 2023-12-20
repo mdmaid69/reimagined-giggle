@@ -1,5 +1,3 @@
-name = "Python"
-print("Hello,", name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_speed(distance, time):
+        return distance / time
+for i in range(10): print(i)
