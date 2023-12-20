@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
