@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def reverse_string(s):
-        return s[::-1]
+  def split_path(path):
+        return os.path.split(path)
