@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_current_directory():
+        return os.getcwd()
