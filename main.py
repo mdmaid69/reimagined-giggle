@@ -1,8 +1,10 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
