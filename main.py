@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
