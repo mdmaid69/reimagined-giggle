@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
