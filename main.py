@@ -1,7 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
