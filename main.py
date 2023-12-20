@@ -1,6 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
