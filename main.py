@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def count_elements(lst):
-        return len(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_queue():
+        return collections.deque()
