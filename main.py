@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_density(mass, volume):
+        return mass / volume
