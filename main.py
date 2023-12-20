@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def is_odd(n):
-        return n % 2 != 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
