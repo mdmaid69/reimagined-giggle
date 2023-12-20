@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
