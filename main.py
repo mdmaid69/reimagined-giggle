@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
