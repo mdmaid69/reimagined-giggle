@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  def sort_list(lst):
-        return sorted(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_acceleration(speed, time):
+        return speed / time
