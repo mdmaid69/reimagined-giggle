@@ -1,8 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import time
+def get_current_time():
+        return time.ctime()
