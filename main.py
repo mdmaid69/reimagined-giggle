@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
