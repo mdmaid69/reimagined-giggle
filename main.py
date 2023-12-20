@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
