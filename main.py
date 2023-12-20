@@ -1,7 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def reverse_string(s):
+        return s[::-1]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
