@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
