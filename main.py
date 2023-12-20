@@ -1,6 +1,9 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
