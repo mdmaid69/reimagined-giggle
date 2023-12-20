@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
