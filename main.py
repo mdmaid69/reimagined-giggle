@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
