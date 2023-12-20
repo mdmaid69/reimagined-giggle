@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
