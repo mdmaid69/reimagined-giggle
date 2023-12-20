@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import getpass
+def get_username():
+        return getpass.getuser()
