@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def get_array_typecode(array):
+        return array.typecode
