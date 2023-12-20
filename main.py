@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def calculate_area_rectangle(l, w):
+        return l * w
