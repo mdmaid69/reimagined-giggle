@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
