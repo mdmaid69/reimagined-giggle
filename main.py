@@ -1,6 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
