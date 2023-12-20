@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
