@@ -1,8 +1,7 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
