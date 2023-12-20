@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def clear_array(array):
+        array *= 0
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
