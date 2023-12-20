@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
