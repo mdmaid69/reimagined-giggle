@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+for i in range(10): print(i)
