@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def subtract_numbers(x, y):
+        return x - y
