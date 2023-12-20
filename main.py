@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import time
+def get_time_since_epoch():
+        return time.time()
