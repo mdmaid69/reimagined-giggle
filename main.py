@@ -1,6 +1,6 @@
+import os
+print(os.getcwd())
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
