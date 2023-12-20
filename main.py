@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import os
+print(os.getcwd())
