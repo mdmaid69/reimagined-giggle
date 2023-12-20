@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def convert_to_hex(n):
-        return hex(n)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
