@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
