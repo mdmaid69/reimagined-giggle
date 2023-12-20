@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_max(numbers):
-        return max(numbers)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
