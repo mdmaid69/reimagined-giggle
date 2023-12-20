@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
