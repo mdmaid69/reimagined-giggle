@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
