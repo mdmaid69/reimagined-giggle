@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_queue():
-        return collections.deque()
+for i in range(10): print(i)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
