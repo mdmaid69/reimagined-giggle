@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
