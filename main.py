@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pressure(force, area):
+        return force / area
+def calculate_work(force, distance):
+        return force * distance
