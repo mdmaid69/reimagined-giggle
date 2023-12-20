@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
