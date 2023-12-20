@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_sine(x):
+        return math.sin(x)
