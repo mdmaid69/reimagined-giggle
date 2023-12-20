@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
