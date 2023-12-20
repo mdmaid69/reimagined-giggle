@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
