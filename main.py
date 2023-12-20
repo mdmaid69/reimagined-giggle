@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_work(force, distance):
+        return force * distance
