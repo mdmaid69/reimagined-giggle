@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
