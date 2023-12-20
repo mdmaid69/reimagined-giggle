@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
