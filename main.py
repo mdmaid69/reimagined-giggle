@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
