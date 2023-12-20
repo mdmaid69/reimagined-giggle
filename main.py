@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-for i in range(5):
-        print(i)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import os
+def remove_directory(path):
+        os.rmdir(path)
