@@ -1,9 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import sys
+  def get_python_version():
+        return sys.version
