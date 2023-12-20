@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
