@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import datetime
+print(datetime.datetime.now())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
