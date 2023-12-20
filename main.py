@@ -1,6 +1,11 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_list(array):
+        return list(array)
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
