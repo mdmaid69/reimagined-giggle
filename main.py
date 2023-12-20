@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def add_numbers(x, y):
+        return x + y
