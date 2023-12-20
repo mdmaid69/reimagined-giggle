@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
