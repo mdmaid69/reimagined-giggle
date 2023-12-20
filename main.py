@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def find_unique_words(sentence):
+        return set(sentence.split())
