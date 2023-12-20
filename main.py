@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
