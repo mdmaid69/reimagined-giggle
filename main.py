@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def add_numbers(x, y):
+        return x + y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
