@@ -1,8 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def exit_program():
+        sys.exit()
+  def convert_to_octal(n):
+        return oct(n)
