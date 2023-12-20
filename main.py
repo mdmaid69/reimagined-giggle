@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
