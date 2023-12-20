@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
