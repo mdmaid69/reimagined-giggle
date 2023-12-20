@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
