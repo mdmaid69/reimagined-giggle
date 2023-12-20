@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
