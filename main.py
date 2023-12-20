@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
