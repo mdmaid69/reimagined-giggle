@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
