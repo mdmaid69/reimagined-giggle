@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_work(force, distance):
-        return force * distance
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_power(work, time):
+        return work / time
