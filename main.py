@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import collections
+def create_queue():
+        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
