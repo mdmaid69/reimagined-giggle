@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
