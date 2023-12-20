@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
