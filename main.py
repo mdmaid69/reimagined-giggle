@@ -1,7 +1,6 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
