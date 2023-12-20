@@ -1,8 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
