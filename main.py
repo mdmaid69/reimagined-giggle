@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
