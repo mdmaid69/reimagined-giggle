@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_density(mass, volume):
+        return mass / volume
