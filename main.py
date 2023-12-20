@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_sine(x):
+        return math.sin(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
