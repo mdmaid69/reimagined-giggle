@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
