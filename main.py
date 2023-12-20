@@ -1,5 +1,12 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
