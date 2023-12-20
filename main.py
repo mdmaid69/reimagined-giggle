@@ -1,10 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
