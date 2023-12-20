@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+for i in range(10): print(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
