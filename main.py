@@ -1,4 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def calculate_area_rectangle(l, w):
+        return l * w
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
