@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
