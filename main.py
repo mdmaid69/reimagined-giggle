@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_list(array):
+        return list(array)
