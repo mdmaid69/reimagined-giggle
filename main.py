@@ -1,5 +1,10 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-for i in range(5):
-        print(i)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
