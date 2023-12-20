@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
