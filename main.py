@@ -1,4 +1,5 @@
-print("Hello, world!")
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_power(work, time):
+        return work / time
