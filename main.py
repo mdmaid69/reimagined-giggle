@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
