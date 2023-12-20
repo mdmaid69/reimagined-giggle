@@ -1,5 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
