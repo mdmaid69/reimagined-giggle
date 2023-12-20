@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
