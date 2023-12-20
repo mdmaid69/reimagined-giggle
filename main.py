@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+for i in range(5):
+        print(i)
