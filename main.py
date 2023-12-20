@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
