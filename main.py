@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
