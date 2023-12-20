@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
