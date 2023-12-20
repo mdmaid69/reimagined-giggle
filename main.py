@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
