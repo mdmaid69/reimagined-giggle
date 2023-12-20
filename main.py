@@ -1,7 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
