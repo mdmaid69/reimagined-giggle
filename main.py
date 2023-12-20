@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
