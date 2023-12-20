@@ -1,5 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import time
-def get_time_since_epoch():
-        return time.time()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
