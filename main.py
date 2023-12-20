@@ -1,6 +1,8 @@
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import collections
-def create_user_string():
-        return collections.UserString()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
