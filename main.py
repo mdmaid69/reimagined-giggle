@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
