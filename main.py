@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
