@@ -1,8 +1,3 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+for i in range(10): print(i)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
