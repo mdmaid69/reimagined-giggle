@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_power(work, time):
+        return work / time
