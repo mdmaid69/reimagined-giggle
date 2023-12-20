@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
