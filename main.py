@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
