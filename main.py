@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def convert_to_octal(n):
-        return oct(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def is_palindrome(s):
+        return s == s[::-1]
