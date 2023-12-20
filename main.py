@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
