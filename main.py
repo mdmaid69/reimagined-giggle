@@ -1,6 +1,3 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+print([x**2 for x in range(10)])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
