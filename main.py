@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
