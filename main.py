@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def count_elements(lst):
+        return len(lst)
