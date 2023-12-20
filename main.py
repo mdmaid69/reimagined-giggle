@@ -1,8 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
