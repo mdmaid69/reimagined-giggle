@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
