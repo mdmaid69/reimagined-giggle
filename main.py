@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def divide_numbers(x, y):
-        return x / y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
