@@ -1,6 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import datetime
+def get_today_date():
+        return datetime.date.today()
