@@ -1,6 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
