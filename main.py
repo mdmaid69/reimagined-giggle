@@ -1,6 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import time
-def get_current_time():
-        return time.ctime()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
