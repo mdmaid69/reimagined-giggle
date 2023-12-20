@@ -1,6 +1,11 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
