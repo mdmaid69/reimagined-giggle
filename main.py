@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import re
+print(re.match("h.*o", "hello world"))
