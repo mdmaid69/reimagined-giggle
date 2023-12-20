@@ -1,6 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def remove_duplicates(lst):
+        return list(set(lst))
