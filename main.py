@@ -1,6 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
