@@ -1,5 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
