@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
