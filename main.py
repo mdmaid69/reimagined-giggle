@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def is_even(n):
+        return n % 2 == 0
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
