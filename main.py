@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
