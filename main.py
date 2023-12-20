@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import time
+def get_current_time():
+        return time.ctime()
