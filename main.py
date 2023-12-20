@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
