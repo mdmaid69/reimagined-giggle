@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
