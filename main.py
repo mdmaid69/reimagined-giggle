@@ -1,4 +1,8 @@
-def find_min(lst):
-        return min(lst)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
