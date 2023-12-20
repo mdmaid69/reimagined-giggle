@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
