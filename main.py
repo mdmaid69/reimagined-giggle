@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import logging
+def log_message(message):
+        logging.info(message)
