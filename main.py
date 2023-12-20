@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
