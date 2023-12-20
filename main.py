@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
