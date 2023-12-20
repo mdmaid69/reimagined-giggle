@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def is_even(n):
+        return n % 2 == 0
