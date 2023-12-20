@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
