@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-for i in range(5):
-        print(i)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
