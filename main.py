@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def count_characters(sentence):
-        return len(sentence)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
