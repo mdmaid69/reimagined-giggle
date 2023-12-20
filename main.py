@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
