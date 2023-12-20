@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
