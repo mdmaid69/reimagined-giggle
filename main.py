@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_pressure(force, area):
+        return force / area
