@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+print([x**2 for x in range(10)])
