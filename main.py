@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import tensorflow as tf
+print(tf.__version__)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
