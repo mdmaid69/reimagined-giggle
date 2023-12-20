@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
