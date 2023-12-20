@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
