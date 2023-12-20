@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_user_string():
+        return collections.UserString()
+print([x**2 for x in range(10)])
