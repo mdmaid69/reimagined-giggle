@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def add_numbers(x, y):
+        return x + y
