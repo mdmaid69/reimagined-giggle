@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
