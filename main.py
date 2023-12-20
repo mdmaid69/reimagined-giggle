@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-def print_python_version():
-        print(sys.version)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
