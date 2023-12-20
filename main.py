@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
