@@ -1,6 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
