@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
