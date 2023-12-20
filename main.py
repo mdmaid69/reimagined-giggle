@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
