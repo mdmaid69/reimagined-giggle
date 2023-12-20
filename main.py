@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
