@@ -1,7 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
