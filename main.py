@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
