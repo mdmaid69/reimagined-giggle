@@ -1,5 +1,3 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def subtract_numbers(x, y):
-        return x - y
+for i in range(10): print(i)
+def calculate_area_rectangle(l, w):
+        return l * w
