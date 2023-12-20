@@ -1,4 +1,4 @@
-name = "Python"
-print("Hello,", name)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
