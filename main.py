@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import getpass
+def get_username():
+        return getpass.getuser()
