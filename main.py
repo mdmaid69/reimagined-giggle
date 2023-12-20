@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
