@@ -1,8 +1,8 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
