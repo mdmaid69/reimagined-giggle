@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
