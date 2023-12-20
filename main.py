@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
