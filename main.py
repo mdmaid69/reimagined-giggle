@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
