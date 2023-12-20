@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
