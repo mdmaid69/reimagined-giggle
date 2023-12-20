@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
