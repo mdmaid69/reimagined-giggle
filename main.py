@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def cube_number(x):
-        return x**3
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import time
+def get_time_since_epoch():
+        return time.time()
