@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
