@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def convert_to_octal(n):
+        return oct(n)
