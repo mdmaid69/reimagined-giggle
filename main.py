@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
