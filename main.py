@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
