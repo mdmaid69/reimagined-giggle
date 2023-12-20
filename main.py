@@ -1,7 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
