@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def convert_to_octal(n):
-        return oct(n)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_str(array):
+        return str(array)
