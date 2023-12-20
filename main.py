@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
