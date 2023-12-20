@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
