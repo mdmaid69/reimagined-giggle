@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def subtract_numbers(x, y):
-        return x - y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
