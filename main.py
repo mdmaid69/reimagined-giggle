@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
