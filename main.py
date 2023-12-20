@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
