@@ -1,12 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
