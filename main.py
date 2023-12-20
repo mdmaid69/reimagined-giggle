@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
