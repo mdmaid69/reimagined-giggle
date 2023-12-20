@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def check_if_array_contains_item(array, item):
+        return item in array
+import sys
+def print_python_version():
+        return sys.version
