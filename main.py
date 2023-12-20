@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_length(array):
-        return len(array)
+import time
+print(time.time())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
