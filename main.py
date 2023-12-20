@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_unique_words(sentence):
+        return set(sentence.split())
