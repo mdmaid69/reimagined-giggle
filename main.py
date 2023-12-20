@@ -1,5 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
