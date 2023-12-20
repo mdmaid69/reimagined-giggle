@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+for i in range(5):
+        print(i)
