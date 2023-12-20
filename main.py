@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
