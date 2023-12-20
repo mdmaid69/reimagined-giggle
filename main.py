@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def split_path(path):
+        return os.path.split(path)
+import time
+def get_current_time():
+        return time.time()
