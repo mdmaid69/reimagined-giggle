@@ -1,6 +1,8 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
