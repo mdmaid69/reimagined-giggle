@@ -1,6 +1,12 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
