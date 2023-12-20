@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
