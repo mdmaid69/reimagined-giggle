@@ -1,7 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_bytes(array):
+        return bytes(array)
