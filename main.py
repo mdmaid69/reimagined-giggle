@@ -1,6 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Characters:", len(text))
