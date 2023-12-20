@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_area_rectangle(l, w):
-        return l * w
+def find_max(lst):
+        return max(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
