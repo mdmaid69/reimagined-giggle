@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import time
+def get_current_time():
+        return time.time()
