@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
