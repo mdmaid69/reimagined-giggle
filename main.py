@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_pressure(force, area):
+        return force / area
