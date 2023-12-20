@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
