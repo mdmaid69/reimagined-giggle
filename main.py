@@ -1,7 +1,9 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
