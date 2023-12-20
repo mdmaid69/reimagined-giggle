@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_pressure(force, area):
+        return force / area
