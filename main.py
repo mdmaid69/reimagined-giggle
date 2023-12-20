@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
