@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def square_number(x):
+        return x**2
