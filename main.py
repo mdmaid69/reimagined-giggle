@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_length(array):
-        return len(array)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
