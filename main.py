@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_list(array):
-        return list(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import random
+def roll_die():
+        return random.randint(1, 6)
