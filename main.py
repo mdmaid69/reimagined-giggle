@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import datetime
+def get_current_date():
+        return datetime.date.today()
