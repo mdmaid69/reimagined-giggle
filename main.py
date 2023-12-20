@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def convert_to_hex(n):
+        return hex(n)
