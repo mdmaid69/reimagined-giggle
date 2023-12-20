@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
