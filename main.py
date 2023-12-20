@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
