@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
