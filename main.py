@@ -1,6 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
