@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
