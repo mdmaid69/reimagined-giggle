@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def reverse_string(s):
+        return s[::-1]
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
