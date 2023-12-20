@@ -1,7 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+for i in range(5):
+        print(i)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
