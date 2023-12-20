@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import time
+def get_current_time():
+        return time.time()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
