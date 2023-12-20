@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
