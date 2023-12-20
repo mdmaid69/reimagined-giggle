@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+print(sys.version)
