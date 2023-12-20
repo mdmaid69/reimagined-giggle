@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import numpy as np
+print(np.array([1, 2, 3]))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
