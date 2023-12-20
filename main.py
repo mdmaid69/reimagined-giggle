@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import sys
+def exit_program():
+        sys.exit()
