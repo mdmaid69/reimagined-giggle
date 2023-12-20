@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_index(array, item):
+        return array.index(item)
