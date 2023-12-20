@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
