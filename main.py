@@ -1,6 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
