@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def multiply_numbers(x, y):
+        return x * y
