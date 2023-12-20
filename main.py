@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import numpy as np
+print(np.array([1, 2, 3]))
