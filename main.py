@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
