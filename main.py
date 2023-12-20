@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def clear_array(array):
+        array *= 0
