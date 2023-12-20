@@ -1,5 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
