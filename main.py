@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_work(force, distance):
+        return force * distance
