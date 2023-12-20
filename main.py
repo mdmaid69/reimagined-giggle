@@ -1,5 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
