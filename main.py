@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
