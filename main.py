@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+print(math.pi)
+import datetime
+def get_current_date():
+        return datetime.date.today()
