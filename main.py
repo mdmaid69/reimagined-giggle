@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
