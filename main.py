@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
+text = "Hello, world!"
+print("Characters:", len(text))
