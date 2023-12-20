@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
