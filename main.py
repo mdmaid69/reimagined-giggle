@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
