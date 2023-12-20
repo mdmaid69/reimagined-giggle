@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_area_rectangle(l, w):
+        return l * w
