@@ -1,7 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
