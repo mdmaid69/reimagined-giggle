@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+from collections import Counter
+print(Counter("hello world"))
