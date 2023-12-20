@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+def roll_die():
+        return random.randint(1, 6)
