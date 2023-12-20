@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
