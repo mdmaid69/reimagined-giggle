@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
