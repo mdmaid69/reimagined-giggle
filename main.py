@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
