@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
