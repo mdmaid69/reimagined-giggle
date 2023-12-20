@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def reverse_list(lst):
-        return lst[::-1]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def clear_array(array):
+        array *= 0
