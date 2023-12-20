@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_average(lst):
+        return sum(lst) / len(lst)
