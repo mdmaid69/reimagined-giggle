@@ -1,8 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
