@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
