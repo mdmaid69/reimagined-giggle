@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
