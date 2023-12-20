@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
