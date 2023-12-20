@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_priority_queue():
-        return collections.deque()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
