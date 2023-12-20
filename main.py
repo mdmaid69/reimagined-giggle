@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
