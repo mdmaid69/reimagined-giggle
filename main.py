@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_stack():
+        return collections.deque()
