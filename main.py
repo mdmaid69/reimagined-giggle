@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def remove_duplicates(lst):
-        return list(set(lst))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import logging
+def log_message(message):
+        logging.info(message)
