@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
