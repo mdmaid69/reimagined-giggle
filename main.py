@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
