@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
