@@ -1,3 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-print("Hello, world!")
+def find_min(lst):
+        return min(lst)
+  def reverse_list(lst):
+        return lst[::-1]
