@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def sort_list(lst):
+        return sorted(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
