@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
