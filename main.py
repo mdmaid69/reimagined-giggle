@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_area_rectangle(l, w):
+        return l * w
