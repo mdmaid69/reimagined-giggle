@@ -1,5 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+for i in range(10): print(i)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
