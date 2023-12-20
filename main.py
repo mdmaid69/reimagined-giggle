@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def is_odd(n):
+        return n % 2 != 0
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
