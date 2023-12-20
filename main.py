@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def clear_array(array):
+        array *= 0
+def reverse_string(s):
+        return s[::-1]
