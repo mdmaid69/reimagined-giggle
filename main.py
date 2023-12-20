@@ -1,6 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
