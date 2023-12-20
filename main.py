@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
