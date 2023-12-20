@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+  def convert_to_octal(n):
+        return oct(n)
