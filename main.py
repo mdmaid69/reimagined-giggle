@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
