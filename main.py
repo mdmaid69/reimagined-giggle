@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def count_characters(sentence):
+        return len(sentence)
+def sort_numbers(numbers):
+        return sorted(numbers)
