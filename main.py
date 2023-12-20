@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
