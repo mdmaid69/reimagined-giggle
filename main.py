@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
