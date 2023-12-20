@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
