@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_stack():
+        return collections.deque()
