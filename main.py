@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
