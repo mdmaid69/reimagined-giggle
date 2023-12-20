@@ -1,6 +1,12 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
