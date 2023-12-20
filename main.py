@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
