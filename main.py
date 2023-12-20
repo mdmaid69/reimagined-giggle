@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+print(random.randint(0, 100))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
