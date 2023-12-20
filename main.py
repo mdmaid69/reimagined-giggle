@@ -1,10 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
