@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
