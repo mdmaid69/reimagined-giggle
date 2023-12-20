@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
