@@ -1,6 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_to_octal(n):
+        return oct(n)
+def subtract_numbers(x, y):
+        return x - y
