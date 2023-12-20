@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def delete_file(file_name):
+        os.remove(file_name)
