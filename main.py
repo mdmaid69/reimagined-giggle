@@ -1,8 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
