@@ -1,4 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
