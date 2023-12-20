@@ -1,8 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
