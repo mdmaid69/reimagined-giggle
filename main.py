@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
