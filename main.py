@@ -1,7 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def cube_number(x):
+        return x**3
