@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
