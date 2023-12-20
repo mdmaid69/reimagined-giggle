@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import logging
+def log_message(message):
+        logging.info(message)
