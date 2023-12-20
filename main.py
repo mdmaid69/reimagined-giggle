@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+text = "Hello, world!"
+print("Characters:", len(text))
