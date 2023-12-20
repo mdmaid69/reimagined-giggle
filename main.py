@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
