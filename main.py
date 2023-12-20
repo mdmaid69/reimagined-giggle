@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_power(work, time):
+        return work / time
