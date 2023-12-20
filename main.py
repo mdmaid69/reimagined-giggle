@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
