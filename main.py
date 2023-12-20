@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def split_path(path):
+        return os.path.split(path)
