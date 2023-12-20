@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
