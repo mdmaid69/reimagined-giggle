@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def sort_numbers(numbers):
-        return sorted(numbers)
+for i in range(5):
+        print(i)
+def find_min(lst):
+        return min(lst)
