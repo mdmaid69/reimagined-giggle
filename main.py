@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
