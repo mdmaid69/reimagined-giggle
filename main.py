@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_length(array):
-        return len(array)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
