@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
