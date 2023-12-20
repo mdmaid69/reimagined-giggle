@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
