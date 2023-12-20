@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
