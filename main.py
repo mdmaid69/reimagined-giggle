@@ -1,7 +1,5 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-print(time.time())
+def append_to_array(array, item):
+        array.append(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
