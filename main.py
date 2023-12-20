@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
