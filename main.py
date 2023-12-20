@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
