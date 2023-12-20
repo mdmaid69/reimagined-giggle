@@ -1,5 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def sort_list(lst):
+        return sorted(lst)
