@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import getpass
+def get_username():
+        return getpass.getuser()
