@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
