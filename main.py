@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_area_rectangle(l, w):
+        return l * w
+def sort_list(lst):
+        return sorted(lst)
