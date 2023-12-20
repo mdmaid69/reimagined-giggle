@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+def divide_numbers(x, y):
+        return x / y
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
