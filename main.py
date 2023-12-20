@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
