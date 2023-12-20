@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
