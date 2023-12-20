@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
