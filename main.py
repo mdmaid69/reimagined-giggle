@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  def convert_to_hex(n):
+        return hex(n)
