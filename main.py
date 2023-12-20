@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_length(array):
+        return len(array)
