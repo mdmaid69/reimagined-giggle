@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def divide_numbers(x, y):
+        return x / y
+import sys
+def exit_program():
+        sys.exit()
