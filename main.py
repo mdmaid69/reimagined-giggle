@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
