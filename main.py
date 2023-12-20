@@ -1,5 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
