@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
