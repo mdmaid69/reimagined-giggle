@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
