@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
