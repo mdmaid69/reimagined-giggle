@@ -1,6 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_speed(distance, time):
+        return distance / time
+def greet(name):
+        print(f"Hello, {name}!")
