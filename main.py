@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
