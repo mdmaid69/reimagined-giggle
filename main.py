@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
