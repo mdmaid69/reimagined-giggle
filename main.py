@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
