@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
