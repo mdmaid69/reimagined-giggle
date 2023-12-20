@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
