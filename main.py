@@ -1,6 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
