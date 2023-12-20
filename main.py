@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def convert_to_binary(n):
+        return bin(n)
