@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
