@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
