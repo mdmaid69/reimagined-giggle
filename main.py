@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
