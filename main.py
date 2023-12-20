@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
