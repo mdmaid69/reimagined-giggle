@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import numpy as np
+print(np.array([1, 2, 3]))
