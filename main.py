@@ -1,7 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
