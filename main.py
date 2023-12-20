@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
