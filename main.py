@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
