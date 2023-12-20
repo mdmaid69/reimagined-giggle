@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def print_python_version():
-        return sys.version
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import numpy as np
+print(np.array([1, 2, 3]))
