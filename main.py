@@ -1,6 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
