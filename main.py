@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
