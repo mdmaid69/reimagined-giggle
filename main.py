@@ -1,8 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
