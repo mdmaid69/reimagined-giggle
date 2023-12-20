@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
