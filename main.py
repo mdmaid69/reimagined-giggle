@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
