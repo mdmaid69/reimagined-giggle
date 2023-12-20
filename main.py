@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def cube_number(x):
-        return x**3
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
