@@ -1,7 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_min(numbers):
+        return min(numbers)
