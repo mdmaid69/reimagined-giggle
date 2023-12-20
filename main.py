@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
