@@ -1,5 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
