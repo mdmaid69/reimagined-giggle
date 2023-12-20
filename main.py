@@ -1,5 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
