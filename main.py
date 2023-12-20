@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
