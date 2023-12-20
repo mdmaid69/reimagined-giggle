@@ -1,12 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def cube_number(x):
+        return x**3
