@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
