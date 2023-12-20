@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import time
+def get_time_since_epoch():
+        return time.time()
