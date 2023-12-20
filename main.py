@@ -1,8 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def square_number(x):
+        return x**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
