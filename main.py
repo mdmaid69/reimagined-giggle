@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_counter():
+        return collections.Counter()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
