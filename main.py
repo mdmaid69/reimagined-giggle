@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
