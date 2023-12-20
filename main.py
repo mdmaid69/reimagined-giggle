@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+name = "Python"
+print("Hello,", name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
