@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_as_float(array):
+        return float(array[0])
