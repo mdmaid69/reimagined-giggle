@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
