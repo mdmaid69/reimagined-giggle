@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
