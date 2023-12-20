@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def subtract_numbers(x, y):
-        return x - y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
