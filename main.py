@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_area_circle(r):
+        return 3.14 * r**2
