@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-x = 10
-y = 20
-print("Sum:", x + y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
