@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
