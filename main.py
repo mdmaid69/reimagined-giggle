@@ -1,6 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def convert_array_to_list(array):
+        return array.tolist()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
