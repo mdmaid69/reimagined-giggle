@@ -1,5 +1,3 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+print(sum(range(10)))
+def convert_to_binary(n):
+        return bin(n)
