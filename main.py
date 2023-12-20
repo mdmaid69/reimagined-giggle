@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import time
-def get_current_time():
-        return time.ctime()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
