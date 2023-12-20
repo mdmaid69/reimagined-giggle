@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
