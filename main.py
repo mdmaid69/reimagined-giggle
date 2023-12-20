@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import sys
+def exit_program():
+        sys.exit()
