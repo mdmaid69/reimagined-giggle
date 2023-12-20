@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
