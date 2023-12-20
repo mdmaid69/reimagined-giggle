@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
