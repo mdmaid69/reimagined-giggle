@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import getpass
+def get_username():
+        return getpass.getuser()
