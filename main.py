@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print([x**2 for x in range(10)])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
