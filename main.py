@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
