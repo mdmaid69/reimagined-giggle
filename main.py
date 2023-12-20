@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
