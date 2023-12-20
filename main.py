@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
