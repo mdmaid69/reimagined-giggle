@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def delete_file(file_name):
+        os.remove(file_name)
