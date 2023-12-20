@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def convert_array_to_string(array):
+        return array.tostring()
