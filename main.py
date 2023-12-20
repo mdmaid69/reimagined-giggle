@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
