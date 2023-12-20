@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_absolute_value(x):
+        return math.fabs(x)
