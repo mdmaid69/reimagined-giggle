@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
