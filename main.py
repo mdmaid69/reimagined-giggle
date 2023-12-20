@@ -1,7 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_density(mass, volume):
+        return mass / volume
+import numpy as np
+print(np.array([1, 2, 3]))
