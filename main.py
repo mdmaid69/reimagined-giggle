@@ -1,6 +1,3 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+print("Hello, world!")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
