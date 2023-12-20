@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_speed(distance, time):
-        return distance / time
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_length(array):
+        return len(array)
