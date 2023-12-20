@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
