@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import datetime
-print(datetime.datetime.now())
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
