@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def divide_numbers(x, y):
+        return x / y
