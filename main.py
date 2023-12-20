@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
