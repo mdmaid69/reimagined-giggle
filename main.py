@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def add_numbers(a, b):
-        return a + b
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
