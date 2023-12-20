@@ -1,6 +1,8 @@
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
