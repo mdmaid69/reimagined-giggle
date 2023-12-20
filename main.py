@@ -1,4 +1,5 @@
-print("Hello, world!")
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
