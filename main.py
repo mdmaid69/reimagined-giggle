@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
