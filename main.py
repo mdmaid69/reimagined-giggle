@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
