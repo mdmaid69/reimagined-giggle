@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
