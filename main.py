@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
