@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_area_circle(r):
+        return 3.14 * r**2
