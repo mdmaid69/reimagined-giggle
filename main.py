@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
