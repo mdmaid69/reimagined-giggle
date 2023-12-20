@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
