@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
