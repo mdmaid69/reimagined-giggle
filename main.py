@@ -1,5 +1,8 @@
-def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
