@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
