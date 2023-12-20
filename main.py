@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
