@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
