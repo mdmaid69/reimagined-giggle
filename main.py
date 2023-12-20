@@ -1,8 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
