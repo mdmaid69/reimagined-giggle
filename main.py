@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def reverse_string(s):
-        return s[::-1]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
