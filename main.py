@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_work(force, distance):
+        return force * distance
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
