@@ -1,5 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_pressure(force, area):
-        return force / area
+import tensorflow as tf
+print(tf.__version__)
+def calculate_area_rectangle(l, w):
+        return l * w
