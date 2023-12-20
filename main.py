@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
