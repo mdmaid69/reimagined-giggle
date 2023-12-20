@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
