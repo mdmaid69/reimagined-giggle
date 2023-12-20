@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
