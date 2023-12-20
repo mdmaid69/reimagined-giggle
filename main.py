@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_typecode(array):
+        return array.typecode
