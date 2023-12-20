@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
