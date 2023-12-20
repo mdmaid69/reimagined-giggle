@@ -1,7 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
