@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+def exit_program():
+        sys.exit()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
