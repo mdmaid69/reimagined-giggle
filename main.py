@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
