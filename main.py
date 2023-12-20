@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
