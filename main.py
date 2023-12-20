@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
