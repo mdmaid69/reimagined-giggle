@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
