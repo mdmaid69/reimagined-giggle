@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
