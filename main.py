@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def add_numbers(x, y):
-        return x + y
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
