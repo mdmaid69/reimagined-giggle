@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
