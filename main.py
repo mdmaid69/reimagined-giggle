@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def reverse_list(lst):
-        return lst[::-1]
+def reverse_string(s):
+        return s[::-1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
