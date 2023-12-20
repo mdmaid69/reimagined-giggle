@@ -1,5 +1,9 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
