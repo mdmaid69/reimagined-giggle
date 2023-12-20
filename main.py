@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def reverse_string(s):
+        return s[::-1]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
