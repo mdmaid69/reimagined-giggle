@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
