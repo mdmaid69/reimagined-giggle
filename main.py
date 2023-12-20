@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def add_numbers(x, y):
+        return x + y
