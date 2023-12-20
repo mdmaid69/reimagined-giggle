@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_pressure(force, area):
+        return force / area
