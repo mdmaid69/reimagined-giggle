@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
