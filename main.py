@@ -1,5 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import random
-print(random.randint(0, 100))
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def append_to_array(array, item):
+        array.append(item)
