@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def square_number(x):
-        return x**2
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
