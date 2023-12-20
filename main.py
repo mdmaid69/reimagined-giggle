@@ -1,6 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
