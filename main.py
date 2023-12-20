@@ -1,6 +1,5 @@
+import sys
+print(sys.version)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
