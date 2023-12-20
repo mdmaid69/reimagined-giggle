@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
