@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_typecode(array):
-        return array.typecode
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
