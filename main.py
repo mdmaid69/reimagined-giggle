@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
