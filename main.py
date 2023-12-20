@@ -1,7 +1,4 @@
-import math
-print(math.pi)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+print([x**2 for x in range(10)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
