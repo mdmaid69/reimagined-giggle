@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
