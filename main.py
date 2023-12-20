@@ -1,6 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
