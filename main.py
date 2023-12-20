@@ -1,6 +1,9 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def is_even(n):
+        return n % 2 == 0
 import time
-def get_current_time():
-        return time.ctime()
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
