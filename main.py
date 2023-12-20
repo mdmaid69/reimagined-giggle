@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+x = 10
+y = 20
+print("Sum:", x + y)
