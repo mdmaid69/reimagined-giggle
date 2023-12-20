@@ -1,8 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
