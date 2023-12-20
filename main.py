@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
