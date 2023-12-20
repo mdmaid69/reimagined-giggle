@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+from collections import Counter
+print(Counter("hello world"))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
