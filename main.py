@@ -1,5 +1,12 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
