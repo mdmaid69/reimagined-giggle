@@ -1,5 +1,13 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
