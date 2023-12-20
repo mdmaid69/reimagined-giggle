@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_user_string():
+        return collections.UserString()
