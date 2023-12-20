@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import sys
+def exit_program():
+        sys.exit()
