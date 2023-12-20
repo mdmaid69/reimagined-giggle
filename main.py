@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_user_string():
+        return collections.UserString()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
