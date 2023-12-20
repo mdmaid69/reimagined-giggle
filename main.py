@@ -1,6 +1,8 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
