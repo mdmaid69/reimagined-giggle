@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
