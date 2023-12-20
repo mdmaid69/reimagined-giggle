@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
