@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
