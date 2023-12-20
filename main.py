@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
