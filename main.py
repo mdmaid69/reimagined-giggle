@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
