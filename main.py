@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+for i in range(10): print(i)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
