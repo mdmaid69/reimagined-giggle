@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def append_to_array(array, item):
+        array.append(item)
