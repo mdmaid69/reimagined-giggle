@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
