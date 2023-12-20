@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def convert_to_octal(n):
-        return oct(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
