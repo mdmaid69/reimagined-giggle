@@ -1,5 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def convert_to_binary(n):
-        return bin(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
