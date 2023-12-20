@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
