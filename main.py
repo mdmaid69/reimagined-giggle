@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
