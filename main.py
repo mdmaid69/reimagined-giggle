@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
