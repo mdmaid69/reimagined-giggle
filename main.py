@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_frozenset(array):
+        return frozenset(array)
