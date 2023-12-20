@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def print_python_version():
+        print(sys.version)
