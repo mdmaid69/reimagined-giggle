@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
