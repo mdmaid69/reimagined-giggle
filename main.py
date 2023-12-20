@@ -1,8 +1,6 @@
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def get_array_length(array):
+        return len(array)
