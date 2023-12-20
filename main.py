@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
