@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
+  def reverse_list(lst):
+        return lst[::-1]
