@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+print(re.match("h.*o", "hello world"))
