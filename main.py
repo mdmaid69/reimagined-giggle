@@ -1,6 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import random
-print(random.randint(0, 100))
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
