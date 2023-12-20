@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
