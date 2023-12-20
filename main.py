@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
