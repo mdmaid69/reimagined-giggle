@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import re
-print(re.match("h.*o", "hello world"))
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
