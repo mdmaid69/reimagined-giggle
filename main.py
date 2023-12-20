@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
