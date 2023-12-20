@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
