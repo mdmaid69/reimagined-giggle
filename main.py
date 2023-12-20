@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+from collections import Counter
+print(Counter("hello world"))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
