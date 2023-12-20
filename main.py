@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
