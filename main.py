@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
