@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_area_circle(r):
+        return 3.14 * r**2
