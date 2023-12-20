@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
