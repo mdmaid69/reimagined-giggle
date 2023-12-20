@@ -1,6 +1,6 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
