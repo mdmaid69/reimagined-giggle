@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def pop_from_array(array, i=-1):
+        return array.pop(i)
