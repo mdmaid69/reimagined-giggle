@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def cube_number(x):
+        return x**3
