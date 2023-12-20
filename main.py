@@ -1,5 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
