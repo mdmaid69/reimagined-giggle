@@ -1,6 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
