@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import random
+def roll_die():
+        return random.randint(1, 6)
