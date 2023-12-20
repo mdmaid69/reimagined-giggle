@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def is_odd(n):
+        return n % 2 != 0
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
