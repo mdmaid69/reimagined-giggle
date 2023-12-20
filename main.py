@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
