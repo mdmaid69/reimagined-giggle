@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_index(array, item):
+        return array.index(item)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
