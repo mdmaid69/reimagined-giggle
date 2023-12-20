@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sys
+  def get_python_version():
+        return sys.version
