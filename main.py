@@ -1,8 +1,6 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
