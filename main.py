@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
