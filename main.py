@@ -1,5 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
