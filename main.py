@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
