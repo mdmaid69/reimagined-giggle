@@ -1,6 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
