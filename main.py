@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
