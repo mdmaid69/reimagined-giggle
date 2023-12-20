@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def reverse_string(s):
-        return s[::-1]
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
