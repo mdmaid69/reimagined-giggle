@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_typecode(array):
+        return array.typecode
