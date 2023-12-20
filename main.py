@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
