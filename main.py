@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def count_characters(sentence):
-        return len(sentence)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
