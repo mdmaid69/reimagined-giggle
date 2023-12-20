@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import os
+def get_current_working_directory():
+        return os.getcwd()
