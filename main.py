@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
