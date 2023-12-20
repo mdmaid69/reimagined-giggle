@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
