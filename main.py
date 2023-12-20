@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
