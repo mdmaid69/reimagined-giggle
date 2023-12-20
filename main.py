@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
