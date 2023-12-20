@@ -1,5 +1,9 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
