@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
