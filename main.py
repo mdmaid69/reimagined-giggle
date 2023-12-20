@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
