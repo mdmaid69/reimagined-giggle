@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
