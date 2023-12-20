@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
