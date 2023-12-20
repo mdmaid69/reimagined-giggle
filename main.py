@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
