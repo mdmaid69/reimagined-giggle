@@ -1,5 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import datetime
-def get_today_date():
+def get_current_date():
         return datetime.date.today()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
