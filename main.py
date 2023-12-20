@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_average(lst):
+        return sum(lst) / len(lst)
