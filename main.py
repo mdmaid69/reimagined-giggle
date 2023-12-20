@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
