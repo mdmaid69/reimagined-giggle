@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_work(force, distance):
-        return force * distance
+def calculate_power(work, time):
+        return work / time
+def find_min(lst):
+        return min(lst)
