@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_directory_name(path):
+        return os.path.dirname(path)
