@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
