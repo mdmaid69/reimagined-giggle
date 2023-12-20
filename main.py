@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def get_array_as_tuple(array):
+        return tuple(array)
