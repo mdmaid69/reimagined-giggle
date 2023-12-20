@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_list_from_array(array):
+        return array.tolist()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
