@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def is_odd(n):
+        return n % 2 != 0
