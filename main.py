@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
