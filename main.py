@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
