@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
