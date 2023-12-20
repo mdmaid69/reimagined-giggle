@@ -1,6 +1,9 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
