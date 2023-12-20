@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
