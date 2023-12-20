@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
