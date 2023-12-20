@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
