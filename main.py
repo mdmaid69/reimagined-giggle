@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
