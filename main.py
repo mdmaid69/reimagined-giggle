@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
