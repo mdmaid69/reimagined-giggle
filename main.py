@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
