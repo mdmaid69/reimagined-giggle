@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
