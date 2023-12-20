@@ -1,6 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
