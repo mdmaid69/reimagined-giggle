@@ -1,5 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
