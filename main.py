@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
