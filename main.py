@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def change_working_directory(path):
+        os.chdir(path)
