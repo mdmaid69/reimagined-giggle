@@ -1,5 +1,11 @@
-def is_odd(n):
-        return n % 2 != 0
-import platform
-def get_python_version():
-        return platform.python_version()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_user_dict():
+        return collections.UserDict()
