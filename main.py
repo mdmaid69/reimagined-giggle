@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_work(force, distance):
+        return force * distance
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
