@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
