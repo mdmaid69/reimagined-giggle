@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
