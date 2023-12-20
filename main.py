@@ -1,7 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
