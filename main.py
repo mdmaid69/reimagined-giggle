@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
