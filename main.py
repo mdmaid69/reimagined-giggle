@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
