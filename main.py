@@ -1,5 +1,7 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def convert_to_hex(n):
-        return hex(n)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
