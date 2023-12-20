@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
