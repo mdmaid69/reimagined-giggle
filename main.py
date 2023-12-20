@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
