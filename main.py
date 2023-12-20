@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-def roll_die():
-        return random.randint(1, 6)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
