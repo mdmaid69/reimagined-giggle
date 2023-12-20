@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
