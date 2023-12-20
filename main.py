@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
