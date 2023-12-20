@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def convert_to_hex(n):
-        return hex(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_current_directory():
+        return os.getcwd()
