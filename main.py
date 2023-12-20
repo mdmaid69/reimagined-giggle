@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
