@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_str(array):
+        return str(array)
