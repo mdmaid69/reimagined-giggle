@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
