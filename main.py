@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
