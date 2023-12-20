@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
