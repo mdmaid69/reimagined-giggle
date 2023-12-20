@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def find_min(lst):
+        return min(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
