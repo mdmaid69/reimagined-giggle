@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
