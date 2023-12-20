@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
