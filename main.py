@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def count_elements(lst):
+        return len(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
