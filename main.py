@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def is_even(n):
-        return n % 2 == 0
+from collections import Counter
+print(Counter("hello world"))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
