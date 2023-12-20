@@ -1,6 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
