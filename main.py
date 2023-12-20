@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
