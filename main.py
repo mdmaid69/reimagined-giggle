@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
