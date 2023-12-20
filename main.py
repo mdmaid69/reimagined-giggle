@@ -1,5 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
