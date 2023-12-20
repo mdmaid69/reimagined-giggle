@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
