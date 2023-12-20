@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
