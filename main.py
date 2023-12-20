@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
