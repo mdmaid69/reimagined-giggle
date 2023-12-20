@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
