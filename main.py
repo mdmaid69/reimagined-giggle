@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
