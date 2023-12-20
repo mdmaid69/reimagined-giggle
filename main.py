@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_density(mass, volume):
-        return mass / volume
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
