@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_str(array):
+        return str(array)
