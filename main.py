@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import platform
+def get_python_version():
+        return platform.python_version()
