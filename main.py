@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def is_odd(n):
+        return n % 2 != 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
