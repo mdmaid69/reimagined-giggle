@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
