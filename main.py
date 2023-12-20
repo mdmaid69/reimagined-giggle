@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
