@@ -1,9 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
