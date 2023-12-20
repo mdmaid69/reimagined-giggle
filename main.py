@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+def clear_array(array):
+        array *= 0
