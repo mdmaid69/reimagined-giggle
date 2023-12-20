@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import time
-print(time.time())
+import tensorflow as tf
+print(tf.__version__)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
