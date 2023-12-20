@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_pressure(force, area):
-        return force / area
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
