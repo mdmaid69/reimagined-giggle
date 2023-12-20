@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
