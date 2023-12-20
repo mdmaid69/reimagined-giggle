@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-def get_time_since_epoch():
-        return time.time()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
