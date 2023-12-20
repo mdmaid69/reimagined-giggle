@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
