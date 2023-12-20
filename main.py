@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def cube_number(x):
+        return x**3
