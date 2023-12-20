@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def add_numbers(x, y):
-        return x + y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
