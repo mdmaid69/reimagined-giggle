@@ -1,4 +1,5 @@
-print("Hello, world!")
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def add_numbers(x, y):
+        return x + y
