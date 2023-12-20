@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
