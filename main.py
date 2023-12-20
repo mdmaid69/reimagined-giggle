@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_str(array):
+        return str(array)
