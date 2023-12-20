@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
