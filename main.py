@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
