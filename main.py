@@ -1,8 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
