@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
