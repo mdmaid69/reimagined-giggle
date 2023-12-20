@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
