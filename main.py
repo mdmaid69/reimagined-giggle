@@ -1,4 +1,4 @@
 import math
-print(math.pi)
-  def count_elements(lst):
-        return len(lst)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+print(sum(range(10)))
