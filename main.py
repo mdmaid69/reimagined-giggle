@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
