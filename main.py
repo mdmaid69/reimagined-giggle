@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
