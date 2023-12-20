@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def count_elements(lst):
+        return len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
