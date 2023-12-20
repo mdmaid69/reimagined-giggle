@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
