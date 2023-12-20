@@ -1,5 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
