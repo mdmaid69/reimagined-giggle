@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
