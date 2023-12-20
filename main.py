@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
