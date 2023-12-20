@@ -1,7 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
