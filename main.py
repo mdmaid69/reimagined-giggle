@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import time
+print(time.time())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
