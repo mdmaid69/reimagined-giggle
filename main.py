@@ -1,5 +1,4 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+print([x**2 for x in range(10)])
