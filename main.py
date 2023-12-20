@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+for i in range(10): print(i)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
