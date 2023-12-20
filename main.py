@@ -1,6 +1,8 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
