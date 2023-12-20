@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
