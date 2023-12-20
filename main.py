@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
