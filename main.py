@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
