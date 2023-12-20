@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import platform
+def get_os_info():
+        return platform.uname()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
