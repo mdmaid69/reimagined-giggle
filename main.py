@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def reverse_string(s):
+        return s[::-1]
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
