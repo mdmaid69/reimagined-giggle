@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_density(mass, volume):
+        return mass / volume
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
