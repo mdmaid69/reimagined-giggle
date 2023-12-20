@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
