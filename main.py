@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
