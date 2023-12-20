@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def cube_number(x):
-        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
