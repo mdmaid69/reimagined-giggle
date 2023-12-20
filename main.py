@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
