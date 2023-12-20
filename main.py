@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
