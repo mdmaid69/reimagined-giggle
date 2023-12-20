@@ -1,3 +1,8 @@
-for i in range(10): print(i)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
