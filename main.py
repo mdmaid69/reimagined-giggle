@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+x = 10
+y = 20
+print("Sum:", x + y)
