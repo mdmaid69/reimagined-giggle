@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import collections
-def create_stack():
-        return collections.deque()
+def find_max(lst):
+        return max(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
