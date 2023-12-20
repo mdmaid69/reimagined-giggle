@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_as_list(array):
-        return list(array)
+import time
+def get_time_since_epoch():
+        return time.time()
+def convert_to_hex(n):
+        return hex(n)
