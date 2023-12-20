@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
