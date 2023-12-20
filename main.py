@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_volume(length, width, height):
+        return length * width * height
