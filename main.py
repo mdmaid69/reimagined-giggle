@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
