@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
