@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def cube_number(x):
-        return x**3
+import collections
+def create_priority_queue():
+        return collections.deque()
+import sys
+def print_python_version():
+        print(sys.version)
