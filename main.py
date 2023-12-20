@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
