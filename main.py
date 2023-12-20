@@ -1,5 +1,13 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
