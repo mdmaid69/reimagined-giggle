@@ -1,7 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_work(force, distance):
+        return force * distance
