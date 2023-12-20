@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
