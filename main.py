@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
