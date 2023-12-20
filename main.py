@@ -1,7 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def get_array_as_memoryview(array):
+        return memoryview(array)
