@@ -1,3 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-print([x**2 for x in range(10)])
+def cube_number(x):
+        return x**3
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
