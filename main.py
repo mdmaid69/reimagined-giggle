@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
 import time
-def get_time_since_epoch():
+def get_current_time():
         return time.time()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
