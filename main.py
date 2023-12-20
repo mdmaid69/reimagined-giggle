@@ -1,11 +1,8 @@
-import threading
+def greet(name):
+        print(f"Hello, {name}!")
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import sys
-def exit_program():
-        sys.exit()
+@app.route("/")
+def hello():
+        return "Hello, World!"
