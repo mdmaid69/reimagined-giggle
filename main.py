@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import platform
+def get_os_info():
+        return platform.uname()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
