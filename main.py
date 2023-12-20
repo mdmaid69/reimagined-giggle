@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
