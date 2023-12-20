@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def convert_to_octal(n):
+        return oct(n)
