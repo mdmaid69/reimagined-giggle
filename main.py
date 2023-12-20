@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def sort_numbers(numbers):
+        return sorted(numbers)
