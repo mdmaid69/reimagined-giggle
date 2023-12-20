@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
