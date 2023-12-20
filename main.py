@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
