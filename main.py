@@ -1,5 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
