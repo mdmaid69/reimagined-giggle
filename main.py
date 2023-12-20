@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
