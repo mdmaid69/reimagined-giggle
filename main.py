@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import time
+def get_current_time():
+        return time.time()
