@@ -1,3 +1,5 @@
+import random
+print(random.randint(0, 100))
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
@@ -6,5 +8,3 @@ def calculate_irr(cash_flows):
                 return rate
         rate += 0.01
         return None
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
