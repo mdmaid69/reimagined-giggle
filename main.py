@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def multiply_numbers(x, y):
+        return x * y
