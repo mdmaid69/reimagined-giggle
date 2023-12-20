@@ -1,8 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
