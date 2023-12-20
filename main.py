@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import datetime
+def get_today_date():
+        return datetime.date.today()
