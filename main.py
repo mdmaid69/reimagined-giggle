@@ -1,8 +1,8 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
