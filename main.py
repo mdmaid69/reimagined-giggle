@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import collections
-def create_stack():
-        return collections.deque()
+def find_min(numbers):
+        return min(numbers)
+def is_odd(n):
+        return n % 2 != 0
