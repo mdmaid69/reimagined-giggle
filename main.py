@@ -1,5 +1,11 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_counter():
-        return collections.Counter()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
