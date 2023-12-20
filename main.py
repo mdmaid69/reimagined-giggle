@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def count_elements(lst):
-        return len(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_error_function(x):
+        return math.erf(x)
