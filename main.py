@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def reverse_list(lst):
-        return lst[::-1]
+import time
+def get_current_time():
+        return time.time()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
