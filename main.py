@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
