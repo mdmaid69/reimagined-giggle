@@ -1,5 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_power(work, time):
-        return work / time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
