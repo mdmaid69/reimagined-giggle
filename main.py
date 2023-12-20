@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def split_path(path):
+        return os.path.split(path)
