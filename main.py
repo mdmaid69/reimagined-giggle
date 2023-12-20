@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import datetime
+def get_today_date():
+        return datetime.date.today()
