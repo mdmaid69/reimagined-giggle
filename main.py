@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def convert_to_octal(n):
-        return oct(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_list_from_array(array):
+        return array.tolist()
