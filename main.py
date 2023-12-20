@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_user_string():
+        return collections.UserString()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
