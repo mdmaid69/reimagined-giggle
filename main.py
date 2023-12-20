@@ -1,7 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
