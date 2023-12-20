@@ -1,5 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def count_elements(lst):
+        return len(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
