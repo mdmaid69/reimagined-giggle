@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sine(x):
+        return math.sin(x)
