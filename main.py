@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
