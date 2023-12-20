@@ -1,3 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-print("Hello, world!")
+  def square_number(x):
+        return x**2
+def reverse_string(s):
+        return s[::-1]
