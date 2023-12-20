@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
