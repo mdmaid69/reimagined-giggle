@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-name = "Python"
-print("Hello,", name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
