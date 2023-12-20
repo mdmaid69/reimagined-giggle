@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
