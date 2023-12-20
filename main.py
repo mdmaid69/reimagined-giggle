@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
