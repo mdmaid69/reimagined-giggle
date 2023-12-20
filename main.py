@@ -1,6 +1,5 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+def get_array_as_list(array):
+        return list(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
