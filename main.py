@@ -1,5 +1,3 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_density(mass, volume):
+        return mass / volume
+print(sum(range(10)))
