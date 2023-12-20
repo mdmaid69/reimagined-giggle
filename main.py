@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
