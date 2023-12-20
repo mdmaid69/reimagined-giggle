@@ -1,8 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
