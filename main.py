@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
