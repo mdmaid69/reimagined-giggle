@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_typecode(array):
+        return array.typecode
