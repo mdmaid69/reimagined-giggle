@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
