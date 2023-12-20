@@ -1,8 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
