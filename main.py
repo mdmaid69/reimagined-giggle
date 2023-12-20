@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_even(n):
-        return n % 2 == 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
