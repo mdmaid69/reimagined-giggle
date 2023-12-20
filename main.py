@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
