@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
