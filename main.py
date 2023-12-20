@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
