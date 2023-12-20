@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
