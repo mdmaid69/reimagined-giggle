@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def convert_to_octal(n):
-        return oct(n)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
