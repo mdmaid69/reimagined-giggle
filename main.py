@@ -1,7 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
