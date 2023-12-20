@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
