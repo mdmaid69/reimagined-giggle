@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
