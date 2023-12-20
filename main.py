@@ -1,5 +1,7 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
