@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def convert_to_hex(n):
-        return hex(n)
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_user_string():
+        return collections.UserString()
