@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
