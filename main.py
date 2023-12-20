@@ -1,6 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
