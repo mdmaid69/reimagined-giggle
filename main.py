@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
