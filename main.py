@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_sine(x):
+        return math.sin(x)
