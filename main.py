@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
