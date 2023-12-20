@@ -1,5 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
