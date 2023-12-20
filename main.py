@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
