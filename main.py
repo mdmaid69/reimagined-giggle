@@ -1,5 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
