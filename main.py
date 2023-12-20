@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def reverse_list(lst):
-        return lst[::-1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
