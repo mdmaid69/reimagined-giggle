@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
