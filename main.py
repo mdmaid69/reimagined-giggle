@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
