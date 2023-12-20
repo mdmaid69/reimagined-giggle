@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_as_str(array):
+        return str(array)
