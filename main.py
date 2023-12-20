@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def remove_duplicates(lst):
+        return list(set(lst))
