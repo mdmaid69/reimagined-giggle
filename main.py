@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def get_array_as_float(array):
+        return float(array[0])
