@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_power(work, time):
+        return work / time
