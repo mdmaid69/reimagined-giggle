@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def multiply_numbers(x, y):
-        return x * y
+def find_max(numbers):
+        return max(numbers)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
