@@ -1,6 +1,5 @@
-import os
-print(os.getcwd())
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
