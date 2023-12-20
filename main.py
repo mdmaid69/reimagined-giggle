@@ -1,13 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def subtract_numbers(x, y):
+        return x - y
