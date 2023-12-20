@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def is_odd(n):
+        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
