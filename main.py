@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-for i in range(5):
-        print(i)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
