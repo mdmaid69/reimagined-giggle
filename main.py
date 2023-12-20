@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
