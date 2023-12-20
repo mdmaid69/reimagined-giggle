@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
