@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
