@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-text = "Hello, world!"
-print("Characters:", len(text))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
