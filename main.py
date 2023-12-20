@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
