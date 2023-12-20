@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
