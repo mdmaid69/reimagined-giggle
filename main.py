@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
