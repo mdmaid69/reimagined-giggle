@@ -1,9 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
