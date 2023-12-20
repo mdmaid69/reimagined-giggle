@@ -1,8 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def reverse_string(s):
+        return s[::-1]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
