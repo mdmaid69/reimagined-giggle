@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
