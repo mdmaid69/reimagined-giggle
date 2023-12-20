@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
