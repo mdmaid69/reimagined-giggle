@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import tensorflow as tf
+print(tf.__version__)
