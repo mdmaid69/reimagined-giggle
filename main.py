@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
