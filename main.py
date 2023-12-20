@@ -1,8 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
