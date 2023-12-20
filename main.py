@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
