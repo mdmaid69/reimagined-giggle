@@ -1,4 +1,11 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def convert_to_binary(n):
+        return bin(n)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
