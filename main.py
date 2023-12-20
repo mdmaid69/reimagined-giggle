@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def sort_list(lst):
-        return sorted(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
