@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
