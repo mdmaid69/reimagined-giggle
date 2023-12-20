@@ -1,5 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
