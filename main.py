@@ -1,5 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_as_str(array):
-        return str(array)
-def square_number(x):
-        return x**2
+def get_array_index(array, item):
+        return array.index(item)
