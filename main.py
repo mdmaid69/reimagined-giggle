@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
