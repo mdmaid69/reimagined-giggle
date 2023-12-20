@@ -1,5 +1,10 @@
-import datetime
-print(datetime.datetime.now())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print([x**2 for x in range(10)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
