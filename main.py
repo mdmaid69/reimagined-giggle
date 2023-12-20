@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import collections
+def create_stack():
+        return collections.deque()
