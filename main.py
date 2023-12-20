@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_pressure(force, area):
-        return force / area
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
