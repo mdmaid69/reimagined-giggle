@@ -1,5 +1,10 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
