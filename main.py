@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
