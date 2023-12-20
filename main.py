@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import logging
+def log_message(message):
+        logging.info(message)
