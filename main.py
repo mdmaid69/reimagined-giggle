@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
