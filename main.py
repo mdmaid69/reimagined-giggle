@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
