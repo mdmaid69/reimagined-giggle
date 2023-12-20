@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import time
+def get_time_since_epoch():
+        return time.time()
