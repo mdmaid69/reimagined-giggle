@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def add_numbers(a, b):
+        return a + b
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
