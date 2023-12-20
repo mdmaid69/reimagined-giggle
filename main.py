@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
