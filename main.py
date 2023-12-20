@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
