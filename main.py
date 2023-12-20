@@ -1,6 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
