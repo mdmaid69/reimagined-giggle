@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
