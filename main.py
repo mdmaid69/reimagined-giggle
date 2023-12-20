@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
