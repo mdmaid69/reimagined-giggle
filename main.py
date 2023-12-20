@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
