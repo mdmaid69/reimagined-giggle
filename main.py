@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_volume(length, width, height):
+        return length * width * height
