@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
