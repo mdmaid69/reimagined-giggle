@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
