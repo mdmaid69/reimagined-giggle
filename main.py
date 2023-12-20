@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def find_min(lst):
-        return min(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
