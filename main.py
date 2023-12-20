@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
