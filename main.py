@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
