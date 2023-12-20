@@ -1,8 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
