@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
