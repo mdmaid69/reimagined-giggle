@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
