@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+print(random.randint(0, 100))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
