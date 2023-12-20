@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
