@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
