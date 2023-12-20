@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
