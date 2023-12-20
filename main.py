@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
