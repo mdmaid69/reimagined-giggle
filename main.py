@@ -1,4 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-for i in range(10): print(i)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
