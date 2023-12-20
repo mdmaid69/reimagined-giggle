@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
