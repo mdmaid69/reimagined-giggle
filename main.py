@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def add_numbers(x, y):
-        return x + y
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
