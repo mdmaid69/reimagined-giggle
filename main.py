@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
