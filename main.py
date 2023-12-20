@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def add_numbers(x, y):
+        return x + y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
