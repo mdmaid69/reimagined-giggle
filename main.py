@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
