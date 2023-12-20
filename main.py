@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
