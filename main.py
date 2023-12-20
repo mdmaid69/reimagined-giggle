@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
