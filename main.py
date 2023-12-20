@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
