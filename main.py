@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
