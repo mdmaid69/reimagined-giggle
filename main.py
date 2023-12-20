@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def find_max(lst):
+        return max(lst)
+import sys
+def exit_program():
+        sys.exit()
