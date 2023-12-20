@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import os
-print(os.getcwd())
+import time
+def get_current_time():
+        return time.ctime()
+import time
+def get_current_time():
+        return time.time()
