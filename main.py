@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
