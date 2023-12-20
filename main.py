@@ -1,8 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
