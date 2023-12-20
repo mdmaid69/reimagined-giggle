@@ -1,9 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
