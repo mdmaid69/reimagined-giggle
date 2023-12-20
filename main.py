@@ -1,4 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-print("Hello, world!")
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
