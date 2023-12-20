@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
