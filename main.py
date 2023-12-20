@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def divide_numbers(x, y):
-        return x / y
+  def square_number(x):
+        return x**2
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
