@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-for i in range(5):
-        print(i)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def is_odd(n):
+        return n % 2 != 0
