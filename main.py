@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_acceleration(speed, time):
+        return speed / time
