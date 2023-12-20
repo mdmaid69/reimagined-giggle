@@ -1,9 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
