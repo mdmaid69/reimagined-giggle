@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
