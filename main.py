@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
