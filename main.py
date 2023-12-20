@@ -1,6 +1,7 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
