@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
