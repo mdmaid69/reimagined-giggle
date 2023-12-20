@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import logging
+def log_message(message):
+        logging.info(message)
