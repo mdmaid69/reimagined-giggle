@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_pressure(force, area):
+        return force / area
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
