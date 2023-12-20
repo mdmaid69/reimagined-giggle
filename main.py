@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
