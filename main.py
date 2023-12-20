@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_max(numbers):
+        return max(numbers)
