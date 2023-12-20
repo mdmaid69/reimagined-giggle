@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_work(force, distance):
+        return force * distance
