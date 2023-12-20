@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
