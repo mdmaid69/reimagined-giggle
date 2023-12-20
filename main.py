@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_average(lst):
+        return sum(lst) / len(lst)
