@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
