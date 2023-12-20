@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def reverse_array(array):
-        array.reverse()
+  def square_number(x):
+        return x**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
