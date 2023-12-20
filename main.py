@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
