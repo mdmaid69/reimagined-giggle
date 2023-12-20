@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
