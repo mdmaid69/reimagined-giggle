@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
