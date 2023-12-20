@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
