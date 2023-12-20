@@ -1,3 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-print("Hello, world!")
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def add_numbers(x, y):
+        return x + y
