@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
