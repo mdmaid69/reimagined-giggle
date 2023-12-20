@@ -1,4 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-  def square_number(x):
-        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def split_path(path):
+        return os.path.split(path)
