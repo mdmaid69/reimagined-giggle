@@ -1,5 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def convert_to_hex(n):
-        return hex(n)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
