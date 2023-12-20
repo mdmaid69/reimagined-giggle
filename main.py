@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
