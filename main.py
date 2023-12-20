@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
