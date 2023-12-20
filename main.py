@@ -1,4 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-def convert_to_binary(n):
-        return bin(n)
+def find_max(lst):
+        return max(lst)
+  def square_number(x):
+        return x**2
