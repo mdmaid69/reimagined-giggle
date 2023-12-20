@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
