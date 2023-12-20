@@ -1,10 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import random
+def roll_die():
+        return random.randint(1, 6)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
