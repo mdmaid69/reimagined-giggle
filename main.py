@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import sys
+print(sys.version)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
