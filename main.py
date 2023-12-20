@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def cube_number(x):
+        return x**3
