@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_min(numbers):
+        return min(numbers)
