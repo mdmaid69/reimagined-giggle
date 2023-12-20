@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def find_min(numbers):
+        return min(numbers)
