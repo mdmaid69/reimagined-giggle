@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def convert_array_to_unicode(array):
+        return array.tounicode()
