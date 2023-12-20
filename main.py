@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
