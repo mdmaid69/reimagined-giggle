@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
