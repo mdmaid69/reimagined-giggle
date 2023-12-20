@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
