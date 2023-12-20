@@ -1,5 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
