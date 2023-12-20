@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
