@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
