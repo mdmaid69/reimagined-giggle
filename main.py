@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
