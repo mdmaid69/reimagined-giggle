@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
