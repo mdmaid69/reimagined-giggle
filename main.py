@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
