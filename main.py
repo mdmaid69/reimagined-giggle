@@ -1,6 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
