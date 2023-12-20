@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
