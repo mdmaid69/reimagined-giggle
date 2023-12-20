@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
