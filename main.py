@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
