@@ -1,7 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
