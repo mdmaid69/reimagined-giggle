@@ -1,5 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
