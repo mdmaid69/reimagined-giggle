@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
