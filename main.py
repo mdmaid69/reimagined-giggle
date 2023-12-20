@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def split_path(path):
+        return os.path.split(path)
