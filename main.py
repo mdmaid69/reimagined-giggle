@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_typecode(array):
+        return array.typecode
