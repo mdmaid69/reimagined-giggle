@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
