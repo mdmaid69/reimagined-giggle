@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_volume(length, width, height):
+        return length * width * height
