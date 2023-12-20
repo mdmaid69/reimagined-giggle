@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+name = "Python"
+print("Hello,", name)
+import array
+def clear_array(array):
+        array *= 0
