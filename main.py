@@ -1,5 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def sort_list(lst):
-        return sorted(lst)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
