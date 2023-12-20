@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
