@@ -1,5 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def count_elements(lst):
-        return len(lst)
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
