@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_length(array):
+        return len(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
