@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
