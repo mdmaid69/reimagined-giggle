@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
