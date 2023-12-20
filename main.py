@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
