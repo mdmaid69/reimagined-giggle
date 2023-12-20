@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
