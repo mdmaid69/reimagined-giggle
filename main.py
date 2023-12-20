@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_union(list1, list2):
+        return set(list1) | set(list2)
