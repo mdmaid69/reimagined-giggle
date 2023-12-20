@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
