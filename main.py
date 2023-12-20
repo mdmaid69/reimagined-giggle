@@ -1,5 +1,7 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
