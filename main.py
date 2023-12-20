@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
