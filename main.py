@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-print(time.time())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
