@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def add_numbers(x, y):
-        return x + y
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
