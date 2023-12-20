@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
