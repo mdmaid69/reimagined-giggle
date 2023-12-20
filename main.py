@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
