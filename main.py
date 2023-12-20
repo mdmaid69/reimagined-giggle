@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
