@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
