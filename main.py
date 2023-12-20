@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
