@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_work(force, distance):
+        return force * distance
