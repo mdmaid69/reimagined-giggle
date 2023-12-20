@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_bool(array):
-        return bool(array)
+for i in range(5):
+        print(i)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
