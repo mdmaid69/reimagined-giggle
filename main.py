@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import re
+print(re.match("h.*o", "hello world"))
