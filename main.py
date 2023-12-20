@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
