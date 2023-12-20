@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
