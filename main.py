@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_user_list():
-        return collections.UserList()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_pressure(force, area):
+        return force / area
