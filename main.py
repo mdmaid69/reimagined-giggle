@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def sort_list(lst):
+        return sorted(lst)
