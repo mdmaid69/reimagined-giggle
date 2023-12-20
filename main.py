@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_acceleration(speed, time):
-        return speed / time
+import sys
+def exit_program():
+        sys.exit()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
