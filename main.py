@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_work(force, distance):
+        return force * distance
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
