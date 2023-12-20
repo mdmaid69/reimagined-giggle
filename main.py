@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_speed(distance, time):
-        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
