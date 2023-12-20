@@ -1,7 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
