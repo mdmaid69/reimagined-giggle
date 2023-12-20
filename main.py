@@ -1,5 +1,8 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_power(work, time):
-        return work / time
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
