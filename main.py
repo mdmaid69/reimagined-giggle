@@ -1,6 +1,11 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def greet(name):
+        print(f"Hello, {name}!")
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
