@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def greet(name):
+        print(f"Hello, {name}!")
