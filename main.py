@@ -1,8 +1,7 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
