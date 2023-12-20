@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def change_working_directory(path):
+        os.chdir(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
