@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def greet(name):
+        print(f"Hello, {name}!")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
