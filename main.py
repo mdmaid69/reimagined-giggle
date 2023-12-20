@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+for i in range(10): print(i)
