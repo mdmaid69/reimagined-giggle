@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def reverse_array(array):
+        array.reverse()
