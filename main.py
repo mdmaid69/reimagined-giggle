@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def split_path(path):
+        return os.path.split(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
