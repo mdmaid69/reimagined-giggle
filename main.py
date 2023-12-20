@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def cube_number(x):
+        return x**3
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
