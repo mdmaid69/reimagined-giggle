@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
