@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def convert_to_binary(n):
+        return bin(n)
