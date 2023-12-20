@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
