@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
