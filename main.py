@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_current_directory():
+        return os.getcwd()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
