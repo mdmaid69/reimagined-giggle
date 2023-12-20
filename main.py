@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import platform
-def get_os_info():
-        return platform.uname()
+def find_max(numbers):
+        return max(numbers)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
