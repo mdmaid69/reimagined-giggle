@@ -1,4 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-print(sum(range(10)))
+def calculate_work(force, distance):
+        return force * distance
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
