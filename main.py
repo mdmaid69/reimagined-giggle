@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_sine(x):
+        return math.sin(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
