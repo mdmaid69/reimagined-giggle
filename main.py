@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_density(mass, volume):
+        return mass / volume
