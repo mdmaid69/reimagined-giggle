@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
