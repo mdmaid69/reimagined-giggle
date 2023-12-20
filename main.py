@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
