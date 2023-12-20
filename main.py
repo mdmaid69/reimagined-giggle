@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
