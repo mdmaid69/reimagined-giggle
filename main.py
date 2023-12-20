@@ -1,8 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
