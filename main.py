@@ -1,6 +1,10 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
