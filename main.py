@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
