@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import datetime
+def get_today_date():
+        return datetime.date.today()
