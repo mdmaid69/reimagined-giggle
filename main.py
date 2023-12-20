@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
