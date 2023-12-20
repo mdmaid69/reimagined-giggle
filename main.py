@@ -1,5 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def greet(name):
+        print(f"Hello, {name}!")
