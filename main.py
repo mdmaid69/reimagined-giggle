@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
