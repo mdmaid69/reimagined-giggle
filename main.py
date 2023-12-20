@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_index(array, item):
+        return array.index(item)
