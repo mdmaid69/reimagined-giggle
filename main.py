@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
