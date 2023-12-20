@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+for i in range(10): print(i)
