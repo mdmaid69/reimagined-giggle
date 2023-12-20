@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
