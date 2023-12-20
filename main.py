@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
