@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
