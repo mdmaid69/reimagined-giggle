@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
