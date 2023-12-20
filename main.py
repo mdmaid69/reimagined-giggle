@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
