@@ -1,5 +1,13 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
