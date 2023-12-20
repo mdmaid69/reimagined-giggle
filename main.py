@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
