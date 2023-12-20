@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
