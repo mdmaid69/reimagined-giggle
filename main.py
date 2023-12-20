@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_username():
+        return getpass.getuser()
