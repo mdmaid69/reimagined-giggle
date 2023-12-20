@@ -1,4 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
