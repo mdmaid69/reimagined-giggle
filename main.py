@@ -1,5 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import array
+def get_array_itemsize(array):
+        return array.itemsize
