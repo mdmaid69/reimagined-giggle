@@ -1,6 +1,9 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def convert_to_hex(n):
+        return hex(n)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
