@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-for i in range(5):
-        print(i)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_speed(distance, time):
+        return distance / time
