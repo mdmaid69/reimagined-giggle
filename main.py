@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def reverse_list(lst):
-        return lst[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
