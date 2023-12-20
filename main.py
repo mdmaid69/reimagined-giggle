@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
