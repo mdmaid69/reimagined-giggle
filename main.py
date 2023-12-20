@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def count_words(sentence):
+        return len(sentence.split())
+def convert_to_binary(n):
+        return bin(n)
