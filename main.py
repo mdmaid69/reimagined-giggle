@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
