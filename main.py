@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
