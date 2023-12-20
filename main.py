@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
