@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def is_even(n):
+        return n % 2 == 0
