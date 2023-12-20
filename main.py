@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
