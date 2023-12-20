@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_area(radius):
+        return 3.14 * radius * radius
