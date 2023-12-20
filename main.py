@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
