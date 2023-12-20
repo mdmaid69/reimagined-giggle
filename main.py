@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
