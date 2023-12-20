@@ -1,5 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
