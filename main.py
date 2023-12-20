@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
