@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
