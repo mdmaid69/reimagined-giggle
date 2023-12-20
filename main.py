@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
