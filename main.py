@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
