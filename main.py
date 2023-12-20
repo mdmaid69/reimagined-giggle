@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
