@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def sort_list(lst):
+        return sorted(lst)
