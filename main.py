@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def add_numbers(x, y):
+        return x + y
