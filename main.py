@@ -1,6 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
