@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
