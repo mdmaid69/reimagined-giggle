@@ -1,8 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import math
-print(math.pi)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
