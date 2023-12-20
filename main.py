@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def convert_to_octal(n):
+        return oct(n)
