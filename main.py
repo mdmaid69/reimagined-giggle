@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
