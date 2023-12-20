@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def reverse_string(s):
-        return s[::-1]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
