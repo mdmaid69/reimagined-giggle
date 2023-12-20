@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
