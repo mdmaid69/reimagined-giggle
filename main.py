@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
