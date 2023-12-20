@@ -1,5 +1,11 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def is_even(n):
-        return n % 2 == 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
