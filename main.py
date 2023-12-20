@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
