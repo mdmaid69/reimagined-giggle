@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_user_list():
-        return collections.UserList()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
