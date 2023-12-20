@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def is_odd(n):
-        return n % 2 != 0
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def convert_to_hex(n):
+        return hex(n)
