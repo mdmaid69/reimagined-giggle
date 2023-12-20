@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
