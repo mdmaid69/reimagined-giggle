@@ -1,9 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
