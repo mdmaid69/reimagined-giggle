@@ -1,6 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
