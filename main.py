@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_floor(x):
-        return math.floor(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
