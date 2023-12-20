@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
