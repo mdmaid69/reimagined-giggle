@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def add_numbers(a, b):
+        return a + b
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
