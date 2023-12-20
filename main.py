@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
