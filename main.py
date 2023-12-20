@@ -1,6 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def remove_duplicates(lst):
+        return list(set(lst))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
