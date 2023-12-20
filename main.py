@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
