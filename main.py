@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
