@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
