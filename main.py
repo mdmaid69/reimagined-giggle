@@ -1,5 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
