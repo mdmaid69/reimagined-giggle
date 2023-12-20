@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def get_current_working_directory():
+        return os.getcwd()
