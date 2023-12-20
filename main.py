@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_octal(n):
+        return oct(n)
