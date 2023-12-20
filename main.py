@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_queue():
+        return collections.deque()
