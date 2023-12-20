@@ -1,7 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def add_numbers(x, y):
-        return x + y
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
