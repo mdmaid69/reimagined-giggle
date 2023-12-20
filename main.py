@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def convert_to_octal(n):
+        return oct(n)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
