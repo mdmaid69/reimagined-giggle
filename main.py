@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def convert_to_binary(n):
+        return bin(n)
