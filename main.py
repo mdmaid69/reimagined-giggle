@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_min(lst):
-        return min(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_work(force, distance):
+        return force * distance
