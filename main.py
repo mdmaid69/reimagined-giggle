@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
