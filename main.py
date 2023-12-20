@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Reversed:", text[::-1])
