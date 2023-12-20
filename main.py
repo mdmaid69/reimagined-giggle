@@ -1,6 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_power(work, time):
+        return work / time
