@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
