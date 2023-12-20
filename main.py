@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def square_number(x):
-        return x**2
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
