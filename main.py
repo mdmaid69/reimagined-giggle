@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
