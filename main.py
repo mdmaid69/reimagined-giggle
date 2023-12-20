@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_list_from_array(array):
+        return array.tolist()
