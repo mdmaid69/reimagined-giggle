@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def remove_duplicates(lst):
-        return list(set(lst))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
