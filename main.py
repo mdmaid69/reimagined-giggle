@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
