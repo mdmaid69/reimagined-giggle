@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def divide_numbers(x, y):
-        return x / y
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import getpass
+def get_username():
+        return getpass.getuser()
