@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
