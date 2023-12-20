@@ -1,6 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
