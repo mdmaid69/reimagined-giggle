@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def convert_to_binary(n):
-        return bin(n)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
