@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def get_array_as_int(array):
+        return int(array[0])
