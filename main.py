@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
