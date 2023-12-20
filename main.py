@@ -1,5 +1,8 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
