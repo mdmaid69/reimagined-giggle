@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
