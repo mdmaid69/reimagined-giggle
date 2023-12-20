@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
