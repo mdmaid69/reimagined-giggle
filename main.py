@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_set(array):
+        return set(array)
