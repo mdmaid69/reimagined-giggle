@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
