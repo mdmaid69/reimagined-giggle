@@ -1,12 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
