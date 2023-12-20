@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
