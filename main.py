@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
