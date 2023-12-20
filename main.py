@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
