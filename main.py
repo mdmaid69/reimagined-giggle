@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
