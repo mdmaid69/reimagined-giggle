@@ -1,6 +1,6 @@
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
