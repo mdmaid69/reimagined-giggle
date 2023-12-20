@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def convert_to_hex(n):
-        return hex(n)
+from collections import Counter
+print(Counter("hello world"))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
