@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_pressure(force, area):
+        return force / area
