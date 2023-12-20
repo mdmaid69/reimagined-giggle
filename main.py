@@ -1,10 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def remove_duplicates(lst):
+        return list(set(lst))
+def sort_numbers(numbers):
+        return sorted(numbers)
