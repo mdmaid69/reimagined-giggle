@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def reverse_string(s):
+        return s[::-1]
