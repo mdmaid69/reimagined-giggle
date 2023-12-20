@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import os
+print(os.getcwd())
+import numpy as np
+print(np.array([1, 2, 3]))
