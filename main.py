@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-for i in range(5):
-        print(i)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_typecode(array):
+        return array.typecode
