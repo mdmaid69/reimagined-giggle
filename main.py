@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
