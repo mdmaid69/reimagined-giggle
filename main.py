@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
