@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sys
-def print_python_version():
-        return sys.version
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
