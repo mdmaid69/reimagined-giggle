@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_tangent(x):
+        return math.tan(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
