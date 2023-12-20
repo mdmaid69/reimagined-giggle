@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
