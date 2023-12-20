@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def add_numbers(x, y):
+        return x + y
