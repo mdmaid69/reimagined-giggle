@@ -1,6 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
