@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
