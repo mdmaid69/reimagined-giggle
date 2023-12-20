@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def convert_to_binary(n):
-        return bin(n)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
