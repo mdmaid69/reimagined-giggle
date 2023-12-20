@@ -1,6 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
