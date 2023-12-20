@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import os
+def change_working_directory(path):
+        os.chdir(path)
