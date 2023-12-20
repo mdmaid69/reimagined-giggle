@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
