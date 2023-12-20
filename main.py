@@ -1,6 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
