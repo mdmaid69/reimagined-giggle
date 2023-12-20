@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_speed(distance, time):
+        return distance / time
