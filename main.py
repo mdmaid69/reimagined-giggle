@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
