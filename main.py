@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
