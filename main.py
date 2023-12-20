@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import os
+def change_working_directory(path):
+        os.chdir(path)
