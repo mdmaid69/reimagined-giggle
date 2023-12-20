@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
