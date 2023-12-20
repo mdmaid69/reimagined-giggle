@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def sort_numbers(numbers):
+        return sorted(numbers)
