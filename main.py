@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def find_max(lst):
+        return max(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
