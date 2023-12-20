@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
