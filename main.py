@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_speed(distance, time):
+        return distance / time
