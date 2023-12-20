@@ -1,6 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
