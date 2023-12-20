@@ -1,5 +1,6 @@
 import sys
-print(sys.version)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
