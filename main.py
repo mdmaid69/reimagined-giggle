@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+from collections import Counter
+print(Counter("hello world"))
