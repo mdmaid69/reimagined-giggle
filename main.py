@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
