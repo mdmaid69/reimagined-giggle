@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
