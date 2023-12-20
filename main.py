@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def add_numbers(x, y):
+        return x + y
