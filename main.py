@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
