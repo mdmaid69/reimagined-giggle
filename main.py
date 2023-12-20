@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
