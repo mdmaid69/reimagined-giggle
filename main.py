@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
