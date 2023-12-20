@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_str(array):
-        return str(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
