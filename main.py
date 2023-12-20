@@ -1,6 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
