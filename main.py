@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import sys
-def exit_program():
-        sys.exit()
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def add_numbers(a, b):
+        return a + b
