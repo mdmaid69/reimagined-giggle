@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def find_max(lst):
+        return max(lst)
+from collections import Counter
+print(Counter("hello world"))
