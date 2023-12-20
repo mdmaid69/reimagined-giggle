@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
