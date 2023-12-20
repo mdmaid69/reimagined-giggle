@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def find_max(numbers):
-        return max(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
