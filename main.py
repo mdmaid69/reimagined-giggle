@@ -1,6 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import tensorflow as tf
+print(tf.__version__)
