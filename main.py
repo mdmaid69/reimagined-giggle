@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
