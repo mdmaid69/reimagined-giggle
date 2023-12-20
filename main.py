@@ -1,5 +1,6 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
