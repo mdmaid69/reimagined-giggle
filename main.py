@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
