@@ -1,7 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
