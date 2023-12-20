@@ -1,6 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
