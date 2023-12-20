@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+for i in range(5):
+        print(i)
