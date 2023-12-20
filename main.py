@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
