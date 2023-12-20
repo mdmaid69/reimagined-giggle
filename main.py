@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
