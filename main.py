@@ -1,7 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
