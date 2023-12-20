@@ -1,6 +1,6 @@
-import time
-print(time.time())
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_length(array):
+        return len(array)
