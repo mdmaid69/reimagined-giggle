@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
