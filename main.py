@@ -1,5 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
