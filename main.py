@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def square_number(x):
-        return x**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
