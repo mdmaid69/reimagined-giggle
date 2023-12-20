@@ -1,7 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
