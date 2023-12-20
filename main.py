@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_int(array):
+        return int(array[0])
