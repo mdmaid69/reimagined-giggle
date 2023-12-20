@@ -1,5 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
