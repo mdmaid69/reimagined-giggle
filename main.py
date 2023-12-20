@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def multiply_numbers(x, y):
+        return x * y
