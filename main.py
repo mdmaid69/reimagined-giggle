@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
