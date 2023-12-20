@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
