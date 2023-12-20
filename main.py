@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
