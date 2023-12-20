@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_unique_words(sentence):
+        return set(sentence.split())
