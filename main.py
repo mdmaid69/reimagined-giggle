@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
