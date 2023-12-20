@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def sort_list(lst):
+        return sorted(lst)
+  def convert_to_octal(n):
+        return oct(n)
