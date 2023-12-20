@@ -1,5 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
