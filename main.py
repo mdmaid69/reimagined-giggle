@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
