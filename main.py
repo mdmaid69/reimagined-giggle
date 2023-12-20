@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def count_words(sentence):
-        return len(sentence.split())
+import os
+print(os.getcwd())
+import math
+def calculate_floor(x):
+        return math.floor(x)
