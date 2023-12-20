@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import time
+def get_current_time():
+        return time.ctime()
