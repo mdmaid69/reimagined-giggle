@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
