@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
