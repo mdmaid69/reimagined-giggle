@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def find_min(lst):
+        return min(lst)
