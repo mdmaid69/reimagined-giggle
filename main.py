@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
