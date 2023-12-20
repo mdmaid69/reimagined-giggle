@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
