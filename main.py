@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
