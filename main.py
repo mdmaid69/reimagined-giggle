@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
