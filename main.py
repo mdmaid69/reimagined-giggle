@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import tensorflow as tf
-print(tf.__version__)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
