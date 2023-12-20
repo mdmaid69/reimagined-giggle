@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
