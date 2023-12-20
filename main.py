@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
