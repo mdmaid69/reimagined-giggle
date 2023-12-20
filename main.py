@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
