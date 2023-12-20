@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
