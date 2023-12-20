@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_speed(distance, time):
+        return distance / time
