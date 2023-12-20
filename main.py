@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
