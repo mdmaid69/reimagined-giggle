@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
