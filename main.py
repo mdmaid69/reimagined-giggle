@@ -1,8 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
