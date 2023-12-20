@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_speed(distance, time):
+        return distance / time
