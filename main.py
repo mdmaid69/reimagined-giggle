@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
