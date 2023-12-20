@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_bytes_from_array(array):
+        return array.tobytes()
