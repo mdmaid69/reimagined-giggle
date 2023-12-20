@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import time
+print(time.time())
