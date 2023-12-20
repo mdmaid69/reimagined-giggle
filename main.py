@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import os
+print(os.getcwd())
