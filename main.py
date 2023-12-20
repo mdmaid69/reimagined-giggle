@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
