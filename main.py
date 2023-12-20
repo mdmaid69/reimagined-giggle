@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def is_odd(n):
+        return n % 2 != 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
