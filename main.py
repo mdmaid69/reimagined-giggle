@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
