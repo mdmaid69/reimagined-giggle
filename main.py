@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
