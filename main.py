@@ -1,8 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
