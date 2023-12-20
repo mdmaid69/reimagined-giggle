@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import platform
+def get_os_info():
+        return platform.uname()
