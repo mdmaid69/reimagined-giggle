@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
