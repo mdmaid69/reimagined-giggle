@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
