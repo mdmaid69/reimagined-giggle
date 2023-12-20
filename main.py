@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
