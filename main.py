@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def divide_numbers(x, y):
+        return x / y
+def calculate_area_circle(r):
+        return 3.14 * r**2
