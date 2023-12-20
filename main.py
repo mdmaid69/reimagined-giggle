@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def convert_to_hex(n):
+        return hex(n)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
