@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
