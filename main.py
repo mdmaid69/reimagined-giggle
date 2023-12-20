@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
