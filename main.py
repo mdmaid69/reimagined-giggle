@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
