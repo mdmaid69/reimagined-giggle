@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
