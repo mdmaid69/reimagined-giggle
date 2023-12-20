@@ -1,5 +1,9 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
