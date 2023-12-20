@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def sort_list(lst):
+        return sorted(lst)
