@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
