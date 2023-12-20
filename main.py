@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def square_number(x):
-        return x**2
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_speed(distance, time):
+        return distance / time
