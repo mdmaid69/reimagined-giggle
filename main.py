@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
