@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
