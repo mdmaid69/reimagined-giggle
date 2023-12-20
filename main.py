@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
