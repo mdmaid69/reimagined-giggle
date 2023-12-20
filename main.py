@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def check_if_array_contains_item(array, item):
+        return item in array
