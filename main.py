@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
