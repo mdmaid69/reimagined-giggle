@@ -1,7 +1,3 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
