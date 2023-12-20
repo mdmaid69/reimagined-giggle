@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+print(sum(range(10)))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
