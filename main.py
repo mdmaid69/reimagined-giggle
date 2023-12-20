@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
