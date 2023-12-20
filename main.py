@@ -1,4 +1,9 @@
-def greet(name):
-        print(f"Hello, {name}!")
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
