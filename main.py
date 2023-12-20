@@ -1,5 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
