@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
