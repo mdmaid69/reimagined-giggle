@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
