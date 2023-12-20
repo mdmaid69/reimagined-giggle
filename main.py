@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+print(sys.version)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
