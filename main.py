@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
