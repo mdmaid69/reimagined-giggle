@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
