@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
