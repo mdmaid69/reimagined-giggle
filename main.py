@@ -1,5 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
