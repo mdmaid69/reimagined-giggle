@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
