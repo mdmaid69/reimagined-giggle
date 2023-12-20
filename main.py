@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
