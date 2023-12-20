@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
