@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
