@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import collections
-def create_counter():
-        return collections.Counter()
+from collections import Counter
+print(Counter("hello world"))
+  import sys
+  def get_python_version():
+        return sys.version
