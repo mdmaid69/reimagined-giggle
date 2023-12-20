@@ -1,6 +1,7 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
