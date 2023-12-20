@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def divide_numbers(x, y):
+        return x / y
