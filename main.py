@@ -1,6 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_list(array):
+        return list(array)
+  def convert_to_binary(n):
+        return bin(n)
