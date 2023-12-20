@@ -1,6 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def convert_to_binary(n):
+        return bin(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
