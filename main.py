@@ -1,4 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-print([x**2 for x in range(10)])
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
