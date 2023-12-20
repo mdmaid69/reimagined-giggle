@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def convert_to_octal(n):
+        return oct(n)
