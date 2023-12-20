@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def convert_to_octal(n):
+        return oct(n)
