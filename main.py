@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import random
+print(random.randint(0, 100))
