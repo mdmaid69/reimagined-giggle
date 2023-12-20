@@ -1,9 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
