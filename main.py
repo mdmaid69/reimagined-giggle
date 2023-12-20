@@ -1,10 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
