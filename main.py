@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+print(sum(range(10)))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
