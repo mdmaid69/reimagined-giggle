@@ -1,7 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
