@@ -1,3 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-print("Hello, world!")
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import logging
+def log_message(message):
+        logging.info(message)
