@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
