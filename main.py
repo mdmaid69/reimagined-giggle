@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_set(array):
+        return set(array)
