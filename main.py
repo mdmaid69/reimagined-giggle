@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import logging
+def log_message(message):
+        logging.info(message)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
