@@ -1,5 +1,9 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
