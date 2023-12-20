@@ -1,9 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
