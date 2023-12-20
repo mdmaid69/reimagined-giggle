@@ -1,5 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
