@@ -1,4 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_priority_queue():
+        return collections.deque()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
