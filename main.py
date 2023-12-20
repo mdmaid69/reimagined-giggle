@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import datetime
+def get_current_date():
+        return datetime.date.today()
