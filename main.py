@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import random
-print(random.randint(0, 100))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
