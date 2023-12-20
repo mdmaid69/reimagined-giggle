@@ -1,7 +1,7 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def reverse_list(lst):
+        return lst[::-1]
