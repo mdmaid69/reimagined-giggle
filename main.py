@@ -1,5 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def count_characters(sentence):
+        return len(sentence)
