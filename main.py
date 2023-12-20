@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
