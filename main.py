@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
