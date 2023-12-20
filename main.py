@@ -1,4 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-print(sum(range(10)))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
