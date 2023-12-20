@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
