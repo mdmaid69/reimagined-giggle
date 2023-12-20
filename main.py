@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
