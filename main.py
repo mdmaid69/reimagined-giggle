@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
