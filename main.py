@@ -1,7 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+from collections import Counter
+print(Counter("hello world"))
