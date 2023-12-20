@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
