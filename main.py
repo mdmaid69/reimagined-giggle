@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def find_max(numbers):
+        return max(numbers)
