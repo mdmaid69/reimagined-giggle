@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
