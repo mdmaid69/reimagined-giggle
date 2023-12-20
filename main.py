@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_speed(distance, time):
+        return distance / time
