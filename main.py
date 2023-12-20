@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
