@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
