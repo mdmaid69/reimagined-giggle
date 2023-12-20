@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
