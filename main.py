@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
