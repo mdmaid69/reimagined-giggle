@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+x = 10
+y = 20
+print("Sum:", x + y)
