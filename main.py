@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
