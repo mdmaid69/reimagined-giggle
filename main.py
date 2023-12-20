@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
