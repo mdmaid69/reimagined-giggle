@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def count_elements(lst):
+        return len(lst)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_arc_cosine(x):
+        return math.acos(x)
