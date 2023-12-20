@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
