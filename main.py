@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
