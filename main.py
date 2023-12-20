@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def multiply_numbers(x, y):
-        return x * y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
