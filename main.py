@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
