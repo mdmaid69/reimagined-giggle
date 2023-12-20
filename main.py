@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
