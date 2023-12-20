@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-print(math.pi)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def sort_list(lst):
+        return sorted(lst)
