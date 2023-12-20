@@ -1,7 +1,8 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import time
+def get_current_time():
+        return time.ctime()
