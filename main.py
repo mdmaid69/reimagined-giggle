@@ -1,9 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_area_rectangle(l, w):
+        return l * w
