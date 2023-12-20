@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  def convert_to_octal(n):
+        return oct(n)
