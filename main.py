@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
