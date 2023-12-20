@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
