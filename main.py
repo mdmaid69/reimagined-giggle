@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_error_function(x):
+        return math.erf(x)
