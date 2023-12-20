@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
