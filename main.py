@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
