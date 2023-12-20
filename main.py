@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_base_name(path):
+        return os.path.basename(path)
+def greet(name):
+        print(f"Hello, {name}!")
