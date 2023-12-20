@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def subtract_numbers(x, y):
+        return x - y
