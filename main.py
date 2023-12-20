@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
