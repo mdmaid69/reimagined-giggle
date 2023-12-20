@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
