@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
