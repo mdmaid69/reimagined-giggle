@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
