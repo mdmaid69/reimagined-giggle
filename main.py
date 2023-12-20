@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
