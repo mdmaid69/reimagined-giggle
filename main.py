@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
