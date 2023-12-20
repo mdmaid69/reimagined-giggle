@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def remove_duplicates(lst):
-        return list(set(lst))
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
