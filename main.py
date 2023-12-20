@@ -1,8 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
