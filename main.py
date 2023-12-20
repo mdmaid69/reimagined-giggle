@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import time
+def get_current_time():
+        return time.ctime()
