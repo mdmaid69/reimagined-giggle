@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import datetime
+def get_current_date():
+        return datetime.date.today()
