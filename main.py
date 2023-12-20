@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
