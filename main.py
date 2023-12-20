@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
