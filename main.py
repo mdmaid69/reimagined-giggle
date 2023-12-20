@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
