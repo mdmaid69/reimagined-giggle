@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import time
+def get_current_time():
+        return time.time()
