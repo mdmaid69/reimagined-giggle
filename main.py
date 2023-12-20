@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
