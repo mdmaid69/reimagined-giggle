@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
