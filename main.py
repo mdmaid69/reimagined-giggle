@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
