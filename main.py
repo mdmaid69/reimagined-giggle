@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def reverse_array(array):
+        array.reverse()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
