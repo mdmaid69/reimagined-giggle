@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def convert_to_hex(n):
-        return hex(n)
+import datetime
+print(datetime.datetime.now())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
