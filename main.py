@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def convert_to_octal(n):
+        return oct(n)
