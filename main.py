@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
