@@ -1,6 +1,11 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def subtract_numbers(x, y):
+        return x - y
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
