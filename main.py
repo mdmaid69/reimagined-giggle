@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
