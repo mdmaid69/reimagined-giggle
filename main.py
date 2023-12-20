@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
