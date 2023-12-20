@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-  def convert_to_hex(n):
-        return hex(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
