@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import tensorflow as tf
-print(tf.__version__)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
