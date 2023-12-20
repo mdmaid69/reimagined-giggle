@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
