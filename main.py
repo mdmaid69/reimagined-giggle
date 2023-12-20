@@ -1,6 +1,5 @@
-import time
-print(time.time())
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
