@@ -1,6 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
