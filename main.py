@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-x = 10
-y = 20
-print("Sum:", x + y)
+def cube_number(x):
+        return x**3
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
