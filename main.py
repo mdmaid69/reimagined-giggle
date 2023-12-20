@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import numpy as np
-print(np.array([1, 2, 3]))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
