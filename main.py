@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
