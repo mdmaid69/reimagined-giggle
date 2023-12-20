@@ -1,5 +1,3 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+for i in range(10): print(i)
