@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def square_number(x):
-        return x**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
