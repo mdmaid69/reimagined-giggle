@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
