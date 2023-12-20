@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_user_string():
+        return collections.UserString()
