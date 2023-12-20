@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
