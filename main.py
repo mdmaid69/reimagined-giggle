@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def add_numbers(x, y):
+        return x + y
