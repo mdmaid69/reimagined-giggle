@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
