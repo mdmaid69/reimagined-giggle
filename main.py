@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import re
+print(re.match("h.*o", "hello world"))
