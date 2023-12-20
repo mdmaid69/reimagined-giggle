@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
