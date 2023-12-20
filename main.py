@@ -1,5 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def convert_to_hex(n):
+        return hex(n)
