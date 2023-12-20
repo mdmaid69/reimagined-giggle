@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_float(array):
+        return float(array[0])
