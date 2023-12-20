@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
