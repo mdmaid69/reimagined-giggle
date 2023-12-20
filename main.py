@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
