@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_bool(array):
+        return bool(array)
