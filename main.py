@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
