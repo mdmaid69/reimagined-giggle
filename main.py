@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
