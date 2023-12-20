@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
