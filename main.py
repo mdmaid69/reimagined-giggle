@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
