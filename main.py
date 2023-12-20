@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
