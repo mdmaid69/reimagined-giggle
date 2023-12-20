@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
