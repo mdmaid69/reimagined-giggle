@@ -1,6 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
