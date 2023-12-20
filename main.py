@@ -1,5 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import os
-def change_working_directory(path):
-        os.chdir(path)
-def count_elements(lst):
-        return len(lst)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
