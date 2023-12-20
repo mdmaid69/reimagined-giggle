@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def add_numbers(x, y):
+        return x + y
