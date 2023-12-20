@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
