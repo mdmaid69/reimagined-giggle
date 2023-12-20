@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def subtract_numbers(x, y):
+        return x - y
