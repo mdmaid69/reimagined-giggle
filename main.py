@@ -1,6 +1,7 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
