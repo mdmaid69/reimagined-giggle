@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def convert_to_binary(n):
+        return bin(n)
