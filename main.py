@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def get_array_length(array):
-        return len(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
