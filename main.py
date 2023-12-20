@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def split_path(path):
+        return os.path.split(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
