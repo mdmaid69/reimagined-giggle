@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
