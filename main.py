@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
