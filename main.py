@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_acceleration(speed, time):
-        return speed / time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
