@@ -1,6 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
