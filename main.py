@@ -1,7 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import tensorflow as tf
+print(tf.__version__)
+  def cube_number(x):
+        return x**3
