@@ -1,6 +1,8 @@
 import array
-def clear_array(array):
-        array *= 0
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def remove_from_array(array, item):
+        array.remove(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
