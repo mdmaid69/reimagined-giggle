@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
