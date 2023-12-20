@@ -1,5 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_item_count(array, item):
+        return array.count(item)
