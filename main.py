@@ -1,6 +1,12 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_bytearray(array):
+        return bytearray(array)
