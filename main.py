@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
