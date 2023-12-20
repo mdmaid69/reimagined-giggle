@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
