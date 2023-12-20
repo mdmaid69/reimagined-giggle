@@ -1,4 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-print(math.pi)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
