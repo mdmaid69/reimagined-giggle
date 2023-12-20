@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
