@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
