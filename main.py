@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
