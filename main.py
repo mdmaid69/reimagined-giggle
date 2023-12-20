@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def convert_to_binary(n):
-        return bin(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def remove_directory(path):
+        os.rmdir(path)
