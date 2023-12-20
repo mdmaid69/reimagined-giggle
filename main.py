@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_sine(x):
+        return math.sin(x)
