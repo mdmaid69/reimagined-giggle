@@ -1,5 +1,6 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_volume(length, width, height):
-        return length * width * height
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
