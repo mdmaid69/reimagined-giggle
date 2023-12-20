@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import logging
+def log_message(message):
+        logging.info(message)
+text = "Hello, world!"
+print("Characters:", len(text))
