@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
