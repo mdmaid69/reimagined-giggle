@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_length(array):
+        return len(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
