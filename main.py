@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
