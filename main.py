@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
