@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_area_rectangle(l, w):
+        return l * w
