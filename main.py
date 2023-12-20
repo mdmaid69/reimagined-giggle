@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
