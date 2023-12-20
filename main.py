@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
