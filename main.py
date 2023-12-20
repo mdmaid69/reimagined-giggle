@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
