@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import getpass
+def get_username():
+        return getpass.getuser()
