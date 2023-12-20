@@ -1,5 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def count_characters(sentence):
-        return len(sentence)
+from collections import Counter
+print(Counter("hello world"))
+def cube_number(x):
+        return x**3
