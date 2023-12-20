@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
