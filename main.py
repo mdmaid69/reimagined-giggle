@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
