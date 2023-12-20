@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
