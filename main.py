@@ -1,8 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_float(array):
+        return float(array[0])
