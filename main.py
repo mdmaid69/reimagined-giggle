@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_length(array):
-        return len(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def convert_to_binary(n):
+        return bin(n)
