@@ -1,4 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-print(sum(range(10)))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  def remove_duplicates(lst):
+        return list(set(lst))
