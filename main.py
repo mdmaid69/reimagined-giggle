@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
