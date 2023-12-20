@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
