@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import collections
+def create_user_string():
+        return collections.UserString()
