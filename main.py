@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
