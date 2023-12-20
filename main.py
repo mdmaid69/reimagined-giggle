@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def convert_to_hex(n):
+        return hex(n)
