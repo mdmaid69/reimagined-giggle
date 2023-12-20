@@ -1,4 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-print(sum(range(10)))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def subtract_numbers(x, y):
+        return x - y
