@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
