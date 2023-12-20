@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def calculate_area_circle(r):
+        return 3.14 * r**2
