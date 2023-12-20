@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
