@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def square_number(x):
+        return x**2
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
