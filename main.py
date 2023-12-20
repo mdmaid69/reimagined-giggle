@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
