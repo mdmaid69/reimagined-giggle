@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import random
-print(random.randint(0, 100))
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
