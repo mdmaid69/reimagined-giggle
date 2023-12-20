@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import collections
-def create_priority_queue():
-        return collections.deque()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def create_user_list():
+        return collections.UserList()
