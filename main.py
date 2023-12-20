@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_as_float(array):
+        return float(array[0])
