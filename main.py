@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def find_min(lst):
-        return min(lst)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_speed(distance, time):
+        return distance / time
