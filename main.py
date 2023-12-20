@@ -1,7 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
