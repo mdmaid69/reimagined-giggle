@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-print(random.randint(0, 100))
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
