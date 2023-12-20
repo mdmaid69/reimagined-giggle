@@ -1,7 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
