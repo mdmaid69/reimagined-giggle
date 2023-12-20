@@ -1,6 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
