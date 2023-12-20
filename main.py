@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
