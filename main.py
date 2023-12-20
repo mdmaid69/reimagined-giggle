@@ -1,6 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
