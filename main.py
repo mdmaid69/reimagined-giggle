@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
