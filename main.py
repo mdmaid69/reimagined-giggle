@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
