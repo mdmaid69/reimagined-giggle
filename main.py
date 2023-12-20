@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def multiply_numbers(x, y):
+        return x * y
