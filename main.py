@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
