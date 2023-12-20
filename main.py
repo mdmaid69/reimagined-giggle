@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
