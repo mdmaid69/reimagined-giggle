@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
