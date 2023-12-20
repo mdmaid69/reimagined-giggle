@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
