@@ -1,5 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def count_characters(sentence):
-        return len(sentence)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
