@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import os
-print(os.getcwd())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def remove_from_array(array, item):
+        array.remove(item)
