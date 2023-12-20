@@ -1,7 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
