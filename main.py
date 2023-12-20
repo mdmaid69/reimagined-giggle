@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def add_numbers(a, b):
+        return a + b
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
