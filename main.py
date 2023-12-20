@@ -1,8 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_acceleration(speed, time):
+        return speed / time
