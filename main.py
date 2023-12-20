@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
