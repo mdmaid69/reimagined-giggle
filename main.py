@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_speed(distance, time):
+        return distance / time
