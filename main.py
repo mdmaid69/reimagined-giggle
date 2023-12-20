@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_current_directory():
+        return os.getcwd()
