@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
