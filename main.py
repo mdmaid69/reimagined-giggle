@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
