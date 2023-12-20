@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-print(math.pi)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import numpy as np
+print(np.array([1, 2, 3]))
