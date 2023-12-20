@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def is_even(n):
+        return n % 2 == 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
