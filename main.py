@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
