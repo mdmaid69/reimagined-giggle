@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
