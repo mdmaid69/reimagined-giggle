@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
