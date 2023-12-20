@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
