@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import time
-def get_time_since_epoch():
-        return time.time()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
