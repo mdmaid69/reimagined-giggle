@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def get_current_working_directory():
+        return os.getcwd()
+def is_even(n):
+        return n % 2 == 0
