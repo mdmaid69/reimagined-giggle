@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
