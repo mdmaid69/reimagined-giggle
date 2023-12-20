@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
