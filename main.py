@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
