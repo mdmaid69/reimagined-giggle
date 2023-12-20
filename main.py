@@ -1,8 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
