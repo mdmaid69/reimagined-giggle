@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
