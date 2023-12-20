@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
