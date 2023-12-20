@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
