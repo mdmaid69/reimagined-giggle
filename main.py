@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
