@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_arc_tangent(x):
+        return math.atan(x)
