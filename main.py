@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
