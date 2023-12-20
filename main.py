@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
