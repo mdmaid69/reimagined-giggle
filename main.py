@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_min(lst):
+        return min(lst)
