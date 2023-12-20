@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
