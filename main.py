@@ -1,6 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
