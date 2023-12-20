@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
