@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_int(array):
+        return int(array[0])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
