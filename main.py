@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import platform
+def get_os_info():
+        return platform.uname()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
