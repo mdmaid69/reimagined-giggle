@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def clear_array(array):
+        array *= 0
+def count_words(sentence):
+        return len(sentence.split())
