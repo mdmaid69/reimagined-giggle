@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_user_list():
-        return collections.UserList()
+def is_palindrome(s):
+        return s == s[::-1]
+  def multiply_numbers(x, y):
+        return x * y
