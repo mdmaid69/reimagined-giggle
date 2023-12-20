@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def multiply_numbers(x, y):
+        return x * y
