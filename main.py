@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_as_list(array):
-        return list(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
