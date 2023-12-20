@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
