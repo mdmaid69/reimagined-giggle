@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
