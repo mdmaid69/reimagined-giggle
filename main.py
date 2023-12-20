@@ -1,5 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
