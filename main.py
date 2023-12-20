@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def is_even(n):
+        return n % 2 == 0
