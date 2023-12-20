@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
