@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def add_numbers(x, y):
-        return x + y
+def calculate_error_function(x):
+        return math.erf(x)
