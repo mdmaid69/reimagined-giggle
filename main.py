@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_speed(distance, time):
+        return distance / time
+def sort_numbers(numbers):
+        return sorted(numbers)
