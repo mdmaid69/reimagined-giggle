@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
