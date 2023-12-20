@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def divide_numbers(x, y):
+        return x / y
+  def sort_list(lst):
+        return sorted(lst)
