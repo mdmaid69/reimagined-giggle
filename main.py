@@ -1,4 +1,4 @@
-def find_min(lst):
-        return min(lst)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+for i in range(10): print(i)
+import array
+def get_array_as_repr(array):
+        return repr(array)
