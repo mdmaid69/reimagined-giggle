@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
