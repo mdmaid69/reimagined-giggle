@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
