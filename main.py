@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
