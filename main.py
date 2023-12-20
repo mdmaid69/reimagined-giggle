@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
