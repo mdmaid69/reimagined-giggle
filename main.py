@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
