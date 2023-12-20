@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
