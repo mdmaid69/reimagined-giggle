@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
