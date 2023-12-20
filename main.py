@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def reverse_string(s):
+        return s[::-1]
