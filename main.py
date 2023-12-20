@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
