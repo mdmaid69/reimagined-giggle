@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_length(array):
+        return len(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
