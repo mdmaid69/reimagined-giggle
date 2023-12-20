@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
