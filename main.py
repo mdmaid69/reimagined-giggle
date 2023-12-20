@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
