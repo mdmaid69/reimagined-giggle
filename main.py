@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_set(array):
+        return set(array)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
