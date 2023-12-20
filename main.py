@@ -1,4 +1,9 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
