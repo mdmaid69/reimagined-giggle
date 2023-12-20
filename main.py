@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
