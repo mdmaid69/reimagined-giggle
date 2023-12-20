@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
