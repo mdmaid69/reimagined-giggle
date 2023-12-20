@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
