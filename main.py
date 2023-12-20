@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def add_numbers(a, b):
-        return a + b
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
