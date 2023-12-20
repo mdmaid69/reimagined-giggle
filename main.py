@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_speed(distance, time):
-        return distance / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
