@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def sort_list(lst):
+        return sorted(lst)
