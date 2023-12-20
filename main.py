@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sys
+def print_python_version():
+        return sys.version
