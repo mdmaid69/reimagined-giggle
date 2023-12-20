@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
