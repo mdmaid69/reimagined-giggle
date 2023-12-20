@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
