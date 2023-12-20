@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
