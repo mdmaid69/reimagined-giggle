@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
