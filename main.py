@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def is_odd(n):
+        return n % 2 != 0
+  import sys
+  def get_python_version():
+        return sys.version
