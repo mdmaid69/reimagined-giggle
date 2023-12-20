@@ -1,4 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_pressure(force, area):
+        return force / area
