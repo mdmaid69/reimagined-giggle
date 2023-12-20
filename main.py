@@ -1,5 +1,9 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
