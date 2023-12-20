@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def clear_array(array):
-        array *= 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def divide_numbers(x, y):
+        return x / y
