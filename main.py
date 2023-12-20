@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def count_elements(lst):
+        return len(lst)
