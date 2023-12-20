@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
