@@ -1,5 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
