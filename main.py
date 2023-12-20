@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
