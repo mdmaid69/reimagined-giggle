@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
