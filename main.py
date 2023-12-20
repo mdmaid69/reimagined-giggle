@@ -1,8 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def is_even(n):
+        return n % 2 == 0
