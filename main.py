@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def reverse_string(s):
-        return s[::-1]
+def calculate_work(force, distance):
+        return force * distance
+def find_min(numbers):
+        return min(numbers)
