@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def get_array_as_int(array):
+        return int(array[0])
