@@ -1,6 +1,9 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
