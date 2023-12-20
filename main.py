@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_current_working_directory():
+  def get_current_directory():
         return os.getcwd()
