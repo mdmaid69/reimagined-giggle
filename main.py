@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def convert_array_to_bytes(array):
+        return array.tobytes()
