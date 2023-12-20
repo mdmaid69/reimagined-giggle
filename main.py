@@ -1,3 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-print([x**2 for x in range(10)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
