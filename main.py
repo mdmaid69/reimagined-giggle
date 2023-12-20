@@ -1,6 +1,7 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
