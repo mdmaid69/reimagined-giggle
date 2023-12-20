@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
