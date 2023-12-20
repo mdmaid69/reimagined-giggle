@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import sys
+def print_python_version():
+        print(sys.version)
