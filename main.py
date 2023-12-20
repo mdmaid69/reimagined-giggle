@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def count_characters(sentence):
+        return len(sentence)
