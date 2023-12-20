@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
