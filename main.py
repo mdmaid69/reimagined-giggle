@@ -1,6 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def convert_array_to_unicode(array):
+        return array.tounicode()
