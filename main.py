@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
