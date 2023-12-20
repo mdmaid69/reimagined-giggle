@@ -1,6 +1,9 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
