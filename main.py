@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+for i in range(10): print(i)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
