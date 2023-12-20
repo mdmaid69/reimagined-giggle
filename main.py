@@ -1,5 +1,6 @@
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-print(sys.version)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
