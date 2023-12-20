@@ -1,7 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
