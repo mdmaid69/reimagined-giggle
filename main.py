@@ -1,5 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def add_numbers(x, y):
+        return x + y
