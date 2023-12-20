@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
