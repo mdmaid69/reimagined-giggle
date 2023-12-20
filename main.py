@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
