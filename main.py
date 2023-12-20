@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
