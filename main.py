@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+from collections import Counter
+print(Counter("hello world"))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
