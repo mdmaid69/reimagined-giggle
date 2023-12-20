@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
