@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-from collections import Counter
-print(Counter("hello world"))
+import platform
+def get_python_version():
+        return platform.python_version()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
