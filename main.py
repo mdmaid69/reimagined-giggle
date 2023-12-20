@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
