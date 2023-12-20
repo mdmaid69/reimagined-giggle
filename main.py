@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+from collections import Counter
+print(Counter("hello world"))
