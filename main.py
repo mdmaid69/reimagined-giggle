@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
