@@ -1,4 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
