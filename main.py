@@ -1,8 +1,10 @@
-from flask import Flask
-app = Flask(__name__)
+import threading
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
