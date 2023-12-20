@@ -1,6 +1,8 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
