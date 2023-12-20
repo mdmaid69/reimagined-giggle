@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
