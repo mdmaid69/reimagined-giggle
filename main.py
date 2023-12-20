@@ -1,4 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-print([x**2 for x in range(10)])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
