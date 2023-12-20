@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import tensorflow as tf
-print(tf.__version__)
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def change_working_directory(path):
+        os.chdir(path)
