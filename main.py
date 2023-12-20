@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import datetime
+def get_current_date():
+        return datetime.date.today()
