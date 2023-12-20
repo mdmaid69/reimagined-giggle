@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
