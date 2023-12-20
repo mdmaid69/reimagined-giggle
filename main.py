@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_speed(distance, time):
-        return distance / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
