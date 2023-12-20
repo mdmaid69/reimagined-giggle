@@ -1,5 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
