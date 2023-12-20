@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
