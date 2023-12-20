@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
