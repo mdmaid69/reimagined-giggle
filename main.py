@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def greet(name):
-        print(f"Hello, {name}!")
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_priority_queue():
+        return collections.deque()
