@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
