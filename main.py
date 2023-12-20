@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import tensorflow as tf
+print(tf.__version__)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
