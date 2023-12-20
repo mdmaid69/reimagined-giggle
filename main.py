@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def is_even(n):
+        return n % 2 == 0
+  def convert_to_octal(n):
+        return oct(n)
