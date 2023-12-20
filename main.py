@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
