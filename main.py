@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_current_directory():
+        return os.getcwd()
