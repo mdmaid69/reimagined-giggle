@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
