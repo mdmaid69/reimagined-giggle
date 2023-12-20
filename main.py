@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def find_min(numbers):
-        return min(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
