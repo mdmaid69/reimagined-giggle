@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import datetime
+print(datetime.datetime.now())
