@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
