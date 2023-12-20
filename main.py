@@ -1,8 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
