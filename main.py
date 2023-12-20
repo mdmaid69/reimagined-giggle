@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
