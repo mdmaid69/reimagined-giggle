@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
