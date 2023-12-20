@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
