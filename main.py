@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
