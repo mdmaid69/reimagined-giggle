@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
