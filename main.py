@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
