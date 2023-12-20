@@ -1,8 +1,4 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def remove_duplicates(lst):
-        return list(set(lst))
+def multiply_numbers(x, y):
+        return x * y
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
