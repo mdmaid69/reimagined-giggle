@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_max(numbers):
+        return max(numbers)
+def cube_number(x):
+        return x**3
