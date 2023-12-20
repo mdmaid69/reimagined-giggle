@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def remove_duplicates(lst):
+        return list(set(lst))
