@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
