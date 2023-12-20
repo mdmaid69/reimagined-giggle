@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+print(os.getcwd())
