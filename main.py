@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_work(force, distance):
+        return force * distance
+def divide_numbers(x, y):
+        return x / y
