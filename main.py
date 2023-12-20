@@ -1,3 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-for i in range(10): print(i)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
