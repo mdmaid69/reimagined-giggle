@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
