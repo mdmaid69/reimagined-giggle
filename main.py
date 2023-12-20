@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_index(array, item):
+        return array.index(item)
