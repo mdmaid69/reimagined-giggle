@@ -1,5 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
