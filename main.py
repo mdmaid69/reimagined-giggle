@@ -1,5 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def sort_numbers(numbers):
-        return sorted(numbers)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_area_circle(r):
+        return 3.14 * r**2
