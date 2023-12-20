@@ -1,7 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
