@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
