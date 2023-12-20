@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
