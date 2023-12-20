@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
