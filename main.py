@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def is_palindrome(s):
+        return s == s[::-1]
+import platform
+def get_os_info():
+        return platform.uname()
