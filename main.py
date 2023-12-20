@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def clear_array(array):
+        array *= 0
+print([x**2 for x in range(10)])
