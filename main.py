@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
