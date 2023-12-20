@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def count_elements(lst):
+        return len(lst)
