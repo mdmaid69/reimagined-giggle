@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def greet(name):
+        print(f"Hello, {name}!")
