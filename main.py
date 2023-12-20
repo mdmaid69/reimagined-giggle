@@ -1,6 +1,3 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+print("Hello, world!")
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
