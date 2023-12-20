@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def count_characters(sentence):
+        return len(sentence)
+import datetime
+def get_current_date():
+        return datetime.date.today()
