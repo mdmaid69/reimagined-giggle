@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
