@@ -1,4 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
