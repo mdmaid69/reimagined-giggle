@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_counter():
-        return collections.Counter()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
