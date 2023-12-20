@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_queue():
+        return collections.deque()
+  def add_numbers(x, y):
+        return x + y
