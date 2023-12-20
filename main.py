@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_float(array):
+        return float(array[0])
