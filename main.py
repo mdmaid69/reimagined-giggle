@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
