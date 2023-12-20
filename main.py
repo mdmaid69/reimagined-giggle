@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
