@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
