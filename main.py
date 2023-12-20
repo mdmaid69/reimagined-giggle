@@ -1,6 +1,7 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
