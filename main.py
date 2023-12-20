@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def convert_to_binary(n):
+        return bin(n)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
