@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import sys
+def print_python_version():
+        return sys.version
