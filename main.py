@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def convert_to_octal(n):
+        return oct(n)
