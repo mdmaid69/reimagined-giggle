@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_string(array):
+        return array.tostring()
