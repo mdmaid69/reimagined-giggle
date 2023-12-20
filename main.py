@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def exit_program():
+        sys.exit()
