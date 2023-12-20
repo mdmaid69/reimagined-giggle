@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_union(list1, list2):
+        return set(list1) | set(list2)
