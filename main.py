@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
