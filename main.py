@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+print(sum(range(10)))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
