@@ -1,6 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
