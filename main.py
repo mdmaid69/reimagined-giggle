@@ -1,7 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
