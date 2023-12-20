@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
   import numpy as np
   def calculate_mean(arr):
         return np.mean(arr)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
