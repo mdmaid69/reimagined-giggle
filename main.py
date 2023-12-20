@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def multiply_numbers(x, y):
-        return x * y
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
