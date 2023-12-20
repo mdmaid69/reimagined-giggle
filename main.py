@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
