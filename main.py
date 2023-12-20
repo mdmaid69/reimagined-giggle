@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
