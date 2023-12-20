@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
