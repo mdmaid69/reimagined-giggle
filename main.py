@@ -1,4 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+for i in range(10): print(i)
