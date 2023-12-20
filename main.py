@@ -1,5 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
