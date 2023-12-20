@@ -1,8 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
