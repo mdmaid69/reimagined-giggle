@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
