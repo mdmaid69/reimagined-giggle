@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
