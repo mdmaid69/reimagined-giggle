@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def count_elements(lst):
+        return len(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
