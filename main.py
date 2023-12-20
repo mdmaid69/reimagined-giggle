@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_float(array):
+        return float(array[0])
