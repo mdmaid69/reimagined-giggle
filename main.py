@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
