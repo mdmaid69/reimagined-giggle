@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
