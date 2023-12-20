@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_list(array):
+        return list(array)
