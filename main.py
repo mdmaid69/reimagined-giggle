@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import platform
+def get_python_version():
+        return platform.python_version()
+import collections
+def create_user_string():
+        return collections.UserString()
