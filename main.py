@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
