@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
