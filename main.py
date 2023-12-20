@@ -1,4 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
