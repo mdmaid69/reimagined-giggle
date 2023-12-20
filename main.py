@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
