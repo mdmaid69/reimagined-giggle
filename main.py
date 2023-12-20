@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
