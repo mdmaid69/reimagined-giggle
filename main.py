@@ -1,5 +1,11 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
