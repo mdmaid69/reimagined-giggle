@@ -1,8 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
