@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
