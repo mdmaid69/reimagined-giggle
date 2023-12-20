@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
