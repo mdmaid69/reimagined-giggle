@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import logging
-def log_message(message):
-        logging.info(message)
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
