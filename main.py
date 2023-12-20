@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
