@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def clear_array(array):
-        array *= 0
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
