@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
