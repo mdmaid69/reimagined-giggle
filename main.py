@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
