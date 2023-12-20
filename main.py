@@ -1,6 +1,12 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
