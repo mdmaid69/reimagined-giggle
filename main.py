@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
