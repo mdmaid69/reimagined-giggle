@@ -1,8 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
