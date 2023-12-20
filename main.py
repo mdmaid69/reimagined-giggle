@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import platform
+def get_python_version():
+        return platform.python_version()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
