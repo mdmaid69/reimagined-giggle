@@ -1,6 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def change_working_directory(path):
+        os.chdir(path)
