@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
