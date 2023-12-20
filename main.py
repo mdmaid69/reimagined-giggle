@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
