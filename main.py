@@ -1,8 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
