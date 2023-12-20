@@ -1,6 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def get_array_itemsize(array):
+        return array.itemsize
+def reverse_list(lst):
+        return lst[::-1]
