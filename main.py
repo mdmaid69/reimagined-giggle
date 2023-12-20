@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
