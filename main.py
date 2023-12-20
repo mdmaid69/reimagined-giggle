@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
