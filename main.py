@@ -1,5 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
