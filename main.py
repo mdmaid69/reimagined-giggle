@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+i = 0
+while i < 5:
+        print(i)
+        i += 1
