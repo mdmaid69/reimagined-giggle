@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def clear_array(array):
-        array *= 0
+def convert_to_octal(n):
+        return oct(n)
+import math
+print(math.pi)
