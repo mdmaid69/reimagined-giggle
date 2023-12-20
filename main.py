@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tensorflow as tf
+print(tf.__version__)
+import getpass
+def get_username():
+        return getpass.getuser()
