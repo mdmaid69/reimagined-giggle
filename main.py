@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def convert_to_binary(n):
+        return bin(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
