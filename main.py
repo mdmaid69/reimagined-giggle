@@ -1,6 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def find_max(lst):
+        return max(lst)
+def calculate_power(work, time):
+        return work / time
