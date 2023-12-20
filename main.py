@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def cube_number(x):
+        return x**3
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
