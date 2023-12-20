@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import platform
+def get_os_info():
+        return platform.uname()
