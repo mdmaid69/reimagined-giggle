@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
