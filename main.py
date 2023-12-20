@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
