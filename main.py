@@ -1,4 +1,8 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def subtract_numbers(x, y):
-        return x - y
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
