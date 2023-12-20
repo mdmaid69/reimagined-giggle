@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
