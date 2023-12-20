@@ -1,6 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
