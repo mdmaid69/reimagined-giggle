@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
