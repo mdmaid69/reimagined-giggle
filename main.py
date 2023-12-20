@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def is_even(n):
+        return n % 2 == 0
