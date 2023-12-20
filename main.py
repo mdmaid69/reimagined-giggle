@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
