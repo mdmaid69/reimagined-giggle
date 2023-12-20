@@ -1,7 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
