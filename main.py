@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def delete_file(file_name):
+        os.remove(file_name)
