@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_power(work, time):
+        return work / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
