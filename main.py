@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def find_min(numbers):
-        return min(numbers)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
