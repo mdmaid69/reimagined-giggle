@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
