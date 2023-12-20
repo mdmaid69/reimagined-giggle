@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
