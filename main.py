@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
