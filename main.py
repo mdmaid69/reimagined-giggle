@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
