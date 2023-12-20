@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
