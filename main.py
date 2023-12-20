@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def append_to_array(array, item):
+        array.append(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
