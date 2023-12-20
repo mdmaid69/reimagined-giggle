@@ -1,8 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
