@@ -1,7 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+print(os.getcwd())
+import collections
+def create_priority_queue():
+        return collections.deque()
