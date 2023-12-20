@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def add_numbers(a, b):
-        return a + b
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
