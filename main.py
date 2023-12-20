@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def split_path(path):
+        return os.path.split(path)
