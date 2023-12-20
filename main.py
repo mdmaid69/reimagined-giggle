@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
