@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def cube_number(x):
+        return x**3
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
