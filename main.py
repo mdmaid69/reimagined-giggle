@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
