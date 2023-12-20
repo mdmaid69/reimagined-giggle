@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
