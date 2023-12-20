@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import time
+def get_current_time():
+        return time.ctime()
