@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
