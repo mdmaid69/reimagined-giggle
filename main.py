@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
