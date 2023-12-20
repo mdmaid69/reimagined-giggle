@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
