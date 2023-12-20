@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def add_numbers(a, b):
-        return a + b
+for i in range(10): print(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
