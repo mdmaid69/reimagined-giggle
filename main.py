@@ -1,8 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import sys
+  def get_python_version():
+        return sys.version
