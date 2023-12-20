@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
