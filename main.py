@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
