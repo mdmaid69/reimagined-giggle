@@ -1,5 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def square_number(x):
-        return x**2
+def calculate_cosine(x):
+        return math.cos(x)
