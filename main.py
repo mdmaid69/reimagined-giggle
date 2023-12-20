@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
