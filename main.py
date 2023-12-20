@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_item(array, i):
-        return array[i]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
