@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
