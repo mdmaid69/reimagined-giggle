@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
