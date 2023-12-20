@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
