@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
