@@ -1,8 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
