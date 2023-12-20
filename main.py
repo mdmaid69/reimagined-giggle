@@ -1,7 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
