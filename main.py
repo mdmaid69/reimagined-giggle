@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_floor(x):
+        return math.floor(x)
