@@ -1,5 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
