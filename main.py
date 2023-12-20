@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
