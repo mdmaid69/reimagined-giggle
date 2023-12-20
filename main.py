@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
