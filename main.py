@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import sys
+  def get_python_version():
+        return sys.version
