@@ -1,4 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
