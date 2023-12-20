@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
