@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
