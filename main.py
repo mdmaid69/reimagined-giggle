@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def count_words(sentence):
+        return len(sentence.split())
