@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
