@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_work(force, distance):
+        return force * distance
