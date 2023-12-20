@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
