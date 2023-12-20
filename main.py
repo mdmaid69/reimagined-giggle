@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
