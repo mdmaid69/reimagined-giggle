@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import numpy as np
+print(np.array([1, 2, 3]))
