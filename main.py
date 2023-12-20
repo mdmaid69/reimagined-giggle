@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
+print([x**2 for x in range(10)])
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
