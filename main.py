@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def find_min(lst):
-        return min(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Characters:", len(text))
