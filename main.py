@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+print("Hello, world!")
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_list(array):
+        return list(array)
