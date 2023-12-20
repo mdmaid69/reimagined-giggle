@@ -1,6 +1,9 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
