@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  def convert_to_octal(n):
-        return oct(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
