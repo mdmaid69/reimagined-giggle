@@ -1,5 +1,9 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
