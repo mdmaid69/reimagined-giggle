@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
