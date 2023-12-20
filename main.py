@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
