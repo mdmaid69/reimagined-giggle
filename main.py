@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def sort_list(lst):
+        return sorted(lst)
