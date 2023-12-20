@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def subtract_numbers(x, y):
+        return x - y
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
