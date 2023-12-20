@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
