@@ -1,8 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
