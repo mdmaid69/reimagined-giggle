@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
