@@ -1,5 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_user_string():
+        return collections.UserString()
