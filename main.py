@@ -1,5 +1,3 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+print([x**2 for x in range(10)])
+def calculate_power(work, time):
+        return work / time
