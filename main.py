@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
