@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_density(mass, volume):
+        return mass / volume
+def find_min(numbers):
+        return min(numbers)
