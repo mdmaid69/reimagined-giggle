@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
