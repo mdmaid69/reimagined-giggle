@@ -1,6 +1,9 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
