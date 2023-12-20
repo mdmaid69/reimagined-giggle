@@ -1,6 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+for i in range(5):
+        print(i)
