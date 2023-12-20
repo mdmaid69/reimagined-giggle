@@ -1,8 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
