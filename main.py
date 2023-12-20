@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_as_float(array):
+        return float(array[0])
