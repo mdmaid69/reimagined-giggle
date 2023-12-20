@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def remove_duplicates(lst):
+        return list(set(lst))
