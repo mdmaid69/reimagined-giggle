@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
