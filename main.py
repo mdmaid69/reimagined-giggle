@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
