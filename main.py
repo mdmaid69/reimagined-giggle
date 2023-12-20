@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_density(mass, volume):
+        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
