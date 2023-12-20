@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_perimeter_rectangle(l, w):
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_perimeter_rectangle(l, w):
         return 2 * (l + w)
