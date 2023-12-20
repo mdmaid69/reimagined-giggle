@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
