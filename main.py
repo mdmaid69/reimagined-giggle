@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
