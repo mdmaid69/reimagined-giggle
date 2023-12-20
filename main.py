@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
