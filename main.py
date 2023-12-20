@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
