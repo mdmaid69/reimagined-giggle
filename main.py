@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
