@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def reverse_list(lst):
+        return lst[::-1]
