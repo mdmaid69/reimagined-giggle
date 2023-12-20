@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_stack():
+        return collections.deque()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
