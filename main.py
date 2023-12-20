@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def check_if_array_contains_item(array, item):
+        return item in array
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
