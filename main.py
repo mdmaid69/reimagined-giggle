@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
