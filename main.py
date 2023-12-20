@@ -1,5 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
