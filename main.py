@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
