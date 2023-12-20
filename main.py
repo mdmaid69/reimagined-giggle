@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
