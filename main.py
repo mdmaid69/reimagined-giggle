@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import collections
-def create_user_list():
-        return collections.UserList()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
