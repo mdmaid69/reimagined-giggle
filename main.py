@@ -1,6 +1,7 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
