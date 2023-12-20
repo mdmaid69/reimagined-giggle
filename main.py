@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import sys
+def print_python_version():
+        return sys.version
