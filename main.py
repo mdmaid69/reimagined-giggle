@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
