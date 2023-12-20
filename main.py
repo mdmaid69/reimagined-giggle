@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
