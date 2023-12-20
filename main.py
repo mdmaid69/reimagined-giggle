@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
