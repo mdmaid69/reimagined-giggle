@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
