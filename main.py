@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def square_number(x):
+        return x**2
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
