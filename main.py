@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
