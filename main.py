@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
