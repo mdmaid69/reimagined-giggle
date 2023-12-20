@@ -1,6 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
