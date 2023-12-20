@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
