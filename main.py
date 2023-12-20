@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def add_numbers(x, y):
+        return x + y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
