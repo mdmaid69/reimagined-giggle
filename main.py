@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import random
-print(random.randint(0, 100))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
