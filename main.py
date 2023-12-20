@@ -1,4 +1,7 @@
-import time
-print(time.time())
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
