@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+x = 10
+y = 20
+print("Sum:", x + y)
