@@ -1,6 +1,4 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+print(datetime.datetime.now())
