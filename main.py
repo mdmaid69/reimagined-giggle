@@ -1,7 +1,3 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-x = 10
-y = 20
-print("Sum:", x + y)
+print([x**2 for x in range(10)])
+  def is_odd(n):
+        return n % 2 != 0
