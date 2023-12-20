@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
