@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
