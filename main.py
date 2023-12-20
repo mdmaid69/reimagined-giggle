@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
