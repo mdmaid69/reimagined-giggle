@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
