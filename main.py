@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
