@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
