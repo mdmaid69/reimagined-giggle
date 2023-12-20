@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
