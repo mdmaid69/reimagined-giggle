@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
