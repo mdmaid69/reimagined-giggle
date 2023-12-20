@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+print(sum(range(10)))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
