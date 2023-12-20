@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def find_max(lst):
+        return max(lst)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
