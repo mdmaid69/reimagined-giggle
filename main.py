@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def count_characters(sentence):
+        return len(sentence)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
