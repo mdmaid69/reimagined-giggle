@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def find_min(numbers):
+        return min(numbers)
