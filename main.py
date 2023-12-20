@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def convert_to_hex(n):
+        return hex(n)
