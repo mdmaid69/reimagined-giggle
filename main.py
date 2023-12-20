@@ -1,6 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def clear_array(array):
+        array *= 0
+def add_numbers(x, y):
+        return x + y
