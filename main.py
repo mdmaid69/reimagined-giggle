@@ -1,7 +1,10 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
