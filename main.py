@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
