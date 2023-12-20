@@ -1,5 +1,3 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+print("Hello, world!")
