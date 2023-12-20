@@ -1,11 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def sort_list(lst):
+        return sorted(lst)
