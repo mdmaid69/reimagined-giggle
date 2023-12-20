@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_average(lst):
+        return sum(lst) / len(lst)
