@@ -1,5 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
