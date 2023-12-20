@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
