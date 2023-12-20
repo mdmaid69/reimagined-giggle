@@ -1,6 +1,3 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+for i in range(10): print(i)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
