@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
