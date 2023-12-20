@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
