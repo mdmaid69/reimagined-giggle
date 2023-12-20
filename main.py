@@ -1,4 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-print([x**2 for x in range(10)])
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
