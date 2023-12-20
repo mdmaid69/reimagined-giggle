@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def roll_die():
+        return random.randint(1, 6)
+import tensorflow as tf
+print(tf.__version__)
