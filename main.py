@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+print(sys.version)
+def convert_to_octal(n):
+        return oct(n)
