@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
