@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def is_odd(n):
+        return n % 2 != 0
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
