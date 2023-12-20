@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_current_working_directory():
+        return os.getcwd()
+def reverse_list(lst):
+        return lst[::-1]
