@@ -1,5 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_work(force, distance):
-        return force * distance
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
