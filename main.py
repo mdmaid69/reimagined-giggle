@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_user_list():
-        return collections.UserList()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
