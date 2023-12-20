@@ -1,6 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
