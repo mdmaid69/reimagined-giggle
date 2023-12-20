@@ -1,4 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
