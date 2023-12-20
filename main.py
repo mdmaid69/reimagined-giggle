@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import time
+def get_time_since_epoch():
+        return time.time()
