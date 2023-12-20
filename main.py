@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def cube_number(x):
+        return x**3
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
