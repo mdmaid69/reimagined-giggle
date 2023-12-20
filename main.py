@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
