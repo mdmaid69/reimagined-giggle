@@ -1,5 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
