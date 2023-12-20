@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
