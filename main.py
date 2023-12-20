@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def is_palindrome(s):
+        return s == s[::-1]
+  def reverse_list(lst):
+        return lst[::-1]
