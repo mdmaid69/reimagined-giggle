@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
