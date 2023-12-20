@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
