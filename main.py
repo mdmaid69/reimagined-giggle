@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
