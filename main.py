@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_pressure(force, area):
+        return force / area
