@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def is_palindrome(s):
-        return s == s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
