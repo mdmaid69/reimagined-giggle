@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def count_characters(sentence):
+        return len(sentence)
