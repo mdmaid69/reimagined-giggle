@@ -1,4 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
