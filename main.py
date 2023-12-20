@@ -1,6 +1,10 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
