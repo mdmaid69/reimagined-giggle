@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
