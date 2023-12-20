@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
