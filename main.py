@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
