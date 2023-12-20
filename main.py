@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+print([x**2 for x in range(10)])
+import sys
+def print_python_version():
+        return sys.version
