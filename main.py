@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
