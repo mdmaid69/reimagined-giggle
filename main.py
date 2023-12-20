@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
