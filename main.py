@@ -1,5 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def convert_to_binary(n):
-        return bin(n)
+def square_number(x):
+        return x**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
