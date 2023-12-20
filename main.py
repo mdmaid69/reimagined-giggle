@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
