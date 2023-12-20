@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
