@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def count_words(sentence):
-        return len(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
