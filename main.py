@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
