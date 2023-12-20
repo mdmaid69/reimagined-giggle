@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_bool(array):
+        return bool(array)
