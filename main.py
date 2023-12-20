@@ -1,6 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
