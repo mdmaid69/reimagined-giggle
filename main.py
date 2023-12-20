@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
