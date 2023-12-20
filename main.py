@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_arc_sine(x):
+        return math.asin(x)
