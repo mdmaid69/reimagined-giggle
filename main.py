@@ -1,10 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def reverse_list(lst):
+        return lst[::-1]
