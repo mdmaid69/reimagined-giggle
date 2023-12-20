@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_area(radius):
+        return 3.14 * radius * radius
