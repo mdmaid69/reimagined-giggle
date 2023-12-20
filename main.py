@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
