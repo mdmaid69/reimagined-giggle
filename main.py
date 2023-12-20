@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
