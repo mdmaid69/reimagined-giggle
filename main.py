@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
