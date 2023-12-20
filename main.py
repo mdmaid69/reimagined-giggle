@@ -1,6 +1,8 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
