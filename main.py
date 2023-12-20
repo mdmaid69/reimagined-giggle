@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def clear_array(array):
+        array *= 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
