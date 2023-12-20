@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
