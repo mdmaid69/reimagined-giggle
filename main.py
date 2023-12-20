@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def square_number(x):
+        return x**2
