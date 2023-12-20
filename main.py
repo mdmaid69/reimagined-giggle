@@ -1,12 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
