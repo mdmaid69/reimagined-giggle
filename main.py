@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
