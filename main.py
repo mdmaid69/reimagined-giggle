@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def convert_to_hex(n):
+        return hex(n)
