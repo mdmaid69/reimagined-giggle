@@ -1,6 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
