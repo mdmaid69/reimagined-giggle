@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
