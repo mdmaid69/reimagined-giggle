@@ -1,6 +1,8 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
