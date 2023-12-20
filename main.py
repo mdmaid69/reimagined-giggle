@@ -1,8 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
