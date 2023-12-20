@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
