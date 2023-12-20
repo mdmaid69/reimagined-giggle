@@ -1,7 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
