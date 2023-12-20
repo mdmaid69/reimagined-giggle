@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_pressure(force, area):
-        return force / area
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_float(array):
+        return float(array[0])
