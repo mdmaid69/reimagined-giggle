@@ -1,4 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
