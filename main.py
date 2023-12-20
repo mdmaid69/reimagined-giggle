@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def check_if_array_contains_item(array, item):
+        return item in array
