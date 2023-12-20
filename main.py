@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
