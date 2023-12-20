@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
