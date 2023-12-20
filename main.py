@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
