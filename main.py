@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_speed(distance, time):
+        return distance / time
