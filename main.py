@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def cube_number(x):
+        return x**3
+import os
+def change_working_directory(path):
+        os.chdir(path)
