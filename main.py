@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def convert_to_octal(n):
+        return oct(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
