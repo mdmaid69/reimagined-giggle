@@ -1,8 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
