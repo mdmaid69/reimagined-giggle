@@ -1,7 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def check_if_array_contains_item(array, item):
+        return item in array
