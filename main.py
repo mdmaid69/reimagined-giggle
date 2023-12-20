@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
