@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
