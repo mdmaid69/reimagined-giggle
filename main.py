@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
