@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
