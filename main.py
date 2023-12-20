@@ -1,8 +1,8 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
