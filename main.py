@@ -1,8 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
