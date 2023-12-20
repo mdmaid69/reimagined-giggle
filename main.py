@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
