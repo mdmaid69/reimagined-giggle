@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
