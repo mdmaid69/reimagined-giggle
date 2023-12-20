@@ -1,5 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
