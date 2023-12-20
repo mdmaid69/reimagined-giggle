@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_item(array, i):
+        return array[i]
