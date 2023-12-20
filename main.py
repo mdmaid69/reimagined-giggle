@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_index(array, item):
+        return array.index(item)
+x = 10
+y = 20
+print("Sum:", x + y)
