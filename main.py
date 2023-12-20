@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
