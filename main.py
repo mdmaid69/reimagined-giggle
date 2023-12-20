@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
