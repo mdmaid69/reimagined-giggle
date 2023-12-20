@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
