@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_average(lst):
+        return sum(lst) / len(lst)
