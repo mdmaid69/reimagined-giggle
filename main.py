@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+def print_python_version():
+        print(sys.version)
