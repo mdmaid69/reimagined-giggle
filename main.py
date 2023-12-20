@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
