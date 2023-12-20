@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def extend_array(array, iterable):
+        array.extend(iterable)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
