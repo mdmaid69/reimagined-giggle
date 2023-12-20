@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
