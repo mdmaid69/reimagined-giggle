@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_pressure(force, area):
-        return force / area
+from collections import Counter
+print(Counter("hello world"))
+  def convert_to_hex(n):
+        return hex(n)
