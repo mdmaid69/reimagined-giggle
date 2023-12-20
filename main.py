@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_item(array, i):
+        return array[i]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
