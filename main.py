@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
