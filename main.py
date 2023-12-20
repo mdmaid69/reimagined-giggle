@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import getpass
+def get_username():
+        return getpass.getuser()
