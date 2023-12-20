@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
