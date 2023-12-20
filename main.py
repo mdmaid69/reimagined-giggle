@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
