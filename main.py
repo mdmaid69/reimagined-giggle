@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
