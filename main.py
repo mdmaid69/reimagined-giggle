@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
