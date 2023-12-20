@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def reverse_array(array):
+        array.reverse()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
