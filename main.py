@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import collections
+def create_user_dict():
+        return collections.UserDict()
