@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
