@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
