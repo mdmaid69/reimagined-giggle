@@ -1,5 +1,3 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+for i in range(10): print(i)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
