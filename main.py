@@ -1,6 +1,10 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
