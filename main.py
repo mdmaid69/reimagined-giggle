@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
