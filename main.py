@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
