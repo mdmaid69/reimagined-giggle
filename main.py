@@ -1,11 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
