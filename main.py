@@ -1,7 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
