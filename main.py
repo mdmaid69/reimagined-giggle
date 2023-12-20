@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
