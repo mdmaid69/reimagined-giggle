@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def is_odd(n):
+        return n % 2 != 0
