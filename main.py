@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_max(lst):
+        return max(lst)
