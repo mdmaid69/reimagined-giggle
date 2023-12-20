@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def print_python_version():
+        return sys.version
