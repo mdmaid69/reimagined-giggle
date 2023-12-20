@@ -1,5 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
