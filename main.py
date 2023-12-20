@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
