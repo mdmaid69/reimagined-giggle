@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
