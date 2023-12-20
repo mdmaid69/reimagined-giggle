@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def add_numbers(x, y):
+        return x + y
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
