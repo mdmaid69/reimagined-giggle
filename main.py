@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
