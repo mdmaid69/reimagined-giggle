@@ -1,7 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def square_number(x):
+        return x**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
