@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def find_min(lst):
-        return min(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
