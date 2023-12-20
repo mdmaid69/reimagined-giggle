@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
