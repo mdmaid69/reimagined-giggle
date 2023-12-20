@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def remove_from_array(array, item):
+        array.remove(item)
