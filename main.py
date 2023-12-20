@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
