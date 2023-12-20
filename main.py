@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
