@@ -1,4 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def convert_to_hex(n):
-        return hex(n)
+def multiply_numbers(x, y):
+        return x * y
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
