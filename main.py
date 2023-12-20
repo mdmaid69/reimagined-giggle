@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import sys
-def print_python_version():
-        print(sys.version)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
