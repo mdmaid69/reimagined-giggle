@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
