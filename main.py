@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
