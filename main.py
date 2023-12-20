@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
