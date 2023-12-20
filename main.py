@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
