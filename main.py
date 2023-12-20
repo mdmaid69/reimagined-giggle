@@ -1,8 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
