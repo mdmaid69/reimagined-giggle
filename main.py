@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import tensorflow as tf
+print(tf.__version__)
