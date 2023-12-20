@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
