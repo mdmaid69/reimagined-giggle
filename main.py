@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
