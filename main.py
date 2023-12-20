@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
