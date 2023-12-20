@@ -1,4 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
