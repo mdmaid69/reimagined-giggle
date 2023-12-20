@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_int(array):
+        return int(array[0])
