@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import getpass
+def get_username():
+        return getpass.getuser()
