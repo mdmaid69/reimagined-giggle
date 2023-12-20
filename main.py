@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import sys
+print(sys.version)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
