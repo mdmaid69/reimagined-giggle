@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def add_numbers(a, b):
+        return a + b
+def convert_to_octal(n):
+        return oct(n)
