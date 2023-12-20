@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_current_directory():
+        return os.getcwd()
