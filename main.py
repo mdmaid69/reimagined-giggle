@@ -1,5 +1,3 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def sort_numbers(numbers):
-        return sorted(numbers)
+name = "Python"
+print("Hello,", name)
+print("Hello, world!")
