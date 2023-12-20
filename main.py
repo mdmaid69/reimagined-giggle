@@ -1,5 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
