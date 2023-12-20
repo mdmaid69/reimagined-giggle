@@ -1,4 +1,9 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-print([x**2 for x in range(10)])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
