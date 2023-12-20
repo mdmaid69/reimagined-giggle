@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
