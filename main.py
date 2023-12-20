@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
