@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
