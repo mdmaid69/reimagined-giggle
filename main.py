@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_power(work, time):
+        return work / time
