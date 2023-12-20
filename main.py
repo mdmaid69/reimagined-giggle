@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def get_array_as_str(array):
+        return str(array)
