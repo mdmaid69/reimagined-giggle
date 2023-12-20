@@ -1,6 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def count_characters(sentence):
+        return len(sentence)
