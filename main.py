@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
