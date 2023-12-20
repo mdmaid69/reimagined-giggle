@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Words:", len(text.split()))
