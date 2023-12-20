@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
