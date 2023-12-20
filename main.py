@@ -1,8 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
