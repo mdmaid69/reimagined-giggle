@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import tensorflow as tf
-print(tf.__version__)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
