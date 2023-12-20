@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def convert_to_binary(n):
-        return bin(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
