@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
