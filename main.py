@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def add_numbers(x, y):
-        return x + y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
