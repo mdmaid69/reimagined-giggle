@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def count_elements(lst):
+        return len(lst)
+def is_odd(n):
+        return n % 2 != 0
