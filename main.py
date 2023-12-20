@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def add_numbers(x, y):
+        return x + y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
