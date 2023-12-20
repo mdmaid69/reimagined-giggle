@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
