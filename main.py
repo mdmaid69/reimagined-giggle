@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
