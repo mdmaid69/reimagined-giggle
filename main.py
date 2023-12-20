@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def sort_numbers(numbers):
-        return sorted(numbers)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
