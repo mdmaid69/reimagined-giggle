@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
