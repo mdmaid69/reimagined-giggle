@@ -1,8 +1,7 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
