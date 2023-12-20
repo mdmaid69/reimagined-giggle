@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
