@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
