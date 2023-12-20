@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+print(os.getcwd())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
