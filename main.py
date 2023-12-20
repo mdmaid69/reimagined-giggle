@@ -1,6 +1,9 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
