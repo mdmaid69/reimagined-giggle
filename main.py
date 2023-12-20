@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
