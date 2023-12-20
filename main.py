@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-print(os.getcwd())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+name = "Python"
+print("Hello,", name)
