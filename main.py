@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
