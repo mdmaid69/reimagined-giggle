@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_queue():
+        return collections.deque()
