@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
