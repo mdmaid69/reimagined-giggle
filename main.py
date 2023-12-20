@@ -1,5 +1,9 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def convert_to_binary(n):
-        return bin(n)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
