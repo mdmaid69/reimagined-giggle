@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
