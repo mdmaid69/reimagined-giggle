@@ -1,5 +1,7 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
