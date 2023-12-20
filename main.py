@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
