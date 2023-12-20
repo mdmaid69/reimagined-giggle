@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_hex(n):
+        return hex(n)
