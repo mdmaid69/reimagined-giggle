@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
