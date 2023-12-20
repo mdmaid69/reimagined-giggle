@@ -1,5 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
