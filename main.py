@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
