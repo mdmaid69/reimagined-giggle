@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_user_string():
+        return collections.UserString()
