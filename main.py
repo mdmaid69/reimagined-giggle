@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
