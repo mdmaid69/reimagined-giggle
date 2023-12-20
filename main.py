@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def sort_numbers(numbers):
+        return sorted(numbers)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
