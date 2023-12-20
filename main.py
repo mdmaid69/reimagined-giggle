@@ -1,5 +1,12 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
