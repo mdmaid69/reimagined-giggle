@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
