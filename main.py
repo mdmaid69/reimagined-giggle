@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-print(sys.version)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
