@@ -1,6 +1,7 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
