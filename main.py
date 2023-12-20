@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
