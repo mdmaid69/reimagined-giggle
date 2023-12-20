@@ -1,8 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
