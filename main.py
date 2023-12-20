@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
