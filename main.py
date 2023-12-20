@@ -1,6 +1,3 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+print([x**2 for x in range(10)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
