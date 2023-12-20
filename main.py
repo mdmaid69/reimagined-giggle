@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
