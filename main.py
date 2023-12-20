@@ -1,5 +1,11 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def reverse_list(lst):
-        return lst[::-1]
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import random
+def roll_die():
+        return random.randint(1, 6)
