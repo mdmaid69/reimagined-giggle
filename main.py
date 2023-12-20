@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
