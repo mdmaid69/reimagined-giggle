@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
