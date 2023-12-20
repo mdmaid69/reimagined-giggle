@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
