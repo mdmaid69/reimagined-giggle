@@ -1,11 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def remove_duplicates(lst):
+        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
