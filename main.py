@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
