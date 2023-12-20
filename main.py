@@ -1,8 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
