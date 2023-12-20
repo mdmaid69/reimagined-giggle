@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import time
-def get_time_since_epoch():
-        return time.time()
+def get_current_time():
+        return time.ctime()
