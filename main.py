@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
