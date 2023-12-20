@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import numpy as np
+print(np.array([1, 2, 3]))
