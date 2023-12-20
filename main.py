@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
