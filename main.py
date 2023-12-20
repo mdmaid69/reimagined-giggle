@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def find_max(lst):
-        return max(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
