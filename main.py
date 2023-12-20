@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
