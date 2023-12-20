@@ -1,8 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
