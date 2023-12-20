@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
