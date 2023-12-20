@@ -1,6 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
