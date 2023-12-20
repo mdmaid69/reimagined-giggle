@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_index(array, item):
+        return array.index(item)
