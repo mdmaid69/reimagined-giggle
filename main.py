@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
