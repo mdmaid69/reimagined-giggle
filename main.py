@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def add_numbers(a, b):
+        return a + b
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
