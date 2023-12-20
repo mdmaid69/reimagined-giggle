@@ -1,5 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_min(lst):
+        return min(lst)
