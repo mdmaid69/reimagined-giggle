@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import tensorflow as tf
-print(tf.__version__)
+import logging
+def log_message(message):
+        logging.info(message)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
