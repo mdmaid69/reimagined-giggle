@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_bytes(array):
+        return bytes(array)
