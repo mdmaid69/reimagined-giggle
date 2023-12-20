@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def find_max(lst):
+        return max(lst)
