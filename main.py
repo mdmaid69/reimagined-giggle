@@ -1,5 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-print(sum(range(10)))
+import time
+def get_current_time():
+        return time.time()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
