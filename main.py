@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def create_user_string():
+        return collections.UserString()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
