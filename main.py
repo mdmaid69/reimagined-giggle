@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
