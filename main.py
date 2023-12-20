@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
