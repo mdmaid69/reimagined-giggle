@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+for i in range(5):
+        print(i)
