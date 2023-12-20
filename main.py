@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+x = 10
+y = 20
+print("Sum:", x + y)
