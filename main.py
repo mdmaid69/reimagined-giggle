@@ -1,4 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
