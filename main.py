@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_as_list(array):
-        return list(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_density(mass, volume):
+        return mass / volume
