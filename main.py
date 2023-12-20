@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
