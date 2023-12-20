@@ -1,5 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
