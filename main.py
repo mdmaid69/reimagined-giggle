@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
