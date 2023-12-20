@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def multiply_numbers(x, y):
+        return x * y
