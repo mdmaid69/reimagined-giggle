@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
