@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-for i in range(5):
-        print(i)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
