@@ -1,7 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
