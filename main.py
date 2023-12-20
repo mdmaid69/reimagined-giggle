@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_power(work, time):
+        return work / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
