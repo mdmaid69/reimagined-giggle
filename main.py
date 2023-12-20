@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
