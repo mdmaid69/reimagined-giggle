@@ -1,5 +1,12 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
