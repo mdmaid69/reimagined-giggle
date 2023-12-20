@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_power(work, time):
+        return work / time
+import platform
+def get_python_version():
+        return platform.python_version()
