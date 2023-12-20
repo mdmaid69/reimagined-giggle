@@ -1,6 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_directory_name(path):
+        return os.path.dirname(path)
