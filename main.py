@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
