@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
