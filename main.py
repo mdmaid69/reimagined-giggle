@@ -1,5 +1,3 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+print("Hello, world!")
+def calculate_area_circle(r):
+        return 3.14 * r**2
