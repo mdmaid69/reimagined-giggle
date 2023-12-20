@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
