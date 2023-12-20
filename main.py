@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
