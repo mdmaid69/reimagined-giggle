@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_sine(x):
+        return math.sin(x)
