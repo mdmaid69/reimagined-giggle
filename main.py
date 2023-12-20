@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_user_string():
+        return collections.UserString()
