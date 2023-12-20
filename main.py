@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
