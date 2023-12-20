@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
