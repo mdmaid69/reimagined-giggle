@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
