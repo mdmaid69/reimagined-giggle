@@ -1,10 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def clear_array(array):
+        array *= 0
+def square_number(x):
+        return x**2
