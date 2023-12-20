@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
