@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
