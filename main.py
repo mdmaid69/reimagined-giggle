@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+def square_number(x):
+        return x**2
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def count_elements(iterable):
+        return collections.Counter(iterable)
