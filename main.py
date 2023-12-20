@@ -1,5 +1,5 @@
+  def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_circle_area(radius):
+        return math.pi * radius**2
