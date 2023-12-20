@@ -1,7 +1,7 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_max(numbers):
-        return max(numbers)
+def get_array_as_list(array):
+        return list(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
