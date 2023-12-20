@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
