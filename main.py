@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
