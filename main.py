@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
