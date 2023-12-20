@@ -1,8 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def sort_list(lst):
+        return sorted(lst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
