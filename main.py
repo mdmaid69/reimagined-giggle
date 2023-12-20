@@ -1,5 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
