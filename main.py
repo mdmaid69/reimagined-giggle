@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
