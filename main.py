@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def sort_list(lst):
+        return sorted(lst)
