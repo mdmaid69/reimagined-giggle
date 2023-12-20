@@ -1,10 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
