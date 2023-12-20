@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def sort_list(lst):
+        return sorted(lst)
+import time
+def get_current_time():
+        return time.ctime()
