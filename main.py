@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def add_numbers(a, b):
+        return a + b
