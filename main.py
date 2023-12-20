@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
