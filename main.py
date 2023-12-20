@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
