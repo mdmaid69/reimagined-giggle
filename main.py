@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
