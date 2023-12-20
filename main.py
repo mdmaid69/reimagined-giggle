@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
