@@ -1,5 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  def convert_to_octal(n):
+        return oct(n)
