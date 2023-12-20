@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import os
+print(os.getcwd())
