@@ -1,5 +1,7 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
