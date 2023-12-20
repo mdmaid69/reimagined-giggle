@@ -1,8 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
