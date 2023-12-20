@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-for i in range(5):
-        print(i)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
