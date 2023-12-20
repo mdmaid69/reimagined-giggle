@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
