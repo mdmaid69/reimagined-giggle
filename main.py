@@ -1,6 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
