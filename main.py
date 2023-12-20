@@ -1,5 +1,7 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
