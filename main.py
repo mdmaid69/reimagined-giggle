@@ -1,8 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def count_elements(lst):
+        return len(lst)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Powers of 2:", [2**x for x in range(n)])
