@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import sys
+def print_python_version():
+        return sys.version
