@@ -1,8 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
