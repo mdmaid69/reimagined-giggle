@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-print(math.pi)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
