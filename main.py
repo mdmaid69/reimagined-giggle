@@ -1,7 +1,3 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-print(os.getcwd())
+  def calculate_area_rectangle(l, w):
+        return l * w
+print(sum(range(10)))
