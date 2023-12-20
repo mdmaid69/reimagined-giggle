@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
