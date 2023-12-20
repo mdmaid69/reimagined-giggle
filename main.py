@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
