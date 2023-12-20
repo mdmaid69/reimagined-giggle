@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
