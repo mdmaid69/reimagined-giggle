@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import sys
+  def get_python_version():
+        return sys.version
