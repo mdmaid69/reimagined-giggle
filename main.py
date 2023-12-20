@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
