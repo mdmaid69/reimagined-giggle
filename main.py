@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
