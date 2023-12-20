@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
