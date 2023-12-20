@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
