@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
