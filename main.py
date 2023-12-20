@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_volume(length, width, height):
-        return length * width * height
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+text = "Hello, world!"
+print("Characters:", len(text))
