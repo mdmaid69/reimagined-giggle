@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
