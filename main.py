@@ -1,9 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def multiply_numbers(x, y):
+        return x * y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
