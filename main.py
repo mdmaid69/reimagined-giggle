@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
