@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
