@@ -1,7 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
