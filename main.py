@@ -1,6 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
