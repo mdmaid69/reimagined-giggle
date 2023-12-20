@@ -1,9 +1,4 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
