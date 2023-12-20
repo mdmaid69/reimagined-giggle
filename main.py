@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
