@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
