@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
