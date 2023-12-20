@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import numpy as np
+print(np.array([1, 2, 3]))
