@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
