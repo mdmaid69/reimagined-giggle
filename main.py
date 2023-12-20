@@ -1,6 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
