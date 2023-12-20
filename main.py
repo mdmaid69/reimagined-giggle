@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_mean(arr):
+        return np.mean(arr)
