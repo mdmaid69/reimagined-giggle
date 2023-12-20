@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def add_numbers(a, b):
+        return a + b
