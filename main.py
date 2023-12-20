@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
