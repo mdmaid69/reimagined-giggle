@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
