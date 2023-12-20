@@ -1,5 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
