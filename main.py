@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
