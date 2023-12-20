@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
