@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
