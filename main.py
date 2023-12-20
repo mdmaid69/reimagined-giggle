@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
