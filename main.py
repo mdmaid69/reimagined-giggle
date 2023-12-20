@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+def count_elements(lst):
+        return len(lst)
