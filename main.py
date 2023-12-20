@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
