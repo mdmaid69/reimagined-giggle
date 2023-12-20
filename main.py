@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
