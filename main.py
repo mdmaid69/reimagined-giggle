@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
