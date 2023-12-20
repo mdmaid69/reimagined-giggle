@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_arc_tangent(x):
+        return math.atan(x)
