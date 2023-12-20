@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_power(work, time):
-        return work / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
