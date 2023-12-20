@@ -1,7 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import numpy as np
+print(np.array([1, 2, 3]))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
