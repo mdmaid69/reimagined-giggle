@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
