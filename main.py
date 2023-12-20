@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
