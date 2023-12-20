@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
