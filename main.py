@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
