@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
+def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_exponential(x):
+        return math.exp(x)
