@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
