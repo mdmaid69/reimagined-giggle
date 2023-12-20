@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
