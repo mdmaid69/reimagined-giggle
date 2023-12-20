@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def add_numbers(x, y):
+        return x + y
