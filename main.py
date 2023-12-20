@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
