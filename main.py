@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
