@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-print(math.pi)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
