@@ -1,3 +1,10 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-print([x**2 for x in range(10)])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
