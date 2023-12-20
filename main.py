@@ -1,7 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
