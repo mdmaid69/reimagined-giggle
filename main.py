@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+text = "Hello, world!"
+print("Characters:", len(text))
