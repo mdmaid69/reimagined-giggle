@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_exponential(x):
+        return math.exp(x)
