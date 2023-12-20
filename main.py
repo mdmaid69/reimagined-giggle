@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+from collections import Counter
+print(Counter("hello world"))
