@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def check_if_array_contains_item(array, item):
+        return item in array
