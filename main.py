@@ -1,8 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
