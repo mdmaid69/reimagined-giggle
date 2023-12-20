@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
