@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
