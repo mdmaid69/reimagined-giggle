@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
