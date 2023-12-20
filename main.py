@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
