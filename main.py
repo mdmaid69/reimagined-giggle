@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
