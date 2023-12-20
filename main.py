@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def is_palindrome(s):
+        return s == s[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
