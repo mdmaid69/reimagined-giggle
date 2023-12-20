@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_pressure(force, area):
+        return force / area
