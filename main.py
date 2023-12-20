@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_float(array):
+        return float(array[0])
