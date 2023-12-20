@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import sys
+def print_python_version():
+        print(sys.version)
+  def multiply_numbers(x, y):
+        return x * y
