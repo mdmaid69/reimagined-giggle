@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
