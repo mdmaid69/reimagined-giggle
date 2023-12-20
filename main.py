@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
