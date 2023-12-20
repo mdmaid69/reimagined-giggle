@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import numpy as np
-print(np.array([1, 2, 3]))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import sys
+def print_python_version():
+        print(sys.version)
