@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
