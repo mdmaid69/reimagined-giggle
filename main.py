@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import datetime
-print(datetime.datetime.now())
+def cube_number(x):
+        return x**3
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
