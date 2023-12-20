@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+def find_max(numbers):
+        return max(numbers)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
