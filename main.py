@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def find_min(numbers):
-        return min(numbers)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
