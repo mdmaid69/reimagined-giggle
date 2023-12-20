@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
