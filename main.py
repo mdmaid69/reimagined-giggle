@@ -1,6 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
