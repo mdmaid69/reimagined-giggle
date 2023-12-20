@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
