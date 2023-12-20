@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_work(force, distance):
+        return force * distance
   import re
   def replace_all_occurrences(pattern, replace_with, string):
         return re.sub(pattern, replace_with, string)
