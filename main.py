@@ -1,8 +1,9 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
