@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
