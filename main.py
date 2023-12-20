@@ -1,5 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
