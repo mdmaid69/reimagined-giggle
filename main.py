@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_float(array):
+        return float(array[0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
