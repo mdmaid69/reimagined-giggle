@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_priority_queue():
-        return collections.deque()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
