@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
