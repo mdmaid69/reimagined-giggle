@@ -1,8 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def add_numbers(x, y):
+        return x + y
