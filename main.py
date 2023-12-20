@@ -1,6 +1,9 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
