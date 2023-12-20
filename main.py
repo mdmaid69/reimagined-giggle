@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
