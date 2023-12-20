@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
