@@ -1,8 +1,9 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
