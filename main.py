@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
