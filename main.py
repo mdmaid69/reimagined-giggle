@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def is_palindrome(s):
+        return s == s[::-1]
