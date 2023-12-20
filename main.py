@@ -1,6 +1,11 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
