@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def count_characters(sentence):
-        return len(sentence)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
