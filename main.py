@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
