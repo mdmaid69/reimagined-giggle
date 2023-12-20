@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
