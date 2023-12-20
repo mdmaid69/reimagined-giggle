@@ -1,4 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
