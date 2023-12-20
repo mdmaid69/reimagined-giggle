@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
