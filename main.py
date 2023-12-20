@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_area_rectangle(l, w):
+        return l * w
