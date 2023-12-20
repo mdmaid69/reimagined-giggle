@@ -1,8 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def get_bytes_from_array(array):
+        return array.tobytes()
