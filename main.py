@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
