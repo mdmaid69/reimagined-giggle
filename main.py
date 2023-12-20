@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
