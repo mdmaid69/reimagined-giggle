@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def subtract_numbers(x, y):
+        return x - y
