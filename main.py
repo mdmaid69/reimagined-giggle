@@ -1,7 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
