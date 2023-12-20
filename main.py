@@ -1,4 +1,5 @@
-def reverse_list(lst):
+  import sys
+  def get_python_version():
+        return sys.version
+  def reverse_list(lst):
         return lst[::-1]
-def reverse_string(s):
-        return s[::-1]
