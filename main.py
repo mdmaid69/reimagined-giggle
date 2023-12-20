@@ -1,5 +1,9 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
