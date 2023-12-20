@@ -1,5 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
