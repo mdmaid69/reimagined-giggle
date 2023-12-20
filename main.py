@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
