@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
