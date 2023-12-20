@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
