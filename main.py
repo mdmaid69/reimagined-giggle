@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_acceleration(speed, time):
+        return speed / time
