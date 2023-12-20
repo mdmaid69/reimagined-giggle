@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import platform
+def get_python_version():
+        return platform.python_version()
