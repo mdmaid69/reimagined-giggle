@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
