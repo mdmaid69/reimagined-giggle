@@ -1,5 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import random
-print(random.randint(0, 100))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_int(array):
+        return int(array[0])
