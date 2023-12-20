@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def cube_number(x):
+        return x**3
