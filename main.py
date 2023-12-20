@@ -1,6 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
