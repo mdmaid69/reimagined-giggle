@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
