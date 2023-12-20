@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
