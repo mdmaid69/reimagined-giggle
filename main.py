@@ -1,7 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
