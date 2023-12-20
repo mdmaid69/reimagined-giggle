@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
