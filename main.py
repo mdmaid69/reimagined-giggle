@@ -1,5 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
