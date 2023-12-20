@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
