@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def convert_to_hex(n):
-        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
