@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
