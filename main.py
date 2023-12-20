@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_typecode(array):
+        return array.typecode
