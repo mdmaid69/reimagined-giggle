@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
