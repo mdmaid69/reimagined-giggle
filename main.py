@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
