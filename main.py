@@ -1,6 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
