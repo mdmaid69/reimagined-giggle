@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_queue():
+        return collections.deque()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
