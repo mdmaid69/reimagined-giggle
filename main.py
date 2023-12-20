@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def count_elements(lst):
+        return len(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
