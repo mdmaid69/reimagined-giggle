@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_arc_cosine(x):
+        return math.acos(x)
