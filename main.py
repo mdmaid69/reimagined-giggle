@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_power(work, time):
-        return work / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def square_number(x):
+        return x**2
