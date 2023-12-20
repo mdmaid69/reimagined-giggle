@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
