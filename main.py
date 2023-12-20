@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
