@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import sys
+def print_python_version():
+        return sys.version
