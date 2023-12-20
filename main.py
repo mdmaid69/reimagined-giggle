@@ -1,8 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
