@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
