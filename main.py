@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def cube_number(x):
+        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
