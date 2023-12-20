@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def count_words(sentence):
+        return len(sentence.split())
