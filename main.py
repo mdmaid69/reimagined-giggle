@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
