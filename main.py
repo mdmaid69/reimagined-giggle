@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import random
+def roll_die():
+        return random.randint(1, 6)
