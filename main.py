@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
