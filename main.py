@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_floor(x):
+        return math.floor(x)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_buffer_info(array):
+        return array.buffer_info()
