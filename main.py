@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import logging
+def log_message(message):
+        logging.info(message)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
