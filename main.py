@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def multiply_numbers(x, y):
-        return x * y
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_priority_queue():
+        return collections.deque()
