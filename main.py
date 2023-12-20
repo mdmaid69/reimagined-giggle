@@ -1,6 +1,11 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
