@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def convert_to_hex(n):
-        return hex(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
