@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
