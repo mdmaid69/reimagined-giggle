@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
