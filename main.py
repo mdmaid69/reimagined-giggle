@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
