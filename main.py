@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
