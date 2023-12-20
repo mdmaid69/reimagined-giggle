@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_speed(distance, time):
+        return distance / time
