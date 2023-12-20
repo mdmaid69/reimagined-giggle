@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
