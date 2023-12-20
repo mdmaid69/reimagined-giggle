@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
