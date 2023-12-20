@@ -1,6 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
