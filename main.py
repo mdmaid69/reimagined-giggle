@@ -1,4 +1,6 @@
-import time
-print(time.time())
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
