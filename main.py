@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import collections
+def create_user_dict():
+        return collections.UserDict()
