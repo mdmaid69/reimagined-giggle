@@ -1,5 +1,10 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
