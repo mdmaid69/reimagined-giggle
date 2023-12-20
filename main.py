@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
