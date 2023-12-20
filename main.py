@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
