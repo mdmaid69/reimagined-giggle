@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import sys
+  def get_python_version():
+        return sys.version
