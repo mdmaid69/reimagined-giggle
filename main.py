@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import sys
-def exit_program():
-        sys.exit()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
