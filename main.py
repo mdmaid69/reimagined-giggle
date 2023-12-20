@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
