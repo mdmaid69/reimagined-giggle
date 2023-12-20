@@ -1,6 +1,9 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import sys
-def exit_program():
-        sys.exit()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
