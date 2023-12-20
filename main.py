@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def cube_number(x):
+        return x**3
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
