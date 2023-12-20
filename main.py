@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import random
+print(random.randint(0, 100))
+import array
+def get_array_as_list(array):
+        return list(array)
