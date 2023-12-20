@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
