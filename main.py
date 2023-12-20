@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
