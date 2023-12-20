@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-name = "Python"
-print("Hello,", name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_counter():
+        return collections.Counter()
