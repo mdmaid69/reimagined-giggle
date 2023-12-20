@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+print(datetime.datetime.now())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
