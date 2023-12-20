@@ -1,7 +1,11 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
