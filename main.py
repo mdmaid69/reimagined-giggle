@@ -1,6 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def divide_numbers(x, y):
+        return x / y
