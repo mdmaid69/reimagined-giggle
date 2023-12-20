@@ -1,7 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_power(work, time):
+        return work / time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
