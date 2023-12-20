@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+x = 10
+y = 20
+print("Sum:", x + y)
