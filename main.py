@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
