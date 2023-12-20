@@ -1,9 +1,7 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
