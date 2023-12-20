@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_pressure(force, area):
+        return force / area
