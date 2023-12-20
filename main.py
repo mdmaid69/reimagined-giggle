@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
