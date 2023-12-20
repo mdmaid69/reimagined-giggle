@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def sort_list(lst):
+        return sorted(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
