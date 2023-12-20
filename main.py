@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def get_array_as_int(array):
+        return int(array[0])
