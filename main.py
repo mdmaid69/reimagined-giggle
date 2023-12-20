@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def find_min(numbers):
-        return min(numbers)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
