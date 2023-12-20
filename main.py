@@ -1,4 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
