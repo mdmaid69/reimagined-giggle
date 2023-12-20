@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import sys
+  def get_python_version():
+        return sys.version
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
