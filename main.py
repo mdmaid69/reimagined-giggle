@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
