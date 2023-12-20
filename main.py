@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import time
+def get_current_time():
+        return time.time()
+def subtract_numbers(x, y):
+        return x - y
