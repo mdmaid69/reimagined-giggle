@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def is_odd(n):
+        return n % 2 != 0
