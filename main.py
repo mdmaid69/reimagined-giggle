@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
