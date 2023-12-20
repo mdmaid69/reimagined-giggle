@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
