@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
