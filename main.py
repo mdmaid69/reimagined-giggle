@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_speed(distance, time):
-        return distance / time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
