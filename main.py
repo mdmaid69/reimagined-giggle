@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import datetime
-print(datetime.datetime.now())
+def calculate_sign(x):
+        return math.copysign(1, x)
+import time
+def get_time_since_epoch():
+        return time.time()
