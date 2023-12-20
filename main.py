@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
