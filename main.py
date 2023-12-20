@@ -1,6 +1,5 @@
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
