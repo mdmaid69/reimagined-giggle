@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import re
-print(re.match("h.*o", "hello world"))
+import logging
+def log_message(message):
+        logging.info(message)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
