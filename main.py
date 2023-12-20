@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import os
+def get_current_working_directory():
+        return os.getcwd()
