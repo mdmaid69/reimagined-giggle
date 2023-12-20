@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def reverse_list(lst):
+        return lst[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
