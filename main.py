@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
