@@ -1,7 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
