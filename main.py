@@ -1,7 +1,11 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
