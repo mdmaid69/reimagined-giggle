@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-for i in range(5):
-        print(i)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
