@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
