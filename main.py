@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def reverse_array(array):
+        array.reverse()
