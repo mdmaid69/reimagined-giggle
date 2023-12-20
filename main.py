@@ -1,5 +1,5 @@
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
