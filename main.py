@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
