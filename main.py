@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def clear_array(array):
-        array *= 0
+import math
+print(math.pi)
+import sys
+def exit_program():
+        sys.exit()
