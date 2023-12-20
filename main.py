@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
