@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
