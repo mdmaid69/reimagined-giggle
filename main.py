@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def reverse_list(lst):
-        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
