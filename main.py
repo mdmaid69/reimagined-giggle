@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_queue():
+        return collections.deque()
