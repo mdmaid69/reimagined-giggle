@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_bytes_from_array(array):
+        return array.tobytes()
