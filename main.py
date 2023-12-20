@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
