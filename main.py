@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
