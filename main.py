@@ -1,5 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def add_numbers(a, b):
-        return a + b
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def count_characters(sentence):
+        return len(sentence)
