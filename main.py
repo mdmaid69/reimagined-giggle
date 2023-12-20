@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
