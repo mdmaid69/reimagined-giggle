@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_index(array, item):
-        return array.index(item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
