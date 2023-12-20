@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+print([x**2 for x in range(10)])
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
