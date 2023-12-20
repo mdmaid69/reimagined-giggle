@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
