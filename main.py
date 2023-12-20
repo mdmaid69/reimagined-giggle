@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
