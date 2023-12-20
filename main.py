@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def add_numbers(x, y):
+        return x + y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
