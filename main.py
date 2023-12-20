@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_pressure(force, area):
-        return force / area
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
