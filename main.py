@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
