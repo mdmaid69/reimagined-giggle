@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
