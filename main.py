@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
