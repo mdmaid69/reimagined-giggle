@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
