@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
