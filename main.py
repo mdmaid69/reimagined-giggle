@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
