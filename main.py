@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import datetime
-print(datetime.datetime.now())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
