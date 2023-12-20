@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
