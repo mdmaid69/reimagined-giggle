@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
