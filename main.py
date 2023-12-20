@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
