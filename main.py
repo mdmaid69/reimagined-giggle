@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_priority_queue():
+        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
