@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
