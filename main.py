@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
