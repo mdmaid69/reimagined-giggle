@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import sys
+def exit_program():
+        sys.exit()
