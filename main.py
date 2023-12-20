@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
