@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
