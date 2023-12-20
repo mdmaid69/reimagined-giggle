@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def square_number(x):
-        return x**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
