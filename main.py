@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def find_max(numbers):
-        return max(numbers)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
