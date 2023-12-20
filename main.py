@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def find_max(lst):
+        return max(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
