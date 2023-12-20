@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def is_palindrome(s):
+        return s == s[::-1]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
