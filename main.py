@@ -1,5 +1,5 @@
 import sys
-print(sys.version)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def exit_program():
+        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
