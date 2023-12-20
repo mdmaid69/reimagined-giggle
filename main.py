@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
