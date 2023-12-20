@@ -1,8 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
