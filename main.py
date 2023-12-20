@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
