@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def add_numbers(x, y):
+        return x + y
+import array
+def set_array_item(array, i, item):
+        array[i] = item
