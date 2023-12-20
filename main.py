@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
