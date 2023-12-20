@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_work(force, distance):
+        return force * distance
