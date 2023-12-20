@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
