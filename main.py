@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import datetime
-print(datetime.datetime.now())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
