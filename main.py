@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_power(work, time):
+        return work / time
