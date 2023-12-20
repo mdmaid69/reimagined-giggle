@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
