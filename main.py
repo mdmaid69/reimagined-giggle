@@ -1,5 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+print(math.pi)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
