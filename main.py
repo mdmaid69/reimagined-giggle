@@ -1,6 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import numpy as np
+print(np.array([1, 2, 3]))
+def multiply_numbers(x, y):
+        return x * y
