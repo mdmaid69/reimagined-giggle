@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
