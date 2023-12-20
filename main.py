@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def sort_list(lst):
+        return sorted(lst)
