@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def subtract_numbers(x, y):
+        return x - y
