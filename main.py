@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_length(array):
+        return len(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
