@@ -1,6 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
