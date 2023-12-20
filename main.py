@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+for i in range(5):
+        print(i)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
