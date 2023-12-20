@@ -1,6 +1,7 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
