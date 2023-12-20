@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
