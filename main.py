@@ -1,5 +1,12 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def convert_to_octal(n):
-        return oct(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
