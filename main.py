@@ -1,6 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def get_array_item(array, i):
+        return array[i]
+def find_min(lst):
+        return min(lst)
