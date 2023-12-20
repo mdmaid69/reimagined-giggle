@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
