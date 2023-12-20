@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
