@@ -1,5 +1,9 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import datetime
-print(datetime.datetime.now())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
