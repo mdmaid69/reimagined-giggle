@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def get_array_as_set(array):
+        return set(array)
