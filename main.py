@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def cube_number(x):
-        return x**3
+  def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
