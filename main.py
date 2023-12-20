@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
