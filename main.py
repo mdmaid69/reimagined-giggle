@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
