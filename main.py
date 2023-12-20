@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
