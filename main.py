@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
