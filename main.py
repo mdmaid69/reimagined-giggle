@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
