@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_density(mass, volume):
+        return mass / volume
