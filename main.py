@@ -1,6 +1,4 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+for i in range(10): print(i)
