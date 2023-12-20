@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import collections
+def create_priority_queue():
+        return collections.deque()
