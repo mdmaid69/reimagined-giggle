@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
