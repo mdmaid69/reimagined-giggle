@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def add_numbers(x, y):
-        return x + y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
