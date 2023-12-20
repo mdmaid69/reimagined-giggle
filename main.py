@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_power(work, time):
+        return work / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
