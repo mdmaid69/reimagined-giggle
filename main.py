@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
