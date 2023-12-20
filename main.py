@@ -1,8 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
