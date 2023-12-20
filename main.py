@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
