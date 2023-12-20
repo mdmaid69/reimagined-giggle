@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
