@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
