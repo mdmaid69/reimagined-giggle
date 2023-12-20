@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
