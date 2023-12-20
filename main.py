@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
