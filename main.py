@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def find_min(lst):
+        return min(lst)
