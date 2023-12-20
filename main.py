@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
