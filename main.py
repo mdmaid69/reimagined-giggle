@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
