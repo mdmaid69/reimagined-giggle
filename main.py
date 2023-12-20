@@ -1,7 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def multiply_numbers(x, y):
+        return x * y
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
