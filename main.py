@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
