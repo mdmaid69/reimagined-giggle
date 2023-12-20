@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
