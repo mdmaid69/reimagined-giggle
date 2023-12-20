@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
