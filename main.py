@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
