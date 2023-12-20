@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
