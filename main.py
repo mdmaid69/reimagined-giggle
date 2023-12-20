@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def delete_file(file_name):
+        os.remove(file_name)
+  import sys
+  def get_python_version():
+        return sys.version
