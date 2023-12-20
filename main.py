@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_string_from_array(array):
+        return array.tobytes()
