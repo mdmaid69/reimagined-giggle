@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
 import array
-def get_array_length(array):
-        return len(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import numpy as np
+print(np.array([1, 2, 3]))
