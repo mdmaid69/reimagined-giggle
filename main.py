@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
