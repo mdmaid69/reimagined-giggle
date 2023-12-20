@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
