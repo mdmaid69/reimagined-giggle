@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
