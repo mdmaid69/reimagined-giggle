@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
