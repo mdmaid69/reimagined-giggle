@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def greet(name):
+        print(f"Hello, {name}!")
