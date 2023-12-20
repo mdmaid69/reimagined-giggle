@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
