@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import sys
+def exit_program():
+        sys.exit()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
