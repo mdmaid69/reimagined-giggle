@@ -1,4 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
