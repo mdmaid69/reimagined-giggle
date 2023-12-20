@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
