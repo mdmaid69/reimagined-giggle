@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
