@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def get_list_from_array(array):
+        return array.tolist()
