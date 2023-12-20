@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
