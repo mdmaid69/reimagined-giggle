@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
