@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import tensorflow as tf
+print(tf.__version__)
 text = "Hello, world!"
-print("Characters:", len(text))
+print("Is palindrome:", text == text[::-1])
