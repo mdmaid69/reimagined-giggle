@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
