@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
