@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
