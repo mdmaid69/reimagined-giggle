@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
