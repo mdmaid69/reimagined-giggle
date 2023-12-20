@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
