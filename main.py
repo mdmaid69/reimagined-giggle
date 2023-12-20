@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Words:", len(text.split()))
