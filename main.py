@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
