@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def count_elements(lst):
+        return len(lst)
