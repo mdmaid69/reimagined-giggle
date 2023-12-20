@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_as_bool(array):
+        return bool(array)
