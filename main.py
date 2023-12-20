@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_float(array):
+        return float(array[0])
