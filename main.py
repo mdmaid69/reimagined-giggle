@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_volume(length, width, height):
+        return length * width * height
