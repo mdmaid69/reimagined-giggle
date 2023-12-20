@@ -1,4 +1,6 @@
-print("Hello, world!")
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
