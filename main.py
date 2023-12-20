@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
