@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def reverse_list(lst):
+        return lst[::-1]
+  def convert_to_hex(n):
+        return hex(n)
