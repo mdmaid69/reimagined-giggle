@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+name = "Python"
+print("Hello,", name)
