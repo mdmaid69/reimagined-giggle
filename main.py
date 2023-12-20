@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_density(mass, volume):
+        return mass / volume
+i = 0
+while i < 5:
+        print(i)
+        i += 1
