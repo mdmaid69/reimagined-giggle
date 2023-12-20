@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_user_string():
+        return collections.UserString()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
