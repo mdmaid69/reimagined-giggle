@@ -1,4 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-print(sum(range(10)))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
