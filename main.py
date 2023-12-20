@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
