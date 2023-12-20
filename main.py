@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
