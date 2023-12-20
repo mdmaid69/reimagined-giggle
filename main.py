@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_arc_sine(x):
+        return math.asin(x)
