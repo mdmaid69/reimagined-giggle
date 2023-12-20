@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
