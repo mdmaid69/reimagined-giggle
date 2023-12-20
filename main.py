@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def sort_list(lst):
+        return sorted(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
