@@ -1,5 +1,7 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
