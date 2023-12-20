@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def count_words(sentence):
-        return len(sentence.split())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import platform
+def get_python_version():
+        return platform.python_version()
