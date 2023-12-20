@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
