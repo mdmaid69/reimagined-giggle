@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
