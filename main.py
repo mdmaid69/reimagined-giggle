@@ -1,7 +1,11 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import unittest
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
