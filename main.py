@@ -1,5 +1,3 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+print("Hello, world!")
