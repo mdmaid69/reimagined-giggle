@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def cube_number(x):
-        return x**3
+  def delete_file(file_name):
+        os.remove(file_name)
+import re
+print(re.match("h.*o", "hello world"))
