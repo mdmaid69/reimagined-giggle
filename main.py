@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
