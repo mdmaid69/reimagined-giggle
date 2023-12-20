@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
