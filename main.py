@@ -1,6 +1,12 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
