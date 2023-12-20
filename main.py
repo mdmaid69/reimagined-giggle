@@ -1,6 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
