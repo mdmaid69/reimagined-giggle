@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
