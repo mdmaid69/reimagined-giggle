@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
