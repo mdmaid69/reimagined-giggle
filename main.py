@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-print(os.getcwd())
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
