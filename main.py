@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
