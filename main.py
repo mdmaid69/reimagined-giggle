@@ -1,7 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
