@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
