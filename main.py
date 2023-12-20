@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def cube_number(x):
+        return x**3
+def calculate_work(force, distance):
+        return force * distance
