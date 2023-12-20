@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
