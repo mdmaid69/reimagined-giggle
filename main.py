@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
