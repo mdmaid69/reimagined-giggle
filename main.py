@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
