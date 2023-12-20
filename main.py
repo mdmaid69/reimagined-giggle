@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
