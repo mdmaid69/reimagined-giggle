@@ -1,3 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
