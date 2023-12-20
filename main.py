@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import time
+def get_time_since_epoch():
+        return time.time()
