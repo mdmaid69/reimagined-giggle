@@ -1,5 +1,6 @@
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
