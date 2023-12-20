@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
