@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
