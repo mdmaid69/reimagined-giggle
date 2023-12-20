@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
