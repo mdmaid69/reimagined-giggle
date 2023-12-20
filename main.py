@@ -1,5 +1,10 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+text = "Hello, world!"
+print("Characters:", len(text))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
