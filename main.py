@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
