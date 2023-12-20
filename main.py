@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import time
+def get_time_since_epoch():
+        return time.time()
