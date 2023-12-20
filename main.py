@@ -1,5 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def add_numbers(x, y):
-        return x + y
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
