@@ -1,5 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
