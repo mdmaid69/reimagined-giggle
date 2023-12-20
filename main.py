@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
