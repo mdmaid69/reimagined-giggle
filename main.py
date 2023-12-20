@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
