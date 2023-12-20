@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def convert_to_hex(n):
-        return hex(n)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
