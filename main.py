@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
