@@ -1,9 +1,7 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
