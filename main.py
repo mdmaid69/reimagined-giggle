@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
