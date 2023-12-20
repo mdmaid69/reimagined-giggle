@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
