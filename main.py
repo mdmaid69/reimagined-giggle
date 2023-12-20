@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import re
+print(re.match("h.*o", "hello world"))
