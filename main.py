@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
