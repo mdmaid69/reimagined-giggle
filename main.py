@@ -1,5 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import re
-print(re.match("h.*o", "hello world"))
+def convert_to_octal(n):
+        return oct(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
