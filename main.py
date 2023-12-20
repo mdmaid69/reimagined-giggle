@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def reverse_string(s):
+        return s[::-1]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
