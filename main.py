@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
