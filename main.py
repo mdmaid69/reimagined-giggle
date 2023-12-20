@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
