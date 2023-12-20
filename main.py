@@ -1,4 +1,6 @@
-print("Hello, world!")
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
