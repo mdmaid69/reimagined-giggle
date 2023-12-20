@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
