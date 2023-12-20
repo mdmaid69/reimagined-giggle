@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def add_numbers(x, y):
+        return x + y
+def calculate_power(work, time):
+        return work / time
