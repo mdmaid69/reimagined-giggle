@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+print(math.pi)
