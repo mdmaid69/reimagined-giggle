@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
