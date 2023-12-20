@@ -1,6 +1,5 @@
+import math
+print(math.pi)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def create_user_list():
+        return collections.UserList()
