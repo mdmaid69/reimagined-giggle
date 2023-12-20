@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_pressure(force, area):
+        return force / area
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
