@@ -1,6 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def reverse_string(s):
+        return s[::-1]
