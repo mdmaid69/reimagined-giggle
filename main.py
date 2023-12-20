@@ -1,5 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
