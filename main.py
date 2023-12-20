@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
+def is_even(n):
+        return n % 2 == 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
