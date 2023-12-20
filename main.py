@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
