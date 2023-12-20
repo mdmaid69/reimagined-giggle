@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
