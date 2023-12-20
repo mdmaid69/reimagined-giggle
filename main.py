@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
