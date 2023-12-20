@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
