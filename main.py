@@ -1,4 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
