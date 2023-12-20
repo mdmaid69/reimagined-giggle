@@ -1,4 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def cube_number(x):
-        return x**3
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
