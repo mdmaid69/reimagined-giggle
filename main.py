@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def is_odd(n):
+        return n % 2 != 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
