@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
