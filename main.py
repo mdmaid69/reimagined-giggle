@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
