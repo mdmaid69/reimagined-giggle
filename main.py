@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
