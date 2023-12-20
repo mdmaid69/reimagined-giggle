@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def convert_to_octal(n):
+        return oct(n)
