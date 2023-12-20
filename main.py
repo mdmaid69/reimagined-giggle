@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
