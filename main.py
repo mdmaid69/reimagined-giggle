@@ -1,5 +1,8 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
