@@ -1,7 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
