@@ -1,5 +1,9 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_pressure(force, area):
-        return force / area
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
