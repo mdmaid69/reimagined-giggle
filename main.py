@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def cube_number(x):
-        return x**3
+print("Hello, world!")
+i = 0
+while i < 5:
+        print(i)
+        i += 1
