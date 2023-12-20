@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import sys
+def exit_program():
+        sys.exit()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
