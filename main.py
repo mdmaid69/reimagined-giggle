@@ -1,8 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
