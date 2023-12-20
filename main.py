@@ -1,9 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
