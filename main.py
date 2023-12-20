@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
