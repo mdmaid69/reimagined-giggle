@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import time
+def get_time_since_epoch():
+        return time.time()
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def log_message(message):
+        logging.info(message)
