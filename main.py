@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_gamma_function(x):
+        return math.gamma(x)
