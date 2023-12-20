@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def cube_number(x):
+        return x**3
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
