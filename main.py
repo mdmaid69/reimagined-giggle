@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def is_odd(n):
+        return n % 2 != 0
