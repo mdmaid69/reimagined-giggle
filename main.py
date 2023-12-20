@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import datetime
+print(datetime.datetime.now())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
