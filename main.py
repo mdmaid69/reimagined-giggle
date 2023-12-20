@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
