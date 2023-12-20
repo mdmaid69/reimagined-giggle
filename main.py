@@ -1,6 +1,8 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_current_time():
+        return time.ctime()
