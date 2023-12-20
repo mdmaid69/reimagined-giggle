@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
