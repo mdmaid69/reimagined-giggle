@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
