@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_area_rectangle(l, w):
+        return l * w
+def find_union(list1, list2):
+        return set(list1) | set(list2)
