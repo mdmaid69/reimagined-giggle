@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_as_float(array):
+        return float(array[0])
