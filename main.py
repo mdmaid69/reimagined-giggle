@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
