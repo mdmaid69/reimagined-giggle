@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
