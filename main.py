@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
