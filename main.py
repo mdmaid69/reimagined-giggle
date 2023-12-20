@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
