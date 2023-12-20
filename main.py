@@ -1,3 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-for i in range(10): print(i)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
