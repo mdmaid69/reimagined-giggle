@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def reverse_list(lst):
-        return lst[::-1]
+  def is_odd(n):
+        return n % 2 != 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
