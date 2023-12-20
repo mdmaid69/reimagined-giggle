@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print("Hello, world!")
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
