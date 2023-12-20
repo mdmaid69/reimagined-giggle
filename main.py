@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
