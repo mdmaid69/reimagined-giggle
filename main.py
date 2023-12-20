@@ -1,5 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
