@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
