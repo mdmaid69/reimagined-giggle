@@ -1,6 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
