@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
