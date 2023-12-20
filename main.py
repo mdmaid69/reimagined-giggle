@@ -1,7 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
