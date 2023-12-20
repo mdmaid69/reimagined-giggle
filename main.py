@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import re
+print(re.match("h.*o", "hello world"))
+  def convert_to_octal(n):
+        return oct(n)
