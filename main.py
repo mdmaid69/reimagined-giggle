@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_union(list1, list2):
+        return set(list1) | set(list2)
