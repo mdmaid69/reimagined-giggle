@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
