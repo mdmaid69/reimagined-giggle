@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def is_even(n):
+        return n % 2 == 0
