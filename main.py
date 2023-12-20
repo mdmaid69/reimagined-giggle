@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def count_words(sentence):
+        return len(sentence.split())
