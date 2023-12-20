@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def is_odd(n):
+        return n % 2 != 0
+def remove_duplicates(lst):
+        return list(set(lst))
