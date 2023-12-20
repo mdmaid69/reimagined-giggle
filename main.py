@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
