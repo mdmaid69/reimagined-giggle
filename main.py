@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def multiply_numbers(x, y):
-        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_str(array):
+        return str(array)
