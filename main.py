@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
