@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-print(math.pi)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
