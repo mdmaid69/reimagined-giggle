@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def add_numbers(a, b):
-        return a + b
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_volume(length, width, height):
+        return length * width * height
