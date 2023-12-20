@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
