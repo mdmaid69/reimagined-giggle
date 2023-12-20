@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def print_python_version():
+        print(sys.version)
+from collections import Counter
+print(Counter("hello world"))
