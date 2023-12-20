@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def split_path(path):
+        return os.path.split(path)
