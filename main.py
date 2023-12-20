@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def set_array_item(array, i, item):
+        array[i] = item
