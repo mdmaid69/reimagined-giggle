@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
