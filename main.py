@@ -1,7 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def count_elements(lst):
+        return len(lst)
