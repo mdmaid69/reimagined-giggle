@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def cube_number(x):
-        return x**3
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import datetime
+def get_today_date():
+        return datetime.date.today()
