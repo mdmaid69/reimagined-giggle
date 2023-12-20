@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def count_characters(sentence):
+        return len(sentence)
