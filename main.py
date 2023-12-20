@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
