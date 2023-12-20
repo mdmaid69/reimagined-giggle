@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
