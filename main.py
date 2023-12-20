@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
