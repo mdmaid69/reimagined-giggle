@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_force(mass, acceleration):
+        return mass * acceleration
