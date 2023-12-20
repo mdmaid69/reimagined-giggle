@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
