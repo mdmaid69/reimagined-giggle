@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+def get_time_since_epoch():
+        return time.time()
