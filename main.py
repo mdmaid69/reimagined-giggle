@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import sys
-def print_python_version():
-        return sys.version
+def exit_program():
+        sys.exit()
