@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def count_elements(lst):
-        return len(lst)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
