@@ -1,8 +1,7 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
