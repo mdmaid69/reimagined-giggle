@@ -1,6 +1,11 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def find_max(lst):
+        return max(lst)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
