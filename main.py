@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
