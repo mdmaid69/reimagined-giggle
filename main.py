@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_user_dict():
+        return collections.UserDict()
