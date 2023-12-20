@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
