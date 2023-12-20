@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
