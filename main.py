@@ -1,5 +1,7 @@
-import time
-print(time.time())
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
