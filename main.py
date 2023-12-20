@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
