@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
