@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
