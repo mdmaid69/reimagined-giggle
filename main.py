@@ -1,6 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
