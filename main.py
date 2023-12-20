@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
