@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
