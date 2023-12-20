@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
