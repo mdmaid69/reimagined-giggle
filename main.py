@@ -1,5 +1,8 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
