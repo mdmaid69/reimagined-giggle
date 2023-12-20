@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_force(mass, acceleration):
+        return mass * acceleration
