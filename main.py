@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
