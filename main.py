@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def sort_list(lst):
+        return sorted(lst)
