@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_acceleration(speed, time):
-        return speed / time
+import time
+print(time.time())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
