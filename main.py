@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
