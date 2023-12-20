@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
+def reverse_string(s):
+        return s[::-1]
