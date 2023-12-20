@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
