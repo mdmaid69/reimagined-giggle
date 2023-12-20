@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_area_rectangle(l, w):
+        return l * w
