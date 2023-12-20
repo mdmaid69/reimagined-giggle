@@ -1,3 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-print(sum(range(10)))
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
