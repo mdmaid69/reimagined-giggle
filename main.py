@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
