@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
