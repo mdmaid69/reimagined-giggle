@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def is_even(n):
+        return n % 2 == 0
