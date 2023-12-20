@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_as_str(array):
-        return str(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
