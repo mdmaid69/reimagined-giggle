@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_str(array):
+        return str(array)
