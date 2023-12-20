@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
