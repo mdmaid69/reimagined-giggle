@@ -1,6 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_sign(x):
+        return math.copysign(1, x)
