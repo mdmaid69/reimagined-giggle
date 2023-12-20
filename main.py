@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
