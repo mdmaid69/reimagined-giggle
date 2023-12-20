@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
