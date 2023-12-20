@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
