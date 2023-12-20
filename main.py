@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def count_characters(sentence):
-        return len(sentence)
+  def convert_to_octal(n):
+        return oct(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
