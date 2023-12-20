@@ -1,6 +1,8 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
