@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def convert_to_binary(n):
+        return bin(n)
