@@ -1,3 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-for i in range(10): print(i)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
