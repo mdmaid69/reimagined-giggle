@@ -1,10 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
