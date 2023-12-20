@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
