@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
