@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
