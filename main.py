@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def multiply_numbers(x, y):
+        return x * y
