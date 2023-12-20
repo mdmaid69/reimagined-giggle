@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+name = "Python"
+print("Hello,", name)
