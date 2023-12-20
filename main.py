@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_length(array):
-        return len(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
