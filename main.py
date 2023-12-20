@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
