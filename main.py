@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
