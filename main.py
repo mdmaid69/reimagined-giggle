@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
