@@ -1,8 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def find_min(lst):
+        return min(lst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
