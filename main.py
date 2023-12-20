@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def count_elements(lst):
+        return len(lst)
