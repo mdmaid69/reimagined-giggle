@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
