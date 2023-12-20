@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
