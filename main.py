@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  def is_even(n):
+        return n % 2 == 0
