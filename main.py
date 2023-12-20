@@ -1,7 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import json
+print(json.dumps({"name": "John", "age": 30}))
