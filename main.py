@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
