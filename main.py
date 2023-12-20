@@ -1,6 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
