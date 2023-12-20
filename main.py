@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
