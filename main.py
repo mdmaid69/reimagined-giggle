@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
