@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_int(array):
+        return int(array[0])
