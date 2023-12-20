@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def convert_to_hex(n):
+        return hex(n)
