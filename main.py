@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import collections
+def create_user_list():
+        return collections.UserList()
