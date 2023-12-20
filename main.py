@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
