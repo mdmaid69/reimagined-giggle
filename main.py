@@ -1,8 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
