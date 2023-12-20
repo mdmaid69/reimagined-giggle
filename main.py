@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
