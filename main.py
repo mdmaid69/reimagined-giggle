@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
