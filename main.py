@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
