@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import time
+def get_time_since_epoch():
+        return time.time()
