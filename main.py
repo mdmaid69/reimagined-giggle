@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def divide_numbers(x, y):
+        return x / y
