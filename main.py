@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
