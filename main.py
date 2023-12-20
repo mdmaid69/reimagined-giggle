@@ -1,5 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
