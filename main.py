@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+print(sys.version)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
