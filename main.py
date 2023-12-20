@@ -1,6 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
