@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
