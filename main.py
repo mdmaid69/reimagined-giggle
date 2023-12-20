@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import datetime
+print(datetime.datetime.now())
