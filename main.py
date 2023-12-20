@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def add_numbers(x, y):
+        return x + y
