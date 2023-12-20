@@ -1,5 +1,7 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
