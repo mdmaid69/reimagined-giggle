@@ -1,5 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
