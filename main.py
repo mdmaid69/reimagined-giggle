@@ -1,4 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-print([x**2 for x in range(10)])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
