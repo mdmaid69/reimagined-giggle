@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def count_characters(sentence):
+        return len(sentence)
