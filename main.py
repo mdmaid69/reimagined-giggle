@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
