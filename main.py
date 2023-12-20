@@ -1,7 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+print(random.randint(0, 100))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
