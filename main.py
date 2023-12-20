@@ -1,5 +1,4 @@
+def calculate_density(mass, volume):
+        return mass / volume
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
