@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
