@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
+def calculate_volume(length, width, height):
+        return length * width * height
