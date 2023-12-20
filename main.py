@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
