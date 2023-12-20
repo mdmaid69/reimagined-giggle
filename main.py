@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
