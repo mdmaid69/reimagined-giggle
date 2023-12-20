@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_typecode(array):
+        return array.typecode
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
