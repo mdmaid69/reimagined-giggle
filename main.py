@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
