@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def square_number(x):
-        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
+import logging
+def log_message(message):
+        logging.info(message)
