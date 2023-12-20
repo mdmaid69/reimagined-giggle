@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import sys
-def print_python_version():
-        return sys.version
+def remove_duplicates(lst):
+        return list(set(lst))
+text = "Hello, world!"
+print("Characters:", len(text))
