@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
