@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
