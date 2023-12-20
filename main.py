@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import getpass
+def get_username():
+        return getpass.getuser()
