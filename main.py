@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+for i in range(10): print(i)
