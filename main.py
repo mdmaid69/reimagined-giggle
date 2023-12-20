@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
