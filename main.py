@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
+print(sum(range(10)))
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
