@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import re
-print(re.match("h.*o", "hello world"))
+def subtract_numbers(x, y):
+        return x - y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
