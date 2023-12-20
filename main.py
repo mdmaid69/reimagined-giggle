@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
