@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def sort_numbers(numbers):
+        return sorted(numbers)
