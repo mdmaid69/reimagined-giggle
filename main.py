@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
