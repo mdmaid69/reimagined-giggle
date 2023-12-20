@@ -1,9 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+print(math.pi)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
