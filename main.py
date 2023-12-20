@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def reverse_list(lst):
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  def reverse_list(lst):
         return lst[::-1]
