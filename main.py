@@ -1,4 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def add_numbers(a, b):
-        return a + b
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
