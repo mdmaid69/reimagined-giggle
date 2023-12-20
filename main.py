@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
