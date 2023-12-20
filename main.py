@@ -1,6 +1,5 @@
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
