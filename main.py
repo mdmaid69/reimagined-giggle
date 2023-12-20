@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
