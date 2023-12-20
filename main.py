@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import sys
+def exit_program():
+        sys.exit()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
