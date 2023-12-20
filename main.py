@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
