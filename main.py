@@ -1,6 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
