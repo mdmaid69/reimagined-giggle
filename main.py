@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_power(work, time):
-        return work / time
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
