@@ -1,11 +1,8 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import threading
+def is_palindrome(s):
+        return s == s[::-1]
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+@app.route("/")
+def hello():
+        return "Hello, World!"
