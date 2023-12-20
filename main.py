@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def count_characters(sentence):
+        return len(sentence)
