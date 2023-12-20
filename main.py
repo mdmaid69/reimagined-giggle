@@ -1,5 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
