@@ -1,6 +1,8 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
