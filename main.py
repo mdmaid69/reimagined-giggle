@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def divide_numbers(x, y):
+        return x / y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
