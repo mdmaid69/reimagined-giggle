@@ -1,6 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
