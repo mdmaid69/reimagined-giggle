@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
