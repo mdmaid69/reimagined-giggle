@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import sys
-def print_python_version():
-        return sys.version
+def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
