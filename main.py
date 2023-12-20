@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
