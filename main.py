@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
