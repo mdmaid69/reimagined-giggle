@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def cube_number(x):
+        return x**3
