@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def count_elements(lst):
+        return len(lst)
