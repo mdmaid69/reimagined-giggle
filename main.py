@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
