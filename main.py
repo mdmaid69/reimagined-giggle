@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def change_working_directory(path):
+        os.chdir(path)
