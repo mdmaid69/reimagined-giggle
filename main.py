@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
