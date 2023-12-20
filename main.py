@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import time
+def get_current_time():
+        return time.time()
+import platform
+def get_python_version():
+        return platform.python_version()
