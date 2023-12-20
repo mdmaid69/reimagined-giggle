@@ -1,6 +1,7 @@
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
