@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
