@@ -1,6 +1,8 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
