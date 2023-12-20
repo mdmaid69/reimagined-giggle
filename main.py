@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
