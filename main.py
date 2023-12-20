@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
