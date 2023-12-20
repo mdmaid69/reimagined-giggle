@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
