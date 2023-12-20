@@ -1,5 +1,8 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
