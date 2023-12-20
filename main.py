@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def reverse_list(lst):
-        return lst[::-1]
+print("Words:", len(text.split()))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
