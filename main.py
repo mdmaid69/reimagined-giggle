@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
