@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def cube_number(x):
-        return x**3
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def sort_list(lst):
+        return sorted(lst)
