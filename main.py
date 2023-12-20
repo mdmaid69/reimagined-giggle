@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import sys
+  def get_python_version():
+        return sys.version
