@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_current_directory():
+        return os.getcwd()
