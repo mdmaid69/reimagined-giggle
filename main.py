@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_density(mass, volume):
+        return mass / volume
+def sort_list(lst):
+        return sorted(lst)
