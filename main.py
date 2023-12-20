@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def convert_to_octal(n):
+        return oct(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
