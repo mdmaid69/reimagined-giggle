@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
