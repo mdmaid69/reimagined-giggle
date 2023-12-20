@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
