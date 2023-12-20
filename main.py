@@ -1,5 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
