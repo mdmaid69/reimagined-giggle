@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
