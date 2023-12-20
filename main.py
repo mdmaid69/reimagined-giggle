@@ -1,5 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
