@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_as_float(array):
+        return float(array[0])
