@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
