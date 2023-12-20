@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import time
+def get_current_time():
+        return time.ctime()
