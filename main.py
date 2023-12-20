@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
