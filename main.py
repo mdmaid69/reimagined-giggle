@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
