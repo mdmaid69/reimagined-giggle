@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
