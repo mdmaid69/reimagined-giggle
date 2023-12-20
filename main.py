@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
