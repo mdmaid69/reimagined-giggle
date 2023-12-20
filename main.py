@@ -1,5 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def add_numbers(x, y):
-        return x + y
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
