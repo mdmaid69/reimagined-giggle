@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
