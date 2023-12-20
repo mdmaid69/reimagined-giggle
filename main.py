@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def greet(name):
-        print(f"Hello, {name}!")
+  def reverse_list(lst):
+        return lst[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
