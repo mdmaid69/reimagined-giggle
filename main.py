@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
