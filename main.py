@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
