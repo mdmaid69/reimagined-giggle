@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
