@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
