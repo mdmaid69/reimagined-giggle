@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
