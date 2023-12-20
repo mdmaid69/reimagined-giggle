@@ -1,7 +1,6 @@
-print("Hello, world!")
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
