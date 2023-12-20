@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import platform
+def get_os_info():
+        return platform.uname()
