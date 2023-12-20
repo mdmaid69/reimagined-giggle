@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
