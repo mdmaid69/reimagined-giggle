@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
