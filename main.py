@@ -1,8 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
