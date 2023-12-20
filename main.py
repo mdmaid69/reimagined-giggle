@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import tensorflow as tf
-print(tf.__version__)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_work(force, distance):
+        return force * distance
