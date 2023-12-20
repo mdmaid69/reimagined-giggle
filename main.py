@@ -1,7 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def subtract_numbers(x, y):
-        return x - y
+def reverse_array(array):
+        array.reverse()
+def square_number(x):
+        return x**2
