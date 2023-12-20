@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
