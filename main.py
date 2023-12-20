@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_list_from_array(array):
+        return array.tolist()
