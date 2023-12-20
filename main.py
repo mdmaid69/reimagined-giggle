@@ -1,8 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
