@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
