@@ -1,6 +1,7 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
