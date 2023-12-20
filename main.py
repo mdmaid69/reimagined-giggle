@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def split_path(path):
+        return os.path.split(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
