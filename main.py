@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
