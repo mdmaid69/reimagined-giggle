@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
