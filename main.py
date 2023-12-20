@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def remove_duplicates(lst):
+        return list(set(lst))
+def sort_numbers(numbers):
+        return sorted(numbers)
