@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
