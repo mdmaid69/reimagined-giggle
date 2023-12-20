@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
