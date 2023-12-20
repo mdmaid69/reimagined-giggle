@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
