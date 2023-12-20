@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_speed(distance, time):
+        return distance / time
