@@ -1,8 +1,12 @@
-import unittest
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import queue
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def split_path(path):
-        return os.path.split(path)
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
