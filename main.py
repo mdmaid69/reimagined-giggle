@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def reverse_string(s):
+        return s[::-1]
