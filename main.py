@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+print("Hello, world!")
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
