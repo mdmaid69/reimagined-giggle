@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
