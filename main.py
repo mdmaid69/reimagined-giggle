@@ -1,6 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def convert_array_to_string(array):
+        return array.tostring()
+import tensorflow as tf
+print(tf.__version__)
