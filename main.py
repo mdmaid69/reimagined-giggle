@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
