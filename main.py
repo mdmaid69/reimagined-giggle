@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
