@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
