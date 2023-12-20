@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
