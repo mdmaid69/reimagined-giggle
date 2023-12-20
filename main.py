@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
