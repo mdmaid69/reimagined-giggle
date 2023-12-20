@@ -1,5 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def count_words(sentence):
-        return len(sentence.split())
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
