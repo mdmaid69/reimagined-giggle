@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def find_min(lst):
+        return min(lst)
+import collections
+def create_queue():
+        return collections.deque()
