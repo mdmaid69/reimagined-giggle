@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
