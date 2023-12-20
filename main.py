@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
