@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
