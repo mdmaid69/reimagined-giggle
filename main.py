@@ -1,9 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_index(array, item):
+        return array.index(item)
