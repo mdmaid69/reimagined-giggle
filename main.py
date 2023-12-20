@@ -1,8 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
