@@ -1,5 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
