@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_priority_queue():
+        return collections.deque()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
