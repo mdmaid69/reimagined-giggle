@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_repr(array):
+        return repr(array)
