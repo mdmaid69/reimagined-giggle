@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import time
+def get_time_since_epoch():
+        return time.time()
