@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
