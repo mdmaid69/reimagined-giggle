@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-x = 10
-y = 20
-print("Sum:", x + y)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
