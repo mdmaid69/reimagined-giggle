@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
