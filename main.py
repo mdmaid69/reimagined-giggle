@@ -1,5 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def add_numbers(a, b):
-        return a + b
+def calculate_volume(length, width, height):
+        return length * width * height
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
