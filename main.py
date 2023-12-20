@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
