@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def is_even(n):
+        return n % 2 == 0
+def find_max(numbers):
+        return max(numbers)
