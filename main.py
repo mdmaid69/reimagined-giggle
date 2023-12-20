@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
