@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_error_function(x):
+        return math.erf(x)
