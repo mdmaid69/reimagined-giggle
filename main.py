@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def cube_number(x):
+        return x**3
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
