@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import platform
+def get_os_info():
+        return platform.uname()
