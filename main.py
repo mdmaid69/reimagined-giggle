@@ -1,7 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
