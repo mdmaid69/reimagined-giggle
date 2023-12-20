@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def subtract_numbers(x, y):
+        return x - y
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
