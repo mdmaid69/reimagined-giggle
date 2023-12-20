@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
