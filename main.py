@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
