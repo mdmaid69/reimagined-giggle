@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
