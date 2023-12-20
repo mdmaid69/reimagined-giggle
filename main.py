@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def get_current_working_directory():
+        return os.getcwd()
