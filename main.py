@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_pressure(force, area):
-        return force / area
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def cube_number(x):
+        return x**3
