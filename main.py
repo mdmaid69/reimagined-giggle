@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
+def add_numbers(a, b):
+        return a + b
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
