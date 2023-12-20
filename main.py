@@ -1,5 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
