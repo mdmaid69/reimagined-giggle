@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
