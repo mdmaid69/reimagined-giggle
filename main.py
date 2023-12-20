@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+print([x**2 for x in range(10)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
