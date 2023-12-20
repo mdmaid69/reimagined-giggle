@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_speed(distance, time):
+        return distance / time
