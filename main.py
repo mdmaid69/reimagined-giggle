@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
