@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
