@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
