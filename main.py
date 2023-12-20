@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-text = "Hello, world!"
-print("Characters:", len(text))
+import sys
+def print_python_version():
+        return sys.version
+import json
+def convert_to_json(data):
+        return json.dumps(data)
