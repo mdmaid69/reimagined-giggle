@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+for i in range(5):
+        print(i)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
