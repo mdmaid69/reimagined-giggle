@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import platform
-def get_python_version():
-        return platform.python_version()
+def convert_to_hex(n):
+        return hex(n)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
