@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
