@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
