@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_work(force, distance):
+        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
