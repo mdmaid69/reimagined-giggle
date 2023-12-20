@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def subtract_numbers(x, y):
+        return x - y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
