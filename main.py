@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_power(work, time):
+        return work / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
