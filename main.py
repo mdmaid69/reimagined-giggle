@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
