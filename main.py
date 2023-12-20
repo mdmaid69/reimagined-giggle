@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_int(array):
+        return int(array[0])
