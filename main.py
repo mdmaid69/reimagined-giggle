@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
