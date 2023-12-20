@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
