@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
