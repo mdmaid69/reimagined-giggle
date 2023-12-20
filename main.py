@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
