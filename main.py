@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_arc_tangent(x):
+        return math.atan(x)
