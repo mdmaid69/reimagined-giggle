@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def convert_to_hex(n):
+        return hex(n)
