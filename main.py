@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def convert_to_binary(n):
+        return bin(n)
