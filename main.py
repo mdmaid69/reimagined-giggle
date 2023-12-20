@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_acceleration(speed, time):
+        return speed / time
+def cube_number(x):
+        return x**3
