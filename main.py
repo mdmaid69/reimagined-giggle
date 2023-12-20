@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
