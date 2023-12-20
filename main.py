@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
