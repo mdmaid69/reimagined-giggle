@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+def get_current_date():
+        return datetime.date.today()
