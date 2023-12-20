@@ -1,6 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
