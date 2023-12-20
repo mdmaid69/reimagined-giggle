@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def is_odd(n):
+        return n % 2 != 0
