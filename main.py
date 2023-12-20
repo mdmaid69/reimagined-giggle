@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
