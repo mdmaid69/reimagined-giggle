@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
