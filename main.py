@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
