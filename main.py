@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
