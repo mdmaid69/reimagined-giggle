@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_to_hex(n):
+        return hex(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
