@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
