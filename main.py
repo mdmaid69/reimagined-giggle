@@ -1,6 +1,7 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
