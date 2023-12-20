@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
