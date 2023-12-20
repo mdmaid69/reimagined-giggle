@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import sys
+def exit_program():
+        sys.exit()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
