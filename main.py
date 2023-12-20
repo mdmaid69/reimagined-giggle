@@ -1,5 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
