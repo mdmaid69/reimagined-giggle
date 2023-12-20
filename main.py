@@ -1,7 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
