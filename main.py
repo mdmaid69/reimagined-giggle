@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
