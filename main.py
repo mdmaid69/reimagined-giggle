@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
