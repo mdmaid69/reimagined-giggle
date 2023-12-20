@@ -1,8 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
