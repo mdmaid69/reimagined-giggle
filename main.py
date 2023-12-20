@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-for i in range(5):
-        print(i)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
