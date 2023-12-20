@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
