@@ -1,5 +1,8 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
