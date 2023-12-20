@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
