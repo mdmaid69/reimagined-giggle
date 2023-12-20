@@ -1,6 +1,8 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def get_array_as_repr(array):
+        return repr(array)
