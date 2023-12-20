@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
