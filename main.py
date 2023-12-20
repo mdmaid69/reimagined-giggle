@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
