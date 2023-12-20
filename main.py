@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import re
+print(re.match("h.*o", "hello world"))
