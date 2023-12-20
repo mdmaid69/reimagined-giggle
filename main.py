@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
