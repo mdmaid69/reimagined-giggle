@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_volume(length, width, height):
+        return length * width * height
+import platform
+def get_os_info():
+        return platform.uname()
