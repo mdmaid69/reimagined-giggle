@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import os
+def remove_directory(path):
+        os.rmdir(path)
