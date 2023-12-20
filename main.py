@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
