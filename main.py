@@ -1,8 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import tensorflow as tf
+print(tf.__version__)
