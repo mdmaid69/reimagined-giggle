@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import logging
+def log_message(message):
+        logging.info(message)
