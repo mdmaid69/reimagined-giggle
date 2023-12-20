@@ -1,7 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def sort_numbers(numbers):
+        return sorted(numbers)
