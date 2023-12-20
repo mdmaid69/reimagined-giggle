@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
