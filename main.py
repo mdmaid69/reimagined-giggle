@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
