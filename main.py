@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
