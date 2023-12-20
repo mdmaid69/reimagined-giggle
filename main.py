@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
