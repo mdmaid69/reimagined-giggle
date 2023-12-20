@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
