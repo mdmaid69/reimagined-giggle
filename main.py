@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
