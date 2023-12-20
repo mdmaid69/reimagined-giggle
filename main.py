@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
