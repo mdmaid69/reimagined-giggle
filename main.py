@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_power(work, time):
-        return work / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def cube_number(x):
+        return x**3
