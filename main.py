@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
