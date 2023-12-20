@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
