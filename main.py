@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def print_python_version():
+        print(sys.version)
