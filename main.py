@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_density(mass, volume):
+        return mass / volume
