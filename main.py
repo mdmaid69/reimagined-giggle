@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
