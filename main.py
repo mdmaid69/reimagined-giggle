@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
