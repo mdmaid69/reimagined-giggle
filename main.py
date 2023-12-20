@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
