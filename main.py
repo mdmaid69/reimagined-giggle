@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
