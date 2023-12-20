@@ -1,4 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
