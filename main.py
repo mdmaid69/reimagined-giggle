@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
