@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
