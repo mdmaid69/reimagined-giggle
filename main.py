@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
