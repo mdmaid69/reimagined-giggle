@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
