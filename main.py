@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
