@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
