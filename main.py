@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
