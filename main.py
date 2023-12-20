@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def remove_duplicates(lst):
+        return list(set(lst))
