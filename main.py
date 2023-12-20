@@ -1,5 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_work(force, distance):
-        return force * distance
+import math
+print(math.pi)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
