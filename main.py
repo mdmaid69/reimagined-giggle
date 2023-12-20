@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def sort_list(lst):
+        return sorted(lst)
