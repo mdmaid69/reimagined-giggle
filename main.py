@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
