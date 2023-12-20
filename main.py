@@ -1,5 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
