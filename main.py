@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_mode(file_name):
+  def get_file_permissions(file_name):
         return os.stat(file_name).st_mode
