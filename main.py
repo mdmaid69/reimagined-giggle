@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
