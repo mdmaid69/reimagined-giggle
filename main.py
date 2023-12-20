@@ -1,12 +1,10 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
