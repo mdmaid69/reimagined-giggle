@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_queue():
+        return collections.deque()
