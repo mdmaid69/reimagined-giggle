@@ -1,6 +1,6 @@
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_item(array, i):
+        return array[i]
