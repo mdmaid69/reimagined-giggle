@@ -1,6 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_odd(n):
+        return n % 2 != 0
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
