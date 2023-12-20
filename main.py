@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
