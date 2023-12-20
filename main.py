@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_speed(distance, time):
+        return distance / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
