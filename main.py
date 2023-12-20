@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
