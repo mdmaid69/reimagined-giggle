@@ -1,5 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
