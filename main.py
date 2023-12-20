@@ -1,4 +1,10 @@
-for i in range(10): print(i)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
