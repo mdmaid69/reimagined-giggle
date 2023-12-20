@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
