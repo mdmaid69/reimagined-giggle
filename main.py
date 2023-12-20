@@ -1,4 +1,8 @@
-  def sort_list(lst):
-        return sorted(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
