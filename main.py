@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def calculate_area_rectangle(l, w):
+        return l * w
