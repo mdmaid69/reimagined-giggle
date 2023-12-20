@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def cube_number(x):
+        return x**3
