@@ -1,5 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
