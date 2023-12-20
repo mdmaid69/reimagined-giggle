@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+text = "Hello, world!"
+print("Words:", len(text.split()))
