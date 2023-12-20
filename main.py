@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
