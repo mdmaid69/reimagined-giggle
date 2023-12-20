@@ -1,5 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
