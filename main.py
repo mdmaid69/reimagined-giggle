@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def subtract_numbers(x, y):
+        return x - y
+text = "Hello, world!"
+print("Words:", len(text.split()))
