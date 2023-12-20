@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Characters:", len(text))
