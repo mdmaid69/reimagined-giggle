@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
