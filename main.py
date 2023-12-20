@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def count_elements(lst):
+        return len(lst)
