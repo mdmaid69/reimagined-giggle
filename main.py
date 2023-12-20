@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def subtract_numbers(x, y):
+        return x - y
