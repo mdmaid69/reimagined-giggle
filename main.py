@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_length(array):
+        return len(array)
