@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
