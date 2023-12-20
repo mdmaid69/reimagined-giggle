@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import random
-print(random.randint(0, 100))
+  import sys
+  def get_python_version():
+        return sys.version
+  def count_elements(lst):
+        return len(lst)
