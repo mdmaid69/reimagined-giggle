@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
