@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
