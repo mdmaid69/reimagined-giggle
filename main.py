@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_int(array):
+        return int(array[0])
