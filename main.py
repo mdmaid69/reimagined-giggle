@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
