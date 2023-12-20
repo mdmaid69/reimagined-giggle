@@ -1,8 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+for i in range(10): print(i)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
