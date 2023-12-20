@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
