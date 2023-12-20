@@ -1,11 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
