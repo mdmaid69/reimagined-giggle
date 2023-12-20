@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
