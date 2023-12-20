@@ -1,6 +1,8 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
