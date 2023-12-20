@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
