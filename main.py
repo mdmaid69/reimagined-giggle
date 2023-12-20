@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
