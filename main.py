@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def greet(name):
+        print(f"Hello, {name}!")
