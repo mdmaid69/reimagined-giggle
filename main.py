@@ -1,5 +1,4 @@
+print(sum(range(10)))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
