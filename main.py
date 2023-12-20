@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
