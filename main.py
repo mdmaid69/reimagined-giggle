@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
