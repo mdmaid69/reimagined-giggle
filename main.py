@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
