@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
