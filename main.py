@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
