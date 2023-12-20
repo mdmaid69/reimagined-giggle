@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
