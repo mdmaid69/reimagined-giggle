@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def multiply_numbers(x, y):
+        return x * y
