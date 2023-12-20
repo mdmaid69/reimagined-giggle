@@ -1,5 +1,11 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_pressure(force, area):
+        return force / area
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
