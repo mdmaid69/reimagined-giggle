@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def convert_to_hex(n):
-        return hex(n)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_acceleration(speed, time):
+        return speed / time
