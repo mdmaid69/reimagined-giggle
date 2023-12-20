@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
