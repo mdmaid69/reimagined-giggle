@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
