@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
