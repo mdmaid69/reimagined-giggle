@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def divide_numbers(x, y):
-        return x / y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
