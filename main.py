@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import sys
-def print_python_version():
-        return sys.version
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import collections
+def create_queue():
+        return collections.deque()
