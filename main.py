@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def is_even(n):
+        return n % 2 == 0
