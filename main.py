@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def subtract_numbers(x, y):
-        return x - y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
