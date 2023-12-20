@@ -1,5 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Characters:", len(text))
