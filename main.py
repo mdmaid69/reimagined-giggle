@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
