@@ -1,8 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
