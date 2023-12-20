@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
