@@ -1,7 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def sort_numbers(numbers):
+        return sorted(numbers)
