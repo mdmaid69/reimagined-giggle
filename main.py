@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import sys
+def print_python_version():
+        print(sys.version)
