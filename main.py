@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
