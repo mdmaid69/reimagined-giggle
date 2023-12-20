@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
