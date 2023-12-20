@@ -1,5 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
