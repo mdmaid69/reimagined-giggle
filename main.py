@@ -1,5 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def find_max(lst):
-        return max(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
