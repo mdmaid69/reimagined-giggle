@@ -1,8 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
