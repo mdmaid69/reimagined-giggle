@@ -1,6 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
