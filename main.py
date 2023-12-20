@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import platform
+def get_python_version():
+        return platform.python_version()
