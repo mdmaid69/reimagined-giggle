@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
