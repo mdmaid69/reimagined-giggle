@@ -1,8 +1,10 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
