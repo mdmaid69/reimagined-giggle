@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
