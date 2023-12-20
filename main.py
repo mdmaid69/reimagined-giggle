@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import re
-print(re.match("h.*o", "hello world"))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
