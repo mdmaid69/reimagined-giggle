@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
