@@ -1,5 +1,8 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
