@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
