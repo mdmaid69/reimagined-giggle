@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
