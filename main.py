@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def set_array_item(array, i, item):
+        array[i] = item
+import sys
+def exit_program():
+        sys.exit()
