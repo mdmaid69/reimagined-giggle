@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-for i in range(5):
-        print(i)
+def find_min(lst):
+        return min(lst)
+import re
+print(re.match("h.*o", "hello world"))
