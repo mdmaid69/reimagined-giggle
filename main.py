@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def reverse_string(s):
+        return s[::-1]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
