@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
