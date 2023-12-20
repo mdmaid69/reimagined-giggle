@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
