@@ -1,6 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
