@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def add_numbers(a, b):
+        return a + b
