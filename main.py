@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_area_rectangle(l, w):
+        return l * w
