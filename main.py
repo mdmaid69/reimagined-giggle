@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+print("Sum:", sum(numbers))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
