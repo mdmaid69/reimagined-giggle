@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def calculate_power(work, time):
-        return work / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_user_string():
+        return collections.UserString()
