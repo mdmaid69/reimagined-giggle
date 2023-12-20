@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
