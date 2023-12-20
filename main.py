@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
