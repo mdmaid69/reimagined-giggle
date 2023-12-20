@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def remove_from_array(array, item):
+        array.remove(item)
