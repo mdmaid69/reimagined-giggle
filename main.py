@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
