@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def square_number(x):
-        return x**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
