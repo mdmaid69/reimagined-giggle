@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def add_numbers(a, b):
+        return a + b
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
