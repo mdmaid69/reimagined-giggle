@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
