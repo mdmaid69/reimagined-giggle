@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_user_string():
+        return collections.UserString()
