@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def multiply_numbers(x, y):
+        return x * y
