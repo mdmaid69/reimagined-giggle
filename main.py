@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_work(force, distance):
+        return force * distance
