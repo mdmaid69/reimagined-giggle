@@ -1,6 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def get_array_buffer_info(array):
+        return array.buffer_info()
