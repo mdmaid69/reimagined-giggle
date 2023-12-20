@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import logging
+def log_message(message):
+        logging.info(message)
