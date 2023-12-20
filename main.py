@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
