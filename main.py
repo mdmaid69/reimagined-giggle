@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-for i in range(5):
-        print(i)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def remove_duplicates(lst):
+        return list(set(lst))
