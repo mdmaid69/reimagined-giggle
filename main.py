@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_speed(distance, time):
+        return distance / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
