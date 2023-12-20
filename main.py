@@ -1,5 +1,6 @@
-import time
-print(time.time())
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
