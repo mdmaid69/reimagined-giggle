@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
