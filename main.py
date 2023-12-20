@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def sort_list(lst):
+        return sorted(lst)
