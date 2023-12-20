@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+name = "Python"
+print("Hello,", name)
