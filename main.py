@@ -1,5 +1,8 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def is_odd(n):
-        return n % 2 != 0
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
