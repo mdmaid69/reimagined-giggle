@@ -1,7 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
