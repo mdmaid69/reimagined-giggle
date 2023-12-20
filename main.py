@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def add_numbers(x, y):
+        return x + y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
