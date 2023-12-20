@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_user_string():
+        return collections.UserString()
