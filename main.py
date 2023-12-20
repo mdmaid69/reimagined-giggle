@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
