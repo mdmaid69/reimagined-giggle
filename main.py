@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
