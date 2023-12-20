@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import re
+print(re.match("h.*o", "hello world"))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
