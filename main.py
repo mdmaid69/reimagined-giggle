@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
