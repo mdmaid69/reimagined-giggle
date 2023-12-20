@@ -1,4 +1,8 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
