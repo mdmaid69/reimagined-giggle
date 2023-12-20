@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_frozenset(array):
+        return frozenset(array)
