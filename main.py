@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def count_elements(lst):
-        return len(lst)
+def calculate_gamma_function(x):
+        return math.gamma(x)
