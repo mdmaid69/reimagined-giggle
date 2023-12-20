@@ -1,6 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
