@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_to_binary(n):
+        return bin(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
