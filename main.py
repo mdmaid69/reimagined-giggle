@@ -1,7 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
