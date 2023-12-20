@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def count_elements(lst):
+        return len(lst)
 import array
-def get_array_as_str(array):
-        return str(array)
+def clear_array(array):
+        array *= 0
