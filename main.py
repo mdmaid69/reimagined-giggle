@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def divide_numbers(x, y):
-        return x / y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
