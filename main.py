@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_density(mass, volume):
+        return mass / volume
