@@ -1,6 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
