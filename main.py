@@ -1,7 +1,7 @@
 import array
-def convert_string_to_array(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-def calculate_work(force, distance):
-        return force * distance
+def find_max(numbers):
+        return max(numbers)
