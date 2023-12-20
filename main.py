@@ -1,6 +1,9 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
