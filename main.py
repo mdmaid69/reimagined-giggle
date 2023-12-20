@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
