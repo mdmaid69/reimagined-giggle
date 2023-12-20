@@ -1,5 +1,3 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+for i in range(10): print(i)
