@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import platform
+def get_python_version():
+        return platform.python_version()
+def convert_to_binary(n):
+        return bin(n)
