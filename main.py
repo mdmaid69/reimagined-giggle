@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_queue():
+        return collections.deque()
