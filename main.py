@@ -1,6 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import sys
+def exit_program():
+        sys.exit()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
