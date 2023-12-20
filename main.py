@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def add_numbers(x, y):
+        return x + y
