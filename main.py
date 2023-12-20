@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
