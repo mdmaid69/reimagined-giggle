@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
