@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
