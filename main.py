@@ -1,4 +1,8 @@
-def square_number(x):
-        return x**2
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
