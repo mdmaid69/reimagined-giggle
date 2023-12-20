@@ -1,5 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+i = 0
+while i < 5:
+        print(i)
+        i += 1
