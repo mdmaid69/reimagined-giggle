@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
