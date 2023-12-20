@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
