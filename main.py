@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
