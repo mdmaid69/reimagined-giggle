@@ -5,6 +5,5 @@ def calculate_payback_period(cash_flows):
         if cumulative_cash_flow >= 0:
                 return i
         return None
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
