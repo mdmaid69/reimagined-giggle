@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
