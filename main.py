@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
