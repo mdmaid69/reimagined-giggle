@@ -1,6 +1,10 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
