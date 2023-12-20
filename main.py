@@ -1,5 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
