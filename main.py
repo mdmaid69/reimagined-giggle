@@ -1,7 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def convert_to_binary(n):
-        return bin(n)
+  def subtract_numbers(x, y):
+        return x - y
+import re
+print(re.match("h.*o", "hello world"))
