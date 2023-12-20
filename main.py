@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
