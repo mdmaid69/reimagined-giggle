@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import os
+print(os.getcwd())
+  def multiply_numbers(x, y):
+        return x * y
