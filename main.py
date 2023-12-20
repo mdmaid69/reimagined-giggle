@@ -1,5 +1,8 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
