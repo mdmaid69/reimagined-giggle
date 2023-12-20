@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_current_directory():
+        return os.getcwd()
