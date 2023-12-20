@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def square_number(x):
+        return x**2
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
