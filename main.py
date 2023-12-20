@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
