@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-print(sys.version)
+print(sum(range(10)))
+import math
+def calculate_sine(x):
+        return math.sin(x)
