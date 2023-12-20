@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+text = "Hello, world!"
+print("Reversed:", text[::-1])
