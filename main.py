@@ -1,5 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
