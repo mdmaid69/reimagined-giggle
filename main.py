@@ -1,7 +1,8 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import tensorflow as tf
-print(tf.__version__)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
