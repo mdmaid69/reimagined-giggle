@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
