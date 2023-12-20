@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def reverse_array(array):
-        array.reverse()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import collections
+def create_counter():
+        return collections.Counter()
