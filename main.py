@@ -1,4 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def count_elements(lst):
+        return len(lst)
