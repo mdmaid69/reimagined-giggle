@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-from collections import Counter
-print(Counter("hello world"))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
