@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
