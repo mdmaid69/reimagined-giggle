@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
