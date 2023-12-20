@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
