@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import sys
-  def get_python_version():
-        return sys.version
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
