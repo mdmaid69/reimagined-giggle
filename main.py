@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
