@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
