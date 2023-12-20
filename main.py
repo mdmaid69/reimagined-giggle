@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_arc_cosine(x):
+        return math.acos(x)
