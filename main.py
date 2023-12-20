@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
