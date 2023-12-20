@@ -1,5 +1,4 @@
 n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+print("Square numbers:", [x**2 for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
