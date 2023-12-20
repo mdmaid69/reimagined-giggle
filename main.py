@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
