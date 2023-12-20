@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
