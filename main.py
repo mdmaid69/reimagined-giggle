@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
