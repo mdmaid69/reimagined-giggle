@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
