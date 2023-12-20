@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def reverse_list(lst):
+        return lst[::-1]
