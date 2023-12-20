@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
