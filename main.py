@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import sys
+def exit_program():
+        sys.exit()
