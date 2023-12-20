@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
