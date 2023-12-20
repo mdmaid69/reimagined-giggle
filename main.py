@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_counter():
+        return collections.Counter()
