@@ -1,11 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
