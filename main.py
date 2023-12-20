@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
