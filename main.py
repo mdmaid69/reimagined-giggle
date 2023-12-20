@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import time
-print(time.time())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_user_list():
+        return collections.UserList()
