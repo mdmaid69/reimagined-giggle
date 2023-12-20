@@ -1,6 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
