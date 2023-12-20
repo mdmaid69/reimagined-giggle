@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
