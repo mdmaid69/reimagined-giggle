@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
