@@ -1,6 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import platform
-def get_os_info():
-        return platform.uname()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
