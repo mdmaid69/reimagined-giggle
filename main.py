@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
