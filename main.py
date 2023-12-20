@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def count_words(sentence):
+        return len(sentence.split())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
