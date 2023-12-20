@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
