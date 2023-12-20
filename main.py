@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
