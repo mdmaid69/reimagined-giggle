@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
