@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+print(time.time())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
