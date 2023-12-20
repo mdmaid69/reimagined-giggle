@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_length(array):
+        return len(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
