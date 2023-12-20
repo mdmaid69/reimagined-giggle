@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+print(os.getcwd())
