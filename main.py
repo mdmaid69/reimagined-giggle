@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import sys
+def exit_program():
+        sys.exit()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
