@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
