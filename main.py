@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
