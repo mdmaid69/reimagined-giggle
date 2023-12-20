@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
