@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
