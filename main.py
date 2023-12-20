@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
