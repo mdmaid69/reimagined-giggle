@@ -1,5 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
