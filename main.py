@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
