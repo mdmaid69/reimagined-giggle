@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-def convert_to_hex(n):
-        return hex(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
