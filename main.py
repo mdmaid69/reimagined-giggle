@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_pressure(force, area):
-        return force / area
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
