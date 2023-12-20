@@ -1,8 +1,8 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def convert_string_to_array(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
