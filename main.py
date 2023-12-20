@@ -1,7 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
