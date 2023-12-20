@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import time
-def get_current_time():
-        return time.ctime()
+def count_elements(lst):
+        return len(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
