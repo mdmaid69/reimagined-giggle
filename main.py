@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
