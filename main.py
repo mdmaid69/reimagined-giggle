@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import platform
-def get_os_info():
-        return platform.uname()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
