@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
