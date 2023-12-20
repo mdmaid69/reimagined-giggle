@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
