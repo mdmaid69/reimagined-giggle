@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import sys
+def print_python_version():
+        print(sys.version)
