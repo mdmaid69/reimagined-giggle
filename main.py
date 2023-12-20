@@ -1,10 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
