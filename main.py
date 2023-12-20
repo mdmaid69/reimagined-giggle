@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import getpass
+def get_username():
+        return getpass.getuser()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
