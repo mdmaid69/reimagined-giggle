@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import re
+print(re.match("h.*o", "hello world"))
