@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def reverse_array(array):
+        array.reverse()
