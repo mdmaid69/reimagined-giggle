@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_length(array):
-        return len(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
