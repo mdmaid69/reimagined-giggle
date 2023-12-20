@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def multiply_numbers(x, y):
-        return x * y
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_bool(array):
+        return bool(array)
