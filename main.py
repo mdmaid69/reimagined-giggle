@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
