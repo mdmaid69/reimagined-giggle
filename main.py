@@ -1,5 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def reverse_string(s):
-        return s[::-1]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
