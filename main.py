@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
