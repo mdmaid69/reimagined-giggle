@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_density(mass, volume):
+        return mass / volume
