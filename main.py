@@ -1,6 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
