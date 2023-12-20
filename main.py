@@ -1,4 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def divide_numbers(x, y):
+        return x / y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
