@@ -1,7 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
