@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def add_numbers(x, y):
-        return x + y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def is_palindrome(s):
+        return s == s[::-1]
