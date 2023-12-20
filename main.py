@@ -1,4 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-print(sum(range(10)))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
