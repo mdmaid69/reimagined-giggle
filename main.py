@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_max(lst):
-        return max(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
