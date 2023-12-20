@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def check_if_array_contains_item(array, item):
+        return item in array
+def add_numbers(x, y):
+        return x + y
