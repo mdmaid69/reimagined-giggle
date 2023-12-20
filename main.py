@@ -1,5 +1,11 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
