@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_length(array):
+        return len(array)
