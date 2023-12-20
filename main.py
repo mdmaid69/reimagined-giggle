@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
