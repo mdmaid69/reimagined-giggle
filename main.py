@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
