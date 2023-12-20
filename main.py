@@ -1,5 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
