@@ -1,5 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
