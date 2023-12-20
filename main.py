@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
