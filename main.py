@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
