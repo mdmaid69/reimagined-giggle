@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_typecode(array):
-        return array.typecode
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
