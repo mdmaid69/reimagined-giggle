@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
