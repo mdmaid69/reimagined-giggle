@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
