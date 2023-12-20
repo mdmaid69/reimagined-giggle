@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def is_odd(n):
+        return n % 2 != 0
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
