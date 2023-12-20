@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
