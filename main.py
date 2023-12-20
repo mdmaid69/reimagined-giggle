@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def is_even(n):
+        return n % 2 == 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
