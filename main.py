@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
