@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
