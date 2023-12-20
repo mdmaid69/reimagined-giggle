@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
