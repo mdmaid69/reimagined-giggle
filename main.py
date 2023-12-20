@@ -1,6 +1,3 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+print([x**2 for x in range(10)])
