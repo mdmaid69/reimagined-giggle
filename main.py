@@ -1,7 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
