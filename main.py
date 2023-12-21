@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import time
+def get_current_time():
+        return time.time()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
