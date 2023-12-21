@@ -1,6 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_as_int(array):
+        return int(array[0])
