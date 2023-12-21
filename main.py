@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
