@@ -1,5 +1,5 @@
+import os
+print(os.getcwd())
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
