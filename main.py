@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def is_odd(n):
+        return n % 2 != 0
