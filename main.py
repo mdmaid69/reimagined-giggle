@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
