@@ -1,5 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
