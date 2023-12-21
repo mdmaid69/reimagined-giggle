@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def divide_numbers(x, y):
-        return x / y
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
