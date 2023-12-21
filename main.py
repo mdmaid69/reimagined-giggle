@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def convert_to_octal(n):
-        return oct(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
