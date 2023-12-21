@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_area_circle(r):
+        return 3.14 * r**2
