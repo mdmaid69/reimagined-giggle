@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
