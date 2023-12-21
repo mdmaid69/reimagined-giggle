@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
