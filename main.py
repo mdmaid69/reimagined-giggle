@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
