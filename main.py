@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
