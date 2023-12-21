@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
