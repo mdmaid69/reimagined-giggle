@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_item(array, i):
+        return array[i]
+for i in range(5):
+        print(i)
