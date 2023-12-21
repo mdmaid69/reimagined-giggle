@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def convert_to_hex(n):
+        return hex(n)
