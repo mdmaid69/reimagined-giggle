@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
