@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
