@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
