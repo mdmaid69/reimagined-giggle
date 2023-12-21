@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import time
+def get_current_time():
+        return time.time()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
