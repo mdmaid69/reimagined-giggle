@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
