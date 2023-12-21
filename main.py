@@ -1,6 +1,3 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+for i in range(10): print(i)
+def find_min(numbers):
+        return min(numbers)
