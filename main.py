@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
