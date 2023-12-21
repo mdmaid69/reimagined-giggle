@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def add_numbers(x, y):
+        return x + y
