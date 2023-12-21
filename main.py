@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
