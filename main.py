@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
