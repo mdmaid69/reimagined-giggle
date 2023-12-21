@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
