@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def is_even(n):
-        return n % 2 == 0
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
