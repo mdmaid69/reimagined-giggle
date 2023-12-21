@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def square_number(x):
+        return x**2
