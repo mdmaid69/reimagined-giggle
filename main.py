@@ -1,5 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_max(lst):
-        return max(lst)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
