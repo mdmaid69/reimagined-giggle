@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
