@@ -1,6 +1,5 @@
-print([x**2 for x in range(10)])
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
+  def cube_number(x):
+        return x**3
