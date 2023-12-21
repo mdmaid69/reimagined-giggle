@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
