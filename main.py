@@ -1,5 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import datetime
+def get_current_date():
+        return datetime.date.today()
