@@ -1,8 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
