@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def square_number(x):
+        return x**2
