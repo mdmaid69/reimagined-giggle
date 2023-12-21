@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
