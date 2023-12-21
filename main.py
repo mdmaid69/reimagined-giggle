@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
