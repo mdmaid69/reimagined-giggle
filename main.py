@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_ceiling(x):
+        return math.ceil(x)
