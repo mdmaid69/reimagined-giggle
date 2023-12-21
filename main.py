@@ -1,6 +1,8 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
