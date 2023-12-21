@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
