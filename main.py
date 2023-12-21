@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def square_number(x):
-        return x**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
