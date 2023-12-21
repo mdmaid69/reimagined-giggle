@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
