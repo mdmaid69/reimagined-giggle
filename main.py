@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import datetime
+def get_today_date():
+        return datetime.date.today()
