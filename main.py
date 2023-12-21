@@ -1,10 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_user_string():
+        return collections.UserString()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
