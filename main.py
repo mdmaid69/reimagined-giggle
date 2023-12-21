@@ -1,4 +1,8 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
