@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def square_number(x):
+        return x**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
