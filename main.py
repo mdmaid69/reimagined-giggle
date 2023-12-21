@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def reverse_array(array):
-        array.reverse()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_user_list():
+        return collections.UserList()
