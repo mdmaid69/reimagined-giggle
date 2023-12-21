@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
