@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
