@@ -1,12 +1,3 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def count_characters(sentence):
+        return len(sentence)
+print([x**2 for x in range(10)])
