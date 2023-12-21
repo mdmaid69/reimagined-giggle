@@ -1,7 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_work(force, distance):
+        return force * distance
