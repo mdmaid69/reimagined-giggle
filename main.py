@@ -1,6 +1,5 @@
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def is_palindrome(s):
+        return s == s[::-1]
