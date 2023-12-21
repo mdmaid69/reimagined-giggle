@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
