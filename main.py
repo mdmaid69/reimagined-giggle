@@ -1,5 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def add_numbers(x, y):
-        return x + y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
