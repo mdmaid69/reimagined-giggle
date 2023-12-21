@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import datetime
+print(datetime.datetime.now())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
