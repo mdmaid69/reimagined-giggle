@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
