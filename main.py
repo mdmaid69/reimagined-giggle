@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
