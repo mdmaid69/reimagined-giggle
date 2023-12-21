@@ -1,12 +1,5 @@
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
