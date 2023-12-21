@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def is_even(n):
+        return n % 2 == 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
