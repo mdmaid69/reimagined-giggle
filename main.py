@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
