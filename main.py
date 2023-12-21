@@ -1,6 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def cube_number(x):
+        return x**3
