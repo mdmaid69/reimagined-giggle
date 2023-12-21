@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
