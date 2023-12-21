@@ -1,3 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-for i in range(10): print(i)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
