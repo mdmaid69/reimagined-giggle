@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
