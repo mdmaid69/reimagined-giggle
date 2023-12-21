@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_unique_words(sentence):
-        return set(sentence.split())
+import os
+print(os.getcwd())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
