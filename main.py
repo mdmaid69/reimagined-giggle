@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def convert_to_hex(n):
-        return hex(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def add_numbers(x, y):
+        return x + y
