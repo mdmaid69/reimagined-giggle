@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
