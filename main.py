@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
