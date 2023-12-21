@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
