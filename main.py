@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def is_odd(n):
+        return n % 2 != 0
