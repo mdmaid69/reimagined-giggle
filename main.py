@@ -1,8 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
