@@ -1,5 +1,9 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
