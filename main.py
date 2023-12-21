@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
