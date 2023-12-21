@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
