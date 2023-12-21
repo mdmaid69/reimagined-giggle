@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def find_unique_words(sentence):
+        return set(sentence.split())
