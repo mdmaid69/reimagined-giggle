@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
