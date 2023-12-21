@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def convert_to_hex(n):
+        return hex(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
