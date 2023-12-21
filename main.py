@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import time
+def get_current_time():
+        return time.ctime()
