@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import time
+print(time.time())
 import array
-def clear_array(array):
-        array *= 0
+def get_array_length(array):
+        return len(array)
