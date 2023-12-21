@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
