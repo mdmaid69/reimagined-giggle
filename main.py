@@ -1,5 +1,3 @@
-  def add_numbers(x, y):
-        return x + y
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+print(sum(range(10)))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
