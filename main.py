@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def clear_array(array):
+        array *= 0
