@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def get_current_time():
+        return time.time()
+import time
+print(time.time())
