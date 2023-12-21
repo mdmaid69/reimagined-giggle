@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_counter():
+        return collections.Counter()
+import datetime
+def get_today_date():
+        return datetime.date.today()
