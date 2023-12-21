@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
