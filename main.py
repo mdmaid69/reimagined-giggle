@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
