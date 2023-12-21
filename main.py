@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
