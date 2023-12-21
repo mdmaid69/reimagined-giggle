@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def convert_to_octal(n):
+        return oct(n)
+def convert_to_hex(n):
+        return hex(n)
