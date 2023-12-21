@@ -1,4 +1,10 @@
-import tensorflow as tf
-print(tf.__version__)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
