@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
