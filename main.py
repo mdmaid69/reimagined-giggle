@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def multiply_numbers(x, y):
+        return x * y
