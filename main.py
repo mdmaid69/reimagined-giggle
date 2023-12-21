@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
