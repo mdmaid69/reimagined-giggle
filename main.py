@@ -1,4 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-from collections import Counter
-print(Counter("hello world"))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
