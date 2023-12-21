@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
