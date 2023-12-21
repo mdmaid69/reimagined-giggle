@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
