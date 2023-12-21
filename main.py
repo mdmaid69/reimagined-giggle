@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
