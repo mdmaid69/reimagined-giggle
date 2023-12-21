@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_area_circle(r):
+        return 3.14 * r**2
