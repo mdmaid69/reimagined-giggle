@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def append_to_array(array, item):
+        array.append(item)
