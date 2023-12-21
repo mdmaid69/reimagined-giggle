@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_sine(x):
+        return math.sin(x)
