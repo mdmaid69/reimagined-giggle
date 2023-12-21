@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def remove_from_array(array, item):
+        array.remove(item)
