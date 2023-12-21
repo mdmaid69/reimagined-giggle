@@ -1,9 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_density(mass, volume):
+        return mass / volume
