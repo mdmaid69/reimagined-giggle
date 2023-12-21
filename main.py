@@ -1,6 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+for i in range(5):
+        print(i)
+  def sort_list(lst):
+        return sorted(lst)
