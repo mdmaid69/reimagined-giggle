@@ -1,7 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
