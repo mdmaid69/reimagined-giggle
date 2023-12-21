@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-for i in range(5):
-        print(i)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
