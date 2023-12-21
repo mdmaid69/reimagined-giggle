@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def reverse_list(lst):
+        return lst[::-1]
