@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
