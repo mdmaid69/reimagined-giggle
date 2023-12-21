@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
