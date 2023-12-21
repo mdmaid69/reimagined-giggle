@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import tensorflow as tf
+print(tf.__version__)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
