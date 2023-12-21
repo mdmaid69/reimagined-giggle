@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def cube_number(x):
-        return x**3
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
