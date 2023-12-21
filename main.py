@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def count_elements(lst):
-        return len(lst)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
