@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
