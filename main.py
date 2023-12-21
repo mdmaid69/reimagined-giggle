@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
