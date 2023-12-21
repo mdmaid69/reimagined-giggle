@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
