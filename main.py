@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import sys
+def print_python_version():
+        return sys.version
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
