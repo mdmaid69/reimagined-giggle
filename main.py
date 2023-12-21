@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def extend_array(array, iterable):
+        array.extend(iterable)
