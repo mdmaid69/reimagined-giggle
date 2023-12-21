@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
