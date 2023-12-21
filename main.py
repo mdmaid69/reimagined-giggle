@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
