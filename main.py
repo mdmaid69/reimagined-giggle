@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
