@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
