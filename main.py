@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
