@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
