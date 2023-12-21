@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
