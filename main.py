@@ -1,5 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
