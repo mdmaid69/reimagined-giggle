@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
