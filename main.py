@@ -1,5 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
