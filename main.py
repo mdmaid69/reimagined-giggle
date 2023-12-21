@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
