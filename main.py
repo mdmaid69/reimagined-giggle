@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
