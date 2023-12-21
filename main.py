@@ -1,6 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
