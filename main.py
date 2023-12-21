@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
