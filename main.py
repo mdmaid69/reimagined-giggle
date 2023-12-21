@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
