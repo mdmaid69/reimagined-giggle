@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
