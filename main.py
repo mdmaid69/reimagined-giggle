@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
