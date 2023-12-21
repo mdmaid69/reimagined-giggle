@@ -1,11 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
