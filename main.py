@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
