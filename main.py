@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def square_number(x):
+        return x**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
