@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
