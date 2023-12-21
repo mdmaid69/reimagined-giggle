@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
