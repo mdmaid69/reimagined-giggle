@@ -1,6 +1,3 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+print("Hello, world!")
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
