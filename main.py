@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
