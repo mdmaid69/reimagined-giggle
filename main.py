@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def reverse_array(array):
-        array.reverse()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
