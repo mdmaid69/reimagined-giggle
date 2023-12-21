@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
