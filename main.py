@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
