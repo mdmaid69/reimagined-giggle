@@ -1,6 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_array_as_list(array):
+        return list(array)
