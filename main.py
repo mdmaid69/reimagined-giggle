@@ -1,9 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
