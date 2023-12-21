@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
