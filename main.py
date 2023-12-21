@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_pressure(force, area):
+        return force / area
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
