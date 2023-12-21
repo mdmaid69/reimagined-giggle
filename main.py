@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
