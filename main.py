@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
