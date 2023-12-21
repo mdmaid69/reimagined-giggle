@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def greet(name):
+        print(f"Hello, {name}!")
