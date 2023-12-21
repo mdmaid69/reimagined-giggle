@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
