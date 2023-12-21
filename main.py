@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def find_max(lst):
-        return max(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def count_elements(lst):
+        return len(lst)
