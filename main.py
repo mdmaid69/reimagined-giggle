@@ -1,6 +1,5 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
