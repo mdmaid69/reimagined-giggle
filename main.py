@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Words:", len(text.split()))
