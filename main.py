@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
