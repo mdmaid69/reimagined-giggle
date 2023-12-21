@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
