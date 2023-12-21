@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
