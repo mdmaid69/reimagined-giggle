@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
