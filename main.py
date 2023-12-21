@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
