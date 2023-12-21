@@ -1,5 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def count_elements(lst):
-        return len(lst)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def reverse_array(array):
+        array.reverse()
