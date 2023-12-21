@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_as_int(array):
+        return int(array[0])
