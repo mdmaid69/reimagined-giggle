@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
