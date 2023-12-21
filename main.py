@@ -1,11 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
