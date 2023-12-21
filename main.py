@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
