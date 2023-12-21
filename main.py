@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
