@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
