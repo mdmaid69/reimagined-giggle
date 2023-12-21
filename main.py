@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
