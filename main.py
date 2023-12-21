@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_float(array):
+        return float(array[0])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
