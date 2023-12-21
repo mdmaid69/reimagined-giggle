@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
