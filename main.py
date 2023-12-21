@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
