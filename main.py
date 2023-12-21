@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
