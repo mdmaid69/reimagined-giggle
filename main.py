@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
