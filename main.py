@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def sort_list(lst):
+        return sorted(lst)
+import os
+print(os.getcwd())
