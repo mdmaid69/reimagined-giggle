@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
