@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
