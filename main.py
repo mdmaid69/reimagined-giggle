@@ -1,6 +1,6 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
