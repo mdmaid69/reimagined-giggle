@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+name = "Python"
+print("Hello,", name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
