@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
