@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
