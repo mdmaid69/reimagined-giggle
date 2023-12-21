@@ -1,6 +1,7 @@
+def reverse_string(s):
+        return s[::-1]
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
