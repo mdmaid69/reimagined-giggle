@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_area(radius):
+        return 3.14 * radius * radius
