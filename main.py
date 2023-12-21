@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
