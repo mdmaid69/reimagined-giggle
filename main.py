@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
