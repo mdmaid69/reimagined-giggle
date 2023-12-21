@@ -1,5 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  def convert_to_octal(n):
-        return oct(n)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
