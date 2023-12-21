@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_area_rectangle(l, w):
+        return l * w
