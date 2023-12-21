@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def subtract_numbers(x, y):
+        return x - y
 import datetime
 def get_days_until_next_year():
         next_year = datetime.date.today().year + 1
