@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
