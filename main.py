@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_power(work, time):
+        return work / time
