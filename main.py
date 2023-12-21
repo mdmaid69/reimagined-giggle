@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_area_rectangle(l, w):
+        return l * w
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
