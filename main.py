@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def convert_to_hex(n):
-        return hex(n)
+def find_min(numbers):
+        return min(numbers)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
