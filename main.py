@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
