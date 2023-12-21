@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
