@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
