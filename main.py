@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
