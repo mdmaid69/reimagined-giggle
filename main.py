@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_item(array, i):
+        return array[i]
