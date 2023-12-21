@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
