@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
