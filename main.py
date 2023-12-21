@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def cube_number(x):
+        return x**3
+def calculate_density(mass, volume):
+        return mass / volume
