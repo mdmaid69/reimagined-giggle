@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
