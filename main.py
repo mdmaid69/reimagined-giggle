@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import sys
-def print_python_version():
-        return sys.version
+  def count_elements(lst):
+        return len(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
