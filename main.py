@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_pressure(force, area):
+        return force / area
+def multiply_numbers(x, y):
+        return x * y
