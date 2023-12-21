@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
