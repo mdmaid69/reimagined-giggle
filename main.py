@@ -1,8 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
