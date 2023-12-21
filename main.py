@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
