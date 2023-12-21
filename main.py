@@ -1,7 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
