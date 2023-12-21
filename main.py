@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
