@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_user_list():
+        return collections.UserList()
