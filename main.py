@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def reverse_list(lst):
+        return lst[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
