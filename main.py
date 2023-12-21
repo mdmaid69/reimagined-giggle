@@ -1,5 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
