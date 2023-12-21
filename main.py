@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
