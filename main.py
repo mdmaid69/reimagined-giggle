@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_counter():
-        return collections.Counter()
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
