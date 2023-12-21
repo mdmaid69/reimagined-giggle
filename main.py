@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_directory_name(path):
+        return os.path.dirname(path)
