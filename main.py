@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_sign(x):
+        return math.copysign(1, x)
