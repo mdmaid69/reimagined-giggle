@@ -1,6 +1,7 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def get_string_from_array(array):
+        return array.tobytes()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
