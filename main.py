@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import datetime
+def get_today_date():
+        return datetime.date.today()
+for i in range(5):
+        print(i)
