@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import collections
+def create_priority_queue():
+        return collections.deque()
