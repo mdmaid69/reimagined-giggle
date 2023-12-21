@@ -1,3 +1,5 @@
-  def square_number(x):
-        return x**2
-print("Hello, world!")
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
