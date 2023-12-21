@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
