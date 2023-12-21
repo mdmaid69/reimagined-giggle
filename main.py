@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def is_odd(n):
+        return n % 2 != 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
