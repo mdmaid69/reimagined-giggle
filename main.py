@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
