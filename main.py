@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
