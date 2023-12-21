@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
