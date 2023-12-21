@@ -1,7 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
