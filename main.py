@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_user_string():
+        return collections.UserString()
