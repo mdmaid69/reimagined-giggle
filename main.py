@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
