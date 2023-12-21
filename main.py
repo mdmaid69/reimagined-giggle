@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
