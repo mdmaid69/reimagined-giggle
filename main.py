@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_arc_cosine(x):
+        return math.acos(x)
