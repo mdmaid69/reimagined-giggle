@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
