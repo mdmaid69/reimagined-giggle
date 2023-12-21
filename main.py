@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
