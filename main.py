@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
