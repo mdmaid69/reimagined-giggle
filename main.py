@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def find_min(lst):
+        return min(lst)
