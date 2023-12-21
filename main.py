@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
