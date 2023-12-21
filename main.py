@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
