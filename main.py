@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_square_root(x):
+        return math.sqrt(x)
