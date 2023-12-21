@@ -1,6 +1,8 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def find_max(lst):
-        return max(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
