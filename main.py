@@ -1,6 +1,7 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def iterate_over_array(array):
+        for item in array:
+        print(item)
