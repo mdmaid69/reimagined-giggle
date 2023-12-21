@@ -1,6 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
