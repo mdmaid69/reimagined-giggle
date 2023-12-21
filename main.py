@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def count_characters(sentence):
+        return len(sentence)
