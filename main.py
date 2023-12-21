@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
