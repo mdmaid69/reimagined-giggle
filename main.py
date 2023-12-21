@@ -1,7 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
