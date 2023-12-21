@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def find_min(lst):
+        return min(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
