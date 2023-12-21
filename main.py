@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
