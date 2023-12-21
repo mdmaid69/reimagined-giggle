@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def append_to_array(array, item):
+        array.append(item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
