@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import sys
+  def get_python_version():
+        return sys.version
