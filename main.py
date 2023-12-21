@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+text = "Hello, world!"
+print("Characters:", len(text))
+import datetime
+def get_current_date():
+        return datetime.date.today()
