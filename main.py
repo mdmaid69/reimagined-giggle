@@ -1,6 +1,3 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+for i in range(10): print(i)
+  def is_odd(n):
+        return n % 2 != 0
