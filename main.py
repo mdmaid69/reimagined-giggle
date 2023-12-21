@@ -1,6 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def create_user_list():
+        return collections.UserList()
