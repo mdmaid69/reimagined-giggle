@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
