@@ -1,6 +1,5 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
