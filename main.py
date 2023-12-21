@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
