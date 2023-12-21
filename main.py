@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_list(array):
+        return list(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
