@@ -1,5 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area(radius):
+        return 3.14 * radius * radius
