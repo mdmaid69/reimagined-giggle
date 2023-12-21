@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
