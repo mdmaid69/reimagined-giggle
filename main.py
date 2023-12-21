@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_density(mass, volume):
+        return mass / volume
+def divide_numbers(x, y):
+        return x / y
