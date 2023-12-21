@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_max(lst):
+        return max(lst)
