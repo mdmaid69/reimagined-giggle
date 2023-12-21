@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
