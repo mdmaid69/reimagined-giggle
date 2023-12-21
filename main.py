@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_sine(x):
+        return math.sin(x)
