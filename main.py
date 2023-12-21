@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
