@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
