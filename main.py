@@ -1,9 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+print([x**2 for x in range(10)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
