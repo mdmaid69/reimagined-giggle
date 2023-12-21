@@ -1,6 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_base_name(path):
+        return os.path.basename(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
