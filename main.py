@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
