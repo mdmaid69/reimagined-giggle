@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import numpy as np
-print(np.array([1, 2, 3]))
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_counter():
+        return collections.Counter()
