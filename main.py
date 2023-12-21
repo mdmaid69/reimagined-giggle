@@ -1,7 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def count_words(sentence):
-        return len(sentence.split())
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
