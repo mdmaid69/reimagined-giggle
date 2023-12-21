@@ -1,6 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
