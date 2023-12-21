@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def set_array_item(array, i, item):
+        array[i] = item
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
