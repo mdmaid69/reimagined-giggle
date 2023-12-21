@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
