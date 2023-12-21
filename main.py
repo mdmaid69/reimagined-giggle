@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
