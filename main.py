@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
