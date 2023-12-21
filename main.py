@@ -1,4 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-print([x**2 for x in range(10)])
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
