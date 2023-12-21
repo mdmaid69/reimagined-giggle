@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
