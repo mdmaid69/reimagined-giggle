@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
