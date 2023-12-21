@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
