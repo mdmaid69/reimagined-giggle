@@ -1,5 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
