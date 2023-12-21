@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def add_numbers(x, y):
+        return x + y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
