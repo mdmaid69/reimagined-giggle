@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
