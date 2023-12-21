@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
