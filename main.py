@@ -1,6 +1,6 @@
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_ceiling(x):
+        return math.ceil(x)
