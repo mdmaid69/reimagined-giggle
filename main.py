@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
