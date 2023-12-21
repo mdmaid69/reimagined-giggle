@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import sys
+  def get_python_version():
+        return sys.version
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
