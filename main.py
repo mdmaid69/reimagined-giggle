@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
