@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def reverse_list(lst):
+        return lst[::-1]
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_array_to_unicode(array):
+        return array.tounicode()
