@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def clear_array(array):
+        array *= 0
+import collections
+def create_counter():
+        return collections.Counter()
