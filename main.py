@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
