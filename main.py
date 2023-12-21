@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import sys
+print(sys.version)
