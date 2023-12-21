@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_item(array, i):
+        return array[i]
