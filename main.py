@@ -1,7 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
