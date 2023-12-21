@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def exit_program():
+        sys.exit()
+import time
+def get_current_time():
+        return time.time()
