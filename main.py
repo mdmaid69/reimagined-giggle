@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
