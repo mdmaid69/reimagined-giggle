@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def add_numbers(x, y):
-        return x + y
+def cube_number(x):
+        return x**3
+  def convert_to_octal(n):
+        return oct(n)
