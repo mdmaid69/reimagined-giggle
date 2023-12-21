@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import time
-def get_current_time():
-        return time.ctime()
+def count_elements(lst):
+        return len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
