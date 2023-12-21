@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
