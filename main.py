@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def count_elements(lst):
-        return len(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
