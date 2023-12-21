@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
