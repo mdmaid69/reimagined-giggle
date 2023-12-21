@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+print(os.getcwd())
