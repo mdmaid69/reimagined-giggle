@@ -1,5 +1,3 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+for i in range(10): print(i)
+for i in range(5):
+        print(i)
