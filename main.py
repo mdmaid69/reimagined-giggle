@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
