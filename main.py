@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
