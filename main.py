@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
