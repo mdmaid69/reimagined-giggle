@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
