@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_counter():
+        return collections.Counter()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
