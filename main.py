@@ -1,7 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
