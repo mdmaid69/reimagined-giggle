@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
