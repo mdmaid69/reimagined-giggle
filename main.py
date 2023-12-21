@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_work(force, distance):
-        return force * distance
+def add_numbers(x, y):
+        return x + y
+for i in range(5):
+        print(i)
