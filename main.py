@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+print(sum(range(10)))
