@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
