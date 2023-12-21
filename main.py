@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def convert_to_hex(n):
-        return hex(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
