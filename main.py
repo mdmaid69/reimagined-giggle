@@ -1,5 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
