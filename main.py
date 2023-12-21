@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
