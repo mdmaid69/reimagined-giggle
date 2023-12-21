@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
