@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
