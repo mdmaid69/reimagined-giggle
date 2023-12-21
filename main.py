@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
