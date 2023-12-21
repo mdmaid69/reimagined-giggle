@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def reverse_string(s):
-        return s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
