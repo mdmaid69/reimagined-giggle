@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
