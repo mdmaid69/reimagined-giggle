@@ -1,5 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
