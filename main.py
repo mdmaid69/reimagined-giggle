@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
