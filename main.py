@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
