@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def multiply_numbers(x, y):
+        return x * y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
