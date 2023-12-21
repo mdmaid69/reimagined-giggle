@@ -1,8 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import tensorflow as tf
+print(tf.__version__)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
