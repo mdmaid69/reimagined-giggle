@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
