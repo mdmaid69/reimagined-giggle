@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
