@@ -1,4 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-for i in range(10): print(i)
+  def square_number(x):
+        return x**2
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
