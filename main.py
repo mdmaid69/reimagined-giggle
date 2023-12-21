@@ -1,6 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import collections
+def create_priority_queue():
+        return collections.deque()
