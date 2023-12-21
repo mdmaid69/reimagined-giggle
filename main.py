@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
