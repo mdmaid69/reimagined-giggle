@@ -1,5 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_max(numbers):
+        return max(numbers)
