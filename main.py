@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def convert_to_binary(n):
+        return bin(n)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
