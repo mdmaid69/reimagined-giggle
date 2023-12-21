@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_typecode(array):
+        return array.typecode
