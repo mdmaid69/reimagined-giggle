@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_username():
-        return getpass.getuser()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
