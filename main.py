@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_priority_queue():
+        return collections.deque()
+def cube_number(x):
+        return x**3
