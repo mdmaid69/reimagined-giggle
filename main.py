@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
