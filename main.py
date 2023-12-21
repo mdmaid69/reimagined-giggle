@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
