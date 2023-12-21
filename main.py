@@ -1,4 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+x = 10
+y = 20
+print("Sum:", x + y)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
