@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
