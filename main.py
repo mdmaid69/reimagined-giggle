@@ -1,6 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
