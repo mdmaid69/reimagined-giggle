@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def count_elements(lst):
-        return len(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
