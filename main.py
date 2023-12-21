@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def subtract_numbers(x, y):
+        return x - y
