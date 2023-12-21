@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
