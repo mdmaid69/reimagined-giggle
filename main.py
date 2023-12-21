@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_max(lst):
+        return max(lst)
