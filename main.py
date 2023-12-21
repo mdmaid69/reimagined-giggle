@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
