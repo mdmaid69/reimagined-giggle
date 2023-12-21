@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
