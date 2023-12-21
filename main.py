@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
