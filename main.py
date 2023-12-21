@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def subtract_numbers(x, y):
-        return x - y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
