@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
