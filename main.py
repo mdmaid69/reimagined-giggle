@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def reverse_list(lst):
-        return lst[::-1]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
