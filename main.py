@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
