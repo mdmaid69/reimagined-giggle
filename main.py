@@ -1,5 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
