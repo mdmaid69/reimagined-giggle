@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
