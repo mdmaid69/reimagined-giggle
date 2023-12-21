@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import platform
+def get_os_info():
+        return platform.uname()
