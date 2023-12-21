@@ -1,7 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import os
+def change_working_directory(path):
+        os.chdir(path)
