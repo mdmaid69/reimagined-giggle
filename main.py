@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+print(math.pi)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
