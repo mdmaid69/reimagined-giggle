@@ -1,7 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
