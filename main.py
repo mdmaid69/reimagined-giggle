@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
