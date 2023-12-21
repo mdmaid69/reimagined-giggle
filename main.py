@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
