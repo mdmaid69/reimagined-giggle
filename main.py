@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_power(work, time):
-        return work / time
+print(sum(range(10)))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
