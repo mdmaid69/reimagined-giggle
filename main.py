@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
