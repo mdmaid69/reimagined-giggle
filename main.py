@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
