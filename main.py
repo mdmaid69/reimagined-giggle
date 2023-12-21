@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import re
+print(re.match("h.*o", "hello world"))
