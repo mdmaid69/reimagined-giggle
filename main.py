@@ -1,5 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
