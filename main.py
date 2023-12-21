@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
