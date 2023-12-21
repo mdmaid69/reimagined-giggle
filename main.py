@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
