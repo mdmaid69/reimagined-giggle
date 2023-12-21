@@ -1,5 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_work(force, distance):
-        return force * distance
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
