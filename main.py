@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
