@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
