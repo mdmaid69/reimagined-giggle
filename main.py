@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
