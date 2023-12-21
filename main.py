@@ -1,6 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
