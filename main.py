@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_queue():
-        return collections.deque()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def is_even(n):
+        return n % 2 == 0
