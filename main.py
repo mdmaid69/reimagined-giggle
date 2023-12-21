@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
