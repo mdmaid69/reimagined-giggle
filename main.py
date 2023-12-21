@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def reverse_array(array):
+        array.reverse()
