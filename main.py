@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
