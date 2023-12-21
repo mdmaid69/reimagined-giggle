@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
