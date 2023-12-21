@@ -1,4 +1,12 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
