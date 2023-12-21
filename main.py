@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
