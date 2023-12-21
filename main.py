@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def convert_to_binary(n):
+        return bin(n)
