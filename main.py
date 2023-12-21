@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
