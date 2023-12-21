@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
