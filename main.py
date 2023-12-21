@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_user_list():
-        return collections.UserList()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
