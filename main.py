@@ -1,7 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
