@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
