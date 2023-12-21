@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def is_odd(n):
-        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
