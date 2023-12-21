@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import os
+def change_working_directory(path):
+        os.chdir(path)
