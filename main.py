@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
