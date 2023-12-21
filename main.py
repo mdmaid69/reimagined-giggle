@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
