@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
