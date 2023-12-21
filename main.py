@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
