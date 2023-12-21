@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def multiply_numbers(x, y):
+        return x * y
