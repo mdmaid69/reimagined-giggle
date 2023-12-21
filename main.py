@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_user_list():
+        return collections.UserList()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
