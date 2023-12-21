@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
