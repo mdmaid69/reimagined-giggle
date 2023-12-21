@@ -1,5 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import array
-def clear_array(array):
-        array *= 0
-def square_number(x):
-        return x**2
+def check_if_array_contains_item(array, item):
+        return item in array
