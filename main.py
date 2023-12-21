@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def convert_to_octal(n):
+        return oct(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
