@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
