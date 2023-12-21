@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def count_elements(lst):
+        return len(lst)
