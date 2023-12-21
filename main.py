@@ -1,8 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
