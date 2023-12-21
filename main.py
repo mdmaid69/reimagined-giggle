@@ -1,6 +1,6 @@
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_array_as_bytearray(array):
+        return bytearray(array)
