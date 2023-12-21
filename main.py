@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
