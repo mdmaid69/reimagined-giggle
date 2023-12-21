@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def count_elements(lst):
+        return len(lst)
