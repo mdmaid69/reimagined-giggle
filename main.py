@@ -1,6 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
