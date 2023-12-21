@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-for i in range(5):
-        print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import sys
+  def get_python_version():
+        return sys.version
