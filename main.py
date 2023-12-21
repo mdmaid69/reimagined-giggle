@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
