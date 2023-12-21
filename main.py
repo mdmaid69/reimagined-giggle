@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
