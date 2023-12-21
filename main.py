@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_max(lst):
-        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
