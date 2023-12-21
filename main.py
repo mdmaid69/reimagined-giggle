@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
