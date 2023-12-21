@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def get_array_buffer_info(array):
+        return array.buffer_info()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
