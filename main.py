@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def square_number(x):
+        return x**2
