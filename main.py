@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
