@@ -1,5 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_words(sentence):
+        return len(sentence.split())
+def multiply_numbers(x, y):
+        return x * y
