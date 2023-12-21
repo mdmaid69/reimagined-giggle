@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def count_characters(sentence):
+        return len(sentence)
