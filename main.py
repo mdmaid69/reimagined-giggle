@@ -1,5 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import collections
+def create_counter():
+        return collections.Counter()
