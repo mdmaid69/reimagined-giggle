@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
