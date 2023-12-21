@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
