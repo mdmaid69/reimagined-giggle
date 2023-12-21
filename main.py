@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_float(array):
+        return float(array[0])
