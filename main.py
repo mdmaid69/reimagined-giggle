@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
