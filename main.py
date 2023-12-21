@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_tangent(x):
+        return math.tan(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
