@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
