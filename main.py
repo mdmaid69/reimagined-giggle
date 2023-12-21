@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def convert_to_octal(n):
+        return oct(n)
+for i in range(5):
+        print(i)
