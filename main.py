@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
