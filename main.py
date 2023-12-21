@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
