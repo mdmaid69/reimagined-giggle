@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
