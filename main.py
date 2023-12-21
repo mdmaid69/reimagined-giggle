@@ -1,4 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
