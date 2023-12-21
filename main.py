@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
