@@ -1,6 +1,12 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
