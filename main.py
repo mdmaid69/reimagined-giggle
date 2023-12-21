@@ -1,8 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
