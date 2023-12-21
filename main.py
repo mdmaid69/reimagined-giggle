@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def split_path(path):
+        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
