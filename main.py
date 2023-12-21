@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_work(force, distance):
-        return force * distance
+def count_words(sentence):
+        return len(sentence.split())
+import sys
+def exit_program():
+        sys.exit()
