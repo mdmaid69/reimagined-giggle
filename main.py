@@ -1,5 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def find_min(lst):
-        return min(lst)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
