@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def find_min(numbers):
-        return min(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_counter():
+        return collections.Counter()
