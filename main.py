@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
