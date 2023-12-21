@@ -1,5 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_array_as_set(array):
+        return set(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
