@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
