@@ -1,5 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
