@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
