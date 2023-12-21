@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import logging
+def log_message(message):
+        logging.info(message)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
