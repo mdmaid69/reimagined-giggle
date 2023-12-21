@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
