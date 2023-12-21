@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
