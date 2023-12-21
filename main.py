@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
