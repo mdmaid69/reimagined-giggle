@@ -1,7 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
