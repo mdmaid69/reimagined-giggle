@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def find_max(numbers):
+        return max(numbers)
