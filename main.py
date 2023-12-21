@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-print(math.pi)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
