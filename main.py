@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
