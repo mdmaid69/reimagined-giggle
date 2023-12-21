@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
