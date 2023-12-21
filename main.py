@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
