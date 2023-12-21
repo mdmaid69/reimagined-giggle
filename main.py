@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
