@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_force(mass, acceleration):
+        return mass * acceleration
