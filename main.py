@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_power(work, time):
-        return work / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
