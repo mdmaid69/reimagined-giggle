@@ -1,6 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
