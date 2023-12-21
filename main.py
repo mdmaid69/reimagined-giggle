@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
