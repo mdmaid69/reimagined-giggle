@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
