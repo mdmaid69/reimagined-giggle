@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def remove_duplicates(lst):
+        return list(set(lst))
