@@ -1,7 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def convert_to_octal(n):
+        return oct(n)
