@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
