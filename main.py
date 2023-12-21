@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_pressure(force, area):
+        return force / area
