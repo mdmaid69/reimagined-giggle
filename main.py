@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
