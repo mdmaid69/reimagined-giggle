@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def get_array_as_set(array):
+        return set(array)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
