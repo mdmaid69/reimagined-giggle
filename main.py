@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def convert_to_hex(n):
+        return hex(n)
