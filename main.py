@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_list(array):
-        return list(array)
+import time
+def get_time_since_epoch():
+        return time.time()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
