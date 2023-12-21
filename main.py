@@ -1,6 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
