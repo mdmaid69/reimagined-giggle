@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
