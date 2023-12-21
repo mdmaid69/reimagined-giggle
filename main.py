@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
