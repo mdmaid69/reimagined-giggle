@@ -1,8 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
