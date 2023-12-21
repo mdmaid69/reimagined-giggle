@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import array
-def get_array_as_str(array):
-        return str(array)
-import os
-print(os.getcwd())
+def get_array_item_count(array, item):
+        return array.count(item)
