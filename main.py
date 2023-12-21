@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
