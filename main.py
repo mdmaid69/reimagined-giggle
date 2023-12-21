@@ -1,5 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
