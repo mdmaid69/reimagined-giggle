@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
