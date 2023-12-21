@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
