@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_speed(distance, time):
-        return distance / time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
