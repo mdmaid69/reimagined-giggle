@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
