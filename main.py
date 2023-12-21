@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
