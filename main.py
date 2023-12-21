@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
