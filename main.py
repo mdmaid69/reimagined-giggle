@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_interest(principal, rate, time):
         return principal * (1 + rate)**time
-import math
-def calculate_cosine(x):
-        return math.cos(x)
