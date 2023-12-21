@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def print_python_version():
+        return sys.version
