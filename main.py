@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def cube_number(x):
-        return x**3
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_area_rectangle(l, w):
+        return l * w
