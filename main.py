@@ -1,5 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
