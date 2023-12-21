@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
