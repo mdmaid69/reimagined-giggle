@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
