@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import time
+print(time.time())
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
