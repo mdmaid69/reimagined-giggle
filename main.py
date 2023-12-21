@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_power(work, time):
-        return work / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
