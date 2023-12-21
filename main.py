@@ -1,4 +1,5 @@
-print("Hello, world!")
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_priority_queue():
+        return collections.deque()
