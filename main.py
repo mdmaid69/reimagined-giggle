@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
