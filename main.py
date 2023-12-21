@@ -1,5 +1,7 @@
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
