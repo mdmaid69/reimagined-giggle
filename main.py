@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
