@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
