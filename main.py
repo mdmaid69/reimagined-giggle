@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
