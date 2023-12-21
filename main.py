@@ -1,9 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_array_length(array):
+        return len(array)
