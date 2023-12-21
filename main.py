@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
