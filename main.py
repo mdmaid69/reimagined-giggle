@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def cube_number(x):
-        return x**3
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
