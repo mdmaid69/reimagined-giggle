@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def get_list_from_array(array):
+        return array.tolist()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
