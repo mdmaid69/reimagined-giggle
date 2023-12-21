@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
