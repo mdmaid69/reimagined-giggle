@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
