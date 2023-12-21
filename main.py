@@ -1,6 +1,5 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
