@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_area_rectangle(l, w):
-        return l * w
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
