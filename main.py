@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
