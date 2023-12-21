@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def get_array_as_set(array):
-        return set(array)
-def is_even(n):
-        return n % 2 == 0
+def append_to_array(array, item):
+        array.append(item)
