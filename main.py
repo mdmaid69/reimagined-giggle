@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def sort_numbers(numbers):
+        return sorted(numbers)
