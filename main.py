@@ -1,6 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_as_str(array):
-        return str(array)
+def is_palindrome(s):
+        return s == s[::-1]
+  def is_even(n):
+        return n % 2 == 0
