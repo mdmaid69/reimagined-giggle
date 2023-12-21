@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def calculate_area_rectangle(l, w):
+        return l * w
