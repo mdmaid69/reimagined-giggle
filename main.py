@@ -1,5 +1,6 @@
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
