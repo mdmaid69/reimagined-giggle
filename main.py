@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
