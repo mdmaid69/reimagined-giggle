@@ -1,4 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-print("Hello, world!")
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
