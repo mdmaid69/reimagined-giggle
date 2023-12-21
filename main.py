@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
