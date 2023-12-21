@@ -1,6 +1,5 @@
-  def cube_number(x):
-        return x**3
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
