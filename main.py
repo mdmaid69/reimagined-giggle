@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def cube_number(x):
-        return x**3
+  def square_number(x):
+        return x**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
