@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def convert_to_hex(n):
+        return hex(n)
+import re
+print(re.match("h.*o", "hello world"))
