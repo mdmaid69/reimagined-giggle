@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
