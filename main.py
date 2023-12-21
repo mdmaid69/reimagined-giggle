@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
