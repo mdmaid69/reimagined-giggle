@@ -1,6 +1,9 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
