@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
