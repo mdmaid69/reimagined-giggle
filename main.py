@@ -1,6 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import collections
-def create_queue():
-        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
