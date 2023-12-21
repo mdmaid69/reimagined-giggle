@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
