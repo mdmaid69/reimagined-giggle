@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
