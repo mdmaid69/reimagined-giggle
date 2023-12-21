@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
