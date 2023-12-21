@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
