@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
