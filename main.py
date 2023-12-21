@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
