@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-print(time.time())
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Uppercase:", text.upper())
