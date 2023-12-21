@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
