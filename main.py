@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
