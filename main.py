@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Words:", len(text.split()))
