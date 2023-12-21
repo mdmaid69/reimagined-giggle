@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
