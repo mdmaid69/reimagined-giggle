@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
