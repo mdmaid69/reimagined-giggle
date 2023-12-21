@@ -1,5 +1,12 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
