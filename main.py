@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def find_max(lst):
-        return max(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
