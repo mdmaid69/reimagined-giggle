@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def add_numbers(x, y):
-        return x + y
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
