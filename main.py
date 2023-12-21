@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
