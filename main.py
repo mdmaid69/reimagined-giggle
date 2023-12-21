@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
