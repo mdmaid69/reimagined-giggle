@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
