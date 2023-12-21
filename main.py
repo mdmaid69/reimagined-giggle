@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def convert_to_binary(n):
+        return bin(n)
