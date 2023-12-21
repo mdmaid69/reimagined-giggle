@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
