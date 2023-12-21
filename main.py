@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
