@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def multiply_numbers(x, y):
+        return x * y
