@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
