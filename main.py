@@ -1,8 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
