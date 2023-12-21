@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_pressure(force, area):
+        return force / area
+def calculate_power(work, time):
+        return work / time
