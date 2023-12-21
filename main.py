@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def is_even(n):
-        return n % 2 == 0
+def square_number(x):
+        return x**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
