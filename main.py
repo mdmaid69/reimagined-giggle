@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
