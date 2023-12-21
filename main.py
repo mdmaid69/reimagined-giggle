@@ -1,11 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
