@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
