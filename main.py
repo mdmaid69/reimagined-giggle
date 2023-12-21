@@ -1,8 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+def get_time_since_epoch():
+        return time.time()
