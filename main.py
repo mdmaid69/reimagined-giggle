@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def clear_array(array):
-        array *= 0
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
