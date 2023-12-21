@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
