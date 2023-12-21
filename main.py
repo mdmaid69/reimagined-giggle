@@ -1,7 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
