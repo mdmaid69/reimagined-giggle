@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def convert_to_binary(n):
+        return bin(n)
