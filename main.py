@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+print(os.getcwd())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
