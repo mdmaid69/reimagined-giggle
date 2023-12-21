@@ -1,7 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def convert_to_hex(n):
+        return hex(n)
