@@ -1,5 +1,7 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def is_even(n):
-        return n % 2 == 0
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
