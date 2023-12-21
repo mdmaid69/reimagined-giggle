@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
