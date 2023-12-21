@@ -1,7 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
