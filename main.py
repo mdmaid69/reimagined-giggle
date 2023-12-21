@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def is_even(n):
-        return n % 2 == 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
