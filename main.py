@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
