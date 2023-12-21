@@ -1,6 +1,8 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
