@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def convert_to_binary(n):
+        return bin(n)
