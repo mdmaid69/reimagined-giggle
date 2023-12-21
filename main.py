@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
