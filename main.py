@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
