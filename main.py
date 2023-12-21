@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
