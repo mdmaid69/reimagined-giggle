@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
