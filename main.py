@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
