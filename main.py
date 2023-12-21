@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def count_words(sentence):
+        return len(sentence.split())
