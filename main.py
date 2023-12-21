@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def reverse_list(lst):
+        return lst[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
