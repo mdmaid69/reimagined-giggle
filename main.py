@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def greet(name):
+        print(f"Hello, {name}!")
+  def remove_duplicates(lst):
+        return list(set(lst))
