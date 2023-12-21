@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
