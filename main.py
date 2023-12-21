@@ -1,6 +1,6 @@
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
