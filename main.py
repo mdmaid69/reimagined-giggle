@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def find_min(lst):
+        return min(lst)
