@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
