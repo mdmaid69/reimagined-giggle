@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_typecode(array):
-        return array.typecode
+name = "Python"
+print("Hello,", name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
