@@ -1,4 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-print(sum(range(10)))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
