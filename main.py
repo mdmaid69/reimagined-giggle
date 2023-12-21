@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def set_array_item(array, i, item):
+        array[i] = item
