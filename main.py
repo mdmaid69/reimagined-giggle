@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
