@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
