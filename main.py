@@ -1,5 +1,9 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
