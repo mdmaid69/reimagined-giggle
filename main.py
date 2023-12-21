@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+print(re.match("h.*o", "hello world"))
