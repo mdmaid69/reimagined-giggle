@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
