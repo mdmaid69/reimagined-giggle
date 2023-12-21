@@ -1,5 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
