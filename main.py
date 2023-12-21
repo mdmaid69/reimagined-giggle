@@ -1,6 +1,9 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
