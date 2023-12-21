@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+for i in range(5):
+        print(i)
