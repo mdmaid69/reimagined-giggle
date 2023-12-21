@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
