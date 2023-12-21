@@ -1,7 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
