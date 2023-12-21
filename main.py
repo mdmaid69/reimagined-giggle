@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
