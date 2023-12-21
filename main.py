@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
