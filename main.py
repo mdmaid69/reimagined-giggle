@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
