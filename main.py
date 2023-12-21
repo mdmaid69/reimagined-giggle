@@ -1,6 +1,3 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def divide_numbers(x, y):
+        return x / y
+for i in range(10): print(i)
