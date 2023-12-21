@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_item(array, i):
-        return array[i]
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import datetime
+def get_today_date():
+        return datetime.date.today()
