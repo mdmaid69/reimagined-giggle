@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
