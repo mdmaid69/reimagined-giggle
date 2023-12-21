@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
