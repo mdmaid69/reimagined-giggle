@@ -1,8 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
