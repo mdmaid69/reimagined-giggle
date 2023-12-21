@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
