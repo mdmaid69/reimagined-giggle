@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def find_min(lst):
+        return min(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
