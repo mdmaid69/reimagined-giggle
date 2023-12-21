@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
