@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def remove_duplicates(lst):
+        return list(set(lst))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
