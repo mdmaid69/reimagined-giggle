@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
