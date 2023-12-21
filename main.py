@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
