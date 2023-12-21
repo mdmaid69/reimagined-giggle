@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
