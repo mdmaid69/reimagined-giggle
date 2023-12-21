@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
