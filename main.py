@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
