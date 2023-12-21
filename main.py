@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def get_array_as_set(array):
-        return set(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
