@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def convert_to_octal(n):
+        return oct(n)
