@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_density(mass, volume):
+        return mass / volume
