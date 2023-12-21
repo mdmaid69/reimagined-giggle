@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import time
+def get_current_time():
+        return time.ctime()
+def is_odd(n):
+        return n % 2 != 0
