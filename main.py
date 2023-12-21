@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import time
+def get_current_time():
+        return time.time()
