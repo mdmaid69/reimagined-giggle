@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import datetime
-print(datetime.datetime.now())
+def convert_to_octal(n):
+        return oct(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
