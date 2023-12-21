@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
