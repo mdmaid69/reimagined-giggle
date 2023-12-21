@@ -1,6 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
