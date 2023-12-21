@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
