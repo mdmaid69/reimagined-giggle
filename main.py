@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import time
+def get_current_time():
+        return time.ctime()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
