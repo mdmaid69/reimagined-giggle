@@ -1,5 +1,3 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+print([x**2 for x in range(10)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
