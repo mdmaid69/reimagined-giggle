@@ -1,5 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
