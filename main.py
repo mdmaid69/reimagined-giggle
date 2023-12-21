@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
