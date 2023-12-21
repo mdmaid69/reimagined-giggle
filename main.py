@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
