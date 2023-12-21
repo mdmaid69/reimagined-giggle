@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
