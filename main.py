@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def convert_to_binary(n):
+        return bin(n)
+  def convert_to_octal(n):
+        return oct(n)
