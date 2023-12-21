@@ -1,7 +1,5 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def reverse_string(s):
-        return s[::-1]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
