@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
