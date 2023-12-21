@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def convert_dict_to_json(d):
+        return json.dumps(d)
