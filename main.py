@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
