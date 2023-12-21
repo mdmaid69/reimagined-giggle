@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
