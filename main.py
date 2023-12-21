@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_current_directory():
+        return os.getcwd()
