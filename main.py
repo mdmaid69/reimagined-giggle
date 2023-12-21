@@ -1,5 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import array
-def get_array_as_str(array):
-        return str(array)
-def find_max(numbers):
-        return max(numbers)
+def get_array_as_memoryview(array):
+        return memoryview(array)
