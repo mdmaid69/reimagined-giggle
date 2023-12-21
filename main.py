@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
