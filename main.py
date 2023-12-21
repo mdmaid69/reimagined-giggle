@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def get_array_length(array):
-        return len(array)
+def set_array_item(array, i, item):
+        array[i] = item
