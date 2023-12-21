@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_stack():
-        return collections.deque()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
