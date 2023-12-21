@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_sign(x):
+        return math.copysign(1, x)
