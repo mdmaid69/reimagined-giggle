@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import time
+def get_current_time():
+        return time.time()
