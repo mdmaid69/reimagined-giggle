@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
