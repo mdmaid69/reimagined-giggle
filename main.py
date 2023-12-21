@@ -1,9 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
