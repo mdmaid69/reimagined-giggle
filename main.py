@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import sys
-def exit_program():
-        sys.exit()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def get_current_working_directory():
+        return os.getcwd()
