@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
