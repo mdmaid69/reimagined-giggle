@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def add_numbers(a, b):
+        return a + b
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
