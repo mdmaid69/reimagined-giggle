@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
