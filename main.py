@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def convert_to_octal(n):
+        return oct(n)
