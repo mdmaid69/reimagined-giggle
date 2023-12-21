@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+print([x**2 for x in range(10)])
