@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def is_palindrome(s):
+        return s == s[::-1]
