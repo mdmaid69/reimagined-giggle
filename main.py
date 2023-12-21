@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
