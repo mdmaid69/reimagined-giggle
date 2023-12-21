@@ -1,6 +1,10 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
