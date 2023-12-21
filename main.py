@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
