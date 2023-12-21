@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
