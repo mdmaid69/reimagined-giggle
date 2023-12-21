@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_complex(array):
+        return complex(array[0])
