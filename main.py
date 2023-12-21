@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_length(array):
-        return len(array)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def remove_duplicates(lst):
+        return list(set(lst))
