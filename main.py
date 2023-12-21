@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
