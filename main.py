@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
