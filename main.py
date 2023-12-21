@@ -1,11 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
