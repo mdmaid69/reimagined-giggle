@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
