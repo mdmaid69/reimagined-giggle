@@ -1,5 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
