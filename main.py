@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import sys
+def exit_program():
+        sys.exit()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def convert_array_to_string(array):
+        return array.tostring()
