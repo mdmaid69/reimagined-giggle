@@ -1,4 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-print(sum(range(10)))
+def add_numbers(x, y):
+        return x + y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
