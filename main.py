@@ -1,5 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
