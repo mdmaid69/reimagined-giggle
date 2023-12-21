@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
