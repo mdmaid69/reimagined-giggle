@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
