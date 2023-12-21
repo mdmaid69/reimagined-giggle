@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_area_circle(r):
+        return 3.14 * r**2
