@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
