@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
