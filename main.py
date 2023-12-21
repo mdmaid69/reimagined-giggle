@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
