@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
