@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def is_even(n):
+        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
