@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
