@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
