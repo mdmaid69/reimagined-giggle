@@ -1,7 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import collections
+def create_counter():
+        return collections.Counter()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
