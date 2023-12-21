@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
