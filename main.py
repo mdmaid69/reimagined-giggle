@@ -1,5 +1,8 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
