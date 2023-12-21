@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
