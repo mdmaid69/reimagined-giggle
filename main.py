@@ -1,5 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def count_elements(lst):
-        return len(lst)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
