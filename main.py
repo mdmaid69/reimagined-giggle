@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
