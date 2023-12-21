@@ -1,5 +1,3 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+for i in range(10): print(i)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
