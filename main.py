@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
