@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def is_even(n):
+        return n % 2 == 0
