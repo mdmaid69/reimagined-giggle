@@ -1,3 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-print([x**2 for x in range(10)])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
