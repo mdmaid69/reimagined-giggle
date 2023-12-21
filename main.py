@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def is_palindrome(s):
+        return s == s[::-1]
+from collections import Counter
+print(Counter("hello world"))
