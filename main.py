@@ -1,11 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
