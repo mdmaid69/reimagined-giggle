@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
