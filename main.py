@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
