@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
