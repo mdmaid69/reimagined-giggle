@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def calculate_area_rectangle(l, w):
+        return l * w
