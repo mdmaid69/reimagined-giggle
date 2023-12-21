@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
