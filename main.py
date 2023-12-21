@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def split_path(path):
+        return os.path.split(path)
