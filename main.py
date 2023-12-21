@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_user_list():
+        return collections.UserList()
