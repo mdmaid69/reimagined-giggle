@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
