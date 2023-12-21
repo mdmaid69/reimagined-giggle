@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import platform
+def get_python_version():
+        return platform.python_version()
+import datetime
+def get_today_date():
+        return datetime.date.today()
