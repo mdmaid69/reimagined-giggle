@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_item(array, i):
+        return array[i]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
