@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
