@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
