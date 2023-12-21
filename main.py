@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+print(re.match("h.*o", "hello world"))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
