@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
