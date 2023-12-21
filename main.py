@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_speed(distance, time):
+        return distance / time
