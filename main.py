@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
