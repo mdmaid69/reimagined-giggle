@@ -1,5 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import re
-print(re.match("h.*o", "hello world"))
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_power(work, time):
+        return work / time
