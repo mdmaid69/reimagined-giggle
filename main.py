@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
