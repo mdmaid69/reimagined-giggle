@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def convert_to_binary(n):
+        return bin(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
