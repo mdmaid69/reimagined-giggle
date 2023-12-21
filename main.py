@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
