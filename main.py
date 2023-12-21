@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_area(radius):
+        return 3.14 * radius * radius
+text = "Hello, world!"
+print("Reversed:", text[::-1])
