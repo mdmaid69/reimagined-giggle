@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import platform
-def get_os_info():
-        return platform.uname()
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
