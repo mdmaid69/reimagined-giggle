@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
