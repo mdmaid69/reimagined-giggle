@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
