@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
