@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def find_min(lst):
-        return min(lst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
