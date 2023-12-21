@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def sort_numbers(numbers):
+        return sorted(numbers)
