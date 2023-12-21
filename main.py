@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import logging
-def log_message(message):
-        logging.info(message)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
