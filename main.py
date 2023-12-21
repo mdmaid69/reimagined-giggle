@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def reverse_list(lst):
-        return lst[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
