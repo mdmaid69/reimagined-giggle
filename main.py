@@ -1,5 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import collections
+def create_user_dict():
+        return collections.UserDict()
