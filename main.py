@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
