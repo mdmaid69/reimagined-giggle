@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
