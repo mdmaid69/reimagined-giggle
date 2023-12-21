@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_floor(x):
+        return math.floor(x)
