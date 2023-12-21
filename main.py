@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
