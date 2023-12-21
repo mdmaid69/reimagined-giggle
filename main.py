@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
