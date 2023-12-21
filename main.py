@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
