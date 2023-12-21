@@ -1,5 +1,7 @@
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
