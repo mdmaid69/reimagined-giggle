@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def count_elements(lst):
-        return len(lst)
+def is_odd(n):
+        return n % 2 != 0
+def is_palindrome(s):
+        return s == s[::-1]
