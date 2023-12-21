@@ -1,5 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
