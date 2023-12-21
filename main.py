@@ -1,6 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
