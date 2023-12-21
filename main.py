@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
