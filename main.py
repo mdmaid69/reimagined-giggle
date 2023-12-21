@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def roll_die():
+        return random.randint(1, 6)
