@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
