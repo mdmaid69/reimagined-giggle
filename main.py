@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import os
+print(os.getcwd())
