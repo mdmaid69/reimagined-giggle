@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def cube_number(x):
+        return x**3
+def is_even(n):
+        return n % 2 == 0
