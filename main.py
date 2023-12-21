@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
