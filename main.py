@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
