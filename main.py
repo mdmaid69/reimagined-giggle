@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
