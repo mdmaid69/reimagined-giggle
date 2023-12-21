@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def remove_from_array(array, item):
+        array.remove(item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
