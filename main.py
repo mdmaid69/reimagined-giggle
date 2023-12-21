@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
