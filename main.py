@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
