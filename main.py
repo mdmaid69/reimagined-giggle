@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
