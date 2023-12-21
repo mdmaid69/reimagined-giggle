@@ -1,8 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def sort_numbers(numbers):
+        return sorted(numbers)
