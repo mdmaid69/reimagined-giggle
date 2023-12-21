@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def convert_to_octal(n):
+        return oct(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
