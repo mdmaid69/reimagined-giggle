@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
