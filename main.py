@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import platform
+def get_os_info():
+        return platform.uname()
