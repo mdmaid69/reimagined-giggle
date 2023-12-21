@@ -1,8 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import numpy as np
+print(np.array([1, 2, 3]))
