@@ -1,8 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
