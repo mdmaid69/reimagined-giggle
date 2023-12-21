@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
