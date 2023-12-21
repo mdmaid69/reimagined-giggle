@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
