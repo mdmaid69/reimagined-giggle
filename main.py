@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_repr(array):
+        return repr(array)
