@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_int(array):
+        return int(array[0])
