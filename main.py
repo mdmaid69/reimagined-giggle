@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Characters:", len(text))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
