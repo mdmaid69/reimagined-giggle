@@ -1,6 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
