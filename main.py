@@ -1,10 +1,12 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
