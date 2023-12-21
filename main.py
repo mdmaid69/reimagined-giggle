@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def is_even(n):
-        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
