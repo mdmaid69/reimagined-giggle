@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def remove_duplicates(lst):
+        return list(set(lst))
