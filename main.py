@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
