@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_typecode(array):
-        return array.typecode
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_array_as_float(array):
+        return float(array[0])
