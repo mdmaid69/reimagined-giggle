@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
