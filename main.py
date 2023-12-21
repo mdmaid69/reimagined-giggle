@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def add_numbers(a, b):
+        return a + b
