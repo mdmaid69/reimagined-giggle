@@ -1,4 +1,8 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_array_to_list(array):
+        return array.tolist()
