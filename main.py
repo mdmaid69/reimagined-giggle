@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def convert_to_binary(n):
+        return bin(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
