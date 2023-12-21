@@ -1,11 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
