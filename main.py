@@ -1,7 +1,11 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
