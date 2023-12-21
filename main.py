@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
