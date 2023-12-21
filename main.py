@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
