@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
