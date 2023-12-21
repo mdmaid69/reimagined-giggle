@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
