@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
