@@ -1,4 +1,8 @@
-def cube_number(x):
-        return x**3
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
