@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
