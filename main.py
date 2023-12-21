@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def multiply_numbers(x, y):
+        return x * y
+def convert_to_hex(n):
+        return hex(n)
