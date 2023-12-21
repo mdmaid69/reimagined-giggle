@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_length(array):
+        return len(array)
+  def convert_to_octal(n):
+        return oct(n)
