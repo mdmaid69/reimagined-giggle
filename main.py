@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
