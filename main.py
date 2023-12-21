@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
