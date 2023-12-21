@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
