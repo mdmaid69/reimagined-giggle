@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
