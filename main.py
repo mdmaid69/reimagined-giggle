@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def sort_list(lst):
+        return sorted(lst)
