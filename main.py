@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
