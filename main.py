@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
