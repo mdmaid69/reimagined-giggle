@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def count_characters(sentence):
+        return len(sentence)
