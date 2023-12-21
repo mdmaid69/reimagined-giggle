@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def remove_duplicates(lst):
+        return list(set(lst))
