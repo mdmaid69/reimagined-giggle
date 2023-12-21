@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
