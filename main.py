@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
