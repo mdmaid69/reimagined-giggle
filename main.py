@@ -1,12 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
