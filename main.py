@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def cube_number(x):
-        return x**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
