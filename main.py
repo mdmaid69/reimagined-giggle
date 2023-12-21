@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
