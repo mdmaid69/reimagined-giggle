@@ -1,6 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
