@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-for i in range(5):
-        print(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def find_max(numbers):
+        return max(numbers)
