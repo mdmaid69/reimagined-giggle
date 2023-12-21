@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import sys
-  def get_python_version():
-        return sys.version
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
