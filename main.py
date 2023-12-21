@@ -1,5 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_factorial(n):
+        return math.factorial(n)
