@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
