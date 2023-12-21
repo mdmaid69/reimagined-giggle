@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_cosine(x):
+        return math.cos(x)
