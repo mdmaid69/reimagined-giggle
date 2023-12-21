@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
