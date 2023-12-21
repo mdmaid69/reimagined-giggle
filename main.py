@@ -1,7 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
