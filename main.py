@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def split_path(path):
+        return os.path.split(path)
