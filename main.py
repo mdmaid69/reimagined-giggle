@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
