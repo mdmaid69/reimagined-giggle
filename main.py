@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
