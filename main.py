@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+i = 0
+while i < 5:
+        print(i)
+        i += 1
