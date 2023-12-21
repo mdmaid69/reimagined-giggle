@@ -1,5 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_min(lst):
+        return min(lst)
