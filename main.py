@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def convert_to_octal(n):
+        return oct(n)
