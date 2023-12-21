@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_area(radius):
+        return 3.14 * radius * radius
