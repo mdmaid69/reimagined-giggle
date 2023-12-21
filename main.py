@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def count_words(sentence):
+        return len(sentence.split())
