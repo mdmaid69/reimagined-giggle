@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
