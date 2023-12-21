@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
