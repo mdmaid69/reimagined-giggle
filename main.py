@@ -1,9 +1,9 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
