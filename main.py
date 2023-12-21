@@ -1,6 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_array_as_set(array):
+        return set(array)
