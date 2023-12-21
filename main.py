@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import sys
+def exit_program():
+        sys.exit()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
