@@ -1,4 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-for i in range(10): print(i)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
