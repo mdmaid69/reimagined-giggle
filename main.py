@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
