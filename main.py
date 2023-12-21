@@ -1,7 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_as_int(array):
+        return int(array[0])
