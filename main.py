@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def find_unique_words(sentence):
+        return set(sentence.split())
