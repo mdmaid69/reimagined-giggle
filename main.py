@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+print([x**2 for x in range(10)])
