@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_time_since_epoch():
+        return time.time()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
