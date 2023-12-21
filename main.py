@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+name = "Python"
+print("Hello,", name)
