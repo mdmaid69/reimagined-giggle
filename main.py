@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+for i in range(10): print(i)
+import array
+def get_array_index(array, item):
+        return array.index(item)
