@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+x = 10
+y = 20
+print("Sum:", x + y)
+import sys
+def exit_program():
+        sys.exit()
