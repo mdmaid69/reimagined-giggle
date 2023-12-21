@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
