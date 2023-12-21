@@ -1,5 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def is_palindrome(s):
-        return s == s[::-1]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
