@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import sys
-def exit_program():
-        sys.exit()
+print(sys.version)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
