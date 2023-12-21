@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
