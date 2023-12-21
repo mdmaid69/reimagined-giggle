@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
