@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
