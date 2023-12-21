@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
