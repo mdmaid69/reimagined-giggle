@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
