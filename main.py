@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
