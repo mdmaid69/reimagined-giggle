@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
