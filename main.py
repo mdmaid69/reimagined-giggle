@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def is_even(n):
-        return n % 2 == 0
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
