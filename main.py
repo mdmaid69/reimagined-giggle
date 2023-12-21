@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_current_working_directory():
+  def get_current_directory():
         return os.getcwd()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
