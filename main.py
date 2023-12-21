@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def reverse_list(lst):
+        return lst[::-1]
