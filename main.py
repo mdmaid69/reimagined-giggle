@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
