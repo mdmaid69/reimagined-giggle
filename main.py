@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
