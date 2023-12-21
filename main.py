@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_speed(distance, time):
-        return distance / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
