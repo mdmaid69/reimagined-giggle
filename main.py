@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
