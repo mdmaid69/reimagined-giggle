@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
