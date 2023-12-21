@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
