@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
