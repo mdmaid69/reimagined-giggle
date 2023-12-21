@@ -1,6 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_exponential(x):
+        return math.exp(x)
