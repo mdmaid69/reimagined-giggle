@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def convert_to_octal(n):
+        return oct(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
