@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_power(work, time):
+        return work / time
