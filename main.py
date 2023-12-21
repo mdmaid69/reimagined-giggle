@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_current_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
