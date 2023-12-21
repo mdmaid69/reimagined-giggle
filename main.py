@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
