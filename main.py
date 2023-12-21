@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def split_path(path):
+        return os.path.split(path)
+def multiply_numbers(x, y):
+        return x * y
