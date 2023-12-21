@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
