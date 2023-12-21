@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def sort_list(lst):
-        return sorted(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_work(force, distance):
+        return force * distance
