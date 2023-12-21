@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_typecode(array):
+        return array.typecode
