@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_power(work, time):
+        return work / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
