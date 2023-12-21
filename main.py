@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
