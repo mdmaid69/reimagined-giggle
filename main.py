@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
