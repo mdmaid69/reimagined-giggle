@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def cube_number(x):
+        return x**3
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
