@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
