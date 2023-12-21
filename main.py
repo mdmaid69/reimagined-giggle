@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
