@@ -1,8 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
+for i in range(5):
+        print(i)
