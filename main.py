@@ -1,5 +1,8 @@
-from collections import Counter
-print(Counter("hello world"))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
