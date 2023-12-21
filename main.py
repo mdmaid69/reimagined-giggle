@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def is_even(n):
+        return n % 2 == 0
