@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def split_path(path):
+        return os.path.split(path)
