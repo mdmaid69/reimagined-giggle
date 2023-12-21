@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_set(array):
-        return set(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
