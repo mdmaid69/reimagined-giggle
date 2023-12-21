@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
