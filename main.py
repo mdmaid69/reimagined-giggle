@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def find_min(lst):
+        return min(lst)
