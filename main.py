@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
