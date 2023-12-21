@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-from collections import Counter
-print(Counter("hello world"))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
