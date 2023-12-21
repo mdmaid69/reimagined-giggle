@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def is_even(n):
+        return n % 2 == 0
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
