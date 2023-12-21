@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
