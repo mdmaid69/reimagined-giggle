@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
