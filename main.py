@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
