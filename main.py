@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
