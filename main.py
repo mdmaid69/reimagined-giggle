@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
