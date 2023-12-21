@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_max(numbers):
+        return max(numbers)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
