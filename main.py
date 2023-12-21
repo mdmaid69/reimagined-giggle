@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import time
+def get_time_since_epoch():
+        return time.time()
