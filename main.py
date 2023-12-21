@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def count_elements(lst):
+        return len(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
