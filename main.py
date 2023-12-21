@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
