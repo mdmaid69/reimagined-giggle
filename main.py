@@ -1,6 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
