@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
