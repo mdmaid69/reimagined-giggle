@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
