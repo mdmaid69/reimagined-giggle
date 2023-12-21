@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import time
+def get_current_time():
+        return time.time()
