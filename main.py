@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
