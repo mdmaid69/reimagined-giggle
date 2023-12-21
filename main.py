@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
