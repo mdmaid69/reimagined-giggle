@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
