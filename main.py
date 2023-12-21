@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
