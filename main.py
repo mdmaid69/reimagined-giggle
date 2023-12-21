@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-name = "Python"
-print("Hello,", name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
