@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def count_words(sentence):
-        return len(sentence.split())
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
