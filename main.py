@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
