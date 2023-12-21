@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import platform
-def get_os_info():
-        return platform.uname()
+def sort_list(lst):
+        return sorted(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
