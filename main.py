@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
