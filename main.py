@@ -1,8 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
