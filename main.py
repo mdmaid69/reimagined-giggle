@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
