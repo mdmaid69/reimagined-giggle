@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
