@@ -1,4 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-print("Hello, world!")
+name = "Python"
+print("Hello,", name)
+import re
+print(re.match("h.*o", "hello world"))
