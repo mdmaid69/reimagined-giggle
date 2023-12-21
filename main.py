@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
