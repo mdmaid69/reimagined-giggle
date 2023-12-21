@@ -1,6 +1,12 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_length(array):
-        return len(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
