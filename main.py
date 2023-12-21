@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def find_min(lst):
-        return min(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
