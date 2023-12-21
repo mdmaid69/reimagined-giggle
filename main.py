@@ -1,6 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
 import math
 def calculate_power(base, exponent):
         return math.pow(base, exponent)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
