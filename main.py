@@ -1,5 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def reverse_string(s):
-        return s[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
