@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
