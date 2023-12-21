@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def sort_numbers(numbers):
-        return sorted(numbers)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
