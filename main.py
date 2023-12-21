@@ -1,5 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
