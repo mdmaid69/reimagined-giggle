@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
