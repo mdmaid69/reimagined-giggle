@@ -1,4 +1,9 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
