@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def is_even(n):
-        return n % 2 == 0
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
