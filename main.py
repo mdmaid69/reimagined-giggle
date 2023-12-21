@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
