@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
