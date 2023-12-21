@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def split_path(path):
+        return os.path.split(path)
+def convert_to_binary(n):
+        return bin(n)
