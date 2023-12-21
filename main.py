@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
