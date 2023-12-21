@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def is_even(n):
+        return n % 2 == 0
