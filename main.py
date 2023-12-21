@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
