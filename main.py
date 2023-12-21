@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+def convert_to_json(data):
+        return json.dumps(data)
