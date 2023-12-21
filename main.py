@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
