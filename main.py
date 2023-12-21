@@ -1,5 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
