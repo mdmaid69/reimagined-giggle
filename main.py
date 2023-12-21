@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
