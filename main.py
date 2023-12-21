@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
