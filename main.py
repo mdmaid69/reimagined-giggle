@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
