@@ -1,13 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
