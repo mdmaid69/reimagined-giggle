@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import logging
+def log_message(message):
+        logging.info(message)
