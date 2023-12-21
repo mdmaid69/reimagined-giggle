@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-print(math.pi)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_counter():
+        return collections.Counter()
