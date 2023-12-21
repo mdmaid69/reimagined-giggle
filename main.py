@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def subtract_numbers(x, y):
-        return x - y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
