@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_base_name(path):
+        return os.path.basename(path)
