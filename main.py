@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  def convert_to_octal(n):
+        return oct(n)
