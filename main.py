@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
