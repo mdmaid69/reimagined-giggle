@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
