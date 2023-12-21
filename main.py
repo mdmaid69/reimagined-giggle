@@ -1,9 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
