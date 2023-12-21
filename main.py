@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import random
-print(random.randint(0, 100))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
