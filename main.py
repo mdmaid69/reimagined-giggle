@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
