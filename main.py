@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import datetime
+def get_current_date():
+        return datetime.date.today()
