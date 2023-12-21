@@ -1,8 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
