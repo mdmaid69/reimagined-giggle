@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
