@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_work(force, distance):
+        return force * distance
