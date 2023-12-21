@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def add_numbers(x, y):
-        return x + y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
