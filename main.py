@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import sys
-  def get_python_version():
-        return sys.version
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
