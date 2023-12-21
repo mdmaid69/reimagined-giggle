@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def cube_number(x):
+        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
