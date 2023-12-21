@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
