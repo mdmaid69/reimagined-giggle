@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
