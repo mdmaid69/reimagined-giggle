@@ -1,5 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
