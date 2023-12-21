@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
