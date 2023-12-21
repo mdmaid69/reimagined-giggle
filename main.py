@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_pressure(force, area):
+        return force / area
+import getpass
+def get_username():
+        return getpass.getuser()
