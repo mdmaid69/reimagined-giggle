@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
