@@ -1,7 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-from collections import Counter
-print(Counter("hello world"))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
