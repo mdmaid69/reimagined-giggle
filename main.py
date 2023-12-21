@@ -1,6 +1,10 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import getpass
-def get_username():
-        return getpass.getuser()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
