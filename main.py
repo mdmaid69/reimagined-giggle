@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def convert_to_octal(n):
-        return oct(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
