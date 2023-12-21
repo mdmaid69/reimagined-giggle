@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
