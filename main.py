@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
