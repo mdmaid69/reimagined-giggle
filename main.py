@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
