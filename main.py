@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
