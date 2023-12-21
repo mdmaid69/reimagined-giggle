@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
