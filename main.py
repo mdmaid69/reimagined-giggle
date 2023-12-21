@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
