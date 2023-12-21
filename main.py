@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
