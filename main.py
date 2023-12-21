@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import sys
-print(sys.version)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
