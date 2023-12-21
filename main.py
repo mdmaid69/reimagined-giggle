@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def is_even(n):
-        return n % 2 == 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
