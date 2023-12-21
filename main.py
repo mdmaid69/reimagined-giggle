@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_power(work, time):
+        return work / time
