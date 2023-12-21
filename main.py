@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
