@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import sys
+def exit_program():
+        sys.exit()
