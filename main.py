@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def is_palindrome(s):
-        return s == s[::-1]
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
