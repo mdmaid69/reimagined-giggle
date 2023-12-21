@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def add_numbers(x, y):
-        return x + y
+  def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_user_string():
+        return collections.UserString()
