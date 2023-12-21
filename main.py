@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_floor(x):
+        return math.floor(x)
