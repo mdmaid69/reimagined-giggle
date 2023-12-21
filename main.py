@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_speed(distance, time):
+        return distance / time
