@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
 import sys
 def print_python_version():
-        return sys.version
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+        print(sys.version)
