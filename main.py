@@ -1,4 +1,8 @@
-def find_max(numbers):
-        return max(numbers)
-  def square_number(x):
-        return x**2
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
