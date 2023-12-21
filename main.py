@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
