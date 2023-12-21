@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
