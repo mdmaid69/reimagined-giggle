@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
