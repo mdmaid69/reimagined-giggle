@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
