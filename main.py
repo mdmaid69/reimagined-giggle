@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
