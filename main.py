@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
