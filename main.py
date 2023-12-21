@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
