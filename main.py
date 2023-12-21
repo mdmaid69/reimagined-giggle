@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_list(array):
+        return list(array)
+def is_even(n):
+        return n % 2 == 0
