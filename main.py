@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
