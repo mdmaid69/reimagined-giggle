@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
