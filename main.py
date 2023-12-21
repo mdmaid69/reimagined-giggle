@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
