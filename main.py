@@ -1,6 +1,3 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+print([x**2 for x in range(10)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
