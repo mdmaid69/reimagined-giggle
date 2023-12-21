@@ -1,5 +1,8 @@
   import os
-  def get_file_owner(file_name):
+  def get_file_uid(file_name):
         return os.stat(file_name).st_uid
-def multiply_numbers(x, y):
-        return x * y
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
