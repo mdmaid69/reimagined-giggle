@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
