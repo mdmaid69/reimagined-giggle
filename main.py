@@ -1,7 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
