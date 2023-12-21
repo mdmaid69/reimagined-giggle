@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_buffer_info(array):
+        return array.buffer_info()
