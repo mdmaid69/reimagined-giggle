@@ -1,8 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+for i in range(5):
+        print(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
