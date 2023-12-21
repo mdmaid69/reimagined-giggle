@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def square_number(x):
+        return x**2
