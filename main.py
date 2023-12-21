@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
