@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
