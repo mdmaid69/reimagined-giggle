@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+name = "Python"
+print("Hello,", name)
