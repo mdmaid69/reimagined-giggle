@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
