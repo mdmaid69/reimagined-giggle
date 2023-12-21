@@ -1,10 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_power(work, time):
+        return work / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
