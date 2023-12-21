@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
