@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
