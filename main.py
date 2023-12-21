@@ -1,5 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
