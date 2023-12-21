@@ -1,5 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import datetime
-print(datetime.datetime.now())
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
