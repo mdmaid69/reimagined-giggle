@@ -1,5 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_exponential(x):
+        return math.exp(x)
