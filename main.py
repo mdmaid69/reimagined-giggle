@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
