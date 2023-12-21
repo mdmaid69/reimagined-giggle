@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
