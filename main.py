@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def get_array_as_float(array):
+        return float(array[0])
+import collections
+def create_user_dict():
+        return collections.UserDict()
