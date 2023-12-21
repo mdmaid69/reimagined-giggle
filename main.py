@@ -1,5 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
