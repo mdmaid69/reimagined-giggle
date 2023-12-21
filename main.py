@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
