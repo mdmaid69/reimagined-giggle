@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import collections
+def create_counter():
+        return collections.Counter()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
