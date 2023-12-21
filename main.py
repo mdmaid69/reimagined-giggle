@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
