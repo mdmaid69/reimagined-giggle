@@ -1,3 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-for i in range(10): print(i)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(x, y):
+        return x + y
