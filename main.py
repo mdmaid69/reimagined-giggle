@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
