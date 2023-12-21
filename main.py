@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
