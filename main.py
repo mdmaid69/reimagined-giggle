@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def exit_program():
-        sys.exit()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
