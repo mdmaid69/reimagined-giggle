@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
