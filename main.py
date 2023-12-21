@@ -1,5 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def sort_list(lst):
+        return sorted(lst)
+def count_characters(sentence):
+        return len(sentence)
