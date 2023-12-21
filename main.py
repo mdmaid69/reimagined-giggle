@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
