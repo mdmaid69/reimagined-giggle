@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
