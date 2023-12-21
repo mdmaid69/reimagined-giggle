@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
