@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
