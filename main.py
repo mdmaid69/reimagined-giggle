@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
