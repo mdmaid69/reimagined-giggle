@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
