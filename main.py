@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+text = "Hello, world!"
+print("Words:", len(text.split()))
