@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_float(array):
+        return float(array[0])
