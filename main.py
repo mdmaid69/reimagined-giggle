@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
