@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
