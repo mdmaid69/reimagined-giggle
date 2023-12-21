@@ -1,6 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def greet(name):
+        print(f"Hello, {name}!")
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
