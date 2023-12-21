@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_unique_words(sentence):
+        return set(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
