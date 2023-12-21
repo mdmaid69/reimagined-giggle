@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def divide_numbers(x, y):
-        return x / y
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import sys
+  def get_python_version():
+        return sys.version
