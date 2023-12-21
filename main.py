@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def is_even(n):
+        return n % 2 == 0
