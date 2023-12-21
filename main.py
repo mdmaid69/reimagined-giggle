@@ -1,7 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def find_max(lst):
+        return max(lst)
