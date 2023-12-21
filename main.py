@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
