@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_arc_sine(x):
+        return math.asin(x)
