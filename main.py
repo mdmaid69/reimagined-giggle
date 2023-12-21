@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
