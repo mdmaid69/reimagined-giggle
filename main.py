@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
