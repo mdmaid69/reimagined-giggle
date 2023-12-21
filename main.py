@@ -1,7 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
