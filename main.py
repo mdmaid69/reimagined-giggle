@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def reverse_array(array):
-        array.reverse()
+import random
+print(random.randint(0, 100))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
