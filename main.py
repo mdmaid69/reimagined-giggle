@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
