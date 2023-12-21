@@ -1,7 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_speed(distance, time):
+        return distance / time
