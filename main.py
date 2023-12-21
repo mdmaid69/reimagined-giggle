@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
