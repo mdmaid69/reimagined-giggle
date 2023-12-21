@@ -1,4 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-print(math.pi)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
