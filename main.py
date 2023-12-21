@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import collections
-def create_stack():
-        return collections.deque()
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
