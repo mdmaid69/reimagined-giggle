@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
