@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import re
-print(re.match("h.*o", "hello world"))
+print("Hello, world!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
