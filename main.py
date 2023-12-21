@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import random
+print(random.randint(0, 100))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
