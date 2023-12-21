@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def calculate_density(mass, volume):
-        return mass / volume
+def is_even(n):
+        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
