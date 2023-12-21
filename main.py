@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
