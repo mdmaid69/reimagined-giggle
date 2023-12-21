@@ -1,11 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import threading
+def sort_list(lst):
+        return sorted(lst)
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+@app.route("/")
+def hello():
+        return "Hello, World!"
