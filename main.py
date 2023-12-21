@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
