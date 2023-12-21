@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_repr(array):
+        return repr(array)
