@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def find_min(numbers):
-        return min(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+print(random.randint(0, 100))
