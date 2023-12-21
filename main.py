@@ -1,6 +1,8 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
