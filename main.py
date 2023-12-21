@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
