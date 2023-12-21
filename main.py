@@ -1,6 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
