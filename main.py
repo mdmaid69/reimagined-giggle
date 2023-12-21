@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
