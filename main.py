@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
