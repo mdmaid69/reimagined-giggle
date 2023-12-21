@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def add_numbers(x, y):
+        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
