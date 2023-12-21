@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
