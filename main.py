@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
