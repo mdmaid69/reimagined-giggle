@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print(math.pi)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
