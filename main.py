@@ -1,4 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-print(sum(range(10)))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
