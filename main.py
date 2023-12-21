@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def square_number(x):
+        return x**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
