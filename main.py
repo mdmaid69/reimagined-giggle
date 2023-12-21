@@ -1,7 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
