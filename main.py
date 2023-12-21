@@ -1,7 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
