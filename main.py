@@ -1,5 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
