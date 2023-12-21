@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
