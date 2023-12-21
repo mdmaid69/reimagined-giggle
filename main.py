@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import collections
+def create_queue():
+        return collections.deque()
