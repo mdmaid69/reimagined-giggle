@@ -1,5 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def reverse_list(lst):
-        return lst[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
