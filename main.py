@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
