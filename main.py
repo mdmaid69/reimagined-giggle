@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
