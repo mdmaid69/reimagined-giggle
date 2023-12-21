@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  def cube_number(x):
+        return x**3
