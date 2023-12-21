@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
