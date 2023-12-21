@@ -1,5 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_acceleration(speed, time):
-        return speed / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
