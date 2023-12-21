@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
