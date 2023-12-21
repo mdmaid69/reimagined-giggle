@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import time
-def get_current_time():
-        return time.ctime()
+def get_time_since_epoch():
+        return time.time()
