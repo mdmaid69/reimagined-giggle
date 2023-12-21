@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
