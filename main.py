@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
