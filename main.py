@@ -1,7 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
