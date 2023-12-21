@@ -1,5 +1,5 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 def calculate_energy(mass, c=3*10**8):
         return mass * c**2
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
