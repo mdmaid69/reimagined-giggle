@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
