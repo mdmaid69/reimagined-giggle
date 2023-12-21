@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_current_directory():
+        return os.getcwd()
+def calculate_speed(distance, time):
+        return distance / time
