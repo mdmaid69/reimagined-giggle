@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_array_to_bytes(array):
+        return array.tobytes()
