@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def multiply_numbers(x, y):
+        return x * y
+def count_elements(lst):
+        return len(lst)
