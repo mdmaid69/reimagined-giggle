@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
