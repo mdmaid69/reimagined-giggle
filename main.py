@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
