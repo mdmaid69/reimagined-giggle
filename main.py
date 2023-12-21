@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import time
-def get_current_time():
-        return time.time()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
