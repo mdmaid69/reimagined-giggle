@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_power(work, time):
-        return work / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
