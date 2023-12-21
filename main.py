@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
