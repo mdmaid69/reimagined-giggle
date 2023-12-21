@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
