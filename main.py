@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
+import os
+print(os.getcwd())
