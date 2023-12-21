@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import json
+print(json.dumps({"name": "John", "age": 30}))
