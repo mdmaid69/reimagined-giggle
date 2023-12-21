@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
