@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
