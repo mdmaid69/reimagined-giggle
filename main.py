@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
