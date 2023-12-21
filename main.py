@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
