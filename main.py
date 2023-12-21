@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
