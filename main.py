@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
