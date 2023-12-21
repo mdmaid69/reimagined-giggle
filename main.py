@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
