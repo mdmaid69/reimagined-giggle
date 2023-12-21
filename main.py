@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def find_max(numbers):
-        return max(numbers)
+def reverse_list(lst):
+        return lst[::-1]
+import json
+print(json.dumps({"name": "John", "age": 30}))
