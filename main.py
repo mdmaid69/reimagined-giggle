@@ -1,5 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def find_min(lst):
-        return min(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import time
+print(time.time())
