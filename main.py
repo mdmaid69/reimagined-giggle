@@ -1,9 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def reverse_string(s):
+        return s[::-1]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
