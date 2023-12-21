@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_palindrome(s):
-        return s == s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
