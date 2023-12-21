@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def cube_number(x):
-        return x**3
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def get_array_as_list(array):
+        return list(array)
