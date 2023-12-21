@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
