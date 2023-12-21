@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import random
-print(random.randint(0, 100))
+def convert_to_binary(n):
+        return bin(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
