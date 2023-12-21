@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
