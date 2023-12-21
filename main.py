@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
