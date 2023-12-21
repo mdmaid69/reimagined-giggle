@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
