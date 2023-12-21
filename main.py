@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
