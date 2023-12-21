@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
