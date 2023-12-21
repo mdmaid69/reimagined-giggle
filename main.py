@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
