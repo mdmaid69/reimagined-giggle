@@ -1,5 +1,11 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_typecode(array):
+        return array.typecode
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
