@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_floor(x):
+        return math.floor(x)
+import numpy as np
+print(np.array([1, 2, 3]))
