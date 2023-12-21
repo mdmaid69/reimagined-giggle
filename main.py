@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_work(force, distance):
-        return force * distance
+  def sort_list(lst):
+        return sorted(lst)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
