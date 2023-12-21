@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
