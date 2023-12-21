@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def clear_array(array):
+        array *= 0
+  def calculate_area_circle(r):
+        return 3.14 * r**2
