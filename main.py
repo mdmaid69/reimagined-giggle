@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_min(lst):
+        return min(lst)
