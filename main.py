@@ -1,7 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
