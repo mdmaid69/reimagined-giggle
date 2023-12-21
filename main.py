@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def split_path(path):
+        return os.path.split(path)
