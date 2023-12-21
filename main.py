@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
