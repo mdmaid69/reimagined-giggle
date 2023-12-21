@@ -1,5 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
