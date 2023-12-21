@@ -1,5 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def divide_numbers(x, y):
+        return x / y
