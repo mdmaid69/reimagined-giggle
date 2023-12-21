@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
