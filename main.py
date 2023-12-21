@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_density(mass, volume):
+        return mass / volume
+  def add_numbers(x, y):
+        return x + y
