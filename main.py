@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_user_list():
-        return collections.UserList()
+  def convert_to_hex(n):
+        return hex(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
