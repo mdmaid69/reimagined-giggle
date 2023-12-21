@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def subtract_numbers(x, y):
+        return x - y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
