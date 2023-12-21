@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def is_even(n):
-        return n % 2 == 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def sort_list(lst):
+        return sorted(lst)
