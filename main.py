@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_stack():
+        return collections.deque()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
