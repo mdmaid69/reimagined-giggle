@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
