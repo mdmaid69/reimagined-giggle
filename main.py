@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import numpy as np
-print(np.array([1, 2, 3]))
+  def is_even(n):
+        return n % 2 == 0
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
