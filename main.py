@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
