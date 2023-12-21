@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
+for i in range(5):
+        print(i)
