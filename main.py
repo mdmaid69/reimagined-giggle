@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
