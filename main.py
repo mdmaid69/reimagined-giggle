@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
