@@ -1,6 +1,7 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
