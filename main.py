@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
