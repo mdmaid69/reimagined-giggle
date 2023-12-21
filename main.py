@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
