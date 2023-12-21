@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_min(numbers):
+        return min(numbers)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
