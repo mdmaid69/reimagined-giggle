@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
