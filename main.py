@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
