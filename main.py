@@ -1,7 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
