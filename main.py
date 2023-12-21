@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
