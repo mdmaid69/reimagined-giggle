@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
