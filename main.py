@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_sine(x):
+        return math.sin(x)
