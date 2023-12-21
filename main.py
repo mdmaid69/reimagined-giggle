@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
