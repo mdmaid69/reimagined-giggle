@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_power(work, time):
+        return work / time
