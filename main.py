@@ -1,8 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
