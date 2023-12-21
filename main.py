@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
