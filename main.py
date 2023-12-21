@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
