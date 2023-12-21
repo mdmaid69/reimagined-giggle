@@ -1,6 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
