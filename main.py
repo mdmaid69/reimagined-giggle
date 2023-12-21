@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
