@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
