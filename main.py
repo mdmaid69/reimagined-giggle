@@ -1,4 +1,12 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_power(work, time):
-        return work / time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
