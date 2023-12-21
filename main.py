@@ -1,4 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
