@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
