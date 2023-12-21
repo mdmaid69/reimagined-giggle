@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
