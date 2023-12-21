@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
