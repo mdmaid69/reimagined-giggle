@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+from collections import Counter
+print(Counter("hello world"))
