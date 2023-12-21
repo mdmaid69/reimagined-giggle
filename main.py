@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
