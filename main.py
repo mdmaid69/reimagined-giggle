@@ -1,8 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
