@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
