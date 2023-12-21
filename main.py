@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
