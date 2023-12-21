@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_length(array):
+        return len(array)
