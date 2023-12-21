@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
