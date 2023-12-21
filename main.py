@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def is_even(n):
-        return n % 2 == 0
+import collections
+def create_stack():
+        return collections.deque()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
