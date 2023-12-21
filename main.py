@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
