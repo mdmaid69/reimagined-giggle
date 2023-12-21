@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_density(mass, volume):
-        return mass / volume
+def multiply_numbers(x, y):
+        return x * y
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
