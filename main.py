@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
