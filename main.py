@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
