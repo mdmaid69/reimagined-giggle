@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import time
+print(time.time())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
