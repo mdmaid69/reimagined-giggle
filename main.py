@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
