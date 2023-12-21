@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import sys
+def exit_program():
+        sys.exit()
