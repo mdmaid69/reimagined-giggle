@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_area_rectangle(l, w):
+        return l * w
