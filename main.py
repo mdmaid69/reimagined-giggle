@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
