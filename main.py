@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
