@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
