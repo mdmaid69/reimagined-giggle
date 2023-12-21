@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_hex(n):
+        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
