@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
