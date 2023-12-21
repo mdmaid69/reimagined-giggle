@@ -1,6 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
