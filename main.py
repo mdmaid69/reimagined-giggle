@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
