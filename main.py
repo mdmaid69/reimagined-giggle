@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
