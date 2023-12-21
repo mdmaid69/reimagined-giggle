@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
