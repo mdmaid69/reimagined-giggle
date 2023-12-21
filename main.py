@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_as_set(array):
-        return set(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
