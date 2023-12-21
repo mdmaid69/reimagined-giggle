@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
