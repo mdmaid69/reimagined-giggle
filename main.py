@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
