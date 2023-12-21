@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_length(array):
-        return len(array)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
