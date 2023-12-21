@@ -1,6 +1,10 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
