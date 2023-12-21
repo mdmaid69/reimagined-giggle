@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import sys
+def print_python_version():
+        return sys.version
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
