@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
