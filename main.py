@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import sys
-def print_python_version():
-        return sys.version
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def find_max(lst):
+        return max(lst)
