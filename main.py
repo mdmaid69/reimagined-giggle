@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import time
-def get_current_time():
-        return time.time()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
