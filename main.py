@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
