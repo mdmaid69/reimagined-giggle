@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
