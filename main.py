@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def multiply_numbers(x, y):
+        return x * y
+  def count_elements(lst):
+        return len(lst)
