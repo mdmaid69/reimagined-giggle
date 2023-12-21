@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_string():
+        return collections.UserString()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
