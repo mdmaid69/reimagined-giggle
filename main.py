@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
