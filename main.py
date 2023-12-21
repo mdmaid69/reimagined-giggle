@@ -1,3 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-print([x**2 for x in range(10)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
