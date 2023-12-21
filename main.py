@@ -1,12 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
