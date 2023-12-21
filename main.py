@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
