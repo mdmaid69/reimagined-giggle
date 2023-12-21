@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
