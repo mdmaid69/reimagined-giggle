@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
