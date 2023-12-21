@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
