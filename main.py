@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
