@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
