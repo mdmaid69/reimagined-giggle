@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
