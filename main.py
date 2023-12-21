@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def convert_array_to_list(array):
+        return array.tolist()
+import sys
+def print_python_version():
+        return sys.version
