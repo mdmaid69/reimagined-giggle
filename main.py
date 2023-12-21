@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
