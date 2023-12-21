@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
