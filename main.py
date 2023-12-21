@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_itemsize(array):
+        return array.itemsize
