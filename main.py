@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def convert_to_binary(n):
-        return bin(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
