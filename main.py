@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def convert_to_octal(n):
-        return oct(n)
+import array
+def reverse_array(array):
+        array.reverse()
+def multiply_numbers(x, y):
+        return x * y
