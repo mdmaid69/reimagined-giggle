@@ -1,6 +1,10 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def square_number(x):
+        return x**2
