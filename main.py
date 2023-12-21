@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
