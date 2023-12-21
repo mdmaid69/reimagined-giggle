@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
