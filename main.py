@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
