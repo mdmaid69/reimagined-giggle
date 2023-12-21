@@ -1,5 +1,12 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_typecode(array):
+        return array.typecode
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
