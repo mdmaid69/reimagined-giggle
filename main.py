@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-def count_characters(sentence):
-        return len(sentence)
+def find_max(lst):
+        return max(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
