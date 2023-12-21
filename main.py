@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
