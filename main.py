@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
+name = "Python"
+print("Hello,", name)
