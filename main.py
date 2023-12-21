@@ -1,6 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
