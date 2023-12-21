@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
