@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
