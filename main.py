@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
