@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def clear_array(array):
+        array *= 0
