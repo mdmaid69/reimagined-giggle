@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
