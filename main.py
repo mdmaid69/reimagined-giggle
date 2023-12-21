@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def find_max(lst):
+        return max(lst)
