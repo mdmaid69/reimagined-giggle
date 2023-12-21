@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
