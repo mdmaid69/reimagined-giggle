@@ -1,6 +1,12 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
