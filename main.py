@@ -1,6 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
