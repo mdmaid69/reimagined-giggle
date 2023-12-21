@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
