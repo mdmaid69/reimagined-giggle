@@ -1,7 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
