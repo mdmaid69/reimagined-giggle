@@ -1,9 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+def convert_to_hex(n):
+        return hex(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
