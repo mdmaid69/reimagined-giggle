@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
