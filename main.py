@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_user_list():
+        return collections.UserList()
