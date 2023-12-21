@@ -1,6 +1,8 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
