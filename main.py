@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
