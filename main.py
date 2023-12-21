@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
