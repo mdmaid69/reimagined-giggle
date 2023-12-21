@@ -1,5 +1,9 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
