@@ -1,7 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
