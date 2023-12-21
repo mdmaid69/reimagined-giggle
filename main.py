@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
