@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
