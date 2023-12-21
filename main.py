@@ -1,7 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
