@@ -1,6 +1,6 @@
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
