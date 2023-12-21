@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import sys
+def print_python_version():
+        print(sys.version)
