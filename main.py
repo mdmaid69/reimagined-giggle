@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import json
+print(json.dumps({"name": "John", "age": 30}))
