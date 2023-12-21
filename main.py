@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
