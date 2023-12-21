@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-name = "Python"
-print("Hello,", name)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def multiply_numbers(x, y):
+        return x * y
