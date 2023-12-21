@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def cube_number(x):
+        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
