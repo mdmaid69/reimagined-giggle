@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
