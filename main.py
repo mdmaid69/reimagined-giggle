@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import sys
-def print_python_version():
-        return sys.version
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
