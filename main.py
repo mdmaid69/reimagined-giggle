@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_speed(distance, time):
+        return distance / time
+def sort_numbers(numbers):
+        return sorted(numbers)
