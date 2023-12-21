@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
