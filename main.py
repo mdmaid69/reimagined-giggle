@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_pressure(force, area):
+        return force / area
