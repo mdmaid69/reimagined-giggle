@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def find_max(numbers):
-        return max(numbers)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
