@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
