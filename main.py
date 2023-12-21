@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
