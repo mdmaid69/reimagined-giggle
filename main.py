@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def get_array_item(array, i):
+        return array[i]
