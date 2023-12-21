@@ -1,6 +1,3 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+print([x**2 for x in range(10)])
