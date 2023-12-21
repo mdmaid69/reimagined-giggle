@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
