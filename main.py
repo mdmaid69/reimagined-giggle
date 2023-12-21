@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
