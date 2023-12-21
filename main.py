@@ -1,5 +1,3 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def cube_number(x):
-        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+print("Hello, world!")
