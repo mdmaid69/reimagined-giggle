@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+for i in range(5):
+        print(i)
+def subtract_numbers(x, y):
+        return x - y
