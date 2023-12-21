@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
