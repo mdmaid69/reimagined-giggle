@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
