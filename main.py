@@ -1,8 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import logging
+def log_message(message):
+        logging.info(message)
