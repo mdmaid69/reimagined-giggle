@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
