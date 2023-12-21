@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
