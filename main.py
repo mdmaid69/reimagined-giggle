@@ -1,6 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_sign(x):
+        return math.copysign(1, x)
