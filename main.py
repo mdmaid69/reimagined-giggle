@@ -1,8 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def is_palindrome(s):
+        return s == s[::-1]
