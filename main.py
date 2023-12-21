@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
