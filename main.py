@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_current_directory():
+        return os.getcwd()
