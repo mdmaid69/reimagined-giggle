@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import time
+def get_time_since_epoch():
+        return time.time()
