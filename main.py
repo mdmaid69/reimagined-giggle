@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import random
+print(random.randint(0, 100))
+  def convert_to_binary(n):
+        return bin(n)
