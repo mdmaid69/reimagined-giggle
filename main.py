@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
