@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
