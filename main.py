@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
