@@ -1,8 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
