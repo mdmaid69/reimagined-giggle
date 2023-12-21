@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def count_characters(sentence):
+        return len(sentence)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
