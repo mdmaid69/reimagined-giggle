@@ -1,5 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
