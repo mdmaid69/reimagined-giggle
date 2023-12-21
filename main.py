@@ -1,5 +1,9 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
