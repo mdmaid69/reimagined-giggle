@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import datetime
+print(datetime.datetime.now())
