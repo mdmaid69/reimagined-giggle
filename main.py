@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
