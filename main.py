@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def exit_program():
+        sys.exit()
+import sys
+def print_python_version():
+        return sys.version
