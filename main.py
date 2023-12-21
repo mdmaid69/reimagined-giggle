@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
