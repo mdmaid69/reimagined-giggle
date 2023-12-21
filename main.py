@@ -1,6 +1,4 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+print(random.randint(0, 100))
+def is_palindrome(s):
+        return s == s[::-1]
