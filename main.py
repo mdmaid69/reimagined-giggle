@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def remove_duplicates(lst):
-        return list(set(lst))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_list_from_array(array):
+        return array.tolist()
