@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import time
-def get_current_time():
-        return time.ctime()
+text = "Hello, world!"
+print("Characters:", len(text))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
