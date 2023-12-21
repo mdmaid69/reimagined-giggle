@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
