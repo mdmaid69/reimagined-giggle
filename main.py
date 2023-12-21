@@ -1,6 +1,8 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
