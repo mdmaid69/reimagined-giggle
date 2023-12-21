@@ -1,6 +1,7 @@
+  def subtract_numbers(x, y):
+        return x - y
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import time
-def get_current_time():
-        return time.ctime()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
