@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def cube_number(x):
-        return x**3
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
