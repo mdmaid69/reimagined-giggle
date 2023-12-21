@@ -1,5 +1,7 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def count_words(sentence):
-        return len(sentence.split())
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def cube_number(x):
+        return x**3
