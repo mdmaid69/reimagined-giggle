@@ -1,8 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
