@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
