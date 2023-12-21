@@ -1,4 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-print(sum(range(10)))
+def is_even(n):
+        return n % 2 == 0
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
