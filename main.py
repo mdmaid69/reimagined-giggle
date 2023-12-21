@@ -1,7 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_itemsize(array):
+        return array.itemsize
