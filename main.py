@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
