@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
