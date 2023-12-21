@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_as_set(array):
-        return set(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def subtract_numbers(x, y):
+        return x - y
