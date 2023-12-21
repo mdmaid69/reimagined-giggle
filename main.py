@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
