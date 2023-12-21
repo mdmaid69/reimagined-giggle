@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
