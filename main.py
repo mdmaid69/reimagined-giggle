@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
