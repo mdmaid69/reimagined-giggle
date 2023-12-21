@@ -1,4 +1,7 @@
-def find_max(lst):
-        return max(lst)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
