@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_work(force, distance):
+        return force * distance
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
