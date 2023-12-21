@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_volume(length, width, height):
-        return length * width * height
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
