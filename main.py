@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
