@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
