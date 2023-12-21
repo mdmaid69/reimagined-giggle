@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def sort_list(lst):
+        return sorted(lst)
