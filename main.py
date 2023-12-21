@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
