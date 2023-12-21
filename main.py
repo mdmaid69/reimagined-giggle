@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
