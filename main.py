@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
