@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def print_python_version():
+        return sys.version
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
