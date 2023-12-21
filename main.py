@@ -1,5 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
