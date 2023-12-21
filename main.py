@@ -1,6 +1,6 @@
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_current_directory():
+        return os.getcwd()
