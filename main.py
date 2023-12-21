@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
