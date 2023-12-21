@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_user_string():
+        return collections.UserString()
+import random
+print(random.randint(0, 100))
