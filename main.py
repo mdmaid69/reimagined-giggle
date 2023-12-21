@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_counter():
+        return collections.Counter()
