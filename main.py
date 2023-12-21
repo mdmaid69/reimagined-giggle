@@ -1,6 +1,12 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
