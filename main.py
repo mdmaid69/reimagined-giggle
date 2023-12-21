@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
 text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Uppercase:", text.upper())
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
