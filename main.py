@@ -1,5 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import tensorflow as tf
-print(tf.__version__)
+def append_to_array(array, item):
+        array.append(item)
