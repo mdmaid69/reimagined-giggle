@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import time
+print(time.time())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
