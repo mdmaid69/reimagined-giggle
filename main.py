@@ -1,5 +1,9 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import os
-print(os.getcwd())
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
