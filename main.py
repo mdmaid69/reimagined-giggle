@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def check_if_array_contains_item(array, item):
+        return item in array
