@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
