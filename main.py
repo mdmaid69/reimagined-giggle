@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
