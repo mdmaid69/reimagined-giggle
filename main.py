@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
