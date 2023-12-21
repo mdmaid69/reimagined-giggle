@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
