@@ -1,7 +1,10 @@
 import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def find_min(numbers):
-        return min(numbers)
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_power(work, time):
+        return work / time
