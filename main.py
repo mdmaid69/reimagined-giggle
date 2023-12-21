@@ -1,4 +1,3 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+print(sum(range(10)))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
