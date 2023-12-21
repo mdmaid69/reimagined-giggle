@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sys
-print(sys.version)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
