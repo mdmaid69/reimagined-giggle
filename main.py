@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
