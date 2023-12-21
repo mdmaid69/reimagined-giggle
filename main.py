@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
