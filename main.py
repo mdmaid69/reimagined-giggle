@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
