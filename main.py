@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_acceleration(speed, time):
-        return speed / time
+import sys
+def print_python_version():
+        print(sys.version)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
