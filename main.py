@@ -1,5 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
