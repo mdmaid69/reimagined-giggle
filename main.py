@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def multiply_numbers(x, y):
-        return x * y
+from collections import Counter
+print(Counter("hello world"))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
