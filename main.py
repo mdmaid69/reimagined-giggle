@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def is_even(n):
+        return n % 2 == 0
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
