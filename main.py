@@ -1,5 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import datetime
-print(datetime.datetime.now())
+def calculate_work(force, distance):
+        return force * distance
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
