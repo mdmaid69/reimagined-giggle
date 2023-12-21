@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
