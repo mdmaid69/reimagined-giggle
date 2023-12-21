@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def add_numbers(x, y):
+        return x + y
