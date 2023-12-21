@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
