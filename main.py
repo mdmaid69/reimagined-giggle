@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
