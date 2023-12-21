@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-print(math.pi)
+from collections import Counter
+print(Counter("hello world"))
+  def remove_duplicates(lst):
+        return list(set(lst))
