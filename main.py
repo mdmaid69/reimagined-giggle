@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
