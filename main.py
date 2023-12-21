@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+for i in range(10): print(i)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
