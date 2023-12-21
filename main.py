@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
