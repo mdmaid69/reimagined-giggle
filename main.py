@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import collections
+def create_user_string():
+        return collections.UserString()
