@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
