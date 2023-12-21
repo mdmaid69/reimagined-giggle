@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
