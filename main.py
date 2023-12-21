@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def square_number(x):
+        return x**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
