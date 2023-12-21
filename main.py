@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+print(json.dumps({"name": "John", "age": 30}))
