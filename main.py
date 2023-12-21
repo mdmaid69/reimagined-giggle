@@ -1,5 +1,3 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def subtract_numbers(x, y):
-        return x - y
+print(sum(range(10)))
+def is_even(n):
+        return n % 2 == 0
