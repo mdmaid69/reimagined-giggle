@@ -1,4 +1,6 @@
-print("Hello, world!")
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
