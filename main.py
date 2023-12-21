@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
