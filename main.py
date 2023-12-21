@@ -1,8 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_tuple(array):
+        return tuple(array)
+import platform
+def get_os_info():
+        return platform.uname()
