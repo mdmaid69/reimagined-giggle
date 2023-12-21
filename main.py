@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
