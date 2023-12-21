@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_list_from_array(array):
+        return array.tolist()
