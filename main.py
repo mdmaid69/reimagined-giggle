@@ -1,8 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
