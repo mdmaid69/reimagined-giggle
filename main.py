@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
