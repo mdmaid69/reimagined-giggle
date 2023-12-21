@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def convert_to_octal(n):
-        return oct(n)
+def square_number(x):
+        return x**2
+def find_union(list1, list2):
+        return set(list1) | set(list2)
