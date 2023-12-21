@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
