@@ -1,6 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def convert_array_to_string(array):
+        return array.tostring()
