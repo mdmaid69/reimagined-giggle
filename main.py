@@ -1,6 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
