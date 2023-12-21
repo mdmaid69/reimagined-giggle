@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def clear_array(array):
+        array *= 0
