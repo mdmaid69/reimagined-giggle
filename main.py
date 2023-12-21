@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
   def calculate_area_rectangle(l, w):
         return l * w
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
