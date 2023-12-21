@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
