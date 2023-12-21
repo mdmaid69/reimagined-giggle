@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import time
+def get_current_time():
+        return time.time()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
