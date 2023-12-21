@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
