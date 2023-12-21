@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def convert_to_binary(n):
+        return bin(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
