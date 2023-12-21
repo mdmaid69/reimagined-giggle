@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
