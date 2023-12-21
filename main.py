@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
