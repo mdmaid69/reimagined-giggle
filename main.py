@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
