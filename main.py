@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import time
+def get_time_since_epoch():
+        return time.time()
