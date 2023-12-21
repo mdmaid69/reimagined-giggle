@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_speed(distance, time):
-        return distance / time
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_user_dict():
+        return collections.UserDict()
