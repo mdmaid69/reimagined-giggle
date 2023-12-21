@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
