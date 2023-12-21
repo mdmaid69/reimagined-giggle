@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_area_rectangle(l, w):
+        return l * w
