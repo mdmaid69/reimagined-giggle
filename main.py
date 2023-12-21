@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def divide_numbers(x, y):
+        return x / y
