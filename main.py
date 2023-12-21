@@ -1,6 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
