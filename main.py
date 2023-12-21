@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
