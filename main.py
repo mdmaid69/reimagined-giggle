@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def count_elements(lst):
+        return len(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
