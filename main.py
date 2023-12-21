@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
