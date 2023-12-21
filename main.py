@@ -1,5 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def find_min(numbers):
-        return min(numbers)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
