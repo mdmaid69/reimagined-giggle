@@ -1,7 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
