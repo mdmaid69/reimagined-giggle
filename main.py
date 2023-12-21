@@ -1,7 +1,4 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def count_characters(sentence):
-        return len(sentence)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
