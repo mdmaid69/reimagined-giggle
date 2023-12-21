@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
