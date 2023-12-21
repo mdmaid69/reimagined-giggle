@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def find_max(numbers):
+        return max(numbers)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
