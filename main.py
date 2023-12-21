@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
