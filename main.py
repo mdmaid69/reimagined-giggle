@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import time
-print(time.time())
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_user_list():
+        return collections.UserList()
