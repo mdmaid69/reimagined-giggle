@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def remove_duplicates(lst):
+        return list(set(lst))
