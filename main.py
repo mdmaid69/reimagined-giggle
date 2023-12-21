@@ -1,8 +1,8 @@
 import array
-def get_array_from_file(filename, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
