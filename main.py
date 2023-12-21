@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import platform
+def get_python_version():
+        return platform.python_version()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
