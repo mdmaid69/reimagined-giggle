@@ -1,5 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
