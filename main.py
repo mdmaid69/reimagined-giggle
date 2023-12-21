@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
