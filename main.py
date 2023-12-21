@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
