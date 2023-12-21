@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
