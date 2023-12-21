@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def sort_list(lst):
+        return sorted(lst)
+import sys
+def exit_program():
+        sys.exit()
