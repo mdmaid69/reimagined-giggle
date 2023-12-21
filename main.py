@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
