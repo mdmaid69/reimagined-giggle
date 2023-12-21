@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+print(sum(range(10)))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
