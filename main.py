@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
