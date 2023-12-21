@@ -1,12 +1,7 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
