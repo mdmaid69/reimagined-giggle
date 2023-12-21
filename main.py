@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import tensorflow as tf
-print(tf.__version__)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
