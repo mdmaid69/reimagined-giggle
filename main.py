@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
