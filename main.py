@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
