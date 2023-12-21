@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_min(numbers):
+        return min(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
