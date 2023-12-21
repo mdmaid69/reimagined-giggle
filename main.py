@@ -1,7 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
