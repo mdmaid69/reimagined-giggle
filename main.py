@@ -1,5 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
