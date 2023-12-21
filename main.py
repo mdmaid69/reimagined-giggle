@@ -1,4 +1,6 @@
-import os
-print(os.getcwd())
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import sys
+def exit_program():
+        sys.exit()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
