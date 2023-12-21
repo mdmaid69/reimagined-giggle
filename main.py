@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def split_string(pattern, string):
+        return re.split(pattern, string)
