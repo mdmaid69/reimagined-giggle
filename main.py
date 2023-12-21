@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_int(array):
+        return int(array[0])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
