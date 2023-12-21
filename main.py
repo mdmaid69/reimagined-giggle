@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
