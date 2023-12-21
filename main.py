@@ -1,7 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_to_binary(n):
+        return bin(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
