@@ -1,4 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-print([x**2 for x in range(10)])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
