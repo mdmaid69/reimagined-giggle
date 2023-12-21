@@ -1,5 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def sort_list(lst):
-        return sorted(lst)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
