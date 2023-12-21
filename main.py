@@ -1,8 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
