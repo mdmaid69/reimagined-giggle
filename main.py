@@ -1,5 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import array
-def get_array_item(array, i):
-        return array[i]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def pop_from_array(array, i=-1):
+        return array.pop(i)
