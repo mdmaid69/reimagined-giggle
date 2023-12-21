@@ -1,5 +1,8 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
