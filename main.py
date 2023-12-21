@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
