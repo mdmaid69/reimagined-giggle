@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
