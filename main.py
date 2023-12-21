@@ -1,6 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
