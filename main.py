@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import platform
-def get_python_version():
-        return platform.python_version()
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
