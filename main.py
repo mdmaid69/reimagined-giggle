@@ -1,5 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
