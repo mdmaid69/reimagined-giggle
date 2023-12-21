@@ -1,6 +1,8 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
