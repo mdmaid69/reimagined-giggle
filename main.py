@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_power(work, time):
-        return work / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
