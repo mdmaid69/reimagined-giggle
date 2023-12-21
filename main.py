@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
