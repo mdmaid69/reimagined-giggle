@@ -1,4 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-print([x**2 for x in range(10)])
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
