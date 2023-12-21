@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
