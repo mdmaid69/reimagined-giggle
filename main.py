@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import os
-print(os.getcwd())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
