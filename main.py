@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
