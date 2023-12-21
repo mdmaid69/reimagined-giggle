@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
