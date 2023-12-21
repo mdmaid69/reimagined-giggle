@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def cube_number(x):
-        return x**3
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
