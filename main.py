@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
