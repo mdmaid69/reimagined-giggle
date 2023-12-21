@@ -1,7 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
