@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
