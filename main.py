@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
