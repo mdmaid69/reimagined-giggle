@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
