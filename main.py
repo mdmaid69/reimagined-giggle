@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
