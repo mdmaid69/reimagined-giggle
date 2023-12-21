@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+print(os.getcwd())
