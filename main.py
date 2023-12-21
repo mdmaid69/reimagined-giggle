@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def sort_list(lst):
+        return sorted(lst)
