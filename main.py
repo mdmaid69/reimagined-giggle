@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_work(force, distance):
-        return force * distance
+def cube_number(x):
+        return x**3
+  import os
+  def split_path(path):
+        return os.path.split(path)
