@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import getpass
+def get_username():
+        return getpass.getuser()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
