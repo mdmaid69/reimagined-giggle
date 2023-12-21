@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
