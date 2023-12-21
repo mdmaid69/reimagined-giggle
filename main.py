@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
