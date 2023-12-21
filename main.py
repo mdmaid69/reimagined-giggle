@@ -1,6 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
