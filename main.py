@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
