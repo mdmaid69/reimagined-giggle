@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def convert_to_octal(n):
-        return oct(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
