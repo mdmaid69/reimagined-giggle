@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
