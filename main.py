@@ -1,5 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_base_name(path):
+        return os.path.basename(path)
