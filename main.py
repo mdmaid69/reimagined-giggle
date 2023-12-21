@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import sys
-def exit_program():
-        sys.exit()
+def subtract_numbers(x, y):
+        return x - y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
