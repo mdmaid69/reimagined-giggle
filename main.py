@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
