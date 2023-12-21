@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import numpy as np
+print(np.array([1, 2, 3]))
