@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import platform
-def get_os_info():
-        return platform.uname()
+def divide_numbers(x, y):
+        return x / y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
