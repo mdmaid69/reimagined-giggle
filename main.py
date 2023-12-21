@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
