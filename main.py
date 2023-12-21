@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import sys
-def exit_program():
-        sys.exit()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
