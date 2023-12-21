@@ -1,7 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def is_palindrome(s):
+        return s == s[::-1]
