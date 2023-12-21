@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
