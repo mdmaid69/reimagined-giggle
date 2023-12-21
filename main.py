@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+print(math.pi)
+def calculate_acceleration(speed, time):
+        return speed / time
