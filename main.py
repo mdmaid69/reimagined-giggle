@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
