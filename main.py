@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
