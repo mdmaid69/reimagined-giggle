@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
