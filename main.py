@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
