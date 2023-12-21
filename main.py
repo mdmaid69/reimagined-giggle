@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
