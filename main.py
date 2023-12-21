@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_error_function(x):
+        return math.erf(x)
