@@ -1,5 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
