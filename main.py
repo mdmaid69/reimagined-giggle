@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
