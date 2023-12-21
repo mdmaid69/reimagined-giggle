@@ -1,5 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
