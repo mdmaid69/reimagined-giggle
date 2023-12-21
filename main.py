@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
