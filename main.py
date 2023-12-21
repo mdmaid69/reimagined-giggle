@@ -1,8 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
