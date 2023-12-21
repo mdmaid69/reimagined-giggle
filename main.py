@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def create_queue():
+        return collections.deque()
