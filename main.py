@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
