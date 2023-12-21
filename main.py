@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def clear_array(array):
+        array *= 0
