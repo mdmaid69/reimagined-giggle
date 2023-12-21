@@ -1,6 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
