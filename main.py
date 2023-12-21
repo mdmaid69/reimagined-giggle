@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def subtract_numbers(x, y):
+        return x - y
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
