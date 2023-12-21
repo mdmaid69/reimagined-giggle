@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
