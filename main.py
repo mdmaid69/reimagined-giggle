@@ -1,6 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
