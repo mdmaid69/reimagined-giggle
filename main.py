@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_pressure(force, area):
-        return force / area
+def find_max(lst):
+        return max(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
