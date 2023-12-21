@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
