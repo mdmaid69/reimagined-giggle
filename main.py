@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
