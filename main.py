@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def cube_number(x):
+        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
