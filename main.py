@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def convert_array_to_string(array):
+        return array.tostring()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
