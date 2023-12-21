@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
