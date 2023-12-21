@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def count_characters(sentence):
-        return len(sentence)
+  def get_base_name(path):
+        return os.path.basename(path)
