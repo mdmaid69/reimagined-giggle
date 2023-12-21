@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_counter():
-        return collections.Counter()
+def find_min(numbers):
+        return min(numbers)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
