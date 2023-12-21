@@ -1,5 +1,5 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
