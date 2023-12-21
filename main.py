@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
