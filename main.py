@@ -1,6 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
