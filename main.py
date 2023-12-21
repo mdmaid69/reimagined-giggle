@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
