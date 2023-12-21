@@ -1,8 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
