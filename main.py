@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def count_words(sentence):
-        return len(sentence.split())
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
