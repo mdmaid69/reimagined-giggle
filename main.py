@@ -1,5 +1,6 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
