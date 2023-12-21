@@ -1,5 +1,5 @@
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
