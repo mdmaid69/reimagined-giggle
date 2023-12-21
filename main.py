@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
