@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
