@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+print(math.pi)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
