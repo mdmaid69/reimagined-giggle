@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+x = 10
+y = 20
+print("Sum:", x + y)
