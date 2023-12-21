@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
