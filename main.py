@@ -1,10 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
