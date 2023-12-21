@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
