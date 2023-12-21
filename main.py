@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def count_characters(sentence):
+        return len(sentence)
