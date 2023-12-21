@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def find_max(numbers):
+        return max(numbers)
