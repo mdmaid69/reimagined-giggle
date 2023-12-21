@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_work(force, distance):
+        return force * distance
