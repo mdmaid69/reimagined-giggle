@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
