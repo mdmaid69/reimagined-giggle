@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def sort_list(lst):
-        return sorted(lst)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
