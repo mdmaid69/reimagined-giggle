@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
