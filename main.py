@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
