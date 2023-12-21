@@ -1,6 +1,4 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_str(array):
-        return str(array)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+print(sum(range(10)))
