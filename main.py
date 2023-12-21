@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
