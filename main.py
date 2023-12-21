@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
