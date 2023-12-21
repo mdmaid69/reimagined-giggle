@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_counter():
+        return collections.Counter()
