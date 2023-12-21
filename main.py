@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import tensorflow as tf
-print(tf.__version__)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
