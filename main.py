@@ -1,5 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def square_number(x):
+        return x**2
