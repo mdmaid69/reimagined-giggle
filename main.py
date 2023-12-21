@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
