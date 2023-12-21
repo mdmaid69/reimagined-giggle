@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def count_elements(lst):
+        return len(lst)
