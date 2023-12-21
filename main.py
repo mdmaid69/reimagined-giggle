@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_work(force, distance):
+        return force * distance
