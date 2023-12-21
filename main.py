@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
