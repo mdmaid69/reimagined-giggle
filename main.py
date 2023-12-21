@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-for i in range(5):
-        print(i)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
