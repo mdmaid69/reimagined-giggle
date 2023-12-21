@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
