@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
