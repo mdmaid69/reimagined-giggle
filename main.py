@@ -1,8 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
