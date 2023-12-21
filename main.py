@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
