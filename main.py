@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
