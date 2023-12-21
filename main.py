@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
