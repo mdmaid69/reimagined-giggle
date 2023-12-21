@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
