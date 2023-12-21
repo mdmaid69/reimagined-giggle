@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def count_characters(sentence):
+        return len(sentence)
+def find_max(lst):
+        return max(lst)
