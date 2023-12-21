@@ -1,6 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
