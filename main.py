@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
