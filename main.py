@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
