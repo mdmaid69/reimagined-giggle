@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
