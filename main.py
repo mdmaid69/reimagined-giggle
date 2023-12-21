@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import os
-print(os.getcwd())
+import collections
+def create_queue():
+        return collections.deque()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
