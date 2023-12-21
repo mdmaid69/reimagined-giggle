@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
