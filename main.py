@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-for i in range(5):
-        print(i)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
