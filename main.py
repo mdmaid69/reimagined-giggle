@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_str(array):
+        return str(array)
