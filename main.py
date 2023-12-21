@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
