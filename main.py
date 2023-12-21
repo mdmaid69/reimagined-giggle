@@ -1,5 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-name = "Python"
-print("Hello,", name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import random
+def roll_die():
+        return random.randint(1, 6)
