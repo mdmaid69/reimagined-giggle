@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
