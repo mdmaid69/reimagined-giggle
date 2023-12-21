@@ -1,8 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
