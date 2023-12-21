@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sys
-def print_python_version():
-        return sys.version
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
