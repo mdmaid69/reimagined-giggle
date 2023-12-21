@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import array
-def get_array_item(array, i):
-        return array[i]
+def is_palindrome(s):
+        return s == s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
