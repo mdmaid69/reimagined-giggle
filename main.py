@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def get_current_time():
-        return time.time()
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
