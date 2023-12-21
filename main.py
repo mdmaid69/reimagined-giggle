@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def count_elements(lst):
-        return len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def find_min(lst):
+        return min(lst)
