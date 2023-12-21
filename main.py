@@ -1,4 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def add_numbers(x, y):
-        return x + y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
