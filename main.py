@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_work(force, distance):
+        return force * distance
