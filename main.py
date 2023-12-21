@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import sys
+def exit_program():
+        sys.exit()
