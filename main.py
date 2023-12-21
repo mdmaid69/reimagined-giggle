@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
