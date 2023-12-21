@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+print([x**2 for x in range(10)])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
