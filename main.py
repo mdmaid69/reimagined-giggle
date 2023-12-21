@@ -1,5 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
