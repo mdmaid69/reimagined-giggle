@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def reverse_string(s):
-        return s[::-1]
+def subtract_numbers(x, y):
+        return x - y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
