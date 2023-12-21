@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import collections
+def create_stack():
+        return collections.deque()
