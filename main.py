@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_error_function(x):
+        return math.erf(x)
