@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
