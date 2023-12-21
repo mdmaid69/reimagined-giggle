@@ -1,5 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
