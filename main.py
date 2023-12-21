@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_list(array):
+        return list(array)
