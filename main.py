@@ -1,7 +1,8 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
