@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import random
-def roll_die():
-        return random.randint(1, 6)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
