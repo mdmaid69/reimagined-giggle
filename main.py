@@ -1,7 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
