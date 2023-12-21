@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
