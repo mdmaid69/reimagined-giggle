@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+print(sys.version)
