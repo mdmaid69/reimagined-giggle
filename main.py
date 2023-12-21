@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
