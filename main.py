@@ -1,6 +1,11 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
