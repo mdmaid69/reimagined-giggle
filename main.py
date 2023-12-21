@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
