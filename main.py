@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
