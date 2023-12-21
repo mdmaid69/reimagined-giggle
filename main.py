@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+text = "Hello, world!"
+print("Characters:", len(text))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
