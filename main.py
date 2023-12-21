@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_tangent(x):
+        return math.tan(x)
