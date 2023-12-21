@@ -1,6 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_density(mass, volume):
-        return mass / volume
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
