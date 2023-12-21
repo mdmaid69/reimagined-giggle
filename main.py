@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
