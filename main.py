@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def append_to_array(array, item):
+        array.append(item)
