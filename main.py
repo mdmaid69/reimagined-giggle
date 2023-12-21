@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
