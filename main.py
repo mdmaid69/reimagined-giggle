@@ -1,5 +1,8 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
