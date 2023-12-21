@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
