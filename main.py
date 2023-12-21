@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+print(os.getcwd())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
