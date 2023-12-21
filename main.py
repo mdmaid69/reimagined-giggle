@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-for i in range(5):
-        print(i)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
