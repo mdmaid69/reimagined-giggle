@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
