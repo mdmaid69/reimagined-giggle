@@ -1,8 +1,9 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
