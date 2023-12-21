@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
