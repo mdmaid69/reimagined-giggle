@@ -1,5 +1,7 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+i = 0
+while i < 5:
+        print(i)
+        i += 1
