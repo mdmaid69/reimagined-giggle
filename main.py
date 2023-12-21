@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def convert_to_octal(n):
-        return oct(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
