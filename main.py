@@ -1,6 +1,8 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
