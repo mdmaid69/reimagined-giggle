@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def sort_list(lst):
+        return sorted(lst)
