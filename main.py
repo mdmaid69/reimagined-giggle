@@ -1,4 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
