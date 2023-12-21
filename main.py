@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
