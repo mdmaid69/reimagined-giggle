@@ -1,11 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def convert_to_octal(n):
+        return oct(n)
