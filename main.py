@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def cube_number(x):
-        return x**3
+def get_array_as_tuple(array):
+        return tuple(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
