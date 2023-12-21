@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
