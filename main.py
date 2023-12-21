@@ -1,6 +1,7 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
