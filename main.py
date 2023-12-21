@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
