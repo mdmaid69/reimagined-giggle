@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+print(random.randint(0, 100))
