@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
