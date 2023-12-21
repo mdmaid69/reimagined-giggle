@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_itemsize(array):
+        return array.itemsize
