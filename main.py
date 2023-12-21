@@ -1,6 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
