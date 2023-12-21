@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import datetime
+print(datetime.datetime.now())
+import os
+print(os.getcwd())
