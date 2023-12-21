@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
