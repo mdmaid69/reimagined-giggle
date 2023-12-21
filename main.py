@@ -1,6 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
