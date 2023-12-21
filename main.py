@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-print(random.randint(0, 100))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
