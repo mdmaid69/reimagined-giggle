@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
