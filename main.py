@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
