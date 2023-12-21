@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
