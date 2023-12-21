@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
