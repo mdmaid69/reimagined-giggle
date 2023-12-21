@@ -1,6 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_arc_sine(x):
+        return math.asin(x)
+def add_numbers(a, b):
+        return a + b
