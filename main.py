@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
