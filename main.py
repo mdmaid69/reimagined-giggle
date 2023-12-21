@@ -1,8 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
