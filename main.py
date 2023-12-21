@@ -1,5 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def subtract_numbers(x, y):
-        return x - y
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
