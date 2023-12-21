@@ -1,5 +1,4 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   def sort_list(lst):
         return sorted(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
