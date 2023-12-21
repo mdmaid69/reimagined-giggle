@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
