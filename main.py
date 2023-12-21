@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def is_even(n):
+        return n % 2 == 0
