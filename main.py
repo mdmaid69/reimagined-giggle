@@ -1,5 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-text = "Hello, world!"
-print("Characters:", len(text))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
