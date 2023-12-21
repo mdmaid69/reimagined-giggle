@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
