@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def find_max(lst):
+        return max(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
