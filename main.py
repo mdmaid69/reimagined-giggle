@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def sort_list(lst):
-        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
