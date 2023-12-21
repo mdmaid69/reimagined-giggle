@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
