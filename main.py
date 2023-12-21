@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
