@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def remove_duplicates(lst):
+        return list(set(lst))
