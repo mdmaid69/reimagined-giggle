@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
