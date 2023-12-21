@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_power(work, time):
+        return work / time
+import sys
+def print_python_version():
+        print(sys.version)
