@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_permutations(n, k):
+        return math.perm(n, k)
