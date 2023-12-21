@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
