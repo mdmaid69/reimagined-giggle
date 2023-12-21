@@ -1,5 +1,10 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
