@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def is_even(n):
-        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
