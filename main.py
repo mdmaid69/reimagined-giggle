@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
