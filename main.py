@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
