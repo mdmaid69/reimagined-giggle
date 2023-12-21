@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_str(array):
-        return str(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
