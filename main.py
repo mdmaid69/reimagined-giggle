@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
