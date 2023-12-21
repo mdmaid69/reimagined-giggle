@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
