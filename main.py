@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def reverse_array(array):
+        array.reverse()
+def find_max(lst):
+        return max(lst)
