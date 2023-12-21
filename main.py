@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
