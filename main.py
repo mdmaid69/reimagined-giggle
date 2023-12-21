@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import sys
+def exit_program():
+        sys.exit()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
