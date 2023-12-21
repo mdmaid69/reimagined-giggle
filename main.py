@@ -1,7 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  def multiply_numbers(x, y):
+        return x * y
