@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
