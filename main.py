@@ -1,8 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
