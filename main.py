@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def find_max(lst):
+        return max(lst)
