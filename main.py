@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
