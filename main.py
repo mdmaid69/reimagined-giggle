@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
