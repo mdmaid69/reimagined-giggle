@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
