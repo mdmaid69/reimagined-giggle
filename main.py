@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import platform
+def get_python_version():
+        return platform.python_version()
