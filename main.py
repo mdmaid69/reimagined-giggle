@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
