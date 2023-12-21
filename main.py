@@ -1,7 +1,7 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
