@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
