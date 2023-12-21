@@ -1,6 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
