@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
