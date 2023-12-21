@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+print(sys.version)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
