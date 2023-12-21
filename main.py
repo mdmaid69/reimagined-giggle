@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def convert_to_binary(n):
+        return bin(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
