@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def clear_array(array):
+        array *= 0
