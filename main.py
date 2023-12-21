@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def is_odd(n):
+        return n % 2 != 0
