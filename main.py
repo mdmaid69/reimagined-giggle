@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_set(array):
+        return set(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
