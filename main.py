@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_set(array):
+        return set(array)
+def cube_number(x):
+        return x**3
