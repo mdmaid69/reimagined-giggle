@@ -1,5 +1,8 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def square_number(x):
-        return x**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
