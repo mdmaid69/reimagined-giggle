@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
