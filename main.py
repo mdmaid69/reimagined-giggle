@@ -1,7 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
