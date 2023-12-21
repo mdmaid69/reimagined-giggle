@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+for i in range(10): print(i)
