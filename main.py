@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
