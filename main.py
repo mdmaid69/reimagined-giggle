@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_current_directory():
+        return os.getcwd()
