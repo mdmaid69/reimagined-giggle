@@ -1,7 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
