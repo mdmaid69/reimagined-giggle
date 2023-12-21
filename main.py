@@ -1,8 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def is_even(n):
+        return n % 2 == 0
