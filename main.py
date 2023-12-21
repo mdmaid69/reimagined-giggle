@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
