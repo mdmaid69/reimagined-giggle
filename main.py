@@ -1,6 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+print([x**2 for x in range(10)])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
