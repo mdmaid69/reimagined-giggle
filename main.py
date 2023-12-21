@@ -1,6 +1,9 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
