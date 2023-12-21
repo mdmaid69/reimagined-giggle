@@ -1,6 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
