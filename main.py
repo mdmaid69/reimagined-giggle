@@ -1,6 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
