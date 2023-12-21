@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_item(array, i):
+        return array[i]
