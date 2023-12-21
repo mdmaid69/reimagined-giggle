@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def multiply_numbers(x, y):
+        return x * y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
