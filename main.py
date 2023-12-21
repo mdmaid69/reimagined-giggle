@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
