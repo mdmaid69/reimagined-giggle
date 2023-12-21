@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def is_odd(n):
-        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
