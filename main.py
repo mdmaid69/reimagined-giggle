@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def convert_to_octal(n):
-        return oct(n)
+import re
+print(re.match("h.*o", "hello world"))
+  import sys
+  def get_python_version():
+        return sys.version
