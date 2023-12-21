@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_stack():
+        return collections.deque()
