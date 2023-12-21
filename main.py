@@ -1,6 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
