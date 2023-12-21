@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
