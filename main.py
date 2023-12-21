@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
