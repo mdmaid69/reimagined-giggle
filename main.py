@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def subtract_numbers(x, y):
+        return x - y
