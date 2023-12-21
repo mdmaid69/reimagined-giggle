@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
