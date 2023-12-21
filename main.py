@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def read_from_json(json_string):
+        return json.loads(json_string)
