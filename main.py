@@ -1,5 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
