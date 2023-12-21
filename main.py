@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
