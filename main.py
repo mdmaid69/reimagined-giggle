@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_current_directory():
+        return os.getcwd()
