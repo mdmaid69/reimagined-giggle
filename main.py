@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def convert_to_hex(n):
-        return hex(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
