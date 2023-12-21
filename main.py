@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
