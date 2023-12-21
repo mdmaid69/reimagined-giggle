@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+print([x**2 for x in range(10)])
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_floor(x):
+        return math.floor(x)
