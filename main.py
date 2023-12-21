@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
