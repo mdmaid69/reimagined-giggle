@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def greet(name):
+        print(f"Hello, {name}!")
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
