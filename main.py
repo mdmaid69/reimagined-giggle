@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_item(array, i):
+        return array[i]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
