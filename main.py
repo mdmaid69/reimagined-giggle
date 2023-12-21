@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def convert_to_hex(n):
+        return hex(n)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
