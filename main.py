@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_set(array):
+        return set(array)
+from collections import Counter
+print(Counter("hello world"))
