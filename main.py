@@ -1,8 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def find_union(list1, list2):
+        return set(list1) | set(list2)
