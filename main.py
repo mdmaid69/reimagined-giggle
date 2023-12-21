@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
