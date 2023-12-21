@@ -1,6 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
