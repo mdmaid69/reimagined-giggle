@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
