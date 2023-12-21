@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import collections
-def create_user_list():
-        return collections.UserList()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
