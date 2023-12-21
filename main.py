@@ -1,7 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+i = 0
+while i < 5:
+        print(i)
+        i += 1
