@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
