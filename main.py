@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def sort_numbers(numbers):
-        return sorted(numbers)
+def extend_array(array, iterable):
+        array.extend(iterable)
