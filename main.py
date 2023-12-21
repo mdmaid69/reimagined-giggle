@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def multiply_numbers(x, y):
+        return x * y
