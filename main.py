@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_area_rectangle(l, w):
+        return l * w
