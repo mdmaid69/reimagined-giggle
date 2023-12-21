@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
