@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
