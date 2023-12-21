@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
