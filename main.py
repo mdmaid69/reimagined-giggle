@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
