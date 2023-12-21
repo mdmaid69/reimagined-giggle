@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_item(array, i):
+        return array[i]
