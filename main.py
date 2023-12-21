@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
