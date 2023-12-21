@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_stack():
+        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
