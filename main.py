@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+for i in range(5):
+        print(i)
+import array
+def get_array_index(array, item):
+        return array.index(item)
