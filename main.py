@@ -1,6 +1,8 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import datetime
+def get_current_date():
+        return datetime.date.today()
