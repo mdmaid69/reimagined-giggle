@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
