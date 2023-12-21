@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
