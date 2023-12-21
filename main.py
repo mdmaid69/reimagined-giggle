@@ -1,6 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-for i in range(10): print(i)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
