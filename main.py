@@ -1,5 +1,12 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
