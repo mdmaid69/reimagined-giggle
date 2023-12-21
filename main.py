@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
