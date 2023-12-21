@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_volume(length, width, height):
+        return length * width * height
