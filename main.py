@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import re
+print(re.match("h.*o", "hello world"))
