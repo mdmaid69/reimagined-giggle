@@ -1,4 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-for i in range(10): print(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
