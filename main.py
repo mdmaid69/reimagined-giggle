@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
