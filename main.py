@@ -1,5 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-x = 10
-y = 20
-print("Sum:", x + y)
+print([x**2 for x in range(10)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
