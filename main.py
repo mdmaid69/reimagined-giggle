@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
