@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import time
+def get_current_time():
+        return time.ctime()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
