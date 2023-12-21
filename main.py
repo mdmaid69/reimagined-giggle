@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def convert_to_binary(n):
-        return bin(n)
+def remove_duplicates(lst):
+        return list(set(lst))
+def find_max(numbers):
+        return max(numbers)
