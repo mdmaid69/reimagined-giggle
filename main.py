@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def find_max(numbers):
-        return max(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def sort_numbers(numbers):
+        return sorted(numbers)
