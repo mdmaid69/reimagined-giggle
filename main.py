@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
