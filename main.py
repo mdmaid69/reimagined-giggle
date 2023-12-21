@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_sine(x):
+        return math.sin(x)
