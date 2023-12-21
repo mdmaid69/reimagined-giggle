@@ -1,5 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
