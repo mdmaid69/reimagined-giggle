@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
