@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
