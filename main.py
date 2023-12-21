@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
