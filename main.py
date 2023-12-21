@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
