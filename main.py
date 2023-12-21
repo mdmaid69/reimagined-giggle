@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
