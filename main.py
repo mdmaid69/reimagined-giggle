@@ -1,7 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
