@@ -1,7 +1,8 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
