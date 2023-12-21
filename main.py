@@ -1,5 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
