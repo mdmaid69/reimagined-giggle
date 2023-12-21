@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
