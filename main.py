@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def square_number(x):
-        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
