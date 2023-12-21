@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
