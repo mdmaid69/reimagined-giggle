@@ -1,9 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_arc_cosine(x):
+        return math.acos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
