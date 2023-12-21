@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
