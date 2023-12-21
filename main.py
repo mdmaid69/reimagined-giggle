@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
