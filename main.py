@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
