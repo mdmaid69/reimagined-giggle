@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
