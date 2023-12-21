@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_floor(x):
+        return math.floor(x)
+def convert_to_binary(n):
+        return bin(n)
