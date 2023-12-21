@@ -1,5 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def is_even(n):
-        return n % 2 == 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
