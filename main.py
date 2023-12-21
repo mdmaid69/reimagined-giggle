@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import sys
-print(sys.version)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
