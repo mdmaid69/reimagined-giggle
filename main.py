@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
