@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
