@@ -1,4 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-print("Hello, world!")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
