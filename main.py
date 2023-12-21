@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
