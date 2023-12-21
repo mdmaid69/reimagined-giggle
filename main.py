@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
