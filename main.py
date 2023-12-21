@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
