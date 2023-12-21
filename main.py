@@ -1,7 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
