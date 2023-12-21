@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def count_elements(lst):
+        return len(lst)
