@@ -1,7 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
