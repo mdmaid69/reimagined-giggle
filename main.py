@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import sys
+  def get_python_version():
+        return sys.version
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
