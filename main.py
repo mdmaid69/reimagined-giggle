@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
