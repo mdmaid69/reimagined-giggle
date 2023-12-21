@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
