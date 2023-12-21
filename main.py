@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-  def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
