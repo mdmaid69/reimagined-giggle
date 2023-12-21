@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
