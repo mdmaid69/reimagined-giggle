@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
