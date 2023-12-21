@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def convert_to_binary(n):
+        return bin(n)
