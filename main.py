@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def is_even(n):
-        return n % 2 == 0
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
