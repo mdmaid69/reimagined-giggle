@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import getpass
+def get_username():
+        return getpass.getuser()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
