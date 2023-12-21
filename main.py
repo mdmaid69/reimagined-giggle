@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
