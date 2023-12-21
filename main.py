@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
