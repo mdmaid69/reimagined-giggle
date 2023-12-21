@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+x = 10
+y = 20
+print("Sum:", x + y)
