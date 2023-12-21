@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
