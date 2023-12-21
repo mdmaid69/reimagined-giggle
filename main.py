@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
