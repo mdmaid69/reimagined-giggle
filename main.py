@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
