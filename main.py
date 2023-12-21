@@ -1,7 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
