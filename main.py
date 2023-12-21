@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
