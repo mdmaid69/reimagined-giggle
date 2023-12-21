@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
