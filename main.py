@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def convert_to_hex(n):
+        return hex(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
