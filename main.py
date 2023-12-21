@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
