@@ -1,9 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
