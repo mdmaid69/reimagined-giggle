@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import logging
-def log_message(message):
-        logging.info(message)
+print([x**2 for x in range(10)])
+import collections
+def create_user_string():
+        return collections.UserString()
