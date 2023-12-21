@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
