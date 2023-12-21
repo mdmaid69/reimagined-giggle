@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def add_numbers(x, y):
+        return x + y
