@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def remove_directory(path):
+        os.rmdir(path)
