@@ -1,7 +1,7 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def find_max(lst):
+        return max(lst)
