@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
