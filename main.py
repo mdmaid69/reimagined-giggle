@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+print(os.getcwd())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
