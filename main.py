@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
