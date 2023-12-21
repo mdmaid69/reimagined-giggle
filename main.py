@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
