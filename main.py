@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def convert_to_hex(n):
-        return hex(n)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
