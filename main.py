@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def count_characters(sentence):
+        return len(sentence)
