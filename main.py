@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
