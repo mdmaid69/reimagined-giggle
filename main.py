@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def calculate_power(work, time):
-        return work / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+def remove_duplicates(lst):
+        return list(set(lst))
