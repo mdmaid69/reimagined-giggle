@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def count_elements(lst):
+        return len(lst)
