@@ -1,8 +1,7 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
