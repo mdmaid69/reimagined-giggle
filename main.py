@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_pressure(force, area):
+        return force / area
