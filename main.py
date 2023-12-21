@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
