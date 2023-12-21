@@ -1,5 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def add_numbers(a, b):
-        return a + b
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
