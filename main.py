@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_work(force, distance):
+        return force * distance
