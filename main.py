@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
