@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
