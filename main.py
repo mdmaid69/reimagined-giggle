@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def is_odd(n):
-        return n % 2 != 0
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_current_directory():
+        return os.getcwd()
