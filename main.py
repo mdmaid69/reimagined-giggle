@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def count_characters(sentence):
+        return len(sentence)
+  def reverse_list(lst):
+        return lst[::-1]
