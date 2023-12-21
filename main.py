@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import re
+print(re.match("h.*o", "hello world"))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
