@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def cube_number(x):
+        return x**3
