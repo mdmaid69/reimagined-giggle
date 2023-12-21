@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
