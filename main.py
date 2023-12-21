@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import collections
+def create_user_string():
+        return collections.UserString()
