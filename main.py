@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def is_even(n):
+        return n % 2 == 0
