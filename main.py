@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
