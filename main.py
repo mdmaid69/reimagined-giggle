@@ -1,6 +1,7 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import collections
-def create_user_list():
-        return collections.UserList()
+import getpass
+def get_username():
+        return getpass.getuser()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
