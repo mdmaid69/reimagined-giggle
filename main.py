@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  def count_elements(lst):
+        return len(lst)
