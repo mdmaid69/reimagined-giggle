@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import re
+print(re.match("h.*o", "hello world"))
