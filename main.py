@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def convert_to_hex(n):
-        return hex(n)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
