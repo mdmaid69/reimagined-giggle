@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
