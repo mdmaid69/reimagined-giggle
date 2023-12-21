@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def find_min(numbers):
-        return min(numbers)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
