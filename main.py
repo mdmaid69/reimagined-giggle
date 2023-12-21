@@ -1,6 +1,6 @@
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def check_if_array_contains_item(array, item):
+        return item in array
