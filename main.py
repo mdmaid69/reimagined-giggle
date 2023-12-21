@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
