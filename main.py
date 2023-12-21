@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_speed(distance, time):
+        return distance / time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
