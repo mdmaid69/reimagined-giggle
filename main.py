@@ -1,4 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-def find_min(lst):
-        return min(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def multiply_numbers(x, y):
+        return x * y
