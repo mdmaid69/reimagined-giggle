@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def square_number(x):
+        return x**2
