@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
