@@ -1,5 +1,7 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
