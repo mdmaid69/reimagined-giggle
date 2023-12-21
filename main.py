@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
