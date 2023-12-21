@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
