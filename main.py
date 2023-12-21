@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
