@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
