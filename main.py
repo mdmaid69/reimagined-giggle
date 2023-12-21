@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_user_string():
+        return collections.UserString()
