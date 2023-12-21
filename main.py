@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-for i in range(5):
-        print(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
