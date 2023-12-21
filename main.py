@@ -1,6 +1,3 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+print([x**2 for x in range(10)])
