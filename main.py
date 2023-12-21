@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
