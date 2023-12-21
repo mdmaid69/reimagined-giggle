@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_queue():
-        return collections.deque()
+  def count_elements(lst):
+        return len(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
