@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+i = 0
+while i < 5:
+        print(i)
+        i += 1
