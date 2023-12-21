@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
