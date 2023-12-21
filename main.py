@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import random
+print(random.randint(0, 100))
