@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_user_string():
+        return collections.UserString()
