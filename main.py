@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
