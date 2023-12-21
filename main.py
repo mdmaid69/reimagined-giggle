@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
