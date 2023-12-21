@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
