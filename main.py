@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
