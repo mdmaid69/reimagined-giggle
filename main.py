@@ -1,4 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import numpy as np
-print(np.array([1, 2, 3]))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
