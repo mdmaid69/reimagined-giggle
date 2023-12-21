@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def check_if_array_contains_item(array, item):
+        return item in array
+import collections
+def create_priority_queue():
+        return collections.deque()
