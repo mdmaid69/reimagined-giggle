@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
