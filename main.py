@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
+  def reverse_list(lst):
+        return lst[::-1]
