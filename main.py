@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import time
+def get_time_since_epoch():
+        return time.time()
