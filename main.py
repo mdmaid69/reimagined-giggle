@@ -1,7 +1,9 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
