@@ -1,5 +1,10 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
