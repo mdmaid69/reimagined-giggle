@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_floor(x):
+        return math.floor(x)
