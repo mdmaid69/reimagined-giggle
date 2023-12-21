@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
