@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
