@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_work(force, distance):
+        return force * distance
