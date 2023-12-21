@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def cube_number(x):
+        return x**3
+import array
+def get_array_as_repr(array):
+        return repr(array)
