@@ -1,4 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_pressure(force, area):
-        return force / area
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def greet(name):
+        print(f"Hello, {name}!")
