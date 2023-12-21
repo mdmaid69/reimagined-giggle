@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
