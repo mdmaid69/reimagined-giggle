@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_pressure(force, area):
+        return force / area
