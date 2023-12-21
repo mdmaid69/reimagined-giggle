@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
