@@ -1,5 +1,6 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def convert_to_binary(n):
-        return bin(n)
+def generate_random_sample(population, k):
+        return random.sample(population, k)
