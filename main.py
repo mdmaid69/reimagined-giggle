@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
