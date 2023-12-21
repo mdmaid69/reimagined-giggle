@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
