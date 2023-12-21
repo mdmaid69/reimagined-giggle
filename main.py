@@ -1,6 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
