@@ -1,4 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
