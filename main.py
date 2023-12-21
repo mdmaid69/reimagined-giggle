@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
