@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
