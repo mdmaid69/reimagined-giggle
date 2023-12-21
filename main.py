@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import collections
+def create_user_list():
+        return collections.UserList()
