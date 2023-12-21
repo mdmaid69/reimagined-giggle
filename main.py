@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
