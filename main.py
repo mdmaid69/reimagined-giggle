@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def reverse_list(lst):
+        return lst[::-1]
+  def add_numbers(x, y):
+        return x + y
