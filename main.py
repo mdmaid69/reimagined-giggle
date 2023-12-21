@@ -1,6 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
