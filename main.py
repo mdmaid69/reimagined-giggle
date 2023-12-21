@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_counter():
+        return collections.Counter()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
