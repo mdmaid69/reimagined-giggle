@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
