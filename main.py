@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def add_numbers(x, y):
+        return x + y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
