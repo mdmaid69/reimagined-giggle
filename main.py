@@ -1,8 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
