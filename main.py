@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  def convert_to_hex(n):
+        return hex(n)
