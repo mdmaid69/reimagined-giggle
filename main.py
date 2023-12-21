@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
