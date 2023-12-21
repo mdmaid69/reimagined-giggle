@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
