@@ -1,5 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def is_odd(n):
+        return n % 2 != 0
