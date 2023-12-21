@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def find_max(lst):
-        return max(lst)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
