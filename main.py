@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
