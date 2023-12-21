@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+for i in range(10): print(i)
