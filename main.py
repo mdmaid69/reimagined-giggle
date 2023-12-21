@@ -1,7 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+  def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def check_if_array_contains_item(array, item):
+        return item in array
