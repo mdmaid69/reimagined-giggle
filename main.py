@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
