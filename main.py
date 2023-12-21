@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def is_palindrome(s):
-        return s == s[::-1]
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_error_function(x):
+        return math.erf(x)
