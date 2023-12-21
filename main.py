@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import platform
-def get_os_info():
-        return platform.uname()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def reverse_list(lst):
+        return lst[::-1]
