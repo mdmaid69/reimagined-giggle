@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
