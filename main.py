@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def reverse_array(array):
+        array.reverse()
