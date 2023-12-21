@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
