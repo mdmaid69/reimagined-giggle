@@ -1,9 +1,8 @@
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
-def get_array_from_file(filename, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromunicode(unicode)
         return a
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
