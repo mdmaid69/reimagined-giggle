@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_string_from_array(array):
+        return array.tobytes()
+print(sum(range(10)))
