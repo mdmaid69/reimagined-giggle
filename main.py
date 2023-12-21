@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def find_max(lst):
+        return max(lst)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
