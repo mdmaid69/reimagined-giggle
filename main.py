@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import platform
+def get_python_version():
+        return platform.python_version()
