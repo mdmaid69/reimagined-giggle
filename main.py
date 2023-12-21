@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
