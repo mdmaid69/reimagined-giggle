@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def get_array_as_list(array):
-        return list(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def find_min(numbers):
+        return min(numbers)
