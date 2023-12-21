@@ -1,9 +1,7 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
