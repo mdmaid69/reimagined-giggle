@@ -1,7 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
