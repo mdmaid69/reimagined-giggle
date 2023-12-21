@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_pressure(force, area):
+        return force / area
