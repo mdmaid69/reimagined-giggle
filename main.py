@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
