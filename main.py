@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_pressure(force, area):
+        return force / area
