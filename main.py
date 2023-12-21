@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def add_numbers(a, b):
-        return a + b
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def add_numbers(x, y):
+        return x + y
