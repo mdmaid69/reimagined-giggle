@@ -1,5 +1,9 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  def reverse_list(lst):
-        return lst[::-1]
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
