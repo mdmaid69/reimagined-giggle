@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def add_numbers(x, y):
-        return x + y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
