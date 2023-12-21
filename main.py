@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
