@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def reverse_list(lst):
-        return lst[::-1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
