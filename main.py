@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_itemsize(array):
+        return array.itemsize
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
