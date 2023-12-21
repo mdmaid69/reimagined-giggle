@@ -1,7 +1,7 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def square_number(x):
-        return x**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
