@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import platform
+def get_os_info():
+        return platform.uname()
