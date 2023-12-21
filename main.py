@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def add_numbers(x, y):
+        return x + y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
