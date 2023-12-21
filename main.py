@@ -1,6 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def reverse_list(lst):
-        return lst[::-1]
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
