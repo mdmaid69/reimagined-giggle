@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
