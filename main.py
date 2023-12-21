@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
