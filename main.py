@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
