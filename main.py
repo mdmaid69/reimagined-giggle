@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
