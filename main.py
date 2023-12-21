@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_density(mass, volume):
+        return mass / volume
