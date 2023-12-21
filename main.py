@@ -1,6 +1,6 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def count_characters(sentence):
-        return len(sentence)
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_list(array):
+        return list(array)
