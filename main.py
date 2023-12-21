@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
