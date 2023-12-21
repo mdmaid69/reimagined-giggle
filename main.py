@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import numpy as np
+print(np.array([1, 2, 3]))
