@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def reverse_string(s):
-        return s[::-1]
+def add_numbers(a, b):
+        return a + b
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
