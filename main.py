@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
