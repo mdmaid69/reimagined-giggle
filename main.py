@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_area_rectangle(l, w):
-        return l * w
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import time
+def get_time_since_epoch():
+        return time.time()
