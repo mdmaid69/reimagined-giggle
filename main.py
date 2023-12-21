@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def is_odd(n):
+        return n % 2 != 0
