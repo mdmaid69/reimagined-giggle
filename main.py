@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def sort_list(lst):
+        return sorted(lst)
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def print_python_version():
+        print(sys.version)
