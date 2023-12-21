@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
