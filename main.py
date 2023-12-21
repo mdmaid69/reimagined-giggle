@@ -1,5 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def is_even(n):
-        return n % 2 == 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
