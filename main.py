@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
