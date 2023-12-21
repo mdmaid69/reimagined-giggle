@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
