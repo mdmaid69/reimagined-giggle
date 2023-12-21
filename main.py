@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def add_numbers(x, y):
+        return x + y
+  def subtract_numbers(x, y):
+        return x - y
