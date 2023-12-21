@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def append_to_array(array, item):
-        array.append(item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def multiply_numbers(x, y):
+        return x * y
