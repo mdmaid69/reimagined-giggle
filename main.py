@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
