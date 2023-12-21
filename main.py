@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
