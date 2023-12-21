@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
