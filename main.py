@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
