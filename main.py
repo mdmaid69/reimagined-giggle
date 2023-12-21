@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
