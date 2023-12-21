@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+name = "Python"
+print("Hello,", name)
