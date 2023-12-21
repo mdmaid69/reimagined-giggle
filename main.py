@@ -1,5 +1,8 @@
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-def add_numbers(a, b):
-        return a + b
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
