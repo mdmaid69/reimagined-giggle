@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
