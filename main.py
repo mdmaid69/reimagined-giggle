@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import time
+def get_current_time():
+        return time.ctime()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
