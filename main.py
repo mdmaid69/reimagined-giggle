@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_item(array, i):
-        return array[i]
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
