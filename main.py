@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
