@@ -1,6 +1,8 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def iterate_over_array(array):
+        for item in array:
+        print(item)
