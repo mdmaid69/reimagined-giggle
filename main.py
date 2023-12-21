@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_volume(length, width, height):
+        return length * width * height
