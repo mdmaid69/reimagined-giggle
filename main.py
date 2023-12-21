@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def square_number(x):
+        return x**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
