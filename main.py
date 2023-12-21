@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def add_numbers(x, y):
+        return x + y
