@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def convert_to_hex(n):
+        return hex(n)
