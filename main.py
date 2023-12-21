@@ -1,5 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
