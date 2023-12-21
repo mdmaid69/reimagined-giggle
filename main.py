@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import os
+print(os.getcwd())
