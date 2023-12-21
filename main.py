@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
