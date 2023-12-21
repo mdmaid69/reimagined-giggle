@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_power(work, time):
-        return work / time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def is_odd(n):
+        return n % 2 != 0
