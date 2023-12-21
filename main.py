@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import random
-print(random.randint(0, 100))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import platform
+def get_python_version():
+        return platform.python_version()
