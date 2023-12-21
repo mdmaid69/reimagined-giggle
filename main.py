@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
