@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
