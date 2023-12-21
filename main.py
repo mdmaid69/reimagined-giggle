@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
