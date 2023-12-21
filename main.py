@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import time
-def get_current_time():
+def get_time_since_epoch():
         return time.time()
