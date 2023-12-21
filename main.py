@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+print(math.pi)
