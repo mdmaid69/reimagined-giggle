@@ -1,4 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_power(work, time):
+        return work / time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
