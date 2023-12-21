@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import sys
-  def get_python_version():
-        return sys.version
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+name = "Python"
+print("Hello,", name)
