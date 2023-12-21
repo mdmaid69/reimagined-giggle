@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
