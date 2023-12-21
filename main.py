@@ -1,5 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def convert_to_hex(n):
+        return hex(n)
+  def convert_to_binary(n):
+        return bin(n)
