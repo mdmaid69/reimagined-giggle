@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_work(force, distance):
+        return force * distance
