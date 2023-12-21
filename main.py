@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def reverse_string(s):
+        return s[::-1]
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_list(array):
+        return list(array)
