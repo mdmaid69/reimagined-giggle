@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
