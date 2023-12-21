@@ -1,11 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
