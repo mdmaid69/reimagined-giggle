@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
