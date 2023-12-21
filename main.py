@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
