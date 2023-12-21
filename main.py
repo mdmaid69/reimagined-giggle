@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_str(array):
+        return str(array)
