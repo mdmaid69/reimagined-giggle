@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
