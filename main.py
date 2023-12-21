@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
