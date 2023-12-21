@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
