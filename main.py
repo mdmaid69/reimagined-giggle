@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
