@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def cube_number(x):
+        return x**3
