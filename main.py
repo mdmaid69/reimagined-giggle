@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import logging
+def log_message(message):
+        logging.info(message)
