@@ -1,8 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
