@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
