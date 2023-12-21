@@ -1,6 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
