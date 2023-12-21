@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_list(lst):
+        return sorted(lst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
