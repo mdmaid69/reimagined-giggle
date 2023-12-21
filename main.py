@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
