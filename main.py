@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
