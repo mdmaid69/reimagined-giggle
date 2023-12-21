@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def square_number(x):
+        return x**2
