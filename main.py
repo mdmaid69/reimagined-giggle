@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
