@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
