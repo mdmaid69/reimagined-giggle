@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
