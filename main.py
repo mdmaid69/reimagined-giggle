@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
