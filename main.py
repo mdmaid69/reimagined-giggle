@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
