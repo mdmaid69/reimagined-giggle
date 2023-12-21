@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
