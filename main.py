@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
