@@ -1,7 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
