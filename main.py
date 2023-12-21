@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
