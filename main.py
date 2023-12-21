@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_current_directory():
+        return os.getcwd()
