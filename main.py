@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
