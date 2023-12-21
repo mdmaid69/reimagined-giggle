@@ -1,5 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
