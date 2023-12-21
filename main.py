@@ -1,8 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
