@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
