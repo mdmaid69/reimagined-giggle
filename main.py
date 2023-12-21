@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
