@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
