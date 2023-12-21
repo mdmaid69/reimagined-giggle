@@ -1,6 +1,12 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
