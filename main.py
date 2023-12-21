@@ -1,12 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
