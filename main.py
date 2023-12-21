@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import collections
+def create_stack():
+        return collections.deque()
