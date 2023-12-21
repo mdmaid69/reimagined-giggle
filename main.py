@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def reverse_array(array):
+        array.reverse()
