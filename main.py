@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
