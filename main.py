@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import tensorflow as tf
-print(tf.__version__)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
