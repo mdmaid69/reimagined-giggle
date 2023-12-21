@@ -1,6 +1,9 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_pressure(force, area):
+        return force / area
