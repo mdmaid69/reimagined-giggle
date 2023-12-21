@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+print(sys.version)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
