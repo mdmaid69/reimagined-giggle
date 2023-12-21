@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def reverse_list(lst):
+        return lst[::-1]
