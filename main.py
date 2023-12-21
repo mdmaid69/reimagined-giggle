@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def count_elements(lst):
+        return len(lst)
+def calculate_work(force, distance):
+        return force * distance
