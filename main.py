@@ -1,5 +1,6 @@
 import time
-print(time.time())
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def get_current_time():
+        return time.ctime()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
