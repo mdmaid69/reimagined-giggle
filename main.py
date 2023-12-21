@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_array_as_str(array):
+        return str(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
