@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
