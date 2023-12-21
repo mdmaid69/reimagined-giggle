@@ -1,6 +1,6 @@
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
