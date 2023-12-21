@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
