@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import collections
+def create_user_string():
+        return collections.UserString()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
