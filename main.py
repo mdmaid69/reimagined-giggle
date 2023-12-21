@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_power(work, time):
+        return work / time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
