@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def get_array_length(array):
-        return len(array)
+def get_array_index(array, item):
+        return array.index(item)
