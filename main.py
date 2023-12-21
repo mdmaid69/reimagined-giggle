@@ -1,11 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
