@@ -1,5 +1,8 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
