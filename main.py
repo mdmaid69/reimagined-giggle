@@ -1,6 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
