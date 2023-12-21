@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def add_numbers(x, y):
-        return x + y
+def count_elements(lst):
+        return len(lst)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
