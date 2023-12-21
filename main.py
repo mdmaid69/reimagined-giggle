@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
