@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def is_even(n):
+        return n % 2 == 0
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
