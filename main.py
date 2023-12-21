@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_absolute_value(x):
+        return math.fabs(x)
