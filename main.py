@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+name = "Python"
+print("Hello,", name)
