@@ -1,5 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
