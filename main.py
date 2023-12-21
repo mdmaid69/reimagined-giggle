@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
