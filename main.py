@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
