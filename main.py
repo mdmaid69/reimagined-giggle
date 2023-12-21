@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def get_current_working_directory():
+        return os.getcwd()
