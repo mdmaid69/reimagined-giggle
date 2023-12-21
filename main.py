@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_acceleration(speed, time):
-        return speed / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
