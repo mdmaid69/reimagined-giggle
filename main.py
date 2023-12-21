@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def convert_to_octal(n):
-        return oct(n)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
