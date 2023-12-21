@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
