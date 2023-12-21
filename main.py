@@ -1,7 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_power(work, time):
+        return work / time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
