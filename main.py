@@ -1,6 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
