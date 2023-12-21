@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_tangent(x):
+        return math.tan(x)
