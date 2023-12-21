@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_area(radius):
+        return 3.14 * radius * radius
