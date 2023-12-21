@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
