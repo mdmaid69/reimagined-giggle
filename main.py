@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def clear_array(array):
-        array *= 0
+def get_string_from_array(array):
+        return array.tobytes()
