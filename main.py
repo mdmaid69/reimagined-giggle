@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
