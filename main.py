@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
