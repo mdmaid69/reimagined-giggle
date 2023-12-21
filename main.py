@@ -1,5 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
