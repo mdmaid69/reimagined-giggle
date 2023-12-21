@@ -1,6 +1,9 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
