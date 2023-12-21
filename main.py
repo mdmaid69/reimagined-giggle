@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
