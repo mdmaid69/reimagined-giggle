@@ -1,6 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
