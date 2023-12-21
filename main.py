@@ -1,6 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
