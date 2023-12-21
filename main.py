@@ -1,11 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def count_elements(lst):
+        return len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
