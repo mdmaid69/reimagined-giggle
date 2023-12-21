@@ -1,8 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
