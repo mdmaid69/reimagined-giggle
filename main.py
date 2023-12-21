@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-print(os.getcwd())
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
