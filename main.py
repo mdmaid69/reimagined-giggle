@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
