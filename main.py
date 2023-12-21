@@ -1,4 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-for i in range(10): print(i)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def count_elements(lst):
+        return len(lst)
