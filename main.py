@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
