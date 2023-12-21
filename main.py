@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
