@@ -1,6 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
