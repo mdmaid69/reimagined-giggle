@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-print(math.pi)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def sort_list(lst):
+        return sorted(lst)
