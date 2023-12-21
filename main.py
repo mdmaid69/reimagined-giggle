@@ -1,4 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_set(array):
+        return set(array)
