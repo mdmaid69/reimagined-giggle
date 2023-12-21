@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
