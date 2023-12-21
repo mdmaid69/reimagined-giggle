@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
