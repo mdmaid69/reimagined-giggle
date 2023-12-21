@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
