@@ -1,3 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-print("Hello, world!")
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
