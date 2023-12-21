@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def find_min(lst):
-        return min(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
