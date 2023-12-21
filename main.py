@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def subtract_numbers(x, y):
+        return x - y
