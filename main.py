@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-print(os.getcwd())
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
