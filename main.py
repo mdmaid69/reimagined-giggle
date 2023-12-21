@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def square_number(x):
-        return x**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def subtract_numbers(x, y):
+        return x - y
