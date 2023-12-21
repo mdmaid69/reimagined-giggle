@@ -1,5 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
