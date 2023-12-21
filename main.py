@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def count_elements(lst):
-        return len(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
