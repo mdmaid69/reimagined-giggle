@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
