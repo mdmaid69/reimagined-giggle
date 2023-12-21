@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
