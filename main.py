@@ -1,8 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import time
+def get_time_since_epoch():
+        return time.time()
