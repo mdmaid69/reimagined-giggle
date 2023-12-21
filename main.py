@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
