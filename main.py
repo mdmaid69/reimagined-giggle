@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
