@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def remove_duplicates(lst):
+        return list(set(lst))
