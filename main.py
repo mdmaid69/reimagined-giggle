@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-print(math.pi)
+for i in range(5):
+        print(i)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
