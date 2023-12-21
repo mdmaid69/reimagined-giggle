@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
