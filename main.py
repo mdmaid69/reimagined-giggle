@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
