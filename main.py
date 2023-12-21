@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
