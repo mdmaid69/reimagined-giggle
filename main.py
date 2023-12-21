@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  def subtract_numbers(x, y):
-        return x - y
+def find_max(numbers):
+        return max(numbers)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
