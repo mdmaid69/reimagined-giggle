@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def check_if_array_contains_item(array, item):
+        return item in array
