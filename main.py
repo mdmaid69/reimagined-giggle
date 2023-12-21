@@ -1,7 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
