@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
