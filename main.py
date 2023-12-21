@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def add_numbers(x, y):
+        return x + y
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
