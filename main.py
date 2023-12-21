@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def sort_numbers(numbers):
+        return sorted(numbers)
