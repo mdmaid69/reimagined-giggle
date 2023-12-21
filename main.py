@@ -1,5 +1,8 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
