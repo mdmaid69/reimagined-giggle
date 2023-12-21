@@ -1,7 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def convert_to_hex(n):
+        return hex(n)
