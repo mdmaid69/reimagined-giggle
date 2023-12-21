@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def count_elements(lst):
-        return len(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
