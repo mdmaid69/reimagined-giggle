@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
