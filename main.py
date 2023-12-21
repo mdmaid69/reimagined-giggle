@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
