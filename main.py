@@ -1,8 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
