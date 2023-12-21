@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def find_min(lst):
+        return min(lst)
