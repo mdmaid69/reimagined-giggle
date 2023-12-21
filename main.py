@@ -1,8 +1,8 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
