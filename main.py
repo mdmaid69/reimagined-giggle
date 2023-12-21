@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
