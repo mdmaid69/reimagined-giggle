@@ -1,9 +1,5 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
