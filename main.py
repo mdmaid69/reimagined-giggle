@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
