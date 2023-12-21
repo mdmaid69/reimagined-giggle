@@ -1,6 +1,7 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
