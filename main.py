@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import collections
-def create_queue():
-        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
