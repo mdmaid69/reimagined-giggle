@@ -1,4 +1,7 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import tensorflow as tf
-print(tf.__version__)
+def reverse_list(lst):
+        return lst[::-1]
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
