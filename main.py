@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
