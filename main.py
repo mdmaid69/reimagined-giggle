@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
