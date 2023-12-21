@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_list_from_array(array):
+        return array.tolist()
