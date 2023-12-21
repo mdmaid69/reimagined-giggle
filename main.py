@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
