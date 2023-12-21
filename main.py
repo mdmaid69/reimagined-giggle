@@ -1,6 +1,11 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
