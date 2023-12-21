@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import sys
+def print_python_version():
+        print(sys.version)
