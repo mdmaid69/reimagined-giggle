@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
