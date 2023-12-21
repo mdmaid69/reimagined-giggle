@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
