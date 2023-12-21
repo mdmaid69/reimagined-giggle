@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def find_min(lst):
-        return min(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
