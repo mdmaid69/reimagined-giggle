@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
