@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_pressure(force, area):
-        return force / area
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
