@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
