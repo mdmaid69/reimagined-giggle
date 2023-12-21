@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def remove_from_array(array, item):
+        array.remove(item)
