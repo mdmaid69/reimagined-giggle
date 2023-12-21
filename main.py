@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import sys
+def print_python_version():
+        return sys.version
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
