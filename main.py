@@ -1,7 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
