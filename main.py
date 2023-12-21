@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
