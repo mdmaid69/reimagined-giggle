@@ -1,8 +1,7 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
