@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_factorial(n):
+        return math.factorial(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
