@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
