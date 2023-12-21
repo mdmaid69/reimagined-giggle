@@ -1,7 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
