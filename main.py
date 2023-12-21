@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def convert_to_hex(n):
-        return hex(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_work(force, distance):
+        return force * distance
