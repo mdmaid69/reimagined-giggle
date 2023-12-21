@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
