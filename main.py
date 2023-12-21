@@ -1,7 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
