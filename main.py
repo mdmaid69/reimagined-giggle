@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
