@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
