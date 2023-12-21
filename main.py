@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
