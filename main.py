@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
