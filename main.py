@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def subtract_numbers(x, y):
+        return x - y
