@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
