@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
