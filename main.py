@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
