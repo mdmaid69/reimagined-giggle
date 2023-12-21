@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import sys
+def exit_program():
+        sys.exit()
