@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
