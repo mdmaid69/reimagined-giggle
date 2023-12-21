@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
