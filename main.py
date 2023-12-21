@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
