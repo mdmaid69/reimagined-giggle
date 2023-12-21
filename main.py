@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
