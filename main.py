@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
