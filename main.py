@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
