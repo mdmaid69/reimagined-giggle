@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
