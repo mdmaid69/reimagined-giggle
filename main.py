@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
