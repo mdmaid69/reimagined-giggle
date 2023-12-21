@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
