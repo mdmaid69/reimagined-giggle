@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
