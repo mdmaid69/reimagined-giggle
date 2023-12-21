@@ -1,7 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
