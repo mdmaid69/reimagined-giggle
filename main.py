@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
