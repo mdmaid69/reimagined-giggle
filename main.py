@@ -1,8 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
