@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
