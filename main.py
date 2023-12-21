@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
