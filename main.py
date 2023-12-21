@@ -1,4 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
