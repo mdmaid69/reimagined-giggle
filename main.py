@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_as_float(array):
+        return float(array[0])
