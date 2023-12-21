@@ -1,7 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_pressure(force, area):
+        return force / area
