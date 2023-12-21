@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
