@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_elements(lst):
-        return len(lst)
+def cube_number(x):
+        return x**3
+import array
+def get_array_typecode(array):
+        return array.typecode
