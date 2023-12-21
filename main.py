@@ -1,6 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-def load_json(filename):
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
+        reader = csv.reader(f)
+        return list(reader)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
