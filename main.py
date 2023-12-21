@@ -1,8 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def is_even(n):
+        return n % 2 == 0
