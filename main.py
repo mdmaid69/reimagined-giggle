@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
