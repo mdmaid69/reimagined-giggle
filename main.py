@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
