@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
