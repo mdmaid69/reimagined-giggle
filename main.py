@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import time
+def get_current_time():
+        return time.ctime()
