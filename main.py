@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_list_from_array(array):
+        return array.tolist()
