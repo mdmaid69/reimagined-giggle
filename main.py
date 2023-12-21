@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def find_max(lst):
+        return max(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
