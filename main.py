@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
