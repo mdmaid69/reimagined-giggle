@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
