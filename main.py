@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import collections
 def create_default_dict(default_type):
         return collections.defaultdict(default_type)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
