@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
