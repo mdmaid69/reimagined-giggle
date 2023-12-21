@@ -1,6 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
