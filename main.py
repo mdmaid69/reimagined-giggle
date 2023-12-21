@@ -1,5 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
