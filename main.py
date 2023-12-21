@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
