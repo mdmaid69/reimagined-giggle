@@ -1,5 +1,11 @@
 import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
