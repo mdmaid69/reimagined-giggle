@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
