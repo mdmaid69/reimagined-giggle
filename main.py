@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_user_string():
+        return collections.UserString()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
