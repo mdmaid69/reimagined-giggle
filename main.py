@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_max(numbers):
-        return max(numbers)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
