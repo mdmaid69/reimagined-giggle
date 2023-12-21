@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
