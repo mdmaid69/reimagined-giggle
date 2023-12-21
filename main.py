@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sys
-def print_python_version():
-        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import time
+print(time.time())
