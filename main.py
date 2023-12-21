@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def delete_file(file_name):
+        os.remove(file_name)
+import datetime
+def get_today_date():
+        return datetime.date.today()
