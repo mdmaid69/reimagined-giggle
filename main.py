@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
