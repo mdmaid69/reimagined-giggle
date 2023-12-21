@@ -1,6 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_array_slice(array, i, j):
+        return array[i:j]
