@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
