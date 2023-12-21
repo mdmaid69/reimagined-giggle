@@ -1,4 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import time
+def get_time_since_epoch():
+        return time.time()
