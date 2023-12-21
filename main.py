@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def convert_to_octal(n):
-        return oct(n)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def append_to_array(array, item):
+        array.append(item)
