@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import datetime
+print(datetime.datetime.now())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
