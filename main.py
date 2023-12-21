@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
