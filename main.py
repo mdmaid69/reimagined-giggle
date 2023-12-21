@@ -1,5 +1,11 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+def reverse_string(s):
+        return s[::-1]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
