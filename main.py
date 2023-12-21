@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import time
-print(time.time())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
