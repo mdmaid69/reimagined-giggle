@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
