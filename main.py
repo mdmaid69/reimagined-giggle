@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
