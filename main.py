@@ -1,5 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def reverse_list(lst):
+        return lst[::-1]
