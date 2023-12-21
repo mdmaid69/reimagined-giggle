@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
