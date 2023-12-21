@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def add_numbers(x, y):
+        return x + y
