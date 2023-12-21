@@ -1,7 +1,8 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def convert_to_octal(n):
-        return oct(n)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
