@@ -1,7 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
