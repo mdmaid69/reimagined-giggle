@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
