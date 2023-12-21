@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
