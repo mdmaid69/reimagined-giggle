@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
