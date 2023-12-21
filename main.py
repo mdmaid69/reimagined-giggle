@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_queue():
-        return collections.deque()
+def convert_to_octal(n):
+        return oct(n)
+def find_min(lst):
+        return min(lst)
