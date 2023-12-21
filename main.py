@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
