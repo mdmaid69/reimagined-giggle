@@ -1,5 +1,10 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
