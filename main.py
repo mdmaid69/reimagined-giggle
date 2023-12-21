@@ -1,7 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
