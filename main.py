@@ -1,7 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_power(work, time):
+        return work / time
