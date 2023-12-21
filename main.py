@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
 import re
-print(re.match("h.*o", "hello world"))
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
