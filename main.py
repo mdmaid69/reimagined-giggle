@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
