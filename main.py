@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
