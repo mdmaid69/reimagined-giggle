@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
