@@ -1,4 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-print(sum(range(10)))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def count_elements(lst):
+        return len(lst)
