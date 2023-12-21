@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_repr(array):
+        return repr(array)
