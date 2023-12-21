@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
