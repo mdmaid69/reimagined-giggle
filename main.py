@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
