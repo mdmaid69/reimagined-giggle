@@ -1,6 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_item(array, i):
-        return array[i]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_acceleration(speed, time):
+        return speed / time
