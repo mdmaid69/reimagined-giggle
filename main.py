@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
