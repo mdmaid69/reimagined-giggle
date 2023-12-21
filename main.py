@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
