@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def is_even(n):
-        return n % 2 == 0
+import collections
+def create_counter():
+        return collections.Counter()
+def convert_to_binary(n):
+        return bin(n)
