@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
