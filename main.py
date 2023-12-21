@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
