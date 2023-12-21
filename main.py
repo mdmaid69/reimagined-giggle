@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
