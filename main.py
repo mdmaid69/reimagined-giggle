@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
