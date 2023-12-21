@@ -1,5 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
