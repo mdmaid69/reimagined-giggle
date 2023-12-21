@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def find_max(numbers):
+        return max(numbers)
+import random
+print(random.randint(0, 100))
