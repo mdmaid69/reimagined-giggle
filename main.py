@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def add_numbers(a, b):
+        return a + b
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
