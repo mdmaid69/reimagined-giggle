@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import getpass
-def get_username():
-        return getpass.getuser()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def is_palindrome(s):
+        return s == s[::-1]
