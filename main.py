@@ -1,6 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
