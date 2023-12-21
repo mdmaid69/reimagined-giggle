@@ -1,4 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
