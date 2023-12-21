@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
