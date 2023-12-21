@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
