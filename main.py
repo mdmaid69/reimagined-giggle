@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def is_even(n):
-        return n % 2 == 0
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
