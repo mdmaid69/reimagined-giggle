@@ -1,6 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
