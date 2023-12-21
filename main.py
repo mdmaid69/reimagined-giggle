@@ -1,7 +1,8 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
