@@ -1,6 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
