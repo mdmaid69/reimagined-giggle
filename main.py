@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_density(mass, volume):
+        return mass / volume
