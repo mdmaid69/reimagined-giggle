@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_speed(distance, time):
+        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
