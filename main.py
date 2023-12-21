@@ -1,8 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def remove_directory(path):
+        os.rmdir(path)
