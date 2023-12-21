@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
