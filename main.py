@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def is_odd(n):
+        return n % 2 != 0
