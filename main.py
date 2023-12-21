@@ -1,5 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def reverse_array(array):
-        array.reverse()
-for i in range(5):
-        print(i)
+def get_array_as_bytearray(array):
+        return bytearray(array)
