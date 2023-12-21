@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def count_elements(lst):
+        return len(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
