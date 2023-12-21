@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_counter():
-        return collections.Counter()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
