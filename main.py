@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import time
+def get_current_time():
+        return time.ctime()
