@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_acceleration(speed, time):
+        return speed / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
