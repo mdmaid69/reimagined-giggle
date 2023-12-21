@@ -1,6 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
