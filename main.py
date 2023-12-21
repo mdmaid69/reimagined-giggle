@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
