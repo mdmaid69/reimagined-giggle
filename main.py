@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def find_max(numbers):
+        return max(numbers)
