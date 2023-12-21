@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
