@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area_rectangle(l, w):
+        return l * w
