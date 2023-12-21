@@ -1,5 +1,7 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def is_even(n):
+        return n % 2 == 0
