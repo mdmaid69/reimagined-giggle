@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def multiply_numbers(x, y):
+        return x * y
