@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_pressure(force, area):
-        return force / area
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import collections
+def create_user_string():
+        return collections.UserString()
