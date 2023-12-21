@@ -1,6 +1,7 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
