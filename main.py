@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
