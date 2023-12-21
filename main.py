@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+text = "Hello, world!"
+print("Characters:", len(text))
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_counter():
+        return collections.Counter()
