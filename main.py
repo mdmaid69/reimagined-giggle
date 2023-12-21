@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def cube_number(x):
+        return x**3
