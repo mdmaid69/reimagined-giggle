@@ -1,9 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
