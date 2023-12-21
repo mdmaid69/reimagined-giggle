@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
