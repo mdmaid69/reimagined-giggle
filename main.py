@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def reverse_list(lst):
-        return lst[::-1]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
