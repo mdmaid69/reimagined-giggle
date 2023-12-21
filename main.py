@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
