@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import time
+print(time.time())
