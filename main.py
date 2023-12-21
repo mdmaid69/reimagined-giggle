@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
