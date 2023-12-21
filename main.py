@@ -1,6 +1,8 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
