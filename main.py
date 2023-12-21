@@ -1,6 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
