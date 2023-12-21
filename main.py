@@ -1,7 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
