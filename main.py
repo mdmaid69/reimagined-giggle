@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import sys
-  def get_python_version():
-        return sys.version
+def find_min(lst):
+        return min(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
