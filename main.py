@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
