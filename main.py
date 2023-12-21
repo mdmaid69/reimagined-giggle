@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
