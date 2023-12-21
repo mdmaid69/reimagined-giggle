@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def multiply_numbers(x, y):
+        return x * y
