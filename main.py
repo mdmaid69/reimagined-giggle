@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
