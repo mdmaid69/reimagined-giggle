@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+name = "Python"
+print("Hello,", name)
