@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
