@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+print(re.match("h.*o", "hello world"))
