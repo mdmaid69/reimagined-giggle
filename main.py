@@ -1,7 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def get_list_from_array(array):
+        return array.tolist()
