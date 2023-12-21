@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
