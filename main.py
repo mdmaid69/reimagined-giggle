@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
