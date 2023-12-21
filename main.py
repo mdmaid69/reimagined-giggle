@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
