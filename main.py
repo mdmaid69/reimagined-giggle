@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def multiply_numbers(x, y):
+        return x * y
