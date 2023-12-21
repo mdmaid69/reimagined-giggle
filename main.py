@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
