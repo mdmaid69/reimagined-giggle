@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
