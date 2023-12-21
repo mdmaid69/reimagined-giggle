@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_stack():
-        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_pressure(force, area):
+        return force / area
