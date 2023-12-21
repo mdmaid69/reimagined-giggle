@@ -1,7 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
