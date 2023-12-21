@@ -1,8 +1,3 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+print(sum(range(10)))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
