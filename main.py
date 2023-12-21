@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_as_list(array):
-        return list(array)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import numpy as np
+print(np.array([1, 2, 3]))
