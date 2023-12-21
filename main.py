@@ -1,6 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_arc_cosine(x):
+        return math.acos(x)
