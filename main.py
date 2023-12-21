@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
