@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
