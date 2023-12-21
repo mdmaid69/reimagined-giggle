@@ -1,14 +1,7 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
