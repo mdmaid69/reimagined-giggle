@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
