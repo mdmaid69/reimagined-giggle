@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import sys
+def exit_program():
+        sys.exit()
