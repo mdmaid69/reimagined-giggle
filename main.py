@@ -1,8 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
