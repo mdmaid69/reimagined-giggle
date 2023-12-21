@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
