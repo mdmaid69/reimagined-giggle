@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def convert_to_binary(n):
-        return bin(n)
+  def square_number(x):
+        return x**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
