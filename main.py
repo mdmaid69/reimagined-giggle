@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
