@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
