@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
