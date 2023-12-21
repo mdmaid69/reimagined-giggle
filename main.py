@@ -1,5 +1,6 @@
 import re
 def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
-  def is_even(n):
-        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
