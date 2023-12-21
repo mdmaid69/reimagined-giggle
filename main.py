@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
