@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import sys
+  def get_python_version():
+        return sys.version
