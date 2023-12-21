@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
