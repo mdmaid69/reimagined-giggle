@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_as_str(array):
+        return str(array)
