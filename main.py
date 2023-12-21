@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
