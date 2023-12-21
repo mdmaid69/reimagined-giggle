@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
