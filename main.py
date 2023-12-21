@@ -1,11 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
