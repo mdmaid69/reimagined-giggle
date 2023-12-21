@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
