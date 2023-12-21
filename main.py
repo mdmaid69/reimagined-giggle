@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def clear_array(array):
-        array *= 0
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
