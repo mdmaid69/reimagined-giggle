@@ -1,6 +1,6 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
