@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
