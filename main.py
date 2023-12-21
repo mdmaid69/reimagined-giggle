@@ -1,5 +1,7 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def multiply_numbers(x, y):
-        return x * y
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
