@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def add_numbers(x, y):
+        return x + y
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
