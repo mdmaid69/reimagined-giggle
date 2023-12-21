@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
