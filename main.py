@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
