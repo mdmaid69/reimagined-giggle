@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
