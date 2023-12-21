@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import random
-print(random.randint(0, 100))
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
