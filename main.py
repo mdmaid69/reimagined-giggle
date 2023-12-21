@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_force(mass, acceleration):
+        return mass * acceleration
