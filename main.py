@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
