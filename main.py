@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
