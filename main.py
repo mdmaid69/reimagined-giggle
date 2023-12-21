@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
