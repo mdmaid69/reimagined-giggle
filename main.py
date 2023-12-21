@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
