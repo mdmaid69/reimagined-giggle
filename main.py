@@ -1,5 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
