@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
