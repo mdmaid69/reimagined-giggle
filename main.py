@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
