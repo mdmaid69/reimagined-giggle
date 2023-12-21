@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+for i in range(10): print(i)
