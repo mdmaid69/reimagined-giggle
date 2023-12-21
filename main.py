@@ -1,7 +1,8 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
