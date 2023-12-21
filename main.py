@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def cube_number(x):
+        return x**3
