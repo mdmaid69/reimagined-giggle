@@ -1,6 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
