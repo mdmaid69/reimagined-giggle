@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
