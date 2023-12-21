@@ -1,5 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def remove_directory(path):
+        os.rmdir(path)
