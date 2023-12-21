@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
