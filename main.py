@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
