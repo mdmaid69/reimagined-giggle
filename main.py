@@ -1,8 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_floor(x):
+        return math.floor(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
