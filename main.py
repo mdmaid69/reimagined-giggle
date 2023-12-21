@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import sys
+def print_python_version():
+        return sys.version
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
