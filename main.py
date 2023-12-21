@@ -1,4 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  def sort_list(lst):
-        return sorted(lst)
+for i in range(10): print(i)
+import platform
+def get_python_version():
+        return platform.python_version()
