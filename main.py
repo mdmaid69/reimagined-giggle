@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
