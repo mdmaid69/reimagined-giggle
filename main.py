@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
