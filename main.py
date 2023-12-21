@@ -1,6 +1,9 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
