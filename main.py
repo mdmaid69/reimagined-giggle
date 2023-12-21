@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def find_unique_words(sentence):
-        return set(sentence.split())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
