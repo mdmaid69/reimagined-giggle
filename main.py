@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def is_even(n):
+        return n % 2 == 0
