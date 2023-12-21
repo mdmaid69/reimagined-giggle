@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_average(lst):
+        return sum(lst) / len(lst)
