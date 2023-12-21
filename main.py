@@ -1,5 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def is_even(n):
-        return n % 2 == 0
+def divide_numbers(x, y):
+        return x / y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
