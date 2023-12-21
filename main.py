@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import platform
+def get_python_version():
+        return platform.python_version()
