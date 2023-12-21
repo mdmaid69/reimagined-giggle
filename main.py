@@ -1,6 +1,5 @@
 import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sys
-def print_python_version():
-        return sys.version
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
