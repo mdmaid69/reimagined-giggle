@@ -1,5 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_pressure(force, area):
-        return force / area
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
