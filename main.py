@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
