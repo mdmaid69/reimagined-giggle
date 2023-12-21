@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
