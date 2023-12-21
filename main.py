@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+text = "Hello, world!"
+print("Characters:", len(text))
+import getpass
+def get_username():
+        return getpass.getuser()
