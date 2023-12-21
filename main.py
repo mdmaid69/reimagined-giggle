@@ -1,5 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def square_number(x):
+        return x**2
+def is_even(n):
+        return n % 2 == 0
