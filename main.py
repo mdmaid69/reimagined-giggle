@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
