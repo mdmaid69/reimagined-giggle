@@ -1,5 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def insert_into_array(array, i, item):
+        array.insert(i, item)
