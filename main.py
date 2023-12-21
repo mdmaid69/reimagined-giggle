@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
