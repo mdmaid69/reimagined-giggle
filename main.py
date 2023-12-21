@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
