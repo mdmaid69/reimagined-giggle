@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
