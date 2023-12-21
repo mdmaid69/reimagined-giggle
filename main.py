@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
