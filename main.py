@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
