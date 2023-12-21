@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
