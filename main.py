@@ -1,7 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
