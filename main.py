@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
