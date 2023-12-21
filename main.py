@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-print(random.randint(0, 100))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def add_numbers(x, y):
+        return x + y
