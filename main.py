@@ -1,5 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
