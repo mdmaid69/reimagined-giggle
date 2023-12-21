@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
