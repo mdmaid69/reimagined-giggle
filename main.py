@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import sys
+def print_python_version():
+        print(sys.version)
