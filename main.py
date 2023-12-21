@@ -1,4 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-print(sum(range(10)))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def is_even(n):
+        return n % 2 == 0
