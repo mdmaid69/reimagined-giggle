@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
