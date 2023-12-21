@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def get_array_slice(array, i, j):
+        return array[i:j]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
