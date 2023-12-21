@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
