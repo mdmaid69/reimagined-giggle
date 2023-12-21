@@ -1,4 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-print(sum(range(10)))
+import array
+def reverse_array(array):
+        array.reverse()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
