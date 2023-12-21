@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
