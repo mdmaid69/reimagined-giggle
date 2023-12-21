@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def get_array_as_complex(array):
+        return complex(array[0])
+import os
+def get_current_working_directory():
+        return os.getcwd()
