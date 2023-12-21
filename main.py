@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_queue():
-        return collections.deque()
+def reverse_string(s):
+        return s[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
