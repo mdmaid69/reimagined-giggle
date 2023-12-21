@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
