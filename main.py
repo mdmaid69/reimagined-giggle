@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def append_to_array(array, item):
+        array.append(item)
