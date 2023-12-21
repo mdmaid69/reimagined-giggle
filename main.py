@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+text = "Hello, world!"
+print("Words:", len(text.split()))
