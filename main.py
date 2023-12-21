@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
