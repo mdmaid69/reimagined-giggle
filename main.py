@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def find_max(numbers):
-        return max(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
