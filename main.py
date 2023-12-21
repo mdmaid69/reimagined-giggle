@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
