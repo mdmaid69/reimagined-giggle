@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def multiply_numbers(x, y):
+        return x * y
