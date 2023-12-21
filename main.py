@@ -1,6 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
