@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
