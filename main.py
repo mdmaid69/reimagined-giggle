@@ -1,5 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
