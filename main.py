@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_index(array, item):
+        return array.index(item)
