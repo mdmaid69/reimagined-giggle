@@ -1,8 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import collections
+def create_counter():
+        return collections.Counter()
