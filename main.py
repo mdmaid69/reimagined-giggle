@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
