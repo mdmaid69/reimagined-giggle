@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
