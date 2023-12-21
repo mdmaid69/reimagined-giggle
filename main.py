@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def cube_number(x):
+        return x**3
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
