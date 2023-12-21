@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
