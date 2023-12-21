@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  def convert_to_octal(n):
+        return oct(n)
