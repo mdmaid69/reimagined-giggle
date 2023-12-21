@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
