@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
