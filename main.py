@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import platform
+def get_os_info():
+        return platform.uname()
