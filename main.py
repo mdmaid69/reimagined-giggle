@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def subtract_numbers(x, y):
+        return x - y
