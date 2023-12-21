@@ -1,6 +1,10 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
