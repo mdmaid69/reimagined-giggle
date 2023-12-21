@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
