@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def cube_number(x):
-        return x**3
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
