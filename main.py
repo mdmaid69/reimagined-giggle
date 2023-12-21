@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
