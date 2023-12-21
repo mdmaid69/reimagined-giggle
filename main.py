@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
