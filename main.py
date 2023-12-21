@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def reverse_string(s):
+        return s[::-1]
