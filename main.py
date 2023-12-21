@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
