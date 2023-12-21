@@ -1,8 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
