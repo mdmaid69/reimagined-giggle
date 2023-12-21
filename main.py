@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  def convert_to_hex(n):
+        return hex(n)
