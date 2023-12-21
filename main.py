@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+for i in range(10): print(i)
