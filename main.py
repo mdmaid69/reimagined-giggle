@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
