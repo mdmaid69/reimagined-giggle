@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_force(mass, acceleration):
+        return mass * acceleration
