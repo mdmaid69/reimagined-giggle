@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
