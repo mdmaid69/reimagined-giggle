@@ -1,8 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
