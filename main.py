@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
