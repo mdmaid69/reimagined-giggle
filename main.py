@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
