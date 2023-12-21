@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_area_circle(r):
+        return 3.14 * r**2
