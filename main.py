@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+print(math.pi)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
