@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  def multiply_numbers(x, y):
-        return x * y
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
