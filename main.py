@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_user_string():
+        return collections.UserString()
+import json
+print(json.dumps({"name": "John", "age": 30}))
