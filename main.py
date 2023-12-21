@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
