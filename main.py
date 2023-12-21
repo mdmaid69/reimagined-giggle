@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
