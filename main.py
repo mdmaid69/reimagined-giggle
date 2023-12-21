@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import sys
-  def get_python_version():
-        return sys.version
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
