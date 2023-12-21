@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_bytearray(array):
+        return bytearray(array)
