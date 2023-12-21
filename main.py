@@ -1,5 +1,7 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
