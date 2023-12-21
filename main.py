@@ -1,6 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_density(mass, volume):
+        return mass / volume
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
