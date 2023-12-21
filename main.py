@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
