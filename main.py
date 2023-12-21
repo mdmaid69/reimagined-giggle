@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
