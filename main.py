@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
