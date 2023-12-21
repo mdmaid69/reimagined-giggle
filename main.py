@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
