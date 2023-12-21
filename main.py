@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
