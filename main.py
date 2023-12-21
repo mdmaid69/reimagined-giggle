@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_as_set(array):
+        return set(array)
