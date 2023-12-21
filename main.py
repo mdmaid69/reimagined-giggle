@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+for i in range(5):
+        print(i)
