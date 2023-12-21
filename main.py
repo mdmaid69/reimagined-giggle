@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
