@@ -1,4 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
