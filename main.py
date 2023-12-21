@@ -1,6 +1,3 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+print(random.randint(0, 100))
+print(sum(range(10)))
