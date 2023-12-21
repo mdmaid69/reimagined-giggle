@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import platform
+def get_os_info():
+        return platform.uname()
