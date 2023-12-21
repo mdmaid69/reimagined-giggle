@@ -1,6 +1,12 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
