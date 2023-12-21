@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
