@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
