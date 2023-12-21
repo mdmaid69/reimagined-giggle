@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
