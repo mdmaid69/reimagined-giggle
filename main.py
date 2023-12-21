@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
