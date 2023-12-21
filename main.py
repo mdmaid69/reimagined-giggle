@@ -1,6 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
