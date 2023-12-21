@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def convert_to_binary(n):
+        return bin(n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
