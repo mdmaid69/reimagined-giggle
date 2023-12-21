@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def convert_to_binary(n):
+        return bin(n)
