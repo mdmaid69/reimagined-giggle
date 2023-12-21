@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def reverse_array(array):
-        array.reverse()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
