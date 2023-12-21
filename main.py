@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def convert_to_binary(n):
+        return bin(n)
