@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_min(numbers):
+        return min(numbers)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
