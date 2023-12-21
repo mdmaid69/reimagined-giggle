@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def add_numbers(a, b):
+        return a + b
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
