@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
