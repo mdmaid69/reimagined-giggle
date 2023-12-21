@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
