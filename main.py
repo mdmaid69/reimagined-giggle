@@ -1,6 +1,8 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
