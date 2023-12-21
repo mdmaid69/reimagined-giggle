@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
