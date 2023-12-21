@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
