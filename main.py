@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import json
+print(json.dumps({"name": "John", "age": 30}))
