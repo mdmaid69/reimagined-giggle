@@ -1,5 +1,9 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_sine(x):
+        return math.sin(x)
