@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
