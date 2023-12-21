@@ -1,5 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
