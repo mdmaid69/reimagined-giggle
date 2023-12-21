@@ -1,5 +1,8 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  def count_elements(lst):
-        return len(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
