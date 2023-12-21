@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
