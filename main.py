@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import sys
+  def get_python_version():
+        return sys.version
