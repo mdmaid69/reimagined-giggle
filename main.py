@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_floor(x):
-        return math.floor(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def reverse_string(s):
+        return s[::-1]
