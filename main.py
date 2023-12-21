@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def convert_array_to_string(array):
+        return array.tostring()
