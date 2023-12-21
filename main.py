@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_item(array, i):
+        return array[i]
 import logging
-def log_message(message):
-        logging.info(message)
+def setup_logging(level):
+        logging.basicConfig(level=level)
