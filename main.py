@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def greet(name):
+        print(f"Hello, {name}!")
