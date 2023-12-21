@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_exponential(x):
+        return math.exp(x)
