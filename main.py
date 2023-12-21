@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+for i in range(10): print(i)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
