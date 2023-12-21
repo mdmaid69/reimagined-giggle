@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
