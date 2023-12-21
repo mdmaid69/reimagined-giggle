@@ -1,4 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-print([x**2 for x in range(10)])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
