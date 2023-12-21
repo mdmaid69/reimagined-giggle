@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
