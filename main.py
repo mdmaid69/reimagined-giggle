@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_min(numbers):
+        return min(numbers)
