@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+print(random.randint(0, 100))
