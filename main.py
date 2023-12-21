@@ -1,5 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
