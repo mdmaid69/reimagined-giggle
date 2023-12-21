@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
