@@ -1,8 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
