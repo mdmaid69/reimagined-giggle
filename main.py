@@ -1,4 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
