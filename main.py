@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
