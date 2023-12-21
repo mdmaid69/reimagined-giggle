@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def reverse_list(lst):
-        return lst[::-1]
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
