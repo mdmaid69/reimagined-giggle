@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
