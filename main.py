@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import time
+def get_time_since_epoch():
+        return time.time()
