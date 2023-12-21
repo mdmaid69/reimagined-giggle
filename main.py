@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
