@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
