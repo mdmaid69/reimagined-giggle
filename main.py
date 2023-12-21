@@ -1,8 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_floor(x):
+        return math.floor(x)
