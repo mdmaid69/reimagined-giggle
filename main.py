@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def is_even(n):
+        return n % 2 == 0
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_tuple(array):
+        return tuple(array)
