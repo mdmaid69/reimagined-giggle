@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def find_unique_words(sentence):
+        return set(sentence.split())
