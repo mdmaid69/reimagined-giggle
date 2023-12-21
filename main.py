@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
