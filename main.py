@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import sys
+def exit_program():
+        sys.exit()
