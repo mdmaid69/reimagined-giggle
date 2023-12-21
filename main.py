@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_as_repr(array):
+        return repr(array)
