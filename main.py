@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-from collections import Counter
-print(Counter("hello world"))
+print(sum(range(10)))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
