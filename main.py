@@ -1,6 +1,10 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
+import array
+def convert_array_to_list(array):
+        return array.tolist()
