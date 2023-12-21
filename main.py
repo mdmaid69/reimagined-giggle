@@ -1,4 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
