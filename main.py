@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
