@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import math
-print(math.pi)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def count_elements(lst):
+        return len(lst)
