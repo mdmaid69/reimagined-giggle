@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
