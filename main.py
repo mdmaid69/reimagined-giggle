@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
