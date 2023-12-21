@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_stack():
-        return collections.deque()
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
