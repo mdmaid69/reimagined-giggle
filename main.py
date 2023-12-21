@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
