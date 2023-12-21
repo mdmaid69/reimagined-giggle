@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
