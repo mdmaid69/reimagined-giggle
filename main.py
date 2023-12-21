@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
