@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
