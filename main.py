@@ -1,7 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
