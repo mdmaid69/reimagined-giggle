@@ -1,5 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
