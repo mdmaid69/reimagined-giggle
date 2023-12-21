@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
