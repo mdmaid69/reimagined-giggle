@@ -1,4 +1,8 @@
-import time
-print(time.time())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
