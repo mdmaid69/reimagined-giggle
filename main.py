@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+print(sum(range(10)))
+  import os
+  def get_current_directory():
+        return os.getcwd()
