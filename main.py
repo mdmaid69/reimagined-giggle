@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def cube_number(x):
+        return x**3
+def add_numbers(a, b):
+        return a + b
