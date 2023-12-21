@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_work(force, distance):
-        return force * distance
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def find_min(numbers):
+        return min(numbers)
