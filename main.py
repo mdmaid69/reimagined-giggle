@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def add_numbers(x, y):
-        return x + y
+  def reverse_list(lst):
+        return lst[::-1]
+import random
+def roll_die():
+        return random.randint(1, 6)
