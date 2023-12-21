@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
