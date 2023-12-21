@@ -1,5 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
