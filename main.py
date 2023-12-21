@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
