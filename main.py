@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
