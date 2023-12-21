@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def roll_die():
+        return random.randint(1, 6)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
