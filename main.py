@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_user_dict():
+        return collections.UserDict()
