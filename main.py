@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
