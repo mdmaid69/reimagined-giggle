@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_length(array):
+        return len(array)
+def add_numbers(a, b):
+        return a + b
