@@ -1,6 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
