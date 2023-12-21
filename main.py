@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def square_number(x):
+        return x**2
