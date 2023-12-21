@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_speed(distance, time):
+        return distance / time
+import os
+print(os.getcwd())
