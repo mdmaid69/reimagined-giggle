@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def is_palindrome(s):
-        return s == s[::-1]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def convert_to_binary(n):
+        return bin(n)
