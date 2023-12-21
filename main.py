@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
