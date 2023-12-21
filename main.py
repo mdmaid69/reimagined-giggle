@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import random
-print(random.randint(0, 100))
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
