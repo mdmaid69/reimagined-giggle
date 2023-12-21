@@ -1,11 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
