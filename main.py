@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
