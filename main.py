@@ -1,7 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
