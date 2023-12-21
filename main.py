@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
