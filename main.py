@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
