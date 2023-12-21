@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
