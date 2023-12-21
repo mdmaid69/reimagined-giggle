@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
