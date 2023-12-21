@@ -1,6 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
