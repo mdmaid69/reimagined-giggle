@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
