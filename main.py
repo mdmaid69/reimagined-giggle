@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
