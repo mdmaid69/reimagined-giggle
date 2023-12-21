@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
