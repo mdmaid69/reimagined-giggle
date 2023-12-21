@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def square_number(x):
-        return x**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
