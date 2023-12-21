@@ -1,3 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-print([x**2 for x in range(10)])
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
