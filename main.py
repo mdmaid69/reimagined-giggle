@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
