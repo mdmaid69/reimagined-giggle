@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
