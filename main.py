@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_memoryview(array):
+        return memoryview(array)
