@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
