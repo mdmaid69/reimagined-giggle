@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
