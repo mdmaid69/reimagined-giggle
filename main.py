@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def count_words(sentence):
+        return len(sentence.split())
