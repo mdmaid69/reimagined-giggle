@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
