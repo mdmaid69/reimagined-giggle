@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
