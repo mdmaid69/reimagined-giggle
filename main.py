@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
