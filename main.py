@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import platform
+def get_os_info():
+        return platform.uname()
