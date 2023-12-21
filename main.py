@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def add_numbers(x, y):
-        return x + y
+import collections
+def create_stack():
+        return collections.deque()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
