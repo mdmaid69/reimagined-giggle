@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
