@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
