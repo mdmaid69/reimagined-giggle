@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
