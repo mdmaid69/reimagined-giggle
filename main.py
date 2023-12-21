@@ -1,5 +1,6 @@
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
