@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
