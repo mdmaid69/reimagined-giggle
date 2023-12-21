@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_str(array):
+        return str(array)
