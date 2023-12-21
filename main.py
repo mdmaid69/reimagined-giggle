@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
