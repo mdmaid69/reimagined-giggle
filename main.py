@@ -1,4 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
