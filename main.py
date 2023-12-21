@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
