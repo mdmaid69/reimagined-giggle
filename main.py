@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
