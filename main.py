@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
