@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import os
+print(os.getcwd())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
