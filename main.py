@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
