@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Characters:", len(text))
