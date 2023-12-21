@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
