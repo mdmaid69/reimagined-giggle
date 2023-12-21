@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
