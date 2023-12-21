@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
