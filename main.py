@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
