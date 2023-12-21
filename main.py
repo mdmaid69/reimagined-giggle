@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
