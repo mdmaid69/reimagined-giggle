@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
