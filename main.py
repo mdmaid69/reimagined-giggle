@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
