@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
