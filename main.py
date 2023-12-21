@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def square_number(x):
+        return x**2
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
