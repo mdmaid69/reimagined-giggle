@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_max(numbers):
+        return max(numbers)
