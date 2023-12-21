@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
