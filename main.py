@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
