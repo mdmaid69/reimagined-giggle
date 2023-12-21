@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
