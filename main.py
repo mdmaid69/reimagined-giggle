@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
