@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def remove_directory(path):
+        os.rmdir(path)
