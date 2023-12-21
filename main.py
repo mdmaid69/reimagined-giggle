@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
