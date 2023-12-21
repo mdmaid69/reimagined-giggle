@@ -1,8 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
