@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
