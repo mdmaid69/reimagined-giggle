@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
