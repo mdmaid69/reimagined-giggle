@@ -1,5 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def reverse_array(array):
+        array.reverse()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
