@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def reverse_string(s):
+        return s[::-1]
