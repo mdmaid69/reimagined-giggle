@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def is_palindrome(s):
+        return s == s[::-1]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
