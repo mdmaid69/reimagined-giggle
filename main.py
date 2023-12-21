@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
