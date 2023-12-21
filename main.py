@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def count_elements(lst):
-        return len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
