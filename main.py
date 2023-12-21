@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
