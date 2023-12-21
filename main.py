@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
