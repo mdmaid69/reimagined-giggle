@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
