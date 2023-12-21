@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_power(work, time):
-        return work / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
