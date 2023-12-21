@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import platform
+def get_python_version():
+        return platform.python_version()
