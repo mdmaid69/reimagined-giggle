@@ -1,12 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
