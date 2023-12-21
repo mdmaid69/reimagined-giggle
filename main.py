@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
