@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
