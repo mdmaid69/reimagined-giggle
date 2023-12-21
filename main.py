@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def count_words(sentence):
-        return len(sentence.split())
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
