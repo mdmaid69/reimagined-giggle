@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def count_characters(sentence):
+        return len(sentence)
+def calculate_density(mass, volume):
+        return mass / volume
