@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import tensorflow as tf
+print(tf.__version__)
