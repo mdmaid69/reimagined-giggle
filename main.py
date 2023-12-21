@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
