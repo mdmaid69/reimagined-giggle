@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
