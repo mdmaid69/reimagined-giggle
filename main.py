@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
