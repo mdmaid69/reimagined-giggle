@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_queue():
+        return collections.deque()
