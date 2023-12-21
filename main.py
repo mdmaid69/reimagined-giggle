@@ -1,6 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area_rectangle(l, w):
+        return l * w
