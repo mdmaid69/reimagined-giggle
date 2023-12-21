@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def square_number(x):
-        return x**2
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
