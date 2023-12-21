@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
