@@ -1,4 +1,13 @@
-def calculate_power(work, time):
-        return work / time
-name = "Python"
-print("Hello,", name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
