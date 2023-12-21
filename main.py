@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_error_function(x):
+        return math.erf(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
