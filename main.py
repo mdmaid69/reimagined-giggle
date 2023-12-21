@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
