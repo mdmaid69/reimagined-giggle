@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
