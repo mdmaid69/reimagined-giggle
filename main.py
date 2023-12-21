@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_density(mass, volume):
-        return mass / volume
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
