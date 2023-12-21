@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
