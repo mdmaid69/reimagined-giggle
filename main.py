@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
