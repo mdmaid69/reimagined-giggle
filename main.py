@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
