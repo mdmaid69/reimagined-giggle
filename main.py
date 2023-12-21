@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def find_min(numbers):
-        return min(numbers)
+def divide_numbers(x, y):
+        return x / y
+import array
+def convert_array_to_list(array):
+        return array.tolist()
