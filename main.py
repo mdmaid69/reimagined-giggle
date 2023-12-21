@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
