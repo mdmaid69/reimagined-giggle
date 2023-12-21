@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
