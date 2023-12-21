@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
