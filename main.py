@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+print(math.pi)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
