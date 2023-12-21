@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def subtract_numbers(x, y):
+        return x - y
