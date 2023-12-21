@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def convert_to_binary(n):
-        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import json
+print(json.dumps({"name": "John", "age": 30}))
