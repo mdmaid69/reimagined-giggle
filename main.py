@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import platform
+def get_python_version():
+        return platform.python_version()
