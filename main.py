@@ -1,5 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
