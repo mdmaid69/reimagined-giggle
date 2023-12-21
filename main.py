@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
