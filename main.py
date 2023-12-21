@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
