@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
