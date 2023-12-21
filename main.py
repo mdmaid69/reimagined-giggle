@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def convert_to_binary(n):
-        return bin(n)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
