@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
+def calculate_hypotenuse(a, b):
         return math.sqrt(a**2 + b**2)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
