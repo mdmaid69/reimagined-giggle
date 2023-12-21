@@ -1,6 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_floor(x):
+        return math.floor(x)
