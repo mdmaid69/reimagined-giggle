@@ -1,6 +1,6 @@
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
