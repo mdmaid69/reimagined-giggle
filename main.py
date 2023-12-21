@@ -1,4 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-print(sum(range(10)))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import sys
+def exit_program():
+        sys.exit()
