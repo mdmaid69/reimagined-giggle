@@ -1,6 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
