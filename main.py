@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
