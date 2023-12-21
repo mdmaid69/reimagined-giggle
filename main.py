@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
