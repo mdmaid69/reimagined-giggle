@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def multiply_numbers(x, y):
-        return x * y
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_work(force, distance):
+        return force * distance
