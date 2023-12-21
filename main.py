@@ -1,6 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
