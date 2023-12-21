@@ -1,5 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def find_max(numbers):
-        return max(numbers)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
