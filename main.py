@@ -1,8 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+for i in range(10): print(i)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
