@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_area(radius):
+        return 3.14 * radius * radius
