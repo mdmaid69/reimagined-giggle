@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
