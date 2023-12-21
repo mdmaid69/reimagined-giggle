@@ -1,5 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
