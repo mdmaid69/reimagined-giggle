@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
