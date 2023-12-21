@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
