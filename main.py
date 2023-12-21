@@ -1,7 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_max(lst):
-        return max(lst)
+import math
+print(math.pi)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
