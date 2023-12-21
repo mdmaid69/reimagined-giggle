@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
