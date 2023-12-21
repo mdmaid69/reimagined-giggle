@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
