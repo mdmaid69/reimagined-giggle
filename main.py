@@ -1,5 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
