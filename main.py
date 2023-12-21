@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
