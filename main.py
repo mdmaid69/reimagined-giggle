@@ -1,6 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
