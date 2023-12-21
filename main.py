@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def divide_numbers(x, y):
+        return x / y
