@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
