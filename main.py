@@ -1,7 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
