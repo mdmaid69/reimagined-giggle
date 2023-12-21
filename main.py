@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
