@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def cube_number(x):
-        return x**3
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+print(json.dumps({"name": "John", "age": 30}))
