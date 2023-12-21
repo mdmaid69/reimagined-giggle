@@ -1,8 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def is_even(n):
+        return n % 2 == 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
