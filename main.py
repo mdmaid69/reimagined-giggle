@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def multiply_numbers(x, y):
-        return x * y
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
