@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def cube_number(x):
+        return x**3
