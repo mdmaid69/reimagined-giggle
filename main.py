@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
