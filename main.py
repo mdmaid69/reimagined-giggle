@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
