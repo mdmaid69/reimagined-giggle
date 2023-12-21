@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_density(mass, volume):
-        return mass / volume
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
