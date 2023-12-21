@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
