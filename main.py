@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def multiply_numbers(x, y):
+        return x * y
