@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
