@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import time
-def get_current_time():
-        return time.time()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
