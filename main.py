@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def subtract_numbers(x, y):
+        return x - y
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_index(array, item):
+        return array.index(item)
