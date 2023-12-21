@@ -1,8 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def clear_array(array):
+        array *= 0
