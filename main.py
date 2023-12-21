@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
