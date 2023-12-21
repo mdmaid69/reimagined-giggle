@@ -1,6 +1,8 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
