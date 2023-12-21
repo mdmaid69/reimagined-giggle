@@ -1,7 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
