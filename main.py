@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
