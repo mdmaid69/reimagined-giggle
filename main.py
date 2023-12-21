@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
