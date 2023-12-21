@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
