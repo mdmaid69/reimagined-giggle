@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def subtract_numbers(x, y):
+        return x - y
+name = "Python"
+print("Hello,", name)
