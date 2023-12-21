@@ -1,5 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
