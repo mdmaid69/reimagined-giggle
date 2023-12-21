@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
