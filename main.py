@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
