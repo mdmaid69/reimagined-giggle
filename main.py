@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import sys
+def exit_program():
+        sys.exit()
