@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
