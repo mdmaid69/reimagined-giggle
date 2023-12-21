@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  def cube_number(x):
-        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
