@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import json
+print(json.dumps({"name": "John", "age": 30}))
