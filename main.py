@@ -1,7 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
