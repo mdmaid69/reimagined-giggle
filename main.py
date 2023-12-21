@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
