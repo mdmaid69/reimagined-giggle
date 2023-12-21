@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
