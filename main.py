@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
