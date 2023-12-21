@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def is_even(n):
-        return n % 2 == 0
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
