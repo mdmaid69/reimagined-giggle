@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
