@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
