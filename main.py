@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
