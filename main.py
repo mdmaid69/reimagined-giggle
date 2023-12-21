@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
