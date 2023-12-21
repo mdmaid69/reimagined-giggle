@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
