@@ -1,5 +1,7 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+name = "Python"
+print("Hello,", name)
