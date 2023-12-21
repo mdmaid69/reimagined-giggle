@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
