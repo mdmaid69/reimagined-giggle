@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
