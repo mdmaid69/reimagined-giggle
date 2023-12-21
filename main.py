@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def is_palindrome(s):
+        return s == s[::-1]
+  def add_numbers(x, y):
+        return x + y
