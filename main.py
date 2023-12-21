@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
