@@ -1,7 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import json
+print(json.dumps({"name": "John", "age": 30}))
