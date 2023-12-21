@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_current_time():
-        return time.time()
+def cube_number(x):
+        return x**3
+def add_numbers(x, y):
+        return x + y
