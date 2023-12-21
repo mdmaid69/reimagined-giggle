@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def convert_to_hex(n):
-        return hex(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def multiply_numbers(x, y):
+        return x * y
