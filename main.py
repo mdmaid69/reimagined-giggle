@@ -1,6 +1,8 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import getpass
-def get_username():
-        return getpass.getuser()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
