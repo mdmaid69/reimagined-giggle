@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def reverse_string(s):
-        return s[::-1]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def reverse_list(lst):
+        return lst[::-1]
