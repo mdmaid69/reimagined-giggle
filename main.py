@@ -1,5 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def subtract_numbers(x, y):
+        return x - y
+def count_elements(lst):
+        return len(lst)
