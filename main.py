@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
