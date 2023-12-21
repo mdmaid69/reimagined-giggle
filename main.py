@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def is_even(n):
+        return n % 2 == 0
