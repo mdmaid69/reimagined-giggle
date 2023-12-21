@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
