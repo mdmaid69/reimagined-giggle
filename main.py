@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
