@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import sys
+  def get_python_version():
+        return sys.version
+import datetime
+def get_today_date():
+        return datetime.date.today()
