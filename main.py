@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def multiply_numbers(x, y):
+        return x * y
