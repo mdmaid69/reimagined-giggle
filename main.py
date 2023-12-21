@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def generate_random_choice(choices):
+        return random.choice(choices)
