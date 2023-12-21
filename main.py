@@ -1,6 +1,5 @@
 import array
 def extend_array(array, iterable):
         array.extend(iterable)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_acceleration(speed, time):
+        return speed / time
