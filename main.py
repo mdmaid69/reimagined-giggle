@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def subtract_numbers(x, y):
-        return x - y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
