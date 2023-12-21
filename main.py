@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
