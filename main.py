@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def find_min(lst):
+        return min(lst)
