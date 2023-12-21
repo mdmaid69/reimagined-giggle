@@ -1,4 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def convert_to_octal(n):
-        return oct(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
