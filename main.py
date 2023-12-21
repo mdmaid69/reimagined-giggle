@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_length(array):
+        return len(array)
