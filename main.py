@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_pressure(force, area):
+        return force / area
