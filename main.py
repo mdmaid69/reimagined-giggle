@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
