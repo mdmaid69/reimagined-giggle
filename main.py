@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def multiply_numbers(x, y):
+        return x * y
