@@ -1,5 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
