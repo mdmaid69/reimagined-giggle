@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+x = 10
+y = 20
+print("Sum:", x + y)
+def divide_numbers(x, y):
+        return x / y
