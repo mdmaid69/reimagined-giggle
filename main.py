@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
