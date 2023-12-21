@@ -1,12 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import random
+def roll_die():
+        return random.randint(1, 6)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
