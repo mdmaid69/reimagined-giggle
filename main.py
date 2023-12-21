@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
