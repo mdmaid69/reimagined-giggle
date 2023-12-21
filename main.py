@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
