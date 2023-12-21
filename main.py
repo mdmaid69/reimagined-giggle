@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def check_if_array_contains_item(array, item):
+        return item in array
