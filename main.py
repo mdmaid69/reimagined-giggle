@@ -1,5 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import random
-def roll_die():
-        return random.randint(1, 6)
-import random
-print(random.randint(0, 100))
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
