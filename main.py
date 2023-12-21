@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def is_odd(n):
+        return n % 2 != 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
