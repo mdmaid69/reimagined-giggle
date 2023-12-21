@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
