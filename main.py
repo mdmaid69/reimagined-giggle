@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def reverse_string(s):
-        return s[::-1]
+for i in range(5):
+        print(i)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
