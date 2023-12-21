@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
