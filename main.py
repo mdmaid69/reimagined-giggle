@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
