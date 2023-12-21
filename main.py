@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_acceleration(speed, time):
+        return speed / time
+def sort_numbers(numbers):
+        return sorted(numbers)
