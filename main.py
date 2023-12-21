@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
