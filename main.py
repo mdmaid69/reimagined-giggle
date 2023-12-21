@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_device(file_name):
+  def get_file_dev(file_name):
         return os.stat(file_name).st_dev
