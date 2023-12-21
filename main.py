@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+name = "Python"
+print("Hello,", name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
