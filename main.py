@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+print([x**2 for x in range(10)])
