@@ -1,7 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
