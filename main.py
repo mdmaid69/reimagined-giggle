@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
