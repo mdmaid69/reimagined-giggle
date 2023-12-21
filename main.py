@@ -1,6 +1,8 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
