@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
