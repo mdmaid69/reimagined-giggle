@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_work(force, distance):
-        return force * distance
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
