@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
