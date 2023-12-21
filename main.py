@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
