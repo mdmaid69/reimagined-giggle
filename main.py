@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def split_path(path):
+        return os.path.split(path)
