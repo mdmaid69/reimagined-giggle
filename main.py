@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
