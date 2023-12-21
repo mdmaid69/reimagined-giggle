@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
