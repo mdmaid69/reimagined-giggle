@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import platform
-def get_os_info():
-        return platform.uname()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
