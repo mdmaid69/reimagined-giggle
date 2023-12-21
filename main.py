@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def subtract_numbers(x, y):
+        return x - y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
