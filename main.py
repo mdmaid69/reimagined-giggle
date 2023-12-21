@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
