@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
