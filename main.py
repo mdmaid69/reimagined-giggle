@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def convert_to_octal(n):
+        return oct(n)
+  def reverse_list(lst):
+        return lst[::-1]
