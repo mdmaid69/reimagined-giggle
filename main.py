@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
