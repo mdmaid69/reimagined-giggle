@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
