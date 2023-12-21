@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_priority_queue():
+        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
