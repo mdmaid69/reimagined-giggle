@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
+def divide_numbers(x, y):
+        return x / y
