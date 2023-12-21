@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+x = 10
+y = 20
+print("Sum:", x + y)
