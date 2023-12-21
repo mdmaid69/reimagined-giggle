@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
