@@ -1,6 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import logging
+def log_message(message):
+        logging.info(message)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
