@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def is_odd(n):
-        return n % 2 != 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
