@@ -1,4 +1,7 @@
-def find_max(lst):
-        return max(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
