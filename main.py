@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
