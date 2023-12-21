@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def add_numbers(a, b):
-        return a + b
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
