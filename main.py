@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_item_count(array, item):
+        return array.count(item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
