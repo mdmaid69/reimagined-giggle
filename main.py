@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def multiply_numbers(x, y):
-        return x * y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
