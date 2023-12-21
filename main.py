@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+for i in range(10): print(i)
