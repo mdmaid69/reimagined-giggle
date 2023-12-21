@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
