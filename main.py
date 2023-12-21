@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
