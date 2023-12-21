@@ -1,8 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
