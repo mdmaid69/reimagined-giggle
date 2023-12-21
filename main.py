@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
