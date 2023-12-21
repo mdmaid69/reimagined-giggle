@@ -1,4 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-print(sum(range(10)))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
