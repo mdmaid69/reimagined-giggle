@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
