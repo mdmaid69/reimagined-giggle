@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
