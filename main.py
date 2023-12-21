@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
