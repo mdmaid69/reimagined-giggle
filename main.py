@@ -1,5 +1,9 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
