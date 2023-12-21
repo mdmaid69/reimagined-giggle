@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_work(force, distance):
+        return force * distance
+import sys
+def exit_program():
+        sys.exit()
