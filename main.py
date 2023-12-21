@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
