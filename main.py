@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import logging
-def log_message(message):
-        logging.info(message)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
