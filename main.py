@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def add_numbers(x, y):
-        return x + y
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
