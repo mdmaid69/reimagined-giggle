@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
