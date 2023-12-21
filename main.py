@@ -1,6 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_list_from_array(array):
+        return array.tolist()
