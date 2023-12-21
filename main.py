@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
