@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def multiply_numbers(x, y):
-        return x * y
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
