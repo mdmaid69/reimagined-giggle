@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def add_numbers(a, b):
+        return a + b
+def is_odd(n):
+        return n % 2 != 0
