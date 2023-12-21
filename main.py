@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
