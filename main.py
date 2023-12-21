@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
