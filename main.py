@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
