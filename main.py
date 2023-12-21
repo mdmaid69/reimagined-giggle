@@ -1,6 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
