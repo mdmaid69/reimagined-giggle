@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
