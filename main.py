@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import tensorflow as tf
+print(tf.__version__)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
