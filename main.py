@@ -1,5 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
