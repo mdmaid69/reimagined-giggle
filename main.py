@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def multiply_numbers(x, y):
+        return x * y
