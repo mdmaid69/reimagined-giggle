@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def cube_number(x):
+        return x**3
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
