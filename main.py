@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+for i in range(10): print(i)
