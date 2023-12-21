@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_area_rectangle(l, w):
+        return l * w
