@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_counter():
+        return collections.Counter()
