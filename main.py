@@ -1,7 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_list(array):
+        return list(array)
