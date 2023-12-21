@@ -1,5 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
