@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
