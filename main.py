@@ -1,6 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
