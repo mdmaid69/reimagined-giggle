@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
