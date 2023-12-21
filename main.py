@@ -1,8 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
