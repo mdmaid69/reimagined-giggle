@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_speed(distance, time):
-        return distance / time
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_set(array):
+        return set(array)
