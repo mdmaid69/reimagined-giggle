@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
