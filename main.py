@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_density(mass, volume):
+        return mass / volume
