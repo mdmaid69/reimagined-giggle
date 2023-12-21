@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
