@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
