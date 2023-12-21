@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def convert_to_hex(n):
+        return hex(n)
