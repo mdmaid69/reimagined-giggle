@@ -1,3 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-print(sum(range(10)))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
