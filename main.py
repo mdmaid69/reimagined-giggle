@@ -1,3 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-for i in range(10): print(i)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
