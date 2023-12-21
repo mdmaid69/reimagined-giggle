@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import sys
+def print_python_version():
+        print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
