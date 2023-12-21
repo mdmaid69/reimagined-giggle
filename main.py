@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
