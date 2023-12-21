@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_average(lst):
+        return sum(lst) / len(lst)
