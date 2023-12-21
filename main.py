@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
