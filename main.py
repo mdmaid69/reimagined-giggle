@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+for i in range(10): print(i)
