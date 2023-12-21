@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
