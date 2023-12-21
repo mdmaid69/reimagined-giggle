@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
