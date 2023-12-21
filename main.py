@@ -1,5 +1,5 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def clear_array(array):
+        array *= 0
+  def cube_number(x):
+        return x**3
