@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
