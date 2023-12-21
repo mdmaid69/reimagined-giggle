@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import sys
+def exit_program():
+        sys.exit()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
