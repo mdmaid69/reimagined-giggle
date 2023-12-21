@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
