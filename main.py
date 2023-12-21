@@ -1,12 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def is_even(n):
+        return n % 2 == 0
