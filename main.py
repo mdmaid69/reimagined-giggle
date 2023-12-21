@@ -1,8 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_area_circle(r):
+        return 3.14 * r**2
