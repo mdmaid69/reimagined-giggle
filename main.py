@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
