@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
