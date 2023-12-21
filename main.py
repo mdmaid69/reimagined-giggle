@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
