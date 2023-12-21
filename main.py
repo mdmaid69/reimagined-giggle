@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
