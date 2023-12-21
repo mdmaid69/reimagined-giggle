@@ -1,7 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
