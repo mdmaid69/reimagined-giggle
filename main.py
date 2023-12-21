@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
