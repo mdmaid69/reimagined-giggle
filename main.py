@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def subtract_numbers(x, y):
+        return x - y
