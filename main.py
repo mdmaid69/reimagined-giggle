@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
