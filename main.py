@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def convert_to_octal(n):
+        return oct(n)
