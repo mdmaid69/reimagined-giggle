@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_exponential(x):
+        return math.exp(x)
