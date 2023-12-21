@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def find_min(numbers):
+        return min(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
