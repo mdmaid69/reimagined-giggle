@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import array
+def get_array_as_list(array):
+        return list(array)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
