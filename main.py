@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
