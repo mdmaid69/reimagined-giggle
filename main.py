@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
