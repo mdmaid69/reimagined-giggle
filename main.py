@@ -1,4 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  def subtract_numbers(x, y):
-        return x - y
+import getpass
+def get_username():
+        return getpass.getuser()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
