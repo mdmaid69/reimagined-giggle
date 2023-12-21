@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
