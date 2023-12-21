@@ -1,6 +1,7 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
