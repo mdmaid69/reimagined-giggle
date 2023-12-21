@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
