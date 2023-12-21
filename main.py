@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
