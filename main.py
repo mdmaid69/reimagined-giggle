@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
