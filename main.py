@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
