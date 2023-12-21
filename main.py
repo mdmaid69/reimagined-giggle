@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
