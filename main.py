@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def remove_duplicates(lst):
-        return list(set(lst))
+def count_characters(sentence):
+        return len(sentence)
+import array
+def clear_array(array):
+        array *= 0
