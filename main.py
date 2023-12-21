@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
