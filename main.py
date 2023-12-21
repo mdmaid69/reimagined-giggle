@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import collections
-def create_priority_queue():
-        return collections.deque()
+print("Hello, world!")
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
