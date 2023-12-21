@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def cube_number(x):
+        return x**3
