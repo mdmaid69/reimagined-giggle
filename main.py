@@ -1,6 +1,9 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
