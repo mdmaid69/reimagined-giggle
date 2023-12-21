@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def reverse_string(s):
-        return s[::-1]
+def sort_list(lst):
+        return sorted(lst)
+def divide_numbers(x, y):
+        return x / y
