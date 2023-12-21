@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+name = "Python"
+print("Hello,", name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
