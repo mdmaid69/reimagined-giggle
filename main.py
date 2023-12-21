@@ -1,5 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def greet(name):
-        print(f"Hello, {name}!")
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
