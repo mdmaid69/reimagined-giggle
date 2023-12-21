@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
