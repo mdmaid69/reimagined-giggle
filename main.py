@@ -1,9 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
