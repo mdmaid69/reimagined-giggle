@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        return sys.version
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
