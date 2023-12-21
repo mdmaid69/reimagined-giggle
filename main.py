@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
