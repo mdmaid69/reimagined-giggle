@@ -1,7 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
