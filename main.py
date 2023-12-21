@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
