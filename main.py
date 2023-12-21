@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
