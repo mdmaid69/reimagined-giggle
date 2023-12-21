@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
