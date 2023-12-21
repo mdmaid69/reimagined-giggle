@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
