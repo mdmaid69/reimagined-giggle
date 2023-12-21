@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_work(force, distance):
+        return force * distance
