@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_power(work, time):
-        return work / time
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
