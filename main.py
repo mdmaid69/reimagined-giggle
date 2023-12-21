@@ -1,12 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import platform
+def get_python_version():
+        return platform.python_version()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
