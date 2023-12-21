@@ -1,5 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
