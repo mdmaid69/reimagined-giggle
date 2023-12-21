@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def is_even(n):
+        return n % 2 == 0
