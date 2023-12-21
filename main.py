@@ -1,6 +1,9 @@
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
