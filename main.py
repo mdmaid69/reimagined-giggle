@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
