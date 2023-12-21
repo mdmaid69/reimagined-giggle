@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
