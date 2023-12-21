@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
