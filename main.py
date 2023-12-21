@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
