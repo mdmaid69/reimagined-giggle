@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
