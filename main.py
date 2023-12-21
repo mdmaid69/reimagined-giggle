@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import tensorflow as tf
+print(tf.__version__)
