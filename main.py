@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
