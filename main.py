@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
