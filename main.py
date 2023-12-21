@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
