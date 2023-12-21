@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
