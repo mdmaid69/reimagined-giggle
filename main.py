@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_area(radius):
+        return 3.14 * radius * radius
