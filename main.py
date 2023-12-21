@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
