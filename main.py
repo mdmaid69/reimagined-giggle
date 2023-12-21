@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
