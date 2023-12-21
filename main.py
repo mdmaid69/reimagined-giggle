@@ -1,5 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
