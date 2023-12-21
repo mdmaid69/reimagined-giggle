@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
