@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
