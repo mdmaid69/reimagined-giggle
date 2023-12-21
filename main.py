@@ -1,6 +1,7 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
