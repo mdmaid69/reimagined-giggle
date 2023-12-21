@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
