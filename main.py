@@ -1,6 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
