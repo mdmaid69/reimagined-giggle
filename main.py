@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
