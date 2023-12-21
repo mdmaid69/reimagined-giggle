@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
