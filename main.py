@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
