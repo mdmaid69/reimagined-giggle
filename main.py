@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_speed(distance, time):
-        return distance / time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
