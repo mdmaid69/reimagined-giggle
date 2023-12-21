@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_binary(n):
+        return bin(n)
