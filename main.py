@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+name = "Python"
+print("Hello,", name)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
