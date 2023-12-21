@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def is_even(n):
+        return n % 2 == 0
