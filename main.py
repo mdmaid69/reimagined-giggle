@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
