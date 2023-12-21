@@ -1,10 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
