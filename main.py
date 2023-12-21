@@ -1,5 +1,5 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_sign(x):
+        return math.copysign(1, x)
