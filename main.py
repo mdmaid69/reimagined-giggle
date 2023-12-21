@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def sort_list(lst):
+        return sorted(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
