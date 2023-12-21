@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
