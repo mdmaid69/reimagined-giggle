@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
+x = 10
+y = 20
+print("Sum:", x + y)
