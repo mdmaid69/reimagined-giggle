@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
