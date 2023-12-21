@@ -1,6 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+x = 10
+y = 20
+print("Sum:", x + y)
