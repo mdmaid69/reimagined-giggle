@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
