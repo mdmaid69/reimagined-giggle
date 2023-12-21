@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
