@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+for i in range(5):
+        print(i)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
