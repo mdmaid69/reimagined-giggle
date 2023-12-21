@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import sys
-  def get_python_version():
-        return sys.version
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
