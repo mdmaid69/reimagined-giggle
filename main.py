@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
