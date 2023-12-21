@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
