@@ -1,5 +1,6 @@
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
