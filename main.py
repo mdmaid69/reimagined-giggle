@@ -1,4 +1,11 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
