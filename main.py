@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import time
+print(time.time())
+import random
+def roll_die():
+        return random.randint(1, 6)
