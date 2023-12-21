@@ -1,11 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def clear_array(array):
+        array *= 0
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
