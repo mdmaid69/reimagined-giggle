@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
