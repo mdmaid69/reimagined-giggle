@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def find_unique_words(sentence):
+        return set(sentence.split())
