@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
