@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_stack():
+        return collections.deque()
