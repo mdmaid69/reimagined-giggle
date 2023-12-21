@@ -1,6 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
