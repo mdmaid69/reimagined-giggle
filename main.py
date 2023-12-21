@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def create_user_dict():
+        return collections.UserDict()
