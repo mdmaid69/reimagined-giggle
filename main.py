@@ -1,3 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-print([x**2 for x in range(10)])
+import array
+def reverse_array(array):
+        array.reverse()
+def cube_number(x):
+        return x**3
