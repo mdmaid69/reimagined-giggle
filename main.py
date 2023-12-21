@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import time
-def get_current_time():
-        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
