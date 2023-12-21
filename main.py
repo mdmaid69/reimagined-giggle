@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
