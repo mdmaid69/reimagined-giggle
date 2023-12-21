@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_item(array, i):
+        return array[i]
