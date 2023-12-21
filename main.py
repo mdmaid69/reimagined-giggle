@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
