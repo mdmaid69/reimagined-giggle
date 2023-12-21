@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
