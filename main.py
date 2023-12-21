@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
