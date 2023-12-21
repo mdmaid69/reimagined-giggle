@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-for i in range(5):
-        print(i)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
