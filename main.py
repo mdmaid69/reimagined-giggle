@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
