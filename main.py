@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def set_array_item(array, i, item):
+        array[i] = item
