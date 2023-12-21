@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
