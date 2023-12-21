@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
