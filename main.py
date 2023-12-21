@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
