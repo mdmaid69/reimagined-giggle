@@ -1,7 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
