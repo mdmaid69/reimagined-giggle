@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def count_elements(lst):
+        return len(lst)
