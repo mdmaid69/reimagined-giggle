@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
