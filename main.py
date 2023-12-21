@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
