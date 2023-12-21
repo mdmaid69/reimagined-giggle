@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_acceleration(speed, time):
+        return speed / time
+import platform
+def get_python_version():
+        return platform.python_version()
