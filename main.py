@@ -1,3 +1,5 @@
-print(sum(range(10)))
-import math
-print(math.pi)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
