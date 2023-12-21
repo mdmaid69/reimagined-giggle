@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_stack():
-        return collections.deque()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
