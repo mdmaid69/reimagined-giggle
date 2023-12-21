@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
