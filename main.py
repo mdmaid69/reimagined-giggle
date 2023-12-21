@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
