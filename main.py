@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import random
-print(random.randint(0, 100))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
