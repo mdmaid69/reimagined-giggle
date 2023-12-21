@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
