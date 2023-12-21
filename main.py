@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
