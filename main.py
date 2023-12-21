@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
