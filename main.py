@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
