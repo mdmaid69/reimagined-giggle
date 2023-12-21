@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
