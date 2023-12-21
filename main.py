@@ -1,3 +1,7 @@
-print([x**2 for x in range(10)])
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def get_array_item(array, i):
+        return array[i]
