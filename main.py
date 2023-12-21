@@ -1,7 +1,9 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
