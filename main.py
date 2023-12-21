@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
