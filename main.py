@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
