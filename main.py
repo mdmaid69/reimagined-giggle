@@ -1,8 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
