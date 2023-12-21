@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
