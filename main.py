@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
