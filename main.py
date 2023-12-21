@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
