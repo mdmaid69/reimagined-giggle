@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
