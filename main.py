@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
