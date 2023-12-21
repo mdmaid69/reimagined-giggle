@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
