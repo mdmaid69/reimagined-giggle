@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
