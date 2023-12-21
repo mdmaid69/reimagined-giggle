@@ -1,6 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
