@@ -1,6 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
