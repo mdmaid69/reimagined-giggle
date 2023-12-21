@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
