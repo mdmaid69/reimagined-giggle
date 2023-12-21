@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
