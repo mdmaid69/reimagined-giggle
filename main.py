@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_floor(x):
+        return math.floor(x)
