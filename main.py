@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_speed(distance, time):
+        return distance / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
