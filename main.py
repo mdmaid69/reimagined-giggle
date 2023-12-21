@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_unique_words(sentence):
+        return set(sentence.split())
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
