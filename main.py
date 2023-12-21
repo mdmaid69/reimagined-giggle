@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def clear_array(array):
+        array *= 0
+def find_union(list1, list2):
+        return set(list1) | set(list2)
