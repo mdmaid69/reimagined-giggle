@@ -1,7 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
