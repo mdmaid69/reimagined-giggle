@@ -1,8 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
