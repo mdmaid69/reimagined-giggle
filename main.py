@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
