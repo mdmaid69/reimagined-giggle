@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
