@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def reverse_list(lst):
+        return lst[::-1]
