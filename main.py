@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
