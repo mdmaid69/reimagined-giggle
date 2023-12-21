@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
