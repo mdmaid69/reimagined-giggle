@@ -1,8 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
