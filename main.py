@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
