@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def sort_list(lst):
-        return sorted(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
