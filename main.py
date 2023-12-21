@@ -1,8 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
