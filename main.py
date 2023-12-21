@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
