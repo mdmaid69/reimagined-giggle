@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+x = 10
+y = 20
+print("Sum:", x + y)
