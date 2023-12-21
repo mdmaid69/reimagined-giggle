@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
