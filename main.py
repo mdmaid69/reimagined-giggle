@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def cube_number(x):
+        return x**3
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
