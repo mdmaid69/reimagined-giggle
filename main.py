@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+print(sys.version)
