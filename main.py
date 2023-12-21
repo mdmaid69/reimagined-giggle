@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
