@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
