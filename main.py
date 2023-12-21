@@ -1,5 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
