@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_palindrome(s):
-        return s == s[::-1]
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def reverse_list(lst):
+        return lst[::-1]
