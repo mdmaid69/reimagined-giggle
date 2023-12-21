@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
