@@ -1,8 +1,9 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
