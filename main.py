@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
