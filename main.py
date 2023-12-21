@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_user_string():
-        return collections.UserString()
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
