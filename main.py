@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
