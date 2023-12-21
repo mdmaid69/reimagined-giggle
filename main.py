@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
