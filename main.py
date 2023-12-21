@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def is_even(n):
+        return n % 2 == 0
