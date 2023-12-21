@@ -1,6 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import json
-def load_json(filename):
+import csv
+def read_csv_file(filename):
         with open(filename, "r") as f:
-        return json.load(f)
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
