@@ -1,5 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
