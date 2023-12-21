@@ -1,5 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def add_numbers(x, y):
+        return x + y
