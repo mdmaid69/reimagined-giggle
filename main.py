@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
