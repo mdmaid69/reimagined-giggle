@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def multiply_numbers(x, y):
+        return x * y
+i = 0
+while i < 5:
+        print(i)
+        i += 1
