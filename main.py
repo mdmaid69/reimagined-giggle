@@ -1,6 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
