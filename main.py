@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
