@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
