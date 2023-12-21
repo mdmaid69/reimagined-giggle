@@ -1,6 +1,9 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
