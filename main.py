@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
