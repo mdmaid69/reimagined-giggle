@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def convert_to_binary(n):
-        return bin(n)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
