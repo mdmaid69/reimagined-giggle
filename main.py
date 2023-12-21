@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
