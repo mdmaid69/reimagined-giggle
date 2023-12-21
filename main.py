@@ -1,7 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def cube_number(x):
-        return x**3
+def calculate_power(work, time):
+        return work / time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
