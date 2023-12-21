@@ -1,5 +1,10 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
