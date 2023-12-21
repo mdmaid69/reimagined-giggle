@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
