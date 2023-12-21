@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_power(work, time):
-        return work / time
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
