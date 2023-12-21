@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
