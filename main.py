@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
