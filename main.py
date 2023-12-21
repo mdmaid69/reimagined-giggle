@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
