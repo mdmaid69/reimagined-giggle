@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
