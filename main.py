@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
