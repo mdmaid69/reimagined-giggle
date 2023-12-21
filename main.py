@@ -1,6 +1,8 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
