@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def cube_number(x):
+        return x**3
