@@ -1,5 +1,5 @@
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
