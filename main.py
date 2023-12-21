@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-for i in range(5):
-        print(i)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
