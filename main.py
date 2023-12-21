@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
