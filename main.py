@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
