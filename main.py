@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_area(radius):
+        return 3.14 * radius * radius
