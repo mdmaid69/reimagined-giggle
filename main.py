@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_queue():
-        return collections.deque()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
