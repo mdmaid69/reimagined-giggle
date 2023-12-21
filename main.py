@@ -1,6 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
