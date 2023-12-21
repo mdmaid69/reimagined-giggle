@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-from collections import Counter
-print(Counter("hello world"))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import numpy as np
+print(np.array([1, 2, 3]))
