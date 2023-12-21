@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def reverse_list(lst):
+        return lst[::-1]
