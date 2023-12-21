@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
