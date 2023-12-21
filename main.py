@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
