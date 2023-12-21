@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import time
+def get_current_time():
+        return time.time()
