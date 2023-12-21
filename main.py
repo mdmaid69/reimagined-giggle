@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def cube_number(x):
+        return x**3
+import array
+def append_to_array(array, item):
+        array.append(item)
