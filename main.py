@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def square_number(x):
+        return x**2
