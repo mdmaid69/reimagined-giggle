@@ -1,9 +1,8 @@
-from flask import Flask
-app = Flask(__name__)
+import unittest
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import sys
-  def get_python_version():
-        return sys.version
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
