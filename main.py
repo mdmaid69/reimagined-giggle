@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
