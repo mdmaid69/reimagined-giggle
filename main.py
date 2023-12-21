@@ -1,7 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
