@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def append_to_array(array, item):
+        array.append(item)
