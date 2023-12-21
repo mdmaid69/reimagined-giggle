@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
