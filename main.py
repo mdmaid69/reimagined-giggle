@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import time
+def get_current_time():
+        return time.time()
