@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
