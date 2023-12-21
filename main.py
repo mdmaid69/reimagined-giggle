@@ -1,6 +1,5 @@
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def get_array_as_tuple(array):
+        return tuple(array)
