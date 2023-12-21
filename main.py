@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import collections
+def create_stack():
+        return collections.deque()
