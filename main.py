@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
