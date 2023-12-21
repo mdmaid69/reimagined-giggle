@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_bool(array):
+        return bool(array)
