@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
