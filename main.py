@@ -1,8 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
