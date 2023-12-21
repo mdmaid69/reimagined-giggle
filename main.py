@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_directory_name(path):
+        return os.path.dirname(path)
