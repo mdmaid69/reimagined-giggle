@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
