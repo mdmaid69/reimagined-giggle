@@ -1,5 +1,7 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def sort_numbers(numbers):
-        return sorted(numbers)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
