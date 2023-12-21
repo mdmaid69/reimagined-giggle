@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
