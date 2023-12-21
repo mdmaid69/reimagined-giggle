@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+print([x**2 for x in range(10)])
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_floor(x):
+        return math.floor(x)
