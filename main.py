@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
