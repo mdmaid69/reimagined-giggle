@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+print(sum(range(10)))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
