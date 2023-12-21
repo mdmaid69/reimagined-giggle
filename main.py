@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def cube_number(x):
-        return x**3
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
