@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def clear_array(array):
+        array *= 0
+def divide_numbers(x, y):
+        return x / y
