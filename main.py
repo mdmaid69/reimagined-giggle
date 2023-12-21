@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
