@@ -1,5 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def is_palindrome(s):
+        return s == s[::-1]
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
