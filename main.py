@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
