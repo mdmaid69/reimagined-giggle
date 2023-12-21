@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_speed(distance, time):
+        return distance / time
