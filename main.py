@@ -1,6 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
