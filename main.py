@@ -1,6 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def set_array_item(array, i, item):
+        array[i] = item
