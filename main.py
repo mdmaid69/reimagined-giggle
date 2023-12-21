@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_power(work, time):
-        return work / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
