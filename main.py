@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import sys
 def print_python_version():
-        return sys.version
+        print(sys.version)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
