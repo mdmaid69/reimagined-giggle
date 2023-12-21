@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import time
+def get_current_time():
+        return time.ctime()
