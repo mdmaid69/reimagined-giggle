@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
