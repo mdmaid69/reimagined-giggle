@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
