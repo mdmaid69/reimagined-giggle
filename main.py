@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+print(math.pi)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
