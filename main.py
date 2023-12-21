@@ -1,9 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
