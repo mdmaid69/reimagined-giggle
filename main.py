@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
