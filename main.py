@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
