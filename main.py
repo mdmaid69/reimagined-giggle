@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import os
+def change_working_directory(path):
+        os.chdir(path)
