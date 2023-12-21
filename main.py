@@ -1,5 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def add_numbers(x, y):
-        return x + y
+def is_palindrome(s):
+        return s == s[::-1]
+def is_palindrome(s):
+        return s == s[::-1]
