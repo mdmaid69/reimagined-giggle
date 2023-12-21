@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
