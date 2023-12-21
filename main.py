@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-print(os.getcwd())
+def calculate_work(force, distance):
+        return force * distance
+import array
+def set_array_item(array, i, item):
+        array[i] = item
