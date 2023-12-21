@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-from collections import Counter
-print(Counter("hello world"))
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
