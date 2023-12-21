@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def count_elements(lst):
+        return len(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
