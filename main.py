@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
