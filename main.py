@@ -1,6 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
