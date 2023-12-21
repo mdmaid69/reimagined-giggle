@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_user_list():
-        return collections.UserList()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
