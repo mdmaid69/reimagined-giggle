@@ -1,8 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
