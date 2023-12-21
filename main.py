@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import random
-def roll_die():
-        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
