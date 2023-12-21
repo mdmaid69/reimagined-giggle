@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_stack():
-        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
