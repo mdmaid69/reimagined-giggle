@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def count_characters(sentence):
-        return len(sentence)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
