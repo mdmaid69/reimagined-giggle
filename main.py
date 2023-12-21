@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
