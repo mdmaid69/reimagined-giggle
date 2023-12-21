@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_work(force, distance):
+        return force * distance
