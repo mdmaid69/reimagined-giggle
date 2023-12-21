@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_user_string():
+        return collections.UserString()
