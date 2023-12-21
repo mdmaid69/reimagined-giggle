@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
