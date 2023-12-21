@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def find_max(numbers):
+        return max(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
