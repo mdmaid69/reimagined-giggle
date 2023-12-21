@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import sys
-def exit_program():
-        sys.exit()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
