@@ -1,9 +1,12 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
