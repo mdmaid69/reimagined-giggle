@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def count_elements(lst):
+        return len(lst)
