@@ -1,5 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_max(numbers):
-        return max(numbers)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
