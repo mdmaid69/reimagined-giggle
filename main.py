@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
