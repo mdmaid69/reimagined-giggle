@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
