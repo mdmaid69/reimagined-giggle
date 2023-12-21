@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
