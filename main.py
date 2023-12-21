@@ -1,6 +1,6 @@
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
