@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def is_odd(n):
-        return n % 2 != 0
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
