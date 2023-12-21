@@ -1,8 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+from collections import Counter
+print(Counter("hello world"))
