@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_queue():
+        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
