@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def cube_number(x):
+        return x**3
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
