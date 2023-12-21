@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+for i in range(5):
+        print(i)
