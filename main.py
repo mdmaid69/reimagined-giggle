@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
