@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
