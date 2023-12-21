@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def append_to_array(array, item):
-        array.append(item)
+def check_if_array_contains_item(array, item):
+        return item in array
