@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import os
+def change_working_directory(path):
+        os.chdir(path)
