@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
