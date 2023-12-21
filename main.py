@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def is_even(n):
-        return n % 2 == 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
