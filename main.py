@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
