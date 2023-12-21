@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
