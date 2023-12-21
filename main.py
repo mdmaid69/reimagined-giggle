@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
