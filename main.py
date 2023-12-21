@@ -1,8 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
