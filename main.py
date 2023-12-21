@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def multiply_numbers(x, y):
+        return x * y
