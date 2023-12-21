@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
