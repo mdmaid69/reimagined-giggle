@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
