@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def square_number(x):
+        return x**2
