@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
