@@ -1,8 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_repr(array):
+        return repr(array)
