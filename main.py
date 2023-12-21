@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
