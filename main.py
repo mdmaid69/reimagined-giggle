@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
