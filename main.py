@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
