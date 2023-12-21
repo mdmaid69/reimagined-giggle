@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
