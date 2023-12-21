@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_queue():
+        return collections.deque()
