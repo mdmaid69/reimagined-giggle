@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
