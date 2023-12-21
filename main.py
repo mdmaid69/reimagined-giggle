@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_bool(array):
+        return bool(array)
