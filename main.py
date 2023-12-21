@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
