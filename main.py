@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def count_elements(lst):
+        return len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
