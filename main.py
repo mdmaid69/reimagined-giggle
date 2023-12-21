@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
