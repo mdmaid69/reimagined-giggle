@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
