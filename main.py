@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
