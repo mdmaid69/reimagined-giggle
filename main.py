@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def count_elements(lst):
-        return len(lst)
+  def is_even(n):
+        return n % 2 == 0
+import sys
+def print_python_version():
+        print(sys.version)
