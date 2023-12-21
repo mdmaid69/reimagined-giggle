@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
