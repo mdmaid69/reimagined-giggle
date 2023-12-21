@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
