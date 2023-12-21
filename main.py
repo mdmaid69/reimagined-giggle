@@ -1,5 +1,3 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+print("Hello, world!")
