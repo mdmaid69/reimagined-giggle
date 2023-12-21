@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def sort_numbers(numbers):
+        return sorted(numbers)
