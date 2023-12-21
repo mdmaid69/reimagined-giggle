@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
