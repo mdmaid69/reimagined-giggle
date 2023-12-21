@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
