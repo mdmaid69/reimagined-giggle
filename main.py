@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
