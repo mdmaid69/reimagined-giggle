@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import time
-print(time.time())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
