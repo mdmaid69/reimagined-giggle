@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def find_max(lst):
+        return max(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
