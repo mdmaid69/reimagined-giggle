@@ -1,8 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
