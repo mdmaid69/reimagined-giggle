@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+def is_even(n):
+        return n % 2 == 0
