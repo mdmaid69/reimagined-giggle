@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
