@@ -1,7 +1,7 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_unique_words(sentence):
-        return set(sentence.split())
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
