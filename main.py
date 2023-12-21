@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
