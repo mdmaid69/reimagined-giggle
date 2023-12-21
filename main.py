@@ -1,9 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def convert_to_binary(n):
+        return bin(n)
