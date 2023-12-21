@@ -1,7 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-x = 10
-y = 20
-print("Sum:", x + y)
+def get_array_as_bool(array):
+        return bool(array)
