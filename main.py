@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_current_directory():
+        return os.getcwd()
