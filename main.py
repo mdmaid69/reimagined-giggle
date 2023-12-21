@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import time
+def get_current_time():
+        return time.ctime()
