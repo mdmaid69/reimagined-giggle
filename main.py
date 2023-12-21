@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
