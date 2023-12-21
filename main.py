@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def find_min(lst):
+        return min(lst)
