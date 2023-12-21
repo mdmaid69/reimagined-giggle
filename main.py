@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def is_even(n):
-        return n % 2 == 0
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import time
+def get_current_time():
+        return time.time()
