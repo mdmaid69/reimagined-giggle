@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_work(force, distance):
-        return force * distance
+  def is_even(n):
+        return n % 2 == 0
+def sort_numbers(numbers):
+        return sorted(numbers)
