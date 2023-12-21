@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-from collections import Counter
-print(Counter("hello world"))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import sys
+def print_python_version():
+        print(sys.version)
