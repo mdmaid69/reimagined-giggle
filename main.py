@@ -1,5 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
