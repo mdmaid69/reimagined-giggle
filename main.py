@@ -1,7 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
