@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
