@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_itemsize(array):
+        return array.itemsize
