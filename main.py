@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
