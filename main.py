@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+x = 10
+y = 20
+print("Sum:", x + y)
