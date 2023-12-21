@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
