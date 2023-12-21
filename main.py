@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
