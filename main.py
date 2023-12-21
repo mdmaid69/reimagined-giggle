@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+def get_current_time():
+        return time.ctime()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
