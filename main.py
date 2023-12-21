@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
