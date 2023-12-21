@@ -1,8 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
