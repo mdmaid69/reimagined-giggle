@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def reverse_list(lst):
+        return lst[::-1]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
