@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
