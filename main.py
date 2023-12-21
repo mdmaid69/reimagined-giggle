@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
