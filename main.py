@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
