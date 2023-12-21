@@ -1,7 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
