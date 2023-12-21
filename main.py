@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def find_min(lst):
+        return min(lst)
