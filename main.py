@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import random
-print(random.randint(0, 100))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
