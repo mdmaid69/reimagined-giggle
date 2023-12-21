@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  def add_numbers(x, y):
-        return x + y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def add_numbers(a, b):
+        return a + b
