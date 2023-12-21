@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
