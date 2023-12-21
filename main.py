@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
