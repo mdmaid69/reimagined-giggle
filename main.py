@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
