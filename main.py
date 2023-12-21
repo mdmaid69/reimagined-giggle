@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
