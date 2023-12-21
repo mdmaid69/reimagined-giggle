@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
