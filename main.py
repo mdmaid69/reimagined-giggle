@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
