@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+print([x**2 for x in range(10)])
