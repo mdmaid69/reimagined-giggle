@@ -1,7 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_item_count(array, item):
+        return array.count(item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
