@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
