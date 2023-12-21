@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def delete_file(file_name):
+        os.remove(file_name)
