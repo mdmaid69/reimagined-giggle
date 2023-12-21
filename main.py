@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def remove_duplicates(lst):
-        return list(set(lst))
+def subtract_numbers(x, y):
+        return x - y
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
