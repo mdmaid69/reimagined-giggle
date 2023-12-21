@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
