@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+print(math.pi)
