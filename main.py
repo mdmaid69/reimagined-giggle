@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
