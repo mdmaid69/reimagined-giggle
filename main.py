@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_array_item(array, i):
+        return array[i]
