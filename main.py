@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
