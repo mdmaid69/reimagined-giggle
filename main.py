@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
