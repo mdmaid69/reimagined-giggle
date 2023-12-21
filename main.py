@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
