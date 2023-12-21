@@ -1,7 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+x = 10
+y = 20
+print("Sum:", x + y)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
