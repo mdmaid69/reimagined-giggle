@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
