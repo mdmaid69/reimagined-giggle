@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
