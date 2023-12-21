@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def clear_array(array):
+        array *= 0
