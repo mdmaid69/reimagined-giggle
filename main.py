@@ -1,5 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_set(array):
+        return set(array)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
