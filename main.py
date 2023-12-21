@@ -1,5 +1,6 @@
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def find_min(numbers):
-        return min(numbers)
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
