@@ -1,6 +1,7 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
