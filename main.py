@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
