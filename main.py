@@ -1,7 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
