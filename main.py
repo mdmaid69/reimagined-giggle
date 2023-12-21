@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
