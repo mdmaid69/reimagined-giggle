@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
