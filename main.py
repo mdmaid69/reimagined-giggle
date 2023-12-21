@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
