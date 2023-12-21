@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import datetime
+print(datetime.datetime.now())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
