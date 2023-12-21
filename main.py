@@ -1,5 +1,4 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
