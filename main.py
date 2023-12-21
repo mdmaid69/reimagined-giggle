@@ -1,10 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
