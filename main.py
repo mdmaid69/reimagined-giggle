@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
