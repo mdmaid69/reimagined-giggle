@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
