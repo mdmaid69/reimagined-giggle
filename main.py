@@ -1,10 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
