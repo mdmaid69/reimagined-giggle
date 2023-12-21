@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
