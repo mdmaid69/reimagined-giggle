@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import time
+def get_current_time():
+        return time.time()
