@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_min(numbers):
+        return min(numbers)
