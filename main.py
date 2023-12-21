@@ -1,5 +1,10 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def square_number(x):
-        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
