@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_min(numbers):
-        return min(numbers)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
