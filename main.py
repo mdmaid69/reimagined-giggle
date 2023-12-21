@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def is_palindrome(s):
+        return s == s[::-1]
