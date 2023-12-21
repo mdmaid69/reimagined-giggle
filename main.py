@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
