@@ -1,5 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def get_array_length(array):
-        return len(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def check_if_array_contains_item(array, item):
+        return item in array
