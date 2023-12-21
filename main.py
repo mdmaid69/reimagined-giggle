@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
