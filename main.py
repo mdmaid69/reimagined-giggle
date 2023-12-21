@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
