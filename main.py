@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_item(array, i):
+        return array[i]
