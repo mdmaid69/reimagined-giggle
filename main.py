@@ -1,6 +1,9 @@
-import socket
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+@app.route("/")
+def hello():
+        return "Hello, World!"
