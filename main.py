@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import time
-print(time.time())
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
