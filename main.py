@@ -1,6 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
