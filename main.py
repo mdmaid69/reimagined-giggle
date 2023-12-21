@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
