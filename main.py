@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import os
-print(os.getcwd())
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
