@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
