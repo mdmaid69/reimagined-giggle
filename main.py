@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
