@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
