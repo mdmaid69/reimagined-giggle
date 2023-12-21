@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_volume(length, width, height):
+        return length * width * height
