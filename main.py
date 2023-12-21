@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
