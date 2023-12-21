@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import numpy as np
+print(np.array([1, 2, 3]))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
