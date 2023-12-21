@@ -1,5 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def append_to_array(array, item):
-        array.append(item)
-def subtract_numbers(x, y):
-        return x - y
+def get_string_from_array(array):
+        return array.tobytes()
