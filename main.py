@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def cube_number(x):
-        return x**3
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
