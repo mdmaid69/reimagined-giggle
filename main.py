@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
