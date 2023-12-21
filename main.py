@@ -1,5 +1,8 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
