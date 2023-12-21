@@ -1,5 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def get_array_item(array, i):
+        return array[i]
+def is_odd(n):
+        return n % 2 != 0
