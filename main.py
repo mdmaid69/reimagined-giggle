@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def clear_array(array):
+        array *= 0
