@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def count_characters(sentence):
-        return len(sentence)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
