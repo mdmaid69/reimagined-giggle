@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
