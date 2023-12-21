@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_power(work, time):
+        return work / time
+name = "Python"
+print("Hello,", name)
