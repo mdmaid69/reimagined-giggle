@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
