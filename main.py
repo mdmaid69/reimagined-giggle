@@ -1,5 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def add_numbers(a, b):
-        return a + b
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
