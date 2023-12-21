@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def get_array_length(array):
+        return len(array)
