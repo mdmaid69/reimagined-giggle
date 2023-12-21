@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
