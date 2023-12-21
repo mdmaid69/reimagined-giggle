@@ -1,8 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def create_user_string():
+        return collections.UserString()
