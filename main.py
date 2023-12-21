@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def square_number(x):
+        return x**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
