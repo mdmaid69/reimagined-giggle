@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
