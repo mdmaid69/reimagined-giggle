@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import time
+def get_time_since_epoch():
+        return time.time()
+from collections import Counter
+print(Counter("hello world"))
