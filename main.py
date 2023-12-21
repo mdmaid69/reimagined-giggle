@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_array_as_str(array):
+        return str(array)
