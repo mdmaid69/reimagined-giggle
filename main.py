@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
