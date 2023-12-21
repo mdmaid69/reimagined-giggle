@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  def count_elements(lst):
-        return len(lst)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
