@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
