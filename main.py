@@ -1,7 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
