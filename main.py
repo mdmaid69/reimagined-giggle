@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
