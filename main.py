@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def reverse_string(s):
-        return s[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
