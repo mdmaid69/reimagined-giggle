@@ -1,4 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
