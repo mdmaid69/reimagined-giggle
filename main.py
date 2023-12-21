@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
