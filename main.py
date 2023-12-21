@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import sys
-def print_python_version():
-        return sys.version
+def reverse_string(s):
+        return s[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
