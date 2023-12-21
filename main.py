@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import sys
+def print_python_version():
+        print(sys.version)
