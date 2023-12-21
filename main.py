@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
