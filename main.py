@@ -1,9 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
