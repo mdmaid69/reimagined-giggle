@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
