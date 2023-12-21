@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
