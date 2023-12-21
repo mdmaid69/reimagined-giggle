@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
