@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
