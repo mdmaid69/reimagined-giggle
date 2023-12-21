@@ -1,3 +1,6 @@
-print("Hello, world!")
-def is_even(n):
-        return n % 2 == 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
