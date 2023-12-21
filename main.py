@@ -1,5 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def cube_number(x):
-        return x**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
