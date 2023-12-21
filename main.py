@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
