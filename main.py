@@ -1,6 +1,8 @@
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
