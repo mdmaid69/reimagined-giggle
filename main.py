@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
