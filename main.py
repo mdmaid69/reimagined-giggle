@@ -1,8 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def read_from_json(json_string):
+        return json.loads(json_string)
