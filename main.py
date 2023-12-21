@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def greet(name):
+        print(f"Hello, {name}!")
+import collections
+def create_stack():
+        return collections.deque()
