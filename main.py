@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
