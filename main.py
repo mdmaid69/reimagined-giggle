@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_str(array):
+        return str(array)
