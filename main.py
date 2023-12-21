@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
