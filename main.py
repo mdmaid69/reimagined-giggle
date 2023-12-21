@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
