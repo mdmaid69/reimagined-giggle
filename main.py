@@ -1,3 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-print("Hello, world!")
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_density(mass, volume):
+        return mass / volume
