@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def subtract_numbers(x, y):
-        return x - y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
