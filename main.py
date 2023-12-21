@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def subtract_numbers(x, y):
-        return x - y
+def greet(name):
+        print(f"Hello, {name}!")
+import numpy as np
+print(np.array([1, 2, 3]))
