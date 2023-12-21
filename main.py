@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
