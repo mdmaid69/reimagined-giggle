@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
