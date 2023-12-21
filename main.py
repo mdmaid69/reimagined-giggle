@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
