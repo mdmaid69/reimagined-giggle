@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
