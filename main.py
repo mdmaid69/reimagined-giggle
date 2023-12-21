@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
