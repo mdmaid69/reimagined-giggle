@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
