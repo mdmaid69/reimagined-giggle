@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+print("Hello, world!")
