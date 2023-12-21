@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  def convert_to_octal(n):
+        return oct(n)
