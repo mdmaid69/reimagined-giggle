@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
