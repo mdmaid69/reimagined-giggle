@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def divide_numbers(x, y):
+        return x / y
+  def convert_to_hex(n):
+        return hex(n)
