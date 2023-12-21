@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def add_numbers(x, y):
+        return x + y
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
