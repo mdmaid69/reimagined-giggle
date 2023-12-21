@@ -1,7 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_density(mass, volume):
+        return mass / volume
