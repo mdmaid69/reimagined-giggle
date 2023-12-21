@@ -1,8 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
