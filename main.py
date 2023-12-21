@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
