@@ -1,5 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
+  def convert_to_octal(n):
+        return oct(n)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
