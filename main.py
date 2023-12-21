@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def square_number(x):
-        return x**2
+import collections
+def create_counter():
+        return collections.Counter()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
