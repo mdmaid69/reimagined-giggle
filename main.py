@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
