@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def clear_array(array):
-        array *= 0
+name = "Python"
+print("Hello,", name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
