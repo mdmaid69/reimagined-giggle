@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
