@@ -1,5 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
