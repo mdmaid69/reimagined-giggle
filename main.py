@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
