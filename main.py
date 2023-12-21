@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_speed(distance, time):
-        return distance / time
+import math
+print(math.pi)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
