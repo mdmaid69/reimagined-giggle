@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
