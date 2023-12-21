@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+name = "Python"
+print("Hello,", name)
