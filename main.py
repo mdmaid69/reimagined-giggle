@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def exit_program():
-        sys.exit()
+def calculate_power(work, time):
+        return work / time
+def multiply_numbers(x, y):
+        return x * y
