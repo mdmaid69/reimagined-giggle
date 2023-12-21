@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_density(mass, volume):
+        return mass / volume
