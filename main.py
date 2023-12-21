@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
