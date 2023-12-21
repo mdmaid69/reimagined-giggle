@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import time
+def get_current_time():
+        return time.ctime()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
