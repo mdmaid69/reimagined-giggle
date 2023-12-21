@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def cube_number(x):
+        return x**3
+def calculate_density(mass, volume):
+        return mass / volume
