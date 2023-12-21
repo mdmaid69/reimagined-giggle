@@ -1,6 +1,11 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
