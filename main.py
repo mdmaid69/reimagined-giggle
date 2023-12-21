@@ -1,5 +1,5 @@
 import sys
-def print_python_version():
-        return sys.version
-def convert_to_octal(n):
-        return oct(n)
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
