@@ -1,8 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+print(sum(range(10)))
+import platform
+def get_python_version():
+        return platform.python_version()
