@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import datetime
+def get_current_date():
+        return datetime.date.today()
