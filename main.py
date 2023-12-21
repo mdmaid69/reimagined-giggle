@@ -1,6 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
