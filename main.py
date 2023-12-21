@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def reverse_array(array):
+        array.reverse()
