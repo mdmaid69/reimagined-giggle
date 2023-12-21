@@ -1,3 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-print([x**2 for x in range(10)])
+  def square_number(x):
+        return x**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
