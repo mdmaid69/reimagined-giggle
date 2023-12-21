@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
