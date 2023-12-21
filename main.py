@@ -1,7 +1,8 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
