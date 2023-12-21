@@ -1,5 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_work(force, distance):
-        return force * distance
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
