@@ -1,4 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def square_number(x):
-        return x**2
+def find_min(numbers):
+        return min(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
