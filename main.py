@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
