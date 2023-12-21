@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def convert_to_octal(n):
-        return oct(n)
+for i in range(10): print(i)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
