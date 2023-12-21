@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
