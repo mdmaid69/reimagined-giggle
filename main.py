@@ -1,8 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
