@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
