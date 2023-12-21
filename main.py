@@ -1,6 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
