@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
