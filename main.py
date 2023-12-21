@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_power(work, time):
-        return work / time
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
