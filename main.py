@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
