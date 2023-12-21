@@ -1,5 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+for i in range(10): print(i)
