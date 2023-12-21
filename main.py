@@ -1,12 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
