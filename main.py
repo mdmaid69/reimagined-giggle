@@ -1,7 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+text = "Hello, world!"
+print("Characters:", len(text))
