@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
