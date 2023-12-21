@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def add_numbers(x, y):
+        return x + y
+def calculate_acceleration(speed, time):
+        return speed / time
