@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def subtract_numbers(x, y):
+        return x - y
