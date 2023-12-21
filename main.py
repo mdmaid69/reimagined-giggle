@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
