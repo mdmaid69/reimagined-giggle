@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import collections
-def create_stack():
-        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
