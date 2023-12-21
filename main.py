@@ -1,6 +1,8 @@
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
