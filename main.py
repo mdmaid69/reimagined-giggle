@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def subtract_numbers(x, y):
+        return x - y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
