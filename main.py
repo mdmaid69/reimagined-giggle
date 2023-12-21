@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def square_number(x):
+        return x**2
+import sys
+print(sys.version)
