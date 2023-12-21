@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_queue():
-        return collections.deque()
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def cube_number(x):
+        return x**3
