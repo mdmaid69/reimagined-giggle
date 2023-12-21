@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
