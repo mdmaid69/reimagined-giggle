@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_user_string():
-        return collections.UserString()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
