@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_arc_sine(x):
+        return math.asin(x)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_error_function(x):
+        return math.erf(x)
