@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
