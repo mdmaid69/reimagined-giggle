@@ -1,9 +1,8 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
