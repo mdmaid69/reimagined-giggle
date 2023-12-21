@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
