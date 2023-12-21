@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
