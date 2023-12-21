@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
+import os
+print(os.getcwd())
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
