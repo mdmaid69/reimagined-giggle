@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import time
+def get_current_time():
+        return time.time()
+  def reverse_list(lst):
+        return lst[::-1]
