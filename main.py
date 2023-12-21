@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import collections
+def create_user_dict():
+        return collections.UserDict()
