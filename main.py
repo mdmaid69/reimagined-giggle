@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def sort_list(lst):
+        return sorted(lst)
