@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
