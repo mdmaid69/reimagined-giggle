@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
