@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
