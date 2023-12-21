@@ -1,8 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
