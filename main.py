@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
