@@ -1,6 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
