@@ -1,8 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import time
+def get_current_time():
+        return time.time()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
