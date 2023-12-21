@@ -1,5 +1,4 @@
+def find_min(numbers):
+        return min(numbers)
 text = "Hello, world!"
-print("Words:", len(text.split()))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+print("Characters:", len(text))
