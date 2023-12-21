@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
