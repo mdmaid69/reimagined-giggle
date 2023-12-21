@@ -1,7 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
