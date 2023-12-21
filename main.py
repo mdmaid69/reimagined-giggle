@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
