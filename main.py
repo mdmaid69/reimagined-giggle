@@ -1,6 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
