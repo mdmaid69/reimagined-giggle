@@ -1,5 +1,3 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+print([x**2 for x in range(10)])
