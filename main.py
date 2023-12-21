@@ -1,5 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
