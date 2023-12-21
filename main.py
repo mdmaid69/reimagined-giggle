@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
