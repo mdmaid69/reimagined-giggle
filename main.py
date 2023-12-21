@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
