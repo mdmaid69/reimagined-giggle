@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Characters:", len(text))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
