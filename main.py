@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_list(array):
+        return list(array)
