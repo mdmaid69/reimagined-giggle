@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
