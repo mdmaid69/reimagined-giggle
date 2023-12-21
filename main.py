@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
