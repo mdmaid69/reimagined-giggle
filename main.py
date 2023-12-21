@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
