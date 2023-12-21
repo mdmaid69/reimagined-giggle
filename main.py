@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
