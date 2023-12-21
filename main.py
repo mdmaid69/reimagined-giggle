@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import getpass
-def get_username():
-        return getpass.getuser()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
