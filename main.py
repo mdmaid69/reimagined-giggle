@@ -1,5 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import random
-print(random.randint(0, 100))
+  def is_even(n):
+        return n % 2 == 0
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
