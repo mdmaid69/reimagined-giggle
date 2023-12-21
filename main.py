@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
