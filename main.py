@@ -1,6 +1,9 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
