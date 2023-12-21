@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import time
+def get_current_time():
+        return time.ctime()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
