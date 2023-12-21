@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
