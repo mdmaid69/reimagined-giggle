@@ -1,10 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def convert_to_octal(n):
+        return oct(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
