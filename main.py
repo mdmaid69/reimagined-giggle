@@ -1,6 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
