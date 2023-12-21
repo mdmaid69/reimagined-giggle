@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
