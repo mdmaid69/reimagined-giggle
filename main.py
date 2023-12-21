@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import random
-print(random.randint(0, 100))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_force(mass, acceleration):
+        return mass * acceleration
