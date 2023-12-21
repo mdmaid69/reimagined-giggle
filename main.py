@@ -1,6 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
