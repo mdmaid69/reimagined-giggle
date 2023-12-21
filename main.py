@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
