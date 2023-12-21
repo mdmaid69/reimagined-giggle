@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
