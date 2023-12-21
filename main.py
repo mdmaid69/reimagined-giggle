@@ -1,8 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
