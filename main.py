@@ -1,4 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-print(sum(range(10)))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def multiply_numbers(x, y):
+        return x * y
