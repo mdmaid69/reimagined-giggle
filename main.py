@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
