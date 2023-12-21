@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
