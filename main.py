@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
