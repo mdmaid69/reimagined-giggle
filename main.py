@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
