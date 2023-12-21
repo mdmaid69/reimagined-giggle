@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
