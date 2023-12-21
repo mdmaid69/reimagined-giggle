@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
