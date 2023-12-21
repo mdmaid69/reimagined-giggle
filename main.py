@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
