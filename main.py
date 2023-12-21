@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
