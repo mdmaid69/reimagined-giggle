@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
