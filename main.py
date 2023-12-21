@@ -1,8 +1,6 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
