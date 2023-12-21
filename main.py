@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+x = 10
+y = 20
+print("Sum:", x + y)
