@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
