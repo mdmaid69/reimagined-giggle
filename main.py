@@ -1,6 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
