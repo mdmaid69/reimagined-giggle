@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
