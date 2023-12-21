@@ -1,3 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import functools
 def memoize(func):
         cache = {}
@@ -7,6 +10,3 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
