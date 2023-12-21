@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
