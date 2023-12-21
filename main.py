@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
