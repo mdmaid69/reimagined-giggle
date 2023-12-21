@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
