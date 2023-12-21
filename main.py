@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
