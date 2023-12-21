@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_floor(x):
+        return math.floor(x)
