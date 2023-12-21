@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def reverse_array(array):
+        array.reverse()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
