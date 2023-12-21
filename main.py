@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
