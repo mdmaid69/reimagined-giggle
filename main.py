@@ -1,3 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-print("Hello, world!")
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
