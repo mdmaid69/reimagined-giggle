@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_bytearray(array):
+        return bytearray(array)
