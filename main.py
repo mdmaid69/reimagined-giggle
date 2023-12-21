@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def greet(name):
-        print(f"Hello, {name}!")
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
