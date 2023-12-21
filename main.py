@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
