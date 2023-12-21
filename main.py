@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
