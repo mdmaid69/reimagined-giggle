@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
