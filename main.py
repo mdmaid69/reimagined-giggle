@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_volume(length, width, height):
+        return length * width * height
