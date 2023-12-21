@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
