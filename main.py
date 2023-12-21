@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_item_count(array, item):
+        return array.count(item)
+import collections
+def create_user_list():
+        return collections.UserList()
