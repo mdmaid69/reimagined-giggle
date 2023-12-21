@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
