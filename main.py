@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
