@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
