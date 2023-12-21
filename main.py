@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
