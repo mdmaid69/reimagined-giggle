@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import re
+print(re.match("h.*o", "hello world"))
