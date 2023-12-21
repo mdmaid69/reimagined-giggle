@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def cube_number(x):
+        return x**3
