@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
