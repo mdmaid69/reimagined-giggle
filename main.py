@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
