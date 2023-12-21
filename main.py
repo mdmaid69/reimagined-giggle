@@ -1,6 +1,12 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_counter():
-        return collections.Counter()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
