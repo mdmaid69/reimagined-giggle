@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def is_even(n):
+        return n % 2 == 0
