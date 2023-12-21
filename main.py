@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_list(array):
+        return list(array)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
