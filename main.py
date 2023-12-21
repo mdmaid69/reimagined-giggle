@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
