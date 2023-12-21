@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def greet(name):
+        print(f"Hello, {name}!")
