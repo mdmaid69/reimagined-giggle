@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
