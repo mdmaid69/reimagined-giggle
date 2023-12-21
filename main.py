@@ -1,7 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
