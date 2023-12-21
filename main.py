@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_bool(array):
+        return bool(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
