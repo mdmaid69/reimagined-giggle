@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+print(math.pi)
+def divide_numbers(x, y):
+        return x / y
