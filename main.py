@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
