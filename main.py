@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def count_characters(sentence):
-        return len(sentence)
+def add_numbers(x, y):
+        return x + y
+import math
+print(math.pi)
