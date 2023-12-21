@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def count_elements(lst):
+        return len(lst)
