@@ -1,5 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def square_number(x):
-        return x**2
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
