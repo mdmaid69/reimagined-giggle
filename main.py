@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def append_to_array(array, item):
+        array.append(item)
