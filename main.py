@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_string_from_array(array):
+        return array.tobytes()
