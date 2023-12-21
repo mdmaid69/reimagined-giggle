@@ -1,6 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
