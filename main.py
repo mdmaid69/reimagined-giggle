@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
