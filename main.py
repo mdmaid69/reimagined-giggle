@@ -1,11 +1,6 @@
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_buffer_info(array):
+        return array.buffer_info()
