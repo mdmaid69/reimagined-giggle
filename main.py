@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def reverse_list(lst):
+        return lst[::-1]
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
