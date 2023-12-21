@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_acceleration(speed, time):
+        return speed / time
