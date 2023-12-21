@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
