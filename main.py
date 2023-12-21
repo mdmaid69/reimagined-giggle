@@ -1,7 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
