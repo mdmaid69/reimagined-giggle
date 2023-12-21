@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
