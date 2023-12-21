@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
