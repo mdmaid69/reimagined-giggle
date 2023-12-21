@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def reverse_string(s):
+        return s[::-1]
