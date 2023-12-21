@@ -1,7 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
