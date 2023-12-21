@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_volume(length, width, height):
+        return length * width * height
