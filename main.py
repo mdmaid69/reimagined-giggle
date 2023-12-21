@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_array_to_list(array):
+        return array.tolist()
