@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_power(work, time):
-        return work / time
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
