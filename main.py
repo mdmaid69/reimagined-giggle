@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_str(array):
+        return str(array)
