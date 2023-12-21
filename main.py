@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_unique_words(sentence):
-        return set(sentence.split())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
