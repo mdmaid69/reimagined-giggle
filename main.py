@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
