@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cosine(x):
+        return math.cos(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
