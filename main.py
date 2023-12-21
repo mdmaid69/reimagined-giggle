@@ -1,6 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
