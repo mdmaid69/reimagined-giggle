@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
