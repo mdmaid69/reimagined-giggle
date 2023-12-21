@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_pressure(force, area):
+        return force / area
