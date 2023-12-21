@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import platform
+def get_os_info():
+        return platform.uname()
