@@ -1,5 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_density(mass, volume):
+        return mass / volume
