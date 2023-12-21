@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
