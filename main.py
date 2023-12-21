@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-name = "Python"
-print("Hello,", name)
+import numpy as np
+print(np.array([1, 2, 3]))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
