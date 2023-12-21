@@ -1,7 +1,3 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+print([x**2 for x in range(10)])
+  def cube_number(x):
+        return x**3
