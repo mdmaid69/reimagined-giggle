@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
