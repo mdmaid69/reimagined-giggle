@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def subtract_numbers(x, y):
-        return x - y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
