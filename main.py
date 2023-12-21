@@ -1,6 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
