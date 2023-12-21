@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
