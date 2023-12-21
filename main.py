@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
