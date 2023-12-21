@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
