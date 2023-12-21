@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import os
+print(os.getcwd())
