@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+for i in range(5):
+        print(i)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
