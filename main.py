@@ -1,6 +1,11 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
