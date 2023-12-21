@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
