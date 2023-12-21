@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
