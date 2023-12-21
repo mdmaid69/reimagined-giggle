@@ -1,7 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
