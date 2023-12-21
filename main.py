@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_power(work, time):
+        return work / time
