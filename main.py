@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import time
-def get_current_time():
-        return time.ctime()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
