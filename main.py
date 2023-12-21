@@ -1,6 +1,8 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
