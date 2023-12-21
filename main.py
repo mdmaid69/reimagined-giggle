@@ -1,5 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
