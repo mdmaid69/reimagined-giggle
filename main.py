@@ -1,8 +1,8 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
