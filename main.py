@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import datetime
+print(datetime.datetime.now())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
