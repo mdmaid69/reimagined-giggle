@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
