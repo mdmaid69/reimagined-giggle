@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def find_unique_words(sentence):
+        return set(sentence.split())
