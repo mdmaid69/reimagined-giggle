@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
