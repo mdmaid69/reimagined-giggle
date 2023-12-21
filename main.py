@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
