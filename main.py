@@ -1,5 +1,8 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
