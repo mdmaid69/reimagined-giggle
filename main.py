@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def add_numbers(a, b):
-        return a + b
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
