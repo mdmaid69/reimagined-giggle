@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
