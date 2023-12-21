@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
