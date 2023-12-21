@@ -1,5 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
