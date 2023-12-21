@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import sys
+def print_python_version():
+        print(sys.version)
