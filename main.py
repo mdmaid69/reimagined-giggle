@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
