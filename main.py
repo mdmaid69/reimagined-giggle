@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import platform
+def get_python_version():
+        return platform.python_version()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
