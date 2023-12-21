@@ -1,11 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
