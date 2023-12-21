@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_acceleration(speed, time):
-        return speed / time
+def count_characters(sentence):
+        return len(sentence)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
