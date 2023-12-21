@@ -1,4 +1,7 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
