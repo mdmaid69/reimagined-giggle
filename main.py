@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_unique_words(sentence):
-        return set(sentence.split())
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def clear_array(array):
+        array *= 0
