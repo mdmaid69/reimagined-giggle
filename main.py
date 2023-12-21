@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def clear_array(array):
+        array *= 0
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
