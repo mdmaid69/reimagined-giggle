@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
