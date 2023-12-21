@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
