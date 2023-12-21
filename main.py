@@ -1,6 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-print("Hello, world!")
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+text = "Hello, world!"
+print("Words:", len(text.split()))
