@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
