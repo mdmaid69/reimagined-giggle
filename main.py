@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def is_odd(n):
-        return n % 2 != 0
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def change_working_directory(path):
+        os.chdir(path)
