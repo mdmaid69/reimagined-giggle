@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def is_odd(n):
-        return n % 2 != 0
+def convert_to_hex(n):
+        return hex(n)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
