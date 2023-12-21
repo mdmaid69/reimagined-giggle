@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def is_even(n):
+        return n % 2 == 0
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
