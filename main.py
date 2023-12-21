@@ -1,5 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_density(mass, volume):
+        return mass / volume
