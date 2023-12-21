@@ -1,11 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
