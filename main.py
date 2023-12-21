@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
