@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import logging
-def log_message(message):
-        logging.info(message)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
