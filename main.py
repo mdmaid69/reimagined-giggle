@@ -1,7 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
