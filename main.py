@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
