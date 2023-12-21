@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
