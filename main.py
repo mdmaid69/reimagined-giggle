@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
