@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
