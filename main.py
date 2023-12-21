@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def is_odd(n):
+        return n % 2 != 0
