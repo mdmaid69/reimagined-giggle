@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import time
+def get_time_since_epoch():
+        return time.time()
