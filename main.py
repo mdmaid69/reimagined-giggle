@@ -1,5 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
