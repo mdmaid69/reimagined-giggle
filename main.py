@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
