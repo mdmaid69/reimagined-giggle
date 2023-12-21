@@ -1,7 +1,7 @@
-def count_words(sentence):
-        return len(sentence.split())
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
