@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
