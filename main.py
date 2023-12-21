@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
