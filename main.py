@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
