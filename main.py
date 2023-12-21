@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
