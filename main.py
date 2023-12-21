@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
