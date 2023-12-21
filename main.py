@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import getpass
+def get_username():
+        return getpass.getuser()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
