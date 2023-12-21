@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
