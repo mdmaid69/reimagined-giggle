@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
