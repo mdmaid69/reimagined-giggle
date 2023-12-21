@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import array
-def append_to_array(array, item):
-        array.append(item)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
