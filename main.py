@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
