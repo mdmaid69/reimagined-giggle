@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
