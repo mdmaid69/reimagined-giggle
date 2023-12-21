@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
