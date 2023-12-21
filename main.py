@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
