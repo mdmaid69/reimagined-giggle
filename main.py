@@ -1,8 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
