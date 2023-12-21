@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
