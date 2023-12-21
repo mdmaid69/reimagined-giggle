@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
