@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_current_directory():
+        return os.getcwd()
