@@ -1,5 +1,8 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
