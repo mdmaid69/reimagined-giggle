@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_slice(array, i, j):
+        return array[i:j]
