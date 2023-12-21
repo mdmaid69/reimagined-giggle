@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_density(mass, volume):
+        return mass / volume
