@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
