@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
