@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
