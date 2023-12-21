@@ -1,7 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+for i in range(10): print(i)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
