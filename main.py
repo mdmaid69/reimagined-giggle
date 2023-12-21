@@ -1,5 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import sys
-  def get_python_version():
-        return sys.version
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+print(os.getcwd())
