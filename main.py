@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_volume(length, width, height):
+        return length * width * height
