@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
