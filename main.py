@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def count_characters(sentence):
-        return len(sentence)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
