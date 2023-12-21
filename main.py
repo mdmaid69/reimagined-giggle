@@ -1,5 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def get_array_as_bytearray(array):
+        return bytearray(array)
