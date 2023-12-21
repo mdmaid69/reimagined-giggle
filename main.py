@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import sys
-def print_python_version():
-        print(sys.version)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
