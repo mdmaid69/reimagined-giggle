@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def count_elements(lst):
+        return len(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
