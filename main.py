@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def is_odd(n):
-        return n % 2 != 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_length(array):
+        return len(array)
