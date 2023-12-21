@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import os
-print(os.getcwd())
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
