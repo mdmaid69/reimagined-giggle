@@ -1,8 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
