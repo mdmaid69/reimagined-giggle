@@ -1,5 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def add_numbers(a, b):
+        return a + b
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
