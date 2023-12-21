@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
