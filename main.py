@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def greet(name):
-        print(f"Hello, {name}!")
+for i in range(5):
+        print(i)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
