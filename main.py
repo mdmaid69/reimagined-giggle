@@ -1,6 +1,5 @@
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
