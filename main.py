@@ -1,5 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
