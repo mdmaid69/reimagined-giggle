@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
