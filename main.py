@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_power(work, time):
+        return work / time
