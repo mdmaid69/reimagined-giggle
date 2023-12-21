@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
