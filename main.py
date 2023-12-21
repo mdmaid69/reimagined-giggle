@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
