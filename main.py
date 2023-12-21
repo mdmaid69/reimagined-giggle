@@ -1,5 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
