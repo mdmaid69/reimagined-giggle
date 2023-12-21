@@ -1,7 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_words(sentence):
+        return len(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
