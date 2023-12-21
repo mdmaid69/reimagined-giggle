@@ -1,6 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
