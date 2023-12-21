@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
