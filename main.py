@@ -1,5 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
