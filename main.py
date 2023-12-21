@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def is_odd(n):
+        return n % 2 != 0
