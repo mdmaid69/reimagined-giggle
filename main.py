@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
