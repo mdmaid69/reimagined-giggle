@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_length(array):
+        return len(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
