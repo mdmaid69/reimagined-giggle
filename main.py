@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_density(mass, volume):
+        return mass / volume
+  def multiply_numbers(x, y):
+        return x * y
