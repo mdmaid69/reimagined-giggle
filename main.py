@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
