@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_binary(n):
+        return bin(n)
+def is_palindrome(s):
+        return s == s[::-1]
