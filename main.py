@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
