@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
