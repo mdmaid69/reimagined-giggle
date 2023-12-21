@@ -1,5 +1,5 @@
 def add_numbers(a, b):
         return a + b
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
