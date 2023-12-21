@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
