@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+print([x**2 for x in range(10)])
