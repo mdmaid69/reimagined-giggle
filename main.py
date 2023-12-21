@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+print(sum(range(10)))
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def reverse_array(array):
+        array.reverse()
