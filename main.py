@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_area_rectangle(l, w):
+        return l * w
