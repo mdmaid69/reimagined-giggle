@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
