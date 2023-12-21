@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
