@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
