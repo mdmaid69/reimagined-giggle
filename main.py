@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_current_date():
+        return datetime.date.today()
