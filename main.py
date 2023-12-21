@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import time
-def get_time_since_epoch():
-        return time.time()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
