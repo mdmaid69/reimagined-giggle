@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def is_even(n):
-        return n % 2 == 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
