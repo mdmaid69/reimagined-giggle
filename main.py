@@ -1,6 +1,3 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+print(os.getcwd())
+print([x**2 for x in range(10)])
