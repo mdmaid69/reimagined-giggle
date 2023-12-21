@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_counter():
+        return collections.Counter()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
