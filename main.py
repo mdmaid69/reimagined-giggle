@@ -1,5 +1,9 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
