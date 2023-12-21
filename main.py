@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
