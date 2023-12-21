@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
