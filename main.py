@@ -1,5 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_sign(x):
+        return math.copysign(1, x)
