@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
