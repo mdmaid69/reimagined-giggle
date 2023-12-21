@@ -1,5 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
