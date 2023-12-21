@@ -1,7 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
