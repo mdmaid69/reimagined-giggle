@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def get_array_buffer_info(array):
+        return array.buffer_info()
