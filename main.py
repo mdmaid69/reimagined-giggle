@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def is_even(n):
+        return n % 2 == 0
+def count_characters(sentence):
+        return len(sentence)
