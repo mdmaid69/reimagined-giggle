@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
