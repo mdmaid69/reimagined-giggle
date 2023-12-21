@@ -1,7 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
