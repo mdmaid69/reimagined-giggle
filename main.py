@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def square_number(x):
-        return x**2
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
