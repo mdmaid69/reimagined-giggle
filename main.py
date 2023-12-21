@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
