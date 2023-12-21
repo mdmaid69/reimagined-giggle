@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
