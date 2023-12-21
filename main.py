@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
