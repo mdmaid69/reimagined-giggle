@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def find_min(numbers):
+        return min(numbers)
