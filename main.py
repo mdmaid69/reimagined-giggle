@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
