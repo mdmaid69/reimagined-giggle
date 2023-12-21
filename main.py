@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
