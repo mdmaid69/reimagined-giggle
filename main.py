@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def convert_to_binary(n):
+        return bin(n)
+def cube_number(x):
+        return x**3
