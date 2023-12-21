@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def is_odd(n):
+        return n % 2 != 0
