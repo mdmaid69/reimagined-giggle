@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def divide_numbers(x, y):
+        return x / y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
