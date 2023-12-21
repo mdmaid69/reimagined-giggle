@@ -1,8 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
