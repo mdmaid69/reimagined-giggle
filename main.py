@@ -1,6 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
