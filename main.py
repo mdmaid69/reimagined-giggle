@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def divide_numbers(x, y):
-        return x / y
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
