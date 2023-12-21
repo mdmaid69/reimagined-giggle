@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def subtract_numbers(x, y):
+        return x - y
