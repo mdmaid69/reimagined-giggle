@@ -1,7 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
