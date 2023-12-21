@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
