@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
