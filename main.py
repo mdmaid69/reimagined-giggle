@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
