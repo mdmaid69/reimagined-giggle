@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
