@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
