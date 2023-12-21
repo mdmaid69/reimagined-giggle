@@ -1,9 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def count_elements(lst):
+        return len(lst)
