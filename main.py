@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
