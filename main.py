@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
