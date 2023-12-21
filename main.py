@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
