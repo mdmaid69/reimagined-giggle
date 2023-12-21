@@ -1,8 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
