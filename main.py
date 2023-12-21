@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
