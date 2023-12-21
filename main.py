@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
