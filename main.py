@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-import collections
-def create_user_string():
-        return collections.UserString()
+def sort_numbers(numbers):
+        return sorted(numbers)
+def reverse_list(lst):
+        return lst[::-1]
