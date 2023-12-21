@@ -1,5 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_as_float(array):
+        return float(array[0])
