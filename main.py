@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
