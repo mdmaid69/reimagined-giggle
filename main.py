@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
