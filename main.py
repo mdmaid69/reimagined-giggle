@@ -1,6 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
