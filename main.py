@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def count_words(sentence):
-        return len(sentence.split())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
