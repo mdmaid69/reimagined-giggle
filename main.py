@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import sys
+  def get_python_version():
+        return sys.version
