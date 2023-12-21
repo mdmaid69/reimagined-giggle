@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
