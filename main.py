@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
