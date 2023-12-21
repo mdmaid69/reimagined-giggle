@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
