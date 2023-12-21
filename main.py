@@ -1,4 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-for i in range(10): print(i)
+def calculate_work(force, distance):
+        return force * distance
+  def cube_number(x):
+        return x**3
