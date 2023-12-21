@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def convert_to_octal(n):
+        return oct(n)
