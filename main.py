@@ -1,6 +1,7 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
