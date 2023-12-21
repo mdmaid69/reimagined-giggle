@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
