@@ -1,5 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
