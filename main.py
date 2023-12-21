@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import re
-print(re.match("h.*o", "hello world"))
+def find_min(lst):
+        return min(lst)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
