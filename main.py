@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def is_odd(n):
-        return n % 2 != 0
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
