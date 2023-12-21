@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-for i in range(5):
-        print(i)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
