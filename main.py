@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def convert_to_binary(n):
-        return bin(n)
+  def square_number(x):
+        return x**2
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
