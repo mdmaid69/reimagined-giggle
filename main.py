@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
