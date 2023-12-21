@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_arc_tangent(x):
+        return math.atan(x)
