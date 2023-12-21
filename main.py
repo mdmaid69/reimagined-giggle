@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
