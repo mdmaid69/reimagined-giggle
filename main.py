@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
