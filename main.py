@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
