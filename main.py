@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
