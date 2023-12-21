@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def convert_to_hex(n):
-        return hex(n)
+import sys
+def exit_program():
+        sys.exit()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
