@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def reverse_list(lst):
+        return lst[::-1]
