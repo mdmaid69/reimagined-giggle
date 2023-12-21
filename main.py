@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def set_array_item(array, i, item):
+        array[i] = item
