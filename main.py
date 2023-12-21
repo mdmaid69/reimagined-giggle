@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
