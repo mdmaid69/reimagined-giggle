@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def convert_to_octal(n):
-        return oct(n)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
