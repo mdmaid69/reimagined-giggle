@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
