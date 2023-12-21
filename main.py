@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
