@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_power(work, time):
-        return work / time
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
