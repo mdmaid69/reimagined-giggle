@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+for i in range(5):
+        print(i)
