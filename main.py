@@ -1,12 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
