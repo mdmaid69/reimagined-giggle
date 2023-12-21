@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def remove_duplicates(lst):
+        return list(set(lst))
