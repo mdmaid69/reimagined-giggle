@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def square_number(x):
-        return x**2
+import array
+def get_array_item(array, i):
+        return array[i]
+for i in range(5):
+        print(i)
