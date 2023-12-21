@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
