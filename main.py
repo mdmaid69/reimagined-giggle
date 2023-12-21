@@ -1,4 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-print("Hello, world!")
+def get_array_length(array):
+        return len(array)
