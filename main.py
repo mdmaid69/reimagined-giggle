@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
