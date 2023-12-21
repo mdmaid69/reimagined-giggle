@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
