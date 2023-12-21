@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_pressure(force, area):
-        return force / area
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
