@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_as_repr(array):
+        return repr(array)
