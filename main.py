@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def cube_number(x):
-        return x**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
