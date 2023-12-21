@@ -1,5 +1,7 @@
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def is_odd(n):
-        return n % 2 != 0
+def iterate_over_array(array):
+        for item in array:
+        print(item)
