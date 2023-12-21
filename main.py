@@ -1,7 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def count_characters(sentence):
+        return len(sentence)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
