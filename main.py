@@ -1,6 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import sys
+  def get_python_version():
+        return sys.version
