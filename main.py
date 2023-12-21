@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
