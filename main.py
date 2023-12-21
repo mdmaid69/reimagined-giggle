@@ -1,5 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
