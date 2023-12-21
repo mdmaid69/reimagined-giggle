@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def count_elements(lst):
-        return len(lst)
+def calculate_work(force, distance):
+        return force * distance
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
