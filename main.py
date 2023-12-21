@@ -1,8 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def find_min(lst):
+        return min(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
