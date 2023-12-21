@@ -1,5 +1,7 @@
-import sys
-print(sys.version)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
