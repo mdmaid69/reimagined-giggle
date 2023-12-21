@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def cube_number(x):
-        return x**3
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def is_odd(n):
+        return n % 2 != 0
