@@ -1,6 +1,8 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
