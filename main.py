@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+print(math.pi)
