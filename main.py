@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
