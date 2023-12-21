@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def add_numbers(x, y):
+        return x + y
