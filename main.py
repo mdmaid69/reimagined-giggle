@@ -1,3 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-print([x**2 for x in range(10)])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
