@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
