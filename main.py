@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def is_even(n):
+        return n % 2 == 0
