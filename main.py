@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
