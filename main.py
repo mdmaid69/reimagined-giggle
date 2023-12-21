@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
