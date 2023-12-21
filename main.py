@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
