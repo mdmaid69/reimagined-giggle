@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
