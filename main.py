@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
