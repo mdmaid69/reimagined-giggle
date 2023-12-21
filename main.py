@@ -1,9 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
