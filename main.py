@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
