@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def count_characters(sentence):
+        return len(sentence)
+  def add_numbers(x, y):
+        return x + y
