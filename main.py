@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def remove_duplicates(lst):
+        return list(set(lst))
