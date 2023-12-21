@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
