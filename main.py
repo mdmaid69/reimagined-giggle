@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
