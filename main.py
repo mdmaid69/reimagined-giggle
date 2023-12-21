@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
