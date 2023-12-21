@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
