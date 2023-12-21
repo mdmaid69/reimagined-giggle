@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
