@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
