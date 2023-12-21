@@ -1,5 +1,7 @@
-def find_max(lst):
-        return max(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
