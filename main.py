@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
