@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_tangent(x):
+        return math.tan(x)
