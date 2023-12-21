@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import sys
+def print_python_version():
+        print(sys.version)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
