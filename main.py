@@ -1,5 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
