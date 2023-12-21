@@ -1,12 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def convert_to_octal(n):
+        return oct(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
