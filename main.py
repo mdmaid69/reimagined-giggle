@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
