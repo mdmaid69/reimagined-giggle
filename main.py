@@ -1,5 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-def count_characters(sentence):
-        return len(sentence)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
