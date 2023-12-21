@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_acceleration(speed, time):
-        return speed / time
+  def count_elements(lst):
+        return len(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
