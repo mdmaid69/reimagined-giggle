@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
