@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_memoryview(array):
+        return memoryview(array)
