@@ -1,4 +1,3 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def convert_to_binary(n):
-        return bin(n)
+  def convert_to_octal(n):
+        return oct(n)
+print("Hello, world!")
