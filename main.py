@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
