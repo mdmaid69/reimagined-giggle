@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def cube_number(x):
+        return x**3
+def calculate_pressure(force, area):
+        return force / area
