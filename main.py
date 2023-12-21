@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  import sys
+  def get_python_version():
+        return sys.version
+import collections
+def create_user_dict():
+        return collections.UserDict()
