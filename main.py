@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
