@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
