@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
