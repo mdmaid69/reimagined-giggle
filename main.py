@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
