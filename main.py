@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import platform
-def get_os_info():
-        return platform.uname()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
