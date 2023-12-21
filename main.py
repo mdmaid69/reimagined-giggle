@@ -1,8 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import sys
+  def get_python_version():
+        return sys.version
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
