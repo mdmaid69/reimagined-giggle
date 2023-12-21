@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
