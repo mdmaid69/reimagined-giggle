@@ -1,6 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_sine(x):
+        return math.sin(x)
