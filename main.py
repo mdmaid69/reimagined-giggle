@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_density(mass, volume):
+        return mass / volume
