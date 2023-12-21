@@ -1,9 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
