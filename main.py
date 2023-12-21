@@ -1,5 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import sys
+print(sys.version)
