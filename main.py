@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def convert_to_binary(n):
+        return bin(n)
