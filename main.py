@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def divide_numbers(x, y):
+        return x / y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
