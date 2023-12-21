@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-from collections import Counter
-print(Counter("hello world"))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
