@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import time
+print(time.time())
