@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_stack():
+        return collections.deque()
