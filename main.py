@@ -1,7 +1,4 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def count_characters(sentence):
-        return len(sentence)
+def find_min(numbers):
+        return min(numbers)
+import numpy as np
+print(np.array([1, 2, 3]))
