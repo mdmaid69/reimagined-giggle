@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-for i in range(5):
-        print(i)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
