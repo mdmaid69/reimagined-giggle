@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def reverse_string(s):
-        return s[::-1]
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
