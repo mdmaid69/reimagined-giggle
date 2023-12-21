@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
