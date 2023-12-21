@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
