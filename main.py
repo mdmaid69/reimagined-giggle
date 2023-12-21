@@ -1,7 +1,8 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
