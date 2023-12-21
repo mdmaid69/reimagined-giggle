@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
