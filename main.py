@@ -1,8 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
