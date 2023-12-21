@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
