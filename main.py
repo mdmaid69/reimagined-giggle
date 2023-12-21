@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def reverse_string(s):
+        return s[::-1]
