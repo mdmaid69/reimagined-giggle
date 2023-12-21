@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
