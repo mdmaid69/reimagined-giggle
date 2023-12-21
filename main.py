@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_work(force, distance):
-        return force * distance
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
