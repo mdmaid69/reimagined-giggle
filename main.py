@@ -1,5 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
