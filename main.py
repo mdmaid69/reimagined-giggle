@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
