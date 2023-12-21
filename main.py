@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import random
+print(random.randint(0, 100))
