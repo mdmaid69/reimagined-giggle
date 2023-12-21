@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def get_array_as_int(array):
+        return int(array[0])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
