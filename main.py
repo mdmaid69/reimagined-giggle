@@ -1,9 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
