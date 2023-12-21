@@ -1,5 +1,3 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_user_string():
-        return collections.UserString()
+print([x**2 for x in range(10)])
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
