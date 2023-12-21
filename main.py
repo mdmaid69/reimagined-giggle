@@ -1,4 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
