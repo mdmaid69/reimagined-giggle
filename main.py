@@ -1,6 +1,8 @@
-def divide_numbers(x, y):
-        return x / y
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
