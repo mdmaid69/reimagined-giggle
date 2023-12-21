@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
