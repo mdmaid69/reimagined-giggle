@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(5):
+        print(i)
