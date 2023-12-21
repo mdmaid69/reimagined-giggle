@@ -1,13 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
