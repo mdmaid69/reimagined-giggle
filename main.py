@@ -1,8 +1,7 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def count_characters(sentence):
+        return len(sentence)
