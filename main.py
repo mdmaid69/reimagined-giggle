@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
