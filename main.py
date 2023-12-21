@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
