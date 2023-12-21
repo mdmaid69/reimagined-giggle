@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
