@@ -1,6 +1,7 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
