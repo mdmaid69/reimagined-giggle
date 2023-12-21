@@ -1,5 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-print(math.pi)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_int(array):
+        return int(array[0])
