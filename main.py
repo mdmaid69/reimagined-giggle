@@ -1,5 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def convert_to_binary(n):
-        return bin(n)
+for i in range(10): print(i)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
