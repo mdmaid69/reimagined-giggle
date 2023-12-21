@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def is_odd(n):
-        return n % 2 != 0
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
