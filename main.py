@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
