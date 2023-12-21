@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
