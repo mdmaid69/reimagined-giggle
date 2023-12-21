@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
