@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_work(force, distance):
+        return force * distance
