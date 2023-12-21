@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
