@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
