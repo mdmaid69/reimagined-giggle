@@ -1,6 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
