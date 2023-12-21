@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
