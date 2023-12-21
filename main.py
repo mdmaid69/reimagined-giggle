@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
