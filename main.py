@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def cube_number(x):
-        return x**3
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
