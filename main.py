@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
