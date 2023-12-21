@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
