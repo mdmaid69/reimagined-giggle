@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_str(array):
+        return str(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
