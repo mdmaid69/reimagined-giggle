@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
