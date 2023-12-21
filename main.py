@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
