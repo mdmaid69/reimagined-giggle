@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  def is_even(n):
+        return n % 2 == 0
