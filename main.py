@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
