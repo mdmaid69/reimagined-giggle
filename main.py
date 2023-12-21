@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
