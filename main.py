@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
