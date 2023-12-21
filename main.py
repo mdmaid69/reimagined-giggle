@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def get_array_length(array):
+        return len(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
