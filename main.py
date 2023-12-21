@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def sort_numbers(numbers):
-        return sorted(numbers)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_unique_words(sentence):
+        return set(sentence.split())
