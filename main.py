@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
