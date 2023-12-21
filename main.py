@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
