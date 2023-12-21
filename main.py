@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
