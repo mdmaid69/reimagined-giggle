@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
