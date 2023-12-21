@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Characters:", len(text))
+def remove_duplicates(lst):
+        return list(set(lst))
