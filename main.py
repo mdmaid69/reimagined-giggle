@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+print(math.pi)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
