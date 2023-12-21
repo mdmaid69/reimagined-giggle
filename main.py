@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
