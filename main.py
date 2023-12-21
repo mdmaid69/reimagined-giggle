@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def cube_number(x):
+        return x**3
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
