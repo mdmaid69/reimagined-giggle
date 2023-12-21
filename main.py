@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
