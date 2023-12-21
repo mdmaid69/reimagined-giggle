@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def create_priority_queue():
+        return collections.deque()
