@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def convert_to_binary(n):
-        return bin(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
