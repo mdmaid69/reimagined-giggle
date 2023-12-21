@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
