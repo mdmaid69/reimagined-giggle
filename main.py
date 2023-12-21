@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
