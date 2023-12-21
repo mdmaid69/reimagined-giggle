@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
