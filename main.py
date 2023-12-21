@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
