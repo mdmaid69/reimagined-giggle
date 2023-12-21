@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
 n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
