@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
