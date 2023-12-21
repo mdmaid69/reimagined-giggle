@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def is_odd(n):
-        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
