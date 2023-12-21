@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
