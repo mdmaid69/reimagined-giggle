@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
