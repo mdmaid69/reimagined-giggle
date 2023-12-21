@@ -1,5 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
