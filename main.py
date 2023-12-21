@@ -1,6 +1,9 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def is_even(n):
+        return n % 2 == 0
