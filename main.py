@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def multiply_numbers(x, y):
-        return x * y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+print([x**2 for x in range(10)])
