@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
