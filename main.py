@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(a, b):
+        return a + b
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
