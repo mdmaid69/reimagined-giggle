@@ -1,5 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
