@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def add_numbers(x, y):
-        return x + y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
