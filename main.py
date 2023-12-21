@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
