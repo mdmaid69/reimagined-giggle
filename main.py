@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import time
-def get_current_time():
-        return time.time()
+def calculate_area_rectangle(l, w):
+        return l * w
+  def convert_to_octal(n):
+        return oct(n)
