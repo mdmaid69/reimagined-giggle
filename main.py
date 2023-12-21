@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_arc_cosine(x):
+        return math.acos(x)
