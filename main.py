@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
