@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
