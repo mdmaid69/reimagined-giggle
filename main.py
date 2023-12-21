@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
