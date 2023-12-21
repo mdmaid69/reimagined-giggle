@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
