@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def sort_list(lst):
+        return sorted(lst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
