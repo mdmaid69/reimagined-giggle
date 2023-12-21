@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import sys
-  def get_python_version():
-        return sys.version
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
