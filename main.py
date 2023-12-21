@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def insert_into_array(array, i, item):
+        array.insert(i, item)
