@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
