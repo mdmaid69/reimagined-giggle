@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
