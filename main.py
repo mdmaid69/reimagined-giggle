@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
