@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
