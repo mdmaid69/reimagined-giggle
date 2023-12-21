@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_unique_words(sentence):
+        return set(sentence.split())
