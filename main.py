@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def convert_to_hex(n):
+        return hex(n)
