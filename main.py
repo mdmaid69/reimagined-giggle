@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def convert_to_hex(n):
+        return hex(n)
