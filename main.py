@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
