@@ -1,5 +1,11 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def get_current_time():
+        return time.ctime()
