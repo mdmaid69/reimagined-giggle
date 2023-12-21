@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
