@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+name = "Python"
+print("Hello,", name)
