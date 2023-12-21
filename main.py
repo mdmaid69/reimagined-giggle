@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
