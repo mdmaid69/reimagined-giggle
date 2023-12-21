@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
