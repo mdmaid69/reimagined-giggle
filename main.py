@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
