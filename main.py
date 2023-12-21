@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def convert_to_hex(n):
-        return hex(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
