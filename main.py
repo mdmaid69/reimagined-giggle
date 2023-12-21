@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def divide_numbers(x, y):
-        return x / y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def cube_number(x):
+        return x**3
