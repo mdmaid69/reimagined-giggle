@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def cube_number(x):
+        return x**3
