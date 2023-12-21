@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
