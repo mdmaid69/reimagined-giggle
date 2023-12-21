@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def reverse_array(array):
+        array.reverse()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
