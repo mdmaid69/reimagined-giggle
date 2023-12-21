@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
