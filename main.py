@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
