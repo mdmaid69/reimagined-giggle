@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import time
+def get_time_since_epoch():
+        return time.time()
