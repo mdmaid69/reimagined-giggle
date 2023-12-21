@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def is_palindrome(s):
+        return s == s[::-1]
