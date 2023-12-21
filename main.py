@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
