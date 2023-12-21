@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_list(array):
-        return list(array)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
