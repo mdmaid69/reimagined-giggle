@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_user_string():
+        return collections.UserString()
