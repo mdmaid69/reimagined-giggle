@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
