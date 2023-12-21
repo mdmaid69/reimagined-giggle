@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
