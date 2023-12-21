@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_work(force, distance):
+        return force * distance
