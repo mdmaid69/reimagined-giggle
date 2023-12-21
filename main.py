@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
