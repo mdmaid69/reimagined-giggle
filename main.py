@@ -1,5 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_array_as_set(array):
+        return set(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
