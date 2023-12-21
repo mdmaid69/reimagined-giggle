@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import logging
+def log_message(message):
+        logging.info(message)
+import sys
+def exit_program():
+        sys.exit()
