@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
