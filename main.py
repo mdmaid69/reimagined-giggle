@@ -1,6 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+print(re.match("h.*o", "hello world"))
