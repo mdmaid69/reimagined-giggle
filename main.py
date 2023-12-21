@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
