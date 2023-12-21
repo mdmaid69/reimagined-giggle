@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import time
+def get_time_since_epoch():
+        return time.time()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
