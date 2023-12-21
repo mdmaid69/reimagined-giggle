@@ -1,6 +1,8 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
