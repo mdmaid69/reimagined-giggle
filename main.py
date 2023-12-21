@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import datetime
-print(datetime.datetime.now())
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
