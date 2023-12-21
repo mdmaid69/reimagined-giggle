@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+from collections import Counter
+print(Counter("hello world"))
