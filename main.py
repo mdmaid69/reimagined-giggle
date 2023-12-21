@@ -1,5 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def find_min(lst):
-        return min(lst)
+def append_to_array(array, item):
+        array.append(item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
