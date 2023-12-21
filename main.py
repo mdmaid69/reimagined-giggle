@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_pressure(force, area):
+        return force / area
