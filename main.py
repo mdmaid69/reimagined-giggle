@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def reverse_list(lst):
+        return lst[::-1]
