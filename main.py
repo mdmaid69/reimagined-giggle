@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def reverse_string(s):
-        return s[::-1]
+import os
+print(os.getcwd())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
