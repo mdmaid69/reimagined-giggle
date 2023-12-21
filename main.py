@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
