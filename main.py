@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import time
-print(time.time())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def append_to_array(array, item):
+        array.append(item)
