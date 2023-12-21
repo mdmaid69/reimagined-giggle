@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
