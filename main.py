@@ -1,6 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
