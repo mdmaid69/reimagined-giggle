@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
