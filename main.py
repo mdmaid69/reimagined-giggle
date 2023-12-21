@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_octal(n):
+        return oct(n)
+def find_min(lst):
+        return min(lst)
