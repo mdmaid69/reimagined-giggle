@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
