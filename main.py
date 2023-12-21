@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
