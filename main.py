@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
