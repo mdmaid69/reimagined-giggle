@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
