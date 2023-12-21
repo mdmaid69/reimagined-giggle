@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
