@@ -1,5 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
