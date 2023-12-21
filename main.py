@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_user_list():
+        return collections.UserList()
