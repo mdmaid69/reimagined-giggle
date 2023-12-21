@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
