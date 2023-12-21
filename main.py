@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def get_array_buffer_info(array):
+        return array.buffer_info()
