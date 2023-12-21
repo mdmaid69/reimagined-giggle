@@ -1,5 +1,6 @@
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
