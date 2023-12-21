@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
