@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
