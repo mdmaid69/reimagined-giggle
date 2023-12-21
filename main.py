@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
