@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def append_to_array(array, item):
+        array.append(item)
