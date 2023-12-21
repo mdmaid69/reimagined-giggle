@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
