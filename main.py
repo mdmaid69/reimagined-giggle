@@ -1,4 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-for i in range(10): print(i)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
