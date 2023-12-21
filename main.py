@@ -1,5 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
