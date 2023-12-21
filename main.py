@@ -1,5 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_exponential(x):
+        return math.exp(x)
