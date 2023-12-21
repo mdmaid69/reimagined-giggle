@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
