@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
