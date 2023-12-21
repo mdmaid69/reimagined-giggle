@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
