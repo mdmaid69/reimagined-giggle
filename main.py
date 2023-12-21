@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
