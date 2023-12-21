@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def find_max(lst):
-        return max(lst)
+def reverse_list(lst):
+        return lst[::-1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
