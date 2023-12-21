@@ -1,5 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
