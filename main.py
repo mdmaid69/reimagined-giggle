@@ -1,6 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
