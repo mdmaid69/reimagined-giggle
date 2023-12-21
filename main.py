@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
