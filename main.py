@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+from collections import Counter
+print(Counter("hello world"))
