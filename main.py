@@ -1,8 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import numpy as np
+print(np.array([1, 2, 3]))
