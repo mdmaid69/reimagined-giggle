@@ -1,4 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def is_even(n):
-        return n % 2 == 0
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
