@@ -1,4 +1,3 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def is_odd(n):
+        return n % 2 != 0
+print([x**2 for x in range(10)])
