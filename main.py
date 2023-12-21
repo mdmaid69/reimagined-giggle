@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
