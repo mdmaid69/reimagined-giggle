@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_acceleration(speed, time):
+        return speed / time
