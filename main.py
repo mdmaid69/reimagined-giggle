@@ -1,3 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-for i in range(10): print(i)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
