@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import sys
-def print_python_version():
-        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
