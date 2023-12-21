@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
