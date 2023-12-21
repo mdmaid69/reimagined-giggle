@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
