@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+name = "Python"
+print("Hello,", name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
