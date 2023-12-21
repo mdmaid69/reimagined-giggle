@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
