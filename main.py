@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
