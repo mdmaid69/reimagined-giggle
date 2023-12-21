@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import sys
-def print_python_version():
-        return sys.version
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_binary(n):
+        return bin(n)
