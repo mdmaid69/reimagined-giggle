@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
