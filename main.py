@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
