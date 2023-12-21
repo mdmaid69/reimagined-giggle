@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def convert_to_hex(n):
+        return hex(n)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
