@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
