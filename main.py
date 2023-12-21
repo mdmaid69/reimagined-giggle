@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
