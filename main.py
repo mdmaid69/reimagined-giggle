@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_list(array):
+        return list(array)
