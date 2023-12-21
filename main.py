@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
