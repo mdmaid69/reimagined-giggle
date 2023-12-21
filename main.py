@@ -1,7 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
