@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_list(array):
+        return list(array)
