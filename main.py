@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
