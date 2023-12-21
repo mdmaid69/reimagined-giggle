@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def divide_numbers(x, y):
-        return x / y
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
