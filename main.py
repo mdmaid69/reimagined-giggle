@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
