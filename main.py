@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
