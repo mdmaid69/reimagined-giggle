@@ -1,6 +1,3 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
+for i in range(10): print(i)
