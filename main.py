@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def count_characters(sentence):
-        return len(sentence)
+  def delete_file(file_name):
+        os.remove(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
