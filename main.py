@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
