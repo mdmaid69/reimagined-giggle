@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
