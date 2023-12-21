@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_area(radius):
+        return 3.14 * radius * radius
