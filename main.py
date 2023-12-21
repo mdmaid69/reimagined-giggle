@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
