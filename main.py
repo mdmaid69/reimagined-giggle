@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
