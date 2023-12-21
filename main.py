@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
