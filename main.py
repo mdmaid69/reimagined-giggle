@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def clear_array(array):
+        array *= 0
