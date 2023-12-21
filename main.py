@@ -1,8 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
