@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
