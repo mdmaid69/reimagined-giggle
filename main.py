@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
