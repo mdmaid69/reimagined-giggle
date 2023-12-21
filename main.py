@@ -1,6 +1,5 @@
+import sys
+print(sys.version)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
