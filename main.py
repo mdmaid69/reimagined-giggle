@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_acceleration(speed, time):
+        return speed / time
