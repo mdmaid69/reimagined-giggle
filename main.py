@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
