@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def convert_to_octal(n):
+        return oct(n)
