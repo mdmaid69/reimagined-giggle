@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def reverse_array(array):
+        array.reverse()
