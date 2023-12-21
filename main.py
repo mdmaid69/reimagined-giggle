@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def cube_number(x):
+        return x**3
