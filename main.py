@@ -1,4 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-print([x**2 for x in range(10)])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
