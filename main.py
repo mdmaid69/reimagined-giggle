@@ -1,6 +1,4 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+print(math.pi)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
