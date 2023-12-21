@@ -1,5 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def divide_numbers(x, y):
+        return x / y
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
