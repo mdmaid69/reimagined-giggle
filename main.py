@@ -1,5 +1,7 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import random
-print(random.randint(0, 100))
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
