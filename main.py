@@ -1,6 +1,10 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
