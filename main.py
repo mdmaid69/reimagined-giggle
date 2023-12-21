@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
