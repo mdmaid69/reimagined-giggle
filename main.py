@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
