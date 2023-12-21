@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
