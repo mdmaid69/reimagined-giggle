@@ -1,4 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-for i in range(10): print(i)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
