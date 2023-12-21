@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import sys
+  def get_python_version():
+        return sys.version
