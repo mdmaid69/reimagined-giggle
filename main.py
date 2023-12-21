@@ -1,6 +1,3 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import functools
 def memoize(func):
         cache = {}
@@ -10,3 +7,6 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
