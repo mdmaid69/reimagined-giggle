@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
