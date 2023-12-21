@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytes(array):
+        return bytes(array)
