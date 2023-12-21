@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_density(mass, volume):
+        return mass / volume
