@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
