@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def count_elements(lst):
-        return len(lst)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
