@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
