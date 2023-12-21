@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
