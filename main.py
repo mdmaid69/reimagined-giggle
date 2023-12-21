@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
