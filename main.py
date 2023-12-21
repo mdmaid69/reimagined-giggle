@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
