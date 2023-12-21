@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
