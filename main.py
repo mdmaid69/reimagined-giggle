@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
