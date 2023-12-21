@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def convert_to_octal(n):
+        return oct(n)
