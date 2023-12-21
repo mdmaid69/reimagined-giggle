@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
