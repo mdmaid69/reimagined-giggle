@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
