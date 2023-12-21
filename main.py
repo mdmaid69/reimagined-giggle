@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
