@@ -1,6 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
