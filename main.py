@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
