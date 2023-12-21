@@ -1,5 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_tuple(array):
+        return tuple(array)
