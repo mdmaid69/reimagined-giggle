@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def multiply_numbers(x, y):
+        return x * y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
