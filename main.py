@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_floor(x):
+        return math.floor(x)
