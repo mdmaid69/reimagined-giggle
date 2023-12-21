@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
