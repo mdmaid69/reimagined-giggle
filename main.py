@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
