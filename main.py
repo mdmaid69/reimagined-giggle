@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
