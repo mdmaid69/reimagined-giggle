@@ -1,6 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def get_array_as_frozenset(array):
+        return frozenset(array)
