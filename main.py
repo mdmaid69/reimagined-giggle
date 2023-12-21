@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
