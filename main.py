@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
