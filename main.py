@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
