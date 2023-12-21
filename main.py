@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import numpy as np
+print(np.array([1, 2, 3]))
