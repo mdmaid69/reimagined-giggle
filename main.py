@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_repr(array):
+        return repr(array)
