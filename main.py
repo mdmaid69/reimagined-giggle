@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
