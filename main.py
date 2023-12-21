@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def clear_array(array):
-        array *= 0
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
