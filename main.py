@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
