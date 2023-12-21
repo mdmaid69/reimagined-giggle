@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def find_min(lst):
+        return min(lst)
