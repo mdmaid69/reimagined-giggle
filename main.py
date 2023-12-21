@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
