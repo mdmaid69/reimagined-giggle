@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
