@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import os
+def change_working_directory(path):
+        os.chdir(path)
