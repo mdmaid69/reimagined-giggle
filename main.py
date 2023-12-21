@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
