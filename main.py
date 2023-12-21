@@ -1,4 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-for i in range(10): print(i)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def convert_to_hex(n):
+        return hex(n)
