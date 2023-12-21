@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
