@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
