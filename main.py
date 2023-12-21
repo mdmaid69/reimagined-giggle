@@ -1,5 +1,8 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
