@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
