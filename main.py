@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
