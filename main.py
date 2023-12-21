@@ -1,10 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
