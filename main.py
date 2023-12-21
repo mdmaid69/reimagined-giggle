@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def sort_list(lst):
-        return sorted(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
