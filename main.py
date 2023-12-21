@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import array
-def get_array_as_list(array):
-        return list(array)
+def check_if_array_contains_item(array, item):
+        return item in array
