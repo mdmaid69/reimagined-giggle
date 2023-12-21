@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.ctime()
