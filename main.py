@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-for i in range(5):
-        print(i)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
