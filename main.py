@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
