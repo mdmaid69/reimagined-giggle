@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
