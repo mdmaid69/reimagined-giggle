@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def divide_numbers(x, y):
-        return x / y
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
