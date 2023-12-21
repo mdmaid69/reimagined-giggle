@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
