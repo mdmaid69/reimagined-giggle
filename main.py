@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
