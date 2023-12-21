@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
