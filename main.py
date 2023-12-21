@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-def find_min(lst):
-        return min(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+import tensorflow as tf
+print(tf.__version__)
