@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_min(numbers):
+        return min(numbers)
