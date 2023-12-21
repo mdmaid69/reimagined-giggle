@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
