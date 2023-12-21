@@ -1,5 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-x = 10
-y = 20
-print("Sum:", x + y)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
