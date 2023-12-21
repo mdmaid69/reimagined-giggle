@@ -1,7 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
