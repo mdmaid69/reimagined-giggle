@@ -1,5 +1,7 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
