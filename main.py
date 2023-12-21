@@ -1,7 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
