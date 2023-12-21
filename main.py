@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def append_to_array(array, item):
+        array.append(item)
