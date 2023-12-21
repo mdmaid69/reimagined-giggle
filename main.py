@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
