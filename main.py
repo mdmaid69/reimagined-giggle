@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
