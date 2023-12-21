@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
