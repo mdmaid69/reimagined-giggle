@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import sys
+def exit_program():
+        sys.exit()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
