@@ -1,9 +1,8 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
