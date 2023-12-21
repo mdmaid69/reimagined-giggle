@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import datetime
+print(datetime.datetime.now())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
