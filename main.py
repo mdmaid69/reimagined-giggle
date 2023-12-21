@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
