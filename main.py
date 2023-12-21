@@ -1,12 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_username():
+        return getpass.getuser()
