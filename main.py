@@ -1,6 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
