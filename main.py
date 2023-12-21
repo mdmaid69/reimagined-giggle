@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import datetime
+print(datetime.datetime.now())
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
