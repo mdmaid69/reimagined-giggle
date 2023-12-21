@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def find_min(numbers):
+        return min(numbers)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
