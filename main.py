@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
