@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
