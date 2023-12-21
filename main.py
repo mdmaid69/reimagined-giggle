@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
