@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
