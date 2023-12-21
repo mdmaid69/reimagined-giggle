@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_repr(array):
+        return repr(array)
