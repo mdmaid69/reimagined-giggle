@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
