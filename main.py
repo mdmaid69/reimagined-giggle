@@ -1,6 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import logging
-def log_message(message):
-        logging.info(message)
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
