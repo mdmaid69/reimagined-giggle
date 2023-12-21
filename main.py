@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
