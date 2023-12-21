@@ -1,5 +1,12 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import platform
+def get_python_version():
+        return platform.python_version()
