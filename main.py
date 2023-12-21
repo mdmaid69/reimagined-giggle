@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+for i in range(10): print(i)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
