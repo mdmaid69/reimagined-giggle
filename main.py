@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import sys
+  def get_python_version():
+        return sys.version
+def divide_numbers(x, y):
+        return x / y
