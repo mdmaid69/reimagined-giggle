@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
