@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_perpetuity(payment, rate):
+        return payment / rate
