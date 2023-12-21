@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import collections
-def create_stack():
-        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
