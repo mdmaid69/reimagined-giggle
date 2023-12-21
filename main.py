@@ -1,8 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
