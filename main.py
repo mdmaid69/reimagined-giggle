@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_current_directory():
+        return os.getcwd()
