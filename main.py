@@ -1,5 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def append_to_array(array, item):
+        array.append(item)
