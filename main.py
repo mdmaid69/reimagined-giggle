@@ -1,6 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
