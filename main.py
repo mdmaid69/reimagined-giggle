@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-text = "Hello, world!"
-print("Characters:", len(text))
+def convert_to_hex(n):
+        return hex(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
