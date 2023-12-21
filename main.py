@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
