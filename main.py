@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_item(array, i):
-        return array[i]
+print("Hello, world!")
+import collections
+def create_user_list():
+        return collections.UserList()
