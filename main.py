@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def find_unique_words(sentence):
+        return set(sentence.split())
