@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_item_count(array, item):
+        return array.count(item)
