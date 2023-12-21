@@ -1,6 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
