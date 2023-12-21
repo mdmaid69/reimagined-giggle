@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def is_even(n):
+        return n % 2 == 0
