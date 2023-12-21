@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
