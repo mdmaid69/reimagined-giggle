@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_speed(distance, time):
+        return distance / time
