@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
