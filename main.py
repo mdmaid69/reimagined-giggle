@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
