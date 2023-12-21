@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
