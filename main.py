@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
