@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
