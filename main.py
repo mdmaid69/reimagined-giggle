@@ -1,7 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
