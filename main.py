@@ -1,6 +1,6 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
