@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
