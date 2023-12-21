@@ -1,9 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def add_numbers(a, b):
+        return a + b
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
