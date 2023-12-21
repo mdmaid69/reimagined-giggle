@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
