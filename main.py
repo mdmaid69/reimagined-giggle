@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def count_words(sentence):
+        return len(sentence.split())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
