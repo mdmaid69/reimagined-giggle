@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_volume(length, width, height):
+        return length * width * height
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
