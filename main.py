@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
