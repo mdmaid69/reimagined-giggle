@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
