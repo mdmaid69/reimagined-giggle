@@ -1,8 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_item(array, i):
+        return array[i]
