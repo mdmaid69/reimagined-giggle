@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_stack():
+        return collections.deque()
