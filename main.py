@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
