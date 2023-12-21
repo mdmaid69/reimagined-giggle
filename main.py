@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def count_elements(lst):
+        return len(lst)
+  def convert_to_octal(n):
+        return oct(n)
