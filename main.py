@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+import os
+def remove_directory(path):
+        os.rmdir(path)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
