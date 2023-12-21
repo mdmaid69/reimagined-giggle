@@ -1,7 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
