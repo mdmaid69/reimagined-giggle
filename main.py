@@ -1,5 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def remove_directory(path):
+        os.rmdir(path)
