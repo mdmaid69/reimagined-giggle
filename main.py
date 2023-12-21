@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_characters(sentence):
+        return len(sentence)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
