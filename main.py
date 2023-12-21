@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+for i in range(10): print(i)
