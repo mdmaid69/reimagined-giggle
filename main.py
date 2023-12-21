@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
