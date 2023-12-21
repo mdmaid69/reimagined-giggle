@@ -1,6 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def delete_file(file_name):
+        os.remove(file_name)
+from collections import Counter
+print(Counter("hello world"))
