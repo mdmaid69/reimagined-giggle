@@ -1,6 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
