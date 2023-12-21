@@ -1,5 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_elements(lst):
-        return len(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
