@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
