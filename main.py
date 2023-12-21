@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+name = "Python"
+print("Hello,", name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
