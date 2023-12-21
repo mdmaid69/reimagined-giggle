@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def reverse_list(lst):
+        return lst[::-1]
