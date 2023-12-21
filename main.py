@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
