@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
