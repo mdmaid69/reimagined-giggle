@@ -1,8 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
