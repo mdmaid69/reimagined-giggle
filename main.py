@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
