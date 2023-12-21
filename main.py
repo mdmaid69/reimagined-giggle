@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_min(lst):
-        return min(lst)
+print("Hello, world!")
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
