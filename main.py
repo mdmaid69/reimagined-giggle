@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-print(time.time())
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def greet(name):
+        print(f"Hello, {name}!")
