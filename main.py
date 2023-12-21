@@ -1,7 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
