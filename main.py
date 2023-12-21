@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_speed(distance, time):
+        return distance / time
 import math
-print(math.pi)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
