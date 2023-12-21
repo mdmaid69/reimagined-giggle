@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
