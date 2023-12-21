@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
