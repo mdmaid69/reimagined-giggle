@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def subtract_numbers(x, y):
+        return x - y
+import time
+def get_time_since_epoch():
+        return time.time()
