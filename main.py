@@ -1,8 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
