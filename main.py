@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
