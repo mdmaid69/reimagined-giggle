@@ -1,6 +1,8 @@
-def find_min(lst):
-        return min(lst)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
