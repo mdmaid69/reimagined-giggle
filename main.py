@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
