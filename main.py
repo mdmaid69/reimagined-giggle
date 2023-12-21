@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
