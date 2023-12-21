@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_volume(length, width, height):
-        return length * width * height
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def split_path(path):
+        return os.path.split(path)
