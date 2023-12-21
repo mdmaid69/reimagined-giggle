@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
