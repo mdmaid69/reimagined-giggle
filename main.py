@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
