@@ -1,5 +1,9 @@
-def convert_to_octal(n):
-        return oct(n)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
