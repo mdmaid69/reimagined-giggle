@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
