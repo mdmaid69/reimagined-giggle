@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
