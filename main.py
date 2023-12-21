@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
