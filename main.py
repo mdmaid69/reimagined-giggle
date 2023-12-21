@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_min(numbers):
+        return min(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
