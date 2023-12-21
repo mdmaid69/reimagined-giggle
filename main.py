@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_speed(distance, time):
+        return distance / time
