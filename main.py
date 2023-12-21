@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
