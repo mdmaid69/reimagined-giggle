@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
