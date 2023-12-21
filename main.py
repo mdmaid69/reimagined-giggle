@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
