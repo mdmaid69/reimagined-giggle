@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
