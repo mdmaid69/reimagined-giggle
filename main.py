@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def cube_number(x):
+        return x**3
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
