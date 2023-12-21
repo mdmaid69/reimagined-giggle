@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import numpy as np
+print(np.array([1, 2, 3]))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
