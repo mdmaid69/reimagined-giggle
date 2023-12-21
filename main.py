@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_index(array, item):
+        return array.index(item)
