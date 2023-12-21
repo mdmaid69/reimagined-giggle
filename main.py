@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
