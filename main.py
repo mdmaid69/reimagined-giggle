@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
