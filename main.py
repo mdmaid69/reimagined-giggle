@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
