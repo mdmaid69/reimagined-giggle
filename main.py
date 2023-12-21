@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def sort_numbers(numbers):
+        return sorted(numbers)
