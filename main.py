@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_area_circle(r):
+        return 3.14 * r**2
