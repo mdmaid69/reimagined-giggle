@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def sort_list(lst):
+        return sorted(lst)
