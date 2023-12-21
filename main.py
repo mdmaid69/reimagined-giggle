@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_exponential(x):
+        return math.exp(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
