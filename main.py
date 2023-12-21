@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-x = 10
-y = 20
-print("Sum:", x + y)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
