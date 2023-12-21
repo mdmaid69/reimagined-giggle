@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
