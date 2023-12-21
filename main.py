@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
