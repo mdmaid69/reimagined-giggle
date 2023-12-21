@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
