@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+for i in range(5):
+        print(i)
