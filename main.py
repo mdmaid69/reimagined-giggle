@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
