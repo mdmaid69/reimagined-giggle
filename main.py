@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
