@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
