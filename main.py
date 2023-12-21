@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def greet(name):
+        print(f"Hello, {name}!")
+import sys
+def print_python_version():
+        print(sys.version)
