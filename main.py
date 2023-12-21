@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_typecode(array):
+        return array.typecode
