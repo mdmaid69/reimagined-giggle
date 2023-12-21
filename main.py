@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def cube_number(x):
+        return x**3
