@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-print(math.pi)
+x = 10
+y = 20
+print("Sum:", x + y)
+import datetime
+def get_today_date():
+        return datetime.date.today()
