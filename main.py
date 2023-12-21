@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_acceleration(speed, time):
-        return speed / time
+  def cube_number(x):
+        return x**3
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
