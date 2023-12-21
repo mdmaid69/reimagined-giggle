@@ -1,7 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def remove_duplicates(lst):
+        return list(set(lst))
