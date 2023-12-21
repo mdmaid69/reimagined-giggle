@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def add_numbers(a, b):
-        return a + b
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
