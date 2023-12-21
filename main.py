@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import itertools
 def get_permutations(iterable):
         return list(itertools.permutations(iterable))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
