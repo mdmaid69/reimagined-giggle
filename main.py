@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
