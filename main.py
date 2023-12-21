@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_work(force, distance):
+        return force * distance
+import sys
+def exit_program():
+        sys.exit()
