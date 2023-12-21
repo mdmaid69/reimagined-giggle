@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
