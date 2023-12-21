@@ -1,3 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-print("Hello, world!")
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import os
+print(os.getcwd())
