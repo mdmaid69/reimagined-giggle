@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
