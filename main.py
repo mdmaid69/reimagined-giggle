@@ -1,8 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
