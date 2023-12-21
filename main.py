@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
