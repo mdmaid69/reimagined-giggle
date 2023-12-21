@@ -1,5 +1,7 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_cosine(x):
+        return math.cos(x)
