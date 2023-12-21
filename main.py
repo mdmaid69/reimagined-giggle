@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
