@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
