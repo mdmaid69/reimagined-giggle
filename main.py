@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import random
-print(random.randint(0, 100))
+import os
+print(os.getcwd())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
