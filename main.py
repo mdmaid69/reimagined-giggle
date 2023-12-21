@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def reverse_string(s):
-        return s[::-1]
+text = "Hello, world!"
+print("Characters:", len(text))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
