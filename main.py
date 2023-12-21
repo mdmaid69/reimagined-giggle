@@ -1,9 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
