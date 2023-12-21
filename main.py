@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_array_as_repr(array):
+        return repr(array)
