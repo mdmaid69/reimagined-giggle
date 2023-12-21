@@ -1,6 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
