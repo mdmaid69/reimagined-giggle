@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
