@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import sys
-print(sys.version)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
