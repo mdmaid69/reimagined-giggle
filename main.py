@@ -1,7 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def get_array_as_complex(array):
+        return complex(array[0])
