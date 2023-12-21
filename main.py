@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_area_rectangle(l, w):
+        return l * w
