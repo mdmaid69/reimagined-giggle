@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def convert_to_binary(n):
+        return bin(n)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
