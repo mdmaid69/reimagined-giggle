@@ -1,6 +1,5 @@
+import time
+print(time.time())
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
