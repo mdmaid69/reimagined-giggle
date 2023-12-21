@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
