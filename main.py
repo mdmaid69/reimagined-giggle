@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
