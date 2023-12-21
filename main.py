@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_queue():
+        return collections.deque()
