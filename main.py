@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
