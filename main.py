@@ -1,5 +1,6 @@
   import numpy as np
   def calculate_standard_deviation(arr):
         return np.std(arr)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
