@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
