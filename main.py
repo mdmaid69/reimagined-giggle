@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
