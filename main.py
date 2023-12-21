@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def is_odd(n):
+        return n % 2 != 0
+import random
+print(random.randint(0, 100))
