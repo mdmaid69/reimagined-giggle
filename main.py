@@ -1,6 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+x = 10
+y = 20
+print("Sum:", x + y)
