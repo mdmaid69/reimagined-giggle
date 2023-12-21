@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
