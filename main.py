@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_power(work, time):
+        return work / time
