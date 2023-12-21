@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_item(array, i):
+        return array[i]
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
