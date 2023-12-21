@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
