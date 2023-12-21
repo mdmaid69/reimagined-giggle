@@ -1,5 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
