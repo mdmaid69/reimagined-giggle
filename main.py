@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
