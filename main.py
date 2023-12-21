@@ -1,7 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def calculate_mean(arr):
+        return np.mean(arr)
