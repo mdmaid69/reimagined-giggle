@@ -1,5 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def reverse_string(s):
-        return s[::-1]
+def clear_array(array):
+        array *= 0
+def square_number(x):
+        return x**2
