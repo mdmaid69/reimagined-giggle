@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_as_str(array):
-        return str(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
