@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
