@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+text = "Hello, world!"
+print("Words:", len(text.split()))
