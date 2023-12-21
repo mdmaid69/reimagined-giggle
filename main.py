@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
