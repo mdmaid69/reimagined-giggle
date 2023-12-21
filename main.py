@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  def cube_number(x):
-        return x**3
+import random
+print(random.randint(0, 100))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
