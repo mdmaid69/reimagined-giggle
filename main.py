@@ -1,7 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
