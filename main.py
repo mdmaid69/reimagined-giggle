@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def multiply_numbers(x, y):
+        return x * y
