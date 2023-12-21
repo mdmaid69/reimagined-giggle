@@ -1,5 +1,3 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+print([x**2 for x in range(10)])
