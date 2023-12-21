@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
