@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
