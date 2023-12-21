@@ -1,10 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
