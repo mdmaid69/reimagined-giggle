@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
