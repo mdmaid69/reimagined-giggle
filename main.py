@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
