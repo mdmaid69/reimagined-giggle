@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_pressure(force, area):
+        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
