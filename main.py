@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_work(force, distance):
+        return force * distance
+def multiply_numbers(x, y):
+        return x * y
