@@ -1,6 +1,5 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_area(radius):
+        return 3.14 * radius * radius
