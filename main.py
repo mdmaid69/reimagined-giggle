@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def convert_to_binary(n):
+        return bin(n)
