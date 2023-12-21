@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
