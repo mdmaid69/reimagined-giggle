@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
