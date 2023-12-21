@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_area(radius):
+        return 3.14 * radius * radius
