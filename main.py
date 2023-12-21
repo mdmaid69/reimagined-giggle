@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
