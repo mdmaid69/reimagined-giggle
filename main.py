@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
