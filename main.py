@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
