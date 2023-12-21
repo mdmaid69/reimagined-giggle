@@ -1,6 +1,8 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
