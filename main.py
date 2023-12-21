@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
