@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
