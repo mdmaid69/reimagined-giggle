@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def find_min(numbers):
-        return min(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_as_list(array):
+        return list(array)
