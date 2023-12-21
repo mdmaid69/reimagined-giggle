@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
