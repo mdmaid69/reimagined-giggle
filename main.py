@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
