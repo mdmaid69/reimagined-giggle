@@ -1,4 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
