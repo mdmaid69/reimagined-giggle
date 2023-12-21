@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-print(random.randint(0, 100))
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
