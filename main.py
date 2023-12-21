@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
