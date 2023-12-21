@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_odd(n):
+        return n % 2 != 0
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
