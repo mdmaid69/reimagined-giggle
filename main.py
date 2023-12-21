@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
