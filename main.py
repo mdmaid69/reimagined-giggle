@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_array_to_bytes(array):
+        return array.tobytes()
