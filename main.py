@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def get_array_as_tuple(array):
+        return tuple(array)
