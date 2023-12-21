@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import time
-def get_current_time():
-        return time.ctime()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
