@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
