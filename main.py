@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def count_elements(lst):
+        return len(lst)
+def calculate_power(work, time):
+        return work / time
