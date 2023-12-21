@@ -1,6 +1,7 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
