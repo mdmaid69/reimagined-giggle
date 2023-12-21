@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
