@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-for i in range(5):
-        print(i)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
