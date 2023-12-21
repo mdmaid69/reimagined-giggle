@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def find_max(numbers):
+        return max(numbers)
+def calculate_work(force, distance):
+        return force * distance
