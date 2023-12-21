@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-print(random.randint(0, 100))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
