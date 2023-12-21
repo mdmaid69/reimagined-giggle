@@ -1,4 +1,7 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
