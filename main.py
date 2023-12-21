@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
