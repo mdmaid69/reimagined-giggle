@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Characters:", len(text))
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
