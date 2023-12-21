@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+print(os.getcwd())
+def calculate_area_circle(r):
+        return 3.14 * r**2
