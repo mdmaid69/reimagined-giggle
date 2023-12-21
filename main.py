@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
