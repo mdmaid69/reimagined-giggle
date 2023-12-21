@@ -1,5 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
