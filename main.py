@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import collections
+def create_counter():
+        return collections.Counter()
