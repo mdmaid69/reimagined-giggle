@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
