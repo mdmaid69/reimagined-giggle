@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-for i in range(5):
-        print(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
