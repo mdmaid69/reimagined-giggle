@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
