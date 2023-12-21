@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
