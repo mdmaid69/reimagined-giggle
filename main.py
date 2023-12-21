@@ -1,7 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
