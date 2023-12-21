@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def sort_list(lst):
-        return sorted(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
