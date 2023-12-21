@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def remove_duplicates(lst):
-        return list(set(lst))
+name = "Python"
+print("Hello,", name)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
