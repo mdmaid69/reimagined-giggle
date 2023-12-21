@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
