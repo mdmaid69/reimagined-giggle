@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
