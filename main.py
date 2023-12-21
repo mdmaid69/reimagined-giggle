@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
