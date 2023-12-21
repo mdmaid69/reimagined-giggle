@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_length(array):
+        return len(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
