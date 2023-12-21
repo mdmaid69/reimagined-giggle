@@ -1,3 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-print(sum(range(10)))
+import math
+print(math.pi)
+import collections
+def create_user_string():
+        return collections.UserString()
