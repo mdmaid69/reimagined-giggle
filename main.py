@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
