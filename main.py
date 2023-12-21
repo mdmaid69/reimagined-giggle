@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
