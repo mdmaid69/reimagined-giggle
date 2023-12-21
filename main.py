@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
