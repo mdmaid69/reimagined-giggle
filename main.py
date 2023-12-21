@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
