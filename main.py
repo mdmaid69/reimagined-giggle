@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_length(array):
+        return len(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
