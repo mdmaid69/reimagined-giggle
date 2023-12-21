@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
