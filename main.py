@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def create_user_string():
+        return collections.UserString()
