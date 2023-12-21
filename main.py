@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
