@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
