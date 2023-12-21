@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_acceleration(speed, time):
+        return speed / time
