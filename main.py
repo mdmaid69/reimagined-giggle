@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
