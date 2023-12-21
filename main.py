@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def remove_duplicates(lst):
+        return list(set(lst))
