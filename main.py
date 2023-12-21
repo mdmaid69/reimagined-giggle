@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
