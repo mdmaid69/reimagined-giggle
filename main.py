@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
