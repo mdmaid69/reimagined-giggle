@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
