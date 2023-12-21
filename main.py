@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
