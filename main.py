@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_circle_area(radius):
+        return math.pi * radius**2
