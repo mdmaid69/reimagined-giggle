@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_error_function(x):
+        return math.erf(x)
