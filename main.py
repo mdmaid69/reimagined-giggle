@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
