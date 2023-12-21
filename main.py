@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
