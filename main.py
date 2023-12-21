@@ -1,7 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
