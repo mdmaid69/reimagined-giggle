@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_work(force, distance):
+        return force * distance
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
