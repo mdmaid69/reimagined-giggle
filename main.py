@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
