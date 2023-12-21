@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
 import array
-def clear_array(array):
-        array *= 0
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
