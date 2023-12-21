@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
