@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
