@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
