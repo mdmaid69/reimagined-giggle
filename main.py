@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def cube_number(x):
+        return x**3
