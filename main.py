@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
