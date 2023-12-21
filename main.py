@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import collections
-def create_stack():
-        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
