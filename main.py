@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_repr(array):
+        return repr(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
