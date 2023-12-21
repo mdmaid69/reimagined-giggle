@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
