@@ -1,12 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def is_even(n):
+        return n % 2 == 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
