@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+x = 10
+y = 20
+print("Sum:", x + y)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
