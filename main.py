@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
