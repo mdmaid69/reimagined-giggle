@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
