@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_list_from_array(array):
+        return array.tolist()
