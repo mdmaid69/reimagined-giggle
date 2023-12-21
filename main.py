@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
