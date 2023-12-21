@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_acceleration(speed, time):
+        return speed / time
