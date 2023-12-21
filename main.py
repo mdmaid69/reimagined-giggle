@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
