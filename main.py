@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_exponential(x):
+        return math.exp(x)
