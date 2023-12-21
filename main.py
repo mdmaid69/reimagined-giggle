@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
