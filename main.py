@@ -1,5 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
