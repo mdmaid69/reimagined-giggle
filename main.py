@@ -1,7 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
