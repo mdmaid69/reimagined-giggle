@@ -1,7 +1,5 @@
-import time
-print(time.time())
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
