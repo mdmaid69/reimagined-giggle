@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
