@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def convert_to_hex(n):
+        return hex(n)
