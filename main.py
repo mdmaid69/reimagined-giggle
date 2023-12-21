@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_work(force, distance):
-        return force * distance
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def is_odd(n):
+        return n % 2 != 0
