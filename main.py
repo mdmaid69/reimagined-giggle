@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
