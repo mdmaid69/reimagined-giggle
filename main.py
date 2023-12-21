@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_str(array):
+        return str(array)
