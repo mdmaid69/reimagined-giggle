@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
