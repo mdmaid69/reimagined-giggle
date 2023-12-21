@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
