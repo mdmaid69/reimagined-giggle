@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_absolute_value(x):
+        return math.fabs(x)
