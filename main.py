@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
