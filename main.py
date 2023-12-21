@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_slice(array, i, j):
+        return array[i:j]
