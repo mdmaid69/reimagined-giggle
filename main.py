@@ -1,6 +1,5 @@
+import math
+print(math.pi)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
