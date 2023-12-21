@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_area_triangle(b, h):
+  def calculate_area_triangle(b, h):
         return 0.5 * b * h
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
