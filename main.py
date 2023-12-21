@@ -1,6 +1,8 @@
-import array
-def clear_array(array):
-        array *= 0
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
