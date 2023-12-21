@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
