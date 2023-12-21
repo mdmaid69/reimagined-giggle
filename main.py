@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_string():
-        return collections.UserString()
+  def is_even(n):
+        return n % 2 == 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
