@@ -1,5 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import sys
-print(sys.version)
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
