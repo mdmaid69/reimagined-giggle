@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+def exit_program():
+        sys.exit()
