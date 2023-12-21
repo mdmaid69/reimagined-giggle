@@ -1,5 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def square_number(x):
-        return x**2
+import random
+print(random.randint(0, 100))
+def divide_numbers(x, y):
+        return x / y
