@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def cube_number(x):
-        return x**3
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
