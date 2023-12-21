@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def reverse_string(s):
+        return s[::-1]
