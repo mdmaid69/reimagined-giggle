@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
