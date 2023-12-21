@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+x = 10
+y = 20
+print("Sum:", x + y)
