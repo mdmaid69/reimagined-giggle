@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Characters:", len(text))
+  def convert_to_octal(n):
+        return oct(n)
