@@ -1,4 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
+print(sum(range(10)))
