@@ -1,7 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_area_rectangle(l, w):
+        return l * w
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
