@@ -1,6 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
