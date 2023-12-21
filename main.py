@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
