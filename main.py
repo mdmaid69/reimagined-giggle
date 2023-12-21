@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
