@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def reverse_string(s):
-        return s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
