@@ -1,7 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
