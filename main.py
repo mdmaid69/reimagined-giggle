@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
