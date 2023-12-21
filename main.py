@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def get_array_as_bool(array):
+        return bool(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
