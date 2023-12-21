@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
