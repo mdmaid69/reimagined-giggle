@@ -1,4 +1,7 @@
-print([x**2 for x in range(10)])
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
