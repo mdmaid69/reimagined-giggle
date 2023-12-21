@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
