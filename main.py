@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
