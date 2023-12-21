@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
