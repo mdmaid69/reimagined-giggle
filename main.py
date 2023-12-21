@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
