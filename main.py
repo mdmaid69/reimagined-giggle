@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
