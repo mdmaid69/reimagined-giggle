@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
