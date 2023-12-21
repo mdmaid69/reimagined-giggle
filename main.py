@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import logging
+def log_message(message):
+        logging.info(message)
