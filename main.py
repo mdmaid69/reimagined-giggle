@@ -1,9 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
