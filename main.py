@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
