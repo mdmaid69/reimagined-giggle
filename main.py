@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
