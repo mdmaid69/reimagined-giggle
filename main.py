@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def cube_number(x):
-        return x**3
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
