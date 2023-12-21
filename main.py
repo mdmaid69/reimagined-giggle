@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def convert_to_hex(n):
+        return hex(n)
