@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def reverse_array(array):
+        array.reverse()
+def add_numbers(a, b):
+        return a + b
