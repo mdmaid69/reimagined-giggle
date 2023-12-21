@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
