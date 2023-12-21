@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
