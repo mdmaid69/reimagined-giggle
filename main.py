@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def convert_to_binary(n):
-        return bin(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def sort_list(lst):
+        return sorted(lst)
