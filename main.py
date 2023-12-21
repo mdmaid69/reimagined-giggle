@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
