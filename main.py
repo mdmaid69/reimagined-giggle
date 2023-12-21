@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
