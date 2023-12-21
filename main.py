@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
