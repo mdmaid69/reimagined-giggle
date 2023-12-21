@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
