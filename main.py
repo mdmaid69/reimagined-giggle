@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def print_python_version():
+        return sys.version
