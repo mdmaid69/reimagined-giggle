@@ -1,6 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
