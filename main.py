@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
