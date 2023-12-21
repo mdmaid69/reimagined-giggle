@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
