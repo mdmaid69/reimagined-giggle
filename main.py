@@ -1,7 +1,8 @@
-import socket
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def divide_numbers(x, y):
+        return x / y
