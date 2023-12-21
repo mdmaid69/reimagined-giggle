@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
