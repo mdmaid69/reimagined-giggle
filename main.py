@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_list(array):
+        return list(array)
