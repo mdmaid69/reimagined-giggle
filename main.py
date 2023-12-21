@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
