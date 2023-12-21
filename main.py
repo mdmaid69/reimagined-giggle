@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def exit_program():
+        sys.exit()
