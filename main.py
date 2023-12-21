@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
