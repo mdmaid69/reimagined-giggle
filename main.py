@@ -1,7 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
