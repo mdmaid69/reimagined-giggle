@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import random
+print(random.randint(0, 100))
