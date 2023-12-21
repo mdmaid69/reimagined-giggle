@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
