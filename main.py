@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def subtract_numbers(x, y):
+        return x - y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
