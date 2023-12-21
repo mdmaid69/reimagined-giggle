@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
