@@ -1,8 +1,5 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-print(sum(range(10)))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
