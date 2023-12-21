@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
