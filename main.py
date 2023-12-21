@@ -1,5 +1,8 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_typecode(array):
+        return array.typecode
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
