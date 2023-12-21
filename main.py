@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
