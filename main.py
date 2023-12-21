@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
