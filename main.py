@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def find_min(lst):
+        return min(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
