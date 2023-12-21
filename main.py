@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
