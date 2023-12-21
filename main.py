@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def count_characters(sentence):
+        return len(sentence)
