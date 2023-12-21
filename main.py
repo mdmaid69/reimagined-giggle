@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def get_array_as_str(array):
+        return str(array)
