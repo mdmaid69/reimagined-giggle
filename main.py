@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_area_rectangle(l, w):
+        return l * w
