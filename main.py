@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_min(lst):
+        return min(lst)
