@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def reverse_array(array):
-        array.reverse()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
