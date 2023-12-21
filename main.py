@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
