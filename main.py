@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+for i in range(10): print(i)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
