@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import time
-def get_time_since_epoch():
-        return time.time()
+for i in range(5):
+        print(i)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
