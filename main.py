@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
