@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
