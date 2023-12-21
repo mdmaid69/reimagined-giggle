@@ -1,5 +1,7 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_area_rectangle(l, w):
-        return l * w
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
