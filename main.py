@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
