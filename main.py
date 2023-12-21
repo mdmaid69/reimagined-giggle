@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def remove_duplicates(lst):
+        return list(set(lst))
