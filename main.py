@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
