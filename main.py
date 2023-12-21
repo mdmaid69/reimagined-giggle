@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
