@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def reverse_list(lst):
+        return lst[::-1]
