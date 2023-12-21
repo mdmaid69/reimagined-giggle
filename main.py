@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
