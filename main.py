@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
