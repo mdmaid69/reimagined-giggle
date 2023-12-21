@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
