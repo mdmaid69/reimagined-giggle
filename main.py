@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
