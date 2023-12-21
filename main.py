@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_user_list():
+        return collections.UserList()
