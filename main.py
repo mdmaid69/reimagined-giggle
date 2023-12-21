@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
