@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
