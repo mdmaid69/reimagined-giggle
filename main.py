@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
