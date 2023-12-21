@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def reverse_list(lst):
+        return lst[::-1]
