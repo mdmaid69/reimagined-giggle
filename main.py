@@ -1,4 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
   def subtract_numbers(x, y):
         return x - y
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
