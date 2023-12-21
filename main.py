@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-for i in range(5):
-        print(i)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
