@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def is_even(n):
+        return n % 2 == 0
