@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
