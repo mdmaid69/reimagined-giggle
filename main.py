@@ -1,5 +1,10 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def convert_to_hex(n):
-        return hex(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
