@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def count_elements(lst):
-        return len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
