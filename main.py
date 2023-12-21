@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_pressure(force, area):
+        return force / area
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
