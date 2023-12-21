@@ -1,6 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
