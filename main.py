@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
