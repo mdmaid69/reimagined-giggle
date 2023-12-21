@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import platform
-def get_os_info():
-        return platform.uname()
+  def cube_number(x):
+        return x**3
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
