@@ -1,5 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
