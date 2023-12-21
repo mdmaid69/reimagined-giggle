@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import re
+print(re.match("h.*o", "hello world"))
