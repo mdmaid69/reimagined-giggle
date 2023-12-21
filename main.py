@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-print(math.pi)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
