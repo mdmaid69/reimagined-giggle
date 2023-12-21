@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
