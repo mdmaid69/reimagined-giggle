@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_string_from_array(array):
+        return array.tobytes()
