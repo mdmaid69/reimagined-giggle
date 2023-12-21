@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+print(math.pi)
+def divide_numbers(x, y):
+        return x / y
