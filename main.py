@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
