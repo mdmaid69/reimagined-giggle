@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
