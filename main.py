@@ -1,6 +1,8 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
