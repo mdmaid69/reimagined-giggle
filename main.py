@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_average(lst):
+        return sum(lst) / len(lst)
