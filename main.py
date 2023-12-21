@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_os_info():
-        return platform.uname()
+def count_elements(lst):
+        return len(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
