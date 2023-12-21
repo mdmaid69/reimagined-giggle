@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
