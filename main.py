@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
