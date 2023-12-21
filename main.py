@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def clear_array(array):
+        array *= 0
