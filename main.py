@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def add_numbers(a, b):
-        return a + b
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
