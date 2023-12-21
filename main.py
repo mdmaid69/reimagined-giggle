@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+print(random.randint(0, 100))
+import sys
+def print_python_version():
+        print(sys.version)
