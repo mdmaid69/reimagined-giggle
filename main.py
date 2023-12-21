@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def print_python_version():
-        print(sys.version)
+def find_max(lst):
+        return max(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
