@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import datetime
+def get_today_date():
+        return datetime.date.today()
