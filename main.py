@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import os
+print(os.getcwd())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
