@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def find_min(numbers):
+        return min(numbers)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
