@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
