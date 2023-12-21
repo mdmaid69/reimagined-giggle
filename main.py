@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import sys
+def print_python_version():
+        print(sys.version)
