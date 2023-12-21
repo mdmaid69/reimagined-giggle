@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
