@@ -1,5 +1,3 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+print([x**2 for x in range(10)])
+def calculate_density(mass, volume):
+        return mass / volume
