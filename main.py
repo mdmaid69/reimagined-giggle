@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_power(work, time):
+        return work / time
