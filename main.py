@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_power(work, time):
+        return work / time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
