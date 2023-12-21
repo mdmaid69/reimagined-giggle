@@ -1,6 +1,8 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
