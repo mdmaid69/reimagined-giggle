@@ -1,5 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
