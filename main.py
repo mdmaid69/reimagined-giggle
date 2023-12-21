@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def get_current_time():
+        return time.ctime()
