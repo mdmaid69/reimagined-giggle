@@ -1,6 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def square_number(x):
+        return x**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
