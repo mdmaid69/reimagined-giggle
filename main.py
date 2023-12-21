@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+  def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
