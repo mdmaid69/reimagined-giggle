@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import time
-print(time.time())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
