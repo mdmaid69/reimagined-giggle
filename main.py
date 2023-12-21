@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_work(force, distance):
-        return force * distance
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
