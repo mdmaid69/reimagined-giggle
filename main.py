@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_bool(array):
+        return bool(array)
