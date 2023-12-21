@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
