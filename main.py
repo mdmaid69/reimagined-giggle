@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def split_path(path):
+        return os.path.split(path)
