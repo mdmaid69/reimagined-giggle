@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_list(array):
+        return array.tolist()
