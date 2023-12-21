@@ -1,6 +1,6 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
