@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
