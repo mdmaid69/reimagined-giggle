@@ -1,4 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-for i in range(5):
-        print(i)
+def find_min(lst):
+        return min(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
