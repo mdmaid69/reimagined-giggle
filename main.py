@@ -1,4 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-for i in range(10): print(i)
+def get_string_from_array(array):
+        return array.tobytes()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
