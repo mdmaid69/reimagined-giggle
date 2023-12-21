@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_current_directory():
+        return os.getcwd()
