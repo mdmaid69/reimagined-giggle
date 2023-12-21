@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import re
+print(re.match("h.*o", "hello world"))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
