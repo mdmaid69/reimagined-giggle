@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
