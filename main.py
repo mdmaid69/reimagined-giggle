@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
