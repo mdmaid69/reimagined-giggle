@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
