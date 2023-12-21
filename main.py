@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
