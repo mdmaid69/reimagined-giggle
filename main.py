@@ -1,7 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
