@@ -1,5 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
