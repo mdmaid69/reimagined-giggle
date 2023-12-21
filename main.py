@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
