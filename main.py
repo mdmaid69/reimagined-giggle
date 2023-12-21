@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
