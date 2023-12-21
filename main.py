@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+for i in range(5):
+        print(i)
