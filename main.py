@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
