@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
