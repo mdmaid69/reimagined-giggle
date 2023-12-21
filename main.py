@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import collections
+def create_queue():
+        return collections.deque()
