@@ -1,5 +1,5 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def cube_number(x):
-        return x**3
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pressure(force, area):
+        return force / area
