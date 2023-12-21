@@ -1,8 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def reverse_list(lst):
+        return lst[::-1]
