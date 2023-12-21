@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
