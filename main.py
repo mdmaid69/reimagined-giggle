@@ -1,6 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
