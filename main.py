@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def cube_number(x):
+        return x**3
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_item_count(array, item):
+        return array.count(item)
