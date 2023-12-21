@@ -1,9 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def subtract_numbers(x, y):
+        return x - y
