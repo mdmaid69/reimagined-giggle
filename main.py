@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
