@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
