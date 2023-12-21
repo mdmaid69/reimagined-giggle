@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
