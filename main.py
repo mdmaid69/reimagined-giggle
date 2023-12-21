@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import sys
-print(sys.version)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
