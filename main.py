@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
