@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def count_elements(lst):
+        return len(lst)
+  def count_elements(lst):
+        return len(lst)
