@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def find_min(lst):
-        return min(lst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
