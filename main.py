@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import tensorflow as tf
+print(tf.__version__)
