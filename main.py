@@ -1,6 +1,9 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import collections
+def create_counter():
+        return collections.Counter()
