@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_pressure(force, area):
+        return force / area
