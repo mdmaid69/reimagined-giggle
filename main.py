@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
