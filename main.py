@@ -1,4 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_power(work, time):
+        return work / time
