@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
