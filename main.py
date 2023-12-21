@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
