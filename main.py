@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
