@@ -1,7 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
