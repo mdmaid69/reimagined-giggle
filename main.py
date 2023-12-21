@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_force(mass, acceleration):
+        return mass * acceleration
