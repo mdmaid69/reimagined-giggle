@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_as_int(array):
+        return int(array[0])
