@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_time_since_epoch():
+        return time.time()
