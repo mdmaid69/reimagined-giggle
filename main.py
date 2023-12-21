@@ -1,12 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
