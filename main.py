@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
