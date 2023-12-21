@@ -1,7 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def get_array_as_str(array):
-        return str(array)
+from collections import Counter
+print(Counter("hello world"))
+def is_palindrome(s):
+        return s == s[::-1]
