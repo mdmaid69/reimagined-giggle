@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
