@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
