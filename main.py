@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def count_characters(sentence):
-        return len(sentence)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
