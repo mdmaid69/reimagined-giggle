@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
