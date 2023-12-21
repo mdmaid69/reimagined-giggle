@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_length(array):
+        return len(array)
