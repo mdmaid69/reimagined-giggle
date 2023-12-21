@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def cube_number(x):
-        return x**3
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
