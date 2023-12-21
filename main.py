@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def cube_number(x):
+        return x**3
+def count_elements(lst):
+        return len(lst)
