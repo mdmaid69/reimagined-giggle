@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
