@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
