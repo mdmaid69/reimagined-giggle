@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
