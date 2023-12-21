@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
