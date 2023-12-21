@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
