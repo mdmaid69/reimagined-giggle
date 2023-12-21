@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def find_min(numbers):
+        return min(numbers)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
