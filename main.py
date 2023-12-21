@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_sign(x):
+        return math.copysign(1, x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
