@@ -1,6 +1,12 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
