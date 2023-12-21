@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def reverse_string(s):
+        return s[::-1]
+import datetime
+print(datetime.datetime.now())
