@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
