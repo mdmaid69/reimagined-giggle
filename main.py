@@ -1,7 +1,8 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
