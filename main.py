@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def generate_random_choice(choices):
+        return random.choice(choices)
