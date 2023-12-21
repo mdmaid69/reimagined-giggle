@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
