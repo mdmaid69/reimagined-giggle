@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def calculate_pressure(force, area):
+        return force / area
