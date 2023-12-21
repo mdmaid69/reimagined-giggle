@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
