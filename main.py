@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
