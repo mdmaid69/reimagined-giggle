@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import time
+def get_time_since_epoch():
+        return time.time()
