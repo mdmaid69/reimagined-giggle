@@ -1,6 +1,5 @@
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
