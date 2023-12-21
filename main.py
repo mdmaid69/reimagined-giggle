@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import collections
+def create_user_string():
+        return collections.UserString()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
