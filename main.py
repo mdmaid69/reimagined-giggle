@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
