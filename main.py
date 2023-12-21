@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_tuple(array):
+        return tuple(array)
