@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def is_palindrome(s):
-        return s == s[::-1]
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
