@@ -1,8 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_bytes(array):
+        return array.tobytes()
