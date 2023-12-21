@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def add_numbers(x, y):
+        return x + y
