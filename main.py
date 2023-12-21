@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
