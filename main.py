@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import os
-print(os.getcwd())
+import random
+print(random.randint(0, 100))
+  def is_even(n):
+        return n % 2 == 0
