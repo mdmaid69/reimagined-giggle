@@ -1,8 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
