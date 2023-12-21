@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-name = "Python"
-print("Hello,", name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_array_to_string(array):
+        return array.tostring()
