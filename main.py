@@ -1,6 +1,6 @@
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def get_array_as_float(array):
+        return float(array[0])
