@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def square_number(x):
+        return x**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
