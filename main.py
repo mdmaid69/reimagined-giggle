@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-from collections import Counter
-print(Counter("hello world"))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def convert_to_binary(n):
+        return bin(n)
