@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def square_number(x):
+        return x**2
