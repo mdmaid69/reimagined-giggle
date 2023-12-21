@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
