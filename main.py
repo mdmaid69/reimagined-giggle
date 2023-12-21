@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import platform
+def get_os_info():
+        return platform.uname()
