@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import collections
+def create_stack():
+        return collections.deque()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
