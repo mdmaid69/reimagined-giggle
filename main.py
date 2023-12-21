@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
