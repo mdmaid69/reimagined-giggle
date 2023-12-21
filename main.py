@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import json
+print(json.dumps({"name": "John", "age": 30}))
