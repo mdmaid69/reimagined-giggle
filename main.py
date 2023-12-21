@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
