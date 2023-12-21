@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
