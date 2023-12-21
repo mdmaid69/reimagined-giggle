@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
