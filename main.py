@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def clear_array(array):
+        array *= 0
