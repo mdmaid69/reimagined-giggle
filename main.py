@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def add_numbers(x, y):
+        return x + y
