@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+print(os.getcwd())
+def sort_list(lst):
+        return sorted(lst)
