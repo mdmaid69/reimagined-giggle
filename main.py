@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
