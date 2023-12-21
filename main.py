@@ -1,5 +1,10 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
 import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
