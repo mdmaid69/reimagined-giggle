@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def square_number(x):
-        return x**2
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def cube_number(x):
+        return x**3
