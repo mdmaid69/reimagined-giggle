@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def square_number(x):
+        return x**2
