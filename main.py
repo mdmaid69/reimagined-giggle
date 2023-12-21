@@ -1,7 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
