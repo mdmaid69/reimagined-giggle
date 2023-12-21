@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def sort_list(lst):
+        return sorted(lst)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
