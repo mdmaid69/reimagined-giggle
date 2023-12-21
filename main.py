@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
