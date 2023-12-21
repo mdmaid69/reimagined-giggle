@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
