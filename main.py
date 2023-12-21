@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
