@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def find_max(numbers):
+        return max(numbers)
