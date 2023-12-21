@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
