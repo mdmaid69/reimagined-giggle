@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def add_numbers(x, y):
-        return x + y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
