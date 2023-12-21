@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
