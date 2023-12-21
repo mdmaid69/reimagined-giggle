@@ -1,7 +1,7 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def get_array_as_list(array):
-        return list(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
