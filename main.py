@@ -1,7 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
