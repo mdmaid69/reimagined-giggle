@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+x = 10
+y = 20
+print("Sum:", x + y)
