@@ -1,5 +1,11 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def subtract_numbers(x, y):
-        return x - y
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
