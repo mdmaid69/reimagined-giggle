@@ -1,6 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def get_array_item(array, i):
+        return array[i]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
