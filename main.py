@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import time
-def get_time_since_epoch():
-        return time.time()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
