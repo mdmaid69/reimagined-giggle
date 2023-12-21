@@ -1,4 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-print("Hello, world!")
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
