@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+x = 10
+y = 20
+print("Sum:", x + y)
