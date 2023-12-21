@@ -1,8 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
