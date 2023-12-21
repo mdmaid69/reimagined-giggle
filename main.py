@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
