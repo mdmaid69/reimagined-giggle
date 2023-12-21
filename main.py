@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print([x**2 for x in range(10)])
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def reverse_array(array):
+        array.reverse()
