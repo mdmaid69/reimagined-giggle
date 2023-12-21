@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import datetime
+print(datetime.datetime.now())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
