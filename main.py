@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
