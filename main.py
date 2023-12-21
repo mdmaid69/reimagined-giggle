@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_file(file_name):
+        os.remove(file_name)
+import re
+print(re.match("h.*o", "hello world"))
