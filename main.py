@@ -1,9 +1,3 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+for i in range(10): print(i)
