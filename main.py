@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
