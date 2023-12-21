@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-print(math.pi)
+import collections
+def create_queue():
+        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
