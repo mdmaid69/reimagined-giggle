@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import tensorflow as tf
-print(tf.__version__)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def add_numbers(a, b):
+        return a + b
