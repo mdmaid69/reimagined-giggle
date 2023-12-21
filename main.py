@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def is_odd(n):
-        return n % 2 != 0
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
