@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def is_even(n):
-        return n % 2 == 0
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
