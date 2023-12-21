@@ -1,5 +1,3 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_volume(length, width, height):
-        return length * width * height
+print([x**2 for x in range(10)])
+  def convert_to_octal(n):
+        return oct(n)
