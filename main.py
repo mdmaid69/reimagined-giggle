@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_stack():
+        return collections.deque()
+import sys
+print(sys.version)
