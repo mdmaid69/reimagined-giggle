@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
