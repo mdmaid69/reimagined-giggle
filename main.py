@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
