@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
