@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
