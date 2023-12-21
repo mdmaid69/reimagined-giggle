@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_density(mass, volume):
+        return mass / volume
+  def reverse_list(lst):
+        return lst[::-1]
