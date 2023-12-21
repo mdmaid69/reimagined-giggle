@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
