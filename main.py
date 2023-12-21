@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_volume(length, width, height):
+        return length * width * height
