@@ -1,7 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
