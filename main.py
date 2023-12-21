@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import sys
+def print_python_version():
+        return sys.version
