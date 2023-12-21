@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def is_palindrome(s):
+        return s == s[::-1]
+import numpy as np
+print(np.array([1, 2, 3]))
