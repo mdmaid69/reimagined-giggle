@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
