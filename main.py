@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
