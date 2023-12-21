@@ -1,8 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
