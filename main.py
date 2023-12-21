@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import datetime
-print(datetime.datetime.now())
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
