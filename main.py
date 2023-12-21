@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
