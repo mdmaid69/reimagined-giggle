@@ -1,10 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
