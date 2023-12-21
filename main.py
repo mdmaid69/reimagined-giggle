@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
