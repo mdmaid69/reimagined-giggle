@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
