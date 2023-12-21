@@ -1,3 +1,6 @@
-print(sum(range(10)))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
