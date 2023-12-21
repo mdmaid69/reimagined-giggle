@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
