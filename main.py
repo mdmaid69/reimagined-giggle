@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-for i in range(5):
-        print(i)
+import numpy as np
+print(np.array([1, 2, 3]))
+x = 10
+y = 20
+print("Sum:", x + y)
