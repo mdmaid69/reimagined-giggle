@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def convert_to_binary(n):
+        return bin(n)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
