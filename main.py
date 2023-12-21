@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def find_max(lst):
-        return max(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
