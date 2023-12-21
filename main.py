@@ -1,6 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def is_even(n):
+        return n % 2 == 0
