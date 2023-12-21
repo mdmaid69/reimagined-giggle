@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
