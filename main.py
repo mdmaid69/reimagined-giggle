@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
