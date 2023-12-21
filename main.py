@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def convert_to_binary(n):
+        return bin(n)
