@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
