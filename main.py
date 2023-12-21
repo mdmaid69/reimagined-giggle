@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import time
-def get_time_since_epoch():
-        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
