@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import sys
-def exit_program():
-        sys.exit()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
