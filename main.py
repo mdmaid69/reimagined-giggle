@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
