@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def reverse_array(array):
+        array.reverse()
