@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
