@@ -1,5 +1,8 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_current_working_directory():
+        return os.getcwd()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
