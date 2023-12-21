@@ -1,9 +1,8 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
