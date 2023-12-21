@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
