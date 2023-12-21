@@ -1,4 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-print(sum(range(10)))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Reversed:", text[::-1])
