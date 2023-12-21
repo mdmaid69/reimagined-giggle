@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
