@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
