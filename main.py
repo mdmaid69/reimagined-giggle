@@ -1,4 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
