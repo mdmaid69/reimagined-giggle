@@ -1,4 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-for i in range(10): print(i)
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
