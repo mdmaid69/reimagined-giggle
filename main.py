@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def create_user_list():
+        return collections.UserList()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
