@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import random
+print(random.randint(0, 100))
