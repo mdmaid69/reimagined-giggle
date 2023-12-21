@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_speed(distance, time):
+        return distance / time
