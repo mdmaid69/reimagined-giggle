@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
