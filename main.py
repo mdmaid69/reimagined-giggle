@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
