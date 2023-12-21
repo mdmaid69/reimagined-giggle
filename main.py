@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_user_string():
+        return collections.UserString()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
