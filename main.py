@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
