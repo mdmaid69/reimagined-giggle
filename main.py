@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
