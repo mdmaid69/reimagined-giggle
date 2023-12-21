@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def count_words(sentence):
+        return len(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
