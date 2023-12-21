@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
