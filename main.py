@@ -1,7 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import time
+def get_time_since_epoch():
+        return time.time()
+import collections
+def create_user_list():
+        return collections.UserList()
