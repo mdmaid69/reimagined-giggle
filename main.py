@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
