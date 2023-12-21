@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
