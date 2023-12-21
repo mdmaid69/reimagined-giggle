@@ -1,6 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
