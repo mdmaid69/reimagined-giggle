@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
