@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
