@@ -1,6 +1,5 @@
-import time
-print(time.time())
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def sort_list(lst):
+        return sorted(lst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
