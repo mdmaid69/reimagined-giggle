@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
