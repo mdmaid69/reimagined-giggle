@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
