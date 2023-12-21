@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
