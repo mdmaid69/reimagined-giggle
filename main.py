@@ -1,7 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
