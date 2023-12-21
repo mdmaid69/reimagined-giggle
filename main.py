@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import os
+def remove_directory(path):
+        os.rmdir(path)
