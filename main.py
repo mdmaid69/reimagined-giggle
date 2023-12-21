@@ -1,6 +1,8 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def clear_array(array):
-        array *= 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
