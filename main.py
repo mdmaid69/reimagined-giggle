@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
