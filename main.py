@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
