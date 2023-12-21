@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
