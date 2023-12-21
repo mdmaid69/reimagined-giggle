@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
