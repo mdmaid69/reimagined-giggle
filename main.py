@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import datetime
-print(datetime.datetime.now())
+  def add_numbers(x, y):
+        return x + y
+import collections
+def create_counter():
+        return collections.Counter()
