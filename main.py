@@ -1,6 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_error_function(x):
+        return math.erf(x)
