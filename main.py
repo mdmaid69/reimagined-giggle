@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def square_number(x):
-        return x**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
