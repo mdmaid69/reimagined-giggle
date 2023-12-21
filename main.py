@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
