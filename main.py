@@ -1,6 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import random
+def roll_die():
+        return random.randint(1, 6)
