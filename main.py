@@ -1,7 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_volume(length, width, height):
+        return length * width * height
+  def reverse_list(lst):
+        return lst[::-1]
