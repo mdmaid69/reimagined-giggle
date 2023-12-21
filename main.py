@@ -1,4 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-print(sum(range(10)))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
