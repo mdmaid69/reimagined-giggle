@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
