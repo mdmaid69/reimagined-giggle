@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
