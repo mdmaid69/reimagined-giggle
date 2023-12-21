@@ -1,5 +1,9 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def count_elements(lst):
-        return len(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
