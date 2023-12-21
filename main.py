@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import datetime
+print(datetime.datetime.now())
+def calculate_area_circle(r):
+        return 3.14 * r**2
