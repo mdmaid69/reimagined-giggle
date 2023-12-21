@@ -1,8 +1,12 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
