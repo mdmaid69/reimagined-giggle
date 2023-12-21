@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_exponential(x):
+        return math.exp(x)
+  def is_odd(n):
+        return n % 2 != 0
