@@ -1,7 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
