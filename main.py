@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def clear_array(array):
-        array *= 0
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
