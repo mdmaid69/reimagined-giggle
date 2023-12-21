@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_volume(length, width, height):
+        return length * width * height
