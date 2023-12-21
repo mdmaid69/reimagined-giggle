@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def subtract_numbers(x, y):
+        return x - y
