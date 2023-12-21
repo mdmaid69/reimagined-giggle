@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
