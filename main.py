@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
