@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
