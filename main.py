@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def reverse_array(array):
-        array.reverse()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
