@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_user_list():
-        return collections.UserList()
+def convert_to_binary(n):
+        return bin(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
