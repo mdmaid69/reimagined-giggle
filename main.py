@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
