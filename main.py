@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
