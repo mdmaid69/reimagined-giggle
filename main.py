@@ -1,6 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_set(array):
+        return set(array)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
