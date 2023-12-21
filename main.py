@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import os
+print(os.getcwd())
