@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
