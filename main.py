@@ -1,7 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
