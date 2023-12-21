@@ -1,5 +1,7 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
