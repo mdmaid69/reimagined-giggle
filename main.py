@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
