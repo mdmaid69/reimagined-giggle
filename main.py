@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
