@@ -1,5 +1,8 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
