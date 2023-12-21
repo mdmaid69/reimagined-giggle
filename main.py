@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
