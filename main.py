@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
