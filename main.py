@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
