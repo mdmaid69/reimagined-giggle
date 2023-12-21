@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
