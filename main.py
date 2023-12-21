@@ -1,6 +1,4 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+print([x**2 for x in range(10)])
