@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_pressure(force, area):
+        return force / area
