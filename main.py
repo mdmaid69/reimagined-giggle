@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
