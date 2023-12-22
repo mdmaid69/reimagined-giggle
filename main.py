@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_acceleration(speed, time):
-        return speed / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
