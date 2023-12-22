@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
