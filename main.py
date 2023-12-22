@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
