@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
