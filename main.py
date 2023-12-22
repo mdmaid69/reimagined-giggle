@@ -1,6 +1,4 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
