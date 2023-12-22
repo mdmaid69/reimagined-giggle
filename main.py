@@ -1,4 +1,12 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
