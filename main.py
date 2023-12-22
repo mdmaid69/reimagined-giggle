@@ -1,5 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
