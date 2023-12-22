@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
