@@ -1,7 +1,9 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
