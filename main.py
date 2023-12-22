@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def sort_list(lst):
-        return sorted(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
