@@ -1,9 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def sort_list(lst):
+        return sorted(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
