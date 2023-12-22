@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
