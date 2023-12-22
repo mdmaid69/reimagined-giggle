@@ -1,6 +1,8 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
