@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_power(work, time):
-        return work / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def add_numbers(a, b):
+        return a + b
