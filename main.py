@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def square_number(x):
-        return x**2
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
