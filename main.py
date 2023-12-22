@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
