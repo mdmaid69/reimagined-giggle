@@ -1,7 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
