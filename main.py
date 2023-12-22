@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def sort_list(lst):
+        return sorted(lst)
