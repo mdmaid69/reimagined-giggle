@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_acceleration(speed, time):
+        return speed / time
