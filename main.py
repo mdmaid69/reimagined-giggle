@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
