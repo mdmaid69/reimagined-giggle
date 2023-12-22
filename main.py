@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_binary(n):
+        return bin(n)
