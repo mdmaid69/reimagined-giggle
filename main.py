@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def find_unique_words(sentence):
+        return set(sentence.split())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
