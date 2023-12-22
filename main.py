@@ -1,7 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def pop_from_array(array, i=-1):
+        return array.pop(i)
