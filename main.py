@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
