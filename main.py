@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-x = 10
-y = 20
-print("Sum:", x + y)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
