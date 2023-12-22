@@ -1,7 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+print(math.pi)
