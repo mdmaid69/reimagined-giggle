@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
