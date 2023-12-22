@@ -1,6 +1,7 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
