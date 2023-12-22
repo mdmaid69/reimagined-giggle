@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
