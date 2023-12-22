@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
