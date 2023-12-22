@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
