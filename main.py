@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
