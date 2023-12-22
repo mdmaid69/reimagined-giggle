@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
