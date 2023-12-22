@@ -1,5 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
