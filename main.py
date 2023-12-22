@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
