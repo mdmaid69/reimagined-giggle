@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
