@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def convert_to_binary(n):
+        return bin(n)
