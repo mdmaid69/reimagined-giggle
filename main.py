@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
