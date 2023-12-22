@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
