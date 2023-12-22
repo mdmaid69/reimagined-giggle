@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_list_from_array(array):
+        return array.tolist()
