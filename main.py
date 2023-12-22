@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
