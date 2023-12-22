@@ -1,6 +1,3 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+print("Hello, world!")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
