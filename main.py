@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
