@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def cube_number(x):
+        return x**3
