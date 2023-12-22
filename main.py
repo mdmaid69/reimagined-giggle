@@ -1,4 +1,9 @@
-def is_palindrome(s):
-        return s == s[::-1]
-from collections import Counter
-print(Counter("hello world"))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
