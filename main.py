@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import array
 def get_array_as_complex(array):
         return complex(array[0])
