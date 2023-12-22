@@ -1,5 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_work(force, distance):
+        return force * distance
