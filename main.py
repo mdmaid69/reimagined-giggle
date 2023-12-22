@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+print(random.randint(0, 100))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
