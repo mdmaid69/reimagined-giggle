@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def count_words(sentence):
-        return len(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_area_rectangle(l, w):
+        return l * w
