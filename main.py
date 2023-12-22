@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
