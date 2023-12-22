@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
