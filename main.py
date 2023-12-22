@@ -1,6 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import sys
+def print_python_version():
+        print(sys.version)
