@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_typecode(array):
+        return array.typecode
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
