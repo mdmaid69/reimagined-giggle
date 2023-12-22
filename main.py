@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
