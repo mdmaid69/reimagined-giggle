@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
