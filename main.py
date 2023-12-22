@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
