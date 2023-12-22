@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
