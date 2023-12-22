@@ -1,8 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
