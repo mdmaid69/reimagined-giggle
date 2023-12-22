@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
