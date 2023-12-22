@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import sys
+  def get_python_version():
+        return sys.version
+def is_odd(n):
+        return n % 2 != 0
