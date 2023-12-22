@@ -1,4 +1,10 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def convert_to_hex(n):
-        return hex(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
