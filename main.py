@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
