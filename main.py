@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import sys
-def exit_program():
-        sys.exit()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
