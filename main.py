@@ -1,6 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import time
-def get_current_time():
-        return time.time()
+def convert_array_to_string(array):
+        return array.tostring()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
