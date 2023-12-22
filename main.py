@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
