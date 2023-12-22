@@ -1,6 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_as_list(array):
+        return list(array)
