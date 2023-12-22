@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_work(force, distance):
+        return force * distance
