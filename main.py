@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def cube_number(x):
+        return x**3
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_ordered_dict():
+        return collections.OrderedDict()
