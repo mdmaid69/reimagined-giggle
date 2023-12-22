@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
