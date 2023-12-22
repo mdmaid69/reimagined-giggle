@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
