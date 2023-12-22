@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
