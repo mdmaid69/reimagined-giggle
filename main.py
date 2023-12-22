@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import sys
+def exit_program():
+        sys.exit()
