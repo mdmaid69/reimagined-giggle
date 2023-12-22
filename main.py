@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+for i in range(10): print(i)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
