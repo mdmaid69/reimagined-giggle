@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
