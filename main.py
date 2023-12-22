@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def multiply_numbers(x, y):
+        return x * y
