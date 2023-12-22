@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+text = "Hello, world!"
+print("Characters:", len(text))
