@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import sys
-print(sys.version)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
