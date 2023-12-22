@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_list(array):
-        return list(array)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
