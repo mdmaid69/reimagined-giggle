@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
