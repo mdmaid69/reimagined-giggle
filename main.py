@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
