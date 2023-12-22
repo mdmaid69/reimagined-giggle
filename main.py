@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
