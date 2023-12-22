@@ -1,6 +1,11 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
