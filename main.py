@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_array_to_string(array):
+        return array.tostring()
