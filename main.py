@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_pressure(force, area):
+        return force / area
