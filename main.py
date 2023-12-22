@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
