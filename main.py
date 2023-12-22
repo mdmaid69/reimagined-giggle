@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def add_numbers(a, b):
+        return a + b
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
