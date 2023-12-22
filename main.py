@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+name = "Python"
+print("Hello,", name)
+import sys
+def print_python_version():
+        return sys.version
