@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
