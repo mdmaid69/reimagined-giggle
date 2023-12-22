@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def convert_to_octal(n):
+        return oct(n)
