@@ -1,5 +1,3 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+for i in range(10): print(i)
+def calculate_speed(distance, time):
+        return distance / time
