@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
