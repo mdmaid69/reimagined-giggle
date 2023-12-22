@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
