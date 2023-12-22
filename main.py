@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
