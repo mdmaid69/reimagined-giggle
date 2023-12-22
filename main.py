@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
