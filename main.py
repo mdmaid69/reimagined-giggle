@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import logging
-def log_message(message):
-        logging.info(message)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
