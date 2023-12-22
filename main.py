@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
