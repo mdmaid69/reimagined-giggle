@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_length(array):
+        return len(array)
+def is_odd(n):
+        return n % 2 != 0
