@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def sort_numbers(numbers):
+        return sorted(numbers)
