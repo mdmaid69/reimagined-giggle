@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-from collections import Counter
-print(Counter("hello world"))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def divide_numbers(x, y):
+        return x / y
