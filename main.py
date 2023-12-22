@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_array_as_list(array):
-        return list(array)
+def count_words(sentence):
+        return len(sentence.split())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
