@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def greet(name):
+        print(f"Hello, {name}!")
