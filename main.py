@@ -1,5 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-for i in range(5):
-        print(i)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
