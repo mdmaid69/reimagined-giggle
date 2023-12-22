@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import datetime
+def get_current_date():
+        return datetime.date.today()
