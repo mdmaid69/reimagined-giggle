@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+from collections import Counter
+print(Counter("hello world"))
