@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import logging
+def log_message(message):
+        logging.info(message)
