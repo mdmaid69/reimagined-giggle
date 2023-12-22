@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
