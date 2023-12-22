@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
