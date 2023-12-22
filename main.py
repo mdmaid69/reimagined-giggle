@@ -1,6 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
