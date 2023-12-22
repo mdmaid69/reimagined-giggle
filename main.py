@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
