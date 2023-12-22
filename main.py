@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import sys
+def exit_program():
+        sys.exit()
+def find_min(lst):
+        return min(lst)
