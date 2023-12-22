@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def divide_numbers(x, y):
+        return x / y
