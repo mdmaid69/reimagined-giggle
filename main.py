@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def multiply_numbers(x, y):
+        return x * y
+def is_even(n):
+        return n % 2 == 0
