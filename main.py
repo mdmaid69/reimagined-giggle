@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def convert_to_octal(n):
-        return oct(n)
+import time
+def get_current_time():
+        return time.ctime()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
