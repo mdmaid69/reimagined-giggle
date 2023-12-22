@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
