@@ -1,6 +1,7 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
