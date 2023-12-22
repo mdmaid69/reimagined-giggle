@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def convert_to_binary(n):
+        return bin(n)
