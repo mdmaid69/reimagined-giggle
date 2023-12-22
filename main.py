@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
