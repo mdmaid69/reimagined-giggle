@@ -1,6 +1,12 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
