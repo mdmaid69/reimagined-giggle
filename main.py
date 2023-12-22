@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def divide_numbers(x, y):
-        return x / y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
