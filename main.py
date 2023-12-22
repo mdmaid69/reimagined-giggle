@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
