@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
