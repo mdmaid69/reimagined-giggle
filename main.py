@@ -1,4 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-print([x**2 for x in range(10)])
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
