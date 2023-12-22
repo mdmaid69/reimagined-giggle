@@ -1,7 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import time
+print(time.time())
