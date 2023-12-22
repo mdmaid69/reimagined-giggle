@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
