@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
