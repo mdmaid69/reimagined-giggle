@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
