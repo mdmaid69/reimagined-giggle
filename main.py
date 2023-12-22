@@ -1,7 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
