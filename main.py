@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
