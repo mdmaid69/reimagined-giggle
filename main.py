@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
