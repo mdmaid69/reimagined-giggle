@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def find_min(lst):
-        return min(lst)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
