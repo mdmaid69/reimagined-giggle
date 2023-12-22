@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def cube_number(x):
-        return x**3
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
