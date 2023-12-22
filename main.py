@@ -1,8 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
