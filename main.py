@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-print(random.randint(0, 100))
+def multiply_numbers(x, y):
+        return x * y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
