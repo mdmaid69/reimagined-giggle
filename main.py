@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
