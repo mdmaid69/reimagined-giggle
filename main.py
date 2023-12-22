@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_counter():
+        return collections.Counter()
