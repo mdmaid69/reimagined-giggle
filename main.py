@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_array_to_list(array):
+        return array.tolist()
