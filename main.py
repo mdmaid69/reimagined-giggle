@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+x = 10
+y = 20
+print("Sum:", x + y)
