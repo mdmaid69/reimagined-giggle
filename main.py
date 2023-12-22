@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
