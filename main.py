@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
