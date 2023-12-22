@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
