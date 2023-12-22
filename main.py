@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def count_elements(lst):
-        return len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
