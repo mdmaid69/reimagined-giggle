@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
