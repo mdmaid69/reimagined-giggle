@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_item(array, i):
+        return array[i]
