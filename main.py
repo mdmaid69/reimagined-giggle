@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import sys
+def print_python_version():
+        print(sys.version)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
