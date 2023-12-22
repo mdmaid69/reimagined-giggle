@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
   def get_file_flags(file_name):
         return os.stat(file_name).st_flags
