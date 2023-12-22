@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def calculate_area_rectangle(l, w):
+        return l * w
