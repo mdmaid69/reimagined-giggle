@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
