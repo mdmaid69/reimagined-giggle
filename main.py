@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
