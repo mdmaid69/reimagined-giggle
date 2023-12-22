@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def find_min(numbers):
+        return min(numbers)
+def is_odd(n):
+        return n % 2 != 0
