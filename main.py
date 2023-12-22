@@ -1,11 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
