@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
