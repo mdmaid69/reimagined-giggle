@@ -1,5 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
