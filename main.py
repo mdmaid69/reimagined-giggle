@@ -1,6 +1,6 @@
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
