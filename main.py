@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def is_palindrome(s):
+        return s == s[::-1]
