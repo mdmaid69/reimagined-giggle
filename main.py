@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
