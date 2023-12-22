@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def add_numbers(a, b):
-        return a + b
+  import sys
+  def get_python_version():
+        return sys.version
+def find_max(lst):
+        return max(lst)
