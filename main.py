@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import time
+def get_current_time():
+        return time.ctime()
