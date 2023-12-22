@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_acceleration(speed, time):
+        return speed / time
