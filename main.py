@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
