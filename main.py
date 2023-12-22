@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+for i in range(5):
+        print(i)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
