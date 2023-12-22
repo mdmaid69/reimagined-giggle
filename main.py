@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
