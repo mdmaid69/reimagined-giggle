@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
