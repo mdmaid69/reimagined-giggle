@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
