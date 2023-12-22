@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
