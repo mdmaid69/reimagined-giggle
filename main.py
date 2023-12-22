@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
