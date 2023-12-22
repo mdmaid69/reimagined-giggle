@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import random
-def roll_die():
-        return random.randint(1, 6)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
