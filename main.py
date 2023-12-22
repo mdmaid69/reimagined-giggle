@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
