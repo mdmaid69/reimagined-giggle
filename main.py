@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
