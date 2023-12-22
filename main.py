@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
