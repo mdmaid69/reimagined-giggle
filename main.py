@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
