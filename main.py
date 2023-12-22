@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
