@@ -1,5 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def get_list_from_array(array):
-        return array.tolist()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
