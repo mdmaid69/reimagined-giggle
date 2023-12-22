@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
