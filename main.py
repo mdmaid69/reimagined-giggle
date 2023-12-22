@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
