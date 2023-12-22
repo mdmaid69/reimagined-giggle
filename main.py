@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
