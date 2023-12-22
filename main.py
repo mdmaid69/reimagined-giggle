@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def convert_to_hex(n):
+        return hex(n)
