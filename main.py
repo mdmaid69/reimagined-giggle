@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
