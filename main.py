@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
