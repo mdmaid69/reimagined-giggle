@@ -1,6 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
