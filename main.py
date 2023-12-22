@@ -1,4 +1,7 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
