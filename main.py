@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def reverse_list(lst):
-        return lst[::-1]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
