@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
