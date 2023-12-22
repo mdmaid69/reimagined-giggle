@@ -1,8 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def count_words(sentence):
+        return len(sentence.split())
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_list(array):
+        return list(array)
