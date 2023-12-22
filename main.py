@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
