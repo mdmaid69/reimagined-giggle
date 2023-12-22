@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def print_python_version():
+        return sys.version
