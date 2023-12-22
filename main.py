@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
