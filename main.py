@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
