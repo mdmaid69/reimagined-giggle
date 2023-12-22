@@ -1,7 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def sort_list(lst):
+        return sorted(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
