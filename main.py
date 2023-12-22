@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def is_even(n):
+        return n % 2 == 0
