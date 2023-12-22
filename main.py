@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
