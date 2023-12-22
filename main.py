@@ -1,8 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
