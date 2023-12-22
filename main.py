@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def square_number(x):
-        return x**2
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
