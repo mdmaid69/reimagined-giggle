@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
