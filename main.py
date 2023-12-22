@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
