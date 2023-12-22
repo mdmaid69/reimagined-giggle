@@ -1,6 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
