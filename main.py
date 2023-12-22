@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_user_list():
+        return collections.UserList()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
