@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
