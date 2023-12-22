@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+for i in range(10): print(i)
