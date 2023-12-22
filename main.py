@@ -1,5 +1,8 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  def convert_to_hex(n):
-        return hex(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
