@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
