@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
