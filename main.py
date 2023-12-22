@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
