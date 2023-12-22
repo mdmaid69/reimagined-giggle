@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
