@@ -1,6 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_union(list1, list2):
+        return set(list1) | set(list2)
