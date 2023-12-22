@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
