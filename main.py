@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
