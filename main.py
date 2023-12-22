@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import os
+def remove_directory(path):
+        os.rmdir(path)
