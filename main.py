@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
