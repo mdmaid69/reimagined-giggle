@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
