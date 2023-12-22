@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
