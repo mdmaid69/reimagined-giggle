@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
