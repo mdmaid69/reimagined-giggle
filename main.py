@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
