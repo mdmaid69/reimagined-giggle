@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
