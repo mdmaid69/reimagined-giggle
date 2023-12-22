@@ -1,7 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
