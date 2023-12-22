@@ -1,5 +1,6 @@
-import time
-print(time.time())
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
