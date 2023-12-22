@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_speed(distance, time):
+        return distance / time
