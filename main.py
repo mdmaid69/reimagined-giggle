@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
