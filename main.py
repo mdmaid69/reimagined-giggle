@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def is_palindrome(s):
+        return s == s[::-1]
