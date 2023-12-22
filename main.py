@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_speed(distance, time):
+        return distance / time
