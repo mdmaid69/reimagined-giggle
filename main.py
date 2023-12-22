@@ -1,6 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
