@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
