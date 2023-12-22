@@ -1,5 +1,3 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def divide_numbers(x, y):
+        return x / y
+print([x**2 for x in range(10)])
