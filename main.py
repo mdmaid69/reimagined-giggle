@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
