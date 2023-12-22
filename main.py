@@ -1,5 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
