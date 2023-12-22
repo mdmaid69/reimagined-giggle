@@ -1,7 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
