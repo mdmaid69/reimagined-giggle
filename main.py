@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def convert_to_binary(n):
+        return bin(n)
