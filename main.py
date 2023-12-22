@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_volume(length, width, height):
-        return length * width * height
+def square_number(x):
+        return x**2
+  def convert_to_binary(n):
+        return bin(n)
