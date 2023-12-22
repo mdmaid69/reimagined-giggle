@@ -1,6 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
