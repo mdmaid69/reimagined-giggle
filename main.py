@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
