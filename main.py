@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def count_words(sentence):
-        return len(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
