@@ -1,6 +1,6 @@
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
