@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
