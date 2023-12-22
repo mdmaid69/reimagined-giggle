@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-def reverse_list(lst):
-        return lst[::-1]
+import os
+print(os.getcwd())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
