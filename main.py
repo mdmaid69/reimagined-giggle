@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
