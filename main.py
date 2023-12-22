@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
