@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import numpy as np
+print(np.array([1, 2, 3]))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
