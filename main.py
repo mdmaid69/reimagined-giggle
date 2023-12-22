@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import sys
-  def get_python_version():
-        return sys.version
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import json
+print(json.dumps({"name": "John", "age": 30}))
