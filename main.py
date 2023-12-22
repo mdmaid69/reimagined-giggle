@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
