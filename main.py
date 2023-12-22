@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
