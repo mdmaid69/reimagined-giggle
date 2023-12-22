@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def get_array_as_list(array):
-        return list(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_queue():
+        return collections.deque()
