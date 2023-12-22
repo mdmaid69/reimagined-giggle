@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
