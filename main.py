@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
