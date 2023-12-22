@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
