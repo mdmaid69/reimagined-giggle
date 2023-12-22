@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def add_numbers(x, y):
-        return x + y
+def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_item(array, i):
+        return array[i]
