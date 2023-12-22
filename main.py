@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def get_array_as_memoryview(array):
+        return memoryview(array)
