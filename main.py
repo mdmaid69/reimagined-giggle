@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def convert_to_hex(n):
-        return hex(n)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
