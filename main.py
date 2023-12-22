@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def find_max(numbers):
+        return max(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
