@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def convert_to_octal(n):
-        return oct(n)
+def square_number(x):
+        return x**2
+def find_unique_words(sentence):
+        return set(sentence.split())
