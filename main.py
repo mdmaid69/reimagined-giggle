@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def sort_list(lst):
+        return sorted(lst)
