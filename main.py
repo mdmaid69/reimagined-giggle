@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def find_min(lst):
+        return min(lst)
