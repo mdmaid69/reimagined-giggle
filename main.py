@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
