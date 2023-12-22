@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
