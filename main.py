@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_list():
-        return collections.UserList()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
