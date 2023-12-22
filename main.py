@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
