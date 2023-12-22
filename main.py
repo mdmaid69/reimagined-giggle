@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def is_even(n):
+        return n % 2 == 0
