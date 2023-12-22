@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  def reverse_list(lst):
+        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
