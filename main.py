@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
