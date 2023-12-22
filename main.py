@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import re
+print(re.match("h.*o", "hello world"))
