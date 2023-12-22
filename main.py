@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def convert_to_binary(n):
+        return bin(n)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
