@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
