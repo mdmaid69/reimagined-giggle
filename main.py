@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
