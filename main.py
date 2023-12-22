@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
