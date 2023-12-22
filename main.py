@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
