@@ -1,8 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
