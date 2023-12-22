@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
