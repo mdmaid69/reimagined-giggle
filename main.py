@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
