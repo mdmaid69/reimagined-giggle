@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import sys
-def exit_program():
-        sys.exit()
+def add_numbers(x, y):
+        return x + y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
