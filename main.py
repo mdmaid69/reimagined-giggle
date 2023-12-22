@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_area_circle(r):
+        return 3.14 * r**2
