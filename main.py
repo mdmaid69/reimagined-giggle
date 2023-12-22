@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
