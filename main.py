@@ -1,5 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def convert_to_hex(n):
-        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
