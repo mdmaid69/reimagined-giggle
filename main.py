@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_set(array):
+        return set(array)
