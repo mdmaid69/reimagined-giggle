@@ -1,13 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
