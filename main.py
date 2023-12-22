@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
