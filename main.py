@@ -1,4 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-for i in range(10): print(i)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
