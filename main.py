@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def square_number(x):
+        return x**2
+import time
+print(time.time())
