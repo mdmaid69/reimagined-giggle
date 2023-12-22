@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
