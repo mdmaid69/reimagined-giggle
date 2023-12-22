@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  def convert_to_hex(n):
-        return hex(n)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_area_rectangle(l, w):
+        return l * w
