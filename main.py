@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
