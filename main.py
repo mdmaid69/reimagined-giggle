@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def convert_to_octal(n):
-        return oct(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
