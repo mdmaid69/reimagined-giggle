@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
