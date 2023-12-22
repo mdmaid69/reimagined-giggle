@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def square_number(x):
-        return x**2
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
