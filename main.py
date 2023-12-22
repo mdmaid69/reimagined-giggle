@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
