@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
