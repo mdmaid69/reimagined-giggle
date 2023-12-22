@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
