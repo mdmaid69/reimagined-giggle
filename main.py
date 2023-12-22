@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
