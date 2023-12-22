@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_acceleration(speed, time):
+        return speed / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
