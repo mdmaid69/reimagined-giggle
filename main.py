@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_area_rectangle(l, w):
+        return l * w
