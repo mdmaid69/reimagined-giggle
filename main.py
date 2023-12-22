@@ -1,5 +1,9 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
