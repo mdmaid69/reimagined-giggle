@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
