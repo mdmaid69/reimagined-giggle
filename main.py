@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_min(numbers):
+        return min(numbers)
