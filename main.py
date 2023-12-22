@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def split_string(pattern, string):
+        return re.split(pattern, string)
