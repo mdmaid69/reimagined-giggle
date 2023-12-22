@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+print(random.randint(0, 100))
