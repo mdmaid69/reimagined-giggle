@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
+  def convert_to_binary(n):
+        return bin(n)
