@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
