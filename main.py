@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
