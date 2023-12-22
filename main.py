@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_ceiling(x):
+        return math.ceil(x)
