@@ -1,6 +1,7 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
