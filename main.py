@@ -1,5 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
