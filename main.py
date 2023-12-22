@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
