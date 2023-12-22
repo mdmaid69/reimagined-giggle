@@ -1,6 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
