@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
