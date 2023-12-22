@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
