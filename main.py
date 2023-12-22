@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
